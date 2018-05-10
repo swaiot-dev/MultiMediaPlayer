@@ -82,5 +82,9 @@
     <string name="menu_settings">Settings</string>
     <string name="title_activity_schedule_pvr">SchedulePvrActivity</string>
     <string name="fav_list_is_full">Favori listesi dolu.</string>
+
+    <string name="video_info_dialog_resolution">çözüm:</string>
+    <string name="video_info_dialog_subtitle">Çözünürlük:</string>
+    <string name="video_info_dialog_format">altyazı</string>
 </resources>
 

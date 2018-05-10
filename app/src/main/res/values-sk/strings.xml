@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="video_info_dialog_format">formát:</string>
-    <string name="video_info_dialog_resolution">rozlíšenie:</string>
-    <string name="video_info_dialog_subtitle">podtitul</string>
-</resources>

@@ -217,5 +217,9 @@
 
 	<string name="mmp_txt_const_font">无</string>
 
+	<string name="video_info_dialog_format">格式:</string>
+	<string name="video_info_dialog_resolution">分辨率:</string>
+	<string name="video_info_dialog_subtitle">字幕</string>
+
   <!-- Network -->
 </resources>

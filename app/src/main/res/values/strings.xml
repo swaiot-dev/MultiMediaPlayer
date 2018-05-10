@@ -106,4 +106,8 @@
     <string name="mmp_video_seektime_warn_inputnothing">Warning : You input nothing!</string>
     <string name="mmp_video_seektime_warn_timetoobigger">Warning : The input time must be less than the duration of the video!</string>
     <string name="mmp_video_not_seekable">Warning : This video isn\'t seekable!</string>
+
+    <string name="video_info_dialog_format">Format:</string>
+    <string name="video_info_dialog_resolution">Resolution:</string>
+    <string name="video_info_dialog_subtitle">Subtitle</string>
 </resources>

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="video_info_dialog_format">Formaat:</string>
-    <string name="video_info_dialog_resolution">Lahutusvõime:</string>
-    <string name="video_info_dialog_subtitle">Subtiitrid</string>
-</resources>
