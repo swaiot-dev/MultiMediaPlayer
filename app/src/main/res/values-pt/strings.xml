@@ -82,7 +82,4 @@
     <string name="menu_settings">Settings</string>
     <string name="title_activity_schedule_pvr">SchedulePvrActivity</string>
     <string name="fav_list_is_full">lista de favoritos está cheio.</string>
-    <string name="video_info_dialog_format">Formato:</string>
-    <string name="video_info_dialog_resolution">Resolução:</string>
-    <string name="video_info_dialog_subtitle">Legendas</string>
 </resources>

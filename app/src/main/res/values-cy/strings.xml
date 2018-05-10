@@ -82,7 +82,4 @@
     <string name="menu_settings">Settings</string>
     <string name="title_activity_schedule_pvr">SchedulePvrActivity</string>
     <string name="fav_list_is_full">Favorite list is full.</string>
-    <string name="video_info_dialog_format">Fformat:</string>
-    <string name="video_info_dialog_resolution">Penderfyniad:</string>
-    <string name="video_info_dialog_subtitle">Isdeitlau</string>
 </resources>

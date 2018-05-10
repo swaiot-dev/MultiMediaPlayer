@@ -838,7 +838,7 @@ public class DLNAManager implements DeviceEventListener, ContentEventListener {
 //        REQUEST_MATCH_NUM < mTotalNum) {
     if (mBrowseHandle != -1 && server != null) {
       server.setActionEventListener(null);
-      server.cancel((int) mBrowseHandle);
+      server.cancel(mBrowseHandle);
       server = null;
       mBrowseHandle = -1;
     }

@@ -300,8 +300,4 @@
 	<string name="no_video">No video</string>
 	<string name="no_photo">No photo</string>
 	<string name="no_music">No music</string>
-
-	<string name="video_info_dialog_format">Format:</string>
-	<string name="video_info_dialog_resolution">resolution:</string>
-	<string name="video_info_dialog_subtitle">Subtitle</string>
 </resources>
