@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<style name="Theme" parent="android:Theme">
+	<style name="Theme_Menu" parent="android:Theme">
 	</style>
 		<style name="Theme.ToastDialog" parent="android:style/Theme.Dialog">
 		<item name="android:windowNoTitle">true</item>

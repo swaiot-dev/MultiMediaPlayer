@@ -10,7 +10,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="100px"
         android:layout_centerVertical="true"
-        android:text="Format:" />
+        android:text="@string/video_info_dialog_format" />
 
     <TextView
         android:id="@+id/video_format_text_view"
@@ -48,7 +48,7 @@
             android:id="@+id/video_resolution_show_text_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="resolution:" />
+            android:text="@string/video_info_dialog_resolution" />
 
         <TextView
             android:id="@+id/video_resolution_text_view"
@@ -57,6 +57,16 @@
             android:text="1920 * 1080" />
 
     </LinearLayout>
+
+    <TextView
+        android:id="@+id/video_subtitle_current_status_tv"
+        android:layout_width="136px"
+        android:layout_height="60px"
+        android:layout_alignStart="@+id/video_subtitle_text_view"
+        android:layout_above="@+id/video_subtitle_text_view"
+        android:layout_marginBottom="10px"
+        android:gravity="center"
+        android:text="@string/menu_video_mjc_demo_off" />
 
     <TextView
         android:id="@+id/video_subtitle_text_view"
@@ -68,7 +78,17 @@
         android:layout_marginRight="80px"
         android:background="@drawable/board_normal_selector"
         android:gravity="center"
-        android:text="@string/menu_setup_subtitle" />
+        android:text="@string/video_info_dialog_subtitle" />
+
+    <TextView
+        android:id="@+id/video_audio_current_status_tv"
+        android:layout_width="136px"
+        android:layout_height="60px"
+        android:layout_alignStart="@+id/video_audio_text_view"
+        android:layout_above="@+id/video_audio_text_view"
+        android:layout_marginBottom="10px"
+        android:gravity="center"
+        android:text="@string/video_info_dialog_subtitle" />
 
     <TextView
         android:id="@+id/video_audio_text_view"

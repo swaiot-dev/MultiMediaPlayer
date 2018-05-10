@@ -276,7 +276,7 @@ public class MusicPlayActivity extends SkyMediaPlayActivity implements GKView.Lo
         }
         case AUDIO_CHANGED: {
 		//Begin==>Modified by yangxiong for solving "the next music lyric keep the last state and force refresh lyric view"
-		clearLrc();
+//		clearLrc();
 		//End==>Modified by yangxiong for solving "the next music lyric keep the last state and force refresh lyric view"
           setMusicInfo();
           break;

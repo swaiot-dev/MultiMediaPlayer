@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="file_category" >
-        <item>@string/mmp_content_type_movie</item>
+        <item>@string/mmp_video</item>
         <item>@string/mmp_photo</item>
-        <item>@string/mmp_content_type_music</item>
+        <item>@string/mmp_audio</item>
     </string-array>
 </resources>

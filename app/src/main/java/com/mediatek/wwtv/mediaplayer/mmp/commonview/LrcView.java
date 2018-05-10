@@ -10,6 +10,7 @@ import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.view.View;
 
 import com.mediatek.wwtv.mediaplayer.mmp.multimedia.MusicPlayActivity;
@@ -53,6 +54,8 @@ public class LrcView extends View {
                 || LogicManager.getInstance(getContext()).lrcHide == true) {
             // canvas.drawText(noLrc, viewWidth / 3, lrcHeight / 2,
             // mWhitePaint);
+            Log.d("y.wan", "***1111****onDraw  no Lrc****" + LogicManager.getInstance(getContext()).lrcHide
+            + "*********" + (lrcarr == null));
             MtkLog.i(TAG, "-------- nolrc -------");
             Bitmap bitmap = BitmapFactory.decodeResource(this.getResources(), R.drawable.mmp_music_nolrc_bg);
             int width = getWidth();
@@ -70,7 +73,7 @@ public class LrcView extends View {
             }
         }
         // show current music word
-
+        Log.d("y.wan", "lrcarr.size():" + lrcarr.size());
         mRedPaint.setColor(0xff6eeeff);
         MtkLog.i(TAG, "lrcarr.size():" + lrcarr.size() + "mCurrentLine:" + mCurrentLine + "lrcWidth.length:" + lrcWidth.length);
         if (mCurrentLine < lrcarr.size() && mCurrentLine >= 0) {
@@ -83,6 +86,7 @@ public class LrcView extends View {
     }
 
     public void noLrc(String lrc) {
+        Log.d("y.wan", "***********no Lrc******");
         lrcarr = null;
         noLrc = lrc;
         viewWidth = this.getWidth();
@@ -117,7 +121,7 @@ public class LrcView extends View {
                 lrcarr = lrc_map.subList(mLrcLine, lrc_map.size());
             }
         }
-
+        Log.d("y.wan", "***22222****init Lrc****" + lrcarr.size());
         mWhitePaint.setTextSize(36);
         mRedPaint.setTextSize(36);
 

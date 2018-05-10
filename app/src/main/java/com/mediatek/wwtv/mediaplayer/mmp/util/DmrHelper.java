@@ -340,7 +340,7 @@ public class DmrHelper {
 
     String info = "";
     if (mDmrObject != null) {
-      info = mDmrObject.getProtocolInfo();
+      //info = mDmrObject.getProtocolInfo();
     } else {
       Log.i(TAG, "mDmrObject == null");
     }

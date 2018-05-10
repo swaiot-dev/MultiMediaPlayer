@@ -2466,14 +2466,25 @@ public class VideoPlayActivity extends SkyMediaPlayActivity {
 //                    //          }
 //                    //          showMeteViewTime();
 //                }
-                if (isValid()) {
+              //changed by y.wan for press subtitle key to show info view start 2018/5/10
+                /*if (isValid()) {
                     if (!mLogicManager.isInPlaybackState()) {
                         featureNotWork(getString(R.string.mmp_featue_notsupport));
                         return true;
                     }
                   hideProgressBarView();
                   showSubtitleView();
+                }*/
+
+              if (isValid()) {
+                if (!mLogicManager.isInPlaybackState()) {
+                  featureNotWork(getString(R.string.mmp_featue_notsupport));
+                  return true;
                 }
+                hideProgressBarView();
+                showOrHideInfoView();
+              }
+              //changed by y.wan for press subtitle key to show info view end 2018/5/10
                 return true;
             }
             case KeyMap.KEYCODE_MTKIR_ZOOM: {
