@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>  
+    <string-array name="menu_pictrue_mode_list">
+		<item>Bruger</item>
+		<item>Biograf</item>
+		<item>Sport</item>
+		<item>Levende</item>
+		<item>Hi-Bright</item>
+    </string-array>
+   <string-array name="menu_track_mode_list">
+        <item>one track</item>
+        <item>two track</item>
+    </string-array> 
+    <!--  <string-array name="menu_channel_mode_list">
+        <item>left</item>
+        <item>right</item>
+        <item>stereo</item>
+         <item>left1</item>
+        <item>right1</item>
+        <item>stereo1</item>
+         <item>left2</item>
+        <item>right3</item>
+    </string-array> -->
+    
+    <string-array name="menu_audio_equalizer_list">
+		<item>Off</item>
+		<item>Rock</item>
+		<item>Pop</item>
+		<item>Live</item>
+		<item>Dans</item>
+		<item>Tekno</item>
+		<item>Klassisk</item>
+		<item>Blødt</item>		
+	</string-array>
+	
+        	<!-- AUDIO -->
+	
+	
+</resources>
+

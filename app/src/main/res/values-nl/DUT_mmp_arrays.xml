@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string-array name="mmp_menu_item_names">
+		<item>Foto</item>
+		<item>MUZIEK</item>
+		<item>Video</item>
+		<item>Tekst</item>
+	</string-array>
+	<array name="mmp_menu_item_resources">
+		<item>@drawable/mmp_mainmenu_icon_photo</item>
+		<item>@drawable/mmp_mainmenu_icon_audio</item>
+		<item>@drawable/mmp_mainmenu_icon_video</item>
+		<item>@drawable/mmp_mainmenu_icon_text</item>
+	</array>
+	<string-array name="mmp_menu_filelist">
+		<item>Sorteren</item>
+		<item>Type media</item>
+		<item>Miniatuurgrootte</item>
+		<item>Kopiëren:</item>
+		<item>Plakken</item>
+		<item>Verwijderen</item>
+		<item>Recursieve ontleder</item>
+		<item>Fotokader</item>
+		<item>3D Photo</item>
+
+	</string-array>
+	<integer-array name="mmp_menu_filelist_enable">
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>0</item>
+		<item>0</item>
+		<item>0</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+	</integer-array>
+	<integer-array name="mmp_menu_filelist_hasnext">
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>0</item>
+		<item>0</item>
+		<item>0</item>
+		<item>0</item>
+		<item>1</item>
+		<item>0</item>
+	</integer-array>
+
+	<!-- child node -->
+	<string-array name="mmp_menu_sortlist_photoortext">
+		<item>Datum</item>
+		<item>Naam</item>
+	</string-array>
+	
+	<string-array name="mmp_menu_sortlist_audio">
+		<item>Datum</item>
+		<item>Genre</item>
+		<item>Artiest</item>
+		<item>Album</item>
+	</string-array>
+	
+	<string-array name="mmp_menu_sortlist_video">
+		<item>Type</item>
+		<item>Datum</item>
+		<item>Naam</item>
+	</string-array>
+
+	<integer-array name="mmp_menu_sortlist_enable">
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+	</integer-array>
+
+	<string-array name="mmp_menu_mediatypelist">
+		<item>Foto</item>
+		<item>MUZIEK</item>
+		<item>Video</item>
+		<item>Tekst</item>
+	</string-array>
+	<integer-array name="mmp_menu_mediatypelist_enable">
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+	</integer-array>
+
+
+	<string-array name="mmp_menu_thumblist">
+		<item>Klein</item>
+		<item>Medium</item>
+		<item>Groot</item>
+	</string-array>
+	<integer-array name="mmp_menu_thumblist_enable">
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+	</integer-array>
+
+
+	<string-array name="mmp_menu_photoframelist">
+		<item>One Photomode</item>
+	</string-array>
+	<integer-array name="mmp_menu_photoframelist_enable">
+		<item>1</item>
+	</integer-array>
+
+	<!-- the menu of photo play -->
+	<string-array name="mmp_menu_photoplaylist">
+		<item>Pauzeren</item>
+		<item>Herhalen</item>
+		<item>Willekeurige volgorde </item>
+		<item>Duur</item>
+		<item>Effect</item>
+		<item>Info weergeven</item>
+		<item>Fotokaderbeeld</item>
+	</string-array>
+	<integer-array name="mmp_menu_photoplaylist_enable">
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+	</integer-array>
+	<integer-array name="mmp_menu_photoplaylist_hasnext">
+		<item>0</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>0</item>
+		<item>0</item>
+	</integer-array>
+	<!-- the menu of 3D photo play -->
+		<string-array name="mmp_menu_3d_photoplaylist">
+		<item>Pauzeren</item>
+		<item>Herhalen</item>
+		<item>Willekeurige volgorde </item>
+		<item>Duur</item>
+		<item>Effect</item>
+		<item>Info weergeven</item>
+		<item>Fotokaderbeeld</item>
+		<item>Picture Setting</item>
+	</string-array>
+	<integer-array name="mmp_menu_3d_photoplaylist_enable">
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>0</item>
+		<item>0</item>
+		<item>1</item>
+		<item>0</item>
+		<item>1</item>
+	</integer-array>
+	<integer-array name="mmp_menu_3d_photoplaylist_hasnext">
+		<item>0</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>0</item>
+		<item>0</item>
+		<item>0</item>
+	</integer-array>
+	<!-- child node -->
+	<string-array name="mmp_menu_repeatlist">
+		<item>Geen</item>
+		<item>Eén herhalen</item>
+		<item>Alles herhalen</item>
+	</string-array>
+	<integer-array name="mmp_menu_repeatlist_enable">
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+	</integer-array>
+
+
+	<string-array name="mmp_menu_shufflelist">
+		<item>Willekeurige volgorde uit</item>
+		<item>Willekeurige volgorde aan</item>
+	</string-array>
+	<integer-array name="mmp_menu_shufflelist_enable">
+		<item>1</item>
+		<item>1</item>
+	</integer-array>
+
+	<string-array name="mmp_menu_durationlist">
+		<item>Kort</item>
+		<item>Medium</item>
+		<item>Lang</item>
+	</string-array>
+	<integer-array name="mmp_menu_durationlist_enable">
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+	</integer-array>
+
+	<string-array name="mmp_menu_zoomlist">
+		<item>1 X</item>
+		<item>2 X</item>
+		<item>4 X</item>
+	</string-array>
+	<integer-array name="mmp_menu_zoomlist_enable">
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+	</integer-array>
+
+	<string-array name="mmp_menu_effectlist">
+		<item>Geen</item>
+		<item>Oplossen</item>
+		<item>Rechts vegen</item>
+		<item>Links vegen</item>
+		<item>Omhoog vegen</item>
+		<item>Omlaag vegen</item>
+		<item>Box in</item>
+		<item>Box out</item>
+		<item>Willekeurig</item>
+	</string-array>
+	<integer-array name="mmp_menu_effectlist_enable">
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+	</integer-array>
+
+	<!-- the menu of music play -->
+	<string-array name="mmp_menu_musicplaylist">
+		<item>Pauzeren</item>
+		<item>Herhalen</item>
+		<item>Willekeurige volgorde aan</item>
+		<item>Info weergeven</item>
+		<item>Hide Score</item>
+		<item>Lyric Options</item>
+		<item>Alleen audio</item>
+	</string-array>
+	<integer-array name="mmp_menu_musicplaylist_enable">
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+	</integer-array>
+	<integer-array name="mmp_menu_musicplaylist_hasnext">
+		<item>0</item>
+		<item>1</item>
+		<item>0</item>
+		<item>0</item>
+		<item>0</item>
+		<item>0</item>
+		<item>0</item>
+	</integer-array>
+	<!-- music file not support -->
+	<string-array name="mmp_menu_musicplaynotsupportlist">
+		<item>Herhalen</item>
+		<item>Willekeurige volgorde aan</item>
+		<item>Alleen audio</item>
+	</string-array>
+	<integer-array name="mmp_menu_musicplaynotsupportlist_enable">
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+	</integer-array>
+	<integer-array name="mmp_menu_musicplaynotsupportlist_hasnext">
+		<item>1</item>
+		<item>0</item>
+		<item>0</item>
+	</integer-array>
+	<!-- lyric -->
+	<string-array name="mmp_menu_lyricplaylist">
+		<item>Display Line</item>
+		<item>Tijdverschuiving  </item>
+		<item>Coderen</item>
+	</string-array>
+	<integer-array name="mmp_menu_lyricplaylist_enable">
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+	</integer-array>
+	<integer-array name="mmp_menu_lyricplaylist_hasnext">
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+	</integer-array>
+
+	<!--the child node of lyric -->
+	<string-array name="mmp_menu_displaylinelist">
+		<item>Off</item>
+		<item>Single Line</item>
+		<item>Multi Line</item>
+	</string-array>
+	<integer-array name="mmp_menu_displaylinelist_enable">
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+	</integer-array>
+	<string-array name="mmp_menu_timeoffsetlist">
+		<item>Off</item>
+		<item>Auto</item>
+		<item>User define</item>
+	</string-array>
+	<integer-array name="mmp_menu_timeoffsetlist_enable">
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+	</integer-array>
+
+	<string-array name="mmp_menu_encodinglist">
+		<item>Auto</item>
+		<item>GB</item>
+		<item>Big5</item>
+		<item>Utf8</item>
+		<item>Utf16</item>
+	</string-array>
+	<integer-array name="mmp_menu_encodinglist_enable">
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+	</integer-array>
+
+	<!-- the menu of Video play -->
+	<string-array name="mmp_menu_videoplaylist">
+		<item>Pauzeren</item>
+		<item>Herhalen</item>
+		<item>Info weergeven</item>
+		<item>Beeldmodus</item>
+		<item>Schermmodus</item>
+		<item>Picture Setting</item>
+	</string-array>
+	<integer-array name="mmp_menu_videoplaylist_enable">
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+	</integer-array>
+	<integer-array name="mmp_menu_videoplaylist_hasnext">
+		<item>0</item>
+		<item>1</item>
+		<item>0</item>
+		<item>1</item>
+		<item>1</item>
+		<item>0</item>
+	</integer-array>
+	
+	<!-- the menu of Video file not support -->	
+	<string-array name="mmp_menu_videonotsupportplaylist">
+		<item>Herhalen</item>
+		<item>Beeldmodus</item>
+		<item>Schermmodus</item>
+		<item>Picture Setting</item>
+	</string-array>
+	<integer-array name="mmp_menu_videonotsupportplaylist_enable">
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+	</integer-array>
+	<integer-array name="mmp_menu_videonotsupportplaylist_hasnext">
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>0</item>
+	</integer-array>
+	
+	<!-- child node  -->
+	<string-array name="mmp_menu_picturemodelist">
+		<item>Gebruiker</item>
+		<item>Film</item>
+		<item>Sport</item>
+		<item>Levendig</item>
+		<item>Hoog-helder</item>
+	</string-array>
+	<integer-array name="mmp_menu_picturemodelist_enable">
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+	</integer-array>
+	<string-array name="mmp_menu_screenmodelist">
+		<item>Auto</item>
+		<item>Normaal</item>
+		<item>Letter box</item>
+		<item>Scannen</item>
+		<item>Zoomen</item>
+		<item>Punt voor punt</item>
+	</string-array>
+	<integer-array name="mmp_menu_screenmodelist_enable">
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+	</integer-array>
+
+	<!-- word play -->
+	<string-array name="mmp_menu_textplaylist">
+		<item>Pauzeren</item>
+		<item>Herhalen</item>
+		<item>Willekeurige volgorde aan</item>
+		<item>Lettertype </item>
+		<item>Info weergeven</item>
+	</string-array>
+	<integer-array name="mmp_menu_textplaylist_enable">
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+	</integer-array>
+	<integer-array name="mmp_menu_textplaylist_hasnext">
+		<item>0</item>
+		<item>1</item>
+		<item>0</item>
+		<item>0</item>
+		<item>0</item>
+	</integer-array>
+
+	<string-array name="mmp_menu_fontlist">
+		<item>Grootte</item>
+		<item>Stijl</item>
+		<item>Color</item>
+	</string-array>
+	<integer-array name="mmp_menu_fontlist_enable">
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+	</integer-array>
+	<integer-array name="mmp_menu_fontlist_hasnext">
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+	</integer-array>
+
+
+	<!-- child node -->
+	<string-array name="mmp_menu_sizelist">
+		<item>Klein</item>
+		<item>Medium</item>
+		<item>Groot</item>
+	</string-array>
+	<integer-array name="mmp_menu_sizelist_enable">
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+	</integer-array>
+
+	<string-array name="mmp_menu_stylelist">
+		<item>Normaal</item>
+		<item>Cursief</item>
+		<item>Vet</item>
+		<item>Vet Cursief</item>
+	</string-array>
+	<integer-array name="mmp_menu_stylelist_enable">
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+	</integer-array>
+
+	<string-array name="mmp_menu_colorlist">
+		<item>Wit</item>
+		<item>Blauw</item>
+		<item>Rood</item>
+		<item>Groen</item>
+		<item>Zwart</item>
+	</string-array>
+	<integer-array name="mmp_menu_colorlist_enable">
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+	</integer-array>
+
+    <array name="entries">
+        <item>@drawable/mmp_mainmenu_icon_photo_big</item>
+        <item>@drawable/mmp_mainmenu_icon_audio_big</item>
+        <item>@drawable/mmp_mainmenu_icon_video_big</item>
+        <item>@drawable/mmp_mainmenu_icon_text_big</item>
+    </array>
+
+    <string-array name="mmp_menu_text">
+        <item>@string/mmp_menu_phototext</item>
+        <item>@string/mmp_menu_music</item>
+        <item>@string/mmp_menu_video</item>
+        <item>@string/mmp_menu_text</item>
+    </string-array>
+
+</resources>
+

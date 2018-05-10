@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string-array name="mmp_menu_item_names">
+		<item>Foto</item>
+		<item>Musica</item>
+		<item>Video</item>
+		<item>Testo</item>
+	</string-array>
+	<array name="mmp_menu_item_resources">
+		<item>@drawable/mmp_mainmenu_icon_photo</item>
+		<item>@drawable/mmp_mainmenu_icon_audio</item>
+		<item>@drawable/mmp_mainmenu_icon_video</item>
+		<item>@drawable/mmp_mainmenu_icon_text</item>
+	</array>
+	<string-array name="mmp_menu_filelist">
+		<item>Ordina</item>
+		<item>Tipo file multimediale</item>
+		<item>dimensioni miniatura</item>
+		<item>Copia</item>
+		<item>Incolla</item>
+		<item>Elimina</item>
+		<item>Analizzatore ricorrente</item>
+		<item>Cornice foto</item>
+		<item>3D Photo</item>
+
+	</string-array>
+	<integer-array name="mmp_menu_filelist_enable">
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>0</item>
+		<item>0</item>
+		<item>0</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+	</integer-array>
+	<integer-array name="mmp_menu_filelist_hasnext">
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>0</item>
+		<item>0</item>
+		<item>0</item>
+		<item>0</item>
+		<item>1</item>
+		<item>0</item>
+	</integer-array>
+
+	<!-- child node -->
+	<string-array name="mmp_menu_sortlist_photoortext">
+		<item>Data</item>
+		<item>Nome</item>
+	</string-array>
+	
+	<string-array name="mmp_menu_sortlist_audio">
+		<item>Data</item>
+		<item>Genere</item>
+		<item>Artista</item>
+		<item>Album</item>
+	</string-array>
+	
+	<string-array name="mmp_menu_sortlist_video">
+		<item>Tipo</item>
+		<item>Data</item>
+		<item>Nome</item>
+	</string-array>
+
+	<integer-array name="mmp_menu_sortlist_enable">
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+	</integer-array>
+
+	<string-array name="mmp_menu_mediatypelist">
+		<item>Foto</item>
+		<item>Musica</item>
+		<item>Video</item>
+		<item>Testo</item>
+	</string-array>
+	<integer-array name="mmp_menu_mediatypelist_enable">
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+	</integer-array>
+
+
+	<string-array name="mmp_menu_thumblist">
+		<item>Piccolo</item>
+		<item>Medio</item>
+		<item>Grande</item>
+	</string-array>
+	<integer-array name="mmp_menu_thumblist_enable">
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+	</integer-array>
+
+
+	<string-array name="mmp_menu_photoframelist">
+		<item>One Photomode</item>
+	</string-array>
+	<integer-array name="mmp_menu_photoframelist_enable">
+		<item>1</item>
+	</integer-array>
+
+	<!-- the menu of photo play -->
+	<string-array name="mmp_menu_photoplaylist">
+		<item>Metti in pausa</item>
+		<item>Ripeti</item>
+		<item>Modalità casuale</item>
+		<item>Durata</item>
+		<item>Effetto</item>
+		<item>Mostra informazioni</item>
+		<item>Immagine con cornice</item>
+	</string-array>
+	<integer-array name="mmp_menu_photoplaylist_enable">
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+	</integer-array>
+	<integer-array name="mmp_menu_photoplaylist_hasnext">
+		<item>0</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>0</item>
+		<item>0</item>
+	</integer-array>
+	<!-- the menu of 3D photo play -->
+		<string-array name="mmp_menu_3d_photoplaylist">
+		<item>Metti in pausa</item>
+		<item>Ripeti</item>
+		<item>Modalità casuale</item>
+		<item>Durata</item>
+		<item>Effetto</item>
+		<item>Mostra informazioni</item>
+		<item>Immagine con cornice</item>
+		<item>Picture Setting</item>
+	</string-array>
+	<integer-array name="mmp_menu_3d_photoplaylist_enable">
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>0</item>
+		<item>0</item>
+		<item>1</item>
+		<item>0</item>
+		<item>1</item>
+	</integer-array>
+	<integer-array name="mmp_menu_3d_photoplaylist_hasnext">
+		<item>0</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>0</item>
+		<item>0</item>
+		<item>0</item>
+	</integer-array>
+	<!-- child node -->
+	<string-array name="mmp_menu_repeatlist">
+		<item>Nessuno</item>
+		<item>Ripeti una volta</item>
+		<item>Ripeti tutto</item>
+	</string-array>
+	<integer-array name="mmp_menu_repeatlist_enable">
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+	</integer-array>
+
+
+	<string-array name="mmp_menu_shufflelist">
+		<item>Riproduzione casuale disattivata</item>
+		<item>Riproduzione casuale attiva</item>
+	</string-array>
+	<integer-array name="mmp_menu_shufflelist_enable">
+		<item>1</item>
+		<item>1</item>
+	</integer-array>
+
+	<string-array name="mmp_menu_durationlist">
+		<item>Corta</item>
+		<item>Medio</item>
+		<item>Lunga</item>
+	</string-array>
+	<integer-array name="mmp_menu_durationlist_enable">
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+	</integer-array>
+
+	<string-array name="mmp_menu_zoomlist">
+		<item>1 X</item>
+		<item>2 X</item>
+		<item>4 X</item>
+	</string-array>
+	<integer-array name="mmp_menu_zoomlist_enable">
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+	</integer-array>
+
+	<string-array name="mmp_menu_effectlist">
+		<item>Nessuno</item>
+		<item>Dissolvi</item>
+		<item>Effetto wipe da destra</item>
+		<item>Effetto wipe da sinistra</item>
+		<item>Effetto wipe da sopra</item>
+		<item>Effetto wipe da sotto</item>
+		<item>Effetto box inserito</item>
+		<item>Effetto box disinserito</item>
+		<item>Casuale</item>
+	</string-array>
+	<integer-array name="mmp_menu_effectlist_enable">
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+	</integer-array>
+
+	<!-- the menu of music play -->
+	<string-array name="mmp_menu_musicplaylist">
+		<item>Metti in pausa</item>
+		<item>Ripeti</item>
+		<item>Riproduzione casuale attiva</item>
+		<item>Mostra informazioni</item>
+		<item>Hide Score</item>
+		<item>Lyric Options</item>
+		<item>Solo audio</item>
+	</string-array>
+	<integer-array name="mmp_menu_musicplaylist_enable">
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+	</integer-array>
+	<integer-array name="mmp_menu_musicplaylist_hasnext">
+		<item>0</item>
+		<item>1</item>
+		<item>0</item>
+		<item>0</item>
+		<item>0</item>
+		<item>0</item>
+		<item>0</item>
+	</integer-array>
+	<!-- music file not support -->
+	<string-array name="mmp_menu_musicplaynotsupportlist">
+		<item>Ripeti</item>
+		<item>Riproduzione casuale attiva</item>
+		<item>Solo audio</item>
+	</string-array>
+	<integer-array name="mmp_menu_musicplaynotsupportlist_enable">
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+	</integer-array>
+	<integer-array name="mmp_menu_musicplaynotsupportlist_hasnext">
+		<item>1</item>
+		<item>0</item>
+		<item>0</item>
+	</integer-array>
+	<!-- lyric -->
+	<string-array name="mmp_menu_lyricplaylist">
+		<item>Display Line</item>
+		<item>Differenza orario</item>
+		<item>Codifica</item>
+	</string-array>
+	<integer-array name="mmp_menu_lyricplaylist_enable">
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+	</integer-array>
+	<integer-array name="mmp_menu_lyricplaylist_hasnext">
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+	</integer-array>
+
+	<!--the child node of lyric -->
+	<string-array name="mmp_menu_displaylinelist">
+		<item>Off</item>
+		<item>Single Line</item>
+		<item>Multi Line</item>
+	</string-array>
+	<integer-array name="mmp_menu_displaylinelist_enable">
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+	</integer-array>
+	<string-array name="mmp_menu_timeoffsetlist">
+		<item>Off</item>
+		<item>Automatico</item>
+		<item>User define</item>
+	</string-array>
+	<integer-array name="mmp_menu_timeoffsetlist_enable">
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+	</integer-array>
+
+	<string-array name="mmp_menu_encodinglist">
+		<item>Automatico</item>
+		<item>GB</item>
+		<item>Big5</item>
+		<item>Utf8</item>
+		<item>Utf16</item>
+	</string-array>
+	<integer-array name="mmp_menu_encodinglist_enable">
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+	</integer-array>
+
+	<!-- the menu of Video play -->
+	<string-array name="mmp_menu_videoplaylist">
+		<item>Metti in pausa</item>
+		<item>Ripeti</item>
+		<item>Mostra informazioni</item>
+		<item>Modalità Immagine</item>
+		<item>Modalità Schermo</item>
+		<item>Picture Setting</item>
+	</string-array>
+	<integer-array name="mmp_menu_videoplaylist_enable">
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+	</integer-array>
+	<integer-array name="mmp_menu_videoplaylist_hasnext">
+		<item>0</item>
+		<item>1</item>
+		<item>0</item>
+		<item>1</item>
+		<item>1</item>
+		<item>0</item>
+	</integer-array>
+	
+	<!-- the menu of Video file not support -->	
+	<string-array name="mmp_menu_videonotsupportplaylist">
+		<item>Ripeti</item>
+		<item>Modalità Immagine</item>
+		<item>Modalità Schermo</item>
+		<item>Picture Setting</item>
+	</string-array>
+	<integer-array name="mmp_menu_videonotsupportplaylist_enable">
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+	</integer-array>
+	<integer-array name="mmp_menu_videonotsupportplaylist_hasnext">
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>0</item>
+	</integer-array>
+	
+	<!-- child node  -->
+	<string-array name="mmp_menu_picturemodelist">
+		<item>Utente</item>
+		<item>Cinema</item>
+		<item>Sport</item>
+		<item>Vivido</item>
+		<item>Alta luminosità</item>
+	</string-array>
+	<integer-array name="mmp_menu_picturemodelist_enable">
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+	</integer-array>
+	<string-array name="mmp_menu_screenmodelist">
+		<item>Automatico</item>
+		<item>Normale</item>
+		<item>Letter box</item>
+		<item>Ricerca</item>
+		<item>Zoom</item>
+		<item>Punto a punto</item>
+	</string-array>
+	<integer-array name="mmp_menu_screenmodelist_enable">
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+	</integer-array>
+
+	<!-- word play -->
+	<string-array name="mmp_menu_textplaylist">
+		<item>Metti in pausa</item>
+		<item>Ripeti</item>
+		<item>Riproduzione casuale attiva</item>
+		<item>Font </item>
+		<item>Mostra informazioni</item>
+	</string-array>
+	<integer-array name="mmp_menu_textplaylist_enable">
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+	</integer-array>
+	<integer-array name="mmp_menu_textplaylist_hasnext">
+		<item>0</item>
+		<item>1</item>
+		<item>0</item>
+		<item>0</item>
+		<item>0</item>
+	</integer-array>
+
+	<string-array name="mmp_menu_fontlist">
+		<item>Dimensioni</item>
+		<item>Stile</item>
+		<item>Colore</item>
+	</string-array>
+	<integer-array name="mmp_menu_fontlist_enable">
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+	</integer-array>
+	<integer-array name="mmp_menu_fontlist_hasnext">
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+	</integer-array>
+
+
+	<!-- child node -->
+	<string-array name="mmp_menu_sizelist">
+		<item>Piccolo</item>
+		<item>Medio</item>
+		<item>Grande</item>
+	</string-array>
+	<integer-array name="mmp_menu_sizelist_enable">
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+	</integer-array>
+
+	<string-array name="mmp_menu_stylelist">
+		<item>Regolare</item>
+		<item>Corsivo</item>
+		<item>Grassetto</item>
+		<item>Grassetto Corsivo</item>
+	</string-array>
+	<integer-array name="mmp_menu_stylelist_enable">
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+	</integer-array>
+
+	<string-array name="mmp_menu_colorlist">
+		<item>Bianco</item>
+		<item>Azzurro</item>
+		<item>Rosso</item>
+		<item>Verde</item>
+		<item>Nero</item>
+	</string-array>
+	<integer-array name="mmp_menu_colorlist_enable">
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+	</integer-array>
+
+    <array name="entries">
+        <item>@drawable/mmp_mainmenu_icon_photo_big</item>
+        <item>@drawable/mmp_mainmenu_icon_audio_big</item>
+        <item>@drawable/mmp_mainmenu_icon_video_big</item>
+        <item>@drawable/mmp_mainmenu_icon_text_big</item>
+    </array>
+
+    <string-array name="mmp_menu_text">
+        <item>@string/mmp_menu_phototext</item>
+        <item>@string/mmp_menu_music</item>
+        <item>@string/mmp_menu_video</item>
+        <item>@string/mmp_menu_text</item>
+    </string-array>
+
+</resources>
+

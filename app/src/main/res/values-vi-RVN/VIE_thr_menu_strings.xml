@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+              
+    <string name="thr_menu_common_setting">Common Setting</string>
+    <string name="thr_menu_confim">confirm</string>
+    <string name="thr_menu_cancal">Thoát</string>
+    <string name="thr_menu">Menu</string>
+    <string name="thr_menu_select">Chọn</string>
+    
+    <string name="thr_menu_picture_mode">Chế độ h.ảnh</string>
+    <string name="thr_menu_track">Audio Track</string> 
+    <string name="thr_menu_Equalizer">Bộ điều chỉnh</string>
+    <string name="thr_menu_volume">Â.lượng</string>
+    
+    
+    
+</resources>
+

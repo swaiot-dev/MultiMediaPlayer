@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <!-- for no card or card name -->
+
+    <TextView
+        android:id="@+id/menu_ci_cam_menu"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/nav_ci_item_selector"
+        android:focusable="true"
+        android:gravity="left|center_vertical"
+        android:paddingBottom="@dimen/nav_channel_details_channel_info_padding"
+        android:paddingLeft="8dp"
+        android:paddingTop="@dimen/nav_channel_details_channel_info_padding"
+        android:text="@string/menu_setup_ci_cam_menu"
+        android:textSize="@dimen/middle_text_size" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/menu_ci_pin_code"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/nav_ci_item_selector"
+        android:focusable="true"
+        android:gravity="left|center_vertical"
+        android:paddingBottom="@dimen/nav_channel_details_channel_info_padding"
+        android:paddingLeft="8dp"
+        android:paddingTop="@dimen/nav_channel_details_channel_info_padding"
+        android:text="@string/menu_setup_ci_pin_code"
+        android:textSize="@dimen/middle_text_size"
+        android:visibility="gone" >
+    </TextView>
+    
+    <TextView 
+        android:id="@+id/menu_ci_cam_scan"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/nav_ci_item_selector"
+        android:focusable="true"
+        android:gravity="left|center_vertical"
+        android:paddingBottom="@dimen/nav_channel_details_channel_info_padding"
+        android:paddingLeft="8dp"
+        android:paddingTop="@dimen/nav_channel_details_channel_info_padding"
+        android:text="@string/menu_ci_cam_scan"
+        android:textSize="@dimen/middle_text_size"
+        android:visibility="gone"/>
+
+</LinearLayout>

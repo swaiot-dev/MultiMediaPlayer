@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="setup_ini">Početno podešavanje</string>
+	<string name="setup_back">Natrag </string>
+	<string name="setup_select">Izaberi</string>
+	<string name="setup_next">Sljedeća</string>
+	<string name="setup_exit">Izlaz</string>
+	<string name="setup_welcome">Dobrodošli</string>
+	<string name="setup_welcome_set">Dobrodošli u čarobnjak za početno podešavanje !!\nMolim pritisnite  [ENTER] za pokretanje čarobnjaka.</string>
+	<string name="setup_language">Jezik</string>
+	<string name="setup_select_language">Izaberite svoj jezik, molim:</string>
+	<string name="setup_tunner">Tjuner</string>
+	<string name="setup_select_tuner">Molim, odaberite način rada vašeg prijamnika:</string>
+	<string name="setup_channelscan">Pretraži kanal</string>
+	<string name="setup_set_setps">Molimo prvo priključite antenu.\nPokrenuti pretraživanja kanala sada ?\nAko preskočite ovaj korak, pretraživanje kanala možete obaviti i u Izborniku.</string>
+	<string name="setup_set_setps_us">First, please connect cable or antenna.\n\nStart channel scan now ?\n\nIf you skip this step, the channel scan could be performed in Menu.</string>
+	<string name="setup_language_english">Engleski</string>
+	<string name="setup_language_chinese">简体中文</string>
+	<string name="setup_tuner_antenna">Antenna</string>
+	<string name="setup_tuner_cable">Kabel</string>
+    <string name="setup_tuner_satellite">Satelit</string>
+    <string name="satellites">Satellites</string>
+	<string name="setup_scan">Pretraži</string>
+	<string name="setup_skip_scan">Preskoči pretraživanje</string>
+	<string name="setup_complete">Dovršeno</string>
+	<string name="setup_congratulations">Čestitamo!!\nDovršeno je početno podešavanje.\nMolim pritisnite [ENTER] za napuštanje čarobnjaka.</string>
+	<string name="setup_channel_scan_note">Pretraživanje kanala može potrajati.</string>
+	<string name="setup_channel_scan_status">Stanje: Pretraživanje</string>
+	<string name="setup_channel_scan_analog">Analogni kanali: </string>
+	<string name="setup_channel_scan_digital">Digitalni kanali: </string>
+	<string name="setup_cancel">Odustani</string>
+	<string name="setup_cancel_scan">Stanje: Prekini pretraživanje</string>
+	<string name="setup_scan_error">Stanje: Greška pretraživanja</string>
+	<string name="setup_channel_scan_status_complete">Stanje: Pretraživanje je dovršeno</string>
+	<string name="dvbs_operator_perferred_satellite">perferred satellite</string>
+	<string name="dvbs_operator_general_satellite">general satellite</string>
+
+
+	<!-- char of simulation main view -->
+	<string name="nav_test_user_help">
+		[0-9]\t(0-9) To change channel.\n
+		[SOURCE]\t(A) To
+		display the input source list.\n
+		[TIMER]\t(B) To display the time.\n
+		[SLEEP]\t(C) To set the sleep time.\n
+		[ZOOM]\t(D) To select the zoom.\n
+		[PEFFECT]\t(E) To select the screen effect.\n
+		[SEFFECT]\t(F) To select
+		the sound effect.\n
+		[ASPECT]\t(G) To change the aspect ratio.\n
+		[CHUP]\t(O) To turn up the channel.\n
+		[CHDN]\t(Q) To turn down the
+		channel.\n
+		[MUTE]\t(R) To mute or un-mute the sound.\n
+		[VOLUME_UP]\t(M)
+		To turn up the volume.\n
+		[VOLUME_DOWN]\t(N) To turn down the volume.\n
+		[DPAD_CENTER]\t (ENTER) To display the channel list.\n
+		[INFO]\t(S) To
+		display the channel info.\n
+		[EJECT]\t(U) To display the channel info.\n
+		[PLAYPAUSE]\t(V) To display the favorite list.\n
+		[YELLOW]\t(K) To
+		select the type of the channel list.\n
+	</string>
+	<string name="nav_test_tv">TV</string>
+
+	<!-- +++++++++++++++++++++++++++++++++++++++++++++ -->
+	<!-- ++++++++++ char of input source view++++++ -->
+	<!-- +++++++++++++++++++++++++++++++++++++++++++++ -->
+	<string name="nav_source_main_title">Glavno</string>
+	<string name="nav_source_sub_title">Pod</string>
+
+	<!-- +++++++++++++++++++++++++++++++++++++++++++++ -->
+	<!-- ++++++++++ char of channel list view ++++++ -->
+	<!-- +++++++++++++++++++++++++++++++++++++++++++++ -->
+	<string name="nav_please_scan_channels">Molimo pretražite kanale!</string>
+	<string name="nav_no_function">Nema funkcije</string>
+	<string name="nav_select_list">Select List</string>
+	<string name="nav_page_up">Page Up</string>
+	<string name="nav_page_down">Page Down</string>
+	<string name="nav_fav_move_up">Move Up</string>
+	<string name="nav_fav_move_down">Move Down</string>
+	<string name="nav_exit">Kilépés</string>
+	<!-- <string name="nav_channel_list">Channel List - All</string> -->
+	<string name="nav_channel_list">Popis kanala</string>
+
+	<string name="nav_channel_list_title_str">Channel List - </string>
+	<string name="nav_channel_selection">Odabir popisa kanala</string>
+	<string name="nav_channel_details">Pojedinosti o kanalu</string>
+	<string name="nav_volume_main">Glavna glasnoća</string>
+	<string name="nav_parent_psw">Lozinka</string>
+	<string name="nav_parent_dvbs_hint">Password had been mistaken three times!\nPlease wait...</string>
+	<string name="nav_parent_wrong_psw">Password incorrect.\n Please enter again! </string>
+
+	<string name="nav_channel_antenna">Antenna</string>
+	<!-- +++++++++++++++++++++++++++++++++++++++++++++ -->
+	<!-- ++++++++++ char of favorite list view ++++++ -->
+	<!-- +++++++++++++++++++++++++++++++++++++++++++++ -->
+	<string name="nav_favorite_list">Popis favor.</string>
+	<string name="nav_favorite_select">Kijelölés</string>
+
+	<string name="nav_channel_infoNum">815</string>
+	<string name="nav_channel_infoName">Jade</string>
+	<string name="nav_channel_infoFormat">640X480@60Hz</string>
+	<string name="nav_channel_infoType">Antenna</string>
+	<string name="nav_channel_infoTime">19:19</string>
+	<string name="nav_channel_infoMiddle_special">Dohvaćanje podataka...</string>
+	<string name="nav_channel_infoTitle">(No program Title.)</string>
+	<string name="nav_channel_infoDuration">3:35 - 3:40</string>
+	<string name="nav_channel_infoNextDuration">Insite the Stock ExChange</string>
+	<string name="nav_channel_infoAudioLanguage">1/2 Chinese</string>
+	<string name="nav_channel_infoFormatField">Stereo</string>
+	<string name="nav_channel_infoNoProgram">(No Program Details.)</string>
+	<string name="nav_channel_infoNoChannelDetail">(No Channel Details.)</string>
+	<string name="nav_channel_infoSubtitle">Chi</string>
+	<string name="nav_channel_infoInfoField">576i SD</string>
+
+	<string name="nav_no_signal">Nema signala!</string>
+	<string name="nav_no_support">No Support!</string>
+	<string name="nav_channel_has_locked">Kanal je zakljuĊan!</string>
+	<string name="nav_input_has_locked">Ulaz je zaključan!</string>
+	<string name="nav_program_has_locked">Program je zakljuĊan!</string>
+	<string name="nav_hidden_channel">Skriveni kanal!</string>
+	<string name="nav_channel_audio_scrambled">Šifrirani zvuk</string>
+	<string name="nav_channel_video_scrambled">Šifrirani video</string>
+	<string name="nav_sleep_label">Mirovanje: </string>
+	<string name="nav_sleep_off">Off</string>
+	<string name="nav_sleep_minutes">Minute</string>
+	<string name="nav_resolution_null">Nema videa</string>
+	<string name="nav_channel_retrieving">Dohvaćanje podataka...</string>
+	<string name="nav_unknown_audio">unknown audio</string>
+	<string name="nav_unknown_stereo">unknown stereo</string>
+	<string name="nav_unknown_audio_sundry">Nepoznat</string>
+	<string name="nav_channel_no_audio">Nema zvuka</string>
+
+	<!--  for epg -->
+	<string name="nav_epg_type">Vrsta</string>
+	<string name="nav_epg_sub_type">Podvrsta</string>
+	<string name="nav_epg_zero_tip">Booked list</string>
+	<string name="nav_epg_book_list">Booked Event List</string>
+	<string name="nav_epg_book_program_tip">\nBook this program?</string>
+	<string name="nav_epg_unbook_program_tip">\nAlready booked this program, unbook it?</string>
+	<string name="nav_epg_book_program_coming_tip"> is coming, change to the channel?</string>
+	<string name="nav_epg_not_rated">Nije određeno</string>
+	<string name="nav_epg_no_program_detail">(No Program Detail.)</string>
+	<string name="nav_epg_no_program_data">( No program data.)</string>
+	<string name="nav_epg_no_program_title">(Nema naslova pr.)</string>
+	<string name="nav_epg_unlock">Unlock</string>
+	<string name="nav_epg_unschedule">Unschedule</string>
+	<string name="nav_epg_schedule">Schedule</string>
+	<string name="nav_epg_not_support">Nema podrške</string>
+	
+	<string name="nav_epg_January">Siječanj</string>
+	<string name="nav_epg_February">Veljača</string>
+	<string name="nav_epg_March">Ožujak</string>
+	<string name="nav_epg_April">Travanj</string>
+	<string name="nav_epg_May">Svibanj</string>
+	<string name="nav_epg_June">Lipanj</string>
+	<string name="nav_epg_July">Srpanj</string>
+	<string name="nav_epg_August">Kolovoz</string>
+	<string name="nav_epg_September">Rujan</string>
+	<string name="nav_epg_October">Listopad</string>
+	<string name="nav_epg_November">Studeni</string>
+	<string name="nav_epg_December">Prosinac</string>
+	
+	<string name="nav_epg_Jan">Sij.</string>
+	<string name="nav_epg_Feb">Velj.</string>
+	<string name="nav_epg_Mar">Ožu.</string>
+	<string name="nav_epg_Apr">Trav.</string>
+	<string name="nav_epg_may">Svib.</string>
+	<string name="nav_epg_Jun">Lip.</string>
+	<string name="nav_epg_Jul">Srp.</string>
+	<string name="nav_epg_Aug">Kol.</string>
+	<string name="nav_epg_Sep">Ruj.</string>
+	<string name="nav_epg_Oct">List.</string>
+	<string name="nav_epg_Nov">Stud.</string>
+	<string name="nav_epg_Dec">Pros.</string>
+	
+	<string name="nav_epg_Sunday">Nedjelja</string>
+	<string name="nav_epg_Monday">Ponedjeljak</string>
+	<string name="nav_epg_Tuesday">Utorak</string>
+	<string name="nav_epg_Wednesday">Srijeda</string>
+	<string name="nav_epg_Thursday">Četvrtak</string>
+	<string name="nav_epg_Friday">Petak</string>
+	<string name="nav_epg_Saturday">Subota</string>
+	
+	<string name="nav_epg_Sun">Nedj.</string>
+	<string name="nav_epg_Mon">Pon.</string>
+	<string name="nav_epg_Tue">Uto.</string>
+	<string name="nav_epg_Wed">Srij.</string>
+	<string name="nav_epg_Thur">Čet.</string>
+	<string name="nav_epg_Fri">Pet.</string>
+	<string name="nav_epg_Sat">Sub.</string>
+		
+	<!-- for capture logo (YELLOW KEY) -->
+	<string name="cplogo_title">Capture Logo</string>
+	<string name="cplogo_bt_ok">U redu</string>
+	<string name="cplogo_bt_cancel">Mégse</string>
+	<string name="cplogo_bt_full_screen">Full Screen</string>
+	<string name="cplogo_bt_special_area">Special Area</string>
+	<string name="cplogo_bt_no">NE</string>
+	<string name="cplogo_bt_adjust">Podesi </string>
+	<string name="cplogo_msg_which_screen">Do you want to capture full screen or special area?
+	</string>
+	<string name="cplogo_msg_this_screen">Do you want to capture this screen?</string>
+	<string name="cplogo_msg_select_position">Please select a position to save the logo</string>
+	<string name="cplogo_msg_capturing">Capturing ...</string>
+	<string name="cplogo_msg_adjust_position">Do you want to adjust the position of the special
+		area?</string>
+	<string name="cplogo_msg_res_success">Capture successfully</string>
+	<string name="cplogo_msg_res_fail">Capture failed, please try again</string>
+	<string name="cplogo_capture_res_cancel">This operation has been canceled</string>
+
+	<string name="vga_no_sinal_info">No signal. The power will be turned off.</string>
+
+	<!-- for epg -->
+	<string name="epg_bottom_prev_day">Preth. dan</string>
+	<string name="epg_bottom_next_day">Sljedeći dan</string>
+	<string name="epg_bottom_view_detail">Pogledaj pojedinosti</string>
+	<string name="epg_bottom_type_filter">Filtar vrste</string>
+	<string name="epg_bottom_prev_page">Stranica više</string>
+	<string name="epg_bottom_next_page">Stranica niže</string>
+	<string name="epg_bottom_ENTER">ENTER</string>
+	<string name="epg_bottom_0">0</string>
+
+	<string name="epg_info_program_type">Bez</string>
+	<string name="epg_password">Lozinka</string>
+	<string name="epg_password_message">NetoĊna lozinka!</string>
+	<string name="epg_retrieving_show">Dohvaćanje podataka...</string>
+
+	<!-- for ginga tv -->
+	<string name="nav_ginga_tv_title">Application list</string>
+	<string name="nav_select">Kijelölés</string>
+	<string name="nav_ginga_tv_message">There is no application!</string>
+	<string name="nav_ginga_tv_for_infobar">Ginga Application loading...</string>
+	<string name="nav_ginga_tv_for_tips">Do you want to stop CC and start Ginga application?</string>
+
+	<!-- for upgrader -->
+	<string name="nav_upgrader_title">Čar. za ažurir.</string>
+	<string name="nav_upgrader_MoreInfo">More Info</string>
+	<string name="nav_upgrader_invalid">Neispr. dat. slike firmvera!</string>
+	<string name="nav_upgrader_updating">Ažurira se…</string>
+	<string name="nav_upgrader_warnning">NEMOJTE vaditi USB kljuĊ ni iskljuĊivati TV prijemnik za vrijeme ažuriranja firmvera!</string>
+	<string name="nav_upgrader_validate">Validacija firmvera…</string>
+	<string name="nav_upgrader_confirm">Sigurno želite ažurirati firmver?</string>
+	<string name="nav_upgrader_completed">Firmver je uspješno ažuriran na verziju %s.\nPokrenite iznova TV prijemnik kako bi aktivirali novi firmver.</string>
+	<string name="nav_upgrader_failed">Neuspjelo ažuriranje na verziju %s.\nPokrenite TV  iznova da opet preuzmete novi firmver.</string>
+	<string name="nav_upgrader_retry">Neuspjelo ažuriranje.\nDa pokušam opet?</string>
+	<string name="nav_upgrader_retry2">Neuspjelo ažuriranje, umetnite USB.\nDa li želite pokušati opet?</string>
+	<string name="nav_upgrader_usb_space_not_enough">Available space of your USB dongle is not enough.</string>
+	<string name="nav_upgrader_usb_not_ready">USB dongle is not ready, please plug it and try again.</string>
+	<string name="nav_upgrader_internal_err">Internal error.</string>
+	<string name="nav_upgrader_not_avail_firmware">No available firmware version.</string>
+	<string name="nav_upgrader_decry_fail">Decryption failed.</string>
+	<string name="nav_upgrader_firmware_invalid">Firmware is invalid.</string>
+	<string name="nav_upgrader_no_update">No available firmware to update.</string>
+	<string name="nav_upgrader_check_fail">Check new firmware failed.</string>
+	<string name="nav_upgrader_download_fail">Can not download firmware from network.</string>
+	<string name="nav_upgrader_usb_problem">There is some problem of the USB dongle.</string>
+	<string name="nav_upgrader_power">Snaga</string>
+	<string name="nav_upgrader_yes">Da</string>
+	<string name="nav_upgrader_no">NE</string>
+	<string name="nav_upgrader_network_tip">Start to download new firmware from server</string>
+	
+	<string name="common_dialog_msg_yes">DA</string>
+	<string name="common_dialog_msg_no">NE</string>
+	<string name="common_dialog_ews_service_content">Do you want to switch to the EWS service?</string>
+	<string name="common_dialog_special_service_content">Do you want to switch to the special service?</string>
+	<string name="commmon_dialog_book_reminder_content">is coming, Do you want to switch to it?</string>
+	
+	<string name="nav_ttx_top_block">BLOCK</string> 
+  <string name="nav_ttx_top_group">GROUP</string> 
+  <string name="nav_ttx_top_page">PAGE</string> 
+    <string name="nav_ttx_no_top">No Top</string> 
+
+	<string name="nav_banner_not_rating">not rating</string>
+	<string name="setup_select_country">Izaberite svoju zemlju, molim:</string>
+	<string name="setup_country">Zemlja</string>
+	<string name="setup_dvbc_setting">Please configure the cable info</string>
+	<string name="setup_timezone">Vr. zona</string>
+	<string name="setup_language_spanish">Español</string>
+	<string name="setup_language_french">Français</string>
+	<string name="setup_language_portuguese">Português</string>
+	
+	<string name="setup_dvbc_config_scanmode">Scan Mode</string>
+	<string name="setup_dvbc_config_frequency">Frequency (KHZ)</string>
+	<string name="setup_dvbc_config_modulation">Modulacija</string>
+	<string name="setup_dvbc_config_symbolrate">Symbol Rate(Ksym/s)</string>
+	<string name="setup_dvbc_config_networkid">Mrežni ID</string>
+	
+	<string name="setup_set_password">  </string>
+	<string name="setup_set_password_titile1">New Password</string>
+	<string name="setup_set_password_titile2">Confirm Password</string>
+	<string name="setup_set_password_default_pwd">0000</string>
+	
+	<string name="setup_cable_select_operation">Select Operator</string>
+	
+	<string name="setup_dvbs_statellite_type">Statellite Type</string>
+	<string name="setup_dvbs_statellite_type_title">Please select satellite type.</string>
+	
+	<string name="setup_dvbs_statellite_select_operator">Select Operator</string>
+	<string name="setup_dvbs_statellite_select_operator_title">You can select only one operator from the following list.</string>
+	
+	<string name="setup_cable_setting">  </string>
+	<string name="setup_cable_setting_title">Molim, konfigurirajte podatke o kabelu.</string>
+	
+	<string name="setup_dvbs_config_info">  </string>
+	<string name="setup_dvbs_config_info_title">Please configure the scan info.</string>
+	
+	<string name="setup_dvbs_satellite_list">Select Satellite</string>
+	<string name="setup_dvbs_satellite_list_title">Please select satellites to scan or edit the selected satellite.</string>
+	
+	<string name="setup_dvbs_config_setting">  </string>
+	<string name="setup_dvbs_config_setting_title">Please set antenna type config.</string>
+
+	<string name="setup_dvbs_satellite_config">Antenna Setup</string>
+	<string name="setup_dvbs_satellite_config_title">Please set the satellite\'s parameters.</string>
+	
+	<string name="setup_select_set">Set</string>
+	<string name="nav_oad_dialog_title">Nadogradnja preko kanala</string>
+	<string name="nav_oad_scanning">Skeniranje</string>
+	<string name="nav_oad_scanning_result_fail">Can not find new software on the air</string>
+	
+	<string name="nav_oad_programming">Programming</string>
+	<string name="nav_oad_flash_confirm">Download the software successfully.Do you want to start flashing?</string>
+	<string name="nav_oad_flash_fail">Programiranje nije uspjelo. Pokušaj ponovno?\n\n Nazovite servisni centar</string>
+	<string name="nav_oad_restart_confirm">Nadogradnja softvera uspješna! Želite li ponovno pokrenuti TV?</string>
+	
+	<string name="nav_oad_warning_msg_str">Warning: During the process.Please do not unplug the TV Set power code as this will lead to defective TV Set.</string>
+	
+	<string name="nav_oad_manual_download_confirm">Software update.A new recommended software update is avaiable.The update might take some time and the screen might go black.Do not turn of the receiver off during
+	    the update.Do you want to update now?</string>
+	<string name="nav_oad_manual_download_fail">Softver nije moguće preuzeti. Želite li pokušati ponovno?</string>
+	
+	<string name="nav_oad_auto_download_confirm">Software update.A new recommended software update is avaiable.The update might take some time and the screen might go black.Do not turn of the receiver off during
+	    the update.Do you want to update now?It will start automatically in %s second(s)</string>
+	
+	<string name="setup_language_english_value">Programming</string>
+	<string name="setup_language_chinese_value">Programming</string>
+	<string name="setup_language_spanish_value">Programming</string>
+	<string name="setup_language_french_value">Programming</string>
+	<string name="setup_language_portuguese_value">Programming</string>
+	
+    <string name="setup_country_cty_1">Austrija</string>
+    <string name="setup_country_cty_2">Belgija</string>
+    <string name="setup_country_cty_3">Švicarska</string>
+    <string name="setup_country_cty_4">Češka Republika</string>
+    <string name="setup_country_cty_5">Njemačka</string>
+    <string name="setup_country_cty_6">Danska</string>
+    <string name="setup_country_cty_7">Španjolska</string>
+    <string name="setup_country_cty_8">Finska</string>
+    <string name="setup_country_cty_9">Francuska</string>
+    <string name="setup_country_cty_10">Ujed. Kraljev.</string>
+    <string name="setup_country_cty_11">Italija</string>
+    <string name="setup_country_cty_12">Luksemburg</string>
+    <string name="setup_country_cty_13">Nizozemska</string>
+    <string name="setup_country_cty_14">Norveška</string>
+    <string name="setup_country_cty_15">Švedska</string>
+    <string name="setup_country_cty_16">Bugarska</string>
+    <string name="setup_country_cty_17">Hrvatska</string>
+    <string name="setup_country_cty_18">Grčka</string>
+    <string name="setup_country_cty_19">Mađarska</string>
+    <string name="setup_country_cty_20">Irska</string>
+    <string name="setup_country_cty_21">Poljska</string>
+    <string name="setup_country_cty_22">Portugal</string>
+    <string name="setup_country_cty_23">Rumunjska</string>
+    <string name="setup_country_cty_24">Rusija</string>
+    <string name="setup_country_cty_25">Srbija</string>
+    <string name="setup_country_cty_26">Slovačka</string>
+    <string name="setup_country_cty_27">Slovenija</string>
+    <string name="setup_country_cty_28">Turska</string>
+    <string name="setup_country_cty_29">Estonski</string>
+    <string name="setup_country_cty_30">Australija</string>
+    <string name="setup_country_cty_31">Novi Zeland</string>
+	<string name="setup_set_timezone">Please select your time zone:</string>
+	<string name="setup_set_password_title">Please set password."0000" is not a valid password</string>
+	<string name="setup_set_password_success_msg">Password set successfully!</string>
+	<string name="dvbc_operator_upc">UPC</string>
+	<string name="dvbc_operator_telent">Telent</string>
+	<string name="dvbc_operator_unitymedia">Unitymedia</string>
+	<string name="dvbc_operator_stofa">Stofa</string>
+	<string name="dvbc_operator_yousee">Yousee</string>
+	<string name="dvbc_operator_canal_digital">Canal Digital</string>
+	<string name="dvbc_operator_numericable">Numericable</string>
+	<string name="dvbc_operator_ziggo">Ziggo</string>
+	<string name="dvbc_operator_comhem">Comhem</string>
+	<string name="dvbc_operator_others">Others</string>
+</resources>
+

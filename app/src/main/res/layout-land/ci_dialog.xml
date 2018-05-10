@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/ci_title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.84"
+        android:background="@color/nav_ch_list_title_back"
+        android:gravity="center"
+        android:text="@string/ci_title"
+        android:textColor="@color/white"
+        android:textSize="@dimen/nav_textsize_large"
+        android:textStyle="bold" >
+    </TextView>
+
+    <LinearLayout
+        android:id="@+id/ci_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.12"
+        android:background="@color/nav_ch_list_view_back"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content" 
+	android:layout_height="fill_parent"
+	android:background="@drawable/toolbar_playerbar_dialog_bg"
+	android:gravity="center_vertical"
+	android:id="@+id/tip_dialog_bg"
+	>
+	<ImageView 
+		android:id="@+id/multimedia_img"
+		android:visibility="invisible"
+		android:layout_width="0dp" 
+		android:layout_height="wrap_content"
+		android:background="@color/transparent"
+		android:src="@drawable/mmp_common_icon_ib_info"
+		></ImageView>
+	<TextView android:id="@+id/multimedia_tv"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:text="@string/mmp_emptyfile" 
+		style="@style/mmp_pop_tx_music"
+		android:layout_marginLeft="10dip"
+		android:layout_marginRight="10dp"></TextView>
+
+</LinearLayout>

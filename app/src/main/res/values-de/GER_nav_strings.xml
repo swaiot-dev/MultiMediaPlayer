@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="setup_ini">Erstmaliges Einrichten</string>
+	<string name="setup_back">Zurück</string>
+	<string name="setup_select">Auswählen</string>
+	<string name="setup_next">Zunächst</string>
+	<string name="setup_exit">Beenden</string>
+	<string name="setup_welcome">Willkommen</string>
+	<string name="setup_welcome_set">Herzlich Willkommen beim Assistenten zum erstmaligen Einrichten!!\nDrücken Sie auf [EINGABE], um den Assistenten zu starten.</string>
+	<string name="setup_language">Sprache</string>
+	<string name="setup_select_language">Bitte wählen Sie Ihre Sprache:</string>
+	<string name="setup_tunner">Tunermodus</string>
+	<string name="setup_select_tuner">Wählen Sie den Tuner-Modus:</string>
+	<string name="setup_channelscan">Kanalsuche</string>
+	<string name="setup_set_setps">Schließen Sie zuerst Antenne an.\nKanalsuche jetzt starten?\nWird der Schritt übersprungen, kann die Kanalsuche vom Menü aus durchgeführt werden.</string>
+	<string name="setup_set_setps_us">First, please connect cable or antenna.\n\nStart channel scan now ?\n\nIf you skip this step, the channel scan could be performed in Menu.</string>
+	<string name="setup_language_english">Englisch</string>
+	<string name="setup_language_chinese">简体中文</string>
+	<string name="setup_tuner_antenna">Antenne</string>
+	<string name="setup_tuner_cable">Kabel</string>
+    <string name="setup_tuner_satellite">Satellit</string>
+    <string name="satellites">Satellites</string>
+	<string name="setup_scan">Suche</string>
+	<string name="setup_skip_scan">Suche nicht durchführen</string>
+	<string name="setup_complete">Beendet</string>
+	<string name="setup_congratulations">Glückwunsch!!\nDas erstmalige Einrichten ist beendet.\nDrücken Sie auf [EINGABE], um den Assistenten zu verlassen.</string>
+	<string name="setup_channel_scan_note">Die Kanalsuche braucht eine Weile.</string>
+	<string name="setup_channel_scan_status">Status: Suchvorgang</string>
+	<string name="setup_channel_scan_analog">Analoge Kanäle: </string>
+	<string name="setup_channel_scan_digital">Digitale Kanäle: </string>
+	<string name="setup_cancel">Abbrechen</string>
+	<string name="setup_cancel_scan">Status: Suchvorgang Abbrechen</string>
+	<string name="setup_scan_error">Status: Fehler beim Suchvorgang</string>
+	<string name="setup_channel_scan_status_complete">Status: Suchvorgang Abgeschlossen</string>
+	<string name="dvbs_operator_perferred_satellite">perferred satellite</string>
+	<string name="dvbs_operator_general_satellite">general satellite</string>
+
+
+	<!-- char of simulation main view -->
+	<string name="nav_test_user_help">
+		[0-9]\t(0-9) To change channel.\n
+		[SOURCE]\t(A) To
+		display the input source list.\n
+		[TIMER]\t(B) To display the time.\n
+		[SLEEP]\t(C) To set the sleep time.\n
+		[ZOOM]\t(D) To select the zoom.\n
+		[PEFFECT]\t(E) To select the screen effect.\n
+		[SEFFECT]\t(F) To select
+		the sound effect.\n
+		[ASPECT]\t(G) To change the aspect ratio.\n
+		[CHUP]\t(O) To turn up the channel.\n
+		[CHDN]\t(Q) To turn down the
+		channel.\n
+		[MUTE]\t(R) To mute or un-mute the sound.\n
+		[VOLUME_UP]\t(M)
+		To turn up the volume.\n
+		[VOLUME_DOWN]\t(N) To turn down the volume.\n
+		[DPAD_CENTER]\t (ENTER) To display the channel list.\n
+		[INFO]\t(S) To
+		display the channel info.\n
+		[EJECT]\t(U) To display the channel info.\n
+		[PLAYPAUSE]\t(V) To display the favorite list.\n
+		[YELLOW]\t(K) To
+		select the type of the channel list.\n
+	</string>
+	<string name="nav_test_tv">TV</string>
+
+	<!-- +++++++++++++++++++++++++++++++++++++++++++++ -->
+	<!-- ++++++++++ char of input source view++++++ -->
+	<!-- +++++++++++++++++++++++++++++++++++++++++++++ -->
+	<string name="nav_source_main_title">Haupt</string>
+	<string name="nav_source_sub_title">Unter</string>
+
+	<!-- +++++++++++++++++++++++++++++++++++++++++++++ -->
+	<!-- ++++++++++ char of channel list view ++++++ -->
+	<!-- +++++++++++++++++++++++++++++++++++++++++++++ -->
+	<string name="nav_please_scan_channels">Führen Sie einen Kanalsuchlauf durch!</string>
+	<string name="nav_no_function">Keine Fkt.</string>
+	<string name="nav_select_list">Select List</string>
+	<string name="nav_page_up">Page Up</string>
+	<string name="nav_page_down">Page Down</string>
+	<string name="nav_fav_move_up">Move Up</string>
+	<string name="nav_fav_move_down">Move Down</string>
+	<string name="nav_exit">Beenden</string>
+	<!-- <string name="nav_channel_list">Channel List - All</string> -->
+	<string name="nav_channel_list">Kanalliste</string>
+
+	<string name="nav_channel_list_title_str">Channel List - </string>
+	<string name="nav_channel_selection">Kanalliste Ausw.</string>
+	<string name="nav_channel_details">Kanaldetails</string>
+	<string name="nav_volume_main">Master-Lautstärke</string>
+	<string name="nav_parent_psw">Kennwort</string>
+	<string name="nav_parent_dvbs_hint">Password had been mistaken three times!\nPlease wait...</string>
+	<string name="nav_parent_wrong_psw">Password incorrect.\n Please enter again! </string>
+
+	<string name="nav_channel_antenna">Antenne</string>
+	<!-- +++++++++++++++++++++++++++++++++++++++++++++ -->
+	<!-- ++++++++++ char of favorite list view ++++++ -->
+	<!-- +++++++++++++++++++++++++++++++++++++++++++++ -->
+	<string name="nav_favorite_list">Liste der Favoriten</string>
+	<string name="nav_favorite_select">Auswählen</string>
+
+	<string name="nav_channel_infoNum">815</string>
+	<string name="nav_channel_infoName">Jade</string>
+	<string name="nav_channel_infoFormat">640X480@60Hz</string>
+	<string name="nav_channel_infoType">Antenne</string>
+	<string name="nav_channel_infoTime">19:19</string>
+	<string name="nav_channel_infoMiddle_special">Daten werden empfangen...</string>
+	<string name="nav_channel_infoTitle">(No program Title.)</string>
+	<string name="nav_channel_infoDuration">3:35 - 3:40</string>
+	<string name="nav_channel_infoNextDuration">Insite the Stock ExChange</string>
+	<string name="nav_channel_infoAudioLanguage">1/2 Chinese</string>
+	<string name="nav_channel_infoFormatField">Stereo</string>
+	<string name="nav_channel_infoNoProgram">(No Program Details.)</string>
+	<string name="nav_channel_infoNoChannelDetail">(No Channel Details.)</string>
+	<string name="nav_channel_infoSubtitle">Chi</string>
+	<string name="nav_channel_infoInfoField">576i SD</string>
+
+	<string name="nav_no_signal">Kein Signal!</string>
+	<string name="nav_no_support">No Support!</string>
+	<string name="nav_channel_has_locked">Kanal gesperrt!</string>
+	<string name="nav_input_has_locked">Eingabe gesperrt!</string>
+	<string name="nav_program_has_locked">Programm gesperrt!</string>
+	<string name="nav_hidden_channel">Versteckter Kanal!</string>
+	<string name="nav_channel_audio_scrambled">Verschlüsseltes Audio</string>
+	<string name="nav_channel_video_scrambled">Verschlüsseltes Video</string>
+	<string name="nav_sleep_label">Schlaf: </string>
+	<string name="nav_sleep_off">Off</string>
+	<string name="nav_sleep_minutes"> Minuten</string>
+	<string name="nav_resolution_null">Kein Video</string>
+	<string name="nav_channel_retrieving">Daten werden empfangen...</string>
+	<string name="nav_unknown_audio">unknown audio</string>
+	<string name="nav_unknown_stereo">unknown stereo</string>
+	<string name="nav_unknown_audio_sundry">Unbekannt</string>
+	<string name="nav_channel_no_audio">Kein Audio</string>
+
+	<!--  for epg -->
+	<string name="nav_epg_type">Typ</string>
+	<string name="nav_epg_sub_type">Untertyp</string>
+	<string name="nav_epg_zero_tip">Booked list</string>
+	<string name="nav_epg_book_list">Booked Event List</string>
+	<string name="nav_epg_book_program_tip">\nBook this program?</string>
+	<string name="nav_epg_unbook_program_tip">\nAlready booked this program, unbook it?</string>
+	<string name="nav_epg_book_program_coming_tip"> is coming, change to the channel?</string>
+	<string name="nav_epg_not_rated">Ohne Bewertung</string>
+	<string name="nav_epg_no_program_detail">(No Program Detail.)</string>
+	<string name="nav_epg_no_program_data">( No program data.)</string>
+	<string name="nav_epg_no_program_title">(Kein Programmtitel.)</string>
+	<string name="nav_epg_unlock">Unlock</string>
+	<string name="nav_epg_unschedule">Unschedule</string>
+	<string name="nav_epg_schedule">Schedule</string>
+	<string name="nav_epg_not_support">Nicht Unterstützt</string>
+	
+	<string name="nav_epg_January">Januar</string>
+	<string name="nav_epg_February">Februar</string>
+	<string name="nav_epg_March">März</string>
+	<string name="nav_epg_April">April</string>
+	<string name="nav_epg_May">Mai</string>
+	<string name="nav_epg_June">Juni</string>
+	<string name="nav_epg_July">Juli</string>
+	<string name="nav_epg_August">August</string>
+	<string name="nav_epg_September">September</string>
+	<string name="nav_epg_October">Oktober</string>
+	<string name="nav_epg_November">November</string>
+	<string name="nav_epg_December">Dezember</string>
+	
+	<string name="nav_epg_Jan">Jan</string>
+	<string name="nav_epg_Feb">Feb</string>
+	<string name="nav_epg_Mar">Mär</string>
+	<string name="nav_epg_Apr">Apr</string>
+	<string name="nav_epg_may">Mai</string>
+	<string name="nav_epg_Jun">Jun</string>
+	<string name="nav_epg_Jul">Jul</string>
+	<string name="nav_epg_Aug">Aug</string>
+	<string name="nav_epg_Sep">Sep</string>
+	<string name="nav_epg_Oct">Okt</string>
+	<string name="nav_epg_Nov">Nov</string>
+	<string name="nav_epg_Dec">Dez</string>	
+	
+	<string name="nav_epg_Sunday">Sonntag</string>
+	<string name="nav_epg_Monday">Montag</string>
+	<string name="nav_epg_Tuesday">Dienstag</string>
+	<string name="nav_epg_Wednesday">Mittwoch</string>
+	<string name="nav_epg_Thursday">Donnerstag</string>
+	<string name="nav_epg_Friday">Freitag</string>
+	<string name="nav_epg_Saturday">Samstag</string>
+	
+	<string name="nav_epg_Sun">So</string>
+	<string name="nav_epg_Mon">Mo</string>
+	<string name="nav_epg_Tue">Di</string>
+	<string name="nav_epg_Wed">Mi</string>
+	<string name="nav_epg_Thur">Do</string>
+	<string name="nav_epg_Fri">Fr</string>
+	<string name="nav_epg_Sat">Sa</string>
+	
+	<!-- for capture logo (YELLOW KEY) -->
+	<string name="cplogo_title">Capture Logo</string>
+	<string name="cplogo_bt_ok">Ok</string>
+	<string name="cplogo_bt_cancel">Abbrechen</string>
+	<string name="cplogo_bt_full_screen">Full Screen</string>
+	<string name="cplogo_bt_special_area">Special Area</string>
+	<string name="cplogo_bt_no">NEIN</string>
+	<string name="cplogo_bt_adjust">Einstellen</string>
+	<string name="cplogo_msg_which_screen">Do you want to capture full screen or special area?
+	</string>
+	<string name="cplogo_msg_this_screen">Do you want to capture this screen?</string>
+	<string name="cplogo_msg_select_position">Please select a position to save the logo</string>
+	<string name="cplogo_msg_capturing">Capturing ...</string>
+	<string name="cplogo_msg_adjust_position">Do you want to adjust the position of the special
+		area?</string>
+	<string name="cplogo_msg_res_success">Capture successfully</string>
+	<string name="cplogo_msg_res_fail">Capture failed, please try again</string>
+	<string name="cplogo_capture_res_cancel">This operation has been canceled</string>
+
+	<string name="vga_no_sinal_info">No signal. The power will be turned off.</string>
+
+	<!-- for epg -->
+	<string name="epg_bottom_prev_day">Vortag</string>
+	<string name="epg_bottom_next_day">Nächster Tag</string>
+	<string name="epg_bottom_view_detail">Details</string>
+	<string name="epg_bottom_type_filter">Art Filter</string>
+	<string name="epg_bottom_prev_page">Vorherige Seite</string>
+	<string name="epg_bottom_next_page">Nächste Seite</string>
+	<string name="epg_bottom_ENTER">ENTER</string>
+	<string name="epg_bottom_0">0</string>
+
+	<string name="epg_info_program_type">Kein</string>
+	<string name="epg_password">Kennwort</string>
+	<string name="epg_password_message">Kennwort falsch!</string>
+	<string name="epg_retrieving_show">Daten werden empfangen...</string>
+
+	<!-- for ginga tv -->
+	<string name="nav_ginga_tv_title">Application list</string>
+	<string name="nav_select">Auswählen</string>
+	<string name="nav_ginga_tv_message">There is no application!</string>
+	<string name="nav_ginga_tv_for_infobar">Ginga Application loading...</string>
+	<string name="nav_ginga_tv_for_tips">Do you want to stop CC and start Ginga application?</string>
+
+	<!-- for upgrader -->
+	<string name="nav_upgrader_title">Aktualisierung</string>
+	<string name="nav_upgrader_MoreInfo">More Info</string>
+	<string name="nav_upgrader_invalid">Ungültige Firmware-Imagedatei!</string>
+	<string name="nav_upgrader_updating">Aktualisierung…</string>
+	<string name="nav_upgrader_warnning">USB-Dongle NICHT trennen, TV während Firmware-Aktualisierung nicht abschalten!!</string>
+	<string name="nav_upgrader_validate">Prüfe Firmware...</string>
+	<string name="nav_upgrader_confirm">Firmware wirklich aktualisieren?</string>
+	<string name="nav_upgrader_completed">Firmware wurde erfolgreich auf Version %s aktualisiert.\nTV zum Aktivieren der neuen Firmware neu starten.</string>
+	<string name="nav_upgrader_failed">Aktualisierung auf Version %s fehlgeschlagen.\nTV neu starten, Firmware neu herunterladen.</string>
+	<string name="nav_upgrader_retry">Aktualisierung fehlgeschlagen.\nNeuversuch?</string>
+	<string name="nav_upgrader_retry2">Aktualisierung fehlgeschlagen, bitte USB verbinden.\nNeuversuch?</string>
+	<string name="nav_upgrader_usb_space_not_enough">Available space of your USB dongle is not enough.</string>
+	<string name="nav_upgrader_usb_not_ready">USB dongle is not ready, please plug it and try again.</string>
+	<string name="nav_upgrader_internal_err">Internal error.</string>
+	<string name="nav_upgrader_not_avail_firmware">No available firmware version.</string>
+	<string name="nav_upgrader_decry_fail">Decryption failed.</string>
+	<string name="nav_upgrader_firmware_invalid">Firmware is invalid.</string>
+	<string name="nav_upgrader_no_update">No available firmware to update.</string>
+	<string name="nav_upgrader_check_fail">Check new firmware failed.</string>
+	<string name="nav_upgrader_download_fail">Can not download firmware from network.</string>
+	<string name="nav_upgrader_usb_problem">There is some problem of the USB dongle.</string>
+	<string name="nav_upgrader_power">Kraft</string>
+	<string name="nav_upgrader_yes">Ja</string>
+	<string name="nav_upgrader_no">NEIN</string>
+	<string name="nav_upgrader_network_tip">Start to download new firmware from server</string>
+	
+	<string name="common_dialog_msg_yes">JA</string>
+	<string name="common_dialog_msg_no">NEIN</string>
+	<string name="common_dialog_ews_service_content">Do you want to switch to the EWS service?</string>
+	<string name="common_dialog_special_service_content">Do you want to switch to the special service?</string>
+	<string name="commmon_dialog_book_reminder_content">is coming, Do you want to switch to it?</string>
+	
+	<string name="nav_ttx_top_block">Block</string> 
+  	<string name="nav_ttx_top_group">Gruppe</string> 
+  	<string name="nav_ttx_top_page">Seite</string> 
+    <string name="nav_ttx_no_top">No Top</string> 
+	<string name="table">Tabelle von Seite</string>
+	<string name="nav_banner_not_rating">not rating</string>
+	<string name="setup_select_country">Bitte wählen Sie Ihr Land:</string>
+	<string name="setup_country">Land</string>
+	<string name="setup_dvbc_setting">Please configure the cable info</string>
+	<string name="setup_timezone">Zeitzone</string>
+	<string name="setup_language_spanish">Español</string>
+	<string name="setup_language_french">Français</string>
+	<string name="setup_language_portuguese">Português</string>
+	
+	<string name="setup_dvbc_config_scanmode">Scan Mode</string>
+	<string name="setup_dvbc_config_frequency">Frequency (KHZ)</string>
+	<string name="setup_dvbc_config_modulation">Modulation</string>
+	<string name="setup_dvbc_config_symbolrate">Symbol Rate(Ksym/s)</string>
+	<string name="setup_dvbc_config_networkid">Netzwerk-ID</string>
+	
+	<string name="setup_set_password">  </string>
+	<string name="setup_set_password_titile1">New Password</string>
+	<string name="setup_set_password_titile2">Confirm Password</string>
+	<string name="setup_set_password_default_pwd">0000</string>
+	
+	<string name="setup_cable_select_operation">Select Operator</string>
+	
+	<string name="setup_dvbs_statellite_type">Statellite Type</string>
+	<string name="setup_dvbs_statellite_type_title">Please select satellite type.</string>
+	
+	<string name="setup_dvbs_statellite_select_operator">Select Operator</string>
+	<string name="setup_dvbs_statellite_select_operator_title">You can select only one operator from the following list.</string>
+	
+	<string name="setup_cable_setting">  </string>
+	<string name="setup_cable_setting_title">Konfigurieren Sie die Kabeldaten.</string>
+	
+	<string name="setup_dvbs_config_info">  </string>
+	<string name="setup_dvbs_config_info_title">Please configure the scan info.</string>
+	
+	<string name="setup_dvbs_satellite_list">Select Satellite</string>
+	<string name="setup_dvbs_satellite_list_title">Please select satellites to scan or edit the selected satellite.</string>
+	
+	<string name="setup_dvbs_config_setting">  </string>
+	<string name="setup_dvbs_config_setting_title">Please set antenna type config.</string>
+
+	<string name="setup_dvbs_satellite_config">Antenna Setup</string>
+	<string name="setup_dvbs_satellite_config_title">Please set the satellite\'s parameters.</string>
+	
+	<string name="setup_select_set">Set</string>
+	<string name="nav_oad_dialog_title">Over Air Download</string>
+	<string name="nav_oad_scanning">Suche</string>
+	<string name="nav_oad_scanning_result_fail">Can not find new software on the air</string>
+	
+	<string name="nav_oad_programming">Programming</string>
+	<string name="nav_oad_flash_confirm">Download the software successfully.Do you want to start flashing?</string>
+	<string name="nav_oad_flash_fail">Programmierung fehlgeschlagen. Erneut versuchen?\n\n Rufen Sie das Servicecenter an.</string>
+	<string name="nav_oad_restart_confirm">Softwareupgrade erfolgreich. Fernseher jetzt neu starten?</string>
+	
+	<string name="nav_oad_warning_msg_str">Warning: During the process.Please do not unplug the TV Set power code as this will lead to defective TV Set.</string>
+	
+	<string name="nav_oad_manual_download_confirm">Software update.A new recommended software update is avaiable.The update might take some time and the screen might go black.Do not turn of the receiver off during
+	    the update.Do you want to update now?</string>
+	<string name="nav_oad_manual_download_fail">Softwaredownload nicht möglich. Wollen Sie es erneut versuchen?</string>
+	
+	<string name="nav_oad_auto_download_confirm">Software update.A new recommended software update is avaiable.The update might take some time and the screen might go black.Do not turn of the receiver off during
+	    the update.Do you want to update now?It will start automatically in %s second(s)</string>
+	
+	<string name="setup_language_english_value">Programming</string>
+	<string name="setup_language_chinese_value">Programming</string>
+	<string name="setup_language_spanish_value">Programming</string>
+	<string name="setup_language_french_value">Programming</string>
+	<string name="setup_language_portuguese_value">Programming</string>
+	
+    <string name="setup_country_cty_1">Österreich</string>
+    <string name="setup_country_cty_2">Belgien</string>
+    <string name="setup_country_cty_3">Schweiz</string>
+    <string name="setup_country_cty_4">Tschechische Republik</string>
+    <string name="setup_country_cty_5">Deutschland</string>
+    <string name="setup_country_cty_6">Dänemark</string>
+    <string name="setup_country_cty_7">Spanien</string>
+    <string name="setup_country_cty_8">Finnland</string>
+    <string name="setup_country_cty_9">Frankreich</string>
+    <string name="setup_country_cty_10">Vereinigtes Königreich</string>
+    <string name="setup_country_cty_11">Italien</string>
+    <string name="setup_country_cty_12">Luxemburg</string>
+    <string name="setup_country_cty_13">Niederlande</string>
+    <string name="setup_country_cty_14">Norwegen</string>
+    <string name="setup_country_cty_15">Schweden</string>
+    <string name="setup_country_cty_16">Bulgarien</string>
+    <string name="setup_country_cty_17">Kroatien</string>
+    <string name="setup_country_cty_18">Griechenl.</string>
+    <string name="setup_country_cty_19">Ungarn</string>
+    <string name="setup_country_cty_20">Irland</string>
+    <string name="setup_country_cty_21">Polen</string>
+    <string name="setup_country_cty_22">Portugal</string>
+    <string name="setup_country_cty_23">Rumänien</string>
+    <string name="setup_country_cty_24">Russl.</string>
+    <string name="setup_country_cty_25">Serbien</string>
+    <string name="setup_country_cty_26">Slowakei</string>
+    <string name="setup_country_cty_27">Slowenien</string>
+    <string name="setup_country_cty_28">Türkei</string>
+    <string name="setup_country_cty_29">Estnisch</string>
+    <string name="setup_country_cty_30">Australien</string>
+    <string name="setup_country_cty_31">Neuseeland</string>
+	<string name="setup_set_timezone">Please select your time zone:</string>
+	<string name="setup_set_password_title">Please set password."0000" is not a valid password</string>
+	<string name="setup_set_password_success_msg">Password set successfully!</string>
+	<string name="dvbc_operator_upc">UPC</string>
+	<string name="dvbc_operator_telent">Telent</string>
+	<string name="dvbc_operator_unitymedia">Unitymedia</string>
+	<string name="dvbc_operator_stofa">Stofa</string>
+	<string name="dvbc_operator_yousee">Yousee</string>
+	<string name="dvbc_operator_canal_digital">Canal Digital</string>
+	<string name="dvbc_operator_numericable">Numericable</string>
+	<string name="dvbc_operator_ziggo">Ziggo</string>
+	<string name="dvbc_operator_comhem">Comhem</string>
+	<string name="dvbc_operator_others">Others</string>
+</resources>
+

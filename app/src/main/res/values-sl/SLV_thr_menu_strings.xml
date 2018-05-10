@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+              
+    <string name="thr_menu_common_setting">Common Setting</string>
+    <string name="thr_menu_confim">confirm</string>
+    <string name="thr_menu_cancal">Avsluta</string>
+    <string name="thr_menu">Meni</string>
+    <string name="thr_menu_select">Välj</string>
+    
+    <string name="thr_menu_picture_mode">Način slike</string>
+    <string name="thr_menu_track">Audio Track</string> 
+    <string name="thr_menu_Equalizer">IzenaĊevalnik</string>
+    <string name="thr_menu_volume">Glasnost</string>
+    
+    
+    
+</resources>
+

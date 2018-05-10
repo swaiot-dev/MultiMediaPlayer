@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="@dimen/PX116_IN1080P"
+	android:background="@drawable/mmp_listselected"
+	android:id="@+id/mmp_menulist_liner"
+	android:gravity="center_vertical">
+
+	<TextView
+		android:id="@+id/mmp_menulist_tv"
+		android:layout_width="@dimen/PX408_IN1080P"
+		android:layout_height="@dimen/PX88_IN1080P"
+		android:gravity="left|center_vertical"
+		style="@style/mmp_pop_tx_menu_item"
+		android:layout_marginLeft="@dimen/PX32_IN1080P">
+	</TextView>
+
+
+
+	<ImageView
+		android:id="@+id/mmp_menulist_img"
+		android:layout_width="@dimen/PX24_IN1080P"
+		android:layout_height="@dimen/PX38_IN1080P"
+		android:visibility="invisible"
+		android:src="@drawable/mmp_toolbar_typeicon_paly">
+
+	</ImageView>
+
+</LinearLayout>

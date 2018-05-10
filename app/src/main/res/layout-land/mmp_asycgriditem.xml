@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mmp_grid_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/transparent"
+    android:padding="@dimen/files_grid_padding"
+    android:focusable="false">
+
+    <RelativeLayout
+        android:id="@+id/mmp_grid_highlight"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/transparent"
+        android:focusable="false">
+
+        <ImageView
+            android:id="@+id/multimedia_gv_img"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:focusable="false"
+            android:gravity="center"
+            android:scaleType="centerCrop"
+            android:src="@drawable/mmp_grid_item_folder_icon" />
+
+        <ImageView
+            android:id="@+id/multimedia_gv_img_over"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:focusable="false"
+            android:src="@drawable/mmp_thumbnail_loading_black_screen_over"
+            android:alpha="0.25"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/multimedia_gv_tv"
+            style="@style/mmp_gridview_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="bottom"
+            android:focusable="false"
+            android:gravity="center"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:paddingBottom="4dip"
+            android:paddingEnd="8dip"
+            android:paddingStart="8dip"
+            android:scrollHorizontally="true"
+            android:singleLine="true" />
+    </RelativeLayout>
+</RelativeLayout>

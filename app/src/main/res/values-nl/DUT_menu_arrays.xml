@@ -1,0 +1,1109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Video DTV00581215-->
+    <string-array name="menu_video_gamma_array">
+        <item>Donker</item>
+        <item>Middle</item>
+        <item>Helder</item>
+    </string-array>
+    <string-array name="menu_video_color_temperature2_array">
+        <item>Gebruiker</item>
+        <item>Koel</item>
+        <item>Standaard</item>
+        <item>Warm</item>
+    </string-array>
+    <string-array name="menu_video_dnr_array">
+        <item>Off</item>
+        <item>Low</item>
+        <item>Medium</item>
+        <item>Sterk</item>
+        <item>Auto</item>
+    </string-array>
+    <!-- mpeg nr -->
+    <string-array name="menu_video_mpeg_nr_array">
+        <item>Off</item>
+        <item>Low</item>
+        <item>Medium</item>
+        <item>Sterk</item>
+    </string-array>
+    <string-array name="menu_video_luma_array">
+        <item>Off</item>
+        <item>Low</item>
+        <item>Medium</item>
+        <item>Sterk</item>
+    </string-array>
+    <string-array name="menu_video_flesh_tone_array">
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+    <string-array name="menu_video_flesh_tone_us_array">
+        <item>Off</item>
+        <item>Low</item>
+        <item>Medium</item>
+        <item>High</item>
+    </string-array>
+    <string-array name="menu_video_black_bar_detection_array">
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+    <string-array name="menu_video_super_resolution_array">
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+    <!-- di film mode -->
+    <string-array name="menu_video_di_film_mode_array">
+        <item>Off</item>
+        <item>Auto</item>
+    </string-array>
+    <string-array name="menu_video_blue_stretch_array">
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+    <string-array name="menu_video_game_mode_array">
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+    <string-array name="menu_video_pq_split_mode_array">
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+    <!-- mjc effect -->
+    <string-array name="menu_video_mjc_effect_array">
+        <item>Off</item>
+        <item>Low</item>
+        <item>Middle</item>
+        <item>High</item>
+    </string-array>
+    <!-- mjc demo partition -->
+    <string-array name="menu_video_mjc_demo_partition_array">
+        <item>All</item>
+        <item>Right</item>
+        <item>Left</item>
+    </string-array>
+    <!-- mjc mode -->
+    <string-array name="menu_video_mjc_mode">
+        <item>Normaal</item>
+        <item>Film Only</item>
+        <item>Deblur Only</item>
+    </string-array>
+    <!-- vga mode -->
+    <string-array name="menu_video_vga_mode_array">
+        <item>Grafisch</item>
+        <item>Video</item>
+    </string-array>
+    <!-- hdmi mode -->
+    <string-array name="menu_video_hdmi_mode_array">
+        <item>Auto</item>
+        <item>Grafisch</item>
+        <item>Video</item>
+    </string-array>
+    <!-- 3d mode -->
+    <string-array name="menu_video_3d_mode_array">
+        <item>OFF</item>
+        <item>Auto Mode</item>
+        <item>2D-to-3D</item>
+        <item>Frame Order</item>
+        <item>Side-by-Side</item>
+        <item>Top-and-Bottom</item>
+        <item>REALD MODE</item>
+        <item>SENSIO</item>
+        <item>Line Interlace</item>
+        <item>DOT ALT MODE</item>
+        <item>CHK BOARD</item>
+    </string-array>
+
+    <!-- 3d_navigation -->
+    <string-array name="menu_video_3d_nav_array">
+        <item>Manual</item>
+        <item>Semi-Auto</item>
+        <item>Auto</item>
+    </string-array>
+
+    <!-- 3d_image_safety -->
+    <string-array name="menu_video_3d_image_safety_array">
+        <item>Off</item>
+        <item>Low</item>
+        <item>Middle</item>
+        <item>High</item>
+    </string-array>
+
+    <!-- left and right exchange switch -->
+    <string-array name="menu_video_3d_lrswitch_array">
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+    <!-- 3d to 2d switch -->
+    <string-array name="menu_video_3d_3t2switch_array">
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+
+    <!-- Audio -->
+    <string-array name="menu_audio_srs_mode_array">
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+    <string-array name="menu_audio_equalizer_array">
+        <item>Off</item>
+        <item>Rock</item>
+        <item>Pop</item>
+        <item>Live</item>
+        <item>Dans</item>
+        <item>Techno</item>
+        <item>Klassiek</item>
+        <item>Zacht</item>
+    </string-array>
+    <string-array name="menu_audio_equalizer_array_us">
+        <item>Off</item>
+        <item>Rock</item>
+        <item>Pop</item>
+        <item>Live</item>
+        <item>Dans</item>
+        <item>Techno</item>
+        <item>Klassiek</item>
+        <item>Zacht</item>
+        <item>Custom1</item>
+        <item>Custom2</item>
+        <item>custom3</item>
+    </string-array>
+    <string-array name="menu_audio_speaker_mode_array">
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+    <string-array name="menu_audio_spdif_mode_array">
+        <item>Off</item>
+        <item>PCM RAW</item>
+        <item>PCM 16</item>
+        <item>PCM 24</item>
+    </string-array>
+    <!-- DTV00580924 -->
+    <string-array name="menu_audio_spdif_mode_us_array">
+        <item>Off</item>
+        <item>Dolby digitaal</item>
+        <item>PCM</item>
+    </string-array>
+    <string-array name="menu_audio_avc_mode_array">
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+    <!-- type -->
+    <string-array name="menu_audio_type_array">
+        <item>Normaal</item>
+        <item>Auditief gehandicapt</item>
+        <item>Visueel gehandicapt</item>
+    </string-array>
+    <!-- speaker -->
+    <string-array name="menu_audio_visually_speaker_array">
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+    <!-- headphone -->
+    <string-array name="menu_audio_visually_headphone_array">
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+    <string-array name="menu_audio_downmixmode_array">
+        <item>Stereo</item>
+        <item>Auto Stereo</item>
+        <item>Surround</item>
+    </string-array>
+     <string-array name="menu_audio_downmixmode_eu_array">
+        <item>Surround</item>
+        <item>Stereo</item>
+        <item>Auto Stereo</item>
+    </string-array>
+    <!-- TV -->
+    <string-array name="menu_tv_tuner_mode_array">
+        <item>Antena</item>
+        <item>Kablowa</item>
+    </string-array>
+    <string-array name="menu_tv_audio_channel_array">
+        <item>Mono</item>
+        <item>Stereo</item>
+        <item>Dubbel1</item>
+        <item>Dubbel2</item>
+    </string-array>
+    <string-array name="menu_tv_audio_channel_mts_array">
+        <item>Mono</item>
+        <item>Stereo</item>
+        <item>SAP</item>
+    </string-array>
+    <!-- fix DTV00581226 -->
+    <string-array name="menu_tv_audio_language_array">
+        <item>Engels</item>
+        <item>Spaans</item>
+        <item>Frans</item>
+    </string-array>
+     <string-array name="menu_tv_subtitle_language_eu_array">
+        <item>Baskisch</item>
+        <item>Bulgaars</item>
+        <item>Kantonees</item>
+        <item>Catalaans</item>
+        <item>Kroatisch</item>
+        <item>Tsjechisch</item>
+        <item>Deens</item>
+        <item>Nederlands</item>
+         <item>Engels</item>
+        <item>Estisch</item>
+        <item>Fins</item>
+        <item>Frans</item>
+        <item>Gaelic</item>
+        <item>Irish</item>
+        <item>Galicisch</item>
+        <item>Duits</item>
+        <item>Grieks</item>
+        <item>Hindi    </item>
+        <item>Hongaars</item>
+        <item>Italiaans</item>
+        <item>IJslands</item>
+        <item>Japans </item>
+        <item>Koreaans</item>
+        <item>Mandarijns </item>
+        <item>Maorisch</item>
+        <item>Noors</item>
+        <item>Pools</item>
+        <item>Portugees</item>
+        <item>Roemeens</item>
+        <item>Russisch</item>
+        <item>Sami</item>
+        <item>Servisch</item>
+        <item>Slowaaks</item>
+        <item>Sloveens</item>
+        <item>Spaans</item>
+        <item>Zweeds</item>
+        <item>Turks</item>
+        <item>Welsh</item>
+        <item>Oorspronkelijk audio</item>
+        <item>Narrative</item>
+        <item>Niet gedefinieerd</item>
+        <item>Off</item>
+    </string-array>
+    <string-array name="menu_tv_audio_language_eu_array">
+        <item>Engels</item>
+        <item>Estisch</item>
+        <item>Fins</item>
+        <item>Frans</item>
+        <item>Gaelic</item>
+        <item>Irish</item>
+        <item>Galicisch</item>
+        <item>Duits</item>
+        <item>Grieks</item>
+        <item>Hindi    </item>
+        <item>Hongaars</item>
+        <item>Italiaans</item>
+        <item>IJslands</item>
+        <item>Japans </item>
+        <item>Koreaans</item>
+        <item>Mandarijns </item>
+        <item>Maorisch</item>
+        <item>Noors</item>
+        <item>Pools</item>
+        <item>Portugees</item>
+        <item>Roemeens</item>
+        <item>Russisch</item>
+        <item>Sami</item>
+        <item>Servisch</item>
+        <item>Slowaaks</item>
+        <item>Sloveens</item>
+        <item>Spaans</item>
+        <item>Zweeds</item>
+        <item>Turks</item>
+        <item>Welsh</item>
+        <item>Oorspronkelijk audio</item>
+        <item>Narrative</item>
+        <item>Niet gedefinieerd</item>
+        <item>Baskisch</item>
+        <item>Bulgaars</item>
+        <item>Kantonees</item>
+        <item>Catalaans</item>
+        <item>Kroatisch</item>
+        <item>Tsjechisch</item>
+        <item>Deens</item>
+        <item>Nederlands</item>
+    </string-array>
+    <string-array name="menu_tv_rf_signal_quality">
+        <item>Good</item>
+        <item>Medium</item>
+        <item>Poor</item>
+    </string-array>
+    <string-array name="menu_tv_tv_system_array">
+        <item>Auto</item>
+        <item>B/G</item>
+        <item>A2 B/G</item>
+        <item>I</item>
+        <item>D/K</item>
+        <item>A2 D/K</item>
+        <item>A2 D/K1</item>
+        <item>A2 D/K2</item>
+        <item>M</item>
+    </string-array>
+    <string-array name="menu_tv_sound_system_array">
+        <item>B/G</item>
+        <item>A2 B/G</item>
+        <item>I</item>
+        <item>D/K</item>
+        <item>A2 D/K</item>
+        <item>A2 D/K1</item>
+        <item>A2 D/K2</item>
+        <item>M</item>
+    </string-array>
+    <string-array name="menu_tv_color_system_array">
+        <item>Auto</item>
+        <item>PAL</item>
+        <item>SECAM</item>
+        <item>NTSC</item>
+    </string-array>
+    <string-array name="menu_tv_scan_mode_array">
+        <item>AUTO</item>
+        <item>16QAM</item>
+        <item>32QAM</item>
+        <item>64QAM</item>
+        <item>128QAM</item>
+        <item>256QAM</item>
+    </string-array>
+    <string-array name="menu_tv_scan_frequency_plan_array">
+        <item>STD</item>
+        <item>IRC</item>
+        <item>HRC</item>
+    </string-array>
+    <string-array name="menu_tv_scan_modulation_array">
+        <item> QAM64</item>
+        <item> QAM256</item>
+    </string-array>
+    <string-array name="menu_tv_us_scan_mode_array">
+        <item>Analoog/Digitaal</item>
+        <item>Analoog</item>
+        <item>Digitaal</item>
+    </string-array>
+    <string-array name="menu_tv_channeledit_array">
+        <item>Channel Info</item>
+        <item>Invoegen</item>
+        <item>Verwijderen</item>
+        <item>Omwisselen</item>
+    </string-array>
+    <string-array name="menu_tv_freeze_channel_array">
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+    <string-array name="menu_tv_fa_dataservice_array">
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+    <string-array name="menu_tv_fine_tune_array">
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+    <string-array name="menu_tv_skip_ch_array">
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+
+    <!-- setup -->
+    <string-array name="menu_setup_language_array">
+        <item>Engels</item>
+        <item>简体中文</item>
+    </string-array>
+    <string-array name="menu_setup_dpms_array">
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+    <string-array name="menu_setup_ginga_array">
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+    <string-array name="menu_setup_blue_mute_array">
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+    <string-array name="menu_setup_fast_boot_array">
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+    <string-array name="menu_setup_msi_array">
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+    <string-array name="menu_setup_poweron_music_array">
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+    <string-array name="menu_setup_tv_single_signal_quality">
+        <item>poor</item>
+        <item>normal</item>
+        <item>good</item>
+    </string-array>
+    <string-array name="menu_setup_scart">
+        <item>Auto</item>
+        <item>Gemengd</item>
+        <item>RGB</item>
+        <item>CVBS</item>
+        <item>S-video</item>
+    </string-array>
+    <string-array name="menu_setup_capturelogo_array">
+        <item>Standaard</item>
+        <item>0</item>
+        <item>1</item>
+        <item>Geen</item>
+    </string-array>
+    
+    <string-array name="menu_setup_analog_subtitle_array">
+        <item>Off</item>
+        <item>On</item>
+        <item>Dempen</item>
+    </string-array>
+    <string-array name="menu_setup_subtitle_type_array">
+        <item>Normaal</item>
+        <item>Auditief gehandicapt</item>
+    </string-array>
+    
+    <string-array name="screen_mode_array_sa">
+		<item>Auto</item>
+		<item>Normaal</item>
+		<item>Zoomen</item>
+	</string-array>
+	 <string-array name="screen_mode_array_vga">
+		<item>Normaal</item>
+		<item>Zoomen</item>
+		<item>Punt voor punt</item>
+	</string-array>
+     <string-array name="screen_mode_array_sa_analog">
+		<item>Auto</item>
+		<item>Normaal</item>
+		<item>Brievenbus</item>
+		<item>Panorama</item>
+		<item>Zoomen</item>
+		<item>Punt voor punt</item>
+	</string-array>
+	 <string-array name="screen_mode_array_eu_analog">
+		<item>Auto</item>
+		<item>Normaal</item>
+		<item>Brievenbus</item>
+		<item>Panorama</item>
+	</string-array>
+	<string-array name="screen_mode_array_sa_pop">
+		<item>Auto</item>
+		<item>Normaal</item>
+		<item>Brievenbus</item>
+		<item>Zoomen</item>
+	</string-array>
+	 <string-array name="screen_mode_array_us_pop">
+		<item>Auto</item>
+		<item>Normaal</item>
+		<item>Zoomen</item>
+	</string-array>
+	 <string-array name="screen_mode_array_sa_pip">
+		<item>Auto</item>
+		<item>Normaal</item>
+		<item>Brievenbus</item>
+	</string-array>
+	 <string-array name="screen_mode_array_us_pip">
+		<item>Auto</item>
+		<item>Normaal</item>
+	</string-array>
+    <!--DTV00580325  -->
+    <string-array name="menu_setup_enable_caption_array">
+        <item>Ja</item>
+        <item>NEE</item>
+        <item>On mute</item>
+    </string-array>
+    <string-array name="menu_setup_analog_caption_array">
+        <item>Off</item>
+        <item>CC1</item>
+        <item>CC2</item>
+        <item>CC3</item>
+        <item>CC4</item>
+        <item>TEXT1</item>
+        <item>TEXT2</item>
+        <item>TEXT3</item>
+        <item>TEXT4</item>
+    </string-array>
+    <string-array name="menu_setup_digital_caption_array">
+        <item>Off</item>
+        <item>Service1</item>
+        <item>Service2</item>
+        <item>Service3</item>
+        <item>Service4</item>
+        <item>Service5</item>
+        <item>Service6</item>
+    </string-array>
+     <string-array name="menu_setup_digital_caption_sa_array">
+        <item>Off</item>
+        <item>Language1</item>
+        <item>Language2</item>
+        <item>Language3</item>
+        <item>Language4</item>
+        <item>Language5</item>
+        <item>Language6</item>
+         <item>Language7</item>
+        <item>Language8</item>
+    </string-array>
+    <string-array name="menu_setup_superimpose_setup_array">
+        <item>Off</item>
+        <item>Language1</item>
+        <item>Language2</item>
+    </string-array>
+    <string-array name="menu_setup_caption_style_array">
+        <item>As-zender</item>
+        <item>Aangepast</item>
+    </string-array>
+    <string-array name="menu_setup_font_size_array">
+        <item>Klein</item>
+        <item>Medium</item>
+        <item>Groot</item>
+    </string-array>
+    <string-array name="menu_setup_font_style_array">
+        <item>Style1</item>
+        <item>Style2</item>
+        <item>Style3</item>
+        <item>Style4</item>
+        <item>Style5</item>
+        <item>Style6</item>
+        <item>Style7</item>
+       
+    </string-array>
+    <string-array name="menu_setup_font_color_array">
+        <item>Zwart</item>
+        <item>Wit</item>
+        <item>Groen</item>
+        <item>Blauw</item>
+        <item>Rood</item>
+        <item>Cyan</item>
+        <item>Yellow</item>
+        <item>Magenta</item>
+        
+    </string-array>
+    <string-array name="menu_setup_font_opacity_array">
+        <item>Solid</item>
+        <item>Translucent</item>
+        <item>Transparent</item>
+    </string-array>
+    <string-array name="menu_setup_background_color_array">
+        <item>Zwart</item>
+        <item>Wit</item>
+        <item>Groen</item>
+        <item>Blauw</item>
+        <item>Rood</item>
+        <item>Cyan</item>
+        <item>Yellow</item>
+        <item>Magenta</item>
+       
+    </string-array>
+    <string-array name="menu_setup_background_opacity_array">
+        <item>Solid</item>
+        <item>Translucent</item>
+        <item>Transparent</item>
+    </string-array>
+    <string-array name="menu_setup_window_color_array">
+        <item>Zwart</item>
+        <item>Wit</item>
+        <item>Groen</item>
+        <item>Blauw</item>
+        <item>Rood</item>
+        <item>Cyan</item>
+        <item>Yellow</item>
+        <item>Magenta</item>
+       
+    </string-array>
+    <string-array name="menu_setup_window_opacity_array">
+        <item>Solid</item>
+        <item>Translucent</item>
+        <item>Transparent</item>
+    </string-array>
+    <string-array name="menu_setup_atv_record_mode_array">
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+    <string-array name="menu_setup_time_shifting_mode_array">
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+    <string-array name="menu_setup_record_quality_array">
+        <item>Low</item>
+        <item>Middle</item>
+        <item>High</item>
+    </string-array>
+    <string-array name="menu_parental_age_ratings_array">
+        <item>Geen</item>
+        <item>Below 10</item>
+        <item>Below 12</item>
+        <item>Below 14</item>
+        <item>Below 16</item>
+        <item>Below 18</item>
+    </string-array>
+    <string-array name="menu_parental_age_ratings_array_eu">
+        <item>None</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+    </string-array>
+     <!-- fix CR DTV580531 -->
+    <string-array name="menu_parental_content_ratings_array">
+        <item>Off</item>
+        <item>Drugs</item>
+        <item>Violence</item>
+        <item>Sex</item>
+        <item>Violence &amp; Drugs</item>
+        <item>Sex &amp; Drugs</item>
+        <item>Violence &amp;  Sex</item>
+        <item>Violence &amp; Sex &amp; Drugs</item>
+        
+    </string-array>
+    
+    <string-array name="menu_factory_high_deviation_mode_array">
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+    <string-array name="menu_factory_carrier_shift_function_array">
+        <item>Off</item>
+         <item>On</item>
+    </string-array>
+    <string-array name="menu_factory_fm_saturation_mute_array">
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+    
+    <string-array name="menu_parental_open_vchip_array">
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+    <string-array name="menu_parental_block_unrated_array">
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+    <string-array name="menu_parental_rating_enable_array">
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+    <string-array name="menu_parental_block_channel_schedule_operation_array">
+        <item>Geen</item>
+        <item>Dagelijks</item>
+        <item>Eenmaal</item>
+    </string-array>
+    <string-array name="menu_setup_digital_teletext_language_array">
+	    <item>Baskisch</item>  
+	    <item>Bulgaars</item>  
+	    <item>Kantonees</item>
+	    <item>Catalaans</item> 
+	    <item>Kroatisch</item> 
+	    <item>Tsjechisch</item> 
+	    <item>Deens</item>
+	    <item>Nederlands</item>  
+	    <item>Engels</item>
+	    <item>Estisch</item> 
+	    <item>Fins</item>
+	    <item>Frans</item>
+	    <item>Gaelic</item>
+	    <item>Irish</item>
+	    <item>Gallegan</item> 
+	    <item>Duits</item> 
+	    <item>Grieks</item>
+	    <item>Hindi    </item>
+	    <item>Hongaars</item>
+	    <item>Italiaans</item>
+	    <item>IJslands</item>
+	    <item>Japans </item>
+	    <item>Koreaans</item>
+	    <item>Mandarijns </item>
+	    <item>Maorisch</item>
+	    <item>Noors</item>
+	    <item>Pools</item>
+	    <item>Portugees</item>
+	    <item>Roemeens</item>
+	    <item>Russisch</item>
+	    <item>Sami</item>
+	    <item>Servisch</item>
+	    <item>Slowaaks</item>
+	    <item>Sloveens</item>
+	    <item>Spaans</item>
+	    <item>Zweeds</item>
+	    <item>Turks</item>
+	    <item>Welsh</item>
+	    <item>Original_Version</item>
+	    <item>Narrative</item>
+	    <item>Niet gedefinieerd</item>
+    </string-array>
+    <string-array name="menu_setup_decoding_page_language_array">
+		<item>WEST EUR</item>
+		<item>EAST EUR</item>
+		<item>RUSLAND</item>
+		<item>RUSSIA_2</item>
+		<item>GRIEKS</item>
+		<item>Turkey</item>
+		<item>Arab/Hbrw</item>
+		<item>Farsian</item>
+		<item>Arab</item>
+		<item>BYELORUSSISCH</item>
+    </string-array>
+    <string-array name="menu_setup_ttx_presentation_level_array">
+        <item>Niveau 1,5</item>
+        <item>Niveau 2,5</item>
+    </string-array>
+    <string-array name="menu_setup_us_timezone_array">
+        <item>Eastern Time</item>
+        <item>Hawaii</item>
+        <item>Alaska</item>
+        <item>Pacific Time</item>
+        <item>Arizona</item>
+        <item>Mountain Time</item>
+        <item>Central Time</item>
+        <item>Indiana</item>
+    </string-array>
+    <string-array name="menu_setup_us_timezone_str">
+        <item>America/New_York</item>
+        <item>Pacific/Honolulu</item>
+        <item>America/Anchorage</item>
+        <item>America/Los_Angeles</item>
+        <item>America/Phoenix</item>
+        <item>America/Denver</item>
+        <item>America/Chicago</item>
+        <item>America/New_York</item>
+    </string-array>
+
+    <integer-array name="menu_setup_us_timezone_values">
+        <item>-5</item>
+        <item>-10</item>
+        <item>-9</item>
+        <item>-8</item>
+        <item>-7</item>
+        <item>-7</item>
+        <item>-6</item>
+        <item>-5</item>
+    </integer-array>
+
+    <string-array name="menu_setup_timezone_array">
+        <item>GMT-12:00</item>
+        <item>GMT-11:00</item>
+        <item>GMT-10:00</item>
+        <item>GMT-9:00</item>
+        <item>GMT-8:00</item>
+        <item>GMT-7:00</item>
+        <item>GMT-6:00</item>
+        <item>GMT-5:00</item>
+        <item>GMT-4:00</item>
+        <item>GMT-3:30</item>
+        <item>GMT-3:00</item>
+        <item>GMT-2:00</item>
+        <item>GMT-1:00</item>
+        <item>As Broadcast</item>
+        <item>GMT+0:00</item>
+        <item>GMT+1:00</item>
+        <item>GMT+2:00</item>
+        <item>GMT+3:00</item>
+        <item>GMT+3:30</item>
+        <item>GMT+4:00</item>
+        <item>GMT+4:30</item>
+        <item>GMT+5:00</item>
+        <item>GMT+5:30</item>
+        <item>GMT+5:45</item>
+        <item>GMT+6:00</item>
+        <item>GMT+6:30</item>
+        <item>GMT+7:00</item>
+        <item>GMT+8:00</item>
+        <item>GMT+9:00</item>
+        <item>GMT+9:30</item>
+        <item>GMT+10:00</item>
+        <item>GMT+11:00</item>
+        <item>GMT+12:00</item>
+        <item>GMT+12:45</item>
+        <item>GMT+13:00</item>
+    </string-array>
+    
+      <integer-array name="menu_setup_timezone_value_array">
+        <item>-12</item>
+        <item>-11</item>
+        <item>-10</item>
+        <item>-9</item>
+        <item>-8</item>
+        <item>-7</item>
+        <item>-6</item>
+        <item>-5</item>
+        <item>-4</item>
+        <item>-350</item>
+        <item>-3</item>
+        <item>-2</item>
+        <item>-1</item>
+        <item>0</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>350</item>
+        <item>4</item>
+        <item>450</item>
+        <item>5</item>
+        <item>550</item>
+        <item>575</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>950</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>-1125</item>
+        <item>-11</item>
+    </integer-array>
+    
+    <string-array name="menu_setup_timezone_name_array">
+        <item>Asia/Magadan</item>
+        <item>Pacific/Midway</item>
+        <item>Pacific/Honolulu</item>
+        <item>America/Anchorage</item>
+        <item>America/Anchorage</item>
+        <item>America/Los_Angeles</item>
+        <item>America/Chihuahua</item>
+        <item>America/Chicago</item>
+        <item>America/Manaus</item>
+        <item>America/St_Johns</item>
+        <item>America/St_Johns</item>
+        <item>America/Godthab</item>
+        <item>Atlantic/Cape_Verde</item>
+        <item>As Broadcast</item>
+        <item>Africa/Casablanca</item>
+        <item>Europe/London</item>
+        <item>Africa/Harare</item>
+        <item>Asia/Amman</item>
+        <item>Asia/Amman</item>
+        <item>Europe/Moscow</item>
+        <item>Asia/Tehran</item>
+        <item>Asia/Yerevan</item>
+        <item>Asia/Colombo</item>
+        <item>Asia/Katmandu</item>
+        <item>Asia/Almaty</item>
+        <item>Asia/Bangkok</item>
+        <item>Asia/Hong_Kong</item>
+        <item>Asia/Tokyo</item>
+        <item>Australia/Adelaide</item>
+        <item>Asia/Yakutsk</item>
+        <item>Asia/Vladivostok</item>
+        <item>Asia/Vladivostok</item>
+        <item>Pacific/Fiji</item>
+        <item>Pacific/Tongatapu</item>
+    </string-array>
+    <string-array name="menu_setup_auto_synchronization_array">
+        <item>Off</item>
+        <item>sync from Stream</item>
+        <item>sync from Network</item>
+    </string-array>
+    <string-array name="menu_setup_power_on_timer_array">
+        <item>Off</item>
+        <item>On</item>
+        <item>Once</item>
+    </string-array>
+    <string-array name="menu_setup_sleep_timer_array">
+        <item>Off</item>
+        <item>10 Minutes</item>
+        <item>20 Minutes</item>
+        <item>30 Minutes</item>
+        <item>40 Minutes</item>
+        <item>50 Minutes</item>
+        <item>60 Minutes</item>
+        <item>90 Minutes</item>
+        <item>120 Minutes</item>
+    </string-array>
+    <string-array name="menu_setup_power_on_channel_mode_array">
+        <item>Laatste status</item>
+        <item>Gebruiker selecteren</item>
+    </string-array>
+    <string-array name="menu_setup_power_off_timer_array">
+        <item>Off</item>
+        <item>On</item>
+        <item>Once</item>
+    </string-array>
+    <string-array name="menu_setup_auto_sleep_array">
+        <item>Off</item>
+        <item>1Hour</item>
+        <item>2Hours</item>
+        <item>5Hours</item>
+    </string-array>
+    <string-array name="menu_setup_auto_sleep_eu_array">
+        <item>Off</item>
+        <item>4 Hours</item>
+        <item>6 Hours</item>
+        <item>8 Hours</item>
+    </string-array>
+    <string-array name="menu_setup_network_connection_array">
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+    <string-array name="menu_setup_address_type_array">
+        <item>Auto</item>
+        <item>Manual</item>
+    </string-array>
+    <string-array name="menu_setup_dlna_array">
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+    <string-array name="menu_setup_my_network_place_array">
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+    <string-array name="menu_setup_null_array">
+        <item>  </item>
+    </string-array>
+    <!-- factory -->
+    <string-array name="menu_factory_autovedio_array">
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+
+    <!-- factory_video_dima  fix CR 580473-->
+    <string-array name="menu_factory_auto_dima_array">
+        <item>Traag Beeld</item>
+        <item>Actie Beeld</item>
+    </string-array>
+
+    <!-- factory_video_deedge -->
+    <string-array name="menu_factory_video_diedge_array">
+        <item>Zwak</item>
+        <item>Sterk</item>
+    </string-array>
+
+    <!-- factory_video_wcg -->
+    <string-array name="menu_factory_video_wcg_array">
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+
+    <!-- factory_video_flip -->
+    <string-array name="menu_factory_video_flip_array">
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+
+    <!-- factory_video_mirror -->
+    <string-array name="menu_factory_video_mirror_array">
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+    <!-- factory_video_local -->
+    <string-array name="menu_factory_video_local_array">
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+    <!-- factory_video_color_temperature -->
+    <string-array name="menu_factory_video_colortemperature_array">
+        <item>Gebruiker</item>
+        <item>Koel</item>
+        <item>Standaard</item>
+        <item>Warm</item>
+    </string-array>
+
+    <!-- factory_audio_dolby_banner -->
+    <string-array name="menu_factory_audio_dolbybanner_array">
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+
+    <!-- factory_audio_compression -->
+    <string-array name="menu_factory_audio_compression_array">
+        <item>Lijn</item>
+        <item>RF</item>
+    </string-array>
+
+    <!-- factory_audio_compression_factor -->
+    <string-array name="menu_factory_audio_compressionfactor_array">
+        <item>Off</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>40</item>
+        <item>50</item>
+        <item>60</item>
+        <item>70</item>
+        <item>80</item>
+        <item>90</item>
+        <item>100</item>
+    </string-array>
+    <string-array name="menu_factory_setup_eventform">
+        <item>Beide formulieren</item>
+        <item>Lang formulier</item>
+        <item>Kort formulier</item>
+    </string-array>
+    <string-array name="menu_factory_setup_burning_mode">
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+    <!-- DTV00580367 -->
+    <string-array name="menu_factory_setup_uart_mode">
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+     <string-array name="menu_factory_setup_eu_uart_mode">
+          <item>Off</item>
+         <item>On</item>
+    </string-array>
+    <!-- factory_audio_system_test -->
+    <string-array name="menu_factory_audio_system_test_array">
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+    <string-array name="menu_ci_not_support_channel">
+        <item>没有授权</item>
+    </string-array>
+    <!-- pvr & tshift -->
+    <string-array name="pvr_tshift_srctype">
+        <item>Televisie</item>
+        <item>Composite</item>
+    </string-array>
+    <string-array name="pvr_tshift_channel_temp_list">
+        <item>CH41</item>
+        <item>CH42</item>
+        <item>CH43</item>
+        <item>CH44</item>
+    </string-array>
+    <string-array name="pvr_tshift_schedule_type">
+        <item>Record</item>
+        <item>Herinnering</item>
+    </string-array>
+    <string-array name="pvr_tshift_repeat_type">
+        <item>Eenmaal</item>
+        <item>Week</item>
+        <item>Dagelijks</item>
+    </string-array>
+    <string-array name="menu_tv_tshift_config_array">
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+    <string-array name="menu_cec_on_off">
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+
+    <!-- Add for EU DVBC -->
+    <string-array name="menu_scan_mode">
+        <item>Ga verder</item>
+        <item>Snel</item>
+        <item>Full</item>
+    </string-array>
+    <string-array name="menu_tv_tuner_mode_array_full_eu">
+        <item>Antena</item>
+        <item>Kablowa</item>
+        <item>@string/dvbs_preferred_satellite</item>
+        <item>@string/dvbs_general_satellite</item>
+    </string-array>
+    <string-array name="menu_setup_oad_auto_download_array">
+        <item>NEE</item>
+        <item>Ja</item>
+    </string-array>
+ <string-array name="menu_tv_country_region_id_eu">
+        <item>Country Region ID 1</item>
+        <item>Country Region ID 2</item>
+    </string-array>
+</resources>
+

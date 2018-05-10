@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+              
+    <string name="thr_menu_common_setting">Common Setting</string>
+    <string name="thr_menu_confim">confirm</string>
+    <string name="thr_menu_cancal">Izhod</string>
+    <string name="thr_menu">Meniu </string>
+    <string name="thr_menu_select">Izberi</string>
+    
+    <string name="thr_menu_picture_mode">Mod imagine</string>
+    <string name="thr_menu_track">Audio Track</string> 
+    <string name="thr_menu_Equalizer">Egalizator</string>
+    <string name="thr_menu_volume">Volum</string>
+    
+    
+    
+</resources>
+

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!--Screen mode-->
+	<string-array name="screen_mode_array_us">
+		<item>Unknown</item>
+		<item>Normal</item>
+		<item>Letterbox</item>
+		<item>Zoom</item>
+		<item>User Defined</item>
+		<item>Panorâmico</item>
+		<item>Ponto a Ponto</item>
+		<item>Auto</item>
+		<item>Custom Def 1</item>
+		<item>Custom Def 2</item>
+		<item>Custom Def 3</item>
+		<item>Custom Def 4</item>
+		<item>Custom Def 5</item>
+		<item>Custom Def 6</item>
+		<item>Custom Def 7</item>
+		<item>NLZ Custom Def 0</item>
+		<item>NLZ Custom Def 1</item>
+		<item>NLZ Custom Def 2</item>
+		<item>NLZ Custom Def 3</item>
+	</string-array>
+
+	<!--Picture effect-->
+	<string-array name="picture_effect_array_us">
+		<item>User</item>
+		<item>Cinema</item>
+		<item>Sport</item>
+		<item>Vivid</item>
+		<item>Hi-Bright</item>
+		<item>Custom1</item>
+		<item>Custom2</item>
+		<item>Custom3</item>
+	</string-array>
+
+</resources>

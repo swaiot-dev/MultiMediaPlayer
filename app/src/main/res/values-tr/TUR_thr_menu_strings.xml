@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+              
+    <string name="thr_menu_common_setting">Common Setting</string>
+    <string name="thr_menu_confim">confirm</string>
+    <string name="thr_menu_cancal">Выход</string>
+    <string name="thr_menu">Menüsü</string>
+    <string name="thr_menu_select">Выбор</string>
+    
+    <string name="thr_menu_picture_mode">Resim Modu </string>
+    <string name="thr_menu_track">Audio Track</string> 
+    <string name="thr_menu_Equalizer">Ekolayzır </string>
+    <string name="thr_menu_volume">Ses Seviyesi </string>
+    
+    
+    
+</resources>
+

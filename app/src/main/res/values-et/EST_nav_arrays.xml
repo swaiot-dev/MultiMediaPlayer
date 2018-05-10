@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+	<string-array name="nav_channel_types">
+		<item>All</item>
+		<!--<item>Analoog</item>
+		<item>Digitaal</item>-->
+		<item>Raadio</item>
+	</string-array>
+	<!--
+
+		{ "Auto", "Normal", "LetterBox", "Zoom", "Panorama", "Dot by Dot" }
+	-->
+	<!--
+		<string-array name="nav_aspect_strings"> <item>Auto</item>
+		<item>Normal</item> <item>LetterBox</item> <item>Zoom</item>
+		<item>Panorama</item> <item>Dot by Dot</item> </string-array>
+	-->
+	<!--
+		"Sleep:Off", "Sleep: 10 Minutes", "Sleep:20 Minutes", "Sleep:30
+		Minutes", "Sleep:40 Minutes", "Sleep:50 Minutes", "Sleep:60 Minutes",
+		"Sleep:90 Minutes", "Sleep:120 Minutes" };
+	-->
+
+	<string-array name="nav_sleep_strings">
+		<item>Sleep:Off</item>
+		<item>Sleep:15 Minutes</item>
+		<item>Sleep:30 Minutes</item>
+		<item>Sleep:45 Minutes</item>
+		<item>Sleep:60 Minutes</item>
+		<item>Sleep:90 Minutes</item>
+		<item>Sleep:120 Minutes</item>
+	</string-array>
+	<string-array name="nav_zoom_strings">
+		<item>zoom X 1</item>
+		<item>zoom X 2</item>
+		<item>zoom X 1/2</item>
+	</string-array>
+	
+	<!-- OFF, Rock, Pop, Live, Dance, Techno, Classic and Soft -->
+	<string-array name="nav_s_effect_strings">
+        <item>Kasutaja</item>
+		<item>Standardne</item>
+		<item>Live1</item>
+	</string-array>
+
+	<string-array name="nav_freeze_strings">
+		<item>Freeze: On</item>
+		<item>Freeze: Off</item>
+	</string-array>
+	
+	<string-array name="nav_epg_filter_type">
+		<item>FILMID</item>
+		<item>UUDIS</item>
+		<item>SHOW</item>
+		<item>SPORT</item>
+		<item>LASTE</item>
+		<item>MUUS.</item>
+		<item>KUNST</item>
+		<item>ÜHISKO.</item>
+		<item>HARIDUS</item>
+		<item>VABA AEG</item>
+		<item>SPETS.</item>
+	</string-array>
+	
+	<string-array name="nav_epg_filter_type_AUS">
+		<item>FILMID</item>
+		<item>UUDIS</item>
+		<item>MEELELAHUTUS</item>
+		<item>SPORT</item>
+		<item>LASTE</item>
+		<item>MUUS.</item>
+		<item>KUNST</item>
+		<item>VIIMASED UUDISED</item>
+		<item>HARIDUS</item>
+		<item>INFOTAINMENT</item>
+		<item>SPETS.</item>
+		<item>KOMÖÖDIA</item>
+		<item>DRAAMA</item>
+		<item>TÕSIELUFILM</item>
+	</string-array>
+	
+	<string-array name="nav_epg_filter_type_UK">
+		<item>FILMID</item>
+		<item>UUDIS</item>
+		<item>MEELELAHUTUS</item>
+		<item>SPORT</item>
+		<item>LASTE</item>
+		<item>EDUCATION</item>
+		<item>LIFESTYLE</item>
+		<item>DRAAMA</item>
+	</string-array>
+	
+	<string-array name="nav_epg_filter_sa_type">
+		<item>UUDIS</item>
+		<item>SPORT</item>
+		<item>HARIDUS</item>
+		<item>SOAP_OPERA</item>
+		<item>MINI_SERIES</item>
+		<item>SERIES</item>
+		<item>VARIETY</item>
+		<item>REALITY_SHOW</item>
+		<item>INFOMATION</item>
+		<item>COMICAL</item>
+		<item>CHILDREN</item>
+		<item>EROTIC</item>
+		<item>FILMID</item>
+		<item>RA_TE_SA_PR</item>
+		<item>DEBATE_INTERVIEW</item>
+		<item>OTHER</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_movie">
+		<item>Draama</item>
+		<item>Detektiiv-</item>
+		<item>Seiklus</item>
+		<item>Science Fiction</item>
+		<item>Komööd.</item>
+		<item>Seep</item>
+		<item>Romant.</item>
+		<item>Tõsielu</item>
+		<item>Täskasvanuile</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_news">
+		<item>Viimased uudised</item>
+		<item>Ilmateade</item>
+		<item>Uudisteajakiri</item>
+		<item>Tõsielufilm</item>
+		<item>Mõttevahetus</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_news">
+		<item>Uudis</item>
+		<item>Report</item>
+		<item>Tõsielufilm</item>
+		<item>Biography</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_show">
+		<item>Show</item>
+		<item>Mäng. show</item>
+		<item>Estraadikonts.</item>
+		<item>Jutusaade</item>
+	</string-array>
+	
+	<string-array name="nav_epg_subtype_sports">
+		<item>Sport</item>
+		<item>Erisündmused</item>
+		<item>Spordiajakirjad</item>
+		<item>Jalgpall</item>
+		<item>Tennis</item>
+		<item>Meesk-sport</item>
+		<item>Kergejõust.</item>
+		<item>Motosport</item>
+		<item>Veesport</item>
+		<item>Talisport</item>
+		<item>Ratsutamine</item>
+		<item>Võitlussport</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_sports">
+		<item>Sport</item>
+	</string-array>
+	
+	<string-array name="nav_epg_subtype_children">
+		<item>Laste</item>
+		<item>Eelkooliealised lapsed</item>
+		<item>Meelelahutus 6 - 14-aastastele</item>
+		<item>Meelelahutus 10 - 16-aastastele</item>
+		<item>Informatiivne</item>
+		<item>Multifilm.</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_music">
+		<item>Muus.</item>
+		<item>Rock</item>
+		<item>Tõsielu</item>
+		<item>Folk</item>
+		<item>Džäss</item>
+		<item>Muusikal</item>
+		<item>Ballett</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_arts">
+		<item>Kunst</item>
+		<item>Etenduskunst</item>
+		<item>Kujut.kunst</item>
+		<item>Religioon</item>
+		<item>Populaarkultuur</item>
+		<item>Kirjandus</item>
+		<item>Film</item>
+		<item>Eksperimentaal-</item>
+		<item>Ringhääling</item>
+		<item>Uus meedia</item>
+		<item>Kunstiajakirjad</item>
+		<item>Mood</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_social">
+		<item>Ühisk.</item>
+		<item>Ajakirjad</item>
+		<item>Majandus</item>
+		<item>Tähelepanuv.inimesed</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_education">
+		<item>Haridus</item>
+		<item>Loodus</item>
+		<item>Tehnoloogia</item>
+		<item>Meditsiin</item>
+		<item>Välisriigid</item>
+		<item>Sotsiaalteadused</item>
+		<item>Jätkuharidus</item>
+		<item>Keeled</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_education">
+		<item>Educative</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_soap_opera">
+		<item>Soap opera</item>
+	</string-array>
+	
+	<string-array name="nav_epg_subtype_sa_mini_series">
+		<item>Mini-series</item>
+	</string-array>
+	
+	<string-array name="nav_epg_subtype_sa_series">
+		<item>Seeria</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_variety">
+		<item>Auditorium</item>
+		<item>Show</item>
+		<item>Muusikal</item>
+		<item>Making of</item>
+		<item>Feminine</item>
+		<item>Mäng. show</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_reality_show">
+		<item>Reality show</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_information">
+		<item>Kokakun.</item>
+		<item>Mood</item>
+		<item>Riik</item>
+		<item>Health</item>
+		<item>Travel</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_comical">
+		<item>Comical</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_children">
+		<item>Children</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_erotic">
+		<item>Erotic</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_movie">
+		<item>Filmid</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_RA_TE_SA_PR">
+		<item>Raffle</item>
+		<item>Television sales</item>
+		<item>Prizing</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_DEBATE_INTERVIEW">
+		<item>Mõttevahetus</item>
+		<item>Interview</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_other">
+		<item>Adult cartoon</item>
+		<item>Interactive</item>
+		<item>Policy</item>
+		<item>Religioon</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_leisure">
+		<item>Vabaajaharrastused</item>
+		<item>Turism</item>
+		<item>Käsitöö</item>
+		<item>Autondus</item>
+		<item>Fitness ja tervis</item>
+		<item>Kokakun.</item>
+		<item>Reklaam</item>
+		<item>Aiandus</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_special">
+		<item>Algupärane keel</item>
+		<item>Must-valge</item>
+		<item>Avaldamata</item>
+		<item>Otseülekanne</item>
+	</string-array>
+
+
+	<!-- MTS -->
+	<string-array name="nav_mts_strings">
+		<item>UNKNOW</item>
+		<item>MONO</item>
+		<item>STEREO</item>
+		<item>SUB_LANG</item>
+		<item>DUAL1</item>
+		<item>DUAL2</item>
+		<item>NICAM_MONO</item>
+		<item>NICAM_STEREO</item>
+		<item>NICAM_DUAL1</item>
+		<item>NICAM_DUAL2</item>
+		<item>FM_MONO</item>
+		<item>FM_STEREO</item>
+	</string-array>
+
+	<!-- AUDIO_TVCM -->
+	<string-array name="nav_audio_tvcm_strings">
+		<item>baq</item>
+		<item>eus</item>
+		<item>bul</item>
+		<item>cat</item>
+		<item>scr</item>
+		<item>cze</item>
+		<item>dan</item>
+		<item>dut</item>
+		<item>eng</item>
+		<item>fin</item>
+		<item>fre</item>
+		<item>gla</item>
+		<item>gdh</item>
+		<item>gle</item>
+		<item>glg</item>
+		<item>ger</item>
+		<item>gre</item>
+		<item>hun</item>
+		<item>ita</item>
+		<item>nor</item>
+		<item>pol</item>
+		<item>por</item>
+		<item>rum</item>
+		<item>rus</item>
+		<item>scc</item>
+		<item>slo</item>
+		<item>slv</item>
+		<item>spa</item>
+		<item>swe</item>
+		<item>tur</item>
+		<item>wel</item>
+		<item>ice</item>
+		<item>isl</item>
+		<item>smi</item>
+		<item>tha</item>
+		<item>vie</item>
+		<item>ara</item>
+		<item>zho</item>
+		<item>chi</item>
+		<item>per</item>
+		<item>kor</item>
+		<item>est</item>
+		<item>mao</item>
+		<item>cmn</item>
+		<item>yue</item>
+		<item>jpn</item>
+		<item>hin</item>
+		<item>nar</item>
+		<item>qaa</item>
+		<item>und</item>
+	</string-array>
+
+	<!-- AUDIO -->
+	<string-array name="nav_audio_strings">
+		<item>baski</item>
+		<item>baski</item>
+		<item>Bulaarian</item>
+		<item>catalan</item>
+		<item>horvaadi</item>
+		<item>tšehhi</item>
+		<item>taani</item>
+		<item>hollan.</item>
+		<item>inglise</item>
+		<item>soome</item>
+		<item>french</item>
+		<item>gaelic</item>
+		<item>gaelic</item>
+		<item>Irish</item>
+		<item>gallegan</item>
+		<item>german</item>
+		<item>greek</item>
+		<item>hungarian</item>
+		<item>italian</item>
+		<item>norwegian</item>
+		<item>polish</item>
+		<item>portuguese</item>
+		<item>romanian</item>
+		<item>russian</item>
+		<item>serbian</item>
+		<item>slovak</item>
+		<item>slovenian</item>
+		<item>spanish</item>
+		<item>swedish</item>
+		<item>turkish</item>
+		<item>welsh</item>
+		<item>icelandic</item>
+		<item>icelandic</item>
+		<item>Sami langs</item>
+		<item>tai</item>
+		<item>vietnami</item>
+		<item>araabia</item>
+		<item>T. Chinese</item>
+		<item>S. Chinese</item>
+		<item>pärsia</item>
+		<item>korea</item>
+		<item>Eesti</item>
+		<item>Maori</item>
+		<item>Mandariini hiina </item>
+		<item>Kantoni</item>
+		<item>Jaapani </item>
+		<item>Hindi    </item>
+		<item>Narrative</item>
+		<item>Original Version for France</item>
+		<item>Määratl-ta</item>
+	</string-array>
+
+	<string-array name="nav_bottom_volume">
+		<item>Põhikõlari helitugevus</item>
+		<item>Vasaku esikülje kõlari helitugevus</item>
+		<item>Parema esikülje kõlari helitugevus</item>
+		<item>Vasaku tagakülje kõlari helitugevus</item>
+		<item>Parema tagakülje kõlari helitugevus</item>
+		<item>Keskmise kõlari helitugevus</item>
+		<item>Subwoofer-kõlari helitugevus</item>
+	</string-array>
+
+    <string-array name="nav_zoom_mode">
+		<item>Zoom x 1/2</item>
+		<item>Zoom x 1</item>
+		<item>Zoom x 2</item>
+	</string-array>
+
+	<string-array name="nav_receiver_type">
+		<item>Kaabel</item>
+		<item>Antenn</item>
+	</string-array>
+	<string-array name="pvr_tshift_initdisk_step1">
+		<item>Auto</item>
+		<item>Manual</item>
+	</string-array>
+	<string-array name="pvr_tshift_initdisk_step_format">
+		<item>Format</item>
+		<item>Jäta vahele</item>
+	</string-array>
+	<string-array name="pvr_tshift_initdisk_step_formatconfirm">
+		<item>Format</item>
+		<item>Loobu</item>
+	</string-array>
+	
+	<string-array name="week_day">
+	    <item>Pühap.</item>
+		<item>Esmasp.</item>
+		<item>Teisip.</item>
+		<item>Kolmap.</item>
+		<item>Neljap.</item>
+		<item>Reede</item>
+		<item>Laupäev</item>
+	</string-array>
+    <string-array name="nav_oad_btns_cancel">
+        <item>Loobu</item>
+    </string-array>
+    <string-array name="nav_oad_btns_accept_remind_me_later">
+        <item>Aktsep.</item>
+        <item>Meenuta hiljem</item>
+    </string-array>
+    <string-array name="nav_oad_btns_accept_reject">
+        <item>Aktsep.</item>
+        <item>Hülga</item>
+    </string-array>
+    
+    <string-array name="nav_oad_btns_yes_no">
+        <item>Jah</item>
+        <item>Ei</item>
+    </string-array>
+
+
+
+
+
+	<!--				
+				0:	MSG_STR_ID_EMPTY,						hide screen saver
+     				1:	MSG_STR_ID_NO_SIGNAL,					No Signal!
+     				2:	MSG_STR_ID_SCAN_CH,					Please Scan Channels!
+     				3:	MSG_STR_ID_GETTING_DATA,				Retrieving Data...
+     				4:	MSG_STR_ID_LOCKED_CH,					Channel Locked!
+     				5:	MSG_STR_ID_LOCKED_PROG,				Program Locked!
+     				6:	MSG_STR_ID_LOCKED_INP,					Input Locked!
+     				7:	MSG_STR_ID_NO_EVN_TILE,					(No program title.)
+     				8:	MSG_STR_ID_HIDDEN_CH,					Hidden Channel!
+     				9:	MSG_STR_ID_AUDIO_PROG,					Audio Program
+     				10:	MSG_STR_ID_NO_AUDIO_VIDEO,			No Audio and Video
+     				11:	MSG_STR_ID_NO_EVN_DTIL,				(No program details.)
+     				12:	MSG_STR_ID_NO_CH_DTIL,					(No channel details.)
+     				13:	MSG_STR_ID_NO_AUDIO_STRM,				no audio stream ??
+     				14:	MSG_STR_ID_NO_VIDEO_STRM,				no video stream ??
+     				15:	MSG_STR_ID_PLS_WAIT,					Please Wait...
+     				16:	MSG_STR_ID_VIDEO_NOT_SUPPORT,			video not support ??
+     				17:	MSG_STR_ID_HD_VIDEO_NOT_SUPPORT,		HD Service
+     				18:	MSG_STR_ID_NON_BRDCSTING,				Non-Broadcasting
+     				19:	MSG_STR_ID_NO_CH_IN_LIST,				no channel ??
+     				20:	MSG_STR_ID_TTX_SBTI_X_RATED_BLOCKED,	This content is blocked by your service provider
+     				255:	MSG_STR_ID_LAST_VALID_ENTRY,			only for counting purpose
+    -->
+	<string-array name="nav_twinkle_strings">
+		<item>  </item>
+		<item>Sign.puudub!</item>
+		<item>Palun skaneerige kanalid!</item>
+		<item>Andmete toomine...</item>
+		<item>Kanal lukustatud!</item>
+		<item>Progr. lukustatud!</item>
+		<item>Sisend lukust.!</item>
+		<item>(Progr. tiitel puudub.)</item>
+		<item>Peidetud kanal!</item>
+		<item>Audioprogramm</item>
+		<item>Helita ja pildita</item>
+		<item>(Programmi andmeid pole.)</item>
+		<item>(Kanali üksikasju ei ole.)</item>
+		<item>♪ No Audio Stream ♪</item>
+		<item>No Video Stream</item>
+		<item>Palun oodake...</item>
+		<item>Video not Support</item>
+		<item>HD teenus</item>
+		<item>Non-Broadcasting</item>
+		<item>No Channel</item>
+		<item>This content is blocked by your service provider</item>
+		<item>Skrambl.</item>
+	</string-array>
+
+
+	<string-array name="nav_channel_type">
+		<item>All</item>
+		<item>Digitaal</item>
+		<item>Raadio</item>
+		<item>Analoog</item>
+	</string-array>
+
+
+    
+</resources>
+

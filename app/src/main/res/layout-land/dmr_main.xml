@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tk_cm_mid_bg"
+    android:orientation="vertical"
+    android:id="@+id/dmr_layout" >
+
+    <TextView
+        android:id="@+id/dmr_info"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/mmp_dmr_starting"
+        android:textSize="20sp" 
+        android:gravity="center"
+        android:layout_gravity="center"
+        />
+
+</LinearLayout>

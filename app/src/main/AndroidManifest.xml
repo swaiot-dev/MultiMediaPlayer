@@ -1,0 +1,495 @@
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mediatek.wwtv.mediaplayer"
+    android:sharedUserId="android.uid.system"
+    android:versionCode="10004"
+    android:versionName="1.0.4"
+     >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="23" />
+    <uses-permission android:name="android.permission.talkback.keyevent"/>
+    <uses-permission android:name="android.permission.HDMI_CEC" />
+    <uses-permission android:name="android.permission.SHUTDOWN" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SET_TIME_ZONE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="adnroid.permission.ACCESS_CHECKIN_PROPERTTES" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.FORCE_STOP_PACKAGES" />
+    <uses-permission android:name="android.permission.REORDER_TASKS" />
+    <uses-permission android:name="android.permission.REBOOT" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="com.android.providers.tv.permission.READ_EPG_DATA" />
+    <uses-permission android:name="com.android.providers.tv.permission.WRITE_EPG_DATA" />
+    <uses-permission android:name="com.android.providers.tv.permission.ACCESS_ALL_EPG_DATA" />
+    <uses-permission android:name="android.permission.TV_INPUT_HARDWARE" />
+    <uses-permission android:name="com.google.android.tv.permission.RECEIVE_INPUT_EVENT" />
+    <uses-permission android:name="com.android.tv.permission.RECEIVE_INPUT_EVENT" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <!-- SKY luojie 20180104 add for add TVBlock Channel function begin -->
+    <uses-permission android:name="android.permission.STOP_APP_SWITCHES" />
+    <uses-permission android:name="skyworth.permission.MEDIA_CHANNEL_SERVICE" />
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS" />
+    <!-- SKY luojie 20180104 add for add TVBlock Channel function end -->
+
+    <protected-broadcast android:name="mtk.intent.volume.status" />
+
+    <supports-screens android:xlargeScreens="true" />
+    <uses-feature android:name="android.software.leanback" android:required="true"/>
+    <application
+        android:name=".util.MmpApp"
+        android:allowBackup="true"
+        android:banner="@drawable/mmp_logo"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:logo="@drawable/mmp_logo"
+        android:theme="@style/Theme.Leanback"
+
+         >
+
+        <!-- MMP activity -->
+		<!-- SKY luojie 20180211 add for remove the MediaMainActivity begin -->
+		<!--
+        <activity
+            android:name="com.mediatek.wwtv.mediaplayer.mmp.MediaMainActivity"
+            android:hardwareAccelerated="false"
+            android:label="@string/app_name"
+             android:theme="@style/Theme.Leanback"
+             >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+            </intent-filter>
+        </activity>
+		-->
+		<!-- SKY luojie 20180211 add for remove the MediaMainActivity end -->
+
+        <!--
+        MENU activity
+        <activity android:name="com.mediatek.wwtv.mediaplayer.menu.MenuMain"
+            android:label="@string/menu_interface_name"
+            android:screenOrientation="landscape" android:windowSoftInputMode="stateAlwaysHidden|stateHidden"
+            android:theme="@style/menuMain_Transparent" android:configChanges="locale|layoutDirection|keyboard|keyboardHidden">
+        </activity>
+        <activity android:name="com.mediatek.wwtv.mediaplayer.mmp.DmrActivity"
+            android:hardwareAccelerated="false"
+            android:label="@string/app_name" android:theme="@style/AnimationTheme" />
+        <activity android:name="com.mediatek.wwtv.mediaplayer.mmp.multimedia.ShowInfoActivity"
+            android:launchMode="singleTask" android:theme="@style/AnimationTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="*/files" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.mediatek.wwtv.mediaplayer.mmp.multimedia.PhotoPlayActivity"
+            android:theme="@style/AnimationTheme" android:configChanges="keyboard|keyboardHidden"
+                  android:hardwareAccelerated="false">
+         </activity>
+        <activity android:name="com.mediatek.wwtv.mediaplayer.mmp.multimedia.PhotoPlayDmrActivity"
+            android:theme="@style/AnimationTheme" android:configChanges="keyboard|keyboardHidden"
+                  android:hardwareAccelerated="false">
+               <intent-filter>
+                <action android:name="android.intent.action.mmp.photo" />
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.mediatek.wwtv.mediaplayer.mmp.multimedia.MusicPlayActivity"
+            android:theme="@style/AnimationTheme" android:configChanges="keyboard|keyboardHidden">
+
+        </activity>
+        <activity android:name="com.mediatek.wwtv.mediaplayer.mmp.multimedia.MusicPlayDmrActivity"
+            android:theme="@style/AnimationTheme" android:configChanges="keyboard|keyboardHidden">
+             <intent-filter>
+                <action android:name="android.intent.action.mmp.music" />
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.mediatek.wwtv.mediaplayer.mmp.multimedia.VideoPlayActivity"
+            android:theme="@style/AnimationTheme" android:configChanges="keyboard|keyboardHidden">
+        </activity>
+        <activity android:name="com.mediatek.wwtv.mediaplayer.mmp.multimedia.VideoPlayDmrActivity"
+            android:theme="@style/AnimationTheme" android:configChanges="keyboard|keyboardHidden">
+                        <intent-filter>
+                <action android:name="android.intent.action.mmp.video" />
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.mediatek.wwtv.mediaplayer.mmp.multimedia.TextPlayActivity"
+            android:theme="@style/AnimationTheme" android:configChanges="keyboard|keyboardHidden"></activity>
+
+        <activity android:name="com.mediatek.wwtv.mediaplayer.mmp.multimedia.Photo3DPlayActivity"
+            android:theme="@style/AnimationThemePhoto" android:configChanges="keyboard|keyboardHidden"></activity>
+        <activity android:name="com.mediatek.wwtv.mediaplayer.mmp.multimedia.Photo4K2KPlayActivity"
+            android:theme="@style/AnimationThemePhoto" android:configChanges="keyboard|keyboardHidden"
+            android:hardwareAccelerated="true"></activity>
+        <activity android:name="com.mediatek.wwtv.mediaplayer.mmp.multimedia.Photo4K2KPlayDmrActivity"
+            android:theme="@style/AnimationThemePhoto" android:configChanges="keyboard|keyboardHidden"
+            android:hardwareAccelerated="true">
+            <intent-filter>
+                <action android:name="android.intent.action.mmp.4k2kphoto" />
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.mediatek.wwtv.mediaplayer.mmp.multimedia.MtkFilesGridActivity"
+            android:theme="@style/AnimationTheme" android:launchMode="singleTask"
+            android:configChanges="keyboard|keyboardHidden"></activity>
+        <activity android:name="com.mediatek.wwtv.mediaplayer.mmp.multimedia.MtkFilesListActivity"
+            android:launchMode="singleTask" android:theme="@style/AnimationTheme"
+            android:configChanges="keyboard|keyboardHidden"></activity>
+        <activity android:name="com.mediatek.wwtv.mediaplayer.mmp.gamekit.filebrowse.MtkFileFlimBrowseActivity" android:launchMode="singleTask"
+             android:theme="@style/AnimationTheme"
+             android:screenOrientation="landscape" android:configChanges="keyboard|keyboardHidden">
+        </activity>
+
+
+
+        <activity android:name="com.mediatek.wwtv.mediaplayer.capturelogo.CaptureLogoActivity"
+            android:label="@string/app_name" android:theme="@style/CaptureLogoTheme" />
+
+
+
+        <service android:name="com.mediatek.record.RecordService" />
+        <receiver android:name="com.mediatek.wwtv.mediaplayer.timeshift_pvr.manager.PowerReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_PREPARE_SHUTDOWN" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.mediatek.wwtv.mediaplayer.timeshift_pvr.controller.SchedulePvrActivity"
+            android:configChanges="locale"
+            android:exported="false"
+            android:label="@string/title_activity_schedule_pvr"
+            android:launchMode="singleTop"
+            android:theme="@style/Transparent" >
+            <intent-filter>
+                <action android:name="com.mediatek.wwtv.mediaplayer.schedulepvr.activity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+
+
+		<activity android:name="com.mediatek.wwtv.mediaplayer.vssdemo.VssDemoActivity"
+			android:hardwareAccelerated="false"
+			android:label="@string/app_name" android:theme="@style/menuMain_Transparent">
+			<intent-filter>
+				<action android:name="android.intent.action.VssDemo" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+
+        <service android:name="com.mediatek.mmpcm.audioimpl.PlaybackService" />
+        <service android:name="com.mediatek.netcm.wifi.WifiDevService"/>
+        <service android:name="com.mediatek.record.RecordService" />
+
+
+
+        <receiver android:name="com.mediatek.wwtv.mediaplayer.util.BootBroadcastReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.GLOBAL_BUTTON" />
+            </intent-filter>
+        </receiver>
+
+
+        <receiver
+            android:name="com.mediatek.wwtv.mediaplayer.oem.AndroidHomeScreenBrdReceiver" >
+            <intent-filter>
+                <action android:name="com.google.android.leanbacklauncher.action.PARTNER_CUSTOMIZATION" />
+            </intent-filter>
+        </receiver>
+        -->
+        <!-- Media Player -->
+        <activity
+            android:name="com.mediatek.wwtv.mediaplayer.mmp.multimedia.PhotoPlayActivity"
+            android:configChanges="keyboard|keyboardHidden"
+            android:hardwareAccelerated="false"
+            android:theme="@style/AnimationTheme" >
+            <intent-filter>
+                <action android:name="android.mtk.intent.action.mediaplayer.photo" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.mediatek.wwtv.mediaplayer.mmp.multimedia.MusicPlayActivity"
+            android:configChanges="keyboard|keyboardHidden"
+            android:theme="@style/AnimationTheme" >
+            <intent-filter>
+                <action android:name="android.mtk.intent.action.mediaplayer.music" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.mediatek.wwtv.mediaplayer.mmp.multimedia.MusicPlayDmrActivity"
+            android:configChanges="keyboard|keyboardHidden"
+            android:theme="@style/AnimationTheme" >
+            <intent-filter>
+                <action android:name="android.mtk.intent.action.mmp.music" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.mediatek.wwtv.mediaplayer.mmp.multimedia.VideoPlayActivity"
+            android:configChanges="keyboard|keyboardHidden|screenSize|smallestScreenSize|screenLayout|orientation|layoutDirection"
+            android:theme="@style/AnimationTheme"
+            android:launchMode="singleTask"
+            android:resizeableActivity="true"
+            android:supportsPictureInPicture="true"
+            android:taskAffinity="com.mediatek.wwtv.mediaplayer.mmp.multimedia.VideoPlayActivity">
+            <intent-filter>
+                <action android:name="android.mtk.intent.action.mediaplayer.video" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.mediatek.wwtv.mediaplayer.mmp.multimedia.VideoPlayPvrActivity"
+            android:taskAffinity="com.pvr.play"
+            android:configChanges="keyboard|keyboardHidden"
+            android:theme="@style/AnimationTheme"
+            android:allowTaskReparenting="false"
+            />
+        <activity
+            android:name="com.mediatek.wwtv.mediaplayer.mmp.multimedia.TextPlayActivity"
+            android:configChanges="keyboard|keyboardHidden"
+            android:theme="@style/AnimationTheme" >
+            <intent-filter>
+                <action android:name="android.mtk.intent.action.mediaplayer.text" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.mediatek.wwtv.mediaplayer.mmp.multimedia.Photo3DPlayActivity"
+            android:configChanges="keyboard|keyboardHidden"
+            android:theme="@style/AnimationThemePhoto" >
+            <intent-filter>
+                <action android:name="android.mtk.intent.action.mediaplayer.3dphoto" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.mediatek.wwtv.mediaplayer.mmp.multimedia.Photo4K2KPlayActivity"
+            android:configChanges="keyboard|keyboardHidden"
+            android:hardwareAccelerated="true"
+            android:theme="@style/AnimationThemePhoto" >
+            <intent-filter>
+                <action android:name="android.mtk.intent.action.mediaplayer.4k2kphoto" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- DMR Media Player -->
+        <activity
+            android:name="com.mediatek.wwtv.mediaplayer.mmp.DmrActivity"
+            android:hardwareAccelerated="false"
+            android:label="@string/app_name"
+            android:theme="@style/AnimationTheme" >
+            <intent-filter>
+                <action android:name="android.mtk.intent.action.mmp.dmr" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.mediatek.wwtv.mediaplayer.mmp.multimedia.PhotoPlayDmrActivity"
+            android:configChanges="keyboard|keyboardHidden"
+            android:hardwareAccelerated="false"
+            android:theme="@style/AnimationTheme" >
+            <intent-filter>
+                <action android:name="android.mtk.intent.action.mmp.photo" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.mediatek.wwtv.mediaplayer.mmp.multimedia.Photo4K2KPlayDmrActivity"
+            android:configChanges="keyboard|keyboardHidden"
+            android:hardwareAccelerated="true"
+            android:theme="@style/AnimationThemePhoto" >
+            <intent-filter>
+                <action android:name="android.mtk.intent.action.mmp.4k2kphoto" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.mediatek.wwtv.mediaplayer.mmp.multimedia.VideoPlayDmrActivity"
+            android:configChanges="keyboard|keyboardHidden"
+            android:theme="@style/AnimationTheme" >
+            <intent-filter>
+                <action android:name="android.mtk.intent.action.mmp.video" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- File browse Player -->
+        <activity
+            android:name="com.mediatek.wwtv.mediaplayer.mmp.multimedia.MtkFilesGridActivity"
+            android:configChanges="keyboard|keyboardHidden"
+            android:launchMode="singleTask"
+            android:theme="@style/AnimationTheme" >
+            <intent-filter>
+                <action android:name="android.mtk.intent.action.mediaplayer.grid" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+			<!-- SKY luojie 20180211 add for remove the MediaMainActivity begin -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+            </intent-filter>
+            <!-- SKY luojie 20180211 add for remove the MediaMainActivity end -->
+        </activity>
+        <activity
+            android:name="com.mediatek.wwtv.mediaplayer.mmp.multimedia.MtkFilesListActivity"
+            android:configChanges="keyboard|keyboardHidden"
+            android:launchMode="singleTask"
+			android:label="@string/app_name"
+            android:theme="@style/AnimationTheme" >
+            <intent-filter>
+                <action android:name="android.mtk.intent.action.mediaplayer.list" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.mediatek.wwtv.mediaplayer.mmp.gamekit.filebrowse.MFlimBsActivity"
+            android:configChanges="keyboard|keyboardHidden"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape"
+            android:theme="@style/AnimationTheme" >
+            <intent-filter>
+                <action android:name="android.mtk.intent.action.mediaplayer.filebrowse" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.mediatek.wwtv.mediaplayer.setting.SettingActivity"
+            android:configChanges="locale|layoutDirection|keyboard|keyboardHidden"
+            android:label="@string/menu_interface_name"
+            android:screenOrientation="landscape"
+            android:theme="@style/menuMain_Transparent"
+            android:windowSoftInputMode="stateAlwaysHidden|stateHidden" >
+            <intent-filter>
+                <action android:name="android.mtk.intent.action.mediaplayer.setting" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.mediatek.wwtv.mediaplayer.setting.AudioSettingActivity"
+            android:configChanges="locale|layoutDirection|keyboard|keyboardHidden"
+            android:label="@string/menu_interface_name"
+            android:screenOrientation="landscape"
+            android:theme="@style/menuMain_Transparent"
+            android:windowSoftInputMode="stateAlwaysHidden|stateHidden" >
+            <intent-filter>
+                <action android:name="android.mtk.intent.action.mediaplayer.audio.setting" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.mediatek.wwtv.mediaplayer.setting.NetSettingActivity"
+            android:configChanges="locale|layoutDirection|keyboard|keyboardHidden"
+            android:label="@string/menu_interface_name"
+            android:screenOrientation="landscape"
+            android:theme="@style/menuMain_Transparent"
+            android:windowSoftInputMode="stateAlwaysHidden|stateHidden" >
+            <intent-filter>
+                <action android:name="android.mtk.intent.action.mediaplayer.netsetting" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name="com.mediatek.wwtv.util.BootBroadcastReceiver" >
+            <intent-filter>
+                <action android:name="android.mediatek.intent.logcattousb" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="com.mediatek.wwtv.mediaplayer.mmpcm.audioimpl.PlaybackService" />
+
+        <uses-library
+            android:name="mtkexoplayerlib"
+            android:required="true" />
+        <uses-library
+            android:name="com.mediatek.mmp"
+            android:required="true" />
+        <uses-library
+            android:name="com.mediatek.dlna"
+            android:required="true" />
+        <uses-library
+            android:name="com.mediatek.dm"
+            android:required="true" />
+        <uses-library
+            android:name="jcifs"
+            android:required="true" />
+        <uses-library
+            android:name="com.mediatek.common.capture"
+            android:required="true" />
+        <uses-library
+            android:name="com.mediatek.common.PhotoPlayer"
+            android:required="true" />
+        <uses-library
+            android:name="com.mediatek.twoworlds.tv"
+            android:required="true" />
+        <uses-library
+            android:name="com.mediatek.mtkaudiopatchmanager"
+            android:required="false" />
+
+        <!-- SKY luojie 20180102 add for choose menu begin -->
+        <receiver android:name=".mmp.USBBroadcastReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"></action>
+                <action android:name="android.intent.action.ACTION_SHUTDOWN"></action>
+                <action android:name="android.hardware.usb.action.USB_ACCESSORY_ATTACHED"></action>
+                <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED"></action>
+                <action android:name="android.hardware.usb.action.USB_DEVICE_DETACHED"></action>
+            </intent-filter>
+        </receiver>
+        <!-- SKY luojie 20180102 add for choose menu end -->
+    </application>
+
+</manifest>

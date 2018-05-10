@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string-array name="mmp_menu_item_names">
+		<item>Fotoğraf</item>
+		<item>Müzik</item>
+		<item>Video</item>
+		<item>Metin</item>
+	</string-array>
+	<array name="mmp_menu_item_resources">
+		<item>@drawable/mmp_mainmenu_icon_photo</item>
+		<item>@drawable/mmp_mainmenu_icon_audio</item>
+		<item>@drawable/mmp_mainmenu_icon_video</item>
+		<item>@drawable/mmp_mainmenu_icon_text</item>
+	</array>
+	<string-array name="mmp_menu_filelist">
+		<item>Sırala</item>
+		<item>Ortam Türü</item>
+		<item>Küçük Resim Boyutu</item>
+		<item>Kopyala</item>
+		<item>Yapıştır</item>
+		<item>Sil</item>
+		<item>Tekrarlamalı Ayrıştırıcı</item>
+		<item>Fotoğraf Çerçevesi</item>
+		<item>3D Photo</item>
+
+	</string-array>
+	<integer-array name="mmp_menu_filelist_enable">
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>0</item>
+		<item>0</item>
+		<item>0</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+	</integer-array>
+	<integer-array name="mmp_menu_filelist_hasnext">
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>0</item>
+		<item>0</item>
+		<item>0</item>
+		<item>0</item>
+		<item>1</item>
+		<item>0</item>
+	</integer-array>
+
+	<!-- child node -->
+	<string-array name="mmp_menu_sortlist_photoortext">
+		<item>Tarih</item>
+		<item>Ad</item>
+	</string-array>
+	
+	<string-array name="mmp_menu_sortlist_audio">
+		<item>Tarih</item>
+		<item>Tür</item>
+		<item>Sanatçı</item>
+		<item>Albüm</item>
+	</string-array>
+	
+	<string-array name="mmp_menu_sortlist_video">
+		<item>Tip</item>
+		<item>Tarih</item>
+		<item>Ad</item>
+	</string-array>
+
+	<integer-array name="mmp_menu_sortlist_enable">
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+	</integer-array>
+
+	<string-array name="mmp_menu_mediatypelist">
+		<item>Fotoğraf</item>
+		<item>Müzik</item>
+		<item>Video</item>
+		<item>Metin</item>
+	</string-array>
+	<integer-array name="mmp_menu_mediatypelist_enable">
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+	</integer-array>
+
+
+	<string-array name="mmp_menu_thumblist">
+		<item>Küçük </item>
+		<item>Orta</item>
+		<item>Geniş</item>
+	</string-array>
+	<integer-array name="mmp_menu_thumblist_enable">
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+	</integer-array>
+
+
+	<string-array name="mmp_menu_photoframelist">
+		<item>One Photomode</item>
+	</string-array>
+	<integer-array name="mmp_menu_photoframelist_enable">
+		<item>1</item>
+	</integer-array>
+
+	<!-- the menu of photo play -->
+	<string-array name="mmp_menu_photoplaylist">
+		<item>Duraklat</item>
+		<item>Tekrarla</item>
+		<item>Karıştır</item>
+		<item>Süre</item>
+		<item>Efekt</item>
+		<item>Bilgi Göster</item>
+		<item>Fotoğraf Çerçevesi Görüntüsü</item>
+	</string-array>
+	<integer-array name="mmp_menu_photoplaylist_enable">
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+	</integer-array>
+	<integer-array name="mmp_menu_photoplaylist_hasnext">
+		<item>0</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>0</item>
+		<item>0</item>
+	</integer-array>
+	<!-- the menu of 3D photo play -->
+		<string-array name="mmp_menu_3d_photoplaylist">
+		<item>Duraklat</item>
+		<item>Tekrarla</item>
+		<item>Karıştır</item>
+		<item>Süre</item>
+		<item>Efekt</item>
+		<item>Bilgi Göster</item>
+		<item>Fotoğraf Çerçevesi Görüntüsü</item>
+		<item>Picture Setting</item>
+	</string-array>
+	<integer-array name="mmp_menu_3d_photoplaylist_enable">
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>0</item>
+		<item>0</item>
+		<item>1</item>
+		<item>0</item>
+		<item>1</item>
+	</integer-array>
+	<integer-array name="mmp_menu_3d_photoplaylist_hasnext">
+		<item>0</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>0</item>
+		<item>0</item>
+		<item>0</item>
+	</integer-array>
+	<!-- child node -->
+	<string-array name="mmp_menu_repeatlist">
+		<item>Yok</item>
+		<item>Birini Tekrarla</item>
+		<item>Tümünü Tekrarla</item>
+	</string-array>
+	<integer-array name="mmp_menu_repeatlist_enable">
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+	</integer-array>
+
+
+	<string-array name="mmp_menu_shufflelist">
+		<item>Karıştırma Kapalı</item>
+		<item>Karıştırma Açık</item>
+	</string-array>
+	<integer-array name="mmp_menu_shufflelist_enable">
+		<item>1</item>
+		<item>1</item>
+	</integer-array>
+
+	<string-array name="mmp_menu_durationlist">
+		<item>Kısa</item>
+		<item>Orta</item>
+		<item>Uzun</item>
+	</string-array>
+	<integer-array name="mmp_menu_durationlist_enable">
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+	</integer-array>
+
+	<string-array name="mmp_menu_zoomlist">
+		<item>1 X</item>
+		<item>2 X</item>
+		<item>4 X</item>
+	</string-array>
+	<integer-array name="mmp_menu_zoomlist_enable">
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+	</integer-array>
+
+	<string-array name="mmp_menu_effectlist">
+		<item>Yok</item>
+		<item>Çöz</item>
+		<item>Sağa kaydır</item>
+		<item>Sola kaydır</item>
+		<item>Yukarı kaydır</item>
+		<item>Aşağı kaydır</item>
+		<item>İçe kutu</item>
+		<item>Dışa kutu</item>
+		<item>Rasgele</item>
+	</string-array>
+	<integer-array name="mmp_menu_effectlist_enable">
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+	</integer-array>
+
+	<!-- the menu of music play -->
+	<string-array name="mmp_menu_musicplaylist">
+		<item>Duraklat</item>
+		<item>Tekrarla</item>
+		<item>Karıştırma Açık</item>
+		<item>Bilgi Göster</item>
+		<item>Hide Score</item>
+		<item>Lyric Options</item>
+		<item>Yalnızca Ses</item>
+	</string-array>
+	<integer-array name="mmp_menu_musicplaylist_enable">
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+	</integer-array>
+	<integer-array name="mmp_menu_musicplaylist_hasnext">
+		<item>0</item>
+		<item>1</item>
+		<item>0</item>
+		<item>0</item>
+		<item>0</item>
+		<item>0</item>
+		<item>0</item>
+	</integer-array>
+	<!-- music file not support -->
+	<string-array name="mmp_menu_musicplaynotsupportlist">
+		<item>Tekrarla</item>
+		<item>Karıştırma Açık</item>
+		<item>Yalnızca Ses</item>
+	</string-array>
+	<integer-array name="mmp_menu_musicplaynotsupportlist_enable">
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+	</integer-array>
+	<integer-array name="mmp_menu_musicplaynotsupportlist_hasnext">
+		<item>1</item>
+		<item>0</item>
+		<item>0</item>
+	</integer-array>
+	<!-- lyric -->
+	<string-array name="mmp_menu_lyricplaylist">
+		<item>Display Line</item>
+		<item>Saat farkı</item>
+		<item>Çözüyor</item>
+	</string-array>
+	<integer-array name="mmp_menu_lyricplaylist_enable">
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+	</integer-array>
+	<integer-array name="mmp_menu_lyricplaylist_hasnext">
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+	</integer-array>
+
+	<!--the child node of lyric -->
+	<string-array name="mmp_menu_displaylinelist">
+		<item>Off</item>
+		<item>Single Line</item>
+		<item>Multi Line</item>
+	</string-array>
+	<integer-array name="mmp_menu_displaylinelist_enable">
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+	</integer-array>
+	<string-array name="mmp_menu_timeoffsetlist">
+		<item>Off</item>
+		<item>Otomatik </item>
+		<item>User define</item>
+	</string-array>
+	<integer-array name="mmp_menu_timeoffsetlist_enable">
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+	</integer-array>
+
+	<string-array name="mmp_menu_encodinglist">
+		<item>Otomatik </item>
+		<item>GB</item>
+		<item>Big5</item>
+		<item>Utf8</item>
+		<item>Utf16</item>
+	</string-array>
+	<integer-array name="mmp_menu_encodinglist_enable">
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+	</integer-array>
+
+	<!-- the menu of Video play -->
+	<string-array name="mmp_menu_videoplaylist">
+		<item>Duraklat</item>
+		<item>Tekrarla</item>
+		<item>Bilgi Göster</item>
+		<item>Resim Modu </item>
+		<item>Ekran Modu </item>
+		<item>Picture Setting</item>
+	</string-array>
+	<integer-array name="mmp_menu_videoplaylist_enable">
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+	</integer-array>
+	<integer-array name="mmp_menu_videoplaylist_hasnext">
+		<item>0</item>
+		<item>1</item>
+		<item>0</item>
+		<item>1</item>
+		<item>1</item>
+		<item>0</item>
+	</integer-array>
+	
+	<!-- the menu of Video file not support -->	
+	<string-array name="mmp_menu_videonotsupportplaylist">
+		<item>Tekrarla</item>
+		<item>Resim Modu </item>
+		<item>Ekran Modu </item>
+		<item>Picture Setting</item>
+	</string-array>
+	<integer-array name="mmp_menu_videonotsupportplaylist_enable">
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+	</integer-array>
+	<integer-array name="mmp_menu_videonotsupportplaylist_hasnext">
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>0</item>
+	</integer-array>
+	
+	<!-- child node  -->
+	<string-array name="mmp_menu_picturemodelist">
+		<item>Kullanıcı </item>
+		<item>Sinema</item>
+		<item>Sport</item>
+		<item>Canlı</item>
+		<item>Çok Parlak </item>
+	</string-array>
+	<integer-array name="mmp_menu_picturemodelist_enable">
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+	</integer-array>
+	<string-array name="mmp_menu_screenmodelist">
+		<item>Otomatik </item>
+		<item>Normal</item>
+		<item>Letter box</item>
+		<item>Tara</item>
+		<item>Yakınlaştır </item>
+		<item>Nokta nokta </item>
+	</string-array>
+	<integer-array name="mmp_menu_screenmodelist_enable">
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+	</integer-array>
+
+	<!-- word play -->
+	<string-array name="mmp_menu_textplaylist">
+		<item>Duraklat</item>
+		<item>Tekrarla</item>
+		<item>Karıştırma Açık</item>
+		<item>Yazı Tipi </item>
+		<item>Bilgi Göster</item>
+	</string-array>
+	<integer-array name="mmp_menu_textplaylist_enable">
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+	</integer-array>
+	<integer-array name="mmp_menu_textplaylist_hasnext">
+		<item>0</item>
+		<item>1</item>
+		<item>0</item>
+		<item>0</item>
+		<item>0</item>
+	</integer-array>
+
+	<string-array name="mmp_menu_fontlist">
+		<item>Boyut</item>
+		<item>Stil</item>
+		<item>Renk</item>
+	</string-array>
+	<integer-array name="mmp_menu_fontlist_enable">
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+	</integer-array>
+	<integer-array name="mmp_menu_fontlist_hasnext">
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+	</integer-array>
+
+
+	<!-- child node -->
+	<string-array name="mmp_menu_sizelist">
+		<item>Küçük </item>
+		<item>Orta</item>
+		<item>Geniş</item>
+	</string-array>
+	<integer-array name="mmp_menu_sizelist_enable">
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+	</integer-array>
+
+	<string-array name="mmp_menu_stylelist">
+		<item>Düz</item>
+		<item>İtalik</item>
+		<item>Koyu</item>
+		<item>Koyu İtalik</item>
+	</string-array>
+	<integer-array name="mmp_menu_stylelist_enable">
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+	</integer-array>
+
+	<string-array name="mmp_menu_colorlist">
+		<item>Beyaz</item>
+		<item>Mavi</item>
+		<item>Kırmızı</item>
+		<item>Yeşil</item>
+		<item>Siyah</item>
+	</string-array>
+	<integer-array name="mmp_menu_colorlist_enable">
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+		<item>1</item>
+	</integer-array>
+
+    <array name="entries">
+        <item>@drawable/mmp_mainmenu_icon_photo_big</item>
+        <item>@drawable/mmp_mainmenu_icon_audio_big</item>
+        <item>@drawable/mmp_mainmenu_icon_video_big</item>
+        <item>@drawable/mmp_mainmenu_icon_text_big</item>
+    </array>
+
+    <string-array name="mmp_menu_text">
+        <item>@string/mmp_menu_phototext</item>
+        <item>@string/mmp_menu_music</item>
+        <item>@string/mmp_menu_video</item>
+        <item>@string/mmp_menu_text</item>
+    </string-array>
+
+</resources>
+

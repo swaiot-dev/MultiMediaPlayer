@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+	<string-array name="nav_channel_types">
+		<item>All</item>
+		<!--<item>Analogue</item>
+		<item>Digital</item>-->
+		<item>Radio</item>
+	</string-array>
+	<!--
+
+		{ "Auto", "Normal", "LetterBox", "Zoom", "Panorama", "Dot by Dot" }
+	-->
+	<!--
+		<string-array name="nav_aspect_strings"> <item>Auto</item>
+		<item>Normal</item> <item>LetterBox</item> <item>Zoom</item>
+		<item>Panorama</item> <item>Dot by Dot</item> </string-array>
+	-->
+	<!--
+		"Sleep:Off", "Sleep: 10 Minutes", "Sleep:20 Minutes", "Sleep:30
+		Minutes", "Sleep:40 Minutes", "Sleep:50 Minutes", "Sleep:60 Minutes",
+		"Sleep:90 Minutes", "Sleep:120 Minutes" };
+	-->
+
+	<string-array name="nav_sleep_strings">
+		<item>Descanso:Off</item>
+		<item>Descanso:15 Minutes</item>
+		<item>Descanso:30 Minutes</item>
+		<item>Descanso:45 Minutes</item>
+		<item>Descanso:60 Minutes</item>
+		<item>Descanso:90 Minutes</item>
+		<item>Descanso:120 Minutes</item>
+	</string-array>
+	<string-array name="nav_zoom_strings">
+		<item>Zumbido X 1</item>
+		<item>Zumbido X 2</item>
+		<item>Zumbido X 1/2</item>
+	</string-array>
+	
+	<!-- OFF, Rock, Pop, Live, Dance, Techno, Classic and Soft -->
+	<string-array name="nav_s_effect_strings">
+        <item>User</item>
+		<item>Standard</item>
+		<item>Live1</item>
+	</string-array>
+
+	<string-array name="nav_freeze_strings">
+		<item>Congelar: Des</item>
+		<item>Congelar: Act</item>
+	</string-array>
+	
+	<string-array name="nav_epg_filter_type">
+		<item>PELÍCULA</item>
+		<item>NOTICIAS</item>
+		<item>ESPECTÁCULOS</item>
+		<item>DEPORTES</item>
+		<item>NIÑOS</item>
+		<item>MÚSICA</item>
+		<item>ARTE</item>
+		<item>SOCIAL</item>
+		<item>EDUCACIÓN</item>
+		<item>ENTRETENIMIENTO</item>
+		<item>ESPECIAL</item>
+	</string-array>
+	
+	<string-array name="nav_epg_filter_type_AUS">
+		<item>PELÍCULA</item>
+		<item>NOTICIAS</item>
+		<item>ENTRETENIMIENTO</item>
+		<item>DEPORTES</item>
+		<item>INFANTIL</item>
+		<item>MÚSICA</item>
+		<item>ARTE</item>
+		<item>ACTUALIDAD</item>
+		<item>EDUCACIÓN</item>
+		<item>INFO-OCIO</item>
+		<item>ESPECIAL</item>
+		<item>COMEDIA</item>
+		<item>DRAMA</item>
+		<item>DOCUMENTAL</item>
+	</string-array>
+	
+	<string-array name="nav_epg_filter_type_UK">
+		<item>PELÍCULA</item>
+		<item>NOTICIAS</item>
+		<item>ENTRETENIMIENTO</item>
+		<item>DEPORTE</item>
+		<item>INFANTIL</item>
+		<item>EDUCACIÓN</item>
+		<item>ESTILO DE VIDA</item>
+		<item>DRAMA</item>
+	</string-array>
+
+	<string-array name="nav_epg_filter_sa_type">
+		<item>Noticias</item>
+		<item>Deportes</item>
+		<item>Educación</item>
+		<item>Telenovela</item>
+		<item>Mini-serie</item>
+		<item>Serie</item>
+		<item>Variedades</item>
+		<item>Reality show</item>
+		<item>Información</item>
+		<item>Cómico</item>
+		<item>Niños pequeños</item>
+		<item>Erótico</item>
+		<item>Película</item>
+		<item>RA_TE_SA_PR</item>
+		<item>Debate/entrevista</item>
+		<item>Otro</item>
+	</string-array>
+	
+	<string-array name="nav_epg_subtype_movie">
+		<item>Drama</item>
+		<item>Detectives</item>
+		<item>Aventuras</item>
+		<item>Ciencia ficción</item>
+		<item>Comedia</item>
+		<item>Telenovelas</item>
+		<item>Romance</item>
+		<item>Serio</item>
+		<item>Adultos</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_news">
+		<item>Asuntos actuales</item>
+		<item>Informe climatológico</item>
+		<item>Noticias</item>
+		<item>Documentales</item>
+		<item>Debates</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_news">
+		<item>Noticias</item>
+		<item>Informe</item>
+		<item>Documental</item>
+		<item>Biografía</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_show">
+		<item>Espectáculos</item>
+		<item>Espectáculos de juegos</item>
+		<item>Espectáculos de variedades</item>
+		<item>Espectáculo de conversación</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_sports">
+		<item>Deportes</item>
+		<item>Eventos especiales</item>
+		<item>Revistas deportivas</item>
+		<item>Fútbol</item>
+		<item>Tenis</item>
+		<item>Deportes de equipo</item>
+		<item>Atletismo</item>
+		<item>Deportes de motor</item>
+		<item>Deportes acuáticos</item>
+		<item>Deportes de invierno</item>
+		<item>Equitación</item>
+		<item>Artes marciales</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_sports">
+		<item>Deportes</item>
+	</string-array>
+	
+	<string-array name="nav_epg_subtype_children">
+		<item>Niños</item>
+		<item>Niños preescolares</item>
+		<item>Entretenimiento de 6 a 14 años</item>
+		<item>Entretenimiento de 10 a 16 años</item>
+		<item>Información</item>
+		<item>Dibujos animados</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_music">
+		<item>Música</item>
+		<item>Serio</item>
+		<item>Folk</item>
+		<item>Folk</item>
+		<item>Jazz</item>
+		<item>Musical</item>
+		<item>Ballet</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_arts">
+		<item>Arte</item>
+		<item>Arte dramático</item>
+		<item>Bellas artes</item>
+		<item>Religión</item>
+		<item>Cultura popular</item>
+		<item>Literatura</item>
+		<item>Películas</item>
+		<item>Experimentos</item>
+		<item>Difusiones</item>
+		<item>Nuevos medios</item>
+		<item>Revistas de arte</item>
+		<item>Moda</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_social">
+		<item>Social</item>
+		<item>Revistas</item>
+		<item>Economía</item>
+		<item>Gente famosa</item>
+	</string-array>
+	
+	<string-array name="nav_epg_subtype_education">
+		<item>Educación</item>
+		<item>Naturaleza</item>
+		<item>Tecnología</item>
+		<item>Medicina</item>
+		<item>Países extranjeros</item>
+		<item>Ciencias sociales</item>
+		<item>Educación superior</item>
+		<item>Idiomas</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_education">
+		<item>Educativa</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_soap_opera">
+		<item>Telenovela</item>
+	</string-array>
+	
+	<string-array name="nav_epg_subtype_sa_mini_series">
+		<item>Mini-serie</item>
+	</string-array>
+	
+	<string-array name="nav_epg_subtype_sa_series">
+		<item>Serie</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_variety">
+		<item>Auditorio</item>
+		<item>Mostrar</item>
+		<item>Musical</item>
+		<item>Realización de</item>
+		<item>Femenino</item>
+		<item>Juegos</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_reality_show">
+		<item>Reality show</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_information">
+		<item>Cocinar</item>
+		<item>Moda</item>
+		<item>País</item>
+		<item>Salud</item>
+		<item>Viajar</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_comical">
+		<item>Cómico</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_children">
+		<item>Niños pequeños</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_erotic">
+		<item>Erótico</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_movie">
+		<item>Película</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_RA_TE_SA_PR">
+		<item>Sorteo</item>
+		<item>De ventas de televisión</item>
+		<item>Premiación</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_DEBATE_INTERVIEW">
+		<item>Discusión</item>
+		<item>Entrevista</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_other">
+		<item>Dibujos animados para adultos</item>
+		<item>Interactivo</item>
+		<item>Política</item>
+		<item>Religión</item>
+	</string-array>
+	
+	<string-array name="nav_epg_subtype_leisure">
+		<item>Aficiones de entretenimiento</item>
+		<item>Turismo</item>
+		<item>Artesanía</item>
+		<item>Motor</item>
+		<item>Ejercicio y salud</item>
+		<item>Cocina</item>
+		<item>Anuncios</item>
+		<item>Jardinería</item>
+	</string-array>
+	
+	<string-array name="nav_epg_subtype_special">
+		<item>Idioma original</item>
+		<item>Blanco y negro</item>
+		<item>Sin publicar</item>
+		<item>Emisión en directo</item>
+	</string-array>
+
+
+	<!-- MTS -->
+	<string-array name="nav_mts_strings">
+		<item>UNKNOW</item>
+		<item>MONO</item>
+		<item>STEREO</item>
+		<item>SUB_LANG</item>
+		<item>DUAL1</item>
+		<item>DUAL2</item>
+		<item>NICAM_MONO</item>
+		<item>NICAM_STEREO</item>
+		<item>NICAM_DUAL1</item>
+		<item>NICAM_DUAL2</item>
+		<item>FM_MONO</item>
+		<item>FM_STEREO</item>
+	</string-array>
+
+	<!-- AUDIO_TVCM -->
+	<string-array name="nav_audio_tvcm_strings">
+		<item>baq</item>
+		<item>eus</item>
+		<item>bul</item>
+		<item>cat</item>
+		<item>scr</item>
+		<item>cze</item>
+		<item>dan</item>
+		<item>dut</item>
+		<item>eng</item>
+		<item>fin</item>
+		<item>fre</item>
+		<item>gla</item>
+		<item>gdh</item>
+		<item>gle</item>
+		<item>glg</item>
+		<item>ger</item>
+		<item>gre</item>
+		<item>hun</item>
+		<item>ita</item>
+		<item>nor</item>
+		<item>pol</item>
+		<item>por</item>
+		<item>rum</item>
+		<item>rus</item>
+		<item>scc</item>
+		<item>slo</item>
+		<item>slv</item>
+		<item>spa</item>
+		<item>swe</item>
+		<item>tur</item>
+		<item>wel</item>
+		<item>ice</item>
+		<item>isl</item>
+		<item>smi</item>
+		<item>tha</item>
+		<item>vie</item>
+		<item>ara</item>
+		<item>zho</item>
+		<item>chi</item>
+		<item>per</item>
+		<item>kor</item>
+		<item>est</item>
+		<item>mao</item>
+		<item>cmn</item>
+		<item>yue</item>
+		<item>jpn</item>
+		<item>hin</item>
+		<item>nar</item>
+		<item>qaa</item>
+		<item>und</item>
+	</string-array>
+
+	<!-- AUDIO -->
+	<string-array name="nav_audio_strings">
+		<item>Basque</item>
+		<item>Basque</item>
+		<item>Bulaarian</item>
+		<item>catalan</item>
+		<item>Croatian</item>
+		<item>Czech</item>
+		<item>Danish</item>
+		<item>Dutch</item>
+		<item>English</item>
+		<item>Finnish</item>
+		<item>french</item>
+		<item>gaelic</item>
+		<item>gaelic</item>
+		<item>Irish</item>
+		<item>gallegan</item>
+		<item>german</item>
+		<item>greek</item>
+		<item>hungarian</item>
+		<item>italian</item>
+		<item>norwegian</item>
+		<item>polish</item>
+		<item>portuguese</item>
+		<item>romanian</item>
+		<item>russian</item>
+		<item>serbian</item>
+		<item>slovak</item>
+		<item>slovenian</item>
+		<item>spanish</item>
+		<item>swedish</item>
+		<item>turkish</item>
+		<item>welsh</item>
+		<item>icelandic</item>
+		<item>icelandic</item>
+		<item>Sami langs</item>
+		<item>Thai</item>
+		<item>Vietnamese</item>
+		<item>Arabic</item>
+		<item>T. Chinese</item>
+		<item>S. Chinese</item>
+		<item>Persian</item>
+		<item>Korean</item>
+		<item>Estonia</item>
+		<item>Maori</item>
+		<item>Mandarin</item>
+		<item>Cantonese</item>
+		<item>Japanese</item>
+		<item>Hindi</item>
+		<item>Narrative</item>
+		<item>Original Version for France</item>
+		<item>Undefined</item>
+	</string-array>
+
+	<string-array name="nav_bottom_volume">
+		<item>Volumen Maestro</item>
+		<item>Vol. Front. Izq.</item>
+		<item>Vol. Front. Der.</item>
+		<item>Vol. Pos. Izq.</item>
+		<item>Vol. Pos. Der.</item>
+		<item>Vol. Cent.</item>
+		<item>Vol. Subgraves</item>
+	</string-array>
+
+    <string-array name="nav_zoom_mode">
+		<item>Zumbido x 1/2</item>
+		<item>Zumbido x 1</item>
+		<item>Zumbido x 2</item>
+	</string-array>
+
+	<string-array name="nav_receiver_type">
+		<item>Cable</item>
+		<item>Antena</item>
+	</string-array>
+	<string-array name="pvr_tshift_initdisk_step1">
+		<item>Auto</item>
+		<item>Manual</item>
+	</string-array>
+	<string-array name="pvr_tshift_initdisk_step_format">
+		<item>Formatear</item>
+		<item>Saltar</item>
+	</string-array>
+	<string-array name="pvr_tshift_initdisk_step_formatconfirm">
+		<item>Formatear</item>
+		<item>Cancelar</item>
+	</string-array>
+	
+	<string-array name="week_day">
+	    <item>Sunday</item>
+		<item>Monday</item>
+		<item>Tuesday</item>
+		<item>Wednesday</item>
+		<item>Thursday</item>
+		<item>Friday</item>
+		<item>Saturday</item>
+	</string-array>
+    <string-array name="nav_oad_btns_cancel">
+        <item>Odustani</item>
+    </string-array>
+    <string-array name="nav_oad_btns_accept_remind_me_later">
+        <item>Aceptar</item>
+        <item>Recordar más tarde</item>
+    </string-array>
+    <string-array name="nav_oad_btns_accept_reject">
+        <item>Aceptar</item>
+        <item>Rechazar</item>
+    </string-array>
+    
+    <string-array name="nav_oad_btns_yes_no">
+        <item>Sí</item>
+        <item>No</item>
+    </string-array>
+
+
+
+
+
+	<!--				
+				0:	MSG_STR_ID_EMPTY,						hide screen saver
+     				1:	MSG_STR_ID_NO_SIGNAL,					No Signal!
+     				2:	MSG_STR_ID_SCAN_CH,					Please Scan Channels!
+     				3:	MSG_STR_ID_GETTING_DATA,				Retrieving Data...
+     				4:	MSG_STR_ID_LOCKED_CH,					Channel Locked!
+     				5:	MSG_STR_ID_LOCKED_PROG,				Program Locked!
+     				6:	MSG_STR_ID_LOCKED_INP,					Input Locked!
+     				7:	MSG_STR_ID_NO_EVN_TILE,					(No program title.)
+     				8:	MSG_STR_ID_HIDDEN_CH,					Hidden Channel!
+     				9:	MSG_STR_ID_AUDIO_PROG,					Audio Program
+     				10:	MSG_STR_ID_NO_AUDIO_VIDEO,			No Audio and Video
+     				11:	MSG_STR_ID_NO_EVN_DTIL,				(No program details.)
+     				12:	MSG_STR_ID_NO_CH_DTIL,					(No channel details.)
+     				13:	MSG_STR_ID_NO_AUDIO_STRM,				no audio stream ??
+     				14:	MSG_STR_ID_NO_VIDEO_STRM,				no video stream ??
+     				15:	MSG_STR_ID_PLS_WAIT,					Please Wait...
+     				16:	MSG_STR_ID_VIDEO_NOT_SUPPORT,			video not support ??
+     				17:	MSG_STR_ID_HD_VIDEO_NOT_SUPPORT,		HD Service
+     				18:	MSG_STR_ID_NON_BRDCSTING,				Non-Broadcasting
+     				19:	MSG_STR_ID_NO_CH_IN_LIST,				no channel ??
+     				20:	MSG_STR_ID_TTX_SBTI_X_RATED_BLOCKED,	This content is blocked by your service provider
+     				255:	MSG_STR_ID_LAST_VALID_ENTRY,			only for counting purpose
+    -->
+	<string-array name="nav_twinkle_strings">
+		<item></item>
+		<item>¡No Hay Señal!</item>
+		<item>¡Por Favor Explore los Canales!</item>
+		<item>Recuperar Datos...</item>
+		<item>¡Canal Cerrado!</item>
+		<item>¡Programa Cerrado!</item>
+		<item>¡Entrada Cerrado!</item>
+		<item>(Ningún título del programa.)</item>
+		<item>¡Canal Ocultado!</item>
+		<item>Programa Audio</item>
+		<item>Ningún Audio y Vídeo</item>
+		<item>(Ningunos detalles del programa.)</item>
+		<item>(Ningunos detalles del canal.)</item>
+		<item>♪ No Audio Stream ♪</item>
+		<item>No Video Stream</item>
+		<item>Por Favor Espera...</item>
+		<item>Vídeo No ayuda</item>
+		<item>HD Service</item>
+		<item>Non-Broadcasting</item>
+		<item>No Channel</item>
+		<item>This content is blocked by your service provider</item>
+	</string-array>
+
+
+    
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pin_code_dialog"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:layout_centerVertical="true"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/ci_input_pin_code_title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.84"
+        android:background="@color/nav_ch_list_title_back"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/nav_textsize_large"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.12"
+        android:background="@color/nav_ch_list_view_back"
+        android:orientation="vertical" >
+
+        <fragment
+            android:id="@+id/ci_input_pin_code_num"
+            android:name="com.mediatek.wwtv.mediaplayer.mmp.commonview.PinDialogFragment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+    </LinearLayout>
+
+</LinearLayout>

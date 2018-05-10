@@ -1,0 +1,7 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <!-- /获得焦点时的图片背景  -->
+  <item android:state_focused="false" android:drawable="@color/mmp_button_normal" />
+   <!-- /失去焦点时的图片背景  -->
+  <item android:state_focused="true" android:drawable="@color/mmp_button_focus" />
+</selector>

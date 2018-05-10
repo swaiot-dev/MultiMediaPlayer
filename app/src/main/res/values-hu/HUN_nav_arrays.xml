@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+	<string-array name="nav_channel_types">
+		<item>All</item>
+		<!--<item>Analóg</item>
+		<item>Digitális</item>-->
+		<item>Rádió</item>
+	</string-array>
+	<!--
+
+		{ "Auto", "Normal", "LetterBox", "Zoom", "Panorama", "Dot by Dot" }
+	-->
+	<!--
+		<string-array name="nav_aspect_strings"> <item>Automatikus</item>
+		<item>Normal</item> <item>LetterBox</item> <item>Nagyítás</item>
+		<item>Panorama</item> <item>Pontonkénti</item> </string-array>
+	-->
+	<!--
+		"Sleep:Off", "Sleep: 10 Minutes", "Sleep:20 Minutes", "Sleep:30
+		Minutes", "Sleep:40 Minutes", "Sleep:50 Minutes", "Sleep:60 Minutes",
+		"Sleep:90 Minutes", "Sleep:120 Minutes" };
+	-->
+
+	<string-array name="nav_sleep_strings">
+		<item>Sleep:Off</item>
+		<item>Sleep:15 Minutes</item>
+		<item>Sleep:30 Minutes</item>
+		<item>Sleep:45 Minutes</item>
+		<item>Sleep:60 Minutes</item>
+		<item>Sleep:90 Minutes</item>
+		<item>Sleep:120 Minutes</item>
+	</string-array>
+	<string-array name="nav_zoom_strings">
+		<item>zoom X 1</item>
+		<item>zoom X 2</item>
+		<item>zoom X 1/2</item>
+	</string-array>
+	
+	<!-- OFF, Rock, Pop, Live, Dance, Techno, Classic and Soft -->
+	<string-array name="nav_s_effect_strings">
+        <item>Felhasználó</item>
+		<item>Standard</item>
+		<item>Live1</item>
+	</string-array>
+
+	<string-array name="nav_freeze_strings">
+		<item>Freeze: On</item>
+		<item>Freeze: Off</item>
+	</string-array>
+	
+	<string-array name="nav_epg_filter_type">
+		<item>FILM</item>
+		<item>HÍREK</item>
+		<item>SHOW</item>
+		<item>SPORTS</item>
+		<item>RAJZFILM</item>
+		<item>ZENE</item>
+		<item>MŰVÉSZET</item>
+		<item>TÁRSADALOM</item>
+		<item>OKTATÁS</item>
+		<item>SZABADIDŐ</item>
+		<item>SPECIÁLIS</item>
+	</string-array>
+	
+	<string-array name="nav_epg_filter_type_AUS">
+		<item>FILM</item>
+		<item>NYHEDER</item>
+		<item>UNDERHOLDNING</item>
+		<item>SPORT</item>
+		<item>FOR BØRN</item>
+		<item>MUSIK</item>
+		<item>KULTUR</item>
+		<item>AKTUELT</item>
+		<item>UDDANNELSE</item>
+		<item>INFOTAINMENT</item>
+		<item>SPECIAL</item>
+		<item>KOMEDIE</item>
+		<item>DRAMA</item>
+		<item>DOKUMENTAR</item>
+	</string-array>
+	
+	<string-array name="nav_epg_filter_type_UK">
+		<item>FILM</item>
+		<item>HÍREK</item>
+		<item>SZÓRAKOZTATÁS</item>
+		<item>SPORT</item>
+		<item>GYERMEKMŰSOR</item>
+		<item>OKTATÁS</item>
+		<item>LIFESTYLE</item>
+		<item>SZÍNDARAB</item>
+	</string-array>
+	
+	<string-array name="nav_epg_filter_sa_type">
+		<item>HÍREK</item>
+		<item>SPORT</item>
+		<item>OKTATÁS</item>
+		<item>SOAP_OPERA</item>
+		<item>MINI_SERIES</item>
+		<item>SERIES</item>
+		<item>VARIETY</item>
+		<item>REALITY_SHOW</item>
+		<item>INFOMATION</item>
+		<item>COMICAL</item>
+		<item>CHILDREN</item>
+		<item>EROTIC</item>
+		<item>FILM</item>
+		<item>RA_TE_SA_PR</item>
+		<item>DEBATE_INTERVIEW</item>
+		<item>OTHER</item>
+	</string-array>
+	
+	<string-array name="nav_epg_subtype_movie">
+		<item>Dráma</item>
+		<item>Krimi</item>
+		<item>Kaland</item>
+		<item>Sci-fi</item>
+		<item>Vígjáték</item>
+		<item>Szappanopera</item>
+		<item>Romantikus</item>
+		<item>Komoly</item>
+		<item>Erotikus</item>
+	</string-array>
+	
+	<string-array name="nav_epg_subtype_news">
+		<item>Aktuális kérdések</item>
+		<item>Időjárás-jelentés</item>
+		<item>Hírmagazin</item>
+		<item>Dokumentum</item>
+		<item>Vitaműsor</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_news">
+		<item>Hírek</item>
+		<item>Report</item>
+		<item>Dokumentum</item>
+		<item>Biography</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_show">
+		<item>Show</item>
+		<item>Játék show</item>
+		<item>Varieté</item>
+		<item>Beszélgető show</item>
+	</string-array>
+	
+	<string-array name="nav_epg_subtype_sports">
+		<item>Sport</item>
+		<item>Különleges események</item>
+		<item>Sportmagazinok</item>
+		<item>Futball</item>
+		<item>Tenisz</item>
+		<item>Csapatsportok</item>
+		<item>Atlétika</item>
+		<item>Motorsport</item>
+		<item>Vízi sport</item>
+		<item>Téli sport</item>
+		<item>Lovaglás</item>
+		<item>Harcművészetek</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_sports">
+		<item>Sport</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_children">
+		<item>Rajzfilm</item>
+		<item>Bábfilm</item>
+		<item>Szórakoztató műsor 6-14 éveseknek</item>
+		<item>Szórakoztató műsor 10-16 éveseknek</item>
+		<item>Ismeretterjesztő</item>
+		<item>Karikatúra</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_music">
+		<item>Zene</item>
+		<item>Rock</item>
+		<item>Komolyzene</item>
+		<item>Népzene</item>
+		<item>Jazz</item>
+		<item>Zenei</item>
+		<item>Balett</item>
+	</string-array>
+	
+	<string-array name="nav_epg_subtype_arts">
+		<item>Művészet</item>
+		<item>Előadó-művészet</item>
+		<item>Képzőművészet</item>
+		<item>Vallás</item>
+		<item>Populáris kultúra</item>
+		<item>Irodalom</item>
+		<item>Film</item>
+		<item>Kísérleti</item>
+		<item>műsorsugárzás</item>
+		<item>Új média</item>
+		<item>Művészeti hírek</item>
+		<item>Divat</item>
+	</string-array>
+	
+	<string-array name="nav_epg_subtype_social">
+		<item>Társadalom</item>
+		<item>magazinok</item>
+		<item>Közgazdaságtan</item>
+		<item>Rendkívüli emberek</item>
+	</string-array>
+	
+	<string-array name="nav_epg_subtype_education">
+		<item>Oktatás</item>
+		<item>Természet</item>
+		<item>Technológia</item>
+		<item>Orvostudomány</item>
+		<item>Idegen országok</item>
+		<item>Társadalomtudomány</item>
+		<item>Továbbtanulás</item>
+		<item>Nyelvek</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_education">
+		<item>Educative</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_soap_opera">
+		<item>Soap opera</item>
+	</string-array>
+	
+	<string-array name="nav_epg_subtype_sa_mini_series">
+		<item>Mini-series</item>
+	</string-array>
+	
+	<string-array name="nav_epg_subtype_sa_series">
+		<item>Sorozat</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_variety">
+		<item>Auditorium</item>
+		<item>Szórakoztató</item>
+		<item>Musical</item>
+		<item>Making of</item>
+		<item>Feminine</item>
+		<item>Vetélkedő</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_reality_show">
+		<item>Reality show</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_information">
+		<item>Főzés</item>
+		<item>Divat</item>
+		<item>Ország</item>
+		<item>Health</item>
+		<item>Travel</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_comical">
+		<item>Comical</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_children">
+		<item>Children</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_erotic">
+		<item>Erotic</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_movie">
+		<item>Film</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_RA_TE_SA_PR">
+		<item>Raffle</item>
+		<item>Television sales</item>
+		<item>Prizing</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_DEBATE_INTERVIEW">
+		<item>Beszélgetés</item>
+		<item>Interview</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_other">
+		<item>Adult cartoon</item>
+		<item>Interactive</item>
+		<item>Policy</item>
+		<item>Vallás</item>
+	</string-array>
+	
+	<string-array name="nav_epg_subtype_leisure">
+		<item>Szabadidős tevékenységek</item>
+		<item>Utazás</item>
+		<item>Kézművesség</item>
+		<item>Motorozás</item>
+		<item>Fitnesz és egészség</item>
+		<item>Főzés</item>
+		<item>Hirdetés</item>
+		<item>Kertészkedés</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_special">
+		<item>Eredeti nyelv</item>
+		<item>Fekete-fehér</item>
+		<item>Nem közölt</item>
+		<item>Élő közvetítés</item>
+	</string-array>
+
+
+	<!-- MTS -->
+	<string-array name="nav_mts_strings">
+		<item>UNKNOW</item>
+		<item>MONO</item>
+		<item>STEREO</item>
+		<item>SUB_LANG</item>
+		<item>DUAL1</item>
+		<item>DUAL2</item>
+		<item>NICAM_MONO</item>
+		<item>NICAM_STEREO</item>
+		<item>NICAM_DUAL1</item>
+		<item>NICAM_DUAL2</item>
+		<item>FM_MONO</item>
+		<item>FM_STEREO</item>
+	</string-array>
+
+	<!-- AUDIO_TVCM -->
+	<string-array name="nav_audio_tvcm_strings">
+		<item>baq</item>
+		<item>eus</item>
+		<item>bul</item>
+		<item>cat</item>
+		<item>scr</item>
+		<item>cze</item>
+		<item>dan</item>
+		<item>dut</item>
+		<item>eng</item>
+		<item>fin</item>
+		<item>fre</item>
+		<item>gla</item>
+		<item>gdh</item>
+		<item>gle</item>
+		<item>glg</item>
+		<item>ger</item>
+		<item>gre</item>
+		<item>hun</item>
+		<item>ita</item>
+		<item>nor</item>
+		<item>pol</item>
+		<item>por</item>
+		<item>rum</item>
+		<item>rus</item>
+		<item>scc</item>
+		<item>slo</item>
+		<item>slv</item>
+		<item>spa</item>
+		<item>swe</item>
+		<item>tur</item>
+		<item>wel</item>
+		<item>ice</item>
+		<item>isl</item>
+		<item>smi</item>
+		<item>tha</item>
+		<item>vie</item>
+		<item>ara</item>
+		<item>zho</item>
+		<item>chi</item>
+		<item>per</item>
+		<item>kor</item>
+		<item>est</item>
+		<item>mao</item>
+		<item>cmn</item>
+		<item>yue</item>
+		<item>jpn</item>
+		<item>hin</item>
+		<item>nar</item>
+		<item>qaa</item>
+		<item>und</item>
+	</string-array>
+
+	<!-- AUDIO -->
+	<string-array name="nav_audio_strings">
+		<item>Baszk</item>
+		<item>Baszk</item>
+		<item>Bulaarian</item>
+		<item>catalan</item>
+		<item>Horvát</item>
+		<item>Cseh</item>
+		<item>Dán</item>
+		<item>Holland</item>
+		<item>Angol</item>
+		<item>Finn</item>
+		<item>french</item>
+		<item>gaelic</item>
+		<item>gaelic</item>
+		<item>Irish</item>
+		<item>gallegan</item>
+		<item>german</item>
+		<item>greek</item>
+		<item>hungarian</item>
+		<item>italian</item>
+		<item>norwegian</item>
+		<item>polish</item>
+		<item>portuguese</item>
+		<item>romanian</item>
+		<item>russian</item>
+		<item>serbian</item>
+		<item>slovak</item>
+		<item>slovenian</item>
+		<item>spanish</item>
+		<item>swedish</item>
+		<item>turkish</item>
+		<item>welsh</item>
+		<item>icelandic</item>
+		<item>icelandic</item>
+		<item>Sami langs</item>
+		<item>Thaiföldi</item>
+		<item>Vietnami</item>
+		<item>Arab</item>
+		<item>T. Chinese</item>
+		<item>S. Chinese</item>
+		<item>Perzsa</item>
+		<item>koreai</item>
+		<item>Észt</item>
+		<item>Maori</item>
+		<item>Mandarin </item>
+		<item>Kantoni</item>
+		<item>Japán </item>
+		<item>Hindi    </item>
+		<item>Narrative</item>
+		<item>Original Version for France</item>
+		<item>Nincs meghatározva</item>
+	</string-array>
+
+	<string-array name="nav_bottom_volume">
+		<item>Főhangerő</item>
+		<item>Elülső bal hangerő</item>
+		<item>Elülső jobb hangerő</item>
+		<item>Hátulsó bal hangerő</item>
+		<item>Hátulsó jobb hangerő</item>
+		<item>Középső hangerő</item>
+		<item>Mélynyomó hangerő</item>
+	</string-array>
+
+    <string-array name="nav_zoom_mode">
+		<item>Zoom x 1/2</item>
+		<item>Zoom x 1</item>
+		<item>Zoom x 2</item>
+	</string-array>
+
+	<string-array name="nav_receiver_type">
+		<item>Kabel</item>
+		<item>Antenne</item>
+	</string-array>
+	<string-array name="pvr_tshift_initdisk_step1">
+		<item>Automatikus</item>
+		<item>Manual</item>
+	</string-array>
+	<string-array name="pvr_tshift_initdisk_step_format">
+		<item>Format</item>
+		<item>Kihagy</item>
+	</string-array>
+	<string-array name="pvr_tshift_initdisk_step_formatconfirm">
+		<item>Format</item>
+		<item>Avbryt</item>
+	</string-array>
+	
+	<string-array name="week_day">
+	    <item>vasárnap</item>
+		<item>hétfő</item>
+		<item>kedd</item>
+		<item>szerda</item>
+		<item>csütörtök</item>
+		<item>péntek</item>
+		<item>szombat</item>
+	</string-array>
+    <string-array name="nav_oad_btns_cancel">
+        <item>Avbryt</item>
+    </string-array>
+    <string-array name="nav_oad_btns_accept_remind_me_later">
+        <item>Elfogadás</item>
+        <item>Emlékeztessen később</item>
+    </string-array>
+    <string-array name="nav_oad_btns_accept_reject">
+        <item>Elfogadás</item>
+        <item>Elutasítás</item>
+    </string-array>
+    
+    <string-array name="nav_oad_btns_yes_no">
+        <item>Igen</item>
+        <item>NEM</item>
+    </string-array>
+
+
+
+
+
+	<!--				
+				0:	MSG_STR_ID_EMPTY,						hide screen saver
+     				1:	MSG_STR_ID_NO_SIGNAL,					No Signal!
+     				2:	MSG_STR_ID_SCAN_CH,					Please Scan Channels!
+     				3:	MSG_STR_ID_GETTING_DATA,				Retrieving Data...
+     				4:	MSG_STR_ID_LOCKED_CH,					Channel Locked!
+     				5:	MSG_STR_ID_LOCKED_PROG,				Program Locked!
+     				6:	MSG_STR_ID_LOCKED_INP,					Input Locked!
+     				7:	MSG_STR_ID_NO_EVN_TILE,					(No program title.)
+     				8:	MSG_STR_ID_HIDDEN_CH,					Hidden Channel!
+     				9:	MSG_STR_ID_AUDIO_PROG,					Audio Program
+     				10:	MSG_STR_ID_NO_AUDIO_VIDEO,			No Audio and Video
+     				11:	MSG_STR_ID_NO_EVN_DTIL,				(No program details.)
+     				12:	MSG_STR_ID_NO_CH_DTIL,					(No channel details.)
+     				13:	MSG_STR_ID_NO_AUDIO_STRM,				no audio stream ??
+     				14:	MSG_STR_ID_NO_VIDEO_STRM,				no video stream ??
+     				15:	MSG_STR_ID_PLS_WAIT,					Please Wait...
+     				16:	MSG_STR_ID_VIDEO_NOT_SUPPORT,			video not support ??
+     				17:	MSG_STR_ID_HD_VIDEO_NOT_SUPPORT,		HD Service
+     				18:	MSG_STR_ID_NON_BRDCSTING,				Non-Broadcasting
+     				19:	MSG_STR_ID_NO_CH_IN_LIST,				no channel ??
+     				20:	MSG_STR_ID_TTX_SBTI_X_RATED_BLOCKED,	This content is blocked by your service provider
+     				255:	MSG_STR_ID_LAST_VALID_ENTRY,			only for counting purpose
+    -->
+	<string-array name="nav_twinkle_strings">
+		<item>  </item>
+		<item>Nincs jel.</item>
+		<item>Használja a csatornakereső parancsot.</item>
+		<item>Adatok beolvasása…</item>
+		<item>A csatorna zárolva van.</item>
+		<item>A program zárolva van.</item>
+		<item>A bemenet zárolva van</item>
+		<item>(Nincs programnév.)</item>
+		<item>Rejtett csatorna.</item>
+		<item>Hangműsor</item>
+		<item>Nincs hang és nincs videó.</item>
+		<item>(Nincsenek programadatok.)</item>
+		<item>(Nincsenek csatornával kapcsolatos részletek.)</item>
+		<item>♪ No Audio Stream ♪</item>
+		<item>No Video Stream</item>
+		<item>Kérjük, várjon…</item>
+		<item>Video not Support</item>
+		<item>HD szerviz</item>
+		<item>Non-Broadcasting</item>
+		<item>No Channel</item>
+		<item>This content is blocked by your service provider</item>
+		<item>Kódolva</item>
+	</string-array>
+
+
+	<string-array name="nav_channel_type">
+		<item>All</item>
+		<item>Digitális</item>
+		<item>Rádió</item>
+		<item>Analóg</item>
+	</string-array>
+
+
+    
+</resources>
+

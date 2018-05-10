@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<!-- parameter configuration module Navigation bar -->
+	<string name="menu_interface_name">منو</string>
+	<string name="menu_show_menu_item">فيلم</string>
+	<string name="menu_tab_video">فيلم</string>
+	<string name="menu_tab_audio">صوت</string>
+	<string name="menu_tab_tv">تلویزیون</string>
+	<string name="menu_tab_setup">تنظیم</string>
+	<string name="menu_tab_parent">والدینی</string>
+
+	<!-- parameter configuration module function prompt-->
+	<string name="menu_enter">ورود</string>
+	<string name="menu_select">انتخاب</string>
+	<string name="menu_exit">خروج</string>
+	<string name="menu_adjust">تنظیم</string>
+	<string name="menu_back">بازگشت، پشت</string>
+	<string name="menu_set">Set</string>
+	<string name="menu_ok">بسیار خوب، درست است</string>
+	<string name="menu_cancel">کانال</string>
+	<string name="menu_ci_close">بستن CI</string>
+	<string name="menu_scan">جستجو، مرور</string>
+
+	<!-- the parameter of Video,item display interface strings to be defined -->
+	<string name="menu_video_picture_mode">حالت تصویر</string>
+	<string name="menu_video_backlight">نور از پشت</string>
+	<string name="menu_video_brighttness">روشنایی</string>
+	<string name="menu_video_contrast">تباین</string>
+	<string name="menu_video_saturation">اشباع</string>
+	<string name="menu_video_hue">رنگ</string>
+	<string name="menu_video_sharpness">دقت، تیزی</string>
+	<string name="menu_video_gamma">گاما</string>
+	<string name="menu_video_color_temperature">دمای رنگ</string>
+	<string name="menu_video_color_g_red">تقویت R</string>
+	<string name="menu_video_color_g_green">تقویت G</string>
+	<string name="menu_video_color_g_blue">تقویت B</string>
+	<string name="menu_video_advancedvideo">ویدیوی پیشرفته</string>
+	<string name="menu_video_3d">3D</string>
+	<string name="menu_video_3d_mode">3D Mode</string>
+	<string name="menu_video_3d_nav">3D Navigation</string>
+	<string name="menu_video_3d_3t2">3D-to-2D</string>
+	<string name="menu_video_3d_depth_field">Depth of Field</string>
+	<string name="menu_video_3d_protrude">Protrude</string>
+	<string name="menu_video_3d_distance">Distance to TV</string>
+	<string name="menu_video_3d_image_safety">Image Safety</string>
+	<string name="menu_video_3d_leftright">L-R Switch</string>
+	<string name="menu_video_3d_osd">OSD Depth</string>
+	<string name="menu_video_3d_wear_glass">Please Wear 3D Glasses!</string>
+	<string name="menu_video_vga_mode">حالت VGA</string>
+	<string name="menu_video_dnr">DNR</string>
+	<string name="menu_video_mpeg_nr">MPEG NR</string>
+	<string name="menu_video_luma">کنترل لومای تطبیقی</string>
+	<string name="menu_video_flesh_tone">درجه صدای بدنه</string>
+	<string name="menu_video_di_film_mode">حالت فیلم DI</string>
+	<string name="menu_video_blue_stretch">امتداد آبی</string>
+	<string name="menu_video_wme_mode">حالت بازی</string>
+	<string name="menu_video_pq_split_mode">نمایش صفحه مجزای PQ</string>
+	<string name="menu_video_mjc">MJC</string>
+	<string name="menu_video_mjc_effect">جلوه</string>
+	<string name="menu_video_mjc_demo_partition">قسمت دمو</string>
+	<string name="menu_video_mjc_mode">حالت </string>
+	<string name="menu_video_mjc_demo">دمو</string>
+	<string name="menu_video_hdmi_mode">حالت HDMI</string>
+	<string name="menu_video_vga">VGA</string>
+	<string name="menu_video_auto_adjust">تنظیم اتوماتیک</string>
+	<string name="menu_video_hposition">موقعیت افقی</string>
+	<string name="menu_video_vposition">موقعیت عمودی</string>
+	<string name="menu_video_phase">مرحله</string>
+	<string name="menu_video_clock">ساعت</string>
+	<string name="menu_video_3d_leftright_str">Left/Right</string>
+	<string name="menu_video_3d_updown_str">UP/Down</string>
+	<string name="menu_video_mjc_demo_off">Off</string>
+	<string name="menu_video_mjc_demo_on">On</string>
+	<string name="menu_video_black_bar">Black Bar Detection</string>
+	<string name="menu_video_super_resolution">Super Resolution</string>
+	<!-- the parameter of Audio,item display interface strings to be defined -->
+	<string name="menu_audio_balance">تعادل</string>
+	<string name="menu_audio_bass">صدای بم</string>
+	<string name="menu_audio_treble">صدای زیر</string>
+	<string name="menu_audio_srs_mode">حالت گسترده صدا</string>
+	<string name="menu_audio_equalize">برابرساز</string>
+	<string name="menu_audio_speaker_mode">بلندگو</string>
+	<string name="menu_audio_spdif_mode">نوع SPDIF</string>
+	<string name="menu_audio_spdif_delay">تاخیر SPDIF</string>
+	<string name="menu_audio_avc_mode">کنترل اتوماتیک درجه صدا</string>
+	<string name="menu_audio_type">نوع</string>
+	<string name="menu_audio_visually_impaired">مخصوص افراد دارای نقص بینایی</string>
+	<string name="menu_audio_visually_speaker">بلندگو</string>
+	<string name="menu_audio_visually_headphone">گوشی هدفون</string>
+	<string name="menu_audio_visually_volume">درجه صدا</string>
+	<string name="menu_audio_visually_pan_and_fade">Pan and Fade</string>
+	<string name="menu_audio_visually_impaired_audio">Visually Impaired Audio</string>
+    <string name="menu_audio_downmix_mode">Downmix Mode</string>
+    <string name="menu_audio_sound_tracks">Soundtracks</string>
+	<!-- the parameter of TV item display interface strings to be defined-->
+	<string name="menu_tv_tuner_mode">حالت تنظیم دقیق</string>
+	<string name="menu_tv_country_region_id">هویت دینی کشور</string>
+	<string name="menu_tv_mts">کانال صدا</string>
+	<string name="menu_tv_mts_us">MTS</string>
+	<string name="menu_tv_audio_language">زبان صوتی</string>
+	<string name="menu_tv_audio_language2nd">دومین زبان صوتی</string>
+	<string name="menu_tv_channels">Channels</string>
+	<string name="menu_tv_channel_scan">جستجوی کانال</string>
+	<string name="menu_tv_tv_system">سيستم تلويزيونی</string>
+	<string name="menu_tv_color_system">سیستم رنگ</string>
+	<string name="menu_tv_update_scan">به روز رسانی جستجو</string>
+	<string name="menu_tv_analog_manual_scan">جستجوی دستی آنالوگ</string>
+	<string name="menu_tv_single_rf_scan">جستجوی فرکانس رادیویی واحد</string>
+	<string name="menu_tv_channel_edit">ویرایش کانال</string>
+	<string name="menu_tv_channel_skip">پریدن از روی کانال</string>
+	<string name="menu_tv_channel_setup">Channel Setup</string>
+	<string name="menu_tv_clear_channel_list">Clear Channel List</string>
+	<string name="menu_tv_freeze_channel">Freeze Channel</string>
+	<string name="menu_tv_status">Status</string>
+	<string name="menu_tv_status_value">جستجو</string>
+	<string name="menu_tv_analog_channels">Analog Channels</string>
+	<string name="menu_tv_digital_channels">Digital  Channels</string>
+	<string name="menu_tv_start_frequency">Start Frequency(MHz)</string>
+	<string name="menu_tv_end_frequency">End Frequency(MHz)</string>
+	<string name="menu_tv_rf_scan_frequency">Scan Frequency(MHz)</string>
+	<string name="menu_tv_rf_scan_mode">QAM Style</string>
+	<string name="menu_tv_rf_sym_rate">Symbolrate</string>
+	<string name="menu_tv_rf_signal_level">Signal Level: </string>
+	<string name="menu_tv_sigle_frequency_plan">Frequency Plan </string>
+	<string name="menu_tv_sigle_modulation">نوسان صدا</string>
+	
+	<string name="menu_tv_sigle_scan_mode">Scan Mode</string>
+	<string name="menu_tv_sigle_from_channel">از کانال شماره</string>
+	<string name="menu_tv_sigle_to_channcel">تا کانال شماره</string>
+	
+	<string name="menu_tv_insert">درج</string>
+	<string name="menu_tv_delete">حذف</string>
+	<string name="menu_tv_swap">تعويض</string>
+	<string name="menu_tv_number">شماره</string>
+	<string name="menu_tv_type">نوع</string>
+	<string name="menu_tv_frequency">فرکانس</string>
+	<string name="menu_tv_system">سيستم</string>
+	<string name="menu_tv_name">نام</string>
+	<string name="menu_tv_skip">رد شدن</string>
+	<string name="menu_tv_scann_allchannels">جستجوی تمامی کانال ها.</string>
+
+	<!-- DTMB Single RF Channel -->
+	<string name="menu_tv_single_rf_channel">کانال فرکانس رادیویی</string>
+	<string name="menu_tv_single_signal_level">Signal Level</string>
+    <string name="menu_tv_single_signal_quality">Signal Quality</string>
+	<!-- channel edit-->
+	<string name="menu_tv_channel_tsname">TS Name :</string>
+	<string name="menu_tv_channel_no">Channel Number :</string>
+	<string name="menu_tv_channel_name">Channel Name :</string>
+	<string name="menu_tv_network_name">NetWork Name :</string>
+	<string name="menu_tv_freq">Frequency ： </string>
+	<string name="menu_tv_sound_system">Sound system</string>
+	<string name="menu_tv_auto_finetune">AFT</string>
+	<string name="menu_tv_finetune">تنظيم دقيق</string>
+	<string name="menu_tv_enter">ورود</string>
+    <string name="menu_tv_exit">خروج</string>
+    <string name="menu_tv_store">ذخيره</string>
+	<string name="menu_tv_clear_channel_info">آیا مطمئن هستید؟</string>
+	<string name="menu_dialog_confirm">بسیار خوب، درست است</string>
+	<string name="menu_dialog_cancel">کانال</string>
+	<string name="menu_dialog_numrepeat">شماره کانال تکراری است!</string>
+    <string name="menu_tv_channelfine_tune">تنظیم دقیق کانال آنالوگ</string>
+	<!-- the parameter of Setup,item display interface strings to be defined -->
+	<!-- first level -->
+	<string name="menu_setup_language">زبان OSD</string>
+	<string name="menu_setup_screenmode">حالت صفحه نمایش</string>
+	<string name="menu_setup_dpms">DPMS</string>
+	<string name="menu_setup_bluemute">آبی غیرفعال</string>
+	<string name="menu_setup_ginga_setup">Ginga Setup</string>
+	<string name="menu_setup_divx_reg_setup">ثبت DivX(R)</string>
+	<string name="menu_setup_divx_deac_setup">غير فعال سازی DivX(R)</string>
+	<string name="menu_setup_scart_setup">SCART</string>
+	<string name="menu_setup_scart1_setup">SCART</string>
+	<string name="menu_setup_caption_setup">Caption Setup</string>
+	<string name="menu_setup_fastboot">Hot Boot</string>
+	<string name="menu_setup_poweron_music">روشن کردن موسيقی</string>
+	<string name="menu_setup_poweroff_music">خاموش کردن موسيقی</string>
+	<string name="menu_setup_capturelogo_select">انتخاب لوگوی ضبط</string>
+	<string name="menu_setup_time_setup">تنظیم تایمر</string>
+	<string name="menu_setup_teletext">پیام نما</string>
+	<string name="menu_setup_subtitle">زیرنویس</string>
+	<string name="menu_setup_analog_subtitle">زیرنویس آنالوگ</string>
+	<string name="menu_setup_digital_subtitle_lang">Digital Subtitle Lang.</string>
+	<string name="menu_setup_digital_subtitle_lang_2nd">دومین زبان زیرنویس دیجیتالی</string>
+	<string name="menu_setup_subtitle_type">نوع زیرنویس</string>
+	<string name="menu_setup_network">Network</string>
+	<string name="menu_setup_version_info">اطلاعات مدل</string>
+	<string name="menu_setup_msi">MSI</string>
+	<string name="menu_setup_reset_default">بازگردانی به حالت پیش فرض</string>
+	<string name="menu_setup_common_interface">رابط معمولی</string>
+	<string name="menu_setup_record_setting">Record Setting</string>
+	<string name="menu_setup_oad_setting">OAD </string>
+	<string name="menu_setup_atv_record_mode">ATV Record Mode</string>
+	<string name="menu_setup_device_info">Device Info</string>
+	<string name="menu_setup_time_shifting_mode">حالت تغییر زمانی</string>
+	<string name="menu_setup_record_quality">Record Quality</string>
+		<!-- CECFUN-->
+	<string name="menu_setup_cec_function">CEC Function</string>
+	<string name="menu_setup_cec_auto_turn">Auto Turn Off</string>
+	<string name="menu_setup_cec_device_discovery">کشف دستگاه</string>
+	<string name="menu_setup_cec_standby">حالت آماده به کار</string>
+	<string name="menu_setup_cec_poweron">پاور روشن است</string>
+	<string name="menu_setup_cec_enablesys">Enable Sys. Aud. Ctrl</string>
+	<string name="menu_setup_cec_disablesys">Disable Sys. Aud. Ctrl</string>
+	<string name="menu_setup_cec_noresponese">پاسخی از دستگاه دریافت نشد</string>
+	
+	<!-- CI -->
+	<string name="menu_setup_ci_no_card">کارت CI درج نشده است.</string>
+
+	<!-- second level -->
+	<string name="menu_setup_timezone">منطقه زمانی</string>
+	<string name="menu_setup_time">زمان</string>
+	<string name="menu_setup_sleep_timer">تایمر خواب</string>
+	<string name="menu_setup_auto_sleep">خواب اتوماتیک</string>
+	<string name="menu_setup_configuration">پيکربندی</string>
+	<string name="menu_setup_auto_network_upgrade">Network Upgrade</string>
+	<string name="menu_setup_application">Applications</string>
+	<string name="menu_setup_version_name">TurnKey</string>
+	<string name="menu_setup_version_ver">1.0</string>
+	<string name="menu_setup_version_number">0001</string>
+	<string name="menu_setup_ginga_enable">Ginga Enable</string>
+	<string name="menu_setup_ginga_auto_start_app">Auto Start Application</string>
+	
+	<string name="menu_setup_caption_enable">Enable Caption</string>
+	<string name="menu_setup_analog_closed_caption">Analog Closed Caption</string>
+	<string name="menu_setup_digital_caption">Digital Closed Caption</string>
+	<string name="menu_setup_digital_style">Digital Caption Style</string>
+	<string name="menu_setup_superimpose_setup">Superimpose Setup</string>
+	
+	<string name="menu_setup_caption_style">Caption Style</string>
+	<string name="menu_setup_font_size">Font Size</string>
+	<string name="menu_setup_font_style">Font Style</string>
+	<string name="menu_setup_font_color">Font Color</string>
+	<string name="menu_setup_font_opacity">Font Opacity</string>
+	<string name="menu_setup_background_color">Background Color</string>
+	<string name="menu_setup_background_opacity">Background Opacity</string>
+	<string name="menu_setup_window_color">Window Color</string>
+	<string name="menu_setup_window_opacity">Window Opacity</string>
+	
+	<string name="menu_setup_digital_teletext_language">Digital TeleText Language</string>
+	<string name="menu_setup_decoding_page_language">برداشتن رمز زبان صفحه</string>
+	<string name="menu_setup_ttx_presentation_level">درجه نمایش TTX</string>
+	<!-- third level -->
+	<string name="menu_setup_auto_synchronization">همزمان سازی اتوماتیک </string>
+	<string name="menu_setup_date">تاريخ</string>
+	<string name="menu_setup_power_on_timer">روشن کردن تایمر</string>
+	<string name="menu_setup_timer">تایمر</string>
+	<string name="menu_setup_power_on_channel">روشن کردن کانال</string>
+	<string name="menu_setup_power_off_timer">خاموش کردن تایمر</string>
+	<string name="menu_setup_internet_connection">اتصال اینترنت</string>
+	<string name="menu_setup_wireless_setting">Wireless Setting</string>
+	<string name="menu_setup_information">اطلاعات</string>
+	<string name="menu_setup_ip_setting">تنظیم IP</string>
+	<string name="menu_setup_connection_test">آزمایش اتصال</string>
+	<string name="menu_setup_interface">واسط</string>
+	<string name="menu_setup_dlna">DLNA</string>
+	<string name="menu_setup_my_net_place">My Network Places</string>
+
+	<!-- forth level -->
+	<string name="menu_setup_power_on_channel_mode">انتخاب حالت</string>
+	<string name="menu_setup_power_on_no_channel">(کانالی دریافت نمی شود.)</string>
+	<string name="menu_setup_address_type">نوع نشانی</string>
+	<string name="menu_setup_ip_address">نشانی IP</string>
+	<string name="menu_setup_subnetwork_mask">ماسک زیرشبکه</string>
+	<string name="menu_setup_default_gateway">دروازه اصلی</string>
+	<string name="menu_setup_first_dns">DNS اصلی</string>
+	<string name="menu_setup_standby_dns">DNS فرعی</string>
+	<string name="menu_setup_ethernet_mac">Ethernet MAC</string>
+	
+	<!-- wifi setting -->
+	<string name="wifi_setup_title">Wireless Setting</string>
+
+	
+	
+	<!-- pop-up dialog or window  -->
+	<string name="menu_setup_connetion_info1">آزمایش اتصال شبکه را شروع کنید.</string>
+	<string name="menu_setup_connetion_info2">آزمایش اتصال شبکه موفقیت آمیز بود!</string>
+	<string name="menu_setup_connetion_info3">آزمایش اتصال شبکه موفقیت آمیز نبود!</string>
+	<string name="menu_setup_connetion_wait">please wait</string>
+	<string name="menu_setup_upgrade_info1">Start to download new firmware from server.</string>
+	<string name="menu_setup_upgrade_info2_title">جادوگر به روز رسانی</string>
+	<string name="menu_setup_upgrade_info2">Check new firmware failed.</string>
+	<string name="menu_setup_reset_info1">آیا مطمئن هستید؟</string>
+
+	<!-- part of factory -->
+	<string name="menu_factory_name">کارخانه</string>
+	<string name="menu_factory_video">فيلم</string>
+	<string name="menu_factory_audio">صوت</string>
+	<string name="menu_factory_TV">تلویزیون</string>
+	<string name="menu_factory_setup">تنظیم</string>
+	<string name="menu_factory_preset">بازگرداندن تنظیمات کانال به حالت پیش فرض</string>
+	<!-- part of factory_video -->
+	<string name="menu_factory_video_auto_color">رنگ اتوماتیک</string>
+	<string name="menu_factory_video_color_temperature">دمای رنگ</string>
+	<string name="menu_factory_video_auto_phase">مرحله اتوماتیک</string>
+	<string name="menu_factory_video_phase">مرحله</string>
+	<string name="menu_factory_video_h_position">موقعیت افقی</string>
+	<string name="menu_factory_video_v_position">موقعیت عمودی</string>
+	<string name="menu_factory_video_di_ma">DI MA</string>
+	<string name="menu_factory_video_di_edge">حاشیه DI</string>
+	<string name="menu_factory_video_wcg">WCG</string>
+	<string name="menu_factory_video_flip">برعکس</string>
+	<string name="menu_factory_video_mirror">آینه</string>
+	<string name="menu_factory_video_local_dimming">کاهش نور موضعی</string>
+	<!--factory_video_color_temperature  -->
+	<string name="menu_factory_video_color_rgain">تقویت R</string>
+	<string name="menu_factory_video_color_ggain">تقویت G</string>
+	<string name="menu_factory_video_color_bgain">تقویت B</string>
+	<string name="menu_factory_video_color_roffset">متعادل کردن R</string>
+	<string name="menu_factory_video_color_goffset">متعادل کردن G</string>
+	<string name="menu_factory_video_color_boffset">متعادل کردن B</string>
+	
+	<!-- part of factory_audio -->
+	<string name="menu_factory_audio_dolby_banner">دالبی بنر</string>
+	<string name="menu_factory_audio_compression">تراکم</string>
+	<string name="menu_factory_audio_compression_factor">ضریب تراکم</string>
+	<string name="menu_factory_audio_mts_system">سیستم MTS</string>
+	<string name="menu_factory_audio_a2_system">سیستم A2</string>
+	<string name="menu_factory_audio_pal_system">سیستم PAL</string>
+	<string name="menu_factory_audio_eu_system">سیستم EU</string>
+	<string name="menu_factory_audio_latency">تاخیر، خفتگی</string>
+	<!-- part of factory_audio_mts_system -->
+	<string name="menu_factory_audio_mts_numbersofcheck">Numbers Of Check</string>
+	<string name="menu_factory_audio_mts_numbersofpilot">Numbers Of Pilot</string>
+	<string name="menu_factory_audio_mts_pilot_threshold_high">Pilot Threshold High</string>
+	<string name="menu_factory_audio_mts_pilot_threshold_low">Pilot Threshold Low</string>
+	<string name="menu_factory_audio_mts_number_of_sap">Numbers of SAP</string>
+	<string name="menu_factory_audio_mts_sap_threshold_high">SAP Threshold High</string>
+	<string name="menu_factory_audio_mts_sap_threshold_low">SAP Threshold Low</string>
+	<string name="menu_factory_audio_mts_high_deviation_mode">High Deviation Mode</string>
+	<string name="menu_factory_audio_mts_carriershiftfunction">Carrier Shift Function</string>
+	<string name="menu_factory_audio_mts_fmstaurationmute">FM Stauration Mute</string>
+	<string name="menu_factory_audio_mts_fmcarriermutemode">FM Carrier Mute Mode</string>
+	<string name="menu_factory_audio_mts_fmcarriermutethreshold_high">FM Carrier Mute Threshold High</string>
+	<string name="menu_factory_audio_mts_fmcarriermutethreshold_low">FM Carrier Mute Threshold Low</string>
+	<string name="menu_factory_audio_mts_mono_stero_finetunevolume">Mono Stero Fine Tune Volume</string>
+	<string name="menu_factory_audio_mts_sap_finetunevolume">SAP Fine Tune Volume</string>
+	<!-- part of factory_audio_a2_system -->
+	<string name="menu_factory_audio_a2_numbersofcheck">Numbers Of Check</string>
+	<string name="menu_factory_audio_a2_numbersofdouble">Numbers Of Double</string>
+	<string name="menu_factory_audio_a2_monoweight">Mono Weight</string>
+	<string name="menu_factory_audio_a2_stereoweight">Stereo Weight</string>
+	<string name="menu_factory_audio_a2_dualweight">Dual Weight</string>
+	<string name="menu_factory_audio_a2_highdeviationmode">High Deviation Mode</string>
+	<string name="menu_factory_audio_a2_carriershiftfunction">Carrier Shift Function</string>
+	<string name="menu_factory_audio_a2_fmcarriermutemode">FM Carrier Mute Mode</string>
+	<string name="menu_factory_audio_a2_fmcarriermutethreshold_high">FM Carrier Mute Threshold High</string>
+	<string name="menu_factory_audio_a2_fmcarriermutethreshold_low">FM Carrier Mute Threshold Low</string>
+	<string name="menu_factory_audio_a2_finetunevolume">Fine Tune Volume</string>
+	
+	<!-- part of factory_audio_pal_system -->
+	<string name="menu_factory_audio_pal_correctthreshold">Correct Threshold</string>
+	<string name="menu_factory_audio_pal_totalsyncloop">Total Sync Loop</string>
+	<string name="menu_factory_audio_pal_errorthreshold">Error Threshold</string>
+	<string name="menu_factory_audio_pal_parityerrorthreshold">Parity Error Threshold</string>
+	<string name="menu_factory_audio_pal_everynumberframes">Every Number Frames</string>
+	<string name="menu_factory_audio_pal_highdeviationmode">High Deviation Mode</string>
+	<string name="menu_factory_audio_pal_amcarriermutemode">AM Carrier Mute Mode</string>
+	<string name="menu_factory_audio_pal_amcarriermutethresholdhigh">AM Carrier Mute Threshold High</string>
+	<string name="menu_factory_audio_pal_amcarriermutethresholdlow">AM Carrier Mute Threshold Low</string>
+	<string name="menu_factory_audio_pal_carriershiftfunction">Carrier Shift Function</string>
+	<string name="menu_factory_audio_pal_fmcarriermutemode">FM Carrier Mute Mode</string>
+	<string name="menu_factory_audio_pal_fmcarriermutethresholdhigh">FM Carrier Mute Threshold High</string>
+	<string name="menu_factory_audio_pal_fmcarriermutethresholdlow">FM Carrier Mute Threshold Low</string>
+	<string name="menu_factory_audio_pal_palfinetunevolume">PAL Fine Tune Volume</string>
+	<string name="menu_factory_audio_pal_amfinetunevolume">AM Fine Tune Volume</string>
+	<string name="menu_factory_audio_pal_nicamfinetunevolume">NICAM Fine Tune Volume</string>
+	<!-- part of factory_audio_eu_system -->
+	<string name="menu_factory_audio_eu_fmsaturationmute">FM Saturation Mute</string>
+	<string name="menu_factory_audio_eu_eunoneusystem">EU Non-EU System</string>
+	
+	
+	<string name="menu_factory_TV_digital_channel_scan">جستجوی طیف کانال دیجیتال</string>
+	<string name="menu_factory_TV_analog_channel_scan">Analog Channel Range Scan</string>
+	
+	<string name="menu_factory_TV_range_scan">Range Scan</string>
+	<string name="menu_factory_TV_single_rf_scan">جستجوی فرکانس رادیویی واحد</string>
+	<string name="menu_factory_TV_factory_scan">Factory Scan</string>
+	<string name="menu_factory_TV_tunerdiag">تشخیص تنظیم کننده </string>
+	<string name="menu_factory_TV_tunerdiag_noinfo">No Diag.Info</string>
+	<string name="menu_factory_TV_tunerdiag_version">Version:</string>
+	<string name="menu_factory_TV_tunerdiag_freq">RF Freq(KHz):</string>
+	<string name="menu_factory_TV_tunerdiag_lockstate">Lock State:</string>
+	<string name="menu_factory_setup_eventform">حالت رویداد</string>
+	<string name="menu_factory_setup_burningmode">حالت ثبت داده ها بر روي حافظه فقط خواندني </string>
+	<string name="menu_factory_setup_uart_factory_mode">Uart Factory Mode</string>
+	<string name="menu_factory_setup_cleanstorage">ذخیره فرآیند پاک کردن</string>
+	
+	<string name="menu_factory_setup_data_service_support">Data Service Support</string>
+	<string name="menu_factory_setup_caption">Caption Setup</string>
+	<string name="menu_factory_setup_extern_size">Extern size</string>
+	<string name="menu_factory_setup_equal_width">Equal width</string>
+	<string name="menu_factory_setup_auto_line">Auto line</string>
+	<string name="menu_factory_setup_roll_up">Roll up</string>
+	
+	<string name="menu_factory_setup_clean_dialog">Are you sure ?</string>
+	<string name="menu_factory_preset_dump">کپی کردن کانال</string>
+	<string name="menu_factory_preset_print">چاپ کردن کانال</string>
+	<string name="menu_factory_preset_restore">بازگرداندن کانال</string>
+	<string name="menu_factory_setup_ci_update">به روز رسانی CI+ تاييديه از USB</string>
+    <string name="menu_factory_setup_ci_erase">پاک کردن CI + تاييديه</string>
+    <string name="menu_factory_setup_ci_query">Query CI+ Credential</string>
+    <string name="menu_factory_setup_ci_update_false">فايل پيدا نشد</string>
+    <string name="menu_factory_setup_ci_erase_success">پاک کردن انجام شد!</string>
+    <string name="menu_factory_setup_ci_erase_false">Erase Failed!</string>
+    <string name="menu_factory_setup_ci_query_false">Valid:N Customer Code:</string>
+
+	<!-- pop-up dialog or window  -->
+	<string name="menu_tv_analog_manual_scan_init">جستجوی کانال های آنالوگ</string>
+	<string name="menu_tv_single_rf_scan_init">Scan Single RF Channel. (Digital Only)</string>
+	<string name="menu_tv_us_range_scan">Scan with a range of channels</string>
+	<string name="menu_tv_analog_manual_scan_cancel">Status:Scan Cancel</string>
+	<string name="menu_setup_channel_scan">Status:Scanning</string>
+	<string name="menu_setup_satellite_name">Satellite name:&#160;</string>
+	<string name="menu_setup_channel_scan_ana">کانال های آنالوگ:</string>
+	<string name="menu_setup_channel_scan_dig">کانال های دیجیتالی:</string>
+	<string name="menu_tv_store_data">Are you sure to save?</string>
+	<string name="menu_tv_reset_all">Are you sure to reset all settings？</string>
+	<string name="menu_setup_channel_scan_cancel">Status:Scan Cancel</string>
+	<string name="menu_setup_channel_scan_done">Status:Scan Completed</string>
+	<string name="menu_setup_network_upgrade">network upgrade...</string>
+	<string name="menu_setup_network_wireless">Wireless Setting</string>
+	<string name="menu_setup_network_no_net">There is no wireless device connected to TV!</string>
+	<string name="menu_setup_tvchaneledit_hint">Test</string>
+	<string name="menu_setup_divx_sure">بسیار خوب، درست است</string>
+	<string name="menu_setup_divx_cancel">کانال</string>
+	<string name="menu_setup_tvchaneledit_sure">بسیار خوب، درست است</string>
+	<string name="menu_setup_tvchaneledit_cancel">کانال</string>
+	<string name="menu_setup_button_yes">بله</string>
+	<string name="menu_setup_button_no">خیر</string>
+	<string name="menu_setup_ip_edittext_hint">000</string>
+	<string name="menu_setup_ip_error_warning1">please enter values between 1 and 233 </string>
+    <string name="menu_setup_ip_error_warning2">please enter values between 0 and 255</string>
+    <string name="menu_setup_ip_error_warning3">More than one of the IP Address Subnet Mask and Default Gateway is invalid.Please enter again!</string>
+    <string name="menu_setup_ip_null_warning">disconnected or fetching...</string>
+    <string name="menu_address_auto">اتوماتیک، اتوماتیک</string>
+    <string name="menu_address_ethernet">اترنت</string>
+    <string name="menu_address_wireless">بی سیم</string>
+    <string name="menu_versioninfo_name">نام مدل</string>
+    <string name="menu_versioninfo_version">مدل</string>
+    <string name="menu_versioninfo_number">شماره سریال</string>
+    <string name="menu_video_auto_adjust_info">تنظیم کردن اتوماتیک</string>
+    <string name="menu_video_auto_color_info">لطفا منتظر بمانید</string>
+    <string name="menu_setup_divxreg">You must register your device to play DivX® protected videos.\nRegistration Code:BX9ASIKQEI\n Register at http://vod.divx.com</string>
+    <string name="menu_setup_divxdea">Deregistration code:\n Deregister at http://vod.divx.com\n Continue with registration?</string>
+    
+    <!--Part of Parental  -->
+    <string name="menu_parental_password">کلمه رمز</string>
+    <string name="menu_parental_channel_block">مسدود کردن کانال</string>
+    <string name="menu_parental_program_block">مسدود کردن برنامه</string>
+    <string name="menu_parental_channel_schedule_block">Channel Schedule Block</string>
+     <string name="menu_parental_channel_schedule_block_operation_mode">Operation Mode</string>
+    <string name="menu_parental_input_block">مسدود کردن ورودی</string>
+    <string name="menu_parental_change_password">تغییر کلمه رمز</string>
+    <string name="menu_parental_clean_all">پاک کردن تمامی تنظیمات</string>
+    <string name="menu_parental_password_incorrect">کلمه رمز نادرست است. لطفا آن را مجددا وارد کنید!</string>
+    <string name="menu_parental_password_new">New Password</string>
+    <string name="menu_parental_password_new_re">Confirm Password</string>
+    <string name="menu_parental_password_matchinfo">کلمه رمز مطابقت ندارد. لطفا آن را مجددا وارد کنید!</string>
+    <string name="menu_parental_password_default">1234</string>
+    <string name="menu_parental_tvsource_tv0">tv0</string>
+    
+    <string name="menu_parental_channel_schedule_start_date">Starting Date</string>
+    <string name="menu_parental_channel_schedule_start_time">Starting Time</string>
+    <string name="menu_parental_channel_schedule_end_date">Ending Date</string>
+    <string name="menu_parental_channel_schedule_end_time">Ending Time</string>
+    
+    
+    
+    
+    
+     <string name="menu_allowed_rating">Allowed  Rating</string>
+    <string name="menu_blocked_rating">Blocked Rating</string>
+    <string name="menu_us_tv_ratings">U.S. TV Ratings</string>
+    <string name="menu_us_movie_ratings">U.S. Movie Ratings</string>
+    <string name="menu_canadian_english_ratings">Canadian English Ratings</string>
+    <string name="menu_canadian_french_ratings">Canadian French Ratings</string>
+    <string name="menu_age_ratings">درجه بندی سنی</string>
+    <string name="menu_content_ratings">Content Rating</string>
+    <string name="menu_open_vchip">Open V-Chip</string>
+    <string name="menu_block_unrated">انسداد بدون درجه بندی </string>
+    <string name="menu_rating_enable"> فعال کردن درجه بندی</string>
+    <!-- Part of wifi -->
+    <string name="menu_wifi_exit">خروج</string>
+    <string name="menu_wifi_cancel">کانال</string>
+    <string name="menu_wifi_next">بعدی</string>
+    <string name="menu_wifi_select">انتخاب</string>
+    <string name="menu_wifi_input">Input</string>
+    <string name="menu_wifi_set">Set</string>
+    <string name="menu_wifi_prev">Previous</string>
+    <string name="menu_wifi_main_scan">جستجو، مرور</string>
+    <string name="menu_wifi_main_manual">Manual</string>
+    <string name="menu_wifi_main_auto">اتوماتیک، اتوماتیک</string>
+    <string name="menu_wifi_connected">It will cut off connect wireless network connection.\nPress Right key to continue.</string>
+    <string name="menu_wifi_nodongle">There is no wireless device connected to TV</string>
+    <string name="menu_wifi_connect_fail">Connection fail!</string>
+    <string name="menu_wifi_connect_success">Connection success and IP is obtained!</string>
+    <string name="menu_wifi_invalid_wpa_key">Invalid WPA Key,Please check it.</string>
+    <string name="menu_wifi_invalid_wep_key">Invalid WEP Key,Please check it.</string>       
+    <string name="menu_wifi_no_match">No match Access Point is found.\nPlease try again.</string>
+    <string name="menu_wifi_pass_err">Password may be incorrect.Please check the AccessPoint setting.</string>
+    <string name="menu_wifi_time_out">Connection fail due to timeout.\nPlease try again.</string>
+    <string name="menu_wifi_input_key_nosupport">Please input Not Support key.</string>
+    <string name="menu_wifi_input_key_wpa">Please input WPA key.</string>
+    <string name="menu_wifi_input_key_wep">Please input WEP key.</string>  
+    <string name="menu_wifi_input_ssid">Please input SSID.</string>  
+    <string name="menu_wifi_input_ssid_error">The valid length of SSID is 1~32 words.Please check the SSID.</string>
+    <string name="menu_wifi_select_auth_mode">Please Select the Security Mode</string>
+    <string name="menu_wifi_auth_mode_none">هيچ کدام</string>
+    <string name="menu_wifi_auth_mode_wep">WEP</string>
+    <string name="menu_wifi_auth_mode_wpa_tkip">WPA-PSK(TKIP)</string>
+    <string name="menu_wifi_auth_mode_wpa_aes">WPA-PSK(AES)</string>
+    <string name="menu_wifi_auth_mode_wpa2_tkip">WPA2-PSK(TKIP)</string>
+    <string name="menu_wifi_auth_mode_wpa2_aes">WPA2-PSK(AES)</string>
+    <string name="menu_wifi_auth_mode_auto">WPA/WPA2-PSK(AUTO)</string>    
+    <string name="menu_wifi_ap_security_none">هيچ کدام</string>
+    <string name="menu_wifi_ap_security_notsupport">Not Support</string>
+    <string name="menu_wifi_ap_security_auto">WPA/WPA2-PSK </string>
+    <string name="menu_wifi_ap_security_wpa">WPA-PSK</string>
+    <string name="menu_wifi_ap_security_wpa2">WPA2-PSK</string>
+    <string name="menu_wifi_ap_security_wep">WEP</string>
+    <string name="menu_wifi_ap_head_ssid">SSID</string>
+    <string name="menu_wifi_ap_head_bssid">BSSID</string>
+    <string name="menu_wifi_ap_head_security">Security</string>
+    <string name="menu_wifi_ap_head_signal">Signal</string>
+    <string name="menu_wifi_wps_header1">WPS(Wifi Protected Setup)</string>
+    <string name="menu_wifi_wps_header2">-PIN(Personal Identification Number)</string>
+    <string name="menu_wifi_wps_header3">-PBC(Push Button Configuration)</string>
+    <string name="menu_wifi_wps_main_pin">PIN</string>
+    <string name="menu_wifi_wps_main_pbc">PBC</string>
+    <string name="menu_wifi_wps_pbc_hint">Please press Push Button on the AP within 120 seconds after you click the below \'Next\' button.</string>
+    <string name="menu_wifi_wps_pin_hint">Please ensure the following PIN code is installed to the AP before you click the below \'Next\' button.</string>
+    <string name="menu_wifi_wps_pin_textcode">PIN Code:</string>
+    <string name="menu_wifi_wps_pin_inittextcode">[111111]</string>
+    <string name="menu_wifi_wps_pin_refresh">Refresh PIN</string>
+    <string name="menu_wifi_connecting">TV is Connecting the AP</string>
+    <string name="menu_wifi_scaning">TV is Scanning APs</string>
+    <string name="menu_wifi_wait">Please wait</string>   
+    <string name="menu_wifi_no_ap">There is no available AP</string> 
+   <string name="menu_wifi_what">What the hell are you doing?</string>
+   
+   <string name="menu_wifi_need_special">Do you want to select a special AP?</string>
+   <string name="menu_teletext_notsupport_tip">عدم نمایش پیام نما</string>
+   <string name="menu_teletext_no_top_tip">عدم نمایش جدول صفحه</string>
+   	<string name="schedule_pvr_srctype">Src Type</string>
+	<string name="schedule_pvr_channel_num">Channel Info</string>
+	<string name="schedule_pvr_reminder_type">Schedule Type</string>
+	<string name="schedule_pvr_repeat_type">Repeat Type</string>
+	
+	<string name="schedule_pvr_start_date">Start Date</string>
+	<string name="schedule_pvr_start_time">زمان شروع</string>
+	<string name="schedule_pvr_stop_time">Stop Time</string>
+	
+	<string name="menu_tv_tshift_config">حالت تغییر زمانی</string>
+	<string name="menu_tv_device_info">Device Info</string>
+	<string name="menu_setup_schedule_list">فهرست زمانبندی ها</string>
+	<string name="menu_setup_license_info">License Info</string>
+	<string name="menu_setup_system_info">System Information</string>
+	
+	<string name="menu_setup_oad_detect">دانلود دستی OAD</string>
+	<string name="menu_setup_oad_set_auto_dl">Auto Download</string>
+	<string name="menu_rating_a">A</string>
+	<string name="menu_rating_d">D</string>
+	<string name="menu_rating_l">L</string>
+	<string name="menu_rating_s">S</string>
+	<string name="menu_rating_v">V</string>
+	<string name="menu_rating_fv">FV</string>
+	<string name="menu_rating_tvy">TV-Y</string>
+    <string name="menu_rating_tvy7">TV-Y7</string>
+    <string name="menu_rating_tvg">TV-G</string>
+    <string name="menu_rating_tvpg">TV-PG</string>
+    <string name="menu_rating_tv14">TV-14</string>
+    <string name="menu_rating_tvma">TV-MA</string>
+    
+        <string name="menu_rating_movie_g">G</string>
+    <string name="menu_rating_movie_pg">PG</string>
+    <string name="menu_rating_movie_pg13">PG-13</string>
+    <string name="menu_rating_movie_r">R</string>
+    <string name="menu_rating_movie_nc17">NC-17</string>
+    <string name="menu_rating_movie_x">X</string>
+    
+    <string name="menu_rating_english_c">C</string>
+    <string name="menu_rating_english_c8">C8+</string>
+    <string name="menu_rating_english_g">G</string>
+    <string name="menu_rating_english_pg">PG</string>
+    <string name="menu_rating_english_14">14+</string>
+    <string name="menu_rating_english_18">18+</string>
+    
+    <string name="menu_rating_french_g">G</string>
+    <string name="menu_rating_french_8ans">8ANS+</string>
+    <string name="menu_rating_french_13ans">13ANS+</string>
+    <string name="menu_rating_french_16ans">16ANS+</string>
+    <string name="menu_rating_french_18ans">18ANS+</string>
+    
+    <!-- Add for DVBC on EU -->
+    <string name="menu_c_channel_scan">جستجوی کانال</string>
+    <string name="menu_c_analog_manual_scan">Analog Manual Scam</string>
+    <string name="menu_c_rf_scan">جستجوی فرکانس رادیویی واحد</string>
+    
+    <string name="menu_c_favorite_net">انتخاب شبکه دلخواه</string>
+    <string name="menu_c_chanel_skip">پریدن از روی کانال</string>
+    <string name="menu_c_chanel_sor">مرتب سازی کانال</string>
+    <string name="menu_c_chanel_edit">ویرایش کانال</string>
+    <string name="menu_c_chanel_decode">برداشتن رمز کانال</string>
+    <string name="menu_c_analog_tune">تنظیم دقیق کانال آنالوگ</string>
+    <string name="menu_c_channelscan_utc">UPC</string>
+    <string name="menu_c_channelscan_oth">Others</string>
+    <string name="menu_c_analogscan_scanup">جستجو در جهت فرکانس بالا</string>
+    <string name="menu_c_analogscan_scandown">جستجو در جهت فرکانس پایین</string>
+    <string name="menu_c_analogscan_frequency">Start Frequency</string>
+    
+    <string name="menu_c_scan_mode">Scan Mode</string>
+    <string name="menu_c_scan_mode_advance">Adavance</string>
+    <string name="menu_c_scan_mode_full">Full</string>
+    <string name="menu_c_scan_mode_quick">سریع</string>
+    
+    <string name="menu_c_net">شماره شناسایی شبکه</string>
+    <string name="menu_c_scan">جستجو، مرور</string>
+
+    <string name="menu_c_rfscan_frequency">Frequency(KHz)</string>
+    <string name="menu_c_rfscan_modulation">نوسان صدا</string>
+    <string name="menu_c_rfscan_symbol_rate">Symbol Rate(Ksym/s)</string>
+    <string name="menu_c_rfscan_signal_level">Signal Level</string>
+    <string name="menu_c_rfscan_signal_quality">Signal Quality</string>
+    
+    <string name="menu_eu_audio_channel">کانال صدا</string>
+    
+    <!-- add for DVBS EU -->
+     <string name="menu_s_sate_rescan">Satellite Re-scan</string>
+     <string name="menu_s_sate_add">Satellite Add</string>
+     <string name="menu_s_sate_update">Satellite Update</string>
+     <string name="menu_s_sate_tuning">موج يابی دستی ماهواره</string>
+     <string name="menu_s_favorite_network">انتخاب شبکه دلخواه</string>
+     <string name="menu_s_channel_skip">پریدن از روی کانال</string>
+     <string name="menu_s_channel_sort">مرتب سازی کانال</string>
+     <string name="menu_s_channel_edit">ویرایش کانال</string>
+     <string name="menu_s_channel_decode">برداشتن رمز کانال</string>
+     <string name="menu_config_value_auto">اتوماتیک، اتوماتیک</string>
+</resources>
+

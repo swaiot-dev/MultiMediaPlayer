@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="setup_ini">Alapbeállítás</string>
+	<string name="setup_back">Vissza</string>
+	<string name="setup_select">Kijelölés</string>
+	<string name="setup_next">Következő</string>
+	<string name="setup_exit">Kilépés</string>
+	<string name="setup_welcome">Üdvözöljük!</string>
+	<string name="setup_welcome_set">Üdvözli Önt a varázsló, amelynek segítéségével elvégezheti az alapbeállítást.\nA varázsló elindításához nyomja meg a [BEVITEL] gombot.</string>
+	<string name="setup_language">Nyelv</string>
+	<string name="setup_select_language">Kérjük, válassza ki a megfelelő nyelvet:</string>
+	<string name="setup_tunner">Hangolási mód</string>
+	<string name="setup_select_tuner">Kérjük, válassza ki a hangoló üzemmódját:</string>
+	<string name="setup_channelscan">Csatornakeresés</string>
+	<string name="setup_set_setps">Először csatlakoztassa az antennát.\nSzeretné most elkezdené a csatornakeresést?\nHa ezt a lépést kihagyja, a csatornakeresést a menün keresztül is elvé</string>
+	<string name="setup_set_setps_us">First, please connect cable or antenna.\n\nStart channel scan now ?\n\nIf you skip this step, the channel scan could be performed in Menu.</string>
+	<string name="setup_language_english">Angol</string>
+	<string name="setup_language_chinese">简体中文</string>
+	<string name="setup_tuner_antenna">Antenne</string>
+	<string name="setup_tuner_cable">kábel</string>
+    <string name="setup_tuner_satellite">Műhold</string>
+    <string name="satellites">Satellites</string>
+	<string name="setup_scan">Keresés</string>
+	<string name="setup_skip_scan">Keresés átugrása</string>
+	<string name="setup_complete">Kész</string>
+	<string name="setup_congratulations">Gratulálunk!\nAz alapbeállítás befejeződött.\nA varázsló bezárásához nyomja meg a [BEVITEL] gombot.</string>
+	<string name="setup_channel_scan_note">A csatornakeresés eltarthat egy ideig.</string>
+	<string name="setup_channel_scan_status">Állapot: Keresés</string>
+	<string name="setup_channel_scan_analog">Analóg csatornák: </string>
+	<string name="setup_channel_scan_digital">Digitális csatornák:</string>
+	<string name="setup_cancel">Mégse</string>
+	<string name="setup_cancel_scan">Állapot: Keresés megszakítva</string>
+	<string name="setup_scan_error">Állapot: Keresési hiba</string>
+	<string name="setup_channel_scan_status_complete">Állapot: Keresés befejezve</string>
+	<string name="dvbs_operator_perferred_satellite">perferred satellite</string>
+	<string name="dvbs_operator_general_satellite">general satellite</string>
+
+
+	<!-- char of simulation main view -->
+	<string name="nav_test_user_help">
+		[0-9]\t(0-9) To change channel.\n
+		[SOURCE]\t(A) To
+		display the input source list.\n
+		[TIMER]\t(B) To display the time.\n
+		[SLEEP]\t(C) To set the sleep time.\n
+		[ZOOM]\t(D) To select the zoom.\n
+		[PEFFECT]\t(E) To select the screen effect.\n
+		[SEFFECT]\t(F) To select
+		the sound effect.\n
+		[ASPECT]\t(G) To change the aspect ratio.\n
+		[CHUP]\t(O) To turn up the channel.\n
+		[CHDN]\t(Q) To turn down the
+		channel.\n
+		[MUTE]\t(R) To mute or un-mute the sound.\n
+		[VOLUME_UP]\t(M)
+		To turn up the volume.\n
+		[VOLUME_DOWN]\t(N) To turn down the volume.\n
+		[DPAD_CENTER]\t (ENTER) To display the channel list.\n
+		[INFO]\t(S) To
+		display the channel info.\n
+		[EJECT]\t(U) To display the channel info.\n
+		[PLAYPAUSE]\t(V) To display the favorite list.\n
+		[YELLOW]\t(K) To
+		select the type of the channel list.\n
+	</string>
+	<string name="nav_test_tv">TV</string>
+
+	<!-- +++++++++++++++++++++++++++++++++++++++++++++ -->
+	<!-- ++++++++++ char of input source view++++++ -->
+	<!-- +++++++++++++++++++++++++++++++++++++++++++++ -->
+	<string name="nav_source_main_title">Fő-</string>
+	<string name="nav_source_sub_title">Al-</string>
+
+	<!-- +++++++++++++++++++++++++++++++++++++++++++++ -->
+	<!-- ++++++++++ char of channel list view ++++++ -->
+	<!-- +++++++++++++++++++++++++++++++++++++++++++++ -->
+	<string name="nav_please_scan_channels">Használja a csatornakereső parancsot.</string>
+	<string name="nav_no_function">Nincs funkció.</string>
+	<string name="nav_select_list">Select List</string>
+	<string name="nav_page_up">Page Up</string>
+	<string name="nav_page_down">Page Down</string>
+	<string name="nav_fav_move_up">Move Up</string>
+	<string name="nav_fav_move_down">Move Down</string>
+	<string name="nav_exit">Avslutt</string>
+	<!-- <string name="nav_channel_list">Channel List - All</string> -->
+	<string name="nav_channel_list">Csatorna lista</string>
+
+	<string name="nav_channel_list_title_str">Channel List - </string>
+	<string name="nav_channel_selection">Csatornalista-választás</string>
+	<string name="nav_channel_details">Csatornával kapcsolatos részletek</string>
+	<string name="nav_volume_main">Főhangerő</string>
+	<string name="nav_parent_psw">Jelszó</string>
+	<string name="nav_parent_dvbs_hint">Password had been mistaken three times!\nPlease wait...</string>
+	<string name="nav_parent_wrong_psw">Password incorrect.\n Please enter again! </string>
+
+	<string name="nav_channel_antenna">Antenne</string>
+	<!-- +++++++++++++++++++++++++++++++++++++++++++++ -->
+	<!-- ++++++++++ char of favorite list view ++++++ -->
+	<!-- +++++++++++++++++++++++++++++++++++++++++++++ -->
+	<string name="nav_favorite_list">Kedvencek lista</string>
+	<string name="nav_favorite_select">Velg</string>
+
+	<string name="nav_channel_infoNum">815</string>
+	<string name="nav_channel_infoName">Jade</string>
+	<string name="nav_channel_infoFormat">640X480@60Hz</string>
+	<string name="nav_channel_infoType">Antenne</string>
+	<string name="nav_channel_infoTime">19:19</string>
+	<string name="nav_channel_infoMiddle_special">Adatok beolvasása…</string>
+	<string name="nav_channel_infoTitle">(No program Title.)</string>
+	<string name="nav_channel_infoDuration">3:35 - 3:40</string>
+	<string name="nav_channel_infoNextDuration">Insite the Stock ExChange</string>
+	<string name="nav_channel_infoAudioLanguage">1/2 Chinese</string>
+	<string name="nav_channel_infoFormatField">Sztereó</string>
+	<string name="nav_channel_infoNoProgram">(No Program Details.)</string>
+	<string name="nav_channel_infoNoChannelDetail">(No Channel Details.)</string>
+	<string name="nav_channel_infoSubtitle">Chi</string>
+	<string name="nav_channel_infoInfoField">576i SD</string>
+
+	<string name="nav_no_signal">Nincs jel.</string>
+	<string name="nav_no_support">No Support!</string>
+	<string name="nav_channel_has_locked">A csatorna zárolva van.</string>
+	<string name="nav_input_has_locked">A bemenet zárolva van</string>
+	<string name="nav_program_has_locked">A program zárolva van.</string>
+	<string name="nav_hidden_channel">Rejtett csatorna.</string>
+	<string name="nav_channel_audio_scrambled">Kevert audio</string>
+	<string name="nav_channel_video_scrambled">Kevert videó</string>
+	<string name="nav_sleep_label">Alvó:</string>
+	<string name="nav_sleep_off">Off</string>
+	<string name="nav_sleep_minutes">Percek</string>
+	<string name="nav_resolution_null">Nincs videó.</string>
+	<string name="nav_channel_retrieving">Adatok beolvasása…</string>
+	<string name="nav_unknown_audio">unknown audio</string>
+	<string name="nav_unknown_stereo">unknown stereo</string>
+	<string name="nav_unknown_audio_sundry">Ismeretlen</string>
+	<string name="nav_channel_no_audio">Nincs hang.</string>
+
+	<!--  for epg -->
+	<string name="nav_epg_type">Típus</string>
+	<string name="nav_epg_sub_type">Altípus</string>
+	<string name="nav_epg_zero_tip">Booked list</string>
+	<string name="nav_epg_book_list">Booked Event List</string>
+	<string name="nav_epg_book_program_tip">\nBook this program?</string>
+	<string name="nav_epg_unbook_program_tip">\nAlready booked this program, unbook it?</string>
+	<string name="nav_epg_book_program_coming_tip"> is coming, change to the channel?</string>
+	<string name="nav_epg_not_rated">Nincs besorolva.</string>
+	<string name="nav_epg_no_program_detail">(No Program Detail.)</string>
+	<string name="nav_epg_no_program_data">( No program data.)</string>
+	<string name="nav_epg_no_program_title">(Nincs programnév.)</string>
+	<string name="nav_epg_unlock">Unlock</string>
+	<string name="nav_epg_unschedule">Unschedule</string>
+	<string name="nav_epg_schedule">Schedule</string>
+	<string name="nav_epg_not_support">Nem támogatott.</string>
+	
+	<string name="nav_epg_January">Január</string>
+	<string name="nav_epg_February">Február</string>
+	<string name="nav_epg_March">Március</string>
+	<string name="nav_epg_April">Április</string>
+	<string name="nav_epg_May">Május</string>
+	<string name="nav_epg_June">Június</string>
+	<string name="nav_epg_July">Július</string>
+	<string name="nav_epg_August">Augusztus</string>
+	<string name="nav_epg_September">Szeptember</string>
+	<string name="nav_epg_October">Október</string>
+	<string name="nav_epg_November">November</string>
+	<string name="nav_epg_December">December</string>
+	
+	<string name="nav_epg_Jan">Jan.</string>
+	<string name="nav_epg_Feb">Feb.</string>
+	<string name="nav_epg_Mar">Márc.</string>
+	<string name="nav_epg_Apr">Ápr.</string>
+	<string name="nav_epg_may">Máj.</string>
+	<string name="nav_epg_Jun">Jún.</string>
+	<string name="nav_epg_Jul">Júl.</string>
+	<string name="nav_epg_Aug">Aug.</string>
+	<string name="nav_epg_Sep">Szept</string>
+	<string name="nav_epg_Oct">Okt.</string>
+	<string name="nav_epg_Nov">Nov.</string>
+	<string name="nav_epg_Dec">Dec.</string>
+	
+	<string name="nav_epg_Sunday">Vasárnap</string>
+	<string name="nav_epg_Monday">Hétfő</string>
+	<string name="nav_epg_Tuesday">Kedd</string>
+	<string name="nav_epg_Wednesday">Szerda</string>
+	<string name="nav_epg_Thursday">Csütörtök</string>
+	<string name="nav_epg_Friday">Péntek</string>
+	<string name="nav_epg_Saturday">Szombat</string>
+	
+	<string name="nav_epg_Sun">V</string>
+	<string name="nav_epg_Mon">H</string>
+	<string name="nav_epg_Tue">K</string>
+	<string name="nav_epg_Wed">Sze.</string>
+	<string name="nav_epg_Thur">Cs</string>
+	<string name="nav_epg_Fri">P</string>
+	<string name="nav_epg_Sat">Szo</string>
+
+	<!-- for capture logo (YELLOW KEY) -->
+	<string name="cplogo_title">Capture Logo</string>
+	<string name="cplogo_bt_ok">OK</string>
+	<string name="cplogo_bt_cancel">Avbryt</string>
+	<string name="cplogo_bt_full_screen">Full Screen</string>
+	<string name="cplogo_bt_special_area">Special Area</string>
+	<string name="cplogo_bt_no">NEM</string>
+	<string name="cplogo_bt_adjust">Beállítás</string>
+	<string name="cplogo_msg_which_screen">Do you want to capture full screen or special area?
+	</string>
+	<string name="cplogo_msg_this_screen">Do you want to capture this screen?</string>
+	<string name="cplogo_msg_select_position">Please select a position to save the logo</string>
+	<string name="cplogo_msg_capturing">Capturing ...</string>
+	<string name="cplogo_msg_adjust_position">Do you want to adjust the position of the special
+		area?</string>
+	<string name="cplogo_msg_res_success">Capture successfully</string>
+	<string name="cplogo_msg_res_fail">Capture failed, please try again</string>
+	<string name="cplogo_capture_res_cancel">This operation has been canceled</string>
+
+	<string name="vga_no_sinal_info">No signal. The power will be turned off.</string>
+
+	<!-- for epg -->
+	<string name="epg_bottom_prev_day">Előző nap</string>
+	<string name="epg_bottom_next_day">Köv. nap</string>
+	<string name="epg_bottom_view_detail">Részlet megtekintése</string>
+	<string name="epg_bottom_type_filter">Típusszűrő</string>
+	<string name="epg_bottom_prev_page">Lapozás felfelé</string>
+	<string name="epg_bottom_next_page">Lapozás lefelé</string>
+	<string name="epg_bottom_ENTER">ENTER</string>
+	<string name="epg_bottom_0">0</string>
+
+	<string name="epg_info_program_type">Nincs</string>
+	<string name="epg_password">Jelszó</string>
+	<string name="epg_password_message">A jelszó hibás.</string>
+	<string name="epg_retrieving_show">Adatok beolvasása...</string>
+
+	<!-- for ginga tv -->
+	<string name="nav_ginga_tv_title">Application list</string>
+	<string name="nav_select">Velg</string>
+	<string name="nav_ginga_tv_message">There is no application!</string>
+	<string name="nav_ginga_tv_for_infobar">Ginga Application loading...</string>
+	<string name="nav_ginga_tv_for_tips">Do you want to stop CC and start Ginga application?</string>
+
+	<!-- for upgrader -->
+	<string name="nav_upgrader_title">Frissítő varázsló</string>
+	<string name="nav_upgrader_MoreInfo">More Info</string>
+	<string name="nav_upgrader_invalid">Érvénytelen firmware képfájl!</string>
+	<string name="nav_upgrader_updating">Frissítés...</string>
+	<string name="nav_upgrader_warnning">NE húzza ki az USB kulcsot vagy kapcsolja ki a TV-készüléket a firmware frissítése közben!!</string>
+	<string name="nav_upgrader_validate">Firmware-ell....</string>
+	<string name="nav_upgrader_confirm">Biztos, hogy frissíti a firmware-t?</string>
+	<string name="nav_upgrader_completed">A firmware sikeres frissítése %s verzióra.\nA firmware aktiválásához indítsa újra a TV-t.</string>
+	<string name="nav_upgrader_failed">A firmware frissítése %s verzióra nem sikerült.\nA firmware letöltéséhez indítsa újra a TV-t.</string>
+	<string name="nav_upgrader_retry">A frissítés sikertelen.\nÚjrapróbálja?</string>
+	<string name="nav_upgrader_retry2">A frissítés sikertelen. Csatlakoztassa az USB-t.\nÚjrapróbálja?</string>
+	<string name="nav_upgrader_usb_space_not_enough">Available space of your USB dongle is not enough.</string>
+	<string name="nav_upgrader_usb_not_ready">USB dongle is not ready, please plug it and try again.</string>
+	<string name="nav_upgrader_internal_err">Internal error.</string>
+	<string name="nav_upgrader_not_avail_firmware">No available firmware version.</string>
+	<string name="nav_upgrader_decry_fail">Decryption failed.</string>
+	<string name="nav_upgrader_firmware_invalid">Firmware is invalid.</string>
+	<string name="nav_upgrader_no_update">No available firmware to update.</string>
+	<string name="nav_upgrader_check_fail">Check new firmware failed.</string>
+	<string name="nav_upgrader_download_fail">Can not download firmware from network.</string>
+	<string name="nav_upgrader_usb_problem">There is some problem of the USB dongle.</string>
+	<string name="nav_upgrader_power">Tápf.</string>
+	<string name="nav_upgrader_yes">Igen</string>
+	<string name="nav_upgrader_no">NEM</string>
+	<string name="nav_upgrader_network_tip">Start to download new firmware from server</string>
+	
+	<string name="common_dialog_msg_yes">IGEN</string>
+	<string name="common_dialog_msg_no">NEM</string>
+	<string name="common_dialog_ews_service_content">Do you want to switch to the EWS service?</string>
+	<string name="common_dialog_special_service_content">Do you want to switch to the special service?</string>
+	<string name="commmon_dialog_book_reminder_content">is coming, Do you want to switch to it?</string>
+	
+	<string name="nav_ttx_top_block">blokk</string> 
+  <string name="nav_ttx_top_group">Csoport</string> 
+  <string name="nav_ttx_top_page">oldal</string> 
+  <string name="table">Oldalontartalom</string>
+    <string name="nav_ttx_no_top">No Top</string> 
+
+	<string name="nav_banner_not_rating">not rating</string>
+	<string name="setup_select_country">Kérjük, válassza ki a megfelelő országot:</string>
+	<string name="setup_country">Ország</string>
+	<string name="setup_dvbc_setting">Please configure the cable info</string>
+	<string name="setup_timezone">Időzóna</string>
+	<string name="setup_language_spanish">Español</string>
+	<string name="setup_language_french">Français</string>
+	<string name="setup_language_portuguese">Português</string>
+	
+	<string name="setup_dvbc_config_scanmode">Scan Mode</string>
+	<string name="setup_dvbc_config_frequency">Frequency (KHZ)</string>
+	<string name="setup_dvbc_config_modulation">Moduláció</string>
+	<string name="setup_dvbc_config_symbolrate">Symbol Rate(Ksym/s)</string>
+	<string name="setup_dvbc_config_networkid">Hálózati azonosító</string>
+	
+	<string name="setup_set_password">  </string>
+	<string name="setup_set_password_titile1">New Password</string>
+	<string name="setup_set_password_titile2">Confirm Password</string>
+	<string name="setup_set_password_default_pwd">0000</string>
+	
+	<string name="setup_cable_select_operation">Select Operator</string>
+	
+	<string name="setup_dvbs_statellite_type">Statellite Type</string>
+	<string name="setup_dvbs_statellite_type_title">Please select satellite type.</string>
+	
+	<string name="setup_dvbs_statellite_select_operator">Select Operator</string>
+	<string name="setup_dvbs_statellite_select_operator_title">You can select only one operator from the following list.</string>
+	
+	<string name="setup_cable_setting">  </string>
+	<string name="setup_cable_setting_title">Kérjük, konfigurálja a kábelinformációt.</string>
+	
+	<string name="setup_dvbs_config_info">  </string>
+	<string name="setup_dvbs_config_info_title">Please configure the scan info.</string>
+	
+	<string name="setup_dvbs_satellite_list">Select Satellite</string>
+	<string name="setup_dvbs_satellite_list_title">Please select satellites to scan or edit the selected satellite.</string>
+	
+	<string name="setup_dvbs_config_setting">  </string>
+	<string name="setup_dvbs_config_setting_title">Please set antenna type config.</string>
+
+	<string name="setup_dvbs_satellite_config">Antenna Setup</string>
+	<string name="setup_dvbs_satellite_config_title">Please set the satellite\'s parameters.</string>
+	
+	<string name="setup_select_set">Set</string>
+	<string name="nav_oad_dialog_title">Antennán keresztüli letöltés</string>
+	<string name="nav_oad_scanning">Keresés</string>
+	<string name="nav_oad_scanning_result_fail">Can not find new software on the air</string>
+	
+	<string name="nav_oad_programming">Programming</string>
+	<string name="nav_oad_flash_confirm">Download the software successfully.Do you want to start flashing?</string>
+	<string name="nav_oad_flash_fail">A programozás nem sikerült. Újra megpróbálja?\n\n Hívja az szervizközpontját.</string>
+	<string name="nav_oad_restart_confirm">A szoftver frissítése sikeresen befejeződött. Újraindítja a TV-készüléket most?</string>
+	
+	<string name="nav_oad_warning_msg_str">Warning: During the process.Please do not unplug the TV Set power code as this will lead to defective TV Set.</string>
+	
+	<string name="nav_oad_manual_download_confirm">Software update.A new recommended software update is avaiable.The update might take some time and the screen might go black.Do not turn of the receiver off during
+	    the update.Do you want to update now?</string>
+	<string name="nav_oad_manual_download_fail">A szoftver letöltése nem sikerült. Megpróbálja ismét?</string>
+	
+	<string name="nav_oad_auto_download_confirm">Software update.A new recommended software update is avaiable.The update might take some time and the screen might go black.Do not turn of the receiver off during
+	    the update.Do you want to update now?It will start automatically in %s second(s)</string>
+	
+	<string name="setup_language_english_value">Programming</string>
+	<string name="setup_language_chinese_value">Programming</string>
+	<string name="setup_language_spanish_value">Programming</string>
+	<string name="setup_language_french_value">Programming</string>
+	<string name="setup_language_portuguese_value">Programming</string>
+	
+    <string name="setup_country_cty_1">Ausztria</string>
+    <string name="setup_country_cty_2">belgiumi</string>
+    <string name="setup_country_cty_3">svájci</string>
+    <string name="setup_country_cty_4">Cseh Köztársaság</string>
+    <string name="setup_country_cty_5">Németország</string>
+    <string name="setup_country_cty_6">Dánia</string>
+    <string name="setup_country_cty_7">Spanyolország</string>
+    <string name="setup_country_cty_8">Finnország</string>
+    <string name="setup_country_cty_9">Franciaország</string>
+    <string name="setup_country_cty_10">Egyesült Királyság</string>
+    <string name="setup_country_cty_11">Olaszország</string>
+    <string name="setup_country_cty_12">luxemburgi</string>
+    <string name="setup_country_cty_13">hollandiai</string>
+    <string name="setup_country_cty_14">Norvégia</string>
+    <string name="setup_country_cty_15">Svédország</string>
+    <string name="setup_country_cty_16">Bulgária</string>
+    <string name="setup_country_cty_17">Horvátország</string>
+    <string name="setup_country_cty_18">Görögország</string>
+    <string name="setup_country_cty_19">Magyarország</string>
+    <string name="setup_country_cty_20">Írország</string>
+    <string name="setup_country_cty_21">Lengyelország</string>
+    <string name="setup_country_cty_22">Portugália</string>
+    <string name="setup_country_cty_23">Románia</string>
+    <string name="setup_country_cty_24">Oroszország</string>
+    <string name="setup_country_cty_25">Szerbia</string>
+    <string name="setup_country_cty_26">Szlovákia</string>
+    <string name="setup_country_cty_27">Szlovénia</string>
+    <string name="setup_country_cty_28">Törökország</string>
+    <string name="setup_country_cty_29">Észt</string>
+    <string name="setup_country_cty_30">ausztráliai</string>
+    <string name="setup_country_cty_31">Új-Zéland</string>
+	<string name="setup_set_timezone">Please select your time zone:</string>
+	<string name="setup_set_password_title">Please set password."0000" is not a valid password</string>
+	<string name="setup_set_password_success_msg">Password set successfully!</string>
+	<string name="dvbc_operator_upc">UPC</string>
+	<string name="dvbc_operator_telent">Telent</string>
+	<string name="dvbc_operator_unitymedia">Unitymedia</string>
+	<string name="dvbc_operator_stofa">Stofa</string>
+	<string name="dvbc_operator_yousee">Yousee</string>
+	<string name="dvbc_operator_canal_digital">Canal Digital</string>
+	<string name="dvbc_operator_numericable">Numericable</string>
+	<string name="dvbc_operator_ziggo">Ziggo</string>
+	<string name="dvbc_operator_comhem">Comhem</string>
+	<string name="dvbc_operator_others">Others</string>
+</resources>
+

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/mmp_control_bottom_bar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/transparent_background" >
+
+    <RelativeLayout android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true">
+        <ImageView android:id="@+id/mmp_pop_playstateplay"
+                   android:background="@drawable/mmp_top_play"
+                   android:layout_marginLeft="@dimen/PX62_IN1080P"
+                   android:layout_marginTop="@dimen/PX47_IN1080P"
+                   android:layout_width="@dimen/PX59_IN1080P"
+                   android:layout_height="@dimen/PX59_IN1080P"></ImageView>
+        <ImageView android:id="@+id/mmp_pop_playstatepause"
+                   android:background="@drawable/mmp_top_pause"
+                   android:layout_marginLeft="@dimen/PX62_IN1080P"
+                   android:layout_marginTop="@dimen/PX47_IN1080P"
+                   android:layout_width="@dimen/PX59_IN1080P"
+                   android:layout_height="@dimen/PX59_IN1080P"
+                   android:visibility="gone"></ImageView>
+    </RelativeLayout>
+
+    <!-- bottom bar -->
+
+    <LinearLayout
+        android:id="@+id/mmp_control_bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/PX193_IN1080P"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical" >
+
+        <!-- control item -->
+
+        <LinearLayout
+            android:id="@+id/mmp_popwindow"
+            android:layout_width="@dimen/PX1802_IN1080P"
+            android:layout_height="@dimen/PX100_IN1080P"
+            android:layout_marginLeft="@dimen/PX60_IN1080P"
+            android:background="@drawable/photo_toolbar_bg"
+            android:orientation="horizontal"
+            android:gravity="center_vertical" >
+            <TextView
+                android:id="@+id/mmp_pop_filename_tv"
+                style="@style/mmp_pop_tx"
+                android:layout_width="@dimen/PX816_IN1080P"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/PX35_IN1080P"
+                android:text="@string/app_name">
+            </TextView>
+            <ImageView
+                android:layout_width="@dimen/PX39_IN1080P"
+                android:layout_height="@dimen/PX39_IN1080P"
+                android:src="@drawable/mmp_toolbar_typeicon_zoom">
+            </ImageView>
+            <TextView
+                android:id="@+id/mmp_pop_zoomsize"
+                style="@style/mmp_pop_tx_photo_scale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/PX17_IN1080P"
+                android:text="@string/mmp_menu_1x" >
+            </TextView>
+            <TextView
+                android:id="@+id/mmp_pop_time_tv"
+                style="@style/mmp_pop_tx_photo_quality"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/PX260_IN1080P"
+                android:text="@string/mmp_pop_time_tv" >
+            </TextView>
+            <ImageView
+                android:id="@+id/mmp_pop_shuffle_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/PX20_IN1080P"
+                android:src="@drawable/mmp_toolbar_typeicon_shuffe"
+                android:visibility="visible" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/mmp_pop_repeat_tv"
+                style="@style/mmp_pop_tx"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/PX15_IN1080P"
+                android:drawableLeft="@drawable/mmp_toolbar_icon_repeat_one" >
+             </TextView>
+
+            <TextView
+                android:id="@+id/mmp_pop_order_tv"
+                style="@style/mmp_pop_tx_photo_number"
+                android:gravity="center"
+                android:layout_width="150px"
+                android:layout_height="wrap_content" 
+                android:layout_marginLeft="@dimen/PX76_IN1080P"
+                android:text="@string/mmp_pop_pagesize" >
+            </TextView>
+            
+
+            <TextView
+                android:id="@+id/mmp_pop_view_tv"
+                style="@style/mmp_pop_tx"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/mmp_toolbar_typeicon_slide"
+                android:text="@string/mmp_pop_view_tv"
+                android:visibility="gone">
+            </TextView>
+
+            <TextView
+                android:id="@+id/mmp_pop_mediatype"
+                style="@style/mmp_pop_tx"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:drawableRight="@drawable/mmp_toolbar_line"
+                android:gravity="center_horizontal"
+                android:text="@string/mmp_photo"
+                android:visibility="gone">
+            </TextView>
+            <!-- end -->
+
+        </LinearLayout>
+
+        <!-- start bottom -->
+
+        <LinearLayout
+            android:id="@+id/mmp_popwindow_Operator_Message"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:visibility="gone" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/mmp_toolbar_info_menu"
+                    android:text="@string/mmp_pop_menu" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/tk_cm_key_enter"
+                    android:text="@string/mmp_pop_enter" />
+            </LinearLayout>
+        </LinearLayout>
+        <!-- end  bottom bar -->
+
+    </LinearLayout>
+
+</RelativeLayout>

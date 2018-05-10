@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+	<string-array name="nav_channel_types">
+		<item>All</item>
+		<!--<item>Analog</item>
+		<item>Digital</item>-->
+		<item>Radio</item>
+	</string-array>
+	<!--
+
+		{ "Auto", "Normal", "LetterBox", "Zoom", "Panorama", "Dot by Dot" }
+	-->
+	<!--
+		<string-array name="nav_aspect_strings"> <item>Autom.</item>
+		<item>Normal</item> <item>LetterBox</item> <item>Zoom</item>
+		<item>Panorama</item> <item>Punkt for punkt</item> </string-array>
+	-->
+	<!--
+		"Sleep:Off", "Sleep: 10 Minutes", "Sleep:20 Minutes", "Sleep:30
+		Minutes", "Sleep:40 Minutes", "Sleep:50 Minutes", "Sleep:60 Minutes",
+		"Sleep:90 Minutes", "Sleep:120 Minutes" };
+	-->
+
+	<string-array name="nav_sleep_strings">
+		<item>Sleep:Off</item>
+		<item>Sleep:15 Minutes</item>
+		<item>Sleep:30 Minutes</item>
+		<item>Sleep:45 Minutes</item>
+		<item>Sleep:60 Minutes</item>
+		<item>Sleep:90 Minutes</item>
+		<item>Sleep:120 Minutes</item>
+	</string-array>
+	<string-array name="nav_zoom_strings">
+		<item>zoom X 1</item>
+		<item>zoom X 2</item>
+		<item>zoom X 1/2</item>
+	</string-array>
+	
+	<!-- OFF, Rock, Pop, Live, Dance, Techno, Classic and Soft -->
+	<string-array name="nav_s_effect_strings">
+        <item>Bruger</item>
+		<item>Standard</item>
+		<item>Live1</item>
+	</string-array>
+
+	<string-array name="nav_freeze_strings">
+		<item>Freeze: On</item>
+		<item>Freeze: Off</item>
+	</string-array>
+
+	<string-array name="nav_epg_filter_type">
+		<item>FILM</item>
+		<item>NYHEDER</item>
+		<item>SHOW</item>
+		<item>SPORT</item>
+		<item>BØRNEPROGRAMMER</item>
+		<item>MUSIK</item>
+		<item>KULTUR</item>
+		<item>SOCIALT</item>
+		<item>UDDANNELSE</item>
+		<item>FRITID</item>
+		<item>SÆRLIGT</item>
+	</string-array>
+	
+	<string-array name="nav_epg_filter_type_AUS">
+		<item>FILM</item>
+		<item>NYHEDER</item>
+		<item>UNDERHOLDNING</item>
+		<item>SPORT</item>
+		<item>FOR BØRN</item>
+		<item>MUSIK</item>
+		<item>KULTUR</item>
+		<item>AKTUELT</item>
+		<item>UDDANNELSE</item>
+		<item>INFOTAINMENT</item>
+		<item>SPECIAL</item>
+		<item>KOMEDIE</item>
+		<item>DRAMA</item>
+		<item>DOKUMENTAR</item>
+	</string-array>
+	
+	<string-array name="nav_epg_filter_type_UK">
+		<item>FILM</item>
+		<item>NYHEDER</item>
+		<item>UNDERHOLDNING</item>
+		<item>SPORT</item>
+		<item>FOR BØRN</item>
+		<item>UDDANNELSE</item>
+		<item>LIVSSTIL</item>
+		<item>DRAMA</item>
+	</string-array>
+	
+	<string-array name="nav_epg_filter_sa_type">
+		<item>NYHEDER</item>
+		<item>SPORT</item>
+		<item>UDDANNELSE</item>
+		<item>SOAP_OPERA</item>
+		<item>MINI_SERIES</item>
+		<item>SERIES</item>
+		<item>VARIETY</item>
+		<item>REALITY_SHOW</item>
+		<item>INFOMATION</item>
+		<item>COMICAL</item>
+		<item>CHILDREN</item>
+		<item>EROTIC</item>
+		<item>FILM</item>
+		<item>RA_TE_SA_PR</item>
+		<item>DEBATE_INTERVIEW</item>
+		<item>OTHER</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_movie">
+		<item>Drama</item>
+		<item>Krimi</item>
+		<item>Oplevelse</item>
+		<item>Science-fiction</item>
+		<item>Komedie</item>
+		<item>Sæbe</item>
+		<item>Romantik</item>
+		<item>Alvor</item>
+		<item>Voksenfilm</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_news">
+		<item>Current Affairs</item>
+		<item>Vejrudsigt</item>
+		<item>Nyhedsmagasin</item>
+		<item>Dokumentar</item>
+		<item>Diskussion</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_news">
+		<item>Nyheder</item>
+		<item>Report</item>
+		<item>Dokumentar</item>
+		<item>Biography</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_show">
+		<item>Show</item>
+		<item>Game Show</item>
+		<item>Variete-show</item>
+		<item>Talk Show</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_sports">
+		<item>Sport</item>
+		<item>Særlige begivenheder</item>
+		<item>Sportsmagasiner</item>
+		<item>Fodbold</item>
+		<item>Tennis</item>
+		<item>Teamsport</item>
+		<item>Atletik</item>
+		<item>Motorsport</item>
+		<item>Vandsport</item>
+		<item>Vintersport</item>
+		<item>Ridesport</item>
+		<item>Kampsport</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_sports">
+		<item>Sport</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_children">
+		<item>Børneprogrammer</item>
+		<item>Børnehaveprogrammer</item>
+		<item>Underholdning for 6 til 14</item>
+		<item>Underholdning for 10 til 16</item>
+		<item>Oplysende</item>
+		<item>Tegnefilm</item>
+	</string-array>
+	
+	<string-array name="nav_epg_subtype_music">
+		<item>Musik</item>
+		<item>Rock</item>
+		<item>Alvorligt</item>
+		<item>Folkemusik</item>
+		<item>Jazz</item>
+		<item>Musical</item>
+		<item>Ballet</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_arts">
+		<item>Kunst</item>
+		<item>Scenekunst</item>
+		<item>Kunst</item>
+		<item>Religion</item>
+		<item>Populærkultur</item>
+		<item>Litteratur</item>
+		<item>Film</item>
+		<item>Eksperimental</item>
+		<item>Broadcasting</item>
+		<item>Nye medier</item>
+		<item>Kunstmagasiner</item>
+		<item>Mode</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_social">
+		<item>Socialt</item>
+		<item>Magasiner</item>
+		<item>Økonomi</item>
+		<item>Særlige personligheder</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_education">
+		<item>Uddannelse</item>
+		<item>Natur</item>
+		<item>Teknologi</item>
+		<item>Medicin</item>
+		<item>Fremmede lande</item>
+		<item>Samfundsvidenskab</item>
+		<item>Videregående uddannelse</item>
+		<item>Sprog</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_education">
+		<item>Educative</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_soap_opera">
+		<item>Soap opera</item>
+	</string-array>
+	
+	<string-array name="nav_epg_subtype_sa_mini_series">
+		<item>Mini-series</item>
+	</string-array>
+	
+	<string-array name="nav_epg_subtype_sa_series">
+		<item>Serier</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_variety">
+		<item>Auditorium</item>
+		<item>Show</item>
+		<item>Musical</item>
+		<item>Making of</item>
+		<item>Feminine</item>
+		<item>Quizprogram</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_reality_show">
+		<item>Reality show</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_information">
+		<item>Madlavning</item>
+		<item>Mode</item>
+		<item>Land</item>
+		<item>Health</item>
+		<item>Travel</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_comical">
+		<item>Comical</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_children">
+		<item>Children</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_erotic">
+		<item>Erotic</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_movie">
+		<item>Film</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_RA_TE_SA_PR">
+		<item>Raffle</item>
+		<item>Television sales</item>
+		<item>Prizing</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_DEBATE_INTERVIEW">
+		<item>Diskussion</item>
+		<item>Interview</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_other">
+		<item>Adult cartoon</item>
+		<item>Interactive</item>
+		<item>Policy</item>
+		<item>Religion</item>
+	</string-array>
+	
+	<string-array name="nav_epg_subtype_leisure">
+		<item>Hobby &amp; fritid</item>
+		<item>Turisme</item>
+		<item>Håndværk</item>
+		<item>Færdsel</item>
+		<item>Form og sundhed</item>
+		<item>Madlavning</item>
+		<item>Reklame</item>
+		<item>Havebrug</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_special">
+		<item>Originalsprog</item>
+		<item>Sort og hvidt</item>
+		<item>Ikke offentliggjort</item>
+		<item>Live-broadcast</item>
+	</string-array>
+
+
+	<!-- MTS -->
+	<string-array name="nav_mts_strings">
+		<item>UNKNOW</item>
+		<item>MONO</item>
+		<item>STEREO</item>
+		<item>SUB_LANG</item>
+		<item>DUAL1</item>
+		<item>DUAL2</item>
+		<item>NICAM_MONO</item>
+		<item>NICAM_STEREO</item>
+		<item>NICAM_DUAL1</item>
+		<item>NICAM_DUAL2</item>
+		<item>FM_MONO</item>
+		<item>FM_STEREO</item>
+	</string-array>
+
+	<!-- AUDIO_TVCM -->
+	<string-array name="nav_audio_tvcm_strings">
+		<item>baq</item>
+		<item>eus</item>
+		<item>bul</item>
+		<item>cat</item>
+		<item>scr</item>
+		<item>cze</item>
+		<item>dan</item>
+		<item>dut</item>
+		<item>eng</item>
+		<item>fin</item>
+		<item>fre</item>
+		<item>gla</item>
+		<item>gdh</item>
+		<item>gle</item>
+		<item>glg</item>
+		<item>ger</item>
+		<item>gre</item>
+		<item>hun</item>
+		<item>ita</item>
+		<item>nor</item>
+		<item>pol</item>
+		<item>por</item>
+		<item>rum</item>
+		<item>rus</item>
+		<item>scc</item>
+		<item>slo</item>
+		<item>slv</item>
+		<item>spa</item>
+		<item>swe</item>
+		<item>tur</item>
+		<item>wel</item>
+		<item>ice</item>
+		<item>isl</item>
+		<item>smi</item>
+		<item>tha</item>
+		<item>vie</item>
+		<item>ara</item>
+		<item>zho</item>
+		<item>chi</item>
+		<item>per</item>
+		<item>kor</item>
+		<item>est</item>
+		<item>mao</item>
+		<item>cmn</item>
+		<item>yue</item>
+		<item>jpn</item>
+		<item>hin</item>
+		<item>nar</item>
+		<item>qaa</item>
+		<item>und</item>
+	</string-array>
+
+	<!-- AUDIO -->
+	<string-array name="nav_audio_strings">
+		<item>Baskisk</item>
+		<item>Baskisk</item>
+		<item>Bulaarian</item>
+		<item>catalan</item>
+		<item>Kroatisk</item>
+		<item>Tjekkisk</item>
+		<item>Dansk</item>
+		<item>Hollandsk</item>
+		<item>Engelsk</item>
+		<item>Finsk</item>
+		<item>french</item>
+		<item>gaelic</item>
+		<item>gaelic</item>
+		<item>Irish</item>
+		<item>gallegan</item>
+		<item>german</item>
+		<item>greek</item>
+		<item>hungarian</item>
+		<item>italian</item>
+		<item>norwegian</item>
+		<item>polish</item>
+		<item>portuguese</item>
+		<item>romanian</item>
+		<item>russian</item>
+		<item>serbian</item>
+		<item>slovak</item>
+		<item>slovenian</item>
+		<item>spanish</item>
+		<item>swedish</item>
+		<item>turkish</item>
+		<item>welsh</item>
+		<item>icelandic</item>
+		<item>icelandic</item>
+		<item>Sami langs</item>
+		<item>Thai</item>
+		<item>Vietnamesisk</item>
+		<item>Arabisk</item>
+		<item>T. Chinese</item>
+		<item>S. Chinese</item>
+		<item>Persisk</item>
+		<item>Koreansk</item>
+		<item>Estisk</item>
+		<item>Maori</item>
+		<item>Mandarin </item>
+		<item>Cantonesisk</item>
+		<item>Japansk </item>
+		<item>Hindi    </item>
+		<item>Narrative</item>
+		<item>Original Version for France</item>
+		<item>Ikke defineret</item>
+	</string-array>
+
+	<string-array name="nav_bottom_volume">
+		<item>Hovedlydstyrke</item>
+		<item>Front venstre lydstyrke</item>
+		<item>Front højre lydstyrke</item>
+		<item>Bag venstre lydstyrke</item>
+		<item>Bag højre lydstyrke</item>
+		<item>Center-lydstyrke</item>
+		<item>Subwoofer-lydstyrke</item>
+	</string-array>
+
+    <string-array name="nav_zoom_mode">
+		<item>Zoom x 1/2</item>
+		<item>Zoom x 1</item>
+		<item>Zoom x 2</item>
+	</string-array>
+
+	<string-array name="nav_receiver_type">
+		<item>Kabel</item>
+		<item>Antenne</item>
+	</string-array>
+	<string-array name="pvr_tshift_initdisk_step1">
+		<item>Autom.</item>
+		<item>Manual</item>
+	</string-array>
+	<string-array name="pvr_tshift_initdisk_step_format">
+		<item>Format</item>
+		<item>Spring over</item>
+	</string-array>
+	<string-array name="pvr_tshift_initdisk_step_formatconfirm">
+		<item>Format</item>
+		<item>Annuleren</item>
+	</string-array>
+	
+	<string-array name="week_day">
+	    <item>Søndag</item>
+		<item>mandag</item>
+		<item>tirsdag</item>
+		<item>onsdag</item>
+		<item>torsdag</item>
+		<item>fredag</item>
+		<item>Lørdag</item>
+	</string-array>
+    <string-array name="nav_oad_btns_cancel">
+        <item>Annuleren</item>
+    </string-array>
+    <string-array name="nav_oad_btns_accept_remind_me_later">
+        <item>Accepter</item>
+        <item>Påmind mig senere</item>
+    </string-array>
+    <string-array name="nav_oad_btns_accept_reject">
+        <item>Accepter</item>
+        <item>Afvis</item>
+    </string-array>
+    
+    <string-array name="nav_oad_btns_yes_no">
+        <item>Ja</item>
+        <item>NEJ</item>
+    </string-array>
+
+
+
+
+
+	<!--				
+				0:	MSG_STR_ID_EMPTY,						hide screen saver
+     				1:	MSG_STR_ID_NO_SIGNAL,					No Signal!
+     				2:	MSG_STR_ID_SCAN_CH,					Please Scan Channels!
+     				3:	MSG_STR_ID_GETTING_DATA,				Retrieving Data...
+     				4:	MSG_STR_ID_LOCKED_CH,					Channel Locked!
+     				5:	MSG_STR_ID_LOCKED_PROG,				Program Locked!
+     				6:	MSG_STR_ID_LOCKED_INP,					Input Locked!
+     				7:	MSG_STR_ID_NO_EVN_TILE,					(No program title.)
+     				8:	MSG_STR_ID_HIDDEN_CH,					Hidden Channel!
+     				9:	MSG_STR_ID_AUDIO_PROG,					Audio Program
+     				10:	MSG_STR_ID_NO_AUDIO_VIDEO,			No Audio and Video
+     				11:	MSG_STR_ID_NO_EVN_DTIL,				(No program details.)
+     				12:	MSG_STR_ID_NO_CH_DTIL,					(No channel details.)
+     				13:	MSG_STR_ID_NO_AUDIO_STRM,				no audio stream ??
+     				14:	MSG_STR_ID_NO_VIDEO_STRM,				no video stream ??
+     				15:	MSG_STR_ID_PLS_WAIT,					Please Wait...
+     				16:	MSG_STR_ID_VIDEO_NOT_SUPPORT,			video not support ??
+     				17:	MSG_STR_ID_HD_VIDEO_NOT_SUPPORT,		HD Service
+     				18:	MSG_STR_ID_NON_BRDCSTING,				Non-Broadcasting
+     				19:	MSG_STR_ID_NO_CH_IN_LIST,				no channel ??
+     				20:	MSG_STR_ID_TTX_SBTI_X_RATED_BLOCKED,	This content is blocked by your service provider
+     				255:	MSG_STR_ID_LAST_VALID_ENTRY,			only for counting purpose
+    -->
+	<string-array name="nav_twinkle_strings">
+		<item>  </item>
+		<item>Ikke noget signal!</item>
+		<item>Scan kanaler!</item>
+		<item>Henter data...</item>
+		<item>Kanal låst!</item>
+		<item>Program låst!</item>
+		<item>Indgang låst!</item>
+		<item>(Ingen programtitel)</item>
+		<item>Skjult kanal!</item>
+		<item>Lydprogram</item>
+		<item>Ingen lyd og video</item>
+		<item>(Ingen programoplysninger)</item>
+		<item>(Ingen kanalinfo.)</item>
+		<item>♪ No Audio Stream ♪</item>
+		<item>No Video Stream</item>
+		<item>Vent venligst...</item>
+		<item>Video not Support</item>
+		<item>HD Service</item>
+		<item>Non-Broadcasting</item>
+		<item>No Channel</item>
+		<item>Indholdet er blokeret af din udbyder</item>
+		<item>Kodet</item>
+	</string-array>
+
+
+	<string-array name="nav_channel_type">
+		<item>All</item>
+		<item>Digital</item>
+		<item>Radio</item>
+		<item>Analog</item>
+	</string-array>
+
+
+    
+</resources>
+

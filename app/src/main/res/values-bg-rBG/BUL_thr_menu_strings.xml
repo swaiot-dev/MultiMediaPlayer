@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+              
+    <string name="thr_menu_common_setting">Common Setting</string>
+    <string name="thr_menu_confim">confirm</string>
+    <string name="thr_menu_cancal">Izlaz</string>
+    <string name="thr_menu">Μενού </string>
+    <string name="thr_menu_select">Izaberi</string>
+    
+    <string name="thr_menu_picture_mode">Режим на образа</string>
+    <string name="thr_menu_track">Audio Track</string> 
+    <string name="thr_menu_Equalizer">Еквалайзер</string>
+    <string name="thr_menu_volume">Сила на звука</string>
+    
+    
+    
+</resources>
+

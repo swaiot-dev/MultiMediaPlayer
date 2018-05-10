@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+	<string-array name="nav_channel_types">
+		<item>All</item>
+		<!--<item>Analogni</item>
+		<item>Digitalno</item>-->
+		<item>Radio</item>
+	</string-array>
+	<!--
+
+		{ "Auto", "Normal", "LetterBox", "Zoom", "Panorama", "Dot by Dot" }
+	-->
+	<!--
+		<string-array name="nav_aspect_strings"> <item>Automatski</item>
+		<item>Normal</item> <item>LetterBox</item> <item>Zum</item>
+		<item>Panorama</item> <item>Točka po točka</item> </string-array>
+	-->
+	<!--
+		"Sleep:Off", "Sleep: 10 Minutes", "Sleep:20 Minutes", "Sleep:30
+		Minutes", "Sleep:40 Minutes", "Sleep:50 Minutes", "Sleep:60 Minutes",
+		"Sleep:90 Minutes", "Sleep:120 Minutes" };
+	-->
+
+	<string-array name="nav_sleep_strings">
+		<item>Sleep:Off</item>
+		<item>Sleep:15 Minutes</item>
+		<item>Sleep:30 Minutes</item>
+		<item>Sleep:45 Minutes</item>
+		<item>Sleep:60 Minutes</item>
+		<item>Sleep:90 Minutes</item>
+		<item>Sleep:120 Minutes</item>
+	</string-array>
+	<string-array name="nav_zoom_strings">
+		<item>zoom X 1</item>
+		<item>zoom X 2</item>
+		<item>zoom X 1/2</item>
+	</string-array>
+	
+	<!-- OFF, Rock, Pop, Live, Dance, Techno, Classic and Soft -->
+	<string-array name="nav_s_effect_strings">
+        <item>Korisnik</item>
+		<item>Standardno</item>
+		<item>Live1</item>
+	</string-array>
+
+	<string-array name="nav_freeze_strings">
+		<item>Freeze: On</item>
+		<item>Freeze: Off</item>
+	</string-array>
+	
+	<string-array name="nav_epg_filter_type">
+		<item>FILM</item>
+		<item>VIJESTI</item>
+		<item>ZABAVA</item>
+		<item>SPORT</item>
+		<item>DJEČJI</item>
+		<item>GLAZBA</item>
+		<item>UMJETNOST</item>
+		<item>DRUŠTVENI</item>
+		<item>OBRAZOVANJE</item>
+		<item>OPUŠTANJE</item>
+		<item>POSEBNI</item>
+	</string-array>
+	
+	<string-array name="nav_epg_filter_type_AUS">
+		<item>FILM</item>
+		<item>NYHETER</item>
+		<item>UNDERHÅLLNING</item>
+		<item>SPORT</item>
+		<item>BARNPROGRAM</item>
+		<item>MUSIK</item>
+		<item>KULTUR</item>
+		<item>AKTUELLA FRÅGOR</item>
+		
+		<item>UTBILDNING</item>
+		<item>INFOTAINMENT</item>
+		<item>SPECIAL</item>
+		<item>KOMEDI</item>
+		<item>DRAMA</item>
+		<item>DOKUMENTÄR</item>
+	</string-array>
+	
+	<string-array name="nav_epg_filter_type_UK">
+		<item>FILM</item>
+		<item>VIJESTI</item>
+		<item>ZABAVA</item>
+		<item>SPORT</item>
+		<item>DJEČJI</item>
+		<item>OBRAZOVANJE</item>
+		<item>LIFESTYLE</item>
+		<item>DRAMA</item>
+	</string-array>
+	
+	<string-array name="nav_epg_filter_sa_type">
+		<item>VIJESTI</item>
+		<item>SPORT</item>
+		<item>OBRAZOVANJE</item>
+		<item>SOAP_OPERA</item>
+		<item>MINI_SERIES</item>
+		<item>SERIES</item>
+		<item>VARIETY</item>
+		<item>REALITY_SHOW</item>
+		<item>INFOMATION</item>
+		<item>COMICAL</item>
+		<item>CHILDREN</item>
+		<item>EROTIC</item>
+		<item>FILM</item>
+		<item>RA_TE_SA_PR</item>
+		<item>DEBATE_INTERVIEW</item>
+		<item>OTHER</item>
+	</string-array>
+	
+	<string-array name="nav_epg_subtype_movie">
+		<item>Drama</item>
+		<item>Detektivski</item>
+		<item>Avantura</item>
+		<item>Znanstvena fantastika</item>
+		<item>Komedija</item>
+		<item>Sapunice</item>
+		<item>Romantika</item>
+		<item>Ozbiljni</item>
+		<item>Film za odrasle</item>
+	</string-array>
+	
+	<string-array name="nav_epg_subtype_news">
+		<item>Aktualnosti</item>
+		<item>Pregled vremenskih prilika</item>
+		<item>Novosti</item>
+		<item>Dokumentarni</item>
+		<item>Rasprave</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_news">
+		<item>Vijesti</item>
+		<item>Report</item>
+		<item>Dokumentarni</item>
+		<item>Biography</item>
+	</string-array> 
+	<string-array name="nav_epg_subtype_show">
+		<item>Zabava</item>
+		<item>Zabavne igre</item>
+		<item>RazliĊite zabavne igre</item>
+		<item>Govorne emisije</item>
+	</string-array>
+	
+	<string-array name="nav_epg_subtype_sports">
+		<item>Sport</item>
+		<item>Posebni događaji</item>
+		<item>Sportske novosti</item>
+		<item>Nogomet</item>
+		<item>Tenis</item>
+		<item>Kolektivni sportovi</item>
+		<item>Atletika</item>
+		<item>Motoristika</item>
+		<item>Vodeni sportovi</item>
+		<item>Zimski sportovi</item>
+		<item>Jahanje</item>
+		<item>BorilaĊki sportovi</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_sports">
+		<item>Sport</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_children">
+		<item>DjeĊji</item>
+		<item>Predškolska djeca</item>
+		<item>Zabava za dob od 6 do 14 godina</item>
+		<item>Zabava za dob od 10 do 16 godina</item>
+		<item>Informativni</item>
+		<item>Crtani filmovi</item>
+	</string-array>
+	
+	<string-array name="nav_epg_subtype_music">
+		<item>Glazba</item>
+		<item>Rock</item>
+		<item>Ozbiljna</item>
+		<item>Narodna</item>
+		<item>Jazz</item>
+		<item>Mjuzikl</item>
+		<item>Balet</item>
+	</string-array>
+	
+	<string-array name="nav_epg_subtype_arts">
+		<item>Umjetnost</item>
+		<item>IzvođaĊka umjetnost</item>
+		<item>Lijepa umjetnost</item>
+		<item>Religija</item>
+		<item>Popularna kultura</item>
+		<item>Literatura</item>
+		<item>Film</item>
+		<item>Eksperimentalni</item>
+		<item>Emitiranje</item>
+		<item>Novi mediji</item>
+		<item>Novosti iz umjetnosti</item>
+		<item>Moda</item>
+	</string-array>
+	
+	<string-array name="nav_epg_subtype_social">
+		<item>Društveni</item>
+		<item>Novosti</item>
+		<item>Ekonomija</item>
+		<item>Poznati ljudi</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_education">
+		<item>Obrazovni</item>
+		<item>Priroda</item>
+		<item>Tehnologija</item>
+		<item>Medicina</item>
+		<item>Strane zemlje</item>
+		<item>Društvene znanosti</item>
+		<item>Dalje obrazovanje</item>
+		<item>Jezici</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_education">
+		<item>Educative</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_soap_opera">
+		<item>Soap opera</item>
+	</string-array>
+	
+	<string-array name="nav_epg_subtype_sa_mini_series">
+		<item>Mini-series</item>
+	</string-array>
+	
+	<string-array name="nav_epg_subtype_sa_series">
+		<item>Serije</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_variety">
+		<item>Auditorium</item>
+		<item>Show</item>
+		<item>Mjuzikl</item>
+		<item>Making of</item>
+		<item>Feminine</item>
+		<item>Kvizovi i igre</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_reality_show">
+		<item>Reality show</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_information">
+		<item>Kuhanje</item>
+		<item>Moda</item>
+		<item>Zemlja</item>
+		<item>Health</item>
+		<item>Travel</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_comical">
+		<item>Comical</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_children">
+		<item>Children</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_erotic">
+		<item>Erotic</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_movie">
+		<item>Film</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_RA_TE_SA_PR">
+		<item>Raffle</item>
+		<item>Television sales</item>
+		<item>Prizing</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_DEBATE_INTERVIEW">
+		<item>Debata</item>
+		<item>Interview</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_other">
+		<item>Adult cartoon</item>
+		<item>Interactive</item>
+		<item>Policy</item>
+		<item>Religija</item>
+	</string-array>
+	
+	<string-array name="nav_epg_subtype_leisure">
+		<item>Hobiji za opuštanje</item>
+		<item>Turizam</item>
+		<item>Rukotvorine</item>
+		<item>Motociklizam</item>
+		<item>Vježba i zdravlje</item>
+		<item>Kuhanje</item>
+		<item>Oglasi</item>
+		<item>Vrtlarstvo</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_special">
+		<item>Izvorni jezik</item>
+		<item>Crno i bijelo</item>
+		<item>Neobjavljeno</item>
+		<item>Emisija uživo</item>
+	</string-array>
+
+
+	<!-- MTS -->
+	<string-array name="nav_mts_strings">
+		<item>UNKNOW</item>
+		<item>MONO</item>
+		<item>STEREO</item>
+		<item>SUB_LANG</item>
+		<item>DUAL1</item>
+		<item>DUAL2</item>
+		<item>NICAM_MONO</item>
+		<item>NICAM_STEREO</item>
+		<item>NICAM_DUAL1</item>
+		<item>NICAM_DUAL2</item>
+		<item>FM_MONO</item>
+		<item>FM_STEREO</item>
+	</string-array>
+
+	<!-- AUDIO_TVCM -->
+	<string-array name="nav_audio_tvcm_strings">
+		<item>baq</item>
+		<item>eus</item>
+		<item>bul</item>
+		<item>cat</item>
+		<item>scr</item>
+		<item>cze</item>
+		<item>dan</item>
+		<item>dut</item>
+		<item>eng</item>
+		<item>fin</item>
+		<item>fre</item>
+		<item>gla</item>
+		<item>gdh</item>
+		<item>gle</item>
+		<item>glg</item>
+		<item>ger</item>
+		<item>gre</item>
+		<item>hun</item>
+		<item>ita</item>
+		<item>nor</item>
+		<item>pol</item>
+		<item>por</item>
+		<item>rum</item>
+		<item>rus</item>
+		<item>scc</item>
+		<item>slo</item>
+		<item>slv</item>
+		<item>spa</item>
+		<item>swe</item>
+		<item>tur</item>
+		<item>wel</item>
+		<item>ice</item>
+		<item>isl</item>
+		<item>smi</item>
+		<item>tha</item>
+		<item>vie</item>
+		<item>ara</item>
+		<item>zho</item>
+		<item>chi</item>
+		<item>per</item>
+		<item>kor</item>
+		<item>est</item>
+		<item>mao</item>
+		<item>cmn</item>
+		<item>yue</item>
+		<item>jpn</item>
+		<item>hin</item>
+		<item>nar</item>
+		<item>qaa</item>
+		<item>und</item>
+	</string-array>
+
+	<!-- AUDIO -->
+	<string-array name="nav_audio_strings">
+		<item>Baskijski</item>
+		<item>Baskijski</item>
+		<item>Bulaarian</item>
+		<item>catalan</item>
+		<item>Hrvatski</item>
+		<item>Češki</item>
+		<item>Danski</item>
+		<item>Nizozemski</item>
+		<item>Engleski</item>
+		<item>Finski</item>
+		<item>french</item>
+		<item>gaelic</item>
+		<item>gaelic</item>
+		<item>Irish</item>
+		<item>gallegan</item>
+		<item>german</item>
+		<item>greek</item>
+		<item>hungarian</item>
+		<item>italian</item>
+		<item>norwegian</item>
+		<item>polish</item>
+		<item>portuguese</item>
+		<item>romanian</item>
+		<item>russian</item>
+		<item>serbian</item>
+		<item>slovak</item>
+		<item>slovenian</item>
+		<item>spanish</item>
+		<item>swedish</item>
+		<item>turkish</item>
+		<item>welsh</item>
+		<item>icelandic</item>
+		<item>icelandic</item>
+		<item>Sami langs</item>
+		<item>Tajlandski</item>
+		<item>Vijetnamski</item>
+		<item>Arapski</item>
+		<item>T. Chinese</item>
+		<item>S. Chinese</item>
+		<item>Perzijski</item>
+		<item>korejski</item>
+		<item>Estonski</item>
+		<item>Maor</item>
+		<item>Mandarin</item>
+		<item>Kantonski</item>
+		<item>Japanski</item>
+		<item>Hindski</item>
+		<item>Narrative</item>
+		<item>Original Version for France</item>
+		<item>Neodređeno</item>
+	</string-array>
+
+	<string-array name="nav_bottom_volume">
+		<item>Glavna glasnoća</item>
+		<item>Glasnoća sprijeda lijevo</item>
+		<item>Glasnoća sprijeda desno</item>
+		<item>Glasnoća straga lijevo</item>
+		<item>Glasnoća straga desno</item>
+		<item>Glasnoća u sredini</item>
+		<item>Glasnoća basova</item>
+	</string-array>
+
+    <string-array name="nav_zoom_mode">
+		<item>Zoom x 1/2</item>
+		<item>Zoom x 1</item>
+		<item>Zoom x 2</item>
+	</string-array>
+
+	<string-array name="nav_receiver_type">
+		<item>kábel</item>
+		<item>Antenna</item>
+	</string-array>
+	<string-array name="pvr_tshift_initdisk_step1">
+		<item>Automatski</item>
+		<item>Manual</item>
+	</string-array>
+	<string-array name="pvr_tshift_initdisk_step_format">
+		<item>Format</item>
+		<item>PreskoĊi</item>
+	</string-array>
+	<string-array name="pvr_tshift_initdisk_step_formatconfirm">
+		<item>Format</item>
+		<item>Mégse</item>
+	</string-array>
+	
+	<string-array name="week_day">
+	    <item>Nedjelja</item>
+		<item>Ponedjeljak</item>
+		<item>Utorak</item>
+		<item>Srijeda</item>
+		<item>Četvrtak</item>
+		<item>Petak</item>
+		<item>Subota</item>
+	</string-array>
+    <string-array name="nav_oad_btns_cancel">
+        <item>Mégse</item>
+    </string-array>
+    <string-array name="nav_oad_btns_accept_remind_me_later">
+        <item>Prihvati</item>
+        <item>Podsjeti me kasnije</item>
+    </string-array>
+    <string-array name="nav_oad_btns_accept_reject">
+        <item>Prihvati</item>
+        <item>Odbij</item>
+    </string-array>
+    
+    <string-array name="nav_oad_btns_yes_no">
+        <item>Da</item>
+        <item>NE</item>
+    </string-array>
+
+
+
+
+
+	<!--				
+				0:	MSG_STR_ID_EMPTY,						hide screen saver
+     				1:	MSG_STR_ID_NO_SIGNAL,					No Signal!
+     				2:	MSG_STR_ID_SCAN_CH,					Please Scan Channels!
+     				3:	MSG_STR_ID_GETTING_DATA,				Retrieving Data...
+     				4:	MSG_STR_ID_LOCKED_CH,					Channel Locked!
+     				5:	MSG_STR_ID_LOCKED_PROG,				Program Locked!
+     				6:	MSG_STR_ID_LOCKED_INP,					Input Locked!
+     				7:	MSG_STR_ID_NO_EVN_TILE,					(No program title.)
+     				8:	MSG_STR_ID_HIDDEN_CH,					Hidden Channel!
+     				9:	MSG_STR_ID_AUDIO_PROG,					Audio Program
+     				10:	MSG_STR_ID_NO_AUDIO_VIDEO,			No Audio and Video
+     				11:	MSG_STR_ID_NO_EVN_DTIL,				(No program details.)
+     				12:	MSG_STR_ID_NO_CH_DTIL,					(No channel details.)
+     				13:	MSG_STR_ID_NO_AUDIO_STRM,				no audio stream ??
+     				14:	MSG_STR_ID_NO_VIDEO_STRM,				no video stream ??
+     				15:	MSG_STR_ID_PLS_WAIT,					Please Wait...
+     				16:	MSG_STR_ID_VIDEO_NOT_SUPPORT,			video not support ??
+     				17:	MSG_STR_ID_HD_VIDEO_NOT_SUPPORT,		HD Service
+     				18:	MSG_STR_ID_NON_BRDCSTING,				Non-Broadcasting
+     				19:	MSG_STR_ID_NO_CH_IN_LIST,				no channel ??
+     				20:	MSG_STR_ID_TTX_SBTI_X_RATED_BLOCKED,	This content is blocked by your service provider
+     				255:	MSG_STR_ID_LAST_VALID_ENTRY,			only for counting purpose
+    -->
+	<string-array name="nav_twinkle_strings">
+		<item>  </item>
+		<item>Nema signala!</item>
+		<item>Molimo pretražite kanale!</item>
+		<item>Dohvaćanje podataka...</item>
+		<item>Kanal je zakljuĊan!</item>
+		<item>Program je zakljuĊan!</item>
+		<item>Ulaz je zaključan!</item>
+		<item>(Nema naslova pr.)</item>
+		<item>Skriveni kanal!</item>
+		<item>Audio Program</item>
+		<item>Nema zvuka i videa</item>
+		<item>(Nema detalja o pr.)</item>
+		<item>(Nema pojedinosti o kanalu.)</item>
+		<item>♪ No Audio Stream ♪</item>
+		<item>No Video Stream</item>
+		<item>Molim priĊekajte...</item>
+		<item>Video not Support</item>
+		<item>HD servis</item>
+		<item>Non-Broadcasting</item>
+		<item>No Channel</item>
+		<item>This content is blocked by your service provider</item>
+		<item>Zaštićen</item>
+	</string-array>
+
+
+	<string-array name="nav_channel_type">
+		<item>All</item>
+		<item>Digitalno</item>
+		<item>Radio</item>
+		<item>Analogni</item>
+	</string-array>
+
+
+    
+</resources>
+

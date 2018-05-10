@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+              
+    <string name="thr_menu_common_setting">Common Setting</string>
+    <string name="thr_menu_confim">confirm</string>
+    <string name="thr_menu_cancal">Zakończ</string>
+    <string name="thr_menu">Menu</string>
+    <string name="thr_menu_select">Wybierz</string>
+    
+    <string name="thr_menu_picture_mode">Beeldmodus</string>
+    <string name="thr_menu_track">Audio Track</string> 
+    <string name="thr_menu_Equalizer">Equaliser</string>
+    <string name="thr_menu_volume">Geluidssterkte</string>
+    
+    
+    
+</resources>
+

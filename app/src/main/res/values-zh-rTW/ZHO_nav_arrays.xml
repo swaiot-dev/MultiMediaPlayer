@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+	<string-array name="nav_channel_types">
+		<item>All</item>
+		<!--<item>類比式</item>
+		<item>數位</item>-->
+		<item>收音機</item>
+	</string-array>
+	<!--
+
+		{ "Auto", "Normal", "LetterBox", "Zoom", "Panorama", "Dot by Dot" }
+	-->
+	<!--
+		<string-array name="nav_aspect_strings"> <item>自動</item>
+		<item>Normal</item> <item>LetterBox</item> <item>縮放</item>
+		<item>Panorama</item> <item>逐點</item> </string-array>
+	-->
+	<!--
+		"Sleep:Off", "Sleep: 10 Minutes", "Sleep:20 Minutes", "Sleep:30
+		Minutes", "Sleep:40 Minutes", "Sleep:50 Minutes", "Sleep:60 Minutes",
+		"Sleep:90 Minutes", "Sleep:120 Minutes" };
+	-->
+
+	<string-array name="nav_sleep_strings">
+		<item>Sleep:Off</item>
+		<item>Sleep:15 Minutes</item>
+		<item>Sleep:30 Minutes</item>
+		<item>Sleep:45 Minutes</item>
+		<item>Sleep:60 Minutes</item>
+		<item>Sleep:90 Minutes</item>
+		<item>Sleep:120 Minutes</item>
+	</string-array>
+	<string-array name="nav_zoom_strings">
+		<item>zoom X 1</item>
+		<item>zoom X 2</item>
+		<item>zoom X 1/2</item>
+	</string-array>
+	
+	<!-- OFF, Rock, Pop, Live, Dance, Techno, Classic and Soft -->
+	<string-array name="nav_s_effect_strings">
+        <item>自訂</item>
+		<item>標準</item>
+		<item>Live1</item>
+	</string-array>
+
+	<string-array name="nav_freeze_strings">
+		<item>Freeze: On</item>
+		<item>Freeze: Off</item>
+	</string-array>
+
+	<string-array name="nav_epg_filter_type">
+		<item>電影</item>
+		<item>新聞</item>
+		<item>綜藝</item>
+		<item>體育</item>
+		<item>CHILDREN\'S</item>
+		<item>音樂</item>
+		<item>藝術</item>
+		<item>社會</item>
+		<item>教育</item>
+		<item>休閒</item>
+		<item>特殊</item>
+	</string-array>
+	
+	<string-array name="nav_epg_filter_type_AUS">
+		<item>電影</item>
+		<item>新聞</item>
+		<item>娛樂</item>
+		<item>體育</item>
+		<item>兒童</item>
+		<item>音樂</item>
+		<item>藝術</item>
+		<item>時事</item>
+		<item>教育</item>
+		<item>娛樂訊息</item>
+		<item>特殊</item>
+		<item>喜劇</item>
+		<item>劇情片</item>
+		<item>紀錄片</item>
+	</string-array>
+	
+	<string-array name="nav_epg_filter_type_UK">
+		<item>電影</item>
+		<item>新聞</item>
+		<item>娛樂</item>
+		<item>體育</item>
+		<item>兒童</item>
+		<item>教育</item>
+		<item>生活方式</item>
+		<item>劇情片</item>
+	</string-array>
+	
+	<string-array name="nav_epg_filter_sa_type">
+		<item>新聞</item>
+		<item>體育</item>
+		<item>教育</item>
+		<item>SOAP_OPERA</item>
+		<item>MINI_SERIES</item>
+		<item>SERIES</item>
+		<item>VARIETY</item>
+		<item>REALITY_SHOW</item>
+		<item>INFOMATION</item>
+		<item>COMICAL</item>
+		<item>CHILDREN</item>
+		<item>EROTIC</item>
+		<item>電影</item>
+		<item>RA_TE_SA_PR</item>
+		<item>DEBATE_INTERVIEW</item>
+		<item>OTHER</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_movie">
+		<item>劇情片</item>
+		<item>偵探片</item>
+		<item>探險片</item>
+		<item>科幻片</item>
+		<item>喜劇</item>
+		<item>肥皂劇</item>
+		<item>浪漫片</item>
+		<item>嚴肅話題</item>
+		<item>成人片</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_news">
+		<item>時事</item>
+		<item>氣象</item>
+		<item>新聞雜誌</item>
+		<item>紀錄片</item>
+		<item>討論</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_news">
+		<item>新聞</item>
+		<item>Report</item>
+		<item>紀錄片</item>
+		<item>Biography</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_show">
+		<item>綜藝</item>
+		<item>遊戲節目</item>
+		<item>各類綜藝</item>
+		<item>談話節目</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_sports">
+		<item>體育</item>
+		<item>特殊事件</item>
+		<item>運動雜誌</item>
+		<item>足球</item>
+		<item>網球</item>
+		<item>團隊運動</item>
+		<item>運動</item>
+		<item>動力運動</item>
+		<item>水上運動</item>
+		<item>冬季運動</item>
+		<item>馬術</item>
+		<item>Martial Sport</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_sports">
+		<item>體育</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_children">
+		<item>Children\'s</item>
+		<item>Pre-school children\'s</item>
+		<item>6 至 14 歲娛樂</item>
+		<item>Entertainment for 10 to ...</item>
+		<item>資訊</item>
+		<item>卡通</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_music">
+		<item>音樂</item>
+		<item>搖滾</item>
+		<item>嚴肅話題</item>
+		<item>民謠</item>
+		<item>爵士</item>
+		<item>音樂劇</item>
+		<item>芭蕾</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_arts">
+		<item>藝術</item>
+		<item>表演藝術</item>
+		<item>精緻藝術</item>
+		<item>區域</item>
+		<item>大眾文化</item>
+		<item>文學</item>
+		<item>電影</item>
+		<item>實驗性</item>
+		<item>廣播</item>
+		<item>新媒體</item>
+		<item>藝術雜誌</item>
+		<item>時尚</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_social">
+		<item>社會</item>
+		<item>雜誌</item>
+		<item>經濟</item>
+		<item>卓越人物</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_education">
+		<item>教育</item>
+		<item>自然</item>
+		<item>科技</item>
+		<item>醫藥</item>
+		<item>外國</item>
+		<item>社會科學</item>
+		<item>成人教育</item>
+		<item>語言</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_education">
+		<item>Educative</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_soap_opera">
+		<item>Soap opera</item>
+	</string-array>
+	
+	<string-array name="nav_epg_subtype_sa_mini_series">
+		<item>Mini-series</item>
+	</string-array>
+	
+	<string-array name="nav_epg_subtype_sa_series">
+		<item>系列節目</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_variety">
+		<item>Auditorium</item>
+		<item>綜藝</item>
+		<item>音樂劇</item>
+		<item>Making of</item>
+		<item>Feminine</item>
+		<item>遊戲節目</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_reality_show">
+		<item>Reality show</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_information">
+		<item>烹飪</item>
+		<item>時尚</item>
+		<item>國家</item>
+		<item>Health</item>
+		<item>Travel</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_comical">
+		<item>Comical</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_children">
+		<item>Children</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_erotic">
+		<item>Erotic</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_movie">
+		<item>電影</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_RA_TE_SA_PR">
+		<item>Raffle</item>
+		<item>Television sales</item>
+		<item>Prizing</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_DEBATE_INTERVIEW">
+		<item>討論</item>
+		<item>Interview</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_other">
+		<item>Adult cartoon</item>
+		<item>Interactive</item>
+		<item>Policy</item>
+		<item>區域</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_leisure">
+		<item>休閒嗜好</item>
+		<item>旅遊</item>
+		<item>手工藝</item>
+		<item>駕駛</item>
+		<item>健身與健康</item>
+		<item>烹飪</item>
+		<item>廣告</item>
+		<item>園藝</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_special">
+		<item>原語言</item>
+		<item>黑與白</item>
+		<item>未出版</item>
+		<item>現場直播</item>
+	</string-array>
+
+
+	<!-- MTS -->
+	<string-array name="nav_mts_strings">
+		<item>UNKNOW</item>
+		<item>MONO</item>
+		<item>STEREO</item>
+		<item>SUB_LANG</item>
+		<item>DUAL1</item>
+		<item>DUAL2</item>
+		<item>NICAM_MONO</item>
+		<item>NICAM_STEREO</item>
+		<item>NICAM_DUAL1</item>
+		<item>NICAM_DUAL2</item>
+		<item>FM_MONO</item>
+		<item>FM_STEREO</item>
+	</string-array>
+
+	<!-- AUDIO_TVCM -->
+	<string-array name="nav_audio_tvcm_strings">
+		<item>baq</item>
+		<item>eus</item>
+		<item>bul</item>
+		<item>cat</item>
+		<item>scr</item>
+		<item>cze</item>
+		<item>dan</item>
+		<item>dut</item>
+		<item>eng</item>
+		<item>fin</item>
+		<item>fre</item>
+		<item>gla</item>
+		<item>gdh</item>
+		<item>gle</item>
+		<item>glg</item>
+		<item>ger</item>
+		<item>gre</item>
+		<item>hun</item>
+		<item>ita</item>
+		<item>nor</item>
+		<item>pol</item>
+		<item>por</item>
+		<item>rum</item>
+		<item>rus</item>
+		<item>scc</item>
+		<item>slo</item>
+		<item>slv</item>
+		<item>spa</item>
+		<item>swe</item>
+		<item>tur</item>
+		<item>wel</item>
+		<item>ice</item>
+		<item>isl</item>
+		<item>smi</item>
+		<item>tha</item>
+		<item>vie</item>
+		<item>ara</item>
+		<item>zho</item>
+		<item>chi</item>
+		<item>per</item>
+		<item>kor</item>
+		<item>est</item>
+		<item>mao</item>
+		<item>cmn</item>
+		<item>yue</item>
+		<item>jpn</item>
+		<item>hin</item>
+		<item>nar</item>
+		<item>qaa</item>
+		<item>und</item>
+	</string-array>
+
+	<!-- AUDIO -->
+	<string-array name="nav_audio_strings">
+		<item>巴斯克文</item>
+		<item>巴斯克文</item>
+		<item>Bulaarian</item>
+		<item>catalan</item>
+		<item>克羅埃西亞文</item>
+		<item>捷克文</item>
+		<item>丹麥文</item>
+		<item>荷蘭文</item>
+		<item>英文</item>
+		<item>芬蘭文</item>
+		<item>french</item>
+		<item>gaelic</item>
+		<item>gaelic</item>
+		<item>Irish</item>
+		<item>gallegan</item>
+		<item>german</item>
+		<item>greek</item>
+		<item>hungarian</item>
+		<item>italian</item>
+		<item>norwegian</item>
+		<item>polish</item>
+		<item>portuguese</item>
+		<item>romanian</item>
+		<item>russian</item>
+		<item>serbian</item>
+		<item>slovak</item>
+		<item>slovenian</item>
+		<item>spanish</item>
+		<item>swedish</item>
+		<item>turkish</item>
+		<item>welsh</item>
+		<item>icelandic</item>
+		<item>icelandic</item>
+		<item>Sami langs</item>
+		<item>泰文</item>
+		<item>越南文</item>
+		<item>阿拉伯文</item>
+		<item>T. Chinese</item>
+		<item>S. Chinese</item>
+		<item>波斯文</item>
+		<item>韓文</item>
+		<item>愛沙尼亞</item>
+		<item>毛利文</item>
+		<item>國語 </item>
+		<item>廣東話</item>
+		<item>日文 </item>
+		<item>印度文    </item>
+		<item>Narrative</item>
+		<item>Original Version for France</item>
+		<item>未定義</item>
+	</string-array>
+
+	<string-array name="nav_bottom_volume">
+		<item>主音量</item>
+		<item>左前音量</item>
+		<item>右前音量</item>
+		<item>左後音量</item>
+		<item>右後音量</item>
+		<item>中置音量</item>
+		<item>重低音音量</item>
+	</string-array>
+
+    <string-array name="nav_zoom_mode">
+		<item>Zoom x 1/2</item>
+		<item>Zoom x 1</item>
+		<item>Zoom x 2</item>
+	</string-array>
+
+	<string-array name="nav_receiver_type">
+		<item>電纜</item>
+		<item>天線</item>
+	</string-array>
+	<string-array name="pvr_tshift_initdisk_step1">
+		<item>自動</item>
+		<item>Manual</item>
+	</string-array>
+	<string-array name="pvr_tshift_initdisk_step_format">
+		<item>Format</item>
+		<item>略過</item>
+	</string-array>
+	<string-array name="pvr_tshift_initdisk_step_formatconfirm">
+		<item>Format</item>
+		<item>取銷</item>
+	</string-array>
+	
+	<string-array name="week_day">
+	    <item>星期日</item>
+		<item>星期一</item>
+		<item>星期二</item>
+		<item>星期三</item>
+		<item>星期四</item>
+		<item>星期五</item>
+		<item>星期六</item>
+	</string-array>
+    <string-array name="nav_oad_btns_cancel">
+        <item>取銷</item>
+    </string-array>
+    <string-array name="nav_oad_btns_accept_remind_me_later">
+        <item>接受</item>
+        <item>稍後提醒我</item>
+    </string-array>
+    <string-array name="nav_oad_btns_accept_reject">
+        <item>接受</item>
+        <item>拒絕</item>
+    </string-array>
+    
+    <string-array name="nav_oad_btns_yes_no">
+        <item>取代</item>
+        <item>否</item>
+    </string-array>
+
+
+
+
+
+	<!--				
+				0:	MSG_STR_ID_EMPTY,						hide screen saver
+     				1:	MSG_STR_ID_NO_SIGNAL,					No Signal!
+     				2:	MSG_STR_ID_SCAN_CH,					Please Scan Channels!
+     				3:	MSG_STR_ID_GETTING_DATA,				Retrieving Data...
+     				4:	MSG_STR_ID_LOCKED_CH,					Channel Locked!
+     				5:	MSG_STR_ID_LOCKED_PROG,				Program Locked!
+     				6:	MSG_STR_ID_LOCKED_INP,					Input Locked!
+     				7:	MSG_STR_ID_NO_EVN_TILE,					(No program title.)
+     				8:	MSG_STR_ID_HIDDEN_CH,					Hidden Channel!
+     				9:	MSG_STR_ID_AUDIO_PROG,					Audio Program
+     				10:	MSG_STR_ID_NO_AUDIO_VIDEO,			No Audio and Video
+     				11:	MSG_STR_ID_NO_EVN_DTIL,				(No program details.)
+     				12:	MSG_STR_ID_NO_CH_DTIL,					(No channel details.)
+     				13:	MSG_STR_ID_NO_AUDIO_STRM,				no audio stream ??
+     				14:	MSG_STR_ID_NO_VIDEO_STRM,				no video stream ??
+     				15:	MSG_STR_ID_PLS_WAIT,					Please Wait...
+     				16:	MSG_STR_ID_VIDEO_NOT_SUPPORT,			video not support ??
+     				17:	MSG_STR_ID_HD_VIDEO_NOT_SUPPORT,		HD Service
+     				18:	MSG_STR_ID_NON_BRDCSTING,				Non-Broadcasting
+     				19:	MSG_STR_ID_NO_CH_IN_LIST,				no channel ??
+     				20:	MSG_STR_ID_TTX_SBTI_X_RATED_BLOCKED,	This content is blocked by your service provider
+     				255:	MSG_STR_ID_LAST_VALID_ENTRY,			only for counting purpose
+    -->
+	<string-array name="nav_twinkle_strings">
+		<item>  </item>
+		<item>無訊號！</item>
+		<item>請掃描頻道！</item>
+		<item>取回資料...</item>
+		<item>頻道已封鎖！</item>
+		<item>節目已封鎖！</item>
+		<item>輸入已鎖定！</item>
+		<item>（無節目標題。）</item>
+		<item>隱藏頻道！</item>
+		<item>音聲節目</item>
+		<item>沒有聲音和影像</item>
+		<item>（無節目細節。）</item>
+		<item>（無頻道細節。）</item>
+		<item>♪ No Audio Stream ♪</item>
+		<item>No Video Stream</item>
+		<item>請稊待...</item>
+		<item>Video not Support</item>
+		<item>高畫質朊務</item>
+		<item>Non-Broadcasting</item>
+		<item>No Channel</item>
+		<item>This content is blocked by your service provider</item>
+		<item>擾亂</item>
+	</string-array>
+
+
+	<string-array name="nav_channel_type">
+		<item>All</item>
+		<item>數位</item>
+		<item>收音機</item>
+		<item>類比式</item>
+	</string-array>
+
+
+    
+</resources>
+

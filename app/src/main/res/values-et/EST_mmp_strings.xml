@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="mmp_test">This is test data\n file name \n img\n test
+	</string>
+	<string name="mmp_menu">Меню </string>
+	<string name="mmp_menu_sort">Sorteeri</string>
+	<string name="mmp_menu_mediatype">Meedia tüüp</string>
+	<string name="mmp_menu_thumb">Pisipildi suurus</string>
+	<string name="mmp_menu_copy">Kopeeri</string>
+	<string name="mmp_menu_paste">Kleebi</string>
+	<string name="mmp_menu_delete">Kustuta</string>
+	<string name="mmp_menu_recur">Rekursiivne parser</string>
+	<string name="mmp_menu_not_recur">Tavaline parser</string>
+	<string name="mmp_menu_photoframe">Pildiraam</string>
+	<string name="mmp_menu_photo_frame">Photo Frame Image is set OK</string>
+
+	<string name="mmp_menu_play">Играть</string>
+	<string name="mmp_menu_pause">Paus</string>
+	<string name="mmp_menu_repeat">Korda</string>
+	<string name="mmp_menu_shuffle">Sega</string>
+	<string name="mmp_menu_duration">Kestus</string>
+	<string name="mmp_menu_effect">Efekt</string>
+	<string name="mmp_menu_showinfo">Näita infot</string>
+	<string name="mmp_menu_frame">Pildiraamikujutis</string>
+	<string name="mmp_menu_rotate">Pööra</string>
+	<string name="mmp_menu_3d_photo">3D Photo</string>
+
+	<string name="mmp_menu_display">Display Line</string>
+	<string name="mmp_menu_timeoffset">Ajanihe</string>
+	<string name="mmp_menu_encoding">Kodeerimine</string>
+
+	<string name="mmp_menu_picturemode">Pildirežiim</string>
+	<string name="mmp_menu_screenmode">Ekraanirežiim</string>
+
+	<string name="mmp_menu_font">Font </string>
+
+	<string name="mmp_menu_size">Suurus</string>
+	<string name="mmp_menu_style">Stiil</string>
+	<string name="mmp_menu_color">Värv</string>
+	<!-- child menu -->
+
+	<string name="mmp_menu_date">Kuupäev</string>
+	<string name="mmp_menu_name">Nimi</string>
+	<string name="mmp_menu_album">Album</string>
+	<string name="mmp_menu_artist">Esitaja</string>
+	<string name="mmp_menu_genre">Žanr</string>
+	<string name="mmp_menu_type">Tüüp</string>
+	
+	<string name="mmp_menu_phototext">Foto</string>
+	<string name="mmp_menu_music">Muus.</string>
+	<string name="mmp_menu_video">Video</string>
+	<string name="mmp_menu_text">Tekst</string>
+	<string name="mmp_menu_small">Väike</string>
+	<string name="mmp_menu_medium">Keskm.</string>
+	<string name="mmp_menu_large">Suur</string>
+	<string name="mmp_menu_onephotomode">One Photomode</string>
+	<string name="mmp_menu_datafraveler">DataFraveler G2</string>
+	<string name="mmp_menu_none">Puudub</string>
+	<string name="mmp_menu_repeatone">Korda ühte</string>
+	<string name="mmp_menu_repeatall">Korda kõiki</string>
+	<string name="mmp_menu_shuffleoff">Segamine väljas</string>
+	<string name="mmp_menu_shuffleon">Segamine sees</string>
+	<string name="mmp_menu_short">Lühike</string>
+	<string name="mmp_menu_long">Pikk</string>
+	<string name="mmp_menu_1x">1 X</string>
+	<string name="mmp_menu_2x">2 X</string>
+	<string name="mmp_menu_4x">4 X</string>
+	<string name="mmp_menu_dissolve">Lahustumine</string>
+	<string name="mmp_menu_wiperight">Paremale valgumine</string>
+	<string name="mmp_menu_wipeleft">Vasakule valgumine</string>
+	<string name="mmp_menu_wipeup">Üles valgumine</string>
+	<string name="mmp_menu_wipedown">Alla valgumine</string>
+	<string name="mmp_menu_boxin">Äärtest keskele </string>
+	<string name="mmp_menu_boxout">Keskelt äärte suunas</string>
+
+	<string name="mmp_menu_random">Juhuslik</string>
+
+
+	<string name="mmp_menu_off">Off</string>
+	<string name="mmp_menu_singleline">Single Line</string>
+	<string name="mmp_menu_multiline">Multi Line</string>
+	<string name="mmp_menu_auto">Auto</string>
+	<string name="mmp_menu_userdefine">User define</string>
+	<string name="mmp_menu_gb">GB</string>
+	<string name="mmp_menu_big5">Big5</string>
+	<string name="mmp_menu_utf8">Utf8</string>
+	<string name="mmp_menu_utf16">Utf16</string>
+	<string name="mmp_menu_user">Kasutaja</string>
+	<string name="mmp_menu_cinema">Film.</string>
+	<string name="mmp_menu_sport">Sport</string>
+	<string name="mmp_menu_vivid">Elav</string>
+	<string name="mmp_menu_hibright">Hi-Bright</string>
+	<string name="mmp_menu_normal">Normal</string>
+	<string name="mmp_menu_letterbox">Letter box</string>
+	<string name="mmp_menu_scan">Skan.</string>
+	<string name="mmp_menu_zoom">Zoom</string>
+	<string name="mmp_menu_dotbydot">Dot by Dot</string>
+
+	<string name="mmp_menu_regular">Tavaline</string>
+	<string name="mmp_menu_italic">Kursiiv</string>
+	<string name="mmp_menu_bold">Rasvane</string>
+	<string name="mmp_menu_outline">Rasvane Kursiiv</string>
+	<string name="mmp_menu_white">Valge</string>
+	<string name="mmp_menu_blue">Sinine</string>
+	<string name="mmp_menu_red">Punane</string>
+	<string name="mmp_menu_green">Roheline</string>
+	<string name="mmp_menu_black">Must</string>
+	<string name="mmp_menu_lyricoptions">Lyric Options</string>
+
+	<string name="mmp_menu_showscore">Näita spektrit</string>
+	<string name="mmp_menu_hidescore">Peida spekter</string>
+	<string name="mmp_menu_onlyaudio">Ainult audio</string>
+
+
+
+	<string name="mmp_photo">Foto</string>
+	<string name="mmp_audio">Muus.</string>
+	<string name="mmp_video">Video</string>
+	<string name="mmp_text">Tekst</string>
+	<string name="mmp_select">Vali</string>
+	<string name="mmp_input">Enter</string>
+	<string name="mmp_exit">Välju</string>
+	<string name="mmp_emptyfile">The current folder is empty!</string>
+	<string name="mmp_reutip">It\'s parsing this folder,please wait...</string>
+	<string name="mmp_filepath">\</string>
+	<string name="mmp_pop_repeat_tvrepeat">Korda kõiki</string>
+	<string name="mmp_pop_repeat_tvsingle">Single</string>
+	<string name="mmp_pop_repeat_tvnone"> </string>
+	<string name="mmp_pop_time_tv">Lühike</string>
+	<string name="mmp_pop_view_tv">Puudub</string>
+	<string name="mmp_pop_menu">Меню </string>
+	<string name="mmp_pop_enter">Enter</string>
+	<string name="mmp_pop_zoomscale">X</string>
+	<string name="mmp_pop_starttime">00:00:00</string>
+	<string name="mmp_pop_pagesize">01\//01</string>
+	<string name="mmp_listmode_play">Играть</string>
+
+
+
+	<string name="mmp_info_album">Album:</string>
+	<string name="mmp_info_orientation">Orientatsioon:</string>
+	<string name="mmp_info_artist">Esitaja:</string>
+	<string name="mmp_info_name">Nimi:</string>
+	<string name="mmp_info_date">Kuupäev:</string>
+	<string name="mmp_info_size">Suurus:</string>
+	<string name="mmp_info_next">Järgmine:</string>
+	<string name="mmp_info_exposure">SÄRIAEG:</string>
+	<string name="mmp_info_fnumber">FNUMBER:</string>
+	<string name="mmp_info_program">EKSPONEERIMISPROGRAMM:</string>
+	<string name="mmp_info_colorspace">VÄRVIRUUM:</string>
+	<string name="mmp_info_title">Pealkiri:</string>
+	<string name="mmp_info_genre">Žanr:</string>
+	<string name="mmp_info_year">Aasta:</string>
+	<string name="mmp_info_duration">Kestus:</string>
+	<string name="mmp_info_director">Režissöör:</string>
+	<string name="mmp_info_copyrght">Autoriõigus:</string>
+
+	<string name="mmp_info_lastline">Last Line</string>
+	<string name="mmp_info_nextline">Next Line</string>
+	<string name="mmp_info_lastpage">Last Page</string>
+	<string name="mmp_info_nextpage">Järgm. lk</string>
+
+	<string name="mmp_info_nolrc">No lrc</string>
+	<string name="mmp_time_separator">:</string>
+	<string name="mmp_time_inti">00</string>
+
+	<!-- Network -->
+	<string name="mmp_loading_tip">It\'s parsing this folder,please wait...</string>
+	<string name="mmp_user_name">User name</string>
+	<string name="mmp_password">Parool</string>
+	<string name="mmp_confirm">Kinnita</string>
+	<string name="mmp_vkb">Vkb</string>
+	<string name="mmp_ok">OK</string>
+	<string name="mmp_cancel">Loobu</string>
+
+	<string name="mmp_login_failed_tip">Username or password is error!</string>
+	<!-- Network -->
+
+	<string name="mmp_title_copy">Kopeerimine</string>
+	<string name="mmp_title_confirm_replace">Kinnita faili asendamine</string>
+	<string name="mmp_title_confirm_delete">Kinnita faili(de) kustutamine</string>
+	<string name="mmp_message_copy"> %1$s\nFrom %2$s\nTo %3$s</string>
+	<string name="mmp_message_confirm_replace"> This folder already contains a file named\n%s
+	</string>
+	<string name="mmp_message_confirm_delete">Kas olete kindel, et tahate valitud faili(d) kustutada?</string>
+
+	<string name="mmp_yes">Jah</string>
+	<string name="mmp_yes_to_all">Jah kõigele</string>
+	<string name="mmp_no">Ei</string>
+
+	<string name="mmp_capture_title">Capture Logo</string>
+	<string name="mmp_capture_confirm">Do you want to capture this screen ?</string>
+	<string name="mmp_toast_no_photoframe">There is no photo frame image to play</string>
+
+	<string name="mmp_video_notsupport">Video Codec not support</string>
+	<string name="mmp_audio_notsupport">Audio Codec not support</string>
+	<string name="mmp_video_only">Video only</string>
+	<string name="mmp_frame_photo_sleeptime">Uneaeg</string>
+	<string name="mmp_sleeptime_lable">Uneaeg:  </string>
+	<string name="mmp_video_stopresume">Stop Resume</string>
+	<string name="mmp_can_notpause">Can Not Pause</string>
+	
+	<string name="mmp_photo_type_notsupport">File not support</string>
+
+	<string name="mmp_lable_rorate">Pööra</string>
+	<string name="mmp_lable_degree">°</string>
+	<string name="mmp_lable_subtitle_off">Off</string>
+
+	<string name="mmp_info_whitebalance">WhiteBalance:</string>
+	<string name="mmp_info_make">Make:</string>
+	<string name="mmp_info_model">Model:</string>
+	<string name="mmp_info_flash">Flash:</string>
+	<string name="mmp_info_focallength">FocalLength:</string>
+	<string name="mmp_menu_pic_setting">Picture Setting</string>
+
+	<string name="mmp_file_notsupport">File not support</string>
+	<string name="mmp_notsupport">Not support</string>
+	<string name="mmp_seek_notsupport">Seek not support</string>
+	<string name="mmp_step_notsupport">Step not support</string>
+	<string name="mmp_featue_notsupport">Funktsioon ei ole saadaval</string>
+	<string name="mmp_nodevice">No Device Connected!</string>
+	<string name="mmp_time_out">The time code you input is wrong!\nPlease assure it\'s less than total time</string>
+    <string name="mmp_file_corrupt">File is corrupted</string>
+    <string name="mmp_menu_mount_iso">Mount the current iso file</string>
+	<string name="mmp_menu_unmount_iso">Nnmount the current device</string>
+
+	<string name="mmp_media_info_scrambled_audio_video_service">Scramble Video and Audio</string>
+	<string name="mmp_media_info_scrambled_audio_clear_video_service">Scramble Audio</string>
+	<string name="mmp_media_info_scrambled_audio_no_video_service">Scramble Audio,Audio only</string>
+	<string name="mmp_media_info_scrambled_video_clear_audio_service">Scramble Video</string>
+	<string name="mmp_media_info_scrambled_video_no_audio_service">Scramble Video,Video only</string>
+	
+	
+	
+	<string name="txture_0">"defaultVideo1.PNG"</string>
+    <string name="txture_1">"defaultVideo2.PNG"</string>
+    <string name="txture_2">"defaultVideo3.PNG"</string>
+    <string name="txture_3">"defaultVideo4.PNG"</string>
+    <string name="txture_4">"defaultVideo5.PNG"</string>
+    <string name="txture_5">"defaultVideo6.PNG"</string>
+    <string name="txture_6">"defaultVideo7.PNG"</string>
+    <string name="txture_7">"defaultVideo8.PNG"</string>
+    <string name="txture_8">"defaultVideo9.PNG"</string>
+    
+</resources>
+

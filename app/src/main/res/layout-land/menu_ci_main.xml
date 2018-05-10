@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- for data-menu -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/menu_ci_main_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:gravity="left|center_vertical"
+        android:paddingBottom="@dimen/nav_channel_details_channel_info_padding"
+        android:paddingLeft="8dp"
+        android:paddingTop="@dimen/nav_channel_details_channel_info_padding"
+        android:textSize="@dimen/middle_text_size" />
+
+    <TextView
+        android:id="@+id/menu_ci_main_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:gravity="left|center_vertical"
+        android:paddingBottom="@dimen/nav_channel_details_channel_info_padding"
+        android:paddingLeft="8dp"
+        android:paddingTop="@dimen/nav_channel_details_channel_info_padding"
+        android:textSize="@dimen/middle_text_size" />
+
+    <TextView
+        android:id="@+id/menu_ci_main_subtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:gravity="left|center_vertical"
+        android:paddingBottom="@dimen/nav_channel_details_channel_info_padding"
+        android:paddingLeft="8dp"
+        android:paddingTop="@dimen/nav_channel_details_channel_info_padding"
+        android:textSize="@dimen/middle_text_size" />
+
+    <ListView
+        android:id="@+id/menu_ci_main_list"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/menu_ci_main_listview_height"
+        android:cacheColorHint="@color/transparent"
+        android:divider="@null"
+        android:fadingEdge="none"
+        android:fastScrollEnabled="true"
+        android:listSelector="@drawable/nav_ci_item_selector"
+        android:scrollbars="none"
+        android:textSize="@dimen/middle_text_size" />
+
+    <TextView
+        android:id="@+id/menu_ci_main_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:gravity="left|center_vertical"
+        android:paddingBottom="@dimen/nav_channel_details_channel_info_padding"
+        android:paddingLeft="8dp"
+        android:paddingTop="@dimen/nav_channel_details_channel_info_padding"
+        android:textSize="@dimen/small_text_size" />
+
+</LinearLayout>

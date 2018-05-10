@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="55px"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/current_play_time_text_view"
+        android:layout_width="190px"
+        android:layout_height="wrap_content"
+        android:textSize="27px"
+        android:gravity="center" />
+
+    <ProgressBar
+        android:id="@+id/play_media_progress_bar"
+        android:layout_width="1530px"
+        android:layout_height="10px"
+        android:layout_marginLeft="5px"
+        android:layout_marginRight="5px"
+        style="@style/mmp_progressbar"/>
+
+    <TextView
+        android:id="@+id/total_play_time_text_view"
+        android:layout_width="190px"
+        android:layout_height="wrap_content"
+        android:textSize="27px"
+        android:gravity="center" />
+
+</LinearLayout>

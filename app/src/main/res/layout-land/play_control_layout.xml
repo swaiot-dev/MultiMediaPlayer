@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/play_state_linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/play_state_image_view"
+            android:layout_width="64px"
+            android:layout_height="64px"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="100px"
+            android:layout_marginLeft="100px"
+            android:layout_marginRight="10px"
+            android:layout_marginTop="100px"
+            android:src="@drawable/mmp_thumbnail_player_icon_play" />
+
+        <TextView
+            android:id="@+id/play_speed_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="64px"
+            android:gravity="center_vertical" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/play_progress_linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="55px"
+        android:visibility="gone"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/current_play_time_text_view"
+            android:layout_width="190px"
+            android:layout_height="wrap_content"
+            android:textSize="27px"
+            android:gravity="center" />
+
+        <ProgressBar
+            android:id="@+id/play_media_progress_bar"
+            android:layout_width="1530px"
+            android:layout_height="10px"
+            android:layout_marginLeft="5px"
+            android:layout_marginRight="5px"
+            style="@style/mmp_progressbar"/>
+
+        <TextView
+            android:id="@+id/total_play_time_text_view"
+            android:layout_width="190px"
+            android:layout_height="wrap_content"
+            android:textSize="27px"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+</RelativeLayout>

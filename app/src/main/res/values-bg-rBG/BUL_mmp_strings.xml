@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="mmp_test">This is test data\n file name \n img\n test
+	</string>
+	<string name="mmp_menu">Μενού </string>
+	<string name="mmp_menu_sort">Сортиране</string>
+	<string name="mmp_menu_mediatype">Тип медия</string>
+	<string name="mmp_menu_thumb">Миниатюрен размер</string>
+	<string name="mmp_menu_copy">Копие</string>
+	<string name="mmp_menu_paste">Вмъкване</string>
+	<string name="mmp_menu_delete">Изтриване</string>
+	<string name="mmp_menu_recur">Рекурсивен синт. анализатор</string>
+	<string name="mmp_menu_not_recur">Нормален синт. анализатор</string>
+	<string name="mmp_menu_photoframe">Фоторамка</string>
+	<string name="mmp_menu_photo_frame">Photo Frame Image is set OK</string>
+
+	<string name="mmp_menu_play">παιχνίδι</string>
+	<string name="mmp_menu_pause">Пауза</string>
+	<string name="mmp_menu_repeat">Повторение</string>
+	<string name="mmp_menu_shuffle">Влачещо</string>
+	<string name="mmp_menu_duration">Продължителност</string>
+	<string name="mmp_menu_effect">Ефект</string>
+	<string name="mmp_menu_showinfo">Показване на информация</string>
+	<string name="mmp_menu_frame">Фоторамкова снимка</string>
+	<string name="mmp_menu_rotate">Въртене</string>
+	<string name="mmp_menu_3d_photo">3D Photo</string>
+
+	<string name="mmp_menu_display">Display Line</string>
+	<string name="mmp_menu_timeoffset">Компенсационно време</string>
+	<string name="mmp_menu_encoding">Кодиране</string>
+
+	<string name="mmp_menu_picturemode">Режим на образа</string>
+	<string name="mmp_menu_screenmode">Режим на екрана:</string>
+
+	<string name="mmp_menu_font">Шрифт </string>
+
+	<string name="mmp_menu_size">Размер</string>
+	<string name="mmp_menu_style">Стил</string>
+	<string name="mmp_menu_color">Цвят</string>
+	<!-- child menu -->
+
+	<string name="mmp_menu_date">Дата</string>
+	<string name="mmp_menu_name">Име</string>
+	<string name="mmp_menu_album">Албум</string>
+	<string name="mmp_menu_artist">Артист</string>
+	<string name="mmp_menu_genre">Жанр</string>
+	<string name="mmp_menu_type">Тип</string>
+	
+	<string name="mmp_menu_phototext">Фото</string>
+	<string name="mmp_menu_music">Музика</string>
+	<string name="mmp_menu_video">Видео</string>
+	<string name="mmp_menu_text">Текст</string>
+	<string name="mmp_menu_small">Малък</string>
+	<string name="mmp_menu_medium">Среден</string>
+	<string name="mmp_menu_large">Голям</string>
+	<string name="mmp_menu_onephotomode">One Photomode</string>
+	<string name="mmp_menu_datafraveler">DataFraveler G2</string>
+	<string name="mmp_menu_none">Няма</string>
+	<string name="mmp_menu_repeatone">Повторение на едно</string>
+	<string name="mmp_menu_repeatall">Повторение на всичко</string>
+	<string name="mmp_menu_shuffleoff">Влачене изключване</string>
+	<string name="mmp_menu_shuffleon">Влачене включване</string>
+	<string name="mmp_menu_short">Кратко</string>
+	<string name="mmp_menu_long">Дълго</string>
+	<string name="mmp_menu_1x">1 X</string>
+	<string name="mmp_menu_2x">2 X</string>
+	<string name="mmp_menu_4x">4 X</string>
+	<string name="mmp_menu_dissolve">Бърза промяна на големината</string>
+	<string name="mmp_menu_wiperight">Триене дясно</string>
+	<string name="mmp_menu_wipeleft">Триене ляво</string>
+	<string name="mmp_menu_wipeup">Триене горе</string>
+	<string name="mmp_menu_wipedown">Триене долу</string>
+	<string name="mmp_menu_boxin">Кутия вход</string>
+	<string name="mmp_menu_boxout">Кутия изход</string>
+
+	<string name="mmp_menu_random">Случайно</string>
+
+
+	<string name="mmp_menu_off">Off</string>
+	<string name="mmp_menu_singleline">Single Line</string>
+	<string name="mmp_menu_multiline">Multi Line</string>
+	<string name="mmp_menu_auto">Автоматичен</string>
+	<string name="mmp_menu_userdefine">User define</string>
+	<string name="mmp_menu_gb">GB</string>
+	<string name="mmp_menu_big5">Big5</string>
+	<string name="mmp_menu_utf8">Utf8</string>
+	<string name="mmp_menu_utf16">Utf16</string>
+	<string name="mmp_menu_user">Потребител</string>
+	<string name="mmp_menu_cinema">Кино</string>
+	<string name="mmp_menu_sport">Sport</string>
+	<string name="mmp_menu_vivid">Ярък</string>
+	<string name="mmp_menu_hibright">Много ярък</string>
+	<string name="mmp_menu_normal">Стандартен</string>
+	<string name="mmp_menu_letterbox">Letter box</string>
+	<string name="mmp_menu_scan">Сканиране</string>
+	<string name="mmp_menu_zoom">Мащабиране</string>
+	<string name="mmp_menu_dotbydot">Dot by Dot</string>
+
+	<string name="mmp_menu_regular">Редовен</string>
+	<string name="mmp_menu_italic">Italic</string>
+	<string name="mmp_menu_bold">Bold</string>
+	<string name="mmp_menu_outline">Bold Italic</string>
+	<string name="mmp_menu_white">Бял</string>
+	<string name="mmp_menu_blue">Син</string>
+	<string name="mmp_menu_red">Червен</string>
+	<string name="mmp_menu_green">Зелен</string>
+	<string name="mmp_menu_black">Черен</string>
+	<string name="mmp_menu_lyricoptions">Lyric Options</string>
+
+	<string name="mmp_menu_showscore">Показване спектър</string>
+	<string name="mmp_menu_hidescore">Скриване спектър</string>
+	<string name="mmp_menu_onlyaudio">Само аудио</string>
+
+
+
+	<string name="mmp_photo">Фото</string>
+	<string name="mmp_audio">Музика</string>
+	<string name="mmp_video">Видео</string>
+	<string name="mmp_text">Текст</string>
+	<string name="mmp_select">Izaberi</string>
+	<string name="mmp_input">Вход</string>
+	<string name="mmp_exit">Izlaz</string>
+	<string name="mmp_emptyfile">The current folder is empty!</string>
+	<string name="mmp_reutip">It\'s parsing this folder,please wait...</string>
+	<string name="mmp_filepath">\</string>
+	<string name="mmp_pop_repeat_tvrepeat">Повторение на всичко</string>
+	<string name="mmp_pop_repeat_tvsingle">Single</string>
+	<string name="mmp_pop_repeat_tvnone"> </string>
+	<string name="mmp_pop_time_tv">Кратко</string>
+	<string name="mmp_pop_view_tv">Няма</string>
+	<string name="mmp_pop_menu">Μενού </string>
+	<string name="mmp_pop_enter">Вход</string>
+	<string name="mmp_pop_zoomscale">X</string>
+	<string name="mmp_pop_starttime">00:00:00</string>
+	<string name="mmp_pop_pagesize">01\//01</string>
+	<string name="mmp_listmode_play">παιχνίδι</string>
+
+
+
+	<string name="mmp_info_album">Албум:</string>
+	<string name="mmp_info_orientation">Ориентация:</string>
+	<string name="mmp_info_artist">Артист:</string>
+	<string name="mmp_info_name">Име:</string>
+	<string name="mmp_info_date">Дата:</string>
+	<string name="mmp_info_size">Размер:</string>
+	<string name="mmp_info_next">Следващ:</string>
+	<string name="mmp_info_exposure">ВРЕМЕ НА ЕКСПОНАЦИЯ:</string>
+	<string name="mmp_info_fnumber">FNUMBER:</string>
+	<string name="mmp_info_program">ПРОГРАМА НА ЕКСПОНАЦИЯ:</string>
+	<string name="mmp_info_colorspace">ЦВЕТНО ПРОСТРАНСТВО:</string>
+	<string name="mmp_info_title">Звание:</string>
+	<string name="mmp_info_genre">Жанр:</string>
+	<string name="mmp_info_year">Година:</string>
+	<string name="mmp_info_duration">Продължителност:</string>
+	<string name="mmp_info_director">Ръководител:</string>
+	<string name="mmp_info_copyrght">Авторско право:</string>
+
+	<string name="mmp_info_lastline">Last Line</string>
+	<string name="mmp_info_nextline">Next Line</string>
+	<string name="mmp_info_lastpage">Last Page</string>
+	<string name="mmp_info_nextpage">Следваща страница</string>
+
+	<string name="mmp_info_nolrc">No lrc</string>
+	<string name="mmp_time_separator">:</string>
+	<string name="mmp_time_inti">00</string>
+
+	<!-- Network -->
+	<string name="mmp_loading_tip">It\'s parsing this folder,please wait...</string>
+	<string name="mmp_user_name">User name</string>
+	<string name="mmp_password">Парола</string>
+	<string name="mmp_confirm">Потвърждение</string>
+	<string name="mmp_vkb">Vkb</string>
+	<string name="mmp_ok">U redu</string>
+	<string name="mmp_cancel">Odustani</string>
+
+	<string name="mmp_login_failed_tip">Username or password is error!</string>
+	<!-- Network -->
+
+	<string name="mmp_title_copy">Копиране</string>
+	<string name="mmp_title_confirm_replace">Потвърждение заменяне на файла</string>
+	<string name="mmp_title_confirm_delete">Потвърждение изтриването на файла(овете)</string>
+	<string name="mmp_message_copy"> %1$s\nFrom %2$s\nTo %3$s</string>
+	<string name="mmp_message_confirm_replace"> This folder already contains a file named\n%s
+	</string>
+	<string name="mmp_message_confirm_delete">Сигурни ли сте да се изтрие(ят) избраният(те) файл(ове)?</string>
+
+	<string name="mmp_yes">Да</string>
+	<string name="mmp_yes_to_all">Да за всички</string>
+	<string name="mmp_no">НЕ</string>
+
+	<string name="mmp_capture_title">Capture Logo</string>
+	<string name="mmp_capture_confirm">Do you want to capture this screen ?</string>
+	<string name="mmp_toast_no_photoframe">There is no photo frame image to play</string>
+
+	<string name="mmp_video_notsupport">Video Codec not support</string>
+	<string name="mmp_audio_notsupport">Audio Codec not support</string>
+	<string name="mmp_video_only">Video only</string>
+	<string name="mmp_frame_photo_sleeptime">Време на заспиване</string>
+	<string name="mmp_sleeptime_lable">Време на заспиване:  </string>
+	<string name="mmp_video_stopresume">Stop Resume</string>
+	<string name="mmp_can_notpause">Can Not Pause</string>
+	
+	<string name="mmp_photo_type_notsupport">File not support</string>
+
+	<string name="mmp_lable_rorate">Въртене</string>
+	<string name="mmp_lable_degree">°</string>
+	<string name="mmp_lable_subtitle_off">Off</string>
+
+	<string name="mmp_info_whitebalance">WhiteBalance:</string>
+	<string name="mmp_info_make">Make:</string>
+	<string name="mmp_info_model">Model:</string>
+	<string name="mmp_info_flash">Flash:</string>
+	<string name="mmp_info_focallength">FocalLength:</string>
+	<string name="mmp_menu_pic_setting">Picture Setting</string>
+
+	<string name="mmp_file_notsupport">File not support</string>
+	<string name="mmp_notsupport">Not support</string>
+	<string name="mmp_seek_notsupport">Seek not support</string>
+	<string name="mmp_step_notsupport">Step not support</string>
+	<string name="mmp_featue_notsupport">Функцията не е на разположение</string>
+	<string name="mmp_nodevice">No Device Connected!</string>
+	<string name="mmp_time_out">The time code you input is wrong!\nPlease assure it\'s less than total time</string>
+    <string name="mmp_file_corrupt">File is corrupted</string>
+    <string name="mmp_menu_mount_iso">Mount the current iso file</string>
+	<string name="mmp_menu_unmount_iso">Nnmount the current device</string>
+
+	<string name="mmp_media_info_scrambled_audio_video_service">Scramble Video and Audio</string>
+	<string name="mmp_media_info_scrambled_audio_clear_video_service">Scramble Audio</string>
+	<string name="mmp_media_info_scrambled_audio_no_video_service">Scramble Audio,Audio only</string>
+	<string name="mmp_media_info_scrambled_video_clear_audio_service">Scramble Video</string>
+	<string name="mmp_media_info_scrambled_video_no_audio_service">Scramble Video,Video only</string>
+	
+	
+	
+	<string name="txture_0">"defaultVideo1.PNG"</string>
+    <string name="txture_1">"defaultVideo2.PNG"</string>
+    <string name="txture_2">"defaultVideo3.PNG"</string>
+    <string name="txture_3">"defaultVideo4.PNG"</string>
+    <string name="txture_4">"defaultVideo5.PNG"</string>
+    <string name="txture_5">"defaultVideo6.PNG"</string>
+    <string name="txture_6">"defaultVideo7.PNG"</string>
+    <string name="txture_7">"defaultVideo8.PNG"</string>
+    <string name="txture_8">"defaultVideo9.PNG"</string>
+    
+</resources>
+

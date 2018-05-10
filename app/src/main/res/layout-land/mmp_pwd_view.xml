@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mmp_password_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/mmp_input_pwd_view"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginTop="4dp"
+        android:gravity="center"
+        android:background="@drawable/mm_bg" >
+
+        <TextView
+            android:id="@+id/mmp_pwd_name"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/epg_pwd_height"
+            android:gravity="center"
+            android:text="@string/nav_parent_psw"
+            android:textColor="@color/white"
+            android:textSize="@dimen/nav_textsize_timeduration" />
+
+        <TextView
+            android:id="@+id/mmp_pwd_value"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/epg_pwd_height"
+            android:layout_marginLeft="@dimen/epg_pwd_value_marginLeft"
+            android:layout_marginRight="@dimen/epg_pwd_value_marginRight"
+            android:background="@color/nav_parental_ed"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/epg_program_ts"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginLeft="4dp"
+        android:gravity="right"
+        android:background="@drawable/mm_bg"
+        android:id="@+id/mmp_pwd_info"
+    	android:visibility="gone"
+        >
+        <TextView
+            android:id="@+id/mmp_pwd_error"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginLeft="@dimen/epg_pwd_value_marginLeft"
+            android:layout_marginRight="@dimen/epg_pwd_value_marginRight"
+            android:textColor="@color/nav_parental_ed"
+            android:textSize="@dimen/mmp_error_size" 
+           />
+    </LinearLayout>
+
+</LinearLayout>

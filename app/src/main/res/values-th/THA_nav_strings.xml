@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="setup_ini">การตั้งค่าเริ่มต้น</string>
+	<string name="setup_back">กลับ</string>
+	<string name="setup_select">เลือก</string>
+	<string name="setup_next">ถัดไป</string>
+	<string name="setup_exit">ออก</string>
+	<string name="setup_welcome">ยินดีต้อนรับ</string>
+	<string name="setup_welcome_set">ยินดีต้อนรับสู่การใช้งานตัวช่วยการตั้งค่าเริ่มต้น!!\nโปรดกด [ENTER] เพื่อเริ่มตัวช่วย</string>
+	<string name="setup_language">ภาษา</string>
+	<string name="setup_select_language">โปรดเลือกภาษาของคุณ</string>
+	<string name="setup_tunner">โหมดวิทยุ</string>
+	<string name="setup_select_tuner">โปรดเลือกโหมดจูนเนอร์:</string>
+	<string name="setup_channelscan">สแกนช่อง</string>
+	<string name="setup_set_setps">อันดับแรก โปรดเชื่อมต่อเสาอากาศ\nเริ่มสแกนช่องตอนนี้หรือไม่ ?\nหากคุณข้ามขั้นตอนนี้ สามารถทำการสแกนช่องได้จากเมนู</string>
+	<string name="setup_set_setps_us">First, please connect cable or antenna.\n\nStart channel scan now ?\n\nIf you skip this step, the channel scan could be performed in Menu.</string>
+	<string name="setup_language_english">อังกฤษ</string>
+	<string name="setup_language_chinese">简体中文</string>
+	<string name="setup_tuner_antenna">เสาอากาศ</string>
+	<string name="setup_tuner_cable">สายเคเบิล</string>
+    <string name="setup_tuner_satellite">ดาวเทียม</string>
+    <string name="satellites">Satellites</string>
+	<string name="setup_scan">สแกน</string>
+	<string name="setup_skip_scan">ข้ามการสแกน</string>
+	<string name="setup_complete">เสร็จสิ้น</string>
+	<string name="setup_congratulations">ขอแสดงความยินดี!!\nการตั้งค่าเริ่มต้นเสร็จสิ้นแล้ว\nโปรดกด [ENTER] เพื่อออกจากตัวช่วย</string>
+	<string name="setup_channel_scan_note">การสแกนช่องอาจใช้เวลาสักครู่จึงเสร็จสิ้น</string>
+	<string name="setup_channel_scan_status">สถานะ: กำลังสแกน</string>
+	<string name="setup_channel_scan_analog">ช่องอะนาล็อก:</string>
+	<string name="setup_channel_scan_digital">ช่องดิจิตอล:</string>
+	<string name="setup_cancel">ยกเลิก</string>
+	<string name="setup_cancel_scan">สถานะ: ยกเลิกสแกน</string>
+	<string name="setup_scan_error">สถานะ: สแกนผิดพลาด</string>
+	<string name="setup_channel_scan_status_complete">สถานะ: สแกนเสร็จ</string>
+	<string name="dvbs_operator_perferred_satellite">perferred satellite</string>
+	<string name="dvbs_operator_general_satellite">general satellite</string>
+
+
+	<!-- char of simulation main view -->
+	<string name="nav_test_user_help">
+		[0-9]\t(0-9) To change channel.\n
+		[SOURCE]\t(A) To
+		display the input source list.\n
+		[TIMER]\t(B) To display the time.\n
+		[SLEEP]\t(C) To set the sleep time.\n
+		[ZOOM]\t(D) To select the zoom.\n
+		[PEFFECT]\t(E) To select the screen effect.\n
+		[SEFFECT]\t(F) To select
+		the sound effect.\n
+		[ASPECT]\t(G) To change the aspect ratio.\n
+		[CHUP]\t(O) To turn up the channel.\n
+		[CHDN]\t(Q) To turn down the
+		channel.\n
+		[MUTE]\t(R) To mute or un-mute the sound.\n
+		[VOLUME_UP]\t(M)
+		To turn up the volume.\n
+		[VOLUME_DOWN]\t(N) To turn down the volume.\n
+		[DPAD_CENTER]\t (ENTER) To display the channel list.\n
+		[INFO]\t(S) To
+		display the channel info.\n
+		[EJECT]\t(U) To display the channel info.\n
+		[PLAYPAUSE]\t(V) To display the favorite list.\n
+		[YELLOW]\t(K) To
+		select the type of the channel list.\n
+	</string>
+	<string name="nav_test_tv">ทีวี</string>
+
+	<!-- +++++++++++++++++++++++++++++++++++++++++++++ -->
+	<!-- ++++++++++ char of input source view++++++ -->
+	<!-- +++++++++++++++++++++++++++++++++++++++++++++ -->
+	<string name="nav_source_main_title">หลัก</string>
+	<string name="nav_source_sub_title">รอง</string>
+
+	<!-- +++++++++++++++++++++++++++++++++++++++++++++ -->
+	<!-- ++++++++++ char of channel list view ++++++ -->
+	<!-- +++++++++++++++++++++++++++++++++++++++++++++ -->
+	<string name="nav_please_scan_channels">โปรดสแกนช่อง!</string>
+	<string name="nav_no_function">ไม่มีฟังก์ชัน</string>
+	<string name="nav_select_list">Select List</string>
+	<string name="nav_page_up">Page Up</string>
+	<string name="nav_page_down">Page Down</string>
+	<string name="nav_fav_move_up">Move Up</string>
+	<string name="nav_fav_move_down">Move Down</string>
+	<string name="nav_exit">ออก</string>
+	<!-- <string name="nav_channel_list">Channel List - All</string> -->
+	<string name="nav_channel_list">รายการช่อง</string>
+
+	<string name="nav_channel_list_title_str">Channel List - </string>
+	<string name="nav_channel_selection">การเลือกรายการช่อง</string>
+	<string name="nav_channel_details">รายละเอียดช่อง</string>
+	<string name="nav_volume_main">ระดับเสียงขวาหน้า</string>
+	<string name="nav_parent_psw">รหัสผ่าน</string>
+	<string name="nav_parent_dvbs_hint">Password had been mistaken three times!\nPlease wait...</string>
+	<string name="nav_parent_wrong_psw">Password incorrect.\n Please enter again! </string>
+
+	<string name="nav_channel_antenna">เสาอากาศ</string>
+	<!-- +++++++++++++++++++++++++++++++++++++++++++++ -->
+	<!-- ++++++++++ char of favorite list view ++++++ -->
+	<!-- +++++++++++++++++++++++++++++++++++++++++++++ -->
+	<string name="nav_favorite_list">รายการโปรด</string>
+	<string name="nav_favorite_select">เลือก</string>
+
+	<string name="nav_channel_infoNum">815</string>
+	<string name="nav_channel_infoName">Jade</string>
+	<string name="nav_channel_infoFormat">640X480@60Hz</string>
+	<string name="nav_channel_infoType">เสาอากาศ</string>
+	<string name="nav_channel_infoTime">19:19</string>
+	<string name="nav_channel_infoMiddle_special">กำลังเรียกคืนข้อมูล...</string>
+	<string name="nav_channel_infoTitle">(No program Title.)</string>
+	<string name="nav_channel_infoDuration">3:35 - 3:40</string>
+	<string name="nav_channel_infoNextDuration">Insite the Stock ExChange</string>
+	<string name="nav_channel_infoAudioLanguage">1/2 Chinese</string>
+	<string name="nav_channel_infoFormatField">สเตอริโอ</string>
+	<string name="nav_channel_infoNoProgram">(No Program Details.)</string>
+	<string name="nav_channel_infoNoChannelDetail">(No Channel Details.)</string>
+	<string name="nav_channel_infoSubtitle">Chi</string>
+	<string name="nav_channel_infoInfoField">576i SD</string>
+
+	<string name="nav_no_signal">ไม่มีสัชชาณ!</string>
+	<string name="nav_no_support">No Support!</string>
+	<string name="nav_channel_has_locked">ช่องถูกล็อก!</string>
+	<string name="nav_input_has_locked">อินพุตถูกล็อค!</string>
+	<string name="nav_program_has_locked">โปรแกรมถูกล็อก!</string>
+	<string name="nav_hidden_channel">ช่องที่ซ่อน!</string>
+	<string name="nav_channel_audio_scrambled">เสียงที่มีการเข้ารหัส</string>
+	<string name="nav_channel_video_scrambled">ภาพที่มีการเข้ารหัส</string>
+	<string name="nav_sleep_label">พัก:</string>
+	<string name="nav_sleep_off">Off</string>
+	<string name="nav_sleep_minutes">นาที</string>
+	<string name="nav_resolution_null">ไม่มีภาพ</string>
+	<string name="nav_channel_retrieving">กำลังเรียกคืนข้อมูล...</string>
+	<string name="nav_unknown_audio">unknown audio</string>
+	<string name="nav_unknown_stereo">unknown stereo</string>
+	<string name="nav_unknown_audio_sundry">ไม่รู้จัก</string>
+	<string name="nav_channel_no_audio">ไม่มีเสียง</string>
+
+	<!--  for epg -->
+	<string name="nav_epg_type">ประเภท</string>
+	<string name="nav_epg_sub_type">ประเภทย่อย</string>
+	<string name="nav_epg_zero_tip">Booked list</string>
+	<string name="nav_epg_book_list">Booked Event List</string>
+	<string name="nav_epg_book_program_tip">\nBook this program?</string>
+	<string name="nav_epg_unbook_program_tip">\nAlready booked this program, unbook it?</string>
+	<string name="nav_epg_book_program_coming_tip"> is coming, change to the channel?</string>
+	<string name="nav_epg_not_rated">ไม่มีระดับ</string>
+	<string name="nav_epg_no_program_detail">(No Program Detail.)</string>
+	<string name="nav_epg_no_program_data">( No program data.)</string>
+	<string name="nav_epg_no_program_title">(ไม่มีชื่อโปรแกรม)</string>
+	<string name="nav_epg_unlock">Unlock</string>
+	<string name="nav_epg_unschedule">Unschedule</string>
+	<string name="nav_epg_schedule">Schedule</string>
+	<string name="nav_epg_not_support">ไม่รองรับt</string>
+	
+	<string name="nav_epg_January">มกราคา</string>
+	<string name="nav_epg_February">กุมภาพันธ์</string>
+	<string name="nav_epg_March">มีนาคม</string>
+	<string name="nav_epg_April">เมษายน</string>
+	<string name="nav_epg_May">พฤษภาคม</string>
+	<string name="nav_epg_June">มิถุนายน</string>
+	<string name="nav_epg_July">กรกฎาคม</string>
+	<string name="nav_epg_August">สิงหาคม</string>
+	<string name="nav_epg_September">กันยายน</string>
+	<string name="nav_epg_October">ตุลาคม</string>
+	<string name="nav_epg_November">พฤศจิกายน</string>
+	<string name="nav_epg_December">ธันวาคม</string>
+	
+	<string name="nav_epg_Jan">ม.ค.</string>
+	<string name="nav_epg_Feb">ก.พ.</string>
+	<string name="nav_epg_Mar">มี.ค.</string>
+	<string name="nav_epg_Apr">เม.ย.</string>
+	<string name="nav_epg_may">พ.ค.</string>
+	<string name="nav_epg_Jun">มิ.ย.</string>
+	<string name="nav_epg_Jul">ก.ค.</string>
+	<string name="nav_epg_Aug">ส.ค.</string>
+	<string name="nav_epg_Sep">ก.ย.</string>
+	<string name="nav_epg_Oct">ต.ค.</string>
+	<string name="nav_epg_Nov">พ.ย.</string>
+	<string name="nav_epg_Dec">ธ.ค.</string>
+	
+	<string name="nav_epg_Sunday">วันอาทิตย์</string>
+	<string name="nav_epg_Monday">วันจันทร์</string>
+	<string name="nav_epg_Tuesday">วันอังคาร</string>
+	<string name="nav_epg_Wednesday">วันพุธ</string>
+	<string name="nav_epg_Thursday">วันพฤหัสฯ</string>
+	<string name="nav_epg_Friday">วันศุกร์</string>
+	<string name="nav_epg_Saturday">วันเสาร์</string>
+	
+	<string name="nav_epg_Sun">อา.</string>
+	<string name="nav_epg_Mon">จ.</string>
+	<string name="nav_epg_Tue">อ.</string>
+	<string name="nav_epg_Wed">พ.</string>
+	<string name="nav_epg_Thur">พฤ.</string>
+	<string name="nav_epg_Fri">ศ.</string>
+	<string name="nav_epg_Sat">ส.</string>
+	
+	<!-- for capture logo (YELLOW KEY) -->
+	<string name="cplogo_title">Capture Logo</string>
+	<string name="cplogo_bt_ok">ตกลง</string>
+	<string name="cplogo_bt_cancel">ยกเลิก</string>
+	<string name="cplogo_bt_full_screen">Full Screen</string>
+	<string name="cplogo_bt_special_area">Special Area</string>
+	<string name="cplogo_bt_no">ไม่</string>
+	<string name="cplogo_bt_adjust">ปรับ</string>
+	<string name="cplogo_msg_which_screen">Do you want to capture full screen or special area?
+	</string>
+	<string name="cplogo_msg_this_screen">Do you want to capture this screen?</string>
+	<string name="cplogo_msg_select_position">Please select a position to save the logo</string>
+	<string name="cplogo_msg_capturing">Capturing ...</string>
+	<string name="cplogo_msg_adjust_position">Do you want to adjust the position of the special
+		area?</string>
+	<string name="cplogo_msg_res_success">Capture successfully</string>
+	<string name="cplogo_msg_res_fail">Capture failed, please try again</string>
+	<string name="cplogo_capture_res_cancel">This operation has been canceled</string>
+
+	<string name="vga_no_sinal_info">No signal. The power will be turned off.</string>
+
+	<!-- for epg -->
+	<string name="epg_bottom_prev_day">วันก่อนนี้</string>
+	<string name="epg_bottom_next_day">วันถัดไป</string>
+	<string name="epg_bottom_view_detail">ดูรายละเอียด</string>
+	<string name="epg_bottom_type_filter">ตัวกรองประเภท</string>
+	<string name="epg_bottom_prev_page">เลื่อนหน้าขึ้น</string>
+	<string name="epg_bottom_next_page">เลื่อนหน้าลง</string>
+	<string name="epg_bottom_ENTER">ENTER</string>
+	<string name="epg_bottom_0">0</string>
+
+	<string name="epg_info_program_type">ไม่มี</string>
+	<string name="epg_password">รหัสผ่าน</string>
+	<string name="epg_password_message">รหัสผ่านไม่ถูกต้อง!</string>
+	<string name="epg_retrieving_show">กำลังเรียกคืนข้อมูล...</string>
+
+	<!-- for ginga tv -->
+	<string name="nav_ginga_tv_title">Application list</string>
+	<string name="nav_select">เลือก</string>
+	<string name="nav_ginga_tv_message">There is no application!</string>
+	<string name="nav_ginga_tv_for_infobar">Ginga Application loading...</string>
+	<string name="nav_ginga_tv_for_tips">Do you want to stop CC and start Ginga application?</string>
+
+	<!-- for upgrader -->
+	<string name="nav_upgrader_title">ตัวช่วยการอัพเดต</string>
+	<string name="nav_upgrader_MoreInfo">More Info</string>
+	<string name="nav_upgrader_invalid">ไฟล์อิมเมจของเฟิร์มแวร์ไม่ถูกต้อง!!</string>
+	<string name="nav_upgrader_updating">กำลังอัพเดต…</string>
+	<string name="nav_upgrader_warnning">โปรดอย่าถอดอุปกรณ์ USB หรือปิดทีวีระหว่างการอัพเดตเฟิร์มแวร์!!</string>
+	<string name="nav_upgrader_validate">กำลังตรวจเฟิร์มแวร์…</string>
+	<string name="nav_upgrader_confirm">แน่ใจหรือไม่ว่าคุณต้องการอัพเดตเฟิร์มแวร์?</string>
+	<string name="nav_upgrader_completed">อัพเดตเฟิร์มแวร์สำเร็จแล้ว\nโปรดเปิดทีวีอีกครั้งเพื่อใช้งานเฟิร์มแวร์ใหม่</string>
+	<string name="nav_upgrader_failed">อัพเดตล้มเหลว\nโปรดเปิดทีวีอีกครั้งเพื่อดาวน์โหลดเฟิร์มแวร์อีกครั้ง</string>
+	<string name="nav_upgrader_retry">อัพเดตล้มเหลว\nคุณต้องการลองใหม่หรือไม่?</string>
+	<string name="nav_upgrader_retry2">อัพเดตล้มเหลว โปรดเสียบ USB\nคุณต้องการลองใหม่หรือไม่?</string>
+	<string name="nav_upgrader_usb_space_not_enough">Available space of your USB dongle is not enough.</string>
+	<string name="nav_upgrader_usb_not_ready">USB dongle is not ready, please plug it and try again.</string>
+	<string name="nav_upgrader_internal_err">Internal error.</string>
+	<string name="nav_upgrader_not_avail_firmware">No available firmware version.</string>
+	<string name="nav_upgrader_decry_fail">Decryption failed.</string>
+	<string name="nav_upgrader_firmware_invalid">Firmware is invalid.</string>
+	<string name="nav_upgrader_no_update">No available firmware to update.</string>
+	<string name="nav_upgrader_check_fail">Check new firmware failed.</string>
+	<string name="nav_upgrader_download_fail">Can not download firmware from network.</string>
+	<string name="nav_upgrader_usb_problem">There is some problem of the USB dongle.</string>
+	<string name="nav_upgrader_power">เปิด/ปิด</string>
+	<string name="nav_upgrader_yes">ใช่</string>
+	<string name="nav_upgrader_no">ไม่</string>
+	<string name="nav_upgrader_network_tip">Start to download new firmware from server</string>
+	
+	<string name="common_dialog_msg_yes">ใช่</string>
+	<string name="common_dialog_msg_no">ไม่</string>
+	<string name="common_dialog_ews_service_content">Do you want to switch to the EWS service?</string>
+	<string name="common_dialog_special_service_content">Do you want to switch to the special service?</string>
+	<string name="commmon_dialog_book_reminder_content">is coming, Do you want to switch to it?</string>
+	
+	<string name="nav_ttx_top_block">กลุ่ม</string> 
+  	<string name="nav_ttx_top_group">กลุ่ม</string> 
+  	<string name="nav_ttx_top_page">หน้า</string> 
+    <string name="nav_ttx_no_top">No Top</string> 
+	<string name="table">ตารางของหน้า</string>
+	<string name="nav_banner_not_rating">not rating</string>
+	<string name="setup_select_country">โปรดเลือกประเทศของคุณ</string>
+	<string name="setup_country">ประเทศ</string>
+	<string name="setup_dvbc_setting">Please configure the cable info</string>
+	<string name="setup_timezone">เขตเวลา</string>
+	<string name="setup_language_spanish">Español</string>
+	<string name="setup_language_french">Français</string>
+	<string name="setup_language_portuguese">Português</string>
+	
+	<string name="setup_dvbc_config_scanmode">Scan Mode</string>
+	<string name="setup_dvbc_config_frequency">Frequency (KHZ)</string>
+	<string name="setup_dvbc_config_modulation">การปรับ</string>
+	<string name="setup_dvbc_config_symbolrate">Symbol Rate(Ksym/s)</string>
+	<string name="setup_dvbc_config_networkid">รหัสเครือข่าย</string>
+	
+	<string name="setup_set_password">  </string>
+	<string name="setup_set_password_titile1">New Password</string>
+	<string name="setup_set_password_titile2">Confirm Password</string>
+	<string name="setup_set_password_default_pwd">0000</string>
+	
+	<string name="setup_cable_select_operation">Select Operator</string>
+	
+	<string name="setup_dvbs_statellite_type">Statellite Type</string>
+	<string name="setup_dvbs_statellite_type_title">Please select satellite type.</string>
+	
+	<string name="setup_dvbs_statellite_select_operator">Select Operator</string>
+	<string name="setup_dvbs_statellite_select_operator_title">You can select only one operator from the following list.</string>
+	
+	<string name="setup_cable_setting">  </string>
+	<string name="setup_cable_setting_title">โปรดกำหนดค่าข้อมูลเคเบิล</string>
+	
+	<string name="setup_dvbs_config_info">  </string>
+	<string name="setup_dvbs_config_info_title">Please configure the scan info.</string>
+	
+	<string name="setup_dvbs_satellite_list">Select Satellite</string>
+	<string name="setup_dvbs_satellite_list_title">Please select satellites to scan or edit the selected satellite.</string>
+	
+	<string name="setup_dvbs_config_setting">  </string>
+	<string name="setup_dvbs_config_setting_title">Please set antenna type config.</string>
+
+	<string name="setup_dvbs_satellite_config">Antenna Setup</string>
+	<string name="setup_dvbs_satellite_config_title">Please set the satellite\'s parameters.</string>
+	
+	<string name="setup_select_set">Set</string>
+	<string name="nav_oad_dialog_title">ดาวน์โหลดผ่านคลื่นสัญญาณ</string>
+	<string name="nav_oad_scanning">เอสโทเนีย</string>
+	<string name="nav_oad_scanning_result_fail">Can not find new software on the air</string>
+	
+	<string name="nav_oad_programming">Programming</string>
+	<string name="nav_oad_flash_confirm">Download the software successfully.Do you want to start flashing?</string>
+	<string name="nav_oad_flash_fail">Programming fail. Retry it again?\n\nPlease Call Service Center.</string>
+	<string name="nav_oad_restart_confirm">Software download successfully! Restart the TV now?</string>
+	
+	<string name="nav_oad_warning_msg_str">Warning: During the process.Please do not unplug the TV Set power code as this will lead to defective TV Set.</string>
+	
+	<string name="nav_oad_manual_download_confirm">Software update.A new recommended software update is avaiable.The update might take some time and the screen might go black.Do not turn of the receiver off during
+	    the update.Do you want to update now?</string>
+	<string name="nav_oad_manual_download_fail">ไม่สามารถดาวน์โหลดซอฟต์แวร์ คุณต้องการลองอีกครั้งหรือไม่?</string>
+	
+	<string name="nav_oad_auto_download_confirm">Software update.A new recommended software update is avaiable.The update might take some time and the screen might go black.Do not turn of the receiver off during
+	    the update.Do you want to update now?It will start automatically in %s second(s)</string>
+	
+	<string name="setup_language_english_value">Programming</string>
+	<string name="setup_language_chinese_value">Programming</string>
+	<string name="setup_language_spanish_value">Programming</string>
+	<string name="setup_language_french_value">Programming</string>
+	<string name="setup_language_portuguese_value">Programming</string>
+	
+    <string name="setup_country_cty_1">ออสเตรีย</string>
+    <string name="setup_country_cty_2">เบลเยี่ยม</string>
+    <string name="setup_country_cty_3">สวิตเซอร์แลนด์</string>
+    <string name="setup_country_cty_4">สาธารณรัฐเชก</string>
+    <string name="setup_country_cty_5">เยอรมนี</string>
+    <string name="setup_country_cty_6">เดนมาร์ก</string>
+    <string name="setup_country_cty_7">สเปน</string>
+    <string name="setup_country_cty_8">ฟินแลนด์</string>
+    <string name="setup_country_cty_9">ฝรั่งเศส</string>
+    <string name="setup_country_cty_10">สหราชอาณาจักร</string>
+    <string name="setup_country_cty_11">อิตาลี</string>
+    <string name="setup_country_cty_12">ลักเซมเบิร์ก</string>
+    <string name="setup_country_cty_13">เนเธอร์แลนด์</string>
+    <string name="setup_country_cty_14">นอร์เวย์</string>
+    <string name="setup_country_cty_15">สวีเดน</string>
+    <string name="setup_country_cty_16">บัลแกเรีย</string>
+    <string name="setup_country_cty_17">โครเอเชีย</string>
+    <string name="setup_country_cty_18">กรีซ</string>
+    <string name="setup_country_cty_19">ฮังการี</string>
+    <string name="setup_country_cty_20">ไอร์แลนด์</string>
+    <string name="setup_country_cty_21">โปแลนด์</string>
+    <string name="setup_country_cty_22">โปรตุเกส</string>
+    <string name="setup_country_cty_23">โรมาเนีย</string>
+    <string name="setup_country_cty_24">รัสเซีย</string>
+    <string name="setup_country_cty_25">เซอร์เบีย</string>
+    <string name="setup_country_cty_26">สโลวาเกีย</string>
+    <string name="setup_country_cty_27">สโลเวเนีย</string>
+    <string name="setup_country_cty_28">ตุรกี</string>
+    <string name="setup_country_cty_29">ประเทศเอสโตเนีย</string>
+    <string name="setup_country_cty_30">ออสเตรเลีย</string>
+    <string name="setup_country_cty_31">นิวซีแลนด์</string>
+	<string name="setup_set_timezone">Please select your time zone:</string>
+	<string name="setup_set_password_title">Please set password."0000" is not a valid password</string>
+	<string name="setup_set_password_success_msg">Password set successfully!</string>
+	<string name="dvbc_operator_upc">UPC</string>
+	<string name="dvbc_operator_telent">Telent</string>
+	<string name="dvbc_operator_unitymedia">Unitymedia</string>
+	<string name="dvbc_operator_stofa">Stofa</string>
+	<string name="dvbc_operator_yousee">Yousee</string>
+	<string name="dvbc_operator_canal_digital">Canal Digital</string>
+	<string name="dvbc_operator_numericable">Numericable</string>
+	<string name="dvbc_operator_ziggo">Ziggo</string>
+	<string name="dvbc_operator_comhem">Comhem</string>
+	<string name="dvbc_operator_others">Others</string>
+</resources>
+

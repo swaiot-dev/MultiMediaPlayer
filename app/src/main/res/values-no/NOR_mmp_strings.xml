@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="mmp_test">This is test data\n file name \n img\n test
+	</string>
+	<string name="mmp_menu">Meny</string>
+	<string name="mmp_menu_sort">Sorter</string>
+	<string name="mmp_menu_mediatype">Mediatype</string>
+	<string name="mmp_menu_thumb">Miniatyrbildestørrelse</string>
+	<string name="mmp_menu_copy">Kopier</string>
+	<string name="mmp_menu_paste">Lim inn</string>
+	<string name="mmp_menu_delete">Slett</string>
+	<string name="mmp_menu_recur">Rekursiv parser</string>
+	<string name="mmp_menu_not_recur">Normal parser</string>
+	<string name="mmp_menu_photoframe">Fotoramme</string>
+	<string name="mmp_menu_photo_frame">Photo Frame Image is set OK</string>
+
+	<string name="mmp_menu_play">Spill</string>
+	<string name="mmp_menu_pause">Pause</string>
+	<string name="mmp_menu_repeat">Gjenta</string>
+	<string name="mmp_menu_shuffle">Shuffle</string>
+	<string name="mmp_menu_duration">Varighet</string>
+	<string name="mmp_menu_effect">Effekt</string>
+	<string name="mmp_menu_showinfo">Vis info</string>
+	<string name="mmp_menu_frame">Fotorammebilde</string>
+	<string name="mmp_menu_rotate">Roter</string>
+	<string name="mmp_menu_3d_photo">3D Photo</string>
+
+	<string name="mmp_menu_display">Display Line</string>
+	<string name="mmp_menu_timeoffset">Tidsoffset</string>
+	<string name="mmp_menu_encoding">Koding</string>
+
+	<string name="mmp_menu_picturemode">Bildemodus</string>
+	<string name="mmp_menu_screenmode">Skjermmodus</string>
+
+	<string name="mmp_menu_font">Skrifttype </string>
+
+	<string name="mmp_menu_size">Størrelse</string>
+	<string name="mmp_menu_style">Stil</string>
+	<string name="mmp_menu_color">Farge</string>
+	<!-- child menu -->
+
+	<string name="mmp_menu_date">Dato:</string>
+	<string name="mmp_menu_name">Navn</string>
+	<string name="mmp_menu_album">Album:</string>
+	<string name="mmp_menu_artist">Artist:</string>
+	<string name="mmp_menu_genre">Sjanger:</string>
+	<string name="mmp_menu_type">Type</string>
+	
+	<string name="mmp_menu_phototext">Foto</string>
+	<string name="mmp_menu_music">Musikk</string>
+	<string name="mmp_menu_video">Video</string>
+	<string name="mmp_menu_text">Tekst</string>
+	<string name="mmp_menu_small">Liten</string>
+	<string name="mmp_menu_medium">Medium</string>
+	<string name="mmp_menu_large">Stor</string>
+	<string name="mmp_menu_onephotomode">One Photomode</string>
+	<string name="mmp_menu_datafraveler">DataFraveler G2</string>
+	<string name="mmp_menu_none">Ingen</string>
+	<string name="mmp_menu_repeatone">Gjenta en</string>
+	<string name="mmp_menu_repeatall">Gjenta alle</string>
+	<string name="mmp_menu_shuffleoff">Tilfeldig av</string>
+	<string name="mmp_menu_shuffleon">Tilfeldig på</string>
+	<string name="mmp_menu_short">Kort</string>
+	<string name="mmp_menu_long">Lang</string>
+	<string name="mmp_menu_1x">1 X</string>
+	<string name="mmp_menu_2x">2 X</string>
+	<string name="mmp_menu_4x">4 X</string>
+	<string name="mmp_menu_dissolve">Løs opp</string>
+	<string name="mmp_menu_wiperight">Visk ut mot høyre</string>
+	<string name="mmp_menu_wipeleft">Visk ut mot venstre</string>
+	<string name="mmp_menu_wipeup">Visk ut oppover</string>
+	<string name="mmp_menu_wipedown">Visk ut nedover</string>
+	<string name="mmp_menu_boxin">Boks inn</string>
+	<string name="mmp_menu_boxout">Boks ut</string>
+
+	<string name="mmp_menu_random">Tilfeldig</string>
+
+
+	<string name="mmp_menu_off">Off</string>
+	<string name="mmp_menu_singleline">Single Line</string>
+	<string name="mmp_menu_multiline">Multi Line</string>
+	<string name="mmp_menu_auto">Auto</string>
+	<string name="mmp_menu_userdefine">User define</string>
+	<string name="mmp_menu_gb">GB</string>
+	<string name="mmp_menu_big5">Big5</string>
+	<string name="mmp_menu_utf8">Utf8</string>
+	<string name="mmp_menu_utf16">Utf16</string>
+	<string name="mmp_menu_user">Bruker</string>
+	<string name="mmp_menu_cinema">Kino</string>
+	<string name="mmp_menu_sport">Sport</string>
+	<string name="mmp_menu_vivid">Livlig</string>
+	<string name="mmp_menu_hibright">Høy-lyst</string>
+	<string name="mmp_menu_normal">Normal</string>
+	<string name="mmp_menu_letterbox">Letter box</string>
+	<string name="mmp_menu_scan">Søk</string>
+	<string name="mmp_menu_zoom">Zoom</string>
+	<string name="mmp_menu_dotbydot">Prikk etter prikk</string>
+
+	<string name="mmp_menu_regular">Vanlig</string>
+	<string name="mmp_menu_italic">Kursiv</string>
+	<string name="mmp_menu_bold">Fet</string>
+	<string name="mmp_menu_outline">Fet Kursiv</string>
+	<string name="mmp_menu_white">Hvit</string>
+	<string name="mmp_menu_blue">Blå</string>
+	<string name="mmp_menu_red">Rød</string>
+	<string name="mmp_menu_green">Grønn</string>
+	<string name="mmp_menu_black">Sort</string>
+	<string name="mmp_menu_lyricoptions">Lyric Options</string>
+
+	<string name="mmp_menu_showscore">Vis spekter</string>
+	<string name="mmp_menu_hidescore">Gjem spekter</string>
+	<string name="mmp_menu_onlyaudio">Kun lyd</string>
+
+
+
+	<string name="mmp_photo">Foto</string>
+	<string name="mmp_audio">Musikk</string>
+	<string name="mmp_video">Video</string>
+	<string name="mmp_text">Tekst</string>
+	<string name="mmp_select">Seleccionar</string>
+	<string name="mmp_input">Enter</string>
+	<string name="mmp_exit">Sair</string>
+	<string name="mmp_emptyfile">The current folder is empty!</string>
+	<string name="mmp_reutip">It\'s parsing this folder,please wait...</string>
+	<string name="mmp_filepath">\</string>
+	<string name="mmp_pop_repeat_tvrepeat">Gjenta alle</string>
+	<string name="mmp_pop_repeat_tvsingle">Single</string>
+	<string name="mmp_pop_repeat_tvnone"> </string>
+	<string name="mmp_pop_time_tv">Kort</string>
+	<string name="mmp_pop_view_tv">Ingen</string>
+	<string name="mmp_pop_menu">Meny</string>
+	<string name="mmp_pop_enter">Enter</string>
+	<string name="mmp_pop_zoomscale">X</string>
+	<string name="mmp_pop_starttime">00:00:00</string>
+	<string name="mmp_pop_pagesize">01\//01</string>
+	<string name="mmp_listmode_play">Spill</string>
+
+
+
+	<string name="mmp_info_album">Album:</string>
+	<string name="mmp_info_orientation">Retning:</string>
+	<string name="mmp_info_artist">Artist:</string>
+	<string name="mmp_info_name">Navn</string>
+	<string name="mmp_info_date">Dato:</string>
+	<string name="mmp_info_size">Størrelse:</string>
+	<string name="mmp_info_next">Neste:</string>
+	<string name="mmp_info_exposure">EKSPONERINGSTID:</string>
+	<string name="mmp_info_fnumber">FNUMBER:</string>
+	<string name="mmp_info_program">EKSPONERINGSPROGRAM:</string>
+	<string name="mmp_info_colorspace">FARGEROM:</string>
+	<string name="mmp_info_title">Tittel:</string>
+	<string name="mmp_info_genre">Sjanger:</string>
+	<string name="mmp_info_year">År:</string>
+	<string name="mmp_info_duration">Varighet:</string>
+	<string name="mmp_info_director">Regissør:</string>
+	<string name="mmp_info_copyrght">Kopirett:</string>
+
+	<string name="mmp_info_lastline">Last Line</string>
+	<string name="mmp_info_nextline">Next Line</string>
+	<string name="mmp_info_lastpage">Last Page</string>
+	<string name="mmp_info_nextpage">Neste side</string>
+
+	<string name="mmp_info_nolrc">No lrc</string>
+	<string name="mmp_time_separator">:</string>
+	<string name="mmp_time_inti">00</string>
+
+	<!-- Network -->
+	<string name="mmp_loading_tip">It\'s parsing this folder,please wait...</string>
+	<string name="mmp_user_name">User name</string>
+	<string name="mmp_password">Passord</string>
+	<string name="mmp_confirm">Bekreft</string>
+	<string name="mmp_vkb">Vkb</string>
+	<string name="mmp_ok">OK</string>
+	<string name="mmp_cancel">Cancelar</string>
+
+	<string name="mmp_login_failed_tip">Username or password is error!</string>
+	<!-- Network -->
+
+	<string name="mmp_title_copy">Kopierer</string>
+	<string name="mmp_title_confirm_replace">Bekreft overskriving av fil</string>
+	<string name="mmp_title_confirm_delete">Bekreft sletting av fil(er)</string>
+	<string name="mmp_message_copy"> %1$s\nFrom %2$s\nTo %3$s</string>
+	<string name="mmp_message_confirm_replace"> This folder already contains a file named\n%s
+	</string>
+	<string name="mmp_message_confirm_delete">Er du sikker på at du vil slette de(n) valgte filen(e)?</string>
+
+	<string name="mmp_yes">Ja</string>
+	<string name="mmp_yes_to_all">Ja til alle</string>
+	<string name="mmp_no">NEI</string>
+
+	<string name="mmp_capture_title">Capture Logo</string>
+	<string name="mmp_capture_confirm">Do you want to capture this screen ?</string>
+	<string name="mmp_toast_no_photoframe">There is no photo frame image to play</string>
+
+	<string name="mmp_video_notsupport">Video Codec not support</string>
+	<string name="mmp_audio_notsupport">Audio Codec not support</string>
+	<string name="mmp_video_only">Video only</string>
+	<string name="mmp_frame_photo_sleeptime">Dvaletid</string>
+	<string name="mmp_sleeptime_lable">Dvaletid:  </string>
+	<string name="mmp_video_stopresume">Stop Resume</string>
+	<string name="mmp_can_notpause">Can Not Pause</string>
+	
+	<string name="mmp_photo_type_notsupport">File not support</string>
+
+	<string name="mmp_lable_rorate">Roter</string>
+	<string name="mmp_lable_degree">°</string>
+	<string name="mmp_lable_subtitle_off">Off</string>
+
+	<string name="mmp_info_whitebalance">WhiteBalance:</string>
+	<string name="mmp_info_make">Make:</string>
+	<string name="mmp_info_model">Model:</string>
+	<string name="mmp_info_flash">Flash:</string>
+	<string name="mmp_info_focallength">FocalLength:</string>
+	<string name="mmp_menu_pic_setting">Picture Setting</string>
+
+	<string name="mmp_file_notsupport">File not support</string>
+	<string name="mmp_notsupport">Not support</string>
+	<string name="mmp_seek_notsupport">Seek not support</string>
+	<string name="mmp_step_notsupport">Step not support</string>
+	<string name="mmp_featue_notsupport">Funksjonen ikke tilgjengelig  </string>
+	<string name="mmp_nodevice">No Device Connected!</string>
+	<string name="mmp_time_out">The time code you input is wrong!\nPlease assure it\'s less than total time</string>
+    <string name="mmp_file_corrupt">File is corrupted</string>
+    <string name="mmp_menu_mount_iso">Mount the current iso file</string>
+	<string name="mmp_menu_unmount_iso">Nnmount the current device</string>
+
+	<string name="mmp_media_info_scrambled_audio_video_service">Scramble Video and Audio</string>
+	<string name="mmp_media_info_scrambled_audio_clear_video_service">Scramble Audio</string>
+	<string name="mmp_media_info_scrambled_audio_no_video_service">Scramble Audio,Audio only</string>
+	<string name="mmp_media_info_scrambled_video_clear_audio_service">Scramble Video</string>
+	<string name="mmp_media_info_scrambled_video_no_audio_service">Scramble Video,Video only</string>
+	
+	
+	
+	<string name="txture_0">"defaultVideo1.PNG"</string>
+    <string name="txture_1">"defaultVideo2.PNG"</string>
+    <string name="txture_2">"defaultVideo3.PNG"</string>
+    <string name="txture_3">"defaultVideo4.PNG"</string>
+    <string name="txture_4">"defaultVideo5.PNG"</string>
+    <string name="txture_5">"defaultVideo6.PNG"</string>
+    <string name="txture_6">"defaultVideo7.PNG"</string>
+    <string name="txture_7">"defaultVideo8.PNG"</string>
+    <string name="txture_8">"defaultVideo9.PNG"</string>
+    
+</resources>
+

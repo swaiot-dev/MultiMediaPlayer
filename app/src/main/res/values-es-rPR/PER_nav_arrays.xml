@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+	<string-array name="nav_channel_types">
+		<item>All</item>
+		<!--<item>آنالوگ </item>
+		<item>دیجیتال</item>-->
+		<item>رادیو</item>
+	</string-array>
+	<!--
+
+		{ "Auto", "Normal", "LetterBox", "Zoom", "Panorama", "Dot by Dot" }
+	-->
+	<!--
+		<string-array name="nav_aspect_strings"> <item>اتوماتیک، اتوماتیک</item>
+		<item>Normal</item> <item>LetterBox</item> <item>بزرگنمایی</item>
+		<item>Panorama</item> <item>نقطه به نقطه</item> </string-array>
+	-->
+	<!--
+		"Sleep:Off", "Sleep: 10 Minutes", "Sleep:20 Minutes", "Sleep:30
+		Minutes", "Sleep:40 Minutes", "Sleep:50 Minutes", "Sleep:60 Minutes",
+		"Sleep:90 Minutes", "Sleep:120 Minutes" };
+	-->
+
+	<string-array name="nav_sleep_strings">
+		<item>Sleep:Off</item>
+		<item>Sleep:15 Minutes</item>
+		<item>Sleep:30 Minutes</item>
+		<item>Sleep:45 Minutes</item>
+		<item>Sleep:60 Minutes</item>
+		<item>Sleep:90 Minutes</item>
+		<item>Sleep:120 Minutes</item>
+	</string-array>
+	<string-array name="nav_zoom_strings">
+		<item>zoom X 1</item>
+		<item>zoom X 2</item>
+		<item>zoom X 1/2</item>
+	</string-array>
+	
+	<!-- OFF, Rock, Pop, Live, Dance, Techno, Classic and Soft -->
+	<string-array name="nav_s_effect_strings">
+        <item>کاربر</item>
+		<item>استاندارد</item>
+		<item>Live1</item>
+	</string-array>
+
+	<string-array name="nav_freeze_strings">
+		<item>Freeze: On</item>
+		<item>Freeze: Off</item>
+	</string-array>
+	
+	<string-array name="nav_epg_filter_type">
+		<item>فیلم</item>
+		<item>اخبار</item>
+		<item>نمایش، سریال تلویزیونی</item>
+		<item>ورزش ها</item>
+		<item>مال بچه ها، مربوط به بچه ها</item>
+		<item>موسیقی</item>
+		<item>هنرها</item>
+		<item>اجتماعی</item>
+		<item>تحصیل، آموزش</item>
+		<item>اوقات فراغت</item>
+		<item>مخصوص، ویژه</item>
+	</string-array>
+	
+	<string-array name="nav_epg_filter_type_AUS">
+		<item>فیلم</item>
+		<item>اخبار</item>
+		<item>سرگرمی</item>
+		<item>ورزش ها</item>
+		<item>مال بچه ها، مربوط به بچه ها</item>
+		<item>موسیقی</item>
+		<item>هنرها</item>
+		<item>مسائل اخیر</item>
+		<item>تحصیل، آموزش</item>
+		<item>فیلم آموزشی</item>
+		<item>مخصوص، ویژه</item>
+		<item>کمدی</item>
+		<item>درام</item>
+		<item>مستند</item>
+	</string-array>
+	
+	<string-array name="nav_epg_filter_type_UK">
+		<item>فیلم</item>
+		<item>اخبار</item>
+		<item>سرگرمی</item>
+		<item>ورزش ها</item>
+		<item>مال بچه ها، مربوط به بچه ها</item>
+		<item>تحصیل، آموزش</item>
+		<item>سبک زندگی</item>
+		<item>درام</item>
+	</string-array>
+	
+	<string-array name="nav_epg_filter_sa_type">
+		<item>اخبار</item>
+		<item>ورزش ها</item>
+		<item>تحصیل، آموزش</item>
+		<item>SOAP_OPERA</item>
+		<item>MINI_SERIES</item>
+		<item>SERIES</item>
+		<item>VARIETY</item>
+		<item>REALITY_SHOW</item>
+		<item>INFOMATION</item>
+		<item>COMICAL</item>
+		<item>CHILDREN</item>
+		<item>EROTIC</item>
+		<item>فیلم</item>
+		<item>RA_TE_SA_PR</item>
+		<item>DEBATE_INTERVIEW</item>
+		<item>OTHER</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_movie">
+		<item>درام</item>
+		<item>کاراگاهی</item>
+		<item>ماجراجویی</item>
+		<item>علمی تخیلی</item>
+		<item>کمدی</item>
+		<item>نمايش‌ هاي‌ تلويزيوني‌ يا راديوئي‌ پر احساسات‌ و كم‌  ارزش‌ </item>
+		<item>عاشقانه</item>
+		<item>موسیقی رسمی</item>
+		<item>فیلم مخصوص بزرگسالان</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_news">
+		<item>مسائل اخیر</item>
+		<item>گزارش هواشناسی</item>
+		<item>مجله خبری</item>
+		<item>مستند</item>
+		<item>بحث، گفتگو</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_news">
+		<item>اخبار</item>
+		<item>Report</item>
+		<item>مستند</item>
+		<item>Biography</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_show">
+		<item>نمایش، سریال تلویزیونی</item>
+		<item>نمایش بازی</item>
+		<item>نمايشي که ترکیبی از چند قطعه متنوع باشد</item>
+		<item>برنامه مصاحبه</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_sports">
+		<item>ورزش ها</item>
+		<item>رویدادهای برجسته</item>
+		<item>مجلات ورزشی</item>
+		<item>فوتبال</item>
+		<item>تنیس</item>
+		<item>ورزش های گروهی</item>
+		<item>ورزشکاران</item>
+		<item>ورزش موتور سواری</item>
+		<item>ورزش آبی</item>
+		<item>ورزش زمستانی</item>
+		<item>اسب سواری</item>
+		<item>ورزش های نظامی</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_sports">
+		<item>ورزش ها</item>
+	</string-array>
+	
+	<string-array name="nav_epg_subtype_children">
+		<item>مال بچه ها، مربوط به بچه ها</item>
+		<item>کودکان پیش دبستانی</item>
+		<item>سرگرمی برای گروه سنی 6 تا 14 سال</item>
+		<item>سرگرمی برای گروه سنی 10 تا 16 سال</item>
+		<item>اطلاعاتی</item>
+		<item>کارتون ها</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_music">
+		<item>موسیقی</item>
+		<item>موسیقی راک</item>
+		<item>موسیقی رسمی</item>
+		<item>موسیقی مردمی</item>
+		<item>موسیقی جاز</item>
+		<item>دارای آهنگ، موسیقی دار</item>
+		<item>باله، رقص ورزشی و هنری</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_arts">
+		<item>هنرها</item>
+		<item>هنرهای نمایشی</item>
+		<item>هنرهای ظریف</item>
+		<item>مذهب، دین</item>
+		<item>فرهنگ عامه</item>
+		<item>ادبیات</item>
+		<item>فیلم</item>
+		<item>آزمایشی، تجربی</item>
+		<item>پخش، رادیویی</item>
+		<item>رسانه جدید</item>
+		<item>مجلات هنری</item>
+		<item>مد</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_social">
+		<item>اجتماعی</item>
+		<item>مجلات</item>
+		<item>اقتصاد</item>
+		<item>چهره های مشهور</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_education">
+		<item>تحصیل، آموزش</item>
+		<item>طبیعت</item>
+		<item>فن آوری</item>
+		<item>پزشکی</item>
+		<item>کشورهای خارجی</item>
+		<item>علوم اجتماعی</item>
+		<item>تحصیلات در مقاطع بالاتر</item>
+		<item>زبان ها</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_education">
+		<item>Educative</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_soap_opera">
+		<item>Soap opera</item>
+	</string-array>
+	
+	<string-array name="nav_epg_subtype_sa_mini_series">
+		<item>Mini-series</item>
+	</string-array>
+	
+	<string-array name="nav_epg_subtype_sa_series">
+		<item>سریال های تلویزیونی</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_variety">
+		<item>Auditorium</item>
+		<item>نمایش، سریال تلویزیونی</item>
+		<item>دارای آهنگ، موسیقی دار</item>
+		<item>Making of</item>
+		<item>Feminine</item>
+		<item>نمایش بازی</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_reality_show">
+		<item>Reality show</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_information">
+		<item>آشپزی</item>
+		<item>مد</item>
+		<item>کشور</item>
+		<item>Health</item>
+		<item>Travel</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_comical">
+		<item>Comical</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_children">
+		<item>Children</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_erotic">
+		<item>Erotic</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_movie">
+		<item>فیلم</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_RA_TE_SA_PR">
+		<item>Raffle</item>
+		<item>Television sales</item>
+		<item>Prizing</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_DEBATE_INTERVIEW">
+		<item>بحث، گفتگو</item>
+		<item>Interview</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_other">
+		<item>Adult cartoon</item>
+		<item>Interactive</item>
+		<item>Policy</item>
+		<item>مذهب، دین</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_leisure">
+		<item>سرگرمی های اوقات فراغت</item>
+		<item>گردشگری</item>
+		<item>صنایع دستی</item>
+		<item>ماشین سواری، اتومبیل رانی</item>
+		<item>تناسب اندام و سلامت</item>
+		<item>آشپزی</item>
+		<item>تبلیغات</item>
+		<item>باغبانی</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_special">
+		<item>زبان مادری</item>
+		<item>سیاه و سفید</item>
+		<item>منتشر نشده</item>
+		<item>پخش زنده</item>
+	</string-array>
+
+
+	<!-- MTS -->
+	<string-array name="nav_mts_strings">
+		<item>UNKNOW</item>
+		<item>MONO</item>
+		<item>STEREO</item>
+		<item>SUB_LANG</item>
+		<item>DUAL1</item>
+		<item>DUAL2</item>
+		<item>NICAM_MONO</item>
+		<item>NICAM_STEREO</item>
+		<item>NICAM_DUAL1</item>
+		<item>NICAM_DUAL2</item>
+		<item>FM_MONO</item>
+		<item>FM_STEREO</item>
+	</string-array>
+
+	<!-- AUDIO_TVCM -->
+	<string-array name="nav_audio_tvcm_strings">
+		<item>baq</item>
+		<item>eus</item>
+		<item>bul</item>
+		<item>cat</item>
+		<item>scr</item>
+		<item>cze</item>
+		<item>dan</item>
+		<item>dut</item>
+		<item>eng</item>
+		<item>fin</item>
+		<item>fre</item>
+		<item>gla</item>
+		<item>gdh</item>
+		<item>gle</item>
+		<item>glg</item>
+		<item>ger</item>
+		<item>gre</item>
+		<item>hun</item>
+		<item>ita</item>
+		<item>nor</item>
+		<item>pol</item>
+		<item>por</item>
+		<item>rum</item>
+		<item>rus</item>
+		<item>scc</item>
+		<item>slo</item>
+		<item>slv</item>
+		<item>spa</item>
+		<item>swe</item>
+		<item>tur</item>
+		<item>wel</item>
+		<item>ice</item>
+		<item>isl</item>
+		<item>smi</item>
+		<item>tha</item>
+		<item>vie</item>
+		<item>ara</item>
+		<item>zho</item>
+		<item>chi</item>
+		<item>per</item>
+		<item>kor</item>
+		<item>est</item>
+		<item>mao</item>
+		<item>cmn</item>
+		<item>yue</item>
+		<item>jpn</item>
+		<item>hin</item>
+		<item>nar</item>
+		<item>qaa</item>
+		<item>und</item>
+	</string-array>
+
+	<!-- AUDIO -->
+	<string-array name="nav_audio_strings">
+		<item>باسکی</item>
+		<item>باسکی</item>
+		<item>Bulaarian</item>
+		<item>catalan</item>
+		<item>کرواسی</item>
+		<item>چکی</item>
+		<item>دانمارکی</item>
+		<item>هلندی</item>
+		<item>انگلیسی</item>
+		<item>فنلاندی</item>
+		<item>french</item>
+		<item>gaelic</item>
+		<item>gaelic</item>
+		<item>Irish</item>
+		<item>gallegan</item>
+		<item>german</item>
+		<item>greek</item>
+		<item>hungarian</item>
+		<item>italian</item>
+		<item>norwegian</item>
+		<item>polish</item>
+		<item>portuguese</item>
+		<item>romanian</item>
+		<item>russian</item>
+		<item>serbian</item>
+		<item>slovak</item>
+		<item>slovenian</item>
+		<item>spanish</item>
+		<item>swedish</item>
+		<item>turkish</item>
+		<item>welsh</item>
+		<item>icelandic</item>
+		<item>icelandic</item>
+		<item>Sami langs</item>
+		<item>تایلندی</item>
+		<item>ویتنامی</item>
+		<item>عربی</item>
+		<item>T. Chinese</item>
+		<item>S. Chinese</item>
+		<item>فارسی</item>
+		<item>کره ای</item>
+		<item>استونیایی</item>
+		<item>مائوری</item>
+		<item>ماندارين </item>
+		<item>کانتونس</item>
+		<item>ژاپنی </item>
+		<item>هندی    </item>
+		<item>Narrative</item>
+		<item>Original Version for France</item>
+		<item>تعریف نشده</item>
+	</string-array>
+
+	<string-array name="nav_bottom_volume">
+		<item>درجه صدای اصلی</item>
+		<item>درجه صدای جلویی سمت چپ</item>
+		<item>درجه صدای جلویی سمت راست</item>
+		<item>درجه صدای عقبی سمت چپ</item>
+		<item>درجه صدای عقبی سمت راست</item>
+		<item>درجه صدای مرکزی</item>
+		<item>صدای زیر کوتاه</item>
+	</string-array>
+
+    <string-array name="nav_zoom_mode">
+		<item>Zoom x 1/2</item>
+		<item>Zoom x 1</item>
+		<item>Zoom x 2</item>
+	</string-array>
+
+	<string-array name="nav_receiver_type">
+		<item>کابل</item>
+		<item>آنتن</item>
+	</string-array>
+	<string-array name="pvr_tshift_initdisk_step1">
+		<item>اتوماتیک، اتوماتیک</item>
+		<item>Manual</item>
+	</string-array>
+	<string-array name="pvr_tshift_initdisk_step_format">
+		<item>Format</item>
+		<item>رد شدن</item>
+	</string-array>
+	<string-array name="pvr_tshift_initdisk_step_formatconfirm">
+		<item>Format</item>
+		<item>کانال</item>
+	</string-array>
+	
+	<string-array name="week_day">
+	    <item>یکشنبه</item>
+		<item>دوشنبه</item>
+		<item>سه شنبه</item>
+		<item>چهارشنبه</item>
+		<item>پنج شنبه</item>
+		<item>جمعه</item>
+		<item>شنبه</item>
+	</string-array>
+    <string-array name="nav_oad_btns_cancel">
+        <item>کانال</item>
+    </string-array>
+    <string-array name="nav_oad_btns_accept_remind_me_later">
+        <item>رد</item>
+        <item>هشدار: لطفا در حین انجام فرآیند، تلویزیون را از برق نکشید زیرا ممکن است باعث بروز صدمه به تلویزیون شود.</item>
+    </string-array>
+    <string-array name="nav_oad_btns_accept_reject">
+        <item>رد</item>
+        <item>بعدا به من یادآوری کن</item>
+    </string-array>
+    
+    <string-array name="nav_oad_btns_yes_no">
+        <item>بله</item>
+        <item>خیر</item>
+    </string-array>
+
+
+
+
+
+	<!--				
+				0:	MSG_STR_ID_EMPTY,						hide screen saver
+     				1:	MSG_STR_ID_NO_SIGNAL,					No Signal!
+     				2:	MSG_STR_ID_SCAN_CH,					Please Scan Channels!
+     				3:	MSG_STR_ID_GETTING_DATA,				Retrieving Data...
+     				4:	MSG_STR_ID_LOCKED_CH,					Channel Locked!
+     				5:	MSG_STR_ID_LOCKED_PROG,				Program Locked!
+     				6:	MSG_STR_ID_LOCKED_INP,					Input Locked!
+     				7:	MSG_STR_ID_NO_EVN_TILE,					(No program title.)
+     				8:	MSG_STR_ID_HIDDEN_CH,					Hidden Channel!
+     				9:	MSG_STR_ID_AUDIO_PROG,					Audio Program
+     				10:	MSG_STR_ID_NO_AUDIO_VIDEO,			No Audio and Video
+     				11:	MSG_STR_ID_NO_EVN_DTIL,				(No program details.)
+     				12:	MSG_STR_ID_NO_CH_DTIL,					(No channel details.)
+     				13:	MSG_STR_ID_NO_AUDIO_STRM,				no audio stream ??
+     				14:	MSG_STR_ID_NO_VIDEO_STRM,				no video stream ??
+     				15:	MSG_STR_ID_PLS_WAIT,					Please Wait...
+     				16:	MSG_STR_ID_VIDEO_NOT_SUPPORT,			video not support ??
+     				17:	MSG_STR_ID_HD_VIDEO_NOT_SUPPORT,		HD Service
+     				18:	MSG_STR_ID_NON_BRDCSTING,				Non-Broadcasting
+     				19:	MSG_STR_ID_NO_CH_IN_LIST,				no channel ??
+     				20:	MSG_STR_ID_TTX_SBTI_X_RATED_BLOCKED,	This content is blocked by your service provider
+     				255:	MSG_STR_ID_LAST_VALID_ENTRY,			only for counting purpose
+    -->
+	<string-array name="nav_twinkle_strings">
+		<item>  </item>
+		<item>سیگنال دریافت نمی شود!</item>
+		<item>لطفا کانال ها را جستجو کنید!</item>
+		<item>بازیابی داده ها...</item>
+		<item>کانال قفل شده است!</item>
+		<item>برنامه قفل شده است!</item>
+		<item>ورودی قفل است!</item>
+		<item>(برنامه عنوان ندارد)</item>
+		<item>مخفی کردن کانال!</item>
+		<item>برنامه صوتی</item>
+		<item>صدا و تصویر دریافت نمی شود</item>
+		<item>(جزئیات برنامه مشخص نیست)</item>
+		<item>(جزئیات کانل مشخص نیست)</item>
+		<item>♪ No Audio Stream ♪</item>
+		<item>No Video Stream</item>
+		<item>لطفا منتظر بمانید...</item>
+		<item>Video not Support</item>
+		<item>خدمات دیسک سخت</item>
+		<item>Non-Broadcasting</item>
+		<item>No Channel</item>
+		<item>This content is blocked by your service provider</item>
+		<item>مخلوط، ترکیب ناهمگن</item>
+	</string-array>
+
+
+	<string-array name="nav_channel_type">
+		<item>All</item>
+		<item>دیجیتال</item>
+		<item>رادیو</item>
+		<item>آنالوگ </item>
+	</string-array>
+
+
+    
+</resources>
+

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mmp_largeview"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="23"
+            android:background="@color/mmp_files_left_bg"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="73"
+            android:background="@color/mmp_files_right_bg"></LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:id="@+id/multimedia_top"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="24"
+            android:baselineAligned="false"
+            android:gravity="center_vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="10.5"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp" >
+
+                <ImageView
+                    android:id="@+id/mmp_list_topimg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/mmp_mode_topicon_folder"
+                    android:paddingLeft="23dp"/>
+
+                <TextView
+                    android:id="@+id/mmp_list_toptv"
+                    style="@style/mmp_listmod_text"
+                    android:textSize="@dimen/mmp_browse_tlt_size"
+                    android:layout_width="300px"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:ellipsize="marquee"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:text="@string/mmp_photo"
+                    android:paddingLeft="15dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:baselineAligned="false"
+                android:gravity="center_vertical" >
+
+                <TextView
+                    android:id="@+id/mmp_list_filepath"
+                    style="@style/mmp_listmod_text"
+                    android:textSize="@dimen/mmp_browse_path_size"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/mmp_mode_topicon_folder"
+                    android:gravity="center_vertical"
+                    android:text="@string/mmp_filepath"  />
+            </LinearLayout>
+        </LinearLayout>
+        <!-- the middle part of the layout -->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="111"
+            android:baselineAligned="false" >
+            <!-- left view -->
+            <LinearLayout
+                android:id="@+id/mmp_listmode_rl"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="3"
+                android:orientation="vertical" >
+                <!-- contentpreview -->
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="33.5dp"
+                    android:layout_marginRight="28dp">
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1">
+
+                        <ImageView
+                            android:id="@+id/mmp_listmode_thumnail"
+                            android:layout_width="169dp"
+                            android:layout_height="169dp"
+                            android:scaleType="centerCrop"
+                            android:visibility="gone" />
+
+                        <TextView
+                            android:id="@+id/mmp_listmode_textshow"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="12dp"
+                            android:ellipsize="end"
+                            android:textSize="@dimen/mmp_menu_dialog_text_size">
+                        </TextView>
+
+                        <com.mediatek.wwtv.mediaplayer.mmp.commonview.MtkVideoView
+                            android:id="@+id/mmp_video_videoview"
+                            android:layout_width="169dp"
+                            android:layout_height="169dp" />
+                    </LinearLayout>
+                    <!-- text file prev -->
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="3" >
+
+                        <TextView
+                            android:id="@+id/mmp_list_detailinfo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dip"
+                            android:paddingRight="5dip"
+                            android:maxLines="5"
+                            android:textSize="@dimen/mmp_menu_dialog_text_size" />
+                    </LinearLayout>
+                </LinearLayout>
+                <!-- musicicon -->
+                <LinearLayout
+                    android:id="@+id/mmp_listmode_musicicon"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="2"
+                    android:gravity="center" >
+
+                    <!--
+                    <com.mediatek.wwtv.mediaplayer.mmp.commonview.MusicPlayInfoView
+                        android:layout_width="fill_parent" android:layout_height="fill_parent"
+                        android:id="@+id/mmp_listmode_music" />
+                    -->
+                </LinearLayout>
+            </LinearLayout>
+            <!-- listview -->
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1" >
+
+                <ListView
+                    android:id="@android:id/list"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_margin="@dimen/mmp_file_list_margin_size"
+                    android:divider="@android:color/transparent"
+                    android:dividerHeight="3dp"
+                    android:fadeScrollbars="false"
+                    android:fadingEdge="none"
+                    android:listSelector="@drawable/mmp_files_item_focus_bg">
+                    <!--        android:scrollbarThumbVertical="@drawable/mmp_listmode_slider_v"
+                           android:scrollbarTrackVertical="@drawable/mmp_munuitem_bg"
+                           android:smoothScrollbar="true" > -->
+                </ListView>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- the layout display at the bottom -->
+
+</FrameLayout>

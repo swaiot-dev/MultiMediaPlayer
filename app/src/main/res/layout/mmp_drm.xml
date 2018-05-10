@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/menu_dialog_background"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/mmp_drm_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/mmp_drm_register"
+            android:textColor="@color/white"
+            android:textSize="@dimen/mmp_login_txt_size" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/mmp_drm_continue_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/mmp_drm_expiredorcontinue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/mmp_login_txt_size" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:baselineAligned="false"
+        android:gravity="center" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/mmp_drm_btn_ok"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/menu_dialog_button"
+                android:focusable="true"
+                android:nextFocusLeft="@+id/mmp_drm_btn_cancel"
+                android:nextFocusRight="@+id/mmp_drm_btn_cancel"
+                android:text="@string/menu_setup_divx_sure"
+                android:textColor="@color/white" >
+            </Button>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/mmp_drm_cancel_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/mmp_drm_btn_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/menu_dialog_button"
+                android:focusable="true"
+                android:nextFocusLeft="@id/mmp_drm_btn_ok"
+                android:nextFocusRight="@id/mmp_drm_btn_ok"
+                android:text="@string/menu_setup_divx_cancel"
+                android:textColor="@color/white" >
+            </Button>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

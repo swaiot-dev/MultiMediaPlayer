@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/mmp_list_layout"
+	android:layout_width="718dp"
+	android:layout_height="85dp"
+	android:gravity="center_vertical">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_margin="15dp">
+		<LinearLayout
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:background="@color/mmp_asycgriditem_color">
+			<ImageView android:src="@drawable/mmp_listmode_icon_folder"
+					   android:layout_width="80dp"
+					   android:layout_height="55dp"
+					   android:id="@+id/mmp_listmode_icon"
+					   android:scaleType="centerCrop">
+			</ImageView>
+		</LinearLayout>
+		<TextView android:id="@+id/mmp_listmode_foldername"
+				  style="@style/mmp_listmode_file"
+				  android:gravity="center_vertical"
+				  android:layout_width="match_parent"
+				  android:layout_height="wrap_content"
+				  android:layout_marginLeft="35dp"
+				  android:layout_gravity="center_vertical"
+				  android:textSize="15sp">
+		</TextView>
+	</LinearLayout>
+
+
+	<!--
+	<RelativeLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+
+		<ImageView 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:layout_alignParentRight="true" 
+			android:layout_marginRight="5dip"
+			android:id="@+id/mmp_listmode_copyicon"
+			>
+		</ImageView>
+	</RelativeLayout> -->
+</FrameLayout>

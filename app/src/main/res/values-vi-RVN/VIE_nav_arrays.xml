@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+	<string-array name="nav_channel_types">
+		<item>All</item>
+		<!--<item>Analog</item>
+		<item>K.thuật số</item>-->
+		<item>Đài</item>
+	</string-array>
+	<!--
+
+		{ "Auto", "Normal", "LetterBox", "Zoom", "Panorama", "Dot by Dot" }
+	-->
+	<!--
+		<string-array name="nav_aspect_strings"> <item>T.động</item>
+		<item>Normal</item> <item>LetterBox</item> <item>Phóng</item>
+		<item>Panorama</item> <item>Từng đ.chấm</item> </string-array>
+	-->
+	<!--
+		"Sleep:Off", "Sleep: 10 Minutes", "Sleep:20 Minutes", "Sleep:30
+		Minutes", "Sleep:40 Minutes", "Sleep:50 Minutes", "Sleep:60 Minutes",
+		"Sleep:90 Minutes", "Sleep:120 Minutes" };
+	-->
+
+	<string-array name="nav_sleep_strings">
+		<item>Sleep:Off</item>
+		<item>Sleep:15 Minutes</item>
+		<item>Sleep:30 Minutes</item>
+		<item>Sleep:45 Minutes</item>
+		<item>Sleep:60 Minutes</item>
+		<item>Sleep:90 Minutes</item>
+		<item>Sleep:120 Minutes</item>
+	</string-array>
+	<string-array name="nav_zoom_strings">
+		<item>zoom X 1</item>
+		<item>zoom X 2</item>
+		<item>zoom X 1/2</item>
+	</string-array>
+	
+	<!-- OFF, Rock, Pop, Live, Dance, Techno, Classic and Soft -->
+	<string-array name="nav_s_effect_strings">
+        <item>Ng. dùng</item>
+		<item>T.chuẩn</item>
+		<item>Live1</item>
+	</string-array>
+
+	<string-array name="nav_freeze_strings">
+		<item>Freeze: On</item>
+		<item>Freeze: Off</item>
+	</string-array>
+	
+	<string-array name="nav_epg_filter_type">
+		<item>PHIM</item>
+		<item>TIN TỨC</item>
+		<item>SHOW</item>
+		<item>T.THAO</item>
+		<item>THIẾU NHI</item>
+		<item>NHẠC</item>
+		<item>N.THUẬT</item>
+		<item>XÃ HỘI</item>
+		<item>GIÁO DỤC</item>
+		<item>THƯ GIÃN</item>
+		<item>ĐẶC BIỆT</item>
+	</string-array>
+	
+	<string-array name="nav_epg_filter_type_AUS">
+		<item>PHIM</item>
+		<item>TIN TỨC</item>
+		<item>GIẢI TRÍ</item>
+		<item>T.THAO</item>
+		<item>THIẾU NHI</item>
+		<item>NHẠC</item>
+		<item>N.THUẬT</item>
+		<item>C.VIỆC HIỆN TẠI</item>
+		<item>GIÁO DỤC</item>
+		<item>T.TIN G.TRÍ</item>
+		<item>ĐẶC BIỆT</item>
+		<item>HÀI</item>
+		<item>KỊCH</item>
+		<item>P. TÀI LIỆU</item>
+	</string-array>
+		
+	<string-array name="nav_epg_filter_type_UK">
+		<item>PHIM</item>
+		<item>TIN TỨC</item>
+		<item>GIẢI TRÍ</item>
+		<item>T.THAO</item>
+		<item>THIẾU NHI</item>
+		<item>GIÁO DỤC</item>
+		<item>PHONG CÁCH SỐNG</item>
+		<item>KỊCH</item>
+	</string-array>
+	
+	<string-array name="nav_epg_filter_sa_type">
+		<item>TIN TỨC</item>
+		<item>T.THAO</item>
+		<item>GIÁO DỤC</item>
+		<item>SOAP_OPERA</item>
+		<item>MINI_SERIES</item>
+		<item>SERIES</item>
+		<item>VARIETY</item>
+		<item>REALITY_SHOW</item>
+		<item>INFOMATION</item>
+		<item>COMICAL</item>
+		<item>CHILDREN</item>
+		<item>EROTIC</item>
+		<item>PHIM</item>
+		<item>RA_TE_SA_PR</item>
+		<item>DEBATE_INTERVIEW</item>
+		<item>OTHER</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_movie">
+		<item>Kịch</item>
+		<item>Thám tử</item>
+		<item>Thám hiểm</item>
+		<item>Phim khoa học</item>
+		<item>Hài</item>
+		<item>Ướt át</item>
+		<item>Lãng mạn</item>
+		<item>Mạo hiểm</item>
+		<item>Phim ng.lớn</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_news">
+		<item>Công việc h.tại</item>
+		<item>D.báo t.tiết</item>
+		<item>Tạp chí t.tức</item>
+		<item>Phim T.liệu</item>
+		<item>Thảo luận</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_news">
+		<item>T.tức</item>
+		<item>Report</item>
+		<item>Phim T.liệu</item>
+		<item>Biography</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_show">
+		<item>Show</item>
+		<item>Game show</item>
+		<item>Show khác</item>
+		<item>Show nói</item>
+	</string-array>
+	
+	<string-array name="nav_epg_subtype_sports">
+		<item>T.thao</item>
+		<item>Sự kiện đ.biệt</item>
+		<item>Tạp chí thể thao</item>
+		<item>Bóng đá</item>
+		<item>Tenis</item>
+		<item>Đội th.thao</item>
+		<item>Điền kinh</item>
+		<item>Đua mô tô</item>
+		<item>T.thao d.nước</item>
+		<item>T.thao m.đông</item>
+		<item>Cưỡi ngựa</item>
+		<item>Võ thuật</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_sports">
+		<item>T.thao</item>
+	</string-array>
+	
+	<string-array name="nav_epg_subtype_children">
+		<item>Thiếu nhi</item>
+		<item>Giành cho trẻ mầm non</item>
+		<item>G.trí cho lứa tuổi 6 ~14</item>
+		<item>G.trí cho lứa tuổi 10~16</item>
+		<item>Thông tin</item>
+		<item>Hoạt hình</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_music">
+		<item>Nhạc</item>
+		<item>Rock</item>
+		<item>Mạo hiểm</item>
+		<item>D.tộc</item>
+		<item>Jazz</item>
+		<item>Âm nhạc</item>
+		<item>Ballet</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_arts">
+		<item>N.thuật</item>
+		<item>C.trình n.thuật</item>
+		<item>Mỹ thuật</item>
+		<item>Tôn giáo</item>
+		<item>V.hóa phổ biến</item>
+		<item>Văn học</item>
+		<item>Phim</item>
+		<item>Kinh nghiệm</item>
+		<item>Phát thanh</item>
+		<item>Tin tức</item>
+		<item>T.chí ng.thuật</item>
+		<item>T.trang</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_social">
+		<item>X.hội</item>
+		<item>Tạp chí</item>
+		<item>Kinh tế</item>
+		<item>Người xuất sắc</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_education">
+		<item>Gáo dục</item>
+		<item>T.nhiên</item>
+		<item>Công nghệ</item>
+		<item>Y học</item>
+		<item>Nước ngoài</item>
+		<item>Khoa học xã hội</item>
+		<item>Giáo dục nâng cao</item>
+		<item>Ngôn ngữ</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_education">
+		<item>Educative</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_soap_opera">
+		<item>Soap opera</item>
+	</string-array>
+	
+	<string-array name="nav_epg_subtype_sa_mini_series">
+		<item>Mini-series</item>
+	</string-array>
+	
+	<string-array name="nav_epg_subtype_sa_series">
+		<item>P.t.hình</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_variety">
+		<item>Auditorium</item>
+		<item>Show</item>
+		<item>Âm nhạc</item>
+		<item>Making of</item>
+		<item>Feminine</item>
+		<item>Game show</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_reality_show">
+		<item>Reality show</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_information">
+		<item>Nấu ăn</item>
+		<item>T.trang</item>
+		<item>Nước</item>
+		<item>Health</item>
+		<item>Travel</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_comical">
+		<item>Comical</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_children">
+		<item>Children</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_erotic">
+		<item>Erotic</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_movie">
+		<item>Phim</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_RA_TE_SA_PR">
+		<item>Raffle</item>
+		<item>Television sales</item>
+		<item>Prizing</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_DEBATE_INTERVIEW">
+		<item>Thảo luận</item>
+		<item>Interview</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_other">
+		<item>Adult cartoon</item>
+		<item>Interactive</item>
+		<item>Policy</item>
+		<item>Tôn giáo</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_leisure">
+		<item>S.thích th.giãn</item>
+		<item>Du lịch</item>
+		<item>Thủ công</item>
+		<item>Mô tô</item>
+		<item>Thể hình và s.khỏe</item>
+		<item>Nấu ăn</item>
+		<item>Quảng cáo</item>
+		<item>Làm vườn</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_special">
+		<item>Ngôn ngữ gốc</item>
+		<item>Đen và trắng</item>
+		<item>Chưa p.hành</item>
+		<item>T.hình t.iếp</item>
+	</string-array>
+
+
+	<!-- MTS -->
+	<string-array name="nav_mts_strings">
+		<item>UNKNOW</item>
+		<item>MONO</item>
+		<item>STEREO</item>
+		<item>SUB_LANG</item>
+		<item>DUAL1</item>
+		<item>DUAL2</item>
+		<item>NICAM_MONO</item>
+		<item>NICAM_STEREO</item>
+		<item>NICAM_DUAL1</item>
+		<item>NICAM_DUAL2</item>
+		<item>FM_MONO</item>
+		<item>FM_STEREO</item>
+	</string-array>
+
+	<!-- AUDIO_TVCM -->
+	<string-array name="nav_audio_tvcm_strings">
+		<item>baq</item>
+		<item>eus</item>
+		<item>bul</item>
+		<item>cat</item>
+		<item>scr</item>
+		<item>cze</item>
+		<item>dan</item>
+		<item>dut</item>
+		<item>eng</item>
+		<item>fin</item>
+		<item>fre</item>
+		<item>gla</item>
+		<item>gdh</item>
+		<item>gle</item>
+		<item>glg</item>
+		<item>ger</item>
+		<item>gre</item>
+		<item>hun</item>
+		<item>ita</item>
+		<item>nor</item>
+		<item>pol</item>
+		<item>por</item>
+		<item>rum</item>
+		<item>rus</item>
+		<item>scc</item>
+		<item>slo</item>
+		<item>slv</item>
+		<item>spa</item>
+		<item>swe</item>
+		<item>tur</item>
+		<item>wel</item>
+		<item>ice</item>
+		<item>isl</item>
+		<item>smi</item>
+		<item>tha</item>
+		<item>vie</item>
+		<item>ara</item>
+		<item>zho</item>
+		<item>chi</item>
+		<item>per</item>
+		<item>kor</item>
+		<item>est</item>
+		<item>mao</item>
+		<item>cmn</item>
+		<item>yue</item>
+		<item>jpn</item>
+		<item>hin</item>
+		<item>nar</item>
+		<item>qaa</item>
+		<item>und</item>
+	</string-array>
+
+	<!-- AUDIO -->
+	<string-array name="nav_audio_strings">
+		<item>Baxcơ</item>
+		<item>Baxcơ</item>
+		<item>Bulaarian</item>
+		<item>catalan</item>
+		<item>Croatia</item>
+		<item>Séc</item>
+		<item>Đ.Mạch</item>
+		<item>H.Lan</item>
+		<item>Anh Quốc</item>
+		<item>Ph.Lan</item>
+		<item>french</item>
+		<item>gaelic</item>
+		<item>gaelic</item>
+		<item>Irish</item>
+		<item>gallegan</item>
+		<item>german</item>
+		<item>greek</item>
+		<item>hungarian</item>
+		<item>italian</item>
+		<item>norwegian</item>
+		<item>polish</item>
+		<item>portuguese</item>
+		<item>romanian</item>
+		<item>russian</item>
+		<item>serbian</item>
+		<item>slovak</item>
+		<item>slovenian</item>
+		<item>spanish</item>
+		<item>swedish</item>
+		<item>turkish</item>
+		<item>welsh</item>
+		<item>icelandic</item>
+		<item>icelandic</item>
+		<item>Sami langs</item>
+		<item>Thái</item>
+		<item>Việt Nam</item>
+		<item>A-Rập</item>
+		<item>T. Chinese</item>
+		<item>S. Chinese</item>
+		<item>Ba Tư</item>
+		<item>H.Quốc</item>
+		<item>T.Estonia</item>
+		<item>Maori</item>
+		<item>Tiếng phổ thông </item>
+		<item>Tiếng Quảng Đông</item>
+		<item>Tiếng Nhật </item>
+		<item>Tiếng Hin-đi    </item>
+		<item>Narrative</item>
+		<item>Original Version for France</item>
+		<item>Ko X.định</item>
+	</string-array>
+
+	<string-array name="nav_bottom_volume">
+		<item>Â.lượng loa chính</item>
+		<item>Â.lượng loa trái trước</item>
+		<item>Â.lượng loa phải trước</item>
+		<item>Â.lượng loa trái sau</item>
+		<item>Â.lượng loa trái trước</item>
+		<item>Â.lượng loa giữa</item>
+		<item>Â.lượng loa trầm phụ</item>
+	</string-array>
+
+    <string-array name="nav_zoom_mode">
+		<item>Zoom x 1/2</item>
+		<item>Zoom x 1</item>
+		<item>Zoom x 2</item>
+	</string-array>
+
+	<string-array name="nav_receiver_type">
+		<item>Cáp</item>
+		<item>Ăng ten</item>
+	</string-array>
+	<string-array name="pvr_tshift_initdisk_step1">
+		<item>T.động</item>
+		<item>Manual</item>
+	</string-array>
+	<string-array name="pvr_tshift_initdisk_step_format">
+		<item>Format</item>
+		<item>Bỏ qua</item>
+	</string-array>
+	<string-array name="pvr_tshift_initdisk_step_formatconfirm">
+		<item>Format</item>
+		<item>Hủy</item>
+	</string-array>
+	
+	<string-array name="week_day">
+	    <item>C.Nhật</item>
+		<item>Thứ 2</item>
+		<item>Thứ 3</item>
+		<item>Thứ 4</item>
+		<item>Thứ 5</item>
+		<item>Thứ 6</item>
+		<item>Thứ 7</item>
+	</string-array>
+    <string-array name="nav_oad_btns_cancel">
+        <item>Hủy</item>
+    </string-array>
+    <string-array name="nav_oad_btns_accept_remind_me_later">
+        <item>C.nhận</item>
+        <item>Nhắc lại sau</item>
+    </string-array>
+    <string-array name="nav_oad_btns_accept_reject">
+        <item>C.nhận</item>
+        <item>T.chối</item>
+    </string-array>
+    
+    <string-array name="nav_oad_btns_yes_no">
+        <item>Có</item>
+        <item>Ko</item>
+    </string-array>
+
+
+
+
+
+	<!--				
+				0:	MSG_STR_ID_EMPTY,						hide screen saver
+     				1:	MSG_STR_ID_NO_SIGNAL,					No Signal!
+     				2:	MSG_STR_ID_SCAN_CH,					Please Scan Channels!
+     				3:	MSG_STR_ID_GETTING_DATA,				Retrieving Data...
+     				4:	MSG_STR_ID_LOCKED_CH,					Channel Locked!
+     				5:	MSG_STR_ID_LOCKED_PROG,				Program Locked!
+     				6:	MSG_STR_ID_LOCKED_INP,					Input Locked!
+     				7:	MSG_STR_ID_NO_EVN_TILE,					(No program title.)
+     				8:	MSG_STR_ID_HIDDEN_CH,					Hidden Channel!
+     				9:	MSG_STR_ID_AUDIO_PROG,					Audio Program
+     				10:	MSG_STR_ID_NO_AUDIO_VIDEO,			No Audio and Video
+     				11:	MSG_STR_ID_NO_EVN_DTIL,				(No program details.)
+     				12:	MSG_STR_ID_NO_CH_DTIL,					(No channel details.)
+     				13:	MSG_STR_ID_NO_AUDIO_STRM,				no audio stream ??
+     				14:	MSG_STR_ID_NO_VIDEO_STRM,				no video stream ??
+     				15:	MSG_STR_ID_PLS_WAIT,					Please Wait...
+     				16:	MSG_STR_ID_VIDEO_NOT_SUPPORT,			video not support ??
+     				17:	MSG_STR_ID_HD_VIDEO_NOT_SUPPORT,		HD Service
+     				18:	MSG_STR_ID_NON_BRDCSTING,				Non-Broadcasting
+     				19:	MSG_STR_ID_NO_CH_IN_LIST,				no channel ??
+     				20:	MSG_STR_ID_TTX_SBTI_X_RATED_BLOCKED,	This content is blocked by your service provider
+     				255:	MSG_STR_ID_LAST_VALID_ENTRY,			only for counting purpose
+    -->
+	<string-array name="nav_twinkle_strings">
+		<item>  </item>
+		<item>Ko t.hiệu!</item>
+		<item>Hãy dò chương trình</item>
+		<item>Truy xuất d.liệu...</item>
+		<item>Kênh bị khóa!</item>
+		<item>C.trình bị khóa!</item>
+		<item>M.nhập bị khóa!</item>
+		<item>(Ko t.đề c.trình.)</item>
+		<item>kênh ẩn!</item>
+		<item>C.trình â.thanh</item>
+		<item>Ko Audio và Video</item>
+		<item>(Ko c.tiết c.trình.)</item>
+		<item>(Ko có c.tiết kênh.)</item>
+		<item>♪ No Audio Stream ♪</item>
+		<item>No Video Stream</item>
+		<item>Hãy đợi...</item>
+		<item>Video not Support</item>
+		<item>Dịch vụ HD</item>
+		<item>Non-Broadcasting</item>
+		<item>No Channel</item>
+		<item>This content is blocked by your service provider</item>
+		<item>Đổi t.số</item>
+	</string-array>
+
+
+	<string-array name="nav_channel_type">
+		<item>All</item>
+		<item>K.thuật số</item>
+		<item>Đài</item>
+		<item>Analog</item>
+	</string-array>
+
+
+    
+</resources>
+

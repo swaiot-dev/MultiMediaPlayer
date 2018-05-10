@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			 android:layout_width="match_parent"
+			 android:layout_height="match_parent"
+			 android:background="@color/text_play_background"
+			 android:id="@+id/mmp_text">
+	<com.mediatek.wwtv.mediaplayer.mmp.commonview.TextReader
+		android:id="@+id/mmp_text_show"
+		android:layout_width="@dimen/PX1676_IN1080P"
+		android:layout_height="@dimen/PX881_IN1080P"
+		android:layout_marginLeft="@dimen/PX123_IN1080P"
+		android:layout_marginTop="@dimen/PX103_IN1080P"
+		android:textSize="19sp">
+	</com.mediatek.wwtv.mediaplayer.mmp.commonview.TextReader>
+
+	<!--<ImageView
+		android:id="@+id/mmp_text_play_mask"
+		android:src="@drawable/text_play_mask"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="@dimen/PX861_IN1080P"/> -->
+</FrameLayout>

@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<!-- parameter configuration module Navigation bar -->
+	<string name="menu_interface_name">Meniu </string>
+	<string name="menu_show_menu_item">Video</string>
+	<string name="menu_tab_video">Video</string>
+	<string name="menu_tab_audio">Audio</string>
+	<string name="menu_tab_tv">TV</string>
+	<string name="menu_tab_setup">Setare</string>
+	<string name="menu_tab_parent">Parental</string>
+
+	<!-- parameter configuration module function prompt-->
+	<string name="menu_enter">Intrare</string>
+	<string name="menu_select">Izberi</string>
+	<string name="menu_exit">Izhod</string>
+	<string name="menu_adjust">Ajustare</string>
+	<string name="menu_back">Înapoi</string>
+	<string name="menu_set">Set</string>
+	<string name="menu_ok">V redu</string>
+	<string name="menu_cancel">Prekliči</string>
+	<string name="menu_ci_close">Închide CI</string>
+	<string name="menu_scan">Scanare</string>
+
+	<!-- the parameter of Video,item display interface strings to be defined -->
+	<string name="menu_video_picture_mode">Mod imagine</string>
+	<string name="menu_video_backlight">Lumină de fundal</string>
+	<string name="menu_video_brighttness">Luminozitate</string>
+	<string name="menu_video_contrast">Contrast</string>
+	<string name="menu_video_saturation">Saturaţie</string>
+	<string name="menu_video_hue">Tentă/ Nuanţă</string>
+	<string name="menu_video_sharpness">Claritate</string>
+	<string name="menu_video_gamma">Gamma</string>
+	<string name="menu_video_color_temperature">Temperatura culorii</string>
+	<string name="menu_video_color_g_red">Accentuare Roşu</string>
+	<string name="menu_video_color_g_green">Accent Galben</string>
+	<string name="menu_video_color_g_blue">Accentuare Albastru</string>
+	<string name="menu_video_advancedvideo">Video avansat</string>
+	<string name="menu_video_3d">3D</string>
+	<string name="menu_video_3d_mode">3D Mode</string>
+	<string name="menu_video_3d_nav">3D Navigation</string>
+	<string name="menu_video_3d_3t2">3D-to-2D</string>
+	<string name="menu_video_3d_depth_field">Depth of Field</string>
+	<string name="menu_video_3d_protrude">Protrude</string>
+	<string name="menu_video_3d_distance">Distance to TV</string>
+	<string name="menu_video_3d_image_safety">Image Safety</string>
+	<string name="menu_video_3d_leftright">L-R Switch</string>
+	<string name="menu_video_3d_osd">OSD Depth</string>
+	<string name="menu_video_3d_wear_glass">Please Wear 3D Glasses!</string>
+	<string name="menu_video_vga_mode">Mod VGA</string>
+	<string name="menu_video_dnr">DNR</string>
+	<string name="menu_video_mpeg_nr">MPEG NR</string>
+	<string name="menu_video_luma">Ctrl Luma adaptabil</string>
+	<string name="menu_video_flesh_tone">Nuanţa pielii</string>
+	<string name="menu_video_di_film_mode">DI Mod Film</string>
+	<string name="menu_video_blue_stretch">Întindere Albastru</string>
+	<string name="menu_video_wme_mode">Mod Joc</string>
+	<string name="menu_video_pq_split_mode">Demo scindare ecran PQ</string>
+	<string name="menu_video_mjc">MJC</string>
+	<string name="menu_video_mjc_effect">Efect</string>
+	<string name="menu_video_mjc_demo_partition">Partiţie demo</string>
+	<string name="menu_video_mjc_mode">Mod</string>
+	<string name="menu_video_mjc_demo">Demo</string>
+	<string name="menu_video_hdmi_mode">Mod HDMI</string>
+	<string name="menu_video_vga">VGA</string>
+	<string name="menu_video_auto_adjust">Va rugăm aşteptaţi</string>
+	<string name="menu_video_hposition">Poziţie H</string>
+	<string name="menu_video_vposition">Poziţie V</string>
+	<string name="menu_video_phase">Fază</string>
+	<string name="menu_video_clock">Ceas</string>
+	<string name="menu_video_3d_leftright_str">Left/Right</string>
+	<string name="menu_video_3d_updown_str">UP/Down</string>
+	<string name="menu_video_mjc_demo_off">Off</string>
+	<string name="menu_video_mjc_demo_on">On</string>
+	<string name="menu_video_black_bar">Black Bar Detection</string>
+	<string name="menu_video_super_resolution">Super Resolution</string>
+	<!-- the parameter of Audio,item display interface strings to be defined -->
+	<string name="menu_audio_balance">Balanţă</string>
+	<string name="menu_audio_bass">Bas</string>
+	<string name="menu_audio_treble">Ascuţit </string>
+	<string name="menu_audio_srs_mode">Sound Surround</string>
+	<string name="menu_audio_equalize">Egalizator</string>
+	<string name="menu_audio_speaker_mode">Difuzor</string>
+	<string name="menu_audio_spdif_mode">Tip SPDIF </string>
+	<string name="menu_audio_spdif_delay">Decalare SPDIF</string>
+	<string name="menu_audio_avc_mode">Volum control auto</string>
+	<string name="menu_audio_type">Tip</string>
+	<string name="menu_audio_visually_impaired">Imagine neclară</string>
+	<string name="menu_audio_visually_speaker">Difuzor</string>
+	<string name="menu_audio_visually_headphone">Căşti</string>
+	<string name="menu_audio_visually_volume">Volum</string>
+	<string name="menu_audio_visually_pan_and_fade">Pan and Fade</string>
+	<string name="menu_audio_visually_impaired_audio">Visually Impaired Audio</string>
+    <string name="menu_audio_downmix_mode">Downmix Mode</string>
+    <string name="menu_audio_sound_tracks">Soundtracks</string>
+	<!-- the parameter of TV item display interface strings to be defined-->
+	<string name="menu_tv_tuner_mode">Mod tuner</string>
+	<string name="menu_tv_country_region_id">Cod regiune</string>
+	<string name="menu_tv_mts">Canal audio</string>
+	<string name="menu_tv_mts_us">MTS</string>
+	<string name="menu_tv_audio_language">Limbă audio</string>
+	<string name="menu_tv_audio_language2nd">Limbă audio 2</string>
+	<string name="menu_tv_channels">Channels</string>
+	<string name="menu_tv_channel_scan">Scanare canal</string>
+	<string name="menu_tv_tv_system">Sistem TV</string>
+	<string name="menu_tv_color_system">Sistem culoare</string>
+	<string name="menu_tv_update_scan">Actualiz. scanare</string>
+	<string name="menu_tv_analog_manual_scan">Scan manual analog</string>
+	<string name="menu_tv_single_rf_scan">Scanare RF unică</string>
+	<string name="menu_tv_channel_edit">Editare canal</string>
+	<string name="menu_tv_channel_skip">Ignoră canal</string>
+	<string name="menu_tv_channel_setup">Channel Setup</string>
+	<string name="menu_tv_clear_channel_list">Clear Channel List</string>
+	<string name="menu_tv_freeze_channel">Freeze Channel</string>
+	<string name="menu_tv_status">Status</string>
+	<string name="menu_tv_status_value">Se scan.</string>
+	<string name="menu_tv_analog_channels">Analog Channels</string>
+	<string name="menu_tv_digital_channels">Digital  Channels</string>
+	<string name="menu_tv_start_frequency">Start Frequency(MHz)</string>
+	<string name="menu_tv_end_frequency">End Frequency(MHz)</string>
+	<string name="menu_tv_rf_scan_frequency">Scan Frequency(MHz)</string>
+	<string name="menu_tv_rf_scan_mode">QAM Style</string>
+	<string name="menu_tv_rf_sym_rate">Symbolrate</string>
+	<string name="menu_tv_rf_signal_level">Signal Level: </string>
+	<string name="menu_tv_sigle_frequency_plan">Frequency Plan </string>
+	<string name="menu_tv_sigle_modulation">Modulaţie</string>
+	
+	<string name="menu_tv_sigle_scan_mode">Scan Mode</string>
+	<string name="menu_tv_sigle_from_channel">De la canalul</string>
+	<string name="menu_tv_sigle_to_channcel">La canalul</string>
+	
+	<string name="menu_tv_insert">Introducere</string>
+	<string name="menu_tv_delete">Ștergere</string>
+	<string name="menu_tv_swap">Schimbare</string>
+	<string name="menu_tv_number">Num.</string>
+	<string name="menu_tv_type">Tip</string>
+	<string name="menu_tv_frequency">Frecv.</string>
+	<string name="menu_tv_system">Sistem</string>
+	<string name="menu_tv_name">Denumire</string>
+	<string name="menu_tv_skip">Ignorare</string>
+	<string name="menu_tv_scann_allchannels">Scanează toate canalele</string>
+
+	<!-- DTMB Single RF Channel -->
+	<string name="menu_tv_single_rf_channel">Canal RF</string>
+	<string name="menu_tv_single_signal_level">Signal Level</string>
+    <string name="menu_tv_single_signal_quality">Signal Quality</string>
+	<!-- channel edit-->
+	<string name="menu_tv_channel_tsname">TS Name :</string>
+	<string name="menu_tv_channel_no">Channel Number :</string>
+	<string name="menu_tv_channel_name">Channel Name :</string>
+	<string name="menu_tv_network_name">NetWork Name :</string>
+	<string name="menu_tv_freq">Frequency ： </string>
+	<string name="menu_tv_sound_system">Sound system</string>
+	<string name="menu_tv_auto_finetune">AFT</string>
+	<string name="menu_tv_finetune">Reglaj de finețe</string>
+	<string name="menu_tv_enter">Intrare</string>
+    <string name="menu_tv_exit">Izhod</string>
+    <string name="menu_tv_store">Stocare</string>
+	<string name="menu_tv_clear_channel_info">Sunteţi sigur?</string>
+	<string name="menu_dialog_confirm">V redu</string>
+	<string name="menu_dialog_cancel">Prekliči</string>
+	<string name="menu_dialog_numrepeat">Număr canal duplicat!</string>
+    <string name="menu_tv_channelfine_tune">Cautare canale analoge </string>
+	<!-- the parameter of Setup,item display interface strings to be defined -->
+	<!-- first level -->
+	<string name="menu_setup_language">Limbă OSD</string>
+	<string name="menu_setup_screenmode">Mod ecran</string>
+	<string name="menu_setup_dpms">DPMS</string>
+	<string name="menu_setup_bluemute">Închidere ecran</string>
+	<string name="menu_setup_ginga_setup">Ginga Setup</string>
+	<string name="menu_setup_divx_reg_setup">Înregistrare DivX(R)</string>
+	<string name="menu_setup_divx_deac_setup">Dezactivare DivX(R)</string>
+	<string name="menu_setup_scart_setup">SCART</string>
+	<string name="menu_setup_scart1_setup">SCART</string>
+	<string name="menu_setup_caption_setup">Caption Setup</string>
+	<string name="menu_setup_fastboot">Hot Boot</string>
+	<string name="menu_setup_poweron_music">Pornire Muzică</string>
+	<string name="menu_setup_poweroff_music">Oprire Muzică</string>
+	<string name="menu_setup_capturelogo_select">Selectare captură logo</string>
+	<string name="menu_setup_time_setup">Setare timp</string>
+	<string name="menu_setup_teletext">Teletext</string>
+	<string name="menu_setup_subtitle">Subtitrare</string>
+	<string name="menu_setup_analog_subtitle">Subtitrare analogă</string>
+	<string name="menu_setup_digital_subtitle_lang">Digital Subtitle Lang.</string>
+	<string name="menu_setup_digital_subtitle_lang_2nd">Limbă subtitrare digitală 2</string>
+	<string name="menu_setup_subtitle_type">Tip subtitrare</string>
+	<string name="menu_setup_network">Network</string>
+	<string name="menu_setup_version_info">Info. versiune</string>
+	<string name="menu_setup_msi">MSI</string>
+	<string name="menu_setup_reset_default">Resetare standard</string>
+	<string name="menu_setup_common_interface">Interfaţă comună</string>
+	<string name="menu_setup_record_setting">Record Setting</string>
+	<string name="menu_setup_oad_setting">OAD </string>
+	<string name="menu_setup_atv_record_mode">ATV Record Mode</string>
+	<string name="menu_setup_device_info">Device Info</string>
+	<string name="menu_setup_time_shifting_mode">Mod decalaj orar</string>
+	<string name="menu_setup_record_quality">Record Quality</string>
+		<!-- CECFUN-->
+	<string name="menu_setup_cec_function">CEC Function</string>
+	<string name="menu_setup_cec_auto_turn">Auto Turn Off</string>
+	<string name="menu_setup_cec_device_discovery">Identificare dispozitiv</string>
+	<string name="menu_setup_cec_standby">Standby</string>
+	<string name="menu_setup_cec_poweron">Pornire</string>
+	<string name="menu_setup_cec_enablesys">Enable Sys. Aud. Ctrl</string>
+	<string name="menu_setup_cec_disablesys">Disable Sys. Aud. Ctrl</string>
+	<string name="menu_setup_cec_noresponese">Dispozitive nici un răspuns</string>
+	
+	<!-- CI -->
+	<string name="menu_setup_ci_no_card">Lipseşte cardul CI.</string>
+
+	<!-- second level -->
+	<string name="menu_setup_timezone">Zonă orară</string>
+	<string name="menu_setup_time">Ora</string>
+	<string name="menu_setup_sleep_timer">Timp hibernare </string>
+	<string name="menu_setup_auto_sleep">Hibernare automată</string>
+	<string name="menu_setup_configuration">Configurare</string>
+	<string name="menu_setup_auto_network_upgrade">Network Upgrade</string>
+	<string name="menu_setup_application">Applications</string>
+	<string name="menu_setup_version_name">TurnKey</string>
+	<string name="menu_setup_version_ver">1.0</string>
+	<string name="menu_setup_version_number">0001</string>
+	<string name="menu_setup_ginga_enable">Ginga Enable</string>
+	<string name="menu_setup_ginga_auto_start_app">Auto Start Application</string>
+	
+	<string name="menu_setup_caption_enable">Enable Caption</string>
+	<string name="menu_setup_analog_closed_caption">Analog Closed Caption</string>
+	<string name="menu_setup_digital_caption">Digital Closed Caption</string>
+	<string name="menu_setup_digital_style">Digital Caption Style</string>
+	<string name="menu_setup_superimpose_setup">Superimpose Setup</string>
+	
+	<string name="menu_setup_caption_style">Caption Style</string>
+	<string name="menu_setup_font_size">Font Size</string>
+	<string name="menu_setup_font_style">Font Style</string>
+	<string name="menu_setup_font_color">Font Color</string>
+	<string name="menu_setup_font_opacity">Font Opacity</string>
+	<string name="menu_setup_background_color">Background Color</string>
+	<string name="menu_setup_background_opacity">Background Opacity</string>
+	<string name="menu_setup_window_color">Window Color</string>
+	<string name="menu_setup_window_opacity">Window Opacity</string>
+	
+	<string name="menu_setup_digital_teletext_language">Digital TeleText Language</string>
+	<string name="menu_setup_decoding_page_language">Decodare limbă pagină</string>
+	<string name="menu_setup_ttx_presentation_level">Nivel prezentare TTX</string>
+	<!-- third level -->
+	<string name="menu_setup_auto_synchronization">Autosincronizare</string>
+	<string name="menu_setup_date">Dată</string>
+	<string name="menu_setup_power_on_timer">Programare pornire</string>
+	<string name="menu_setup_timer">Cronometru</string>
+	<string name="menu_setup_power_on_channel">Pornire canal</string>
+	<string name="menu_setup_power_off_timer">Programare oprire</string>
+	<string name="menu_setup_internet_connection">Conexiune Internet</string>
+	<string name="menu_setup_wireless_setting">Wireless Setting</string>
+	<string name="menu_setup_information">Informaţii</string>
+	<string name="menu_setup_ip_setting">Setare IP</string>
+	<string name="menu_setup_connection_test">Test conexiune</string>
+	<string name="menu_setup_interface">Interfaţă</string>
+	<string name="menu_setup_dlna">DLNA</string>
+	<string name="menu_setup_my_net_place">My Network Places</string>
+
+	<!-- forth level -->
+	<string name="menu_setup_power_on_channel_mode">Selectare mod canal</string>
+	<string name="menu_setup_power_on_no_channel">(Nu există canal)</string>
+	<string name="menu_setup_address_type">Tip adresă</string>
+	<string name="menu_setup_ip_address">Adresă IP</string>
+	<string name="menu_setup_subnetwork_mask">Mască subreţ.</string>
+	<string name="menu_setup_default_gateway">Gateway implicit</string>
+	<string name="menu_setup_first_dns">DNS principal</string>
+	<string name="menu_setup_standby_dns">DNS secundar</string>
+	<string name="menu_setup_ethernet_mac">Ethernet MAC</string>
+	
+	<!-- wifi setting -->
+	<string name="wifi_setup_title">Wireless Setting</string>
+
+	
+	
+	<!-- pop-up dialog or window  -->
+	<string name="menu_setup_connetion_info1">Începeţi testarea conexiunii la reţea.</string>
+	<string name="menu_setup_connetion_info2">Testul de conectare la reţea a reuşit!</string>
+	<string name="menu_setup_connetion_info3">Testul de conectare la reţea a eşuat!</string>
+	<string name="menu_setup_connetion_wait">please wait</string>
+	<string name="menu_setup_upgrade_info1">Start to download new firmware from server.</string>
+	<string name="menu_setup_upgrade_info2_title">Actualizare Expert</string>
+	<string name="menu_setup_upgrade_info2">Check new firmware failed.</string>
+	<string name="menu_setup_reset_info1">Sunteţi sigur?</string>
+
+	<!-- part of factory -->
+	<string name="menu_factory_name">Fabrică</string>
+	<string name="menu_factory_video">Video</string>
+	<string name="menu_factory_audio">Audio</string>
+	<string name="menu_factory_TV">TV</string>
+	<string name="menu_factory_setup">Setare</string>
+	<string name="menu_factory_preset">Presetare Canal</string>
+	<!-- part of factory_video -->
+	<string name="menu_factory_video_auto_color">Culoare automată</string>
+	<string name="menu_factory_video_color_temperature">Temperatura culorii</string>
+	<string name="menu_factory_video_auto_phase">Fază auto</string>
+	<string name="menu_factory_video_phase">Fază</string>
+	<string name="menu_factory_video_h_position">Poziţie H</string>
+	<string name="menu_factory_video_v_position">Poziţie V</string>
+	<string name="menu_factory_video_di_ma">DI MA</string>
+	<string name="menu_factory_video_di_edge">DI Margine</string>
+	<string name="menu_factory_video_wcg">WCG</string>
+	<string name="menu_factory_video_flip">Răs</string>
+	<string name="menu_factory_video_mirror">Oglindă</string>
+	<string name="menu_factory_video_local_dimming">Reducere locală a luminii</string>
+	<!--factory_video_color_temperature  -->
+	<string name="menu_factory_video_color_rgain">Accentuare Roşu</string>
+	<string name="menu_factory_video_color_ggain">Accent Galben</string>
+	<string name="menu_factory_video_color_bgain">Accentuare Albastru</string>
+	<string name="menu_factory_video_color_roffset">Scoate Roşu</string>
+	<string name="menu_factory_video_color_goffset">Scoate Galben</string>
+	<string name="menu_factory_video_color_boffset">Scoate Albastru</string>
+	
+	<!-- part of factory_audio -->
+	<string name="menu_factory_audio_dolby_banner">Banner Dolby</string>
+	<string name="menu_factory_audio_compression">Compresie </string>
+	<string name="menu_factory_audio_compression_factor">Factor de compresie</string>
+	<string name="menu_factory_audio_mts_system">Sistem MTS</string>
+	<string name="menu_factory_audio_a2_system">Sistem A2 </string>
+	<string name="menu_factory_audio_pal_system">Sistem PAL </string>
+	<string name="menu_factory_audio_eu_system">Sistem EU </string>
+	<string name="menu_factory_audio_latency">Potenţialitate</string>
+	<!-- part of factory_audio_mts_system -->
+	<string name="menu_factory_audio_mts_numbersofcheck">Numbers Of Check</string>
+	<string name="menu_factory_audio_mts_numbersofpilot">Numbers Of Pilot</string>
+	<string name="menu_factory_audio_mts_pilot_threshold_high">Pilot Threshold High</string>
+	<string name="menu_factory_audio_mts_pilot_threshold_low">Pilot Threshold Low</string>
+	<string name="menu_factory_audio_mts_number_of_sap">Numbers of SAP</string>
+	<string name="menu_factory_audio_mts_sap_threshold_high">SAP Threshold High</string>
+	<string name="menu_factory_audio_mts_sap_threshold_low">SAP Threshold Low</string>
+	<string name="menu_factory_audio_mts_high_deviation_mode">High Deviation Mode</string>
+	<string name="menu_factory_audio_mts_carriershiftfunction">Carrier Shift Function</string>
+	<string name="menu_factory_audio_mts_fmstaurationmute">FM Stauration Mute</string>
+	<string name="menu_factory_audio_mts_fmcarriermutemode">FM Carrier Mute Mode</string>
+	<string name="menu_factory_audio_mts_fmcarriermutethreshold_high">FM Carrier Mute Threshold High</string>
+	<string name="menu_factory_audio_mts_fmcarriermutethreshold_low">FM Carrier Mute Threshold Low</string>
+	<string name="menu_factory_audio_mts_mono_stero_finetunevolume">Mono Stero Fine Tune Volume</string>
+	<string name="menu_factory_audio_mts_sap_finetunevolume">SAP Fine Tune Volume</string>
+	<!-- part of factory_audio_a2_system -->
+	<string name="menu_factory_audio_a2_numbersofcheck">Numbers Of Check</string>
+	<string name="menu_factory_audio_a2_numbersofdouble">Numbers Of Double</string>
+	<string name="menu_factory_audio_a2_monoweight">Mono Weight</string>
+	<string name="menu_factory_audio_a2_stereoweight">Stereo Weight</string>
+	<string name="menu_factory_audio_a2_dualweight">Dual Weight</string>
+	<string name="menu_factory_audio_a2_highdeviationmode">High Deviation Mode</string>
+	<string name="menu_factory_audio_a2_carriershiftfunction">Carrier Shift Function</string>
+	<string name="menu_factory_audio_a2_fmcarriermutemode">FM Carrier Mute Mode</string>
+	<string name="menu_factory_audio_a2_fmcarriermutethreshold_high">FM Carrier Mute Threshold High</string>
+	<string name="menu_factory_audio_a2_fmcarriermutethreshold_low">FM Carrier Mute Threshold Low</string>
+	<string name="menu_factory_audio_a2_finetunevolume">Fine Tune Volume</string>
+	
+	<!-- part of factory_audio_pal_system -->
+	<string name="menu_factory_audio_pal_correctthreshold">Correct Threshold</string>
+	<string name="menu_factory_audio_pal_totalsyncloop">Total Sync Loop</string>
+	<string name="menu_factory_audio_pal_errorthreshold">Error Threshold</string>
+	<string name="menu_factory_audio_pal_parityerrorthreshold">Parity Error Threshold</string>
+	<string name="menu_factory_audio_pal_everynumberframes">Every Number Frames</string>
+	<string name="menu_factory_audio_pal_highdeviationmode">High Deviation Mode</string>
+	<string name="menu_factory_audio_pal_amcarriermutemode">AM Carrier Mute Mode</string>
+	<string name="menu_factory_audio_pal_amcarriermutethresholdhigh">AM Carrier Mute Threshold High</string>
+	<string name="menu_factory_audio_pal_amcarriermutethresholdlow">AM Carrier Mute Threshold Low</string>
+	<string name="menu_factory_audio_pal_carriershiftfunction">Carrier Shift Function</string>
+	<string name="menu_factory_audio_pal_fmcarriermutemode">FM Carrier Mute Mode</string>
+	<string name="menu_factory_audio_pal_fmcarriermutethresholdhigh">FM Carrier Mute Threshold High</string>
+	<string name="menu_factory_audio_pal_fmcarriermutethresholdlow">FM Carrier Mute Threshold Low</string>
+	<string name="menu_factory_audio_pal_palfinetunevolume">PAL Fine Tune Volume</string>
+	<string name="menu_factory_audio_pal_amfinetunevolume">AM Fine Tune Volume</string>
+	<string name="menu_factory_audio_pal_nicamfinetunevolume">NICAM Fine Tune Volume</string>
+	<!-- part of factory_audio_eu_system -->
+	<string name="menu_factory_audio_eu_fmsaturationmute">FM Saturation Mute</string>
+	<string name="menu_factory_audio_eu_eunoneusystem">EU Non-EU System</string>
+	
+	
+	<string name="menu_factory_TV_digital_channel_scan">Scanare canale digitale</string>
+	<string name="menu_factory_TV_analog_channel_scan">Analog Channel Range Scan</string>
+	
+	<string name="menu_factory_TV_range_scan">Range Scan</string>
+	<string name="menu_factory_TV_single_rf_scan">Scanare RF unică</string>
+	<string name="menu_factory_TV_factory_scan">Factory Scan</string>
+	<string name="menu_factory_TV_tunerdiag">Diagnostic tuner</string>
+	<string name="menu_factory_TV_tunerdiag_noinfo">No Diag.Info</string>
+	<string name="menu_factory_TV_tunerdiag_version">Version:</string>
+	<string name="menu_factory_TV_tunerdiag_freq">RF Freq(KHz):</string>
+	<string name="menu_factory_TV_tunerdiag_lockstate">Lock State:</string>
+	<string name="menu_factory_setup_eventform">Formă eveniment</string>
+	<string name="menu_factory_setup_burningmode">Creare DVD</string>
+	<string name="menu_factory_setup_uart_factory_mode">Uart Factory Mode</string>
+	<string name="menu_factory_setup_cleanstorage">Şterge depozitare</string>
+	
+	<string name="menu_factory_setup_data_service_support">Data Service Support</string>
+	<string name="menu_factory_setup_caption">Caption Setup</string>
+	<string name="menu_factory_setup_extern_size">Extern size</string>
+	<string name="menu_factory_setup_equal_width">Equal width</string>
+	<string name="menu_factory_setup_auto_line">Auto line</string>
+	<string name="menu_factory_setup_roll_up">Roll up</string>
+	
+	<string name="menu_factory_setup_clean_dialog">Are you sure ?</string>
+	<string name="menu_factory_preset_dump">Renunţare Canal</string>
+	<string name="menu_factory_preset_print">Imprimare Canal</string>
+	<string name="menu_factory_preset_restore">Restaurare Canal</string>
+	<string name="menu_factory_setup_ci_update">Actualizare CI+ acreditare de la USB</string>
+    <string name="menu_factory_setup_ci_erase">Ștergere CI +  acreditare</string>
+    <string name="menu_factory_setup_ci_query">Query CI+ Credential</string>
+    <string name="menu_factory_setup_ci_update_false">Fișierul nu a fost găsit</string>
+    <string name="menu_factory_setup_ci_erase_success">Ștergere reușită!</string>
+    <string name="menu_factory_setup_ci_erase_false">Erase Failed!</string>
+    <string name="menu_factory_setup_ci_query_false">Valid:N Customer Code:</string>
+
+	<!-- pop-up dialog or window  -->
+	<string name="menu_tv_analog_manual_scan_init">Căutare canale analogice </string>
+	<string name="menu_tv_single_rf_scan_init">Scan Single RF Channel. (Digital Only)</string>
+	<string name="menu_tv_us_range_scan">Scan with a range of channels</string>
+	<string name="menu_tv_analog_manual_scan_cancel">Status:Scan Cancel</string>
+	<string name="menu_setup_channel_scan">Status:Scanning</string>
+	<string name="menu_setup_satellite_name">Satellite name:&#160;</string>
+	<string name="menu_setup_channel_scan_ana">Canale analoge: </string>
+	<string name="menu_setup_channel_scan_dig">Canale digitale:</string>
+	<string name="menu_tv_store_data">Are you sure to save?</string>
+	<string name="menu_tv_reset_all">Are you sure to reset all settings？</string>
+	<string name="menu_setup_channel_scan_cancel">Status:Scan Cancel</string>
+	<string name="menu_setup_channel_scan_done">Status:Scan Completed</string>
+	<string name="menu_setup_network_upgrade">network upgrade...</string>
+	<string name="menu_setup_network_wireless">Wireless Setting</string>
+	<string name="menu_setup_network_no_net">there is no wireless device connected to TV!</string>
+	<string name="menu_setup_tvchaneledit_hint">Test</string>
+	<string name="menu_setup_divx_sure">V redu</string>
+	<string name="menu_setup_divx_cancel">Prekliči</string>
+	<string name="menu_setup_tvchaneledit_sure">V redu</string>
+	<string name="menu_setup_tvchaneledit_cancel">Prekliči</string>
+	<string name="menu_setup_button_yes">Da</string>
+	<string name="menu_setup_button_no">NU</string>
+	<string name="menu_setup_ip_edittext_hint">000</string>
+	<string name="menu_setup_ip_error_warning1">please enter values between 1 and 233 </string>
+    <string name="menu_setup_ip_error_warning2">please enter values between 0 and 255</string>
+    <string name="menu_setup_ip_error_warning3">More than one of the IP Address Subnet Mask and Default Gateway is invalid.Please enter again!</string>
+    <string name="menu_setup_ip_null_warning">disconnected or fetching...</string>
+    <string name="menu_address_auto">Auto</string>
+    <string name="menu_address_ethernet">Ethernet </string>
+    <string name="menu_address_wireless">Wireless</string>
+    <string name="menu_versioninfo_name">Nume Model</string>
+    <string name="menu_versioninfo_version">Version</string>
+    <string name="menu_versioninfo_number">Nr. Serie </string>
+    <string name="menu_video_auto_adjust_info">Va rugăm aşteptaţi</string>
+    <string name="menu_video_auto_color_info">Va rugăm aşteptaţi</string>
+    <string name="menu_setup_divxreg">You must register your device to play DivX® protected videos.\nRegistration Code:BX9ASIKQEI\n Register at http://vod.divx.com</string>
+    <string name="menu_setup_divxdea">Deregistration code:\n Deregister at http://vod.divx.com\n Continue with registration?</string>
+    
+    <!--Part of Parental  -->
+    <string name="menu_parental_password">Parolă</string>
+    <string name="menu_parental_channel_block">Blochează canal</string>
+    <string name="menu_parental_program_block">Blocare program</string>
+    <string name="menu_parental_channel_schedule_block">Channel Schedule Block</string>
+     <string name="menu_parental_channel_schedule_block_operation_mode">Operation Mode</string>
+    <string name="menu_parental_input_block">Blocare intro</string>
+    <string name="menu_parental_change_password">Schimbă parolă</string>
+    <string name="menu_parental_clean_all">Şterge tot</string>
+    <string name="menu_parental_password_incorrect">Parolă incorectă / Vă rugăm încercaţi din nou!</string>
+    <string name="menu_parental_password_new">New Password</string>
+    <string name="menu_parental_password_new_re">Confirm Password</string>
+    <string name="menu_parental_password_matchinfo">Parola nu se potriveşte / Vă rugăm introduceţi din nou!</string>
+    <string name="menu_parental_password_default">1234</string>
+    <string name="menu_parental_tvsource_tv0">tv0</string>
+    
+    <string name="menu_parental_channel_schedule_start_date">Starting Date</string>
+    <string name="menu_parental_channel_schedule_start_time">Starting Time</string>
+    <string name="menu_parental_channel_schedule_end_date">Ending Date</string>
+    <string name="menu_parental_channel_schedule_end_time">Ending Time</string>
+    
+    
+    
+    
+    
+     <string name="menu_allowed_rating">Allowed  Rating</string>
+    <string name="menu_blocked_rating">Blocked Rating</string>
+    <string name="menu_us_tv_ratings">U.S. TV Ratings</string>
+    <string name="menu_us_movie_ratings">U.S. Movie Ratings</string>
+    <string name="menu_canadian_english_ratings">Canadian English Ratings</string>
+    <string name="menu_canadian_french_ratings">Canadian French Ratings</string>
+    <string name="menu_age_ratings">Filtru vârstă  </string>
+    <string name="menu_content_ratings">Content Rating</string>
+    <string name="menu_open_vchip">Open V-Chip</string>
+    <string name="menu_block_unrated">Bloc. Can. Nefav</string>
+    <string name="menu_rating_enable">Activ. Can. Fav.</string>
+    <!-- Part of wifi -->
+    <string name="menu_wifi_exit">Izhod</string>
+    <string name="menu_wifi_cancel">Prekliči</string>
+    <string name="menu_wifi_next">Următorul</string>
+    <string name="menu_wifi_select">Izberi</string>
+    <string name="menu_wifi_input">Input</string>
+    <string name="menu_wifi_set">Set</string>
+    <string name="menu_wifi_prev">Previous</string>
+    <string name="menu_wifi_main_scan">Scanare</string>
+    <string name="menu_wifi_main_manual">Manual</string>
+    <string name="menu_wifi_main_auto">Auto</string>
+    <string name="menu_wifi_connected">It will cut off connect wireless network connection.\nPress Right key to continue.</string>
+    <string name="menu_wifi_nodongle">There is no wireless device connected to TV</string>
+    <string name="menu_wifi_connect_fail">Connection fail!</string>
+    <string name="menu_wifi_connect_success">Connection success and IP is obtained!</string>
+    <string name="menu_wifi_invalid_wpa_key">Invalid WPA Key,Please check it.</string>
+    <string name="menu_wifi_invalid_wep_key">Invalid WEP Key,Please check it.</string>       
+    <string name="menu_wifi_no_match">No match Access Point is found.\nPlease try again.</string>
+    <string name="menu_wifi_pass_err">Password may be incorrect.Please check the AccessPoint setting.</string>
+    <string name="menu_wifi_time_out">Connection fail due to timeout.\nPlease try again.</string>
+    <string name="menu_wifi_input_key_nosupport">Please input Not Support key.</string>
+    <string name="menu_wifi_input_key_wpa">Please input WPA key.</string>
+    <string name="menu_wifi_input_key_wep">Please input WEP key.</string>  
+    <string name="menu_wifi_input_ssid">Please input SSID.</string>  
+    <string name="menu_wifi_input_ssid_error">The valid length of SSID is 1~32 words.Please check the SSID.</string>
+    <string name="menu_wifi_select_auth_mode">Please Select the Security Mode</string>
+    <string name="menu_wifi_auth_mode_none">Niciunul</string>
+    <string name="menu_wifi_auth_mode_wep">WEP</string>
+    <string name="menu_wifi_auth_mode_wpa_tkip">WPA-PSK(TKIP)</string>
+    <string name="menu_wifi_auth_mode_wpa_aes">WPA-PSK(AES)</string>
+    <string name="menu_wifi_auth_mode_wpa2_tkip">WPA2-PSK(TKIP)</string>
+    <string name="menu_wifi_auth_mode_wpa2_aes">WPA2-PSK(AES)</string>
+    <string name="menu_wifi_auth_mode_auto">WPA/WPA2-PSK(AUTO)</string>    
+    <string name="menu_wifi_ap_security_none">Niciunul</string>
+    <string name="menu_wifi_ap_security_notsupport">Not Support</string>
+    <string name="menu_wifi_ap_security_auto">WPA/WPA2-PSK </string>
+    <string name="menu_wifi_ap_security_wpa">WPA-PSK</string>
+    <string name="menu_wifi_ap_security_wpa2">WPA2-PSK</string>
+    <string name="menu_wifi_ap_security_wep">WEP</string>
+    <string name="menu_wifi_ap_head_ssid">SSID</string>
+    <string name="menu_wifi_ap_head_bssid">BSSID</string>
+    <string name="menu_wifi_ap_head_security">Security</string>
+    <string name="menu_wifi_ap_head_signal">Signal</string>
+    <string name="menu_wifi_wps_header1">WPS(Wifi Protected Setup)</string>
+    <string name="menu_wifi_wps_header2">-PIN(Personal Identification Number)</string>
+    <string name="menu_wifi_wps_header3">-PBC(Push Button Configuration)</string>
+    <string name="menu_wifi_wps_main_pin">PIN</string>
+    <string name="menu_wifi_wps_main_pbc">PBC</string>
+    <string name="menu_wifi_wps_pbc_hint">Please press Push Button on the AP within 120 seconds after you click the below \'Next\' button.</string>
+    <string name="menu_wifi_wps_pin_hint">Please ensure the following PIN code is installed to the AP before you click the below \'Next\' button.</string>
+    <string name="menu_wifi_wps_pin_textcode">PIN Code:</string>
+    <string name="menu_wifi_wps_pin_inittextcode">[111111]</string>
+    <string name="menu_wifi_wps_pin_refresh">Refresh PIN</string>
+    <string name="menu_wifi_connecting">TV is Connecting the AP</string>
+    <string name="menu_wifi_scaning">TV is Scanning APs</string>
+    <string name="menu_wifi_wait">Please wait</string>   
+    <string name="menu_wifi_no_ap">There is no available AP</string> 
+   <string name="menu_wifi_what">What the hell are you doing?</string>
+   
+   <string name="menu_wifi_need_special">Do you want to select a special AP?</string>
+   <string name="menu_teletext_notsupport_tip">Fără Teletext</string>
+   <string name="menu_teletext_no_top_tip">Fără TOP</string>
+   	<string name="schedule_pvr_srctype">Src Type</string>
+	<string name="schedule_pvr_channel_num">Channel Info</string>
+	<string name="schedule_pvr_reminder_type">Schedule Type</string>
+	<string name="schedule_pvr_repeat_type">Repeat Type</string>
+	
+	<string name="schedule_pvr_start_date">Start Date</string>
+	<string name="schedule_pvr_start_time">Momentul de începere</string>
+	<string name="schedule_pvr_stop_time">Stop Time</string>
+	
+	<string name="menu_tv_tshift_config">Mod decalaj orar</string>
+	<string name="menu_tv_device_info">Device Info</string>
+	<string name="menu_setup_schedule_list">Lista programe</string>
+	<string name="menu_setup_license_info">License Info</string>
+	<string name="menu_setup_system_info">System Information</string>
+	
+	<string name="menu_setup_oad_detect">Descărcare manuală OAD</string>
+	<string name="menu_setup_oad_set_auto_dl">Auto Download</string>
+	<string name="menu_rating_a">A</string>
+	<string name="menu_rating_d">D</string>
+	<string name="menu_rating_l">L</string>
+	<string name="menu_rating_s">S</string>
+	<string name="menu_rating_v">V</string>
+	<string name="menu_rating_fv">FV</string>
+	<string name="menu_rating_tvy">TV-Y</string>
+    <string name="menu_rating_tvy7">TV-Y7</string>
+    <string name="menu_rating_tvg">TV-G</string>
+    <string name="menu_rating_tvpg">TV-PG</string>
+    <string name="menu_rating_tv14">TV-14</string>
+    <string name="menu_rating_tvma">TV-MA</string>
+    
+        <string name="menu_rating_movie_g">G</string>
+    <string name="menu_rating_movie_pg">PG</string>
+    <string name="menu_rating_movie_pg13">PG-13</string>
+    <string name="menu_rating_movie_r">R</string>
+    <string name="menu_rating_movie_nc17">NC-17</string>
+    <string name="menu_rating_movie_x">X</string>
+    
+    <string name="menu_rating_english_c">C</string>
+    <string name="menu_rating_english_c8">C8+</string>
+    <string name="menu_rating_english_g">G</string>
+    <string name="menu_rating_english_pg">PG</string>
+    <string name="menu_rating_english_14">14+</string>
+    <string name="menu_rating_english_18">18+</string>
+    
+    <string name="menu_rating_french_g">G</string>
+    <string name="menu_rating_french_8ans">8ANS+</string>
+    <string name="menu_rating_french_13ans">13ANS+</string>
+    <string name="menu_rating_french_16ans">16ANS+</string>
+    <string name="menu_rating_french_18ans">18ANS+</string>
+    
+    <!-- Add for DVBC on EU -->
+    <string name="menu_c_channel_scan">Scanare canal</string>
+    <string name="menu_c_analog_manual_scan">Analog Manual Scam</string>
+    <string name="menu_c_rf_scan">Scanare RF unică</string>
+    
+    <string name="menu_c_favorite_net">Selectare rețea favorită</string>
+    <string name="menu_c_chanel_skip">Ignoră canal</string>
+    <string name="menu_c_chanel_sor">Sortare canal</string>
+    <string name="menu_c_chanel_edit">Editare canal</string>
+    <string name="menu_c_chanel_decode">Decodează canale</string>
+    <string name="menu_c_analog_tune">Cautare canale analoge </string>
+    <string name="menu_c_channelscan_utc">UPC</string>
+    <string name="menu_c_channelscan_oth">Others</string>
+    <string name="menu_c_analogscan_scanup">Scanare în sus</string>
+    <string name="menu_c_analogscan_scandown">Scanare în jos</string>
+    <string name="menu_c_analogscan_frequency">Start Frequency</string>
+    
+    <string name="menu_c_scan_mode">Scan Mode</string>
+    <string name="menu_c_scan_mode_advance">Adavance</string>
+    <string name="menu_c_scan_mode_full">Full</string>
+    <string name="menu_c_scan_mode_quick">Repede</string>
+    
+    <string name="menu_c_net">ID Reţea</string>
+    <string name="menu_c_scan">Scanare</string>
+
+    <string name="menu_c_rfscan_frequency">Frequency(KHz)</string>
+    <string name="menu_c_rfscan_modulation">Modulaţie</string>
+    <string name="menu_c_rfscan_symbol_rate">Symbol Rate(Ksym/s)</string>
+    <string name="menu_c_rfscan_signal_level">Signal Level</string>
+    <string name="menu_c_rfscan_signal_quality">Signal Quality</string>
+    
+    <string name="menu_eu_audio_channel">Canal audio</string>
+    
+    <!-- add for DVBS EU -->
+     <string name="menu_s_sate_rescan">Satellite Re-scan</string>
+     <string name="menu_s_sate_add">Satellite Add</string>
+     <string name="menu_s_sate_update">Satellite Update</string>
+     <string name="menu_s_sate_tuning">Reglaj manual satelit</string>
+     <string name="menu_s_favorite_network">Selectare rețea favorită</string>
+     <string name="menu_s_channel_skip">Ignoră canal</string>
+     <string name="menu_s_channel_sort">Sortare canal</string>
+     <string name="menu_s_channel_edit">Editare canal</string>
+     <string name="menu_s_channel_decode">Decodează canale</string>
+     <string name="menu_config_value_auto">Auto</string>
+</resources>
+

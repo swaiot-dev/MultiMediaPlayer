@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="mmp_test">This is test data\n file name \n img\n test
+	</string>
+	<string name="mmp_menu">選單</string>
+	<string name="mmp_menu_sort">排序</string>
+	<string name="mmp_menu_mediatype">多媒體類型</string>
+	<string name="mmp_menu_thumb">縮圖大小</string>
+	<string name="mmp_menu_copy">複製</string>
+	<string name="mmp_menu_paste">貼上</string>
+	<string name="mmp_menu_delete">刪除</string>
+	<string name="mmp_menu_recur">遞迴顯示</string>
+	<string name="mmp_menu_not_recur">單層顯示</string>
+	<string name="mmp_menu_photoframe">電子相框</string>
+	<string name="mmp_menu_photo_frame">Photo Frame Image is set OK</string>
+
+	<string name="mmp_menu_play">播放</string>
+	<string name="mmp_menu_pause">暫停</string>
+	<string name="mmp_menu_repeat">重複播放</string>
+	<string name="mmp_menu_shuffle">隨機播放</string>
+	<string name="mmp_menu_duration">長度</string>
+	<string name="mmp_menu_effect">效果</string>
+	<string name="mmp_menu_showinfo">顯示資訊</string>
+	<string name="mmp_menu_frame">電子相框圖片</string>
+	<string name="mmp_menu_rotate">旋轉</string>
+	<string name="mmp_menu_3d_photo">3D Photo</string>
+
+	<string name="mmp_menu_display">Display Line</string>
+	<string name="mmp_menu_timeoffset">開始時間</string>
+	<string name="mmp_menu_encoding">編碼</string>
+
+	<string name="mmp_menu_picturemode">影像模式</string>
+	<string name="mmp_menu_screenmode">畫面模式</string>
+
+	<string name="mmp_menu_font">字型 </string>
+
+	<string name="mmp_menu_size">大小</string>
+	<string name="mmp_menu_style">樣式</string>
+	<string name="mmp_menu_color">顏色</string>
+	<!-- child menu -->
+
+	<string name="mmp_menu_date">日期</string>
+	<string name="mmp_menu_name">名稱</string>
+	<string name="mmp_menu_album">專輯</string>
+	<string name="mmp_menu_artist">演出者</string>
+	<string name="mmp_menu_genre">類型</string>
+	<string name="mmp_menu_type">類型</string>
+	
+	<string name="mmp_menu_phototext">圖片</string>
+	<string name="mmp_menu_music">音樂</string>
+	<string name="mmp_menu_video">影片</string>
+	<string name="mmp_menu_text">文字</string>
+	<string name="mmp_menu_small">小</string>
+	<string name="mmp_menu_medium">中</string>
+	<string name="mmp_menu_large">大</string>
+	<string name="mmp_menu_onephotomode">One Photomode</string>
+	<string name="mmp_menu_datafraveler">DataFraveler G2</string>
+	<string name="mmp_menu_none">關閉</string>
+	<string name="mmp_menu_repeatone">單首</string>
+	<string name="mmp_menu_repeatall">全部</string>
+	<string name="mmp_menu_shuffleoff">關閉</string>
+	<string name="mmp_menu_shuffleon">開啟</string>
+	<string name="mmp_menu_short">短</string>
+	<string name="mmp_menu_long">長</string>
+	<string name="mmp_menu_1x">1 X</string>
+	<string name="mmp_menu_2x">2 X</string>
+	<string name="mmp_menu_4x">4 X</string>
+	<string name="mmp_menu_dissolve">散去</string>
+	<string name="mmp_menu_wiperight">向右抹去</string>
+	<string name="mmp_menu_wipeleft">向左抹去</string>
+	<string name="mmp_menu_wipeup">向上抹去</string>
+	<string name="mmp_menu_wipedown">向下抹去</string>
+	<string name="mmp_menu_boxin">方塊向內</string>
+	<string name="mmp_menu_boxout">方塊向外</string>
+
+	<string name="mmp_menu_random">隨機</string>
+
+
+	<string name="mmp_menu_off">Off</string>
+	<string name="mmp_menu_singleline">Single Line</string>
+	<string name="mmp_menu_multiline">Multi Line</string>
+	<string name="mmp_menu_auto">自動</string>
+	<string name="mmp_menu_userdefine">User define</string>
+	<string name="mmp_menu_gb">簡體中文</string>
+	<string name="mmp_menu_big5">繁體中文</string>
+	<string name="mmp_menu_utf8">Utf8</string>
+	<string name="mmp_menu_utf16">Utf16</string>
+	<string name="mmp_menu_user">自訂</string>
+	<string name="mmp_menu_cinema">電影</string>
+	<string name="mmp_menu_sport">體育</string>
+	<string name="mmp_menu_vivid">生動</string>
+	<string name="mmp_menu_hibright">高亮度</string>
+	<string name="mmp_menu_normal">正常</string>
+	<string name="mmp_menu_letterbox">Letter box</string>
+	<string name="mmp_menu_scan">掃描</string>
+	<string name="mmp_menu_zoom">縮放</string>
+	<string name="mmp_menu_dotbydot">逐點</string>
+
+	<string name="mmp_menu_regular">標準</string>
+	<string name="mmp_menu_italic">斜體</string>
+	<string name="mmp_menu_bold">粗體</string>
+	<string name="mmp_menu_outline">粗斜體</string>
+	<string name="mmp_menu_white">白</string>
+	<string name="mmp_menu_blue">藍</string>
+	<string name="mmp_menu_red">紅</string>
+	<string name="mmp_menu_green">綠</string>
+	<string name="mmp_menu_black">黑</string>
+	<string name="mmp_menu_lyricoptions">Lyric Options</string>
+
+	<string name="mmp_menu_showscore">頻譜開啟</string>
+	<string name="mmp_menu_hidescore">頻譜關閉</string>
+	<string name="mmp_menu_onlyaudio">螢幕關閉</string>
+
+
+
+	<string name="mmp_photo">圖片</string>
+	<string name="mmp_audio">音樂</string>
+	<string name="mmp_video">影片</string>
+	<string name="mmp_text">文字</string>
+	<string name="mmp_select">選擇</string>
+	<string name="mmp_input">進</string>
+	<string name="mmp_exit">離開</string>
+	<string name="mmp_emptyfile">The current folder is empty!</string>
+	<string name="mmp_reutip">It\'s parsing this folder,please wait...</string>
+	<string name="mmp_filepath">\</string>
+	<string name="mmp_pop_repeat_tvrepeat">全部</string>
+	<string name="mmp_pop_repeat_tvsingle">Single</string>
+	<string name="mmp_pop_repeat_tvnone"> </string>
+	<string name="mmp_pop_time_tv">短</string>
+	<string name="mmp_pop_view_tv">關閉</string>
+	<string name="mmp_pop_menu">選單</string>
+	<string name="mmp_pop_enter">進</string>
+	<string name="mmp_pop_zoomscale">X</string>
+	<string name="mmp_pop_starttime">00:00:00</string>
+	<string name="mmp_pop_pagesize">01\//01</string>
+	<string name="mmp_listmode_play">播放</string>
+
+
+
+	<string name="mmp_info_album">相簿:</string>
+	<string name="mmp_info_orientation">方位:</string>
+	<string name="mmp_info_artist">演出者:</string>
+	<string name="mmp_info_name">名稱:</string>
+	<string name="mmp_info_date">日期:</string>
+	<string name="mmp_info_size">大小:</string>
+	<string name="mmp_info_next">下一首:</string>
+	<string name="mmp_info_exposure">曝光時間:</string>
+	<string name="mmp_info_fnumber">FNUMBER:</string>
+	<string name="mmp_info_program">曝光模式:</string>
+	<string name="mmp_info_colorspace">色彩空間:</string>
+	<string name="mmp_info_title">歌名:</string>
+	<string name="mmp_info_genre">類型:</string>
+	<string name="mmp_info_year">年份:</string>
+	<string name="mmp_info_duration">長度:</string>
+	<string name="mmp_info_director">導演:</string>
+	<string name="mmp_info_copyrght">版權:</string>
+
+	<string name="mmp_info_lastline">Last Line</string>
+	<string name="mmp_info_nextline">Next Line</string>
+	<string name="mmp_info_lastpage">Last Page</string>
+	<string name="mmp_info_nextpage">下一頁</string>
+
+	<string name="mmp_info_nolrc">No lrc</string>
+	<string name="mmp_time_separator">:</string>
+	<string name="mmp_time_inti">00</string>
+
+	<!-- Network -->
+	<string name="mmp_loading_tip">It\'s parsing this folder,please wait...</string>
+	<string name="mmp_user_name">User name</string>
+	<string name="mmp_password">密碼</string>
+	<string name="mmp_confirm">確認</string>
+	<string name="mmp_vkb">Vkb</string>
+	<string name="mmp_ok">確定</string>
+	<string name="mmp_cancel">取銷</string>
+
+	<string name="mmp_login_failed_tip">Username or password is error!</string>
+	<!-- Network -->
+
+	<string name="mmp_title_copy">複製中</string>
+	<string name="mmp_title_confirm_replace">確認取代檔案</string>
+	<string name="mmp_title_confirm_delete">確認刪除檔案</string>
+	<string name="mmp_message_copy"> %1$s\nFrom %2$s\nTo %3$s</string>
+	<string name="mmp_message_confirm_replace"> This folder already contains a file named\n%s
+	</string>
+	<string name="mmp_message_confirm_delete">您確定要刪除所選的檔案嗎?</string>
+
+	<string name="mmp_yes">取代</string>
+	<string name="mmp_yes_to_all">全部取代</string>
+	<string name="mmp_no">否</string>
+
+	<string name="mmp_capture_title">Capture Logo</string>
+	<string name="mmp_capture_confirm">Do you want to capture this screen ?</string>
+	<string name="mmp_toast_no_photoframe">There is no photo frame image to play</string>
+
+	<string name="mmp_video_notsupport">Video Codec not support</string>
+	<string name="mmp_audio_notsupport">Audio Codec not support</string>
+	<string name="mmp_video_only">Video only</string>
+	<string name="mmp_frame_photo_sleeptime">睡眠計時器</string>
+	<string name="mmp_sleeptime_lable">睡眠計時器:  </string>
+	<string name="mmp_video_stopresume">Stop Resume</string>
+	<string name="mmp_can_notpause">Can Not Pause</string>
+	
+	<string name="mmp_photo_type_notsupport">File not support</string>
+
+	<string name="mmp_lable_rorate">旋轉</string>
+	<string name="mmp_lable_degree">°</string>
+	<string name="mmp_lable_subtitle_off">Off</string>
+
+	<string name="mmp_info_whitebalance">WhiteBalance:</string>
+	<string name="mmp_info_make">Make:</string>
+	<string name="mmp_info_model">Model:</string>
+	<string name="mmp_info_flash">Flash:</string>
+	<string name="mmp_info_focallength">FocalLength:</string>
+	<string name="mmp_menu_pic_setting">畫面設定</string>
+
+	<string name="mmp_file_notsupport">File not support</string>
+	<string name="mmp_notsupport">Not support</string>
+	<string name="mmp_seek_notsupport">Seek not support</string>
+	<string name="mmp_step_notsupport">Step not support</string>
+	<string name="mmp_featue_notsupport">功能上可用</string>
+	<string name="mmp_nodevice">No Device Connected!</string>
+	<string name="mmp_time_out">The time code you input is wrong!\nPlease assure it\'s less than total time</string>
+    <string name="mmp_file_corrupt">File is corrupted</string>
+    <string name="mmp_menu_mount_iso">Mount the current iso file</string>
+	<string name="mmp_menu_unmount_iso">Nnmount the current device</string>
+
+	<string name="mmp_media_info_scrambled_audio_video_service">視頻音頻已加密</string>
+	<string name="mmp_media_info_scrambled_audio_clear_video_service">音頻已加密</string>
+	<string name="mmp_media_info_scrambled_audio_no_video_service">Scramble Audio,Audio only</string>
+	<string name="mmp_media_info_scrambled_video_clear_audio_service">視頻已加密</string>
+	<string name="mmp_media_info_scrambled_video_no_audio_service">Scramble Video,Video only</string>
+	
+	
+	
+	<string name="txture_0">"defaultVideo1.PNG"</string>
+    <string name="txture_1">"defaultVideo2.PNG"</string>
+    <string name="txture_2">"defaultVideo3.PNG"</string>
+    <string name="txture_3">"defaultVideo4.PNG"</string>
+    <string name="txture_4">"defaultVideo5.PNG"</string>
+    <string name="txture_5">"defaultVideo6.PNG"</string>
+    <string name="txture_6">"defaultVideo7.PNG"</string>
+    <string name="txture_7">"defaultVideo8.PNG"</string>
+    <string name="txture_8">"defaultVideo9.PNG"</string>
+    
+</resources>
+

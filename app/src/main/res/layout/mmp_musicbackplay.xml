@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/transparent"
+    android:orientation="vertical" >
+
+    <!-- Top -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_vertical">
+        <!--<ImageView-->
+            <!--android:layout_width="16dp"-->
+            <!--android:layout_height="16dp"-->
+            <!--android:layout_gravity="center_vertical"-->
+            <!--android:gravity="center"-->
+            <!--android:src="@drawable/menu_audio_icon"-->
+            <!--android:background="@color/transparent">-->
+        <!--</ImageView>-->
+
+        <com.mediatek.wwtv.mediaplayer.mmp.commonview.VisualizerView
+            android:id="@+id/show_music_status_visualizer_view"
+            android:layout_width="40px"
+            android:layout_height="30px"
+            app:count="5"/>
+
+        <com.mediatek.wwtv.mediaplayer.nav.util.MarqueeTextView
+            android:id="@+id/mmp_musicname"
+            style="@style/mmp_pop_audio_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:layout_marginLeft="5px"/>
+        <!--
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="bottom" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mmp_listmode_music_icon" >
+            </ImageView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dip"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/mmp_musicname"
+                style="@style/mmp_pop_tx"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical" />
+        </LinearLayout>
+        -->
+    </LinearLayout>
+    <ProgressBar
+        android:id="@+id/mmp_musicback_progress"
+        style="@style/mmp_left_progressbar"
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:layout_gravity="center" />
+
+</LinearLayout>

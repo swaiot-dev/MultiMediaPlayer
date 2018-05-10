@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent" 
+	android:layout_height="match_parent"
+	android:orientation="vertical" 
+	android:background="@drawable/mm_bg" 
+	android:paddingTop="20dip" 
+	android:paddingBottom="15dip">
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_weight="3" 
+		android:gravity="center_vertical"  
+		>
+		<com.mediatek.wwtv.mediaplayer.nav.util.MarqueeTextView android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:layout_weight="3"
+			style="@style/mmp_info_tx" 
+			android:text="@string/mmp_info_title"></com.mediatek.wwtv.mediaplayer.nav.util.MarqueeTextView>
+		<com.mediatek.wwtv.mediaplayer.nav.util.MarqueeTextView android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:layout_weight="2"
+			style="@style/mmp_info_tx" 
+			android:id="@+id/mmp_info_title"></com.mediatek.wwtv.mediaplayer.nav.util.MarqueeTextView>
+	</LinearLayout>
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_weight="3" 
+		android:gravity="center_vertical"  
+		>
+		<com.mediatek.wwtv.mediaplayer.nav.util.MarqueeTextView android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:layout_weight="3"
+			style="@style/mmp_info_tx" 
+			android:text="@string/mmp_info_artist"></com.mediatek.wwtv.mediaplayer.nav.util.MarqueeTextView>
+		<com.mediatek.wwtv.mediaplayer.nav.util.MarqueeTextView android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:layout_weight="2"
+			style="@style/mmp_info_tx" 
+			android:id="@+id/mmp_info_artist"></com.mediatek.wwtv.mediaplayer.nav.util.MarqueeTextView>
+	</LinearLayout>
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_weight="3" 
+		android:gravity="center_vertical"   
+		>
+		<com.mediatek.wwtv.mediaplayer.nav.util.MarqueeTextView android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:layout_weight="3"
+			style="@style/mmp_info_tx" 
+			android:text="@string/mmp_info_album"></com.mediatek.wwtv.mediaplayer.nav.util.MarqueeTextView>
+		<com.mediatek.wwtv.mediaplayer.nav.util.MarqueeTextView android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:layout_weight="2"
+			style="@style/mmp_info_tx" 
+			android:id="@+id/mmp_info_album"></com.mediatek.wwtv.mediaplayer.nav.util.MarqueeTextView>
+	</LinearLayout>
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_weight="3" 
+		android:gravity="center_vertical"   
+		>
+		<com.mediatek.wwtv.mediaplayer.nav.util.MarqueeTextView android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:layout_weight="3"
+			style="@style/mmp_info_tx" 
+			android:text="@string/mmp_info_genre"></com.mediatek.wwtv.mediaplayer.nav.util.MarqueeTextView>
+		<com.mediatek.wwtv.mediaplayer.nav.util.MarqueeTextView android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:layout_weight="2"
+			style="@style/mmp_info_tx" 
+			android:id="@+id/mmp_info_genre"></com.mediatek.wwtv.mediaplayer.nav.util.MarqueeTextView>
+	</LinearLayout>
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_weight="3" 
+		android:gravity="center_vertical"   
+		>
+		<com.mediatek.wwtv.mediaplayer.nav.util.MarqueeTextView android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:layout_weight="3"
+			style="@style/mmp_info_tx" 
+			android:text="@string/mmp_info_year"></com.mediatek.wwtv.mediaplayer.nav.util.MarqueeTextView>
+		<com.mediatek.wwtv.mediaplayer.nav.util.MarqueeTextView android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:layout_weight="2"
+			style="@style/mmp_info_tx" 
+			android:id="@+id/mmp_info_year"></com.mediatek.wwtv.mediaplayer.nav.util.MarqueeTextView>
+	</LinearLayout>
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_weight="3" 
+		android:gravity="center_vertical"   
+		>
+		<com.mediatek.wwtv.mediaplayer.nav.util.MarqueeTextView android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:layout_weight="3"
+			style="@style/mmp_info_tx" 
+			android:text="@string/mmp_info_duration"></com.mediatek.wwtv.mediaplayer.nav.util.MarqueeTextView>
+		<com.mediatek.wwtv.mediaplayer.nav.util.MarqueeTextView android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:layout_weight="2"
+			style="@style/mmp_info_tx" 
+			android:id="@+id/mmp_info_duration"></com.mediatek.wwtv.mediaplayer.nav.util.MarqueeTextView>
+	</LinearLayout>
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_weight="3" 
+		android:gravity="center_vertical"   
+		>
+		<com.mediatek.wwtv.mediaplayer.nav.util.MarqueeTextView android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:layout_weight="3"
+			style="@style/mmp_info_tx" 
+			android:text="@string/mmp_info_next"></com.mediatek.wwtv.mediaplayer.nav.util.MarqueeTextView>
+		<com.mediatek.wwtv.mediaplayer.nav.util.MarqueeTextView android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:layout_weight="2"
+			style="@style/mmp_info_tx" 
+			android:id="@+id/mmp_info_next"></com.mediatek.wwtv.mediaplayer.nav.util.MarqueeTextView>
+	</LinearLayout>
+</LinearLayout>

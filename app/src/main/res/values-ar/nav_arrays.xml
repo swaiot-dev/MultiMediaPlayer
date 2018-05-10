@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+	<string-array name="nav_channel_types">
+		<item>All</item>
+		<!--<item>تناظري</item>
+		<item>رقمي</item>-->
+		<item>راديو</item>
+	</string-array>
+	<!--
+
+		{ "Auto", "Normal", "LetterBox", "Zoom", "Panorama", "Dot by Dot" }
+	-->
+	<!--
+		<string-array name="nav_aspect_strings"> <item>تلقائي</item>
+		<item>Normal</item> <item>LetterBox</item> <item>تكبير</item>
+		<item>Panorama</item> <item>نقطة بنقطة</item> </string-array>
+	-->
+	<!--
+		"Sleep:Off", "Sleep: 10 Minutes", "Sleep:20 Minutes", "Sleep:30
+		Minutes", "Sleep:40 Minutes", "Sleep:50 Minutes", "Sleep:60 Minutes",
+		"Sleep:90 Minutes", "Sleep:120 Minutes" };
+	-->
+
+	<string-array name="nav_sleep_strings">
+		<item>Sleep:Off</item>
+		<item>Sleep:15 Minutes</item>
+		<item>Sleep:30 Minutes</item>
+		<item>Sleep:45 Minutes</item>
+		<item>Sleep:60 Minutes</item>
+		<item>Sleep:90 Minutes</item>
+		<item>Sleep:120 Minutes</item>
+	</string-array>
+	<string-array name="nav_zoom_strings">
+		<item>zoom X 1</item>
+		<item>zoom X 2</item>
+		<item>zoom X 1/2</item>
+	</string-array>
+	
+	<!-- OFF, Rock, Pop, Live, Dance, Techno, Classic and Soft -->
+	<string-array name="nav_s_effect_strings">
+        <item>مستخدم</item>
+		<item>قياسي</item>
+		<item>Live1</item>
+	</string-array>
+
+	<string-array name="nav_freeze_strings">
+		<item>Freeze: On</item>
+		<item>Freeze: Off</item>
+	</string-array>
+
+	<string-array name="nav_epg_filter_type">
+		<item>أفلام</item>
+		<item>أخبار</item>
+		<item>برامج</item>
+		<item>رياضة</item>
+		<item>للأطفال</item>
+		<item>موسيقى</item>
+		<item>فنون</item>
+		<item>اجتماعي</item>
+		<item>تعليمي</item>
+		<item>ترفيهي</item>
+		<item>خاص</item>
+	</string-array>
+	
+	<string-array name="nav_epg_filter_type_AUS">
+		<item>أفلام</item>
+		<item>أخبار</item>
+		<item>تسلية</item>
+		<item>رياضة</item>
+		<item>للأطفال</item>
+		<item>موسيقى</item>
+		<item>فنون</item>
+		<item>الأحداث الحالية</item>	
+		<item>تعليمي</item>
+		<item>معلوماتي</item>
+		<item></item>	
+		<item>كوميدي</item>
+		<item>دراما</item>
+		<item>وثائقي</item>
+	</string-array>
+		
+	<string-array name="nav_epg_filter_type_UK">
+		<item>أفلام</item>
+		<item>أخبار</item>
+		<item>تسلية</item>
+		<item>رياضة</item>
+		<item>للأطفال</item>
+		<item>تعليمي</item>
+		<item>الأسلوب</item>
+		<item>دراما</item>
+	</string-array>
+	
+	<string-array name="nav_epg_filter_sa_type">
+		<item>أخبار</item>
+		<item>رياضة</item>
+		<item>تعليمي</item>
+		<item>SOAP_OPERA</item>
+		<item>MINI_SERIES</item>
+		<item>SERIES</item>
+		<item>VARIETY</item>
+		<item>REALITY_SHOW</item>
+		<item>INFOMATION</item>
+		<item>COMICAL</item>
+		<item>CHILDREN</item>
+		<item>EROTIC</item>
+		<item>أفلام</item>
+		<item>RA_TE_SA_PR</item>
+		<item>DEBATE_INTERVIEW</item>
+		<item>OTHER</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_movie">
+		<item>كوميدي</item>
+		<item>بوليسي</item>
+		<item>مغامرات</item>
+		<item>خيال علمي</item>
+		<item>معلوماتي</item>
+		<item>Soap</item>
+		<item>رومانسية</item>
+		<item>جدي</item>
+		<item>أفلام للكبار</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_news">
+		<item>الأحداث الحالية</item>
+		<item>النشرات الجوية</item>
+		<item>مجلات الأخبار</item>
+		<item>دراما</item>
+		<item>مناقشات</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_news">
+		<item>أخبار</item>
+		<item>Report</item>
+		<item>دراما</item>
+		<item>Biography</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_show">
+		<item>برامج</item>
+		<item>برنامج ألعاب</item>
+		<item>برنامج منوعات</item>
+		<item>برنامج تلفزيوني</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_sports">
+		<item>رياضة</item>
+		<item>أحداث خاصة</item>
+		<item>مجلات الرياضة</item>
+		<item>كرة القدم</item>
+		<item>التنس</item>
+		<item>الرياضات الجماعية</item>
+		<item>ألعاب القوى</item>
+		<item>رياضات سباقات السيارات والدراجات النارية</item>
+		<item>رياضات الماء</item>
+		<item>رياضات الشتاء</item>
+		<item>الفروسية</item>
+		<item>الرياضات القتالية</item>
+	</string-array>
+	
+	<string-array name="nav_epg_subtype_sa_sports">
+		<item>رياضة</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_children">
+		<item>للأطفال</item>
+		<item>للأطفال دون سن المدرسة</item>
+		<item>برامج التسلية من 6 إلى 14</item>
+		<item>برامج التسلية من 10 إلى 16</item>
+		<item>معلوماتي</item>
+		<item>رسوم متحركة</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_music">
+		<item>موسيقى</item>
+		<item>روك</item>
+		<item>جدي</item>
+		<item>شعبي</item>
+		<item>جاز</item>
+		<item>موسيقي</item>
+		<item>باليه</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_arts">
+		<item>فنون</item>
+		<item>العروض الفنية</item>
+		<item>الفنون الجميلة</item>
+		<item>ديني</item>
+		<item>ثقافة عامة</item>
+		<item>أدب</item>
+		<item>أفلام</item>
+		<item>ترفيهي</item>
+		<item>جاري البث</item>
+		<item>وسائط جديدة</item>
+		<item>مجلات فنية</item>
+		<item>أزياء</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_social">
+		<item>اجتماعي</item>
+		<item>مجلات</item>
+		<item>برامج اقتصادية</item>
+		<item>شخصيات معروفة</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_education">
+		<item>تعليمي</item>
+		<item>طبيعة</item>
+		<item>تكنولوجيا </item>
+		<item>طب</item>
+		<item>الدول الأجنبية</item>
+		<item>العلوم الاجتماعية</item>
+		<item>مزيد من التعليم</item>
+		<item>اللغات</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_education">
+		<item>Educative</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_soap_opera">
+		<item>Soap opera</item>
+	</string-array>
+	
+	<string-array name="nav_epg_subtype_sa_mini_series">
+		<item>Mini-series</item>
+	</string-array>
+	
+	<string-array name="nav_epg_subtype_sa_series">
+		<item>مسلسلات</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_variety">
+		<item>Auditorium</item>
+		<item>برامج</item>
+		<item>موسيقي</item>
+		<item>Making of</item>
+		<item>Feminine</item>
+		<item>برنامج ألعاب</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_reality_show">
+		<item>Reality show</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_information">
+		<item>الطبخ</item>
+		<item>أزياء</item>
+		<item>الدولة</item>
+		<item>Health</item>
+		<item>Travel</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_comical">
+		<item>Comical</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_children">
+		<item>Children</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_erotic">
+		<item>Erotic</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_movie">
+		<item>أفلام</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_RA_TE_SA_PR">
+		<item>Raffle</item>
+		<item>Television sales</item>
+		<item>Prizing</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_DEBATE_INTERVIEW">
+		<item>مناقشات</item>
+		<item>Interview</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_other">
+		<item>Adult cartoon</item>
+		<item>Interactive</item>
+		<item>Policy</item>
+		<item>ديني</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_leisure">
+		<item>الهوايات</item>
+		<item>السياحة</item>
+		<item>الأشغال اليدوية</item>
+		<item>الإشراف</item>
+		<item>اللياقة والصحة</item>
+		<item>الطبخ</item>
+		<item>الإعلانات</item>
+		<item>البستنة</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_special">
+		<item>اللغة الأصلية</item>
+		<item>أبيض وأسود</item>
+		<item>غير منشور</item>
+		<item>بث مباشر</item>
+	</string-array>
+
+
+	<!-- MTS -->
+	<string-array name="nav_mts_strings">
+		<item>UNKNOW</item>
+		<item>MONO</item>
+		<item>STEREO</item>
+		<item>SUB_LANG</item>
+		<item>DUAL1</item>
+		<item>DUAL2</item>
+		<item>NICAM_MONO</item>
+		<item>NICAM_STEREO</item>
+		<item>NICAM_DUAL1</item>
+		<item>NICAM_DUAL2</item>
+		<item>FM_MONO</item>
+		<item>FM_STEREO</item>
+	</string-array>
+
+	<!-- AUDIO_TVCM -->
+	<string-array name="nav_audio_tvcm_strings">
+		<item>baq</item>
+		<item>eus</item>
+		<item>bul</item>
+		<item>cat</item>
+		<item>scr</item>
+		<item>cze</item>
+		<item>dan</item>
+		<item>dut</item>
+		<item>eng</item>
+		<item>fin</item>
+		<item>fre</item>
+		<item>gla</item>
+		<item>gdh</item>
+		<item>gle</item>
+		<item>glg</item>
+		<item>ger</item>
+		<item>gre</item>
+		<item>hun</item>
+		<item>ita</item>
+		<item>nor</item>
+		<item>pol</item>
+		<item>por</item>
+		<item>rum</item>
+		<item>rus</item>
+		<item>scc</item>
+		<item>slo</item>
+		<item>slv</item>
+		<item>spa</item>
+		<item>swe</item>
+		<item>tur</item>
+		<item>wel</item>
+		<item>ice</item>
+		<item>isl</item>
+		<item>smi</item>
+		<item>tha</item>
+		<item>vie</item>
+		<item>ara</item>
+		<item>zho</item>
+		<item>chi</item>
+		<item>per</item>
+		<item>kor</item>
+		<item>est</item>
+		<item>mao</item>
+		<item>cmn</item>
+		<item>yue</item>
+		<item>jpn</item>
+		<item>hin</item>
+		<item>nar</item>
+		<item>qaa</item>
+		<item>und</item>
+	</string-array>
+
+	<!-- AUDIO -->
+	<string-array name="nav_audio_strings">
+		<item>الباسك </item>
+		<item>الباسك </item>
+		<item>Bulaarian</item>
+		<item>catalan</item>
+		<item>الكتالونية </item>
+		<item>التشيكية</item>
+		<item>الدنمركية </item>
+		<item>الألمانية</item>
+		<item>الإنجليزية </item>
+		<item>الفنلندية</item>
+		<item>french</item>
+		<item>gaelic</item>
+		<item>gaelic</item>
+		<item>Irish</item>
+		<item>gallegan</item>
+		<item>german</item>
+		<item>greek</item>
+		<item>hungarian</item>
+		<item>italian</item>
+		<item>norwegian</item>
+		<item>polish</item>
+		<item>portuguese</item>
+		<item>romanian</item>
+		<item>russian</item>
+		<item>serbian</item>
+		<item>slovak</item>
+		<item>slovenian</item>
+		<item>spanish</item>
+		<item>swedish</item>
+		<item>turkish</item>
+		<item>welsh</item>
+		<item>icelandic</item>
+		<item>icelandic</item>
+		<item>Sami langs</item>
+		<item>التايلاندية</item>
+		<item>الفتنامية</item>
+		<item>العربية</item>
+		<item>T. Chinese</item>
+		<item>S. Chinese</item>
+		<item>الفارسية</item>
+		<item>الكورية</item>
+		<item>الإستونية</item>
+		<item>ماووري</item>
+		<item>مندرين </item>
+		<item>كانتوني</item>
+		<item>ياباني </item>
+		<item>هندي    </item>
+		<item>Narrative</item>
+		<item>Original Version for France</item>
+		<item>غير محدد</item>
+	</string-array>
+
+	<string-array name="nav_bottom_volume">
+		<item>مستوى الصوت الرئيسي</item>
+		<item>مستوى صوت السماعة الأمامية اليسرى</item>
+		<item>مستوى صوت السماعة الأمامية اليمنى</item>
+		<item>مستوى صوت السماعة الخلفية اليسرى</item>
+		<item>مستوى صوت السماعة الخلفية اليمنى</item>
+		<item>مستوى صوت السماعة الوسطى</item>
+		<item>مستوى صوت مضخم الصوت</item>
+	</string-array>
+
+    <string-array name="nav_zoom_mode">
+		<item>Zoom x 1/2</item>
+		<item>Zoom x 1</item>
+		<item>Zoom x 2</item>
+	</string-array>
+
+	<string-array name="nav_receiver_type">
+		<item>كابل</item>
+		<item>هوائي</item>
+	</string-array>
+	<string-array name="pvr_tshift_initdisk_step1">
+		<item>تلقائي</item>
+		<item>Manual</item>
+	</string-array>
+	<string-array name="pvr_tshift_initdisk_step_format">
+		<item>Format</item>
+		<item>تخطي</item>
+	</string-array>
+	<string-array name="pvr_tshift_initdisk_step_formatconfirm">
+		<item>Format</item>
+		<item>إلغاء</item>
+	</string-array>
+	
+	<string-array name="week_day">
+	    <item>الأحد</item>
+		<item>الاثنين</item>
+		<item>الثلاثاء</item>
+		<item>الأربعاء</item>
+		<item>الخميس</item>
+		<item>الجمعة</item>
+		<item>السبت</item>
+	</string-array>
+    <string-array name="nav_oad_btns_cancel">
+        <item>إلغاء</item>
+    </string-array>
+    <string-array name="nav_oad_btns_accept_remind_me_later">
+        <item>أقبل</item>
+        <item>قم بتذكيري لاحقا</item>
+    </string-array>
+    <string-array name="nav_oad_btns_accept_reject">
+        <item>أقبل</item>
+        <item>أرفض</item>
+    </string-array>
+    
+    <string-array name="nav_oad_btns_yes_no">
+        <item>نعم</item>
+        <item>لا</item>
+    </string-array>
+
+
+
+
+
+	<!--				
+				0:	MSG_STR_ID_EMPTY,						hide screen saver
+     				1:	MSG_STR_ID_NO_SIGNAL,					No Signal!
+     				2:	MSG_STR_ID_SCAN_CH,					Please Scan Channels!
+     				3:	MSG_STR_ID_GETTING_DATA,				Retrieving Data...
+     				4:	MSG_STR_ID_LOCKED_CH,					Channel Locked!
+     				5:	MSG_STR_ID_LOCKED_PROG,				Program Locked!
+     				6:	MSG_STR_ID_LOCKED_INP,					Input Locked!
+     				7:	MSG_STR_ID_NO_EVN_TILE,					(No program title.)
+     				8:	MSG_STR_ID_HIDDEN_CH,					Hidden Channel!
+     				9:	MSG_STR_ID_AUDIO_PROG,					Audio Program
+     				10:	MSG_STR_ID_NO_AUDIO_VIDEO,			No Audio and Video
+     				11:	MSG_STR_ID_NO_EVN_DTIL,				(No program details.)
+     				12:	MSG_STR_ID_NO_CH_DTIL,					(No channel details.)
+     				13:	MSG_STR_ID_NO_AUDIO_STRM,				no audio stream ??
+     				14:	MSG_STR_ID_NO_VIDEO_STRM,				no video stream ??
+     				15:	MSG_STR_ID_PLS_WAIT,					Please Wait...
+     				16:	MSG_STR_ID_VIDEO_NOT_SUPPORT,			video not support ??
+     				17:	MSG_STR_ID_HD_VIDEO_NOT_SUPPORT,		HD Service
+     				18:	MSG_STR_ID_NON_BRDCSTING,				Non-Broadcasting
+     				19:	MSG_STR_ID_NO_CH_IN_LIST,				no channel ??
+     				20:	MSG_STR_ID_TTX_SBTI_X_RATED_BLOCKED,	This content is blocked by your service provider
+     				255:	MSG_STR_ID_LAST_VALID_ENTRY,			only for counting purpose
+    -->
+	<string-array name="nav_twinkle_strings">
+		<item>  </item>
+		<item>لا توجد إشارة!</item>
+		<item>يرجى البحث عن القنوات!</item>
+		<item>استعادة البيانات...</item>
+		<item>القناة مغلقة!</item>
+		<item>البرنامج مغلق!</item>
+		<item>الإدخال ممنوع!</item>
+		<item>(لا يتوفر عنوان لهذا البرنامج.)</item>
+		<item>قناة مخفية!</item>
+		<item>برنامج صوت</item>
+		<item>لا يتوفر صوت ولا صورة</item>
+		<item>(لا تتوفر تفاصيل لهذه البرنامج.)</item>
+		<item>(لا تتوفر تفاصيل لهذه القناة.)</item>
+		<item>♪ No Audio Stream ♪</item>
+		<item>No Video Stream</item>
+		<item>يرجى الانتظار...</item>
+		<item>Video not Support</item>
+		<item>خدمة عالية الوضوح</item>
+		<item>Non-Broadcasting</item>
+		<item>No Channel</item>
+		<item>This content is blocked by your service provider</item>
+		<item>متنوع</item>
+	</string-array>
+
+
+	<string-array name="nav_channel_type">
+		<item>All</item>
+		<item>رقمي</item>
+		<item>راديو</item>
+		<item>تناظري</item>
+	</string-array>
+
+
+    
+</resources>
+

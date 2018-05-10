@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+ <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center" 
+        android:layout_marginTop="@dimen/menu_main_margin">
+    <TextView
+        android:id="@+id/common_license_name"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="left"
+        android:textColor="@color/white"
+        android:textSize="@dimen/large_text_size" />
+ </LinearLayout>
+    <LinearLayout
+         android:layout_weight="6"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center" >
+
+        <TextView
+            android:layout_marginBottom="10dip"
+            android:layout_width="fill_parent"
+             android:gravity="center"
+            android:layout_height="fill_parent"
+            android:id="@+id/common_pagenum"
+             />
+    </LinearLayout>
+
+</LinearLayout>

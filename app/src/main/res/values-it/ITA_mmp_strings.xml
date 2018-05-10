@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="mmp_test">This is test data\n file name \n img\n test
+	</string>
+	<string name="mmp_menu">Menu </string>
+	<string name="mmp_menu_sort">Ordina</string>
+	<string name="mmp_menu_mediatype">Tipo file multimediale</string>
+	<string name="mmp_menu_thumb">dimensioni miniatura</string>
+	<string name="mmp_menu_copy">Copia</string>
+	<string name="mmp_menu_paste">Incolla</string>
+	<string name="mmp_menu_delete">Elimina</string>
+	<string name="mmp_menu_recur">Analizzatore ricorrente</string>
+	<string name="mmp_menu_not_recur">Analizzatore normale</string>
+	<string name="mmp_menu_photoframe">Cornice foto</string>
+	<string name="mmp_menu_photo_frame">Photo Frame Image is set OK</string>
+
+	<string name="mmp_menu_play">Giocare</string>
+	<string name="mmp_menu_pause">Metti in pausa</string>
+	<string name="mmp_menu_repeat">Ripeti</string>
+	<string name="mmp_menu_shuffle">Modalità casuale</string>
+	<string name="mmp_menu_duration">Durata</string>
+	<string name="mmp_menu_effect">Effetto</string>
+	<string name="mmp_menu_showinfo">Mostra informazioni</string>
+	<string name="mmp_menu_frame">Immagine con cornice</string>
+	<string name="mmp_menu_rotate">Ruota</string>
+	<string name="mmp_menu_3d_photo">3D Photo</string>
+
+	<string name="mmp_menu_display">Display Line</string>
+	<string name="mmp_menu_timeoffset">Differenza orario</string>
+	<string name="mmp_menu_encoding">Codifica</string>
+
+	<string name="mmp_menu_picturemode">Modalità Immagine</string>
+	<string name="mmp_menu_screenmode">Modalità Schermo</string>
+
+	<string name="mmp_menu_font">Font </string>
+
+	<string name="mmp_menu_size">Dimensioni</string>
+	<string name="mmp_menu_style">Stile</string>
+	<string name="mmp_menu_color">Colore</string>
+	<!-- child menu -->
+
+	<string name="mmp_menu_date">Data</string>
+	<string name="mmp_menu_name">Nome</string>
+	<string name="mmp_menu_album">Album</string>
+	<string name="mmp_menu_artist">Artista</string>
+	<string name="mmp_menu_genre">Genere</string>
+	<string name="mmp_menu_type">Tipo</string>
+	
+	<string name="mmp_menu_phototext">Foto</string>
+	<string name="mmp_menu_music">Musica</string>
+	<string name="mmp_menu_video">Video</string>
+	<string name="mmp_menu_text">Testo</string>
+	<string name="mmp_menu_small">Piccolo</string>
+	<string name="mmp_menu_medium">Medio</string>
+	<string name="mmp_menu_large">Grande</string>
+	<string name="mmp_menu_onephotomode">One Photomode</string>
+	<string name="mmp_menu_datafraveler">DataFraveler G2</string>
+	<string name="mmp_menu_none">Nessuno</string>
+	<string name="mmp_menu_repeatone">Ripeti una volta</string>
+	<string name="mmp_menu_repeatall">Ripeti tutto</string>
+	<string name="mmp_menu_shuffleoff">Riproduzione casuale disattivata</string>
+	<string name="mmp_menu_shuffleon">Riproduzione casuale attiva</string>
+	<string name="mmp_menu_short">Corta</string>
+	<string name="mmp_menu_long">Lunga</string>
+	<string name="mmp_menu_1x">1 X</string>
+	<string name="mmp_menu_2x">2 X</string>
+	<string name="mmp_menu_4x">4 X</string>
+	<string name="mmp_menu_dissolve">Dissolvi</string>
+	<string name="mmp_menu_wiperight">Effetto wipe da destra</string>
+	<string name="mmp_menu_wipeleft">Effetto wipe da sinistra</string>
+	<string name="mmp_menu_wipeup">Effetto wipe da sopra</string>
+	<string name="mmp_menu_wipedown">Effetto wipe da sotto</string>
+	<string name="mmp_menu_boxin">Effetto box inserito</string>
+	<string name="mmp_menu_boxout">Effetto box disinserito</string>
+
+	<string name="mmp_menu_random">Casuale</string>
+
+
+	<string name="mmp_menu_off">Off</string>
+	<string name="mmp_menu_singleline">Single Line</string>
+	<string name="mmp_menu_multiline">Multi Line</string>
+	<string name="mmp_menu_auto">Automatico</string>
+	<string name="mmp_menu_userdefine">User define</string>
+	<string name="mmp_menu_gb">GB</string>
+	<string name="mmp_menu_big5">Big5</string>
+	<string name="mmp_menu_utf8">Utf8</string>
+	<string name="mmp_menu_utf16">Utf16</string>
+	<string name="mmp_menu_user">Utente</string>
+	<string name="mmp_menu_cinema">Cinema</string>
+	<string name="mmp_menu_sport">Sport</string>
+	<string name="mmp_menu_vivid">Vivido</string>
+	<string name="mmp_menu_hibright">Alta luminosità</string>
+	<string name="mmp_menu_normal">Normale</string>
+	<string name="mmp_menu_letterbox">Letter box</string>
+	<string name="mmp_menu_scan">Ricerca</string>
+	<string name="mmp_menu_zoom">Zoom</string>
+	<string name="mmp_menu_dotbydot">Punto a punto</string>
+
+	<string name="mmp_menu_regular">Regolare</string>
+	<string name="mmp_menu_italic">Corsivo</string>
+	<string name="mmp_menu_bold">Grassetto</string>
+	<string name="mmp_menu_outline">Grassetto Corsivo</string>
+	<string name="mmp_menu_white">Bianco</string>
+	<string name="mmp_menu_blue">Azzurro</string>
+	<string name="mmp_menu_red">Rosso</string>
+	<string name="mmp_menu_green">Verde</string>
+	<string name="mmp_menu_black">Nero</string>
+	<string name="mmp_menu_lyricoptions">Lyric Options</string>
+
+	<string name="mmp_menu_showscore">Mostra gamma</string>
+	<string name="mmp_menu_hidescore">Nascondi gamma</string>
+	<string name="mmp_menu_onlyaudio">Solo audio</string>
+
+
+
+	<string name="mmp_photo">Foto</string>
+	<string name="mmp_audio">Musica</string>
+	<string name="mmp_video">Video</string>
+	<string name="mmp_text">Testo</string>
+	<string name="mmp_select">Selezione</string>
+	<string name="mmp_input">Enter</string>
+	<string name="mmp_exit">Esci</string>
+	<string name="mmp_emptyfile">The current folder is empty!</string>
+	<string name="mmp_reutip">It\'s parsing this folder,please wait...</string>
+	<string name="mmp_filepath">\</string>
+	<string name="mmp_pop_repeat_tvrepeat">Ripeti tutto</string>
+	<string name="mmp_pop_repeat_tvsingle">Single</string>
+	<string name="mmp_pop_repeat_tvnone"> </string>
+	<string name="mmp_pop_time_tv">Corta</string>
+	<string name="mmp_pop_view_tv">Nessuno</string>
+	<string name="mmp_pop_menu">Menu </string>
+	<string name="mmp_pop_enter">Enter</string>
+	<string name="mmp_pop_zoomscale">X</string>
+	<string name="mmp_pop_starttime">00:00:00</string>
+	<string name="mmp_pop_pagesize">01\//01</string>
+	<string name="mmp_listmode_play">Giocare</string>
+
+
+
+	<string name="mmp_info_album">Album:</string>
+	<string name="mmp_info_orientation">Orientamento:</string>
+	<string name="mmp_info_artist">Artista:</string>
+	<string name="mmp_info_name">Nome:</string>
+	<string name="mmp_info_date">Data:</string>
+	<string name="mmp_info_size">Dimensioni:</string>
+	<string name="mmp_info_next">Prossima:</string>
+	<string name="mmp_info_exposure">TEMPO DI ESPOSIZIONE:</string>
+	<string name="mmp_info_fnumber">FNUMBER:</string>
+	<string name="mmp_info_program">PROGRAMMA DI ESPOSIZIONE:</string>
+	<string name="mmp_info_colorspace">SPAZIO COLORE:</string>
+	<string name="mmp_info_title">Titolo:</string>
+	<string name="mmp_info_genre">Genere:</string>
+	<string name="mmp_info_year">Anno:</string>
+	<string name="mmp_info_duration">Durata:</string>
+	<string name="mmp_info_director">Regista:</string>
+	<string name="mmp_info_copyrght">Copyright:</string>
+
+	<string name="mmp_info_lastline">Last Line</string>
+	<string name="mmp_info_nextline">Next Line</string>
+	<string name="mmp_info_lastpage">Last Page</string>
+	<string name="mmp_info_nextpage">Pagina successiva</string>
+
+	<string name="mmp_info_nolrc">No lrc</string>
+	<string name="mmp_time_separator">:</string>
+	<string name="mmp_time_inti">00</string>
+
+	<!-- Network -->
+	<string name="mmp_loading_tip">It\'s parsing this folder,please wait...</string>
+	<string name="mmp_user_name">User name</string>
+	<string name="mmp_password">Password</string>
+	<string name="mmp_confirm">Conferma</string>
+	<string name="mmp_vkb">Vkb</string>
+	<string name="mmp_ok">OK</string>
+	<string name="mmp_cancel">Annulla</string>
+
+	<string name="mmp_login_failed_tip">Username or password is error!</string>
+	<!-- Network -->
+
+	<string name="mmp_title_copy">Copia in corso</string>
+	<string name="mmp_title_confirm_replace">Conferma sostituzione file</string>
+	<string name="mmp_title_confirm_delete">Conferma eliminazione file</string>
+	<string name="mmp_message_copy"> %1$s\nFrom %2$s\nTo %3$s</string>
+	<string name="mmp_message_confirm_replace"> This folder already contains a file named\n%s
+	</string>
+	<string name="mmp_message_confirm_delete">Eliminare i file selezionati?</string>
+
+	<string name="mmp_yes">Sì</string>
+	<string name="mmp_yes_to_all">Sì a tutto</string>
+	<string name="mmp_no">NO</string>
+
+	<string name="mmp_capture_title">Capture Logo</string>
+	<string name="mmp_capture_confirm">Do you want to capture this screen ?</string>
+	<string name="mmp_toast_no_photoframe">There is no photo frame image to play</string>
+
+	<string name="mmp_video_notsupport">Video Codec not support</string>
+	<string name="mmp_audio_notsupport">Audio Codec not support</string>
+	<string name="mmp_video_only">Video only</string>
+	<string name="mmp_frame_photo_sleeptime">Ora sospensione</string>
+	<string name="mmp_sleeptime_lable">Ora sospensione:  </string>
+	<string name="mmp_video_stopresume">Stop Resume</string>
+	<string name="mmp_can_notpause">Can Not Pause</string>
+	
+	<string name="mmp_photo_type_notsupport">File not support</string>
+
+	<string name="mmp_lable_rorate">Ruota</string>
+	<string name="mmp_lable_degree">°</string>
+	<string name="mmp_lable_subtitle_off">Off</string>
+
+	<string name="mmp_info_whitebalance">WhiteBalance:</string>
+	<string name="mmp_info_make">Make:</string>
+	<string name="mmp_info_model">Model:</string>
+	<string name="mmp_info_flash">Flash:</string>
+	<string name="mmp_info_focallength">FocalLength:</string>
+	<string name="mmp_menu_pic_setting">Picture Setting</string>
+
+	<string name="mmp_file_notsupport">File not support</string>
+	<string name="mmp_notsupport">Not support</string>
+	<string name="mmp_seek_notsupport">Seek not support</string>
+	<string name="mmp_step_notsupport">Step not support</string>
+	<string name="mmp_featue_notsupport">Funzione non disponibile</string>
+	<string name="mmp_nodevice">No Device Connected!</string>
+	<string name="mmp_time_out">The time code you input is wrong!\nPlease assure it\'s less than total time</string>
+    <string name="mmp_file_corrupt">File is corrupted</string>
+    <string name="mmp_menu_mount_iso">Mount the current iso file</string>
+	<string name="mmp_menu_unmount_iso">Nnmount the current device</string>
+
+	<string name="mmp_media_info_scrambled_audio_video_service">Scramble Video and Audio</string>
+	<string name="mmp_media_info_scrambled_audio_clear_video_service">Scramble Audio</string>
+	<string name="mmp_media_info_scrambled_audio_no_video_service">Scramble Audio,Audio only</string>
+	<string name="mmp_media_info_scrambled_video_clear_audio_service">Scramble Video</string>
+	<string name="mmp_media_info_scrambled_video_no_audio_service">Scramble Video,Video only</string>
+	
+	
+	
+	<string name="txture_0">"defaultVideo1.PNG"</string>
+    <string name="txture_1">"defaultVideo2.PNG"</string>
+    <string name="txture_2">"defaultVideo3.PNG"</string>
+    <string name="txture_3">"defaultVideo4.PNG"</string>
+    <string name="txture_4">"defaultVideo5.PNG"</string>
+    <string name="txture_5">"defaultVideo6.PNG"</string>
+    <string name="txture_6">"defaultVideo7.PNG"</string>
+    <string name="txture_7">"defaultVideo8.PNG"</string>
+    <string name="txture_8">"defaultVideo9.PNG"</string>
+    
+</resources>
+

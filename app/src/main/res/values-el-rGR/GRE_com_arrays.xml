@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!--Screen mode-->
+	<string-array name="screen_mode_array">
+		<item>Άγνωστο</item>
+		<item>Κανονικό</item>
+		<item>Letterbox</item>
+		<item>Pan Scan</item>
+		<item>Ορισμός χρήστη</item>
+		<item>Non Linear</item>
+		<item>Dot by Dot</item>
+		<item>Αυτόματο</item>
+		<item>Custom Def 1</item>
+		<item>Custom Def 2</item>
+		<item>Custom Def 3</item>
+		<item>Custom Def 4</item>
+		<item>Custom Def 5</item>
+		<item>Custom Def 6</item>
+		<item>Custom Def 7</item>
+		<item>NLZ Custom Def 0</item>
+		<item>NLZ Custom Def 1</item>
+		<item>NLZ Custom Def 2</item>
+		<item>NLZ Custom Def 3</item>
+	</string-array>
+	
+	<string-array name="screen_mode_array_us">
+		<item>Άγνωστο</item>
+		<item>Κανονικό</item>
+		<item>Letterbox</item>
+		<item>Μεγέθυνση</item>
+		<item>Ορισμός χρήστη</item>
+		<item>Πανόραμα</item>
+		<item>Dot by Dot</item>
+		<item>Αυτόματο</item>
+		<item>Custom Def 1</item>
+		<item>Custom Def 2</item>
+		<item>Custom Def 3</item>
+		<item>Custom Def 4</item>
+		<item>Custom Def 5</item>
+		<item>Custom Def 6</item>
+		<item>Custom Def 7</item>
+		<item>NLZ Custom Def 0</item>
+		<item>NLZ Custom Def 1</item>
+		<item>NLZ Custom Def 2</item>
+		<item>NLZ Custom Def 3</item>
+	</string-array>
+
+	<!--Picture effect-->
+	<string-array name="picture_effect_array">
+		<item>Χρήστης</item>
+		<item>Κινηματογράφος</item>
+		<item>Sport</item>
+		<item>Ζωντανή</item>
+		<item>Υψηλή φωτεινότητα</item>
+	</string-array>
+	
+	<string-array name="picture_effect_array_us">
+		<item>Χρήστης</item>
+		<item>Κινηματογράφος</item>
+		<item>Sport</item>
+		<item>Ζωντανή</item>
+		<item>Υψηλή φωτεινότητα</item>
+		<item>Custom1</item>
+		<item>Custom2</item>
+		<item>Custom3</item>
+	</string-array>
+
+	    <string-array name="setup_default_language_array">
+        <item>@string/setup_language_english</item>
+        <item>@string/setup_language_chinese</item>
+    </string-array>
+    
+    <string-array name="setup_us_language_array">
+        <item>@string/setup_language_english</item>
+        <item>@string/setup_language_spanish</item>
+        <item>@string/setup_language_french</item>
+    </string-array>
+    
+    <string-array name="setup_sa_language_array">
+        <item>@string/setup_language_english</item>
+        <item>@string/setup_language_portuguese</item>
+        <item>@string/setup_language_spanish</item>
+    </string-array>
+    
+    <string-array name="setup_eu_language_array">
+        <item>@string/setup_language_english</item>
+        <item>@string/setup_language_spanish</item>
+        <item>@string/setup_language_french</item>
+    </string-array>
+    
+    <string-array name="setup_eu_country_array">
+        <item>@string/setup_country_cty_1</item>
+        <item>@string/setup_country_cty_2</item>
+        <item>@string/setup_country_cty_3</item>
+        <item>@string/setup_country_cty_4</item>
+        <item>@string/setup_country_cty_5</item>
+        <item>@string/setup_country_cty_6</item>
+        <item>@string/setup_country_cty_7</item>
+        <item>@string/setup_country_cty_8</item>
+        <item>@string/setup_country_cty_9</item>
+        <item>@string/setup_country_cty_10</item>
+        <item>@string/setup_country_cty_11</item>
+        <item>@string/setup_country_cty_12</item>
+        <item>@string/setup_country_cty_13</item>
+        <item>@string/setup_country_cty_14</item>
+        <item>@string/setup_country_cty_15</item>
+        <item>@string/setup_country_cty_16</item>
+        <item>@string/setup_country_cty_17</item>
+        <item>@string/setup_country_cty_18</item>
+        <item>@string/setup_country_cty_19</item>
+        <item>@string/setup_country_cty_20</item>
+        <item>@string/setup_country_cty_21</item>
+        <item>@string/setup_country_cty_22</item>
+        <item>@string/setup_country_cty_23</item>
+        <item>@string/setup_country_cty_24</item>
+        <item>@string/setup_country_cty_25</item>
+        <item>@string/setup_country_cty_26</item>
+        <item>@string/setup_country_cty_27</item>
+        <item>@string/setup_country_cty_28</item>
+        <item>@string/setup_country_cty_29</item>
+    </string-array>
+    
+    <string-array name="setup_us_timezone_region">
+        <item>Eastern Time</item>
+        <item>Indiana</item>
+        <item>Central Time</item>
+        <item>Mountain Time</item>
+        <item>Arizona</item>
+        <item>Pacific Time</item>
+        <item>Alaska</item>
+        <item>Hawaii</item>
+    </string-array>
+    
+    <string-array name="setup_us_timezone_str">
+        <item>America/New_York</item>
+        <item>America/New_York</item>
+        <item>America/Chicago</item>
+        <item>America/Denver</item>
+        <item>America/Phoenix</item>
+        <item>America/Los_Angeles</item>
+        <item>America/Anchorage</item>
+        <item>Pacific/Honolulu</item>
+    </string-array>
+    <integer-array name="setup_us_timezone_values">
+        <item>-5</item>
+        <item>-5</item>
+        <item>-6</item>
+        <item>-7</item>
+        <item>-7</item>
+        <item>-8</item>
+        <item>-9</item>
+        <item>-10</item>
+    </integer-array>
+    <string-array name="dvbc_operators">
+        <item>@string/dvbc_operator_upc</item>
+        <item>@string/dvbc_operator_telent</item>
+        <item>@string/dvbc_operator_unitymedia</item>
+        <item>@string/dvbc_operator_stofa</item>
+        <item>@string/dvbc_operator_yousee</item>
+        <item>@string/dvbc_operator_canal_digital</item>
+        <item>@string/dvbc_operator_numericable</item>
+        <item>@string/dvbc_operator_ziggo</item>
+        <item>@string/dvbc_operator_comhem</item>
+        <item>@string/dvbc_operator_others</item>
+    </string-array>
+</resources>
+

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tv_block_pvr">PVR</string>
+    <string name="tv_block_usb">USB</string>
+    <string name="tv_block">TV Plus</string>
+
+</resources>

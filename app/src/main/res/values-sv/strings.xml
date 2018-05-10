@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="video_info_dialog_format">Formatera:</string>
+    <string name="video_info_dialog_resolution">Upplösning:</string>
+    <string name="video_info_dialog_subtitle">Textning</string>
+</resources>

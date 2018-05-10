@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- setup wizard -->
+    <dimen name="setup_wizard_margin">14dp</dimen>
+    <dimen name="setup_wizard_margin_1">23dp</dimen>
+    <dimen name="setup_wizard_margin_2">27dp</dimen>
+    <dimen name="setup_wizard_list_padding">-7dp</dimen>
+    <dimen name="setup_wizard_height">40dp</dimen>
+
+    <dimen name="setup_wizard_pad_foot">20dp</dimen>
+    <dimen name="setup_wizard_pad_left_right">20dp</dimen>
+    <dimen name="setup_wizard_textsize">16sp</dimen>
+    <dimen name="setup_wizard_common_textsize">14sp</dimen>
+    <dimen name="setup_wizard_common_padding">7dip</dimen>
+
+    <!-- font size -->
+    <dimen name="nav_textsize_large">13sp</dimen>
+    <dimen name="nav_textsize_normal">12sp</dimen>
+    <dimen name="nav_textsize_timeduration">8sp</dimen>
+
+    <!-- nav_zoom -->
+    <dimen name="nav_nav_channel_zoom_up_marginBottom">87dp</dimen>
+    <dimen name="nav_channel_zoom_down_marginTop">87dp</dimen>
+    <dimen name="nav_channel_zoom_left_marginRight">187dp</dimen>
+    <dimen name="nav_channel_zoom_right_marginLeft">187dp</dimen>
+    <dimen name="nav_channel_zoom_center_imageview_size">20dp</dimen>
+     <dimen name="nav_channel_zoom_padding">74dp</dimen>
+    <!-- for epg text size -->
+    <dimen name="epg_type_sub_ts">19sp</dimen>
+    <dimen name="epg_type_main_ts">17sp</dimen>
+    <dimen name="epg_program_ts">12sp</dimen>
+    <dimen name="epg_time_ts">12sp</dimen>
+    <dimen name="epg_bottom_ts">12sp</dimen>
+    <dimen name="epg_bottom_ts_enter">14sp</dimen>
+    <dimen name="epg_list_item_textsize">9sp</dimen>
+    <dimen name="epg_list_item_padding_top">7dp</dimen>
+    <dimen name="epg_type_item_ts">14sp</dimen>
+    <dimen name="epg_program_type_ts">9sp</dimen>
+    <dimen name="epg_pwd_height">30dp</dimen>
+    <dimen name="epg_appreence_textsize">12sp</dimen>
+    <dimen name="epg_program_detail_padding_top">8dp</dimen>
+    <dimen name="epg_us_programdetail_padding_top">14dp</dimen>
+    <dimen name="epg_us_programdetail_padding_rigth">85dip</dimen>
+    <dimen name="epg_us_pageinfo_padding_rigth">80dip</dimen>
+    <dimen name="epg_for_bootom_drawable_padding">6dp</dimen>
+    <dimen name="epg_us_lockicon_margin_rigtn">15dp</dimen>
+
+    <!-- for epg_main and epg_list_view -->
+    <dimen name="epg_icon_margin">147dip</dimen>
+
+    <!-- nav_channel -->
+    <dimen name="nav_channel_details_channel_info_padding">8dp</dimen>
+    <dimen name="nav_channel_list_item_padding">4dip</dimen>
+    <dimen name="nav_channel_list_item_no_marginleft">15dip</dimen>
+    <dimen name="nav_channel_list_item_no_marginright">4dip</dimen>
+    <dimen name="nav_channel_type_list_item_margin">5dip</dimen>
+
+    <!-- nav cec -->
+    <dimen name="nav_cec_marRight">3dp</dimen>
+    <dimen name="nav_cec_paddingTop">7dip</dimen>
+    <dimen name="nav_cec_width">200dip</dimen>
+
+    <!-- nav_tv_pwd -->
+    <dimen name="nav_tv_pwd_padding">28dip</dimen>
+    <dimen name="nav_tv_pwd_ts">14sp</dimen>
+    <dimen name="nav_pwd_margin_Letf">20dp</dimen>
+    <dimen name="nav_pwd_height">85dp</dimen>
+    <dimen name="nav_pwd_width">300dp</dimen>
+
+    <!-- nav sundry textview  -->
+    <dimen name="nav_sundry_textview_width">271dip</dimen>
+    <dimen name="nav_sundry_textview_height">60dip</dimen>
+    <dimen name="nav_sundry_textview_margnleft">67dip</dimen>
+    <!-- nav sundry dialog -->
+    <dimen name="nav_sundry_dialog_list_padtop">13dip</dimen>
+
+    <!-- banner view -->
+    <dimen name="nav_banner_marginTop">10dip</dimen>
+    <dimen name="nav_banner_marginLeft">13dip</dimen>
+    <dimen name="nav_banner_top_layout_width">86dip</dimen>
+    <dimen name="banner_channel_subtitle_icon_drawablePadding">7dip</dimen>
+	<dimen name="nav_banner_icon_height">16dip</dimen>
+	
+	<!-- common msg dialog -->
+	<dimen name="nav_common_dialog_content_text">13sp</dimen>
+	<dimen name="nav_common_dialog_button_margin">53dip</dimen>
+	<dimen name="nav_common_dialog_button_width">101dip</dimen>
+	<dimen name="nav_common_dialog_button_height">37dip</dimen>
+</resources>

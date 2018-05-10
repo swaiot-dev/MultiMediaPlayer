@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="mmp_alert_txt_size">25sp</dimen>
+  	<dimen name="mmp_alert_btn_size">15sp</dimen>
+  	<!-- <dimen name="mmp_browse_tlt_size">20sp</dimen> -->
+  	<dimen name="mmp_browse_tlt_size">14sp</dimen>
+    <dimen name="mmp_browse_path_size">21sp</dimen>
+  	<!-- <dimen name="mmp_info_tx_size">12sp</dimen> -->
+  	<dimen name="mmp_info_tx_size">28px</dimen>
+<!--   	<dimen name="mmp_grid_item_size">12sp</dimen> -->
+  	<dimen name="mmp_grid_item_size">14sp</dimen>
+  	<dimen name="mmp_list_item_size">9sp</dimen>
+  	<dimen name="mmp_keyboard_view_size">22sp</dimen>
+  	<dimen name="mmp_login_txt_size">20sp</dimen>
+  	<dimen name="multimedia_gv_text_size">20sp</dimen>
+  	<dimen name="mmp_music_pop_status_size">12sp</dimen>
+  	<dimen name="mmp_progress_dialog_txt_size">20sp</dimen>
+  	<dimen name="mmp_time_txt_size">16sp</dimen>
+  	<dimen name="mmp_listmode_txt_size">12sp</dimen>
+  	<dimen name="mmp_grid_padding_size">4dp</dimen>
+  	<dimen name="mmp_grid_item_vspace_size">8dp</dimen>
+  	<dimen name="mmp_grid_item_hspace_size">8dp</dimen>
+  	<dimen name="mmp_photo_info_magin_size">5dp</dimen>
+  	<dimen name="mmp_file_list_margin_size">5dp</dimen>
+  	
+  	<dimen name="list_item_vertical_padding">12dp</dimen>
+  	<item name="alpha_animiation_max_opacity" format="float" type="dimen">1.0</item>
+    <item name="alpha_animiation_min_opacity" format="float" type="dimen">0.0</item>
+  	<item name="alpha_activity_in_bkg_end" format="float" type="dimen">@dimen/alpha_animiation_max_opacity</item>
+    <item name="alpha_activity_in_bkg_start" format="float" type="dimen">@dimen/alpha_animiation_min_opacity</item>
+    <item name="alpha_activity_out_bkg_end" format="float" type="dimen">@dimen/alpha_animiation_min_opacity</item>
+    <item name="alpha_activity_out_bkg_start" format="float" type="dimen">@dimen/alpha_animiation_max_opacity</item>
+  	<dimen name="action_fragment_selector_min_height">8dp</dimen>
+  	 
+    <dimen name="content_fragment_breadcrumb_text_size">18sp</dimen>
+    <dimen name="content_fragment_default_icon_height">400dp</dimen>
+    <dimen name="content_fragment_default_icon_width">400dp</dimen>
+    <dimen name="content_fragment_delimiter_padding">16dp</dimen>
+    <dimen name="content_fragment_description_text_size">14sp</dimen>
+    <dimen name="content_fragment_icon_width">140dp</dimen>
+    <dimen name="content_fragment_icon_height">140dp</dimen>
+    <dimen name="content_fragment_badge_icon_width">48dp</dimen>
+    <dimen name="content_fragment_badge_icon_height">48dp</dimen>
+    <dimen name="content_fragment_left_padding">48dp</dimen>
+    <dimen name="content_fragment_max_icon_height">280dp</dimen>
+    <dimen name="content_fragment_title_text_bottom_padding">4dp</dimen>
+    <dimen name="content_fragment_title_text_size">36sp</dimen>
+    <dimen name="content_fragment_title_text_top_padding">2dp</dimen>
+    
+  	<dimen name="icon_padding">0dp</dimen>
+    <dimen name="list_item_badge_icon_height">18dp</dimen>
+    <dimen name="list_item_badge_icon_margin_left">8dp</dimen>
+    <dimen name="list_item_badge_icon_width">18dp</dimen>
+    <dimen name="list_item_checkmark_diameter">8dp</dimen>
+    <dimen name="list_item_delimiter_padding">4dp</dimen>
+    <dimen name="list_item_description_font_size">12sp</dimen>
+    <dimen name="list_item_height">48dp</dimen>
+    <dimen name="list_item_icon_big_height">80dp</dimen>
+    <dimen name="list_item_icon_big_margin_right">8dp</dimen>
+    <dimen name="list_item_icon_big_width">80dp</dimen>
+    <dimen name="list_item_icon_height">32dp</dimen>
+    <dimen name="list_item_icon_size">32dp</dimen>
+    <dimen name="list_item_icon_small_height">24dp</dimen>
+    <dimen name="list_item_icon_small_width">24dp</dimen>
+    <dimen name="list_item_icon_width">32dp</dimen>
+    <dimen name="list_item_left_padding">20dp</dimen>
+    <dimen name="list_item_min_height">64dp</dimen>
+    <dimen name="list_item_right_padding">28dp</dimen>
+    <dimen name="list_item_timestamp_font_size">12sp</dimen>
+    <dimen name="list_item_title_font_size">18sp</dimen>
+    
+    <integer name="action_description_min_lines">2</integer>
+    <integer name="action_title_min_lines">1</integer>
+    
+    <integer name="base_animation_duration">500</integer>
+    <integer name="alpha_activity_in_bkg_delay">0</integer>
+    <integer name="alpha_activity_in_bkg_duration">@integer/base_animation_duration</integer>
+    <integer name="alpha_activity_out_bkg_delay">0</integer>
+    <integer name="alpha_activity_out_bkg_duration">@integer/base_animation_duration</integer>
+    
+    <dimen name="tos_webview_padding_without_progress_bar">40dp</dimen>
+    <dimen name="tos_webview_padding_with_progress_bar">80dp</dimen>
+    
+    <dimen name="browse_item_title_font_size">16sp</dimen>
+    <dimen name="browse_item_description_font_size">14sp</dimen>
+    <dimen name="browse_item_height">172dp</dimen>
+    <dimen name="browse_item_width">172dp</dimen>
+    <dimen name="browse_item_icon_height">172dp</dimen>
+	 <!--begin => modifie by yangxiong for solving "change the size of home page for mmp" -->
+    <!-- SKY luojie 20180108 modify for delete Text menu begin -->
+    <dimen name="browse_item_icon_w_h">157dp</dimen>
+    <dimen name="browse_item_icon_w_w">280dp</dimen> <!-- 205 -->
+    <dimen name="browse_item_rl_h">210dp</dimen>
+    <dimen name="browse_item_rl_w">280dp</dimen>
+    <!-- SKY luojie 20180108 modify for delete Text menu end -->
+    <dimen name="browse_item_padding_top">10dp</dimen>
+     <!--end => modifie by yangxiong for solving "change the size of home page for mmp" -->
+    <dimen name="browse_circleitem_icon_width">112dp</dimen>
+    <dimen name="browse_item_icon_width">172dp</dimen>
+    <dimen name="browse_item_text_marginHor">12dp</dimen>
+    <!-- 12dp below text - 3dp of font padding = 9dp -->
+    <dimen name="browse_item_description_marginBottom">9dp</dimen>
+    <!-- 20dp between lines + 12dp below text - 3dp of font padding = 29dp -->
+    <dimen name="browse_item_title_marginBottom">29dp</dimen>
+    <dimen name="browse_item_bottom_padding">12dp</dimen>
+    <dimen name="image_text_padding">3dp</dimen>
+    <dimen name="dubi_icon_width">19dp</dimen>
+    <dimen name="dubi_icon_height">16dp</dimen>
+
+    <dimen name="file_grid_item_width">230dp</dimen>
+    <dimen name="file_grid_item_height">230dp</dimen>
+    <dimen name="grid_item_width">212dp</dimen>
+    <dimen name="grid_item_height">160dp</dimen>
+    <dimen name="grid_item_layout_height">182dp</dimen>
+    <dimen name="grid_item_imgwidth">212dp</dimen>
+    <dimen name="grid_item_imgheight">120dp</dimen>
+    <dimen name="grid_item_horizontal_space">8dp</dimen>
+    <dimen name="grid_item_padding_left">24dp</dimen>
+    <dimen name="grid_item_padding_right">16dp</dimen>
+    <dimen name="grid_item_padding_top">20dp</dimen>
+    <dimen name="row_item_text_category">28sp</dimen>
+    <dimen name="row_item_text_title">16sp</dimen>
+    <dimen name="tvblock_desktop_imgwidth">640dip</dimen>
+    <dimen name="tvblock_desktop_imgheight">360dip</dimen>
+    <dimen name="choose_menu_popup_height">220dp</dimen>
+    <dimen name="files_grid_padding">8dp</dimen>
+</resources>

@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+	<string-array name="nav_channel_types">
+		<item>All</item>
+		<!--<item>Analogové</item>
+		<item>Digitální</item>-->
+		<item>Rádio</item>
+	</string-array>
+	<!--
+
+		{ "Auto", "Normal", "LetterBox", "Zoom", "Panorama", "Dot by Dot" }
+	-->
+	<!--
+		<string-array name="nav_aspect_strings"> <item>Automaticky</item>
+		<item>Normal</item> <item>LetterBox</item> <item>Lupa</item>
+		<item>Panorama</item> <item>Bod-bod</item> </string-array>
+	-->
+	<!--
+		"Sleep:Off", "Sleep: 10 Minutes", "Sleep:20 Minutes", "Sleep:30
+		Minutes", "Sleep:40 Minutes", "Sleep:50 Minutes", "Sleep:60 Minutes",
+		"Sleep:90 Minutes", "Sleep:120 Minutes" };
+	-->
+
+	<string-array name="nav_sleep_strings">
+		<item>Sleep:Off</item>
+		<item>Sleep:15 Minutes</item>
+		<item>Sleep:30 Minutes</item>
+		<item>Sleep:45 Minutes</item>
+		<item>Sleep:60 Minutes</item>
+		<item>Sleep:90 Minutes</item>
+		<item>Sleep:120 Minutes</item>
+	</string-array>
+	<string-array name="nav_zoom_strings">
+		<item>zoom X 1</item>
+		<item>zoom X 2</item>
+		<item>zoom X 1/2</item>
+	</string-array>
+	
+	<!-- OFF, Rock, Pop, Live, Dance, Techno, Classic and Soft -->
+	<string-array name="nav_s_effect_strings">
+        <item>Uživatel</item>
+		<item>Standardní</item>
+		<item>Live1</item>
+	</string-array>
+
+	<string-array name="nav_freeze_strings">
+		<item>Freeze: On</item>
+		<item>Freeze: Off</item>
+	</string-array>
+
+	<string-array name="nav_epg_filter_type">
+		<item>FILM</item>
+		<item>ZPRÁVY</item>
+		<item>POŘAD</item>
+		<item>SPORT</item>
+		<item>DĚTI</item>
+		<item>HUDBA</item>
+		<item>UMĚNÍ</item>
+		<item>SPOLEČNOST</item>
+		<item>VZDĚLÁVÁNÍ</item>
+		<item>VOLNÝ ČAS</item>
+		<item>SPECIÁLNÍ</item>
+	</string-array>
+	
+	<string-array name="nav_epg_filter_type_AUS">
+		<item>FILM</item>
+		<item>NYHETER</item>
+		<item>UNDERHÅLLNING</item>
+		<item>SPORT</item>
+		<item>BARNPROGRAM</item>
+		<item>MUSIK</item>
+		<item>KULTUR</item>
+		<item>AKTUELLA FRÅGOR</item>
+		<item>UTBILDNING</item>
+		<item>INFOTAINMENT</item>
+		<item>SPECIAL</item>
+		<item>KOMEDI</item>
+		<item>DRAMA</item>
+		<item>DOKUMENTÄR</item>
+	</string-array>
+	
+	<string-array name="nav_epg_filter_type_UK">
+		<item>FILM</item>
+		<item>NYHETER</item>
+		<item>UNDERHÅLLNING</item>
+		<item>SPORT</item>
+		<item>BARNPROGRAM</item>
+		<item>VZDĚLÁVÁNÍ</item>
+		<item>ŽIVOTNÍ STYL</item>
+		<item>DRAMA</item>
+	</string-array>
+	
+	<string-array name="nav_epg_filter_sa_type">
+		<item>NYHETER</item>
+		<item>SPORT</item>
+		<item>VZDĚLÁVÁNÍ</item>
+		<item>SOAP_OPERA</item>
+		<item>MINI_SERIES</item>
+		<item>SERIES</item>
+		<item>VARIETY</item>
+		<item>REALITY_SHOW</item>
+		<item>INFOMATION</item>
+		<item>COMICAL</item>
+		<item>CHILDREN</item>
+		<item>EROTIC</item>
+		<item>FILM</item>
+		<item>RA_TE_SA_PR</item>
+		<item>DEBATE_INTERVIEW</item>
+		<item>OTHER</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_movie">
+		<item>Drama</item>
+		<item>Detektivka</item>
+		<item>Dobrodružství</item>
+		<item>Scifi</item>
+		<item>Komedie</item>
+		<item>Seriál</item>
+		<item>Romantika</item>
+		<item>Vážná</item>
+		<item>Film pro dospělé</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_news">
+		<item>Aktuální události</item>
+		<item>PoĊasí</item>
+		<item>Zprávy</item>
+		<item>Dokument</item>
+		<item>Diskuze</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_news">
+		<item>Zprávy</item>
+		<item>Report</item>
+		<item>Dokument</item>
+		<item>Biography</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_show">
+		<item>Pořad</item>
+		<item>Herní pořad</item>
+		<item>Varietní pořad</item>
+		<item>Rozhovor</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_sports">
+		<item>Sport</item>
+		<item>Zvláštní události</item>
+		<item>Sportovní magazíny</item>
+		<item>Fotbal</item>
+		<item>Tennis</item>
+		<item>Skupinové sporty</item>
+		<item>Atletika</item>
+		<item>Motoristické sporty</item>
+		<item>Vodní sporty</item>
+		<item>Zimní sporty</item>
+		<item>Jezdectví</item>
+		<item>Bojové sporty</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_sports">
+		<item>Sport</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_children">
+		<item>Děti</item>
+		<item>Předškolní děti</item>
+		<item>Zábava pro 6 až 14</item>
+		<item>Zábava pro 10 až 16</item>
+		<item>Informativní</item>
+		<item>Kreslené</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_music">
+		<item>Hudba</item>
+		<item>Rock</item>
+		<item>Vážná</item>
+		<item>Folk</item>
+		<item>Jazz</item>
+		<item>Muzikál</item>
+		<item>Balet</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_arts">
+		<item>Umění</item>
+		<item>Užitné umění</item>
+		<item>Výtvarné umění</item>
+		<item>Náboženství</item>
+		<item>Lidová kultura</item>
+		<item>Literatura</item>
+		<item>Film</item>
+		<item>Experimentální</item>
+		<item>Vysílání</item>
+		<item>Nová média</item>
+		<item>Umělecké magazíny</item>
+		<item>Móda</item>
+	</string-array>
+	
+	<string-array name="nav_epg_subtype_social">
+		<item>SpoleĊnost</item>
+		<item>Magazíny</item>
+		<item>Ekonomika</item>
+		<item>Pozoruhodné osoby</item>
+	</string-array>
+	
+	<string-array name="nav_epg_subtype_education">
+		<item>Vzdělávání</item>
+		<item>Příroda</item>
+		<item>Technologie</item>
+		<item>Medicína</item>
+		<item>Cizí země</item>
+		<item>SpoleĊenské vědy</item>
+		<item>Další vzdělávání</item>
+		<item>Jazyky</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_education">
+		<item>Educative</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_soap_opera">
+		<item>Soap opera</item>
+	</string-array>
+	
+	<string-array name="nav_epg_subtype_sa_mini_series">
+		<item>Mini-series</item>
+	</string-array>
+	
+	<string-array name="nav_epg_subtype_sa_series">
+		<item>Seriály</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_variety">
+		<item>Auditorium</item>
+		<item>Show</item>
+		<item>Musikal</item>
+		<item>Making of</item>
+		<item>Feminine</item>
+		<item>Soutěžní pořad</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_reality_show">
+		<item>Reality show</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_information">
+		<item>Matlagning</item>
+		<item>Mode</item>
+		<item>Země</item>
+		<item>Health</item>
+		<item>Travel</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_comical">
+		<item>Comical</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_children">
+		<item>Children</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_erotic">
+		<item>Erotic</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_movie">
+		<item>Film</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_RA_TE_SA_PR">
+		<item>Raffle</item>
+		<item>Television sales</item>
+		<item>Prizing</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_DEBATE_INTERVIEW">
+		<item>Debatt</item>
+		<item>Interview</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_other">
+		<item>Adult cartoon</item>
+		<item>Interactive</item>
+		<item>Policy</item>
+		<item>Náboženství</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_leisure">
+		<item>Záliby</item>
+		<item>Turistika</item>
+		<item>Kutilství</item>
+		<item>Motorismus</item>
+		<item>Tělesná kondice a zdraví</item>
+		<item>Vaření</item>
+		<item>Reklamy</item>
+		<item>Zahrádkaření</item>
+	</string-array>
+	
+	<string-array name="nav_epg_subtype_special">
+		<item>Původní jazyk</item>
+		<item>ČB</item>
+		<item>Nepublikováno</item>
+		<item>Živé vysílání</item>
+	</string-array>
+
+
+	<!-- MTS -->
+	<string-array name="nav_mts_strings">
+		<item>UNKNOW</item>
+		<item>MONO</item>
+		<item>STEREO</item>
+		<item>SUB_LANG</item>
+		<item>DUAL1</item>
+		<item>DUAL2</item>
+		<item>NICAM_MONO</item>
+		<item>NICAM_STEREO</item>
+		<item>NICAM_DUAL1</item>
+		<item>NICAM_DUAL2</item>
+		<item>FM_MONO</item>
+		<item>FM_STEREO</item>
+	</string-array>
+
+	<!-- AUDIO_TVCM -->
+	<string-array name="nav_audio_tvcm_strings">
+		<item>baq</item>
+		<item>eus</item>
+		<item>bul</item>
+		<item>cat</item>
+		<item>scr</item>
+		<item>cze</item>
+		<item>dan</item>
+		<item>dut</item>
+		<item>eng</item>
+		<item>fin</item>
+		<item>fre</item>
+		<item>gla</item>
+		<item>gdh</item>
+		<item>gle</item>
+		<item>glg</item>
+		<item>ger</item>
+		<item>gre</item>
+		<item>hun</item>
+		<item>ita</item>
+		<item>nor</item>
+		<item>pol</item>
+		<item>por</item>
+		<item>rum</item>
+		<item>rus</item>
+		<item>scc</item>
+		<item>slo</item>
+		<item>slv</item>
+		<item>spa</item>
+		<item>swe</item>
+		<item>tur</item>
+		<item>wel</item>
+		<item>ice</item>
+		<item>isl</item>
+		<item>smi</item>
+		<item>tha</item>
+		<item>vie</item>
+		<item>ara</item>
+		<item>zho</item>
+		<item>chi</item>
+		<item>per</item>
+		<item>kor</item>
+		<item>est</item>
+		<item>mao</item>
+		<item>cmn</item>
+		<item>yue</item>
+		<item>jpn</item>
+		<item>hin</item>
+		<item>nar</item>
+		<item>qaa</item>
+		<item>und</item>
+	</string-array>
+
+	<!-- AUDIO -->
+	<string-array name="nav_audio_strings">
+		<item>Baskicky</item>
+		<item>Baskicky</item>
+		<item>Bulaarian</item>
+		<item>catalan</item>
+		<item>Chorvatsky</item>
+		<item>Česky</item>
+		<item>Dánsky</item>
+		<item>Holandsky</item>
+		<item>Anglicky</item>
+		<item>Finsky</item>
+		<item>french</item>
+		<item>gaelic</item>
+		<item>gaelic</item>
+		<item>Irish</item>
+		<item>gallegan</item>
+		<item>german</item>
+		<item>greek</item>
+		<item>hungarian</item>
+		<item>italian</item>
+		<item>norwegian</item>
+		<item>polish</item>
+		<item>portuguese</item>
+		<item>romanian</item>
+		<item>russian</item>
+		<item>serbian</item>
+		<item>slovak</item>
+		<item>slovenian</item>
+		<item>spanish</item>
+		<item>swedish</item>
+		<item>turkish</item>
+		<item>welsh</item>
+		<item>icelandic</item>
+		<item>icelandic</item>
+		<item>Sami langs</item>
+		<item>Thaj.</item>
+		<item>Vietnam.</item>
+		<item>Arabšt.</item>
+		<item>T. Chinese</item>
+		<item>S. Chinese</item>
+		<item>Perština</item>
+		<item>Korejsky</item>
+		<item>Estonština</item>
+		<item>maorština</item>
+		<item>mandarínština </item>
+		<item>kantonština</item>
+		<item>japonština </item>
+		<item>hindština    </item>
+		<item>Narrative</item>
+		<item>Original Version for France</item>
+		<item>Není definováno</item>
+	</string-array>
+
+	<string-array name="nav_bottom_volume">
+		<item>Celková hlasitost</item>
+		<item>Hlasitost levého předního reproduktoru</item>
+		<item>Hlasitost pravého předního reproduktoru</item>
+		<item>Hlasitost zadního levého reproduktoru</item>
+		<item>Hlasitost zadního pravého reproduktoru</item>
+		<item>Hlasitost středního reproduktoru</item>
+		<item>Hlasitost subwooferu</item>
+	</string-array>
+
+    <string-array name="nav_zoom_mode">
+		<item>Zoom x 1/2</item>
+		<item>Zoom x 1</item>
+		<item>Zoom x 2</item>
+	</string-array>
+
+	<string-array name="nav_receiver_type">
+		<item>Kabel</item>
+		<item>Antenne</item>
+	</string-array>
+	<string-array name="pvr_tshift_initdisk_step1">
+		<item>Automaticky</item>
+		<item>Manual</item>
+	</string-array>
+	<string-array name="pvr_tshift_initdisk_step_format">
+		<item>Format</item>
+		<item>PřeskoĊit</item>
+	</string-array>
+	<string-array name="pvr_tshift_initdisk_step_formatconfirm">
+		<item>Format</item>
+		<item>Annuller</item>
+	</string-array>
+	
+	<string-array name="week_day">
+	    <item>neděle</item>
+		<item>pondělí</item>
+		<item>úterý</item>
+		<item>středa</item>
+		<item>Čtvrtek</item>
+		<item>Pátek</item>
+		<item>Sobota</item>
+	</string-array>
+    <string-array name="nav_oad_btns_cancel">
+        <item>Annuller</item>
+    </string-array>
+    <string-array name="nav_oad_btns_accept_remind_me_later">
+        <item>Přijmout</item>
+        <item>Připomenout později</item>
+    </string-array>
+    <string-array name="nav_oad_btns_accept_reject">
+        <item>Přijmout</item>
+        <item>Odmítnout</item>
+    </string-array>
+    
+    <string-array name="nav_oad_btns_yes_no">
+        <item>Ano</item>
+        <item>NE</item>
+    </string-array>
+
+
+
+
+
+	<!--				
+				0:	MSG_STR_ID_EMPTY,						hide screen saver
+     				1:	MSG_STR_ID_NO_SIGNAL,					No Signal!
+     				2:	MSG_STR_ID_SCAN_CH,					Please Scan Channels!
+     				3:	MSG_STR_ID_GETTING_DATA,				Retrieving Data...
+     				4:	MSG_STR_ID_LOCKED_CH,					Channel Locked!
+     				5:	MSG_STR_ID_LOCKED_PROG,				Program Locked!
+     				6:	MSG_STR_ID_LOCKED_INP,					Input Locked!
+     				7:	MSG_STR_ID_NO_EVN_TILE,					(No program title.)
+     				8:	MSG_STR_ID_HIDDEN_CH,					Hidden Channel!
+     				9:	MSG_STR_ID_AUDIO_PROG,					Audio Program
+     				10:	MSG_STR_ID_NO_AUDIO_VIDEO,			No Audio and Video
+     				11:	MSG_STR_ID_NO_EVN_DTIL,				(No program details.)
+     				12:	MSG_STR_ID_NO_CH_DTIL,					(No channel details.)
+     				13:	MSG_STR_ID_NO_AUDIO_STRM,				no audio stream ??
+     				14:	MSG_STR_ID_NO_VIDEO_STRM,				no video stream ??
+     				15:	MSG_STR_ID_PLS_WAIT,					Please Wait...
+     				16:	MSG_STR_ID_VIDEO_NOT_SUPPORT,			video not support ??
+     				17:	MSG_STR_ID_HD_VIDEO_NOT_SUPPORT,		HD Service
+     				18:	MSG_STR_ID_NON_BRDCSTING,				Non-Broadcasting
+     				19:	MSG_STR_ID_NO_CH_IN_LIST,				no channel ??
+     				20:	MSG_STR_ID_TTX_SBTI_X_RATED_BLOCKED,	This content is blocked by your service provider
+     				255:	MSG_STR_ID_LAST_VALID_ENTRY,			only for counting purpose
+    -->
+	<string-array name="nav_twinkle_strings">
+		<item>  </item>
+		<item>Žádný signál!</item>
+		<item>Vyhledejte kanály!</item>
+		<item>NaĊítání dat...</item>
+		<item>Kanál uzamĊen!</item>
+		<item>Program uzamĊen!</item>
+		<item>Vstup uzamčen!</item>
+		<item>(Ingen programtitel.)</item>
+		<item>Skrytý kanál!</item>
+		<item>Zvukový program</item>
+		<item>Žádný zvuk a video</item>
+		<item>(Inga programdetaljer.)</item>
+		<item>(Žádné podrobnosti o kanálu.)</item>
+		<item>♪ No Audio Stream ♪</item>
+		<item>No Video Stream</item>
+		<item>PoĊkejte prosím...</item>
+		<item>Video not Support</item>
+		<item>Služba HD</item>
+		<item>Non-Broadcasting</item>
+		<item>No Channel</item>
+		<item>This content is blocked by your service provider</item>
+		<item>Kodad</item>
+	</string-array>
+
+
+	<string-array name="nav_channel_type">
+		<item>All</item>
+		<item>Digitální</item>
+		<item>Rádio</item>
+		<item>Analogové</item>
+	</string-array>
+
+
+    
+</resources>
+

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- for data-ENQ -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/menu_ci_enq_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:gravity="left|center_vertical"
+        android:paddingBottom="@dimen/nav_channel_details_channel_info_padding"
+        android:paddingLeft="8dp"
+        android:paddingTop="@dimen/nav_channel_details_channel_info_padding"
+        android:textSize="@dimen/middle_text_size" />
+
+    <TextView
+        android:id="@+id/menu_ci_enq_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:gravity="left|center_vertical"
+        android:paddingBottom="@dimen/nav_channel_details_channel_info_padding"
+        android:paddingLeft="8dp"
+        android:paddingTop="@dimen/nav_channel_details_channel_info_padding"
+        android:textSize="@dimen/middle_text_size" />
+
+    <TextView
+        android:id="@+id/menu_ci_enq_subtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:gravity="left|center_vertical"
+        android:paddingBottom="@dimen/nav_channel_details_channel_info_padding"
+        android:paddingLeft="8dp"
+        android:paddingTop="@dimen/nav_channel_details_channel_info_padding"
+        android:textSize="@dimen/middle_text_size" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@color/nav_ch_list_view_back"
+        android:orientation="vertical" >
+
+        <fragment
+            android:id="@+id/menu_ci_enq_input"
+            android:name="com.mediatek.wwtv.tvcenter.nav.view.ciview.PwdPincodeFragment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+    </LinearLayout>
+
+</LinearLayout>

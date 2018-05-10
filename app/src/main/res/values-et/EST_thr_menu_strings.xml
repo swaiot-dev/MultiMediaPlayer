@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+              
+    <string name="thr_menu_common_setting">Common Setting</string>
+    <string name="thr_menu_confim">confirm</string>
+    <string name="thr_menu_cancal">Välju</string>
+    <string name="thr_menu">Меню </string>
+    <string name="thr_menu_select">Vali</string>
+    
+    <string name="thr_menu_picture_mode">Pildirežiim</string>
+    <string name="thr_menu_track">Audio Track</string> 
+    <string name="thr_menu_Equalizer">Ekvalaiser</string>
+    <string name="thr_menu_volume">Helitug</string>
+    
+    
+    
+</resources>
+

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<!--     <dimen name="setup_wizard_margin">20dp</dimen>
+    <dimen name="setup_wizard_margin_1">35dp</dimen>
+    <dimen name="setup_wizard_margin_2">40dp</dimen>
+    <dimen name="setup_wizard_list_padding">-10dp</dimen>
+    <dimen name="setup_wizard_height">45dp</dimen>
+
+    <dimen name="setup_wizard_pad_foot">30dp</dimen>
+    <dimen name="setup_wizard_pad_left_right">30dp</dimen>
+    <dimen name="setup_wizard_textsize">16sp</dimen>
+    <dimen name="setup_wizard_common_textsize">13sp</dimen>
+    <dimen name="setup_wizard_common_padding">10dip</dimen>
+ -->
+</resources>

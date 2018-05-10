@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:lb="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout_choose_menu"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="@dimen/choose_menu_popup_height">
+
+    <RadioGroup
+        android:id="@+id/layout_category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingEnd="20dip"
+        android:paddingStart="20dip">
+
+        <RadioButton
+            android:id="@+id/btn_movie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:button="@null"
+            android:paddingStart="30dp"
+            android:shadowColor="@color/row_item_text_shadow"
+            android:shadowDx="3"
+            android:shadowDy="3"
+            android:shadowRadius="8"
+            android:text="@string/mmp_content_type_movie"
+            android:textColor="@drawable/category_text"
+            android:textSize="@dimen/row_item_text_category" />
+
+        <RadioButton
+            android:id="@+id/btn_picture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="45dp"
+            android:layout_marginStart="45dp"
+            android:background="@android:color/transparent"
+            android:button="@null"
+            android:nextFocusLeft="@id/btn_movie"
+            android:paddingEnd="10dp"
+            android:paddingStart="10dp"
+            android:shadowColor="@color/row_item_text_shadow"
+            android:shadowDx="3"
+            android:shadowDy="3"
+            android:shadowRadius="8"
+            android:text="@string/mmp_content_type_picture"
+            android:textColor="@drawable/category_text"
+            android:textSize="@dimen/row_item_text_category" />
+
+        <RadioButton
+            android:id="@+id/btn_music"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="55dp"
+            android:background="@android:color/transparent"
+            android:button="@null"
+            android:nextFocusLeft="@id/btn_picture"
+            android:paddingEnd="20dp"
+            android:shadowColor="#000000"
+            android:shadowDx="3"
+            android:shadowDy="3"
+            android:shadowRadius="8"
+            android:text="@string/mmp_content_type_music"
+            android:textColor="@drawable/category_text"
+            android:textSize="@dimen/row_item_text_category" />
+
+    </RadioGroup>
+
+    <android.support.v17.leanback.widget.HorizontalGridView
+        android:id="@+id/row_content"
+        style="?attr/rowHorizontalGridStyle"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/grid_item_layout_height"
+        android:paddingTop="@dimen/grid_item_padding_top"
+        android:paddingLeft="@dimen/grid_item_padding_left"
+        android:paddingRight="@dimen/grid_item_padding_right"
+        android:clipToPadding="false" />
+</LinearLayout>

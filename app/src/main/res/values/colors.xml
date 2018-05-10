@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<color name="white">#ffffff</color>
+	<color name="black">#ff000000</color>
+	<color name="transparent">#00000000</color>
+	<color name="capture_gray_background">#ff888888</color>
+	<color name="video_text_color">#00FFFFFF</color>
+	<color name="menu_main_MenuSetUpListView">#00000000</color>
+	<color name="epg_divider">#33cccccc</color>
+	<color name="mmp_blue">#004988</color>
+	<color name="sundry_color">#cc303030</color>
+	<drawable name="translucent_background">
+		#00000000
+	</drawable>
+	<drawable name="tvview_background">
+		#fff74dff
+	</drawable>
+	<drawable name="tv_background">
+		#00000000
+    </drawable>
+    <color name="mmp_videoplay_color">#000000</color>
+    <color name="mmp_asycgriditem_color">#1affffff</color>
+	<color name="mmp_asycgriditem_text_bg">#1B1B1B</color>
+	<color name="mmp_seek_time_color">#00000000</color>
+	<color name="dark_yellow">#fffefe11</color>
+	<!-- password control box-yellow -->
+	<color name="nav_parental_ed">#D9D919</color>
+
+	<drawable name="red">#7f00</drawable>
+	<drawable name="blue">#770000ff</drawable>
+	<drawable name="green">#7700ff00</drawable>
+	<drawable name="yellow">#77ffff00</drawable>
+    <drawable name="white">#ffffffff</drawable>
+	
+	<drawable name="screen_background_black">#ff000000</drawable>
+	<!--<drawable name="translucent_background">#e0000000</drawable>
+	-->
+	<drawable name="transparent_background">#00000000</drawable>
+
+	<color name="solid_red">#f00</color>
+	<color name="solid_blue">#0000ff</color>
+	<color name="solid_green">#7cfc00</color>
+	<color name="solid_yellow">#ffffff00</color>
+	<color name="mmp_black">#00000000</color>
+
+	<color name="progress_start">#ff454543</color>
+	<color name="progress_end">#ff453452</color>
+
+	<color name="blue">#003cd2</color>
+	<color name="stop_blue">#ff0000ff</color>
+	<color name="red">#80ff0000</color>
+	<color name="translucent_black">#AA000000</color>
+	<color name="blue_transparent">#003cd200</color>
+	<color name="translucent_gray">#AA000000</color>
+	<color name="blue_start">#0f93b8</color>
+	<color name="green_list_head">#b8d272</color>
+	<color name="gray">#B7B8BE</color>
+	<color name="siwhite">#FFFFFFFD</color>
+	<color name="darkwhite">#FFFFFF</color>
+
+	<color name="lightblue">#87cefa</color>
+	<color name="yellow">#77ffff00</color>
+	
+	<color name="finishpercentage_color">#ffff33</color>
+		
+	
+	<color name="focus_black">#ff005500</color>
+	<color name="focus_red">#55553322</color>
+	
+	<color name="list_con">#22556678</color>
+	<color name="list_bian">#55668877</color>
+	<color name="ttx_top">#ff00529b</color>
+	<color name="setup_password_bg">#22ffffff</color>
+	
+	<!-- Google GMS UI style -->
+	<drawable name="nav_ch_list">#999999</drawable>
+	<drawable name="epg_list_item">#0099cc</drawable>
+	<drawable name="epg_list_item_normal">#333333</drawable>
+	<color name="nav_ch_list_view_back">#39414a</color>
+	<color name="nav_ch_list_title_back">#0089d6</color>
+	<color name="pin_dialog_text_color">#C0EEEEEE</color>
+	<color name="pin_number_picker_focused_background">#4B5459</color>
+	
+	<color name="icon_background">#FF4A4F51</color>
+	<color name="pin_dialog_background">#384248</color>
+	<color name="dialog_activity_background">#77000000</color>
+    <color name="action_fragment_background">#FF111111</color>
+    <color name="content_breadcrumb_text_color">#88F1F1F1</color>
+    <color name="content_description_text_color">#88F1F1F1</color>
+    <color name="content_fragment_default_icon_color">#33F1F1F1</color>
+    <color name="content_title_text_color">#FFF1F1F1</color>
+    <color name="selector_color">#0DFFFFFF</color>    
+    <color name="tv_white">#FFCCCCCC</color>
+    
+
+    <color name="list_item_selected_description_text_color">#FFF1F1F1</color>
+    <color name="list_item_selected_title_text_color">#FFF1F1F1</color>
+    <color name="list_item_unselected_text_color">#FFF1F1F1</color>
+
+    <color name="toast_notification_background">#881F1F1F</color>
+    <color name="toast_notification_text_color">#FFF0F0F0</color>
+
+    <item name="list_item_selected_description_text_alpha" format="float" type="dimen">0.50</item>
+    <item name="list_item_selected_title_text_alpha" format="float" type="dimen">1.00</item>
+    <item name="list_item_unselected_text_alpha" format="float" type="dimen">1.00</item>
+    <item name="list_item_disabled_chevron_background_alpha" format="float" type="dimen">0.50</item>
+    <item name="list_item_disabled_description_text_alpha" format="float" type="dimen">0.50</item>
+    <item name="list_item_disabled_title_text_alpha" format="float" type="dimen">0.50</item>
+    <item name="list_item_selected_chevron_background_alpha" format="float" type="dimen">1.00</item>
+    <item name="list_item_unselected_description_text_alpha" format="float" type="dimen">0.50</item>
+    <color name="overlay_blended_light_primary">#ffeeeeee</color>
+    <color name="overlay_blended_light_secondary">#ff878787</color>
+    <color name="mmp_button_normal">#ff565659</color>
+    <color name="mmp_button_focus">#ff354372</color>
+	<color name="dialog_button_focus">#3c3c3c</color>
+    
+    <!--CI CARD   -->
+    <drawable name="ci_nav_input_pwd">#4b5459</drawable>
+    <drawable name="ci_epg_list_item">#800176BC</drawable>
+    <color name="mmp_files_left_bg">#1F1F1F1F</color>
+    <!-- SKY luojie 20180103 modify for UI begin -->
+    <color name="mmp_files_right_bg">#333a3d</color>
+    <!-- SKY luojie 20180103 modify for UI end -->
+
+    <color name="row_item_background">#0096a6</color>
+    <color name="row_item_text">#8c8c8c</color>
+    <color name="row_item_text_shadow">#363636</color>
+
+    <!-- SKY luojie 20180103 modify for UI begin -->
+    <color name="menu_list_bg">#E5263238</color>
+    <color name="toolbar_playerbar_test_bg">#E5000000</color>
+    <color name="mmp_popup_menu_item_select_color">#146c94</color>
+    <color name="mmp_asycgriditem_color_normal">#1affffff</color>
+    <color name="mmp_asycgriditem_color_selected">#146c9d</color>
+    <!-- SKY luojie 20180103 modify for UI end -->
+
+	<color name="select_no_focused">#FFFFFF</color>
+	<color name="select_and_focused">#146C9D</color>
+	<color name="no_select_no_focused">#80FFFFFF</color>
+
+	<color name="colorDefaultStart">#5F018D</color>
+	<color name="colorDefaultEnd">#CA005F</color>
+
+</resources>
+

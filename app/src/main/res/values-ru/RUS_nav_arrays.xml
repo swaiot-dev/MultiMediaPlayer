@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+	<string-array name="nav_channel_types">
+		<item>All</item>
+		<!--<item>Аналоговый</item>
+		<item>Цифровой</item>-->
+		<item>Радио</item>
+	</string-array>
+	<!--
+
+		{ "Auto", "Normal", "LetterBox", "Zoom", "Panorama", "Dot by Dot" }
+	-->
+	<!--
+		<string-array name="nav_aspect_strings"> <item>Авто</item>
+		<item>Normal</item> <item>LetterBox</item> <item>Увеличение</item>
+		<item>Panorama</item> <item>Режим без интерполяции</item> </string-array>
+	-->
+	<!--
+		"Sleep:Off", "Sleep: 10 Minutes", "Sleep:20 Minutes", "Sleep:30
+		Minutes", "Sleep:40 Minutes", "Sleep:50 Minutes", "Sleep:60 Minutes",
+		"Sleep:90 Minutes", "Sleep:120 Minutes" };
+	-->
+
+	<string-array name="nav_sleep_strings">
+		<item>Sleep:Off</item>
+		<item>Sleep:15 Minutes</item>
+		<item>Sleep:30 Minutes</item>
+		<item>Sleep:45 Minutes</item>
+		<item>Sleep:60 Minutes</item>
+		<item>Sleep:90 Minutes</item>
+		<item>Sleep:120 Minutes</item>
+	</string-array>
+	<string-array name="nav_zoom_strings">
+		<item>zoom X 1</item>
+		<item>zoom X 2</item>
+		<item>zoom X 1/2</item>
+	</string-array>
+	
+	<!-- OFF, Rock, Pop, Live, Dance, Techno, Classic and Soft -->
+	<string-array name="nav_s_effect_strings">
+        <item>Пользовательский</item>
+		<item>Стандарт</item>
+		<item>Live1</item>
+	</string-array>
+
+	<string-array name="nav_freeze_strings">
+		<item>Freeze: On</item>
+		<item>Freeze: Off</item>
+	</string-array>
+	
+	<string-array name="nav_epg_filter_type">
+		<item>ФИЛЬМЫ</item>
+		<item>НОВОСТИ</item>
+		<item>ШОУ</item>
+		<item>СПОРТ</item>
+		<item>ДЛЯ ДЕТЕЙ</item>
+		<item>МУЗЫКА</item>
+		<item>ИСКУССТВО</item>
+		<item>СОЦИАЛЬНЫЕ</item>
+		<item>ОБРАЗОВАНИЕ</item>
+		<item>ДОСУГ</item>
+		<item>СПЕЦИАЛЬНЫЕ</item>
+	</string-array>
+	
+	<string-array name="nav_epg_filter_type_AUS">
+		<item>КИНО</item>
+		<item>НОВОСТИ</item>
+		<item>РАЗВЛЕКАТЕЛЬНЫЙ</item>
+		<item>СПОРТИВНЫЙ</item>
+		<item>ДЕТСКИЙ</item>
+		<item>МУЗЫКА</item>
+		<item>ИСКУССТВО</item>
+		<item>ТЕКУЩИЕ СОБЫТИЯ</item>
+		<item>ОБРАЗОВАНИЕ</item>
+		<item>ИНФОРМАЦ.-РАЗВЛЕКАТ-Й</item>
+		<item>СПЕЦИАЛЬНЫЙ</item>
+		<item>КОМЕ</item>
+		<item>ДРАМА</item>
+		<item>ДОКУМЕНТАЛЬНЫЙ</item>
+	</string-array>
+	
+	<string-array name="nav_epg_filter_type_UK">
+		<item>КИНО</item>
+		<item>НОВОСТИ</item>
+		<item>РАЗВЛЕКАТЕЛЬНЫЙ</item>
+		<item>СПОРТИВНЫЙ</item>
+		<item>ДЕТСКИЙ</item>
+		<item>ОБРАЗОВАНИЕ</item>
+		<item>ОБРАЗЖИЗНИ</item>
+		<item>ДРАМА</item>
+	</string-array>
+	
+	<string-array name="nav_epg_filter_sa_type">
+		<item>НОВОСТИ</item>
+		<item>СПОРТИВНЫЙ</item>
+		<item>ОБРАЗОВАНИЕ</item>
+		<item>SOAP_OPERA</item>
+		<item>MINI_SERIES</item>
+		<item>SERIES</item>
+		<item>VARIETY</item>
+		<item>REALITY_SHOW</item>
+		<item>INFOMATION</item>
+		<item>COMICAL</item>
+		<item>CHILDREN</item>
+		<item>EROTIC</item>
+		<item>КИНО</item>
+		<item>RA_TE_SA_PR</item>
+		<item>DEBATE_INTERVIEW</item>
+		<item>OTHER</item>
+	</string-array>
+	
+	<string-array name="nav_epg_subtype_movie">
+		<item>Драмы</item>
+		<item>Детективы</item>
+		<item>Приключения</item>
+		<item>Научная фантастика</item>
+		<item>Комедии</item>
+		<item>Сериалы</item>
+		<item>Романтика</item>
+		<item>Серьезные</item>
+		<item>Для взрослых</item>
+	</string-array>
+	
+	<string-array name="nav_epg_subtype_news">
+		<item>Текущая информация</item>
+		<item>Прогноз погоды</item>
+		<item>Информационно-аналитические</item>
+		<item>Документальные</item>
+		<item>Дискуссионные</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_news">
+		<item>НОВОСТИ</item>
+		<item>Report</item>
+		<item>ДОКУМЕНТАЛЬНЫЙ</item>
+		<item>Biography</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_show">
+		<item>Шоу</item>
+		<item>Игровые шоу</item>
+		<item>Эстрадные шоу</item>
+		<item>Ток-шоу</item>
+	</string-array>
+	
+	<string-array name="nav_epg_subtype_sports">
+		<item>Спорт</item>
+		<item>Особые события</item>
+		<item>Спортивные обзоры</item>
+		<item>Футбол</item>
+		<item>Теннис</item>
+		<item>Командные виды спорта</item>
+		<item>Атлетика</item>
+		<item>Мотоспорт</item>
+		<item>Водные виды спорта</item>
+		<item>Зимние виды спорта</item>
+		<item>Конный спорт</item>
+		<item>Единоборства</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_sports">
+		<item>СПОРТИВНЫЙ</item>
+	</string-array>
+	
+	<string-array name="nav_epg_subtype_children">
+		<item>Для детей</item>
+		<item>Для дошкольников</item>
+		<item>Развлекательные для детей от 6 до 14 лет</item>
+		<item>Развлекательные для детей от 10 до 16 лет</item>
+		<item>Информационные</item>
+		<item>Мультфильмы</item>
+	</string-array>
+	
+	<string-array name="nav_epg_subtype_music">
+		<item>Музыка</item>
+		<item>Рок</item>
+		<item>Серьезная</item>
+		<item>Фольклор</item>
+		<item>Джаз</item>
+		<item>Инструментальная</item>
+		<item>Балет</item>
+	</string-array>
+	
+	<string-array name="nav_epg_subtype_arts">
+		<item>Искусство</item>
+		<item>Исполнительское искусство</item>
+		<item>Изобразительное искусство</item>
+		<item>Религия</item>
+		<item>Массовая культура</item>
+		<item>Литература</item>
+		<item>Фильмы</item>
+		<item>Экспериментальный жанр</item>
+		<item>Вещание</item>
+		<item>Новые СМИ</item>
+		<item>Журналы об искусстве</item>
+		<item>Мода</item>
+	</string-array>
+	
+	<string-array name="nav_epg_subtype_social">
+		<item>Социальные</item>
+		<item>Журналы</item>
+		<item>Экономика</item>
+		<item>Выдающиеся люди</item>
+	</string-array>
+	
+	<string-array name="nav_epg_subtype_education">
+		<item>Образование</item>
+		<item>Природа</item>
+		<item>Технология</item>
+		<item>Медицина</item>
+		<item>Зарубежные страны</item>
+		<item>Общественные науки</item>
+		<item>Дополнительное образование</item>
+		<item>Языки</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_education">
+		<item>Educative</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_soap_opera">
+		<item>Soap opera</item>
+	</string-array>
+	
+	<string-array name="nav_epg_subtype_sa_mini_series">
+		<item>Mini-series</item>
+	</string-array>
+	
+	<string-array name="nav_epg_subtype_sa_series">
+		<item>ТЕЛЕСЕРИАЛЫ</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_variety">
+		<item>Auditorium</item>
+		<item>Шоу</item>
+		<item>Музыкальный</item>
+		<item>Making of</item>
+		<item>Feminine</item>
+		<item>Телевикторина</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_reality_show">
+		<item>Reality show</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_information">
+		<item>Кулинария</item>
+		<item>Мода</item>
+		<item>Страна</item>
+		<item>Health</item>
+		<item>Travel</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_comical">
+		<item>Comical</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_children">
+		<item>Children</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_erotic">
+		<item>Erotic</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_movie">
+		<item>КИНО</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_RA_TE_SA_PR">
+		<item>Raffle</item>
+		<item>Television sales</item>
+		<item>Prizing</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_DEBATE_INTERVIEW">
+		<item>Дебаты</item>
+		<item>Interview</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_other">
+		<item>Adult cartoon</item>
+		<item>Interactive</item>
+		<item>Policy</item>
+		<item>РЕЛИГИЯ</item>
+	</string-array>
+	
+	<string-array name="nav_epg_subtype_leisure">
+		<item>Хобби и досуг</item>
+		<item>Туризм</item>
+		<item>Ремесла</item>
+		<item>Автомобили</item>
+		<item>Фитнес и здоровье</item>
+		<item>Кулинария</item>
+		<item>Реклама</item>
+		<item>Садоводство</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_special">
+		<item>Язык оригинала</item>
+		<item>Черно-белые</item>
+		<item>Неопубликованный</item>
+		<item>Прямой эфир</item>
+	</string-array>
+
+
+	<!-- MTS -->
+	<string-array name="nav_mts_strings">
+		<item>UNKNOW</item>
+		<item>MONO</item>
+		<item>STEREO</item>
+		<item>SUB_LANG</item>
+		<item>DUAL1</item>
+		<item>DUAL2</item>
+		<item>NICAM_MONO</item>
+		<item>NICAM_STEREO</item>
+		<item>NICAM_DUAL1</item>
+		<item>NICAM_DUAL2</item>
+		<item>FM_MONO</item>
+		<item>FM_STEREO</item>
+	</string-array>
+
+	<!-- AUDIO_TVCM -->
+	<string-array name="nav_audio_tvcm_strings">
+		<item>baq</item>
+		<item>eus</item>
+		<item>bul</item>
+		<item>cat</item>
+		<item>scr</item>
+		<item>cze</item>
+		<item>dan</item>
+		<item>dut</item>
+		<item>eng</item>
+		<item>fin</item>
+		<item>fre</item>
+		<item>gla</item>
+		<item>gdh</item>
+		<item>gle</item>
+		<item>glg</item>
+		<item>ger</item>
+		<item>gre</item>
+		<item>hun</item>
+		<item>ita</item>
+		<item>nor</item>
+		<item>pol</item>
+		<item>por</item>
+		<item>rum</item>
+		<item>rus</item>
+		<item>scc</item>
+		<item>slo</item>
+		<item>slv</item>
+		<item>spa</item>
+		<item>swe</item>
+		<item>tur</item>
+		<item>wel</item>
+		<item>ice</item>
+		<item>isl</item>
+		<item>smi</item>
+		<item>tha</item>
+		<item>vie</item>
+		<item>ara</item>
+		<item>zho</item>
+		<item>chi</item>
+		<item>per</item>
+		<item>kor</item>
+		<item>est</item>
+		<item>mao</item>
+		<item>cmn</item>
+		<item>yue</item>
+		<item>jpn</item>
+		<item>hin</item>
+		<item>nar</item>
+		<item>qaa</item>
+		<item>und</item>
+	</string-array>
+
+	<!-- AUDIO -->
+	<string-array name="nav_audio_strings">
+		<item>Баскский</item>
+		<item>Баскский</item>
+		<item>Bulaarian</item>
+		<item>catalan</item>
+		<item>Хорватский</item>
+		<item>Чешский</item>
+		<item>Датский</item>
+		<item>Голландский</item>
+		<item>Английский</item>
+		<item>Финский</item>
+		<item>french</item>
+		<item>gaelic</item>
+		<item>gaelic</item>
+		<item>Irish</item>
+		<item>gallegan</item>
+		<item>german</item>
+		<item>greek</item>
+		<item>hungarian</item>
+		<item>italian</item>
+		<item>norwegian</item>
+		<item>polish</item>
+		<item>portuguese</item>
+		<item>romanian</item>
+		<item>russian</item>
+		<item>serbian</item>
+		<item>slovak</item>
+		<item>slovenian</item>
+		<item>spanish</item>
+		<item>swedish</item>
+		<item>turkish</item>
+		<item>welsh</item>
+		<item>icelandic</item>
+		<item>icelandic</item>
+		<item>Sami langs</item>
+		<item>Тайский</item>
+		<item>Вьетнамский</item>
+		<item>Арабский</item>
+		<item>T. Chinese</item>
+		<item>S. Chinese</item>
+		<item>Иранский</item>
+		<item>Корейский</item>
+		<item>Эстонский</item>
+		<item>Маори</item>
+		<item>Мандариновый </item>
+		<item>Кантонский</item>
+		<item>Японский </item>
+		<item>Хинди    </item>
+		<item>Narrative</item>
+		<item>Original Version for France</item>
+		<item>Не указано</item>
+	</string-array>
+
+	<string-array name="nav_bottom_volume">
+		<item>Основная громк.</item>
+		<item>Громк. фронтального левого канала</item>
+		<item>Громк. фронтального правого канала</item>
+		<item>Громк. тылового левого канала</item>
+		<item>Громк. тылового правого канала</item>
+		<item>Громк. центрального канала</item>
+		<item>Громк. сабвуфера</item>
+	</string-array>
+
+    <string-array name="nav_zoom_mode">
+		<item>Zoom x 1/2</item>
+		<item>Zoom x 1</item>
+		<item>Zoom x 2</item>
+	</string-array>
+
+	<string-array name="nav_receiver_type">
+		<item>Kabl</item>
+		<item>Antena</item>
+	</string-array>
+	<string-array name="pvr_tshift_initdisk_step1">
+		<item>Авто</item>
+		<item>Manual</item>
+	</string-array>
+	<string-array name="pvr_tshift_initdisk_step_format">
+		<item>Format</item>
+		<item>Пропустить</item>
+	</string-array>
+	<string-array name="pvr_tshift_initdisk_step_formatconfirm">
+		<item>Format</item>
+		<item>Otkaži</item>
+	</string-array>
+	
+	<string-array name="week_day">
+	    <item>Воскресенье</item>
+		<item>Вторник</item>
+		<item>Среда</item>
+		<item>Четверг</item>
+		<item>Пятница</item>
+		<item>Суббота</item>
+		<item>Воскресенье</item>
+	</string-array>
+    <string-array name="nav_oad_btns_cancel">
+        <item>Otkaži</item>
+    </string-array>
+    <string-array name="nav_oad_btns_accept_remind_me_later">
+        <item>Принять</item>
+        <item>Напомнить позже</item>
+    </string-array>
+    <string-array name="nav_oad_btns_accept_reject">
+        <item>Принять</item>
+        <item>Отклонить</item>
+    </string-array>
+    
+    <string-array name="nav_oad_btns_yes_no">
+        <item>Да</item>
+        <item>НЕТ</item>
+    </string-array>
+
+
+
+
+
+	<!--				
+				0:	MSG_STR_ID_EMPTY,						hide screen saver
+     				1:	MSG_STR_ID_NO_SIGNAL,					No Signal!
+     				2:	MSG_STR_ID_SCAN_CH,					Please Scan Channels!
+     				3:	MSG_STR_ID_GETTING_DATA,				Retrieving Data...
+     				4:	MSG_STR_ID_LOCKED_CH,					Channel Locked!
+     				5:	MSG_STR_ID_LOCKED_PROG,				Program Locked!
+     				6:	MSG_STR_ID_LOCKED_INP,					Input Locked!
+     				7:	MSG_STR_ID_NO_EVN_TILE,					(No program title.)
+     				8:	MSG_STR_ID_HIDDEN_CH,					Hidden Channel!
+     				9:	MSG_STR_ID_AUDIO_PROG,					Audio Program
+     				10:	MSG_STR_ID_NO_AUDIO_VIDEO,			No Audio and Video
+     				11:	MSG_STR_ID_NO_EVN_DTIL,				(No program details.)
+     				12:	MSG_STR_ID_NO_CH_DTIL,					(No channel details.)
+     				13:	MSG_STR_ID_NO_AUDIO_STRM,				no audio stream ??
+     				14:	MSG_STR_ID_NO_VIDEO_STRM,				no video stream ??
+     				15:	MSG_STR_ID_PLS_WAIT,					Please Wait...
+     				16:	MSG_STR_ID_VIDEO_NOT_SUPPORT,			video not support ??
+     				17:	MSG_STR_ID_HD_VIDEO_NOT_SUPPORT,		HD Service
+     				18:	MSG_STR_ID_NON_BRDCSTING,				Non-Broadcasting
+     				19:	MSG_STR_ID_NO_CH_IN_LIST,				no channel ??
+     				20:	MSG_STR_ID_TTX_SBTI_X_RATED_BLOCKED,	This content is blocked by your service provider
+     				255:	MSG_STR_ID_LAST_VALID_ENTRY,			only for counting purpose
+    -->
+	<string-array name="nav_twinkle_strings">
+		<item>  </item>
+		<item>Нет сигнала!</item>
+		<item>Выполните поиск каналов!</item>
+		<item>Получение данных...</item>
+		<item>Канал заблокирован!</item>
+		<item>Программа заблокирована!</item>
+		<item>Вход заблокирован!</item>
+		<item>(Заголовок программы отсут-ет.)</item>
+		<item>Скрытый канал!</item>
+		<item>Звуковая программа</item>
+		<item>Нет звука и видеоизображения</item>
+		<item>(Нет данный о программе.)</item>
+		<item>(Нет сведений о канале.)</item>
+		<item>♪ No Audio Stream ♪</item>
+		<item>No Video Stream</item>
+		<item>Подождите...</item>
+		<item>Video not Support</item>
+		<item>Обслуживание жесткого диска</item>
+		<item>Non-Broadcasting</item>
+		<item>No Channel</item>
+		<item>This content is blocked by your service provider</item>
+		<item>Зашифрованный</item>
+	</string-array>
+
+
+	<string-array name="nav_channel_type">
+		<item>All</item>
+		<item>Цифровой</item>
+		<item>Радио</item>
+		<item>Аналоговый</item>
+	</string-array>
+
+
+    
+</resources>
+

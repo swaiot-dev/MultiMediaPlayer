@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="setup_ini">Počiatočné nastavenie</string>
+	<string name="setup_back">Naspäť</string>
+	<string name="setup_select">Zvoliť</string>
+	<string name="setup_next">Ďalej</string>
+	<string name="setup_exit">Ukončiť</string>
+	<string name="setup_welcome">Vitajte</string>
+	<string name="setup_welcome_set">Vitajte v sprievodcovi počiatočným nastavením !!\nSprievodcu spustíte stlačením [ENTER] .</string>
+	<string name="setup_language">Jazyk</string>
+	<string name="setup_select_language">Zvoľte svoj jazyk prosím:</string>
+	<string name="setup_tunner">Režim tunera</string>
+	<string name="setup_select_tuner">Zvoľte si režim voliča:</string>
+	<string name="setup_channelscan">Preskúm. kanála</string>
+	<string name="setup_set_setps">Najprv pripojte anténu.\nTeraz spustite preskúmanie kanálov ?\nAk preskočíte tento krok, preskúmanie kanálov môžete vykonať v rámci Menu.</string>
+	<string name="setup_set_setps_us">First, please connect cable or antenna.\n\nStart channel scan now ?\n\nIf you skip this step, the channel scan could be performed in Menu.</string>
+	<string name="setup_language_english">Anglický</string>
+	<string name="setup_language_chinese">简体中文</string>
+	<string name="setup_tuner_antenna">Anténa</string>
+	<string name="setup_tuner_cable">Kábel</string>
+    <string name="setup_tuner_satellite">Satelit</string>
+    <string name="satellites">Satellites</string>
+	<string name="setup_scan">Preskúmať</string>
+	<string name="setup_skip_scan">Preskočiť preskúmanie</string>
+	<string name="setup_complete">Kompletné</string>
+	<string name="setup_congratulations">Blahoželáme!!\nDokončili ste počiatočné nastavenie.\nAby ste opustili sprievodcu, stlačte prosím [ENTER] .</string>
+	<string name="setup_channel_scan_note">Dokončenie preskúmania kanálov môže trvať určitú dobu.</string>
+	<string name="setup_channel_scan_status">Stav: Preskúmanie</string>
+	<string name="setup_channel_scan_analog">Analógové kanály: </string>
+	<string name="setup_channel_scan_digital">Digitálne kanály: </string>
+	<string name="setup_cancel">Zrušiť</string>
+	<string name="setup_cancel_scan">Stav: Zrušiť preskúmanie</string>
+	<string name="setup_scan_error">Stav: Chyba preskúmania</string>
+	<string name="setup_channel_scan_status_complete">Stav: Preskúmanie bolo dokončené</string>
+	<string name="dvbs_operator_perferred_satellite">perferred satellite</string>
+	<string name="dvbs_operator_general_satellite">general satellite</string>
+
+
+	<!-- char of simulation main view -->
+	<string name="nav_test_user_help">
+		[0-9]\t(0-9) To change channel.\n
+		[SOURCE]\t(A) To
+		display the input source list.\n
+		[TIMER]\t(B) To display the time.\n
+		[SLEEP]\t(C) To set the sleep time.\n
+		[ZOOM]\t(D) To select the zoom.\n
+		[PEFFECT]\t(E) To select the screen effect.\n
+		[SEFFECT]\t(F) To select
+		the sound effect.\n
+		[ASPECT]\t(G) To change the aspect ratio.\n
+		[CHUP]\t(O) To turn up the channel.\n
+		[CHDN]\t(Q) To turn down the
+		channel.\n
+		[MUTE]\t(R) To mute or un-mute the sound.\n
+		[VOLUME_UP]\t(M)
+		To turn up the volume.\n
+		[VOLUME_DOWN]\t(N) To turn down the volume.\n
+		[DPAD_CENTER]\t (ENTER) To display the channel list.\n
+		[INFO]\t(S) To
+		display the channel info.\n
+		[EJECT]\t(U) To display the channel info.\n
+		[PLAYPAUSE]\t(V) To display the favorite list.\n
+		[YELLOW]\t(K) To
+		select the type of the channel list.\n
+	</string>
+	<string name="nav_test_tv">TV</string>
+
+	<!-- +++++++++++++++++++++++++++++++++++++++++++++ -->
+	<!-- ++++++++++ char of input source view++++++ -->
+	<!-- +++++++++++++++++++++++++++++++++++++++++++++ -->
+	<string name="nav_source_main_title">Hlavný</string>
+	<string name="nav_source_sub_title">Sub</string>
+
+	<!-- +++++++++++++++++++++++++++++++++++++++++++++ -->
+	<!-- ++++++++++ char of channel list view ++++++ -->
+	<!-- +++++++++++++++++++++++++++++++++++++++++++++ -->
+	<string name="nav_please_scan_channels">Preskúmať kanály prosím!</string>
+	<string name="nav_no_function">Žiadna funkcia</string>
+	<string name="nav_select_list">Select List</string>
+	<string name="nav_page_up">Page Up</string>
+	<string name="nav_page_down">Page Down</string>
+	<string name="nav_fav_move_up">Move Up</string>
+	<string name="nav_fav_move_down">Move Down</string>
+	<string name="nav_exit">Poistu</string>
+	<!-- <string name="nav_channel_list">Channel List - All</string> -->
+	<string name="nav_channel_list">Zoznam kanálov</string>
+
+	<string name="nav_channel_list_title_str">Channel List - </string>
+	<string name="nav_channel_selection">Výber Zoznamu kanálov</string>
+	<string name="nav_channel_details">Detaily o kanále</string>
+	<string name="nav_volume_main">Centrálna hlasitosť</string>
+	<string name="nav_parent_psw">Heslo</string>
+	<string name="nav_parent_dvbs_hint">Password had been mistaken three times!\nPlease wait...</string>
+	<string name="nav_parent_wrong_psw">Password incorrect.\n Please enter again! </string>
+
+	<string name="nav_channel_antenna">Antenni</string>
+	<!-- +++++++++++++++++++++++++++++++++++++++++++++ -->
+	<!-- ++++++++++ char of favorite list view ++++++ -->
+	<!-- +++++++++++++++++++++++++++++++++++++++++++++ -->
+	<string name="nav_favorite_list">Zoznam obľúbených</string>
+	<string name="nav_favorite_select">Valitse</string>
+
+	<string name="nav_channel_infoNum">815</string>
+	<string name="nav_channel_infoName">Jade</string>
+	<string name="nav_channel_infoFormat">640X480@60Hz</string>
+	<string name="nav_channel_infoType">Antenni</string>
+	<string name="nav_channel_infoTime">19:19</string>
+	<string name="nav_channel_infoMiddle_special">Získavanie údajov...</string>
+	<string name="nav_channel_infoTitle">(No program Title.)</string>
+	<string name="nav_channel_infoDuration">3:35 - 3:40</string>
+	<string name="nav_channel_infoNextDuration">Insite the Stock ExChange</string>
+	<string name="nav_channel_infoAudioLanguage">1/2 Chinese</string>
+	<string name="nav_channel_infoFormatField">Stereo</string>
+	<string name="nav_channel_infoNoProgram">(No Program Details.)</string>
+	<string name="nav_channel_infoNoChannelDetail">(No Channel Details.)</string>
+	<string name="nav_channel_infoSubtitle">Chi</string>
+	<string name="nav_channel_infoInfoField">576i SD</string>
+
+	<string name="nav_no_signal">Bez signálu!</string>
+	<string name="nav_no_support">No Support!</string>
+	<string name="nav_channel_has_locked">Kanál je zablokovaný!</string>
+	<string name="nav_input_has_locked">Vstup je zablokovaný!</string>
+	<string name="nav_program_has_locked">Program je zablokovaný!</string>
+	<string name="nav_hidden_channel">Skrytý kanál!</string>
+	<string name="nav_channel_audio_scrambled">Kódovaný zvuk</string>
+	<string name="nav_channel_video_scrambled">Kódované video</string>
+	<string name="nav_sleep_label">Spánok: </string>
+	<string name="nav_sleep_off">Off</string>
+	<string name="nav_sleep_minutes">Minúty</string>
+	<string name="nav_resolution_null">Bez obrazu</string>
+	<string name="nav_channel_retrieving">Získavanie údajov...</string>
+	<string name="nav_unknown_audio">unknown audio</string>
+	<string name="nav_unknown_stereo">unknown stereo</string>
+	<string name="nav_unknown_audio_sundry">Neznámy</string>
+	<string name="nav_channel_no_audio">Bez zvuku</string>
+
+	<!--  for epg -->
+	<string name="nav_epg_type">Typ</string>
+	<string name="nav_epg_sub_type">Podtyp</string>
+	<string name="nav_epg_zero_tip">Booked list</string>
+	<string name="nav_epg_book_list">Booked Event List</string>
+	<string name="nav_epg_book_program_tip">\nBook this program?</string>
+	<string name="nav_epg_unbook_program_tip">\nAlready booked this program, unbook it?</string>
+	<string name="nav_epg_book_program_coming_tip"> is coming, change to the channel?</string>
+	<string name="nav_epg_not_rated">Bez hodnotenia</string>
+	<string name="nav_epg_no_program_detail">(No Program Detail.)</string>
+	<string name="nav_epg_no_program_data">( No program data.)</string>
+	<string name="nav_epg_no_program_title">(Bez názvu prog.)</string>
+	<string name="nav_epg_unlock">Unlock</string>
+	<string name="nav_epg_unschedule">Unschedule</string>
+	<string name="nav_epg_schedule">Schedule</string>
+	<string name="nav_epg_not_support">Bez podpory</string>
+	
+	<string name="nav_epg_January">Január</string>
+	<string name="nav_epg_February">Február</string>
+	<string name="nav_epg_March">Marec</string>
+	<string name="nav_epg_April">Apríl</string>
+	<string name="nav_epg_May">Máj</string>
+	<string name="nav_epg_June">Jún</string>
+	<string name="nav_epg_July">Júl</string>
+	<string name="nav_epg_August">August</string>
+	<string name="nav_epg_September">September</string>
+	<string name="nav_epg_October">Október</string>
+	<string name="nav_epg_November">November</string>
+	<string name="nav_epg_December">December</string>
+	
+	<string name="nav_epg_Jan">Jan</string>
+	<string name="nav_epg_Feb">Feb</string>
+	<string name="nav_epg_Mar">Mar</string>
+	<string name="nav_epg_Apr">Apr</string>
+	<string name="nav_epg_may">Máj</string>
+	<string name="nav_epg_Jun">Jún</string>
+	<string name="nav_epg_Jul">Júl</string>
+	<string name="nav_epg_Aug">Aug</string>
+	<string name="nav_epg_Sep">Sep</string>
+	<string name="nav_epg_Oct">Okt</string>
+	<string name="nav_epg_Nov">Nov</string>
+	<string name="nav_epg_Dec">Dec</string>
+	
+	<string name="nav_epg_Sunday">Nedeľa</string>
+	<string name="nav_epg_Monday">Pondelok</string>
+	<string name="nav_epg_Tuesday">Utorok</string>
+	<string name="nav_epg_Wednesday">Streda</string>
+	<string name="nav_epg_Thursday">Štvrtok</string>
+	<string name="nav_epg_Friday">Piatok</string>
+	<string name="nav_epg_Saturday">Sobota</string>
+	
+	<string name="nav_epg_Sun">Ne</string>
+	<string name="nav_epg_Mon">Po</string>
+	<string name="nav_epg_Tue">Ut</string>
+	<string name="nav_epg_Wed">St</string>
+	<string name="nav_epg_Thur">Št</string>
+	<string name="nav_epg_Fri">Pi</string>
+	<string name="nav_epg_Sat">So</string>
+	
+	<!-- for capture logo (YELLOW KEY) -->
+	<string name="cplogo_title">Capture Logo</string>
+	<string name="cplogo_bt_ok">Ok</string>
+	<string name="cplogo_bt_cancel">Peruuta</string>
+	<string name="cplogo_bt_full_screen">Full Screen</string>
+	<string name="cplogo_bt_special_area">Special Area</string>
+	<string name="cplogo_bt_no">NIE</string>
+	<string name="cplogo_bt_adjust">Prispôsobiť</string>
+	<string name="cplogo_msg_which_screen">Do you want to capture full screen or special area?
+	</string>
+	<string name="cplogo_msg_this_screen">Do you want to capture this screen?</string>
+	<string name="cplogo_msg_select_position">Please select a position to save the logo</string>
+	<string name="cplogo_msg_capturing">Capturing ...</string>
+	<string name="cplogo_msg_adjust_position">Do you want to adjust the position of the special
+		area?</string>
+	<string name="cplogo_msg_res_success">Capture successfully</string>
+	<string name="cplogo_msg_res_fail">Capture failed, please try again</string>
+	<string name="cplogo_capture_res_cancel">This operation has been canceled</string>
+
+	<string name="vga_no_sinal_info">No signal. The power will be turned off.</string>
+
+	<!-- for epg -->
+	<string name="epg_bottom_prev_day">Predch. deň</string>
+	<string name="epg_bottom_next_day">Nasl. deň</string>
+	<string name="epg_bottom_view_detail">Zobraziť detail</string>
+	<string name="epg_bottom_type_filter">Typ filtra</string>
+	<string name="epg_bottom_prev_page">O stranu hore</string>
+	<string name="epg_bottom_next_page">O stranu dole</string>
+	<string name="epg_bottom_ENTER">ENTER</string>
+	<string name="epg_bottom_0">0</string>
+
+	<string name="epg_info_program_type">Žiadny</string>
+	<string name="epg_password">Heslo</string>
+	<string name="epg_password_message">Heslo je nesprávne!</string>
+	<string name="epg_retrieving_show">Získavanie údajov...</string>
+
+	<!-- for ginga tv -->
+	<string name="nav_ginga_tv_title">Application list</string>
+	<string name="nav_select">Valitse</string>
+	<string name="nav_ginga_tv_message">There is no application!</string>
+	<string name="nav_ginga_tv_for_infobar">Ginga Application loading...</string>
+	<string name="nav_ginga_tv_for_tips">Do you want to stop CC and start Ginga application?</string>
+
+	<!-- for upgrader -->
+	<string name="nav_upgrader_title">Spr.aktual.</string>
+	<string name="nav_upgrader_MoreInfo">More Info</string>
+	<string name="nav_upgrader_invalid">Nepl. súbor obrazu firmvéru!</string>
+	<string name="nav_upgrader_updating">Aktual...</string>
+	<string name="nav_upgrader_warnning">NEVYB. USB kľúĊ a nevyp. TV prijímaĊ poĊas akt. firmvéru!!</string>
+	<string name="nav_upgrader_validate">Platnosť firmvéru...</string>
+	<string name="nav_upgrader_confirm">Chcete skutoĊne aktualizovať firmvér?</string>
+	<string name="nav_upgrader_completed">Firmvér bol úspešne aktualizovaný na verziu %s.\nReštartovaním TV prijímaĊa zaktivujete nový firmvér.</string>
+	<string name="nav_upgrader_failed">Chybná aktualizácia na verziu %s.\nReštartujte TV prijímaĊ a stiahnite si firmvér ešte raz.</string>
+	<string name="nav_upgrader_retry">Chyb. akt..\nSkúsiť znova?</string>
+	<string name="nav_upgrader_retry2">Akt. zlyhala, zas. USB.\nSkúsiť znova?</string>
+	<string name="nav_upgrader_usb_space_not_enough">Available space of your USB dongle is not enough.</string>
+	<string name="nav_upgrader_usb_not_ready">USB dongle is not ready, please plug it and try again.</string>
+	<string name="nav_upgrader_internal_err">Internal error.</string>
+	<string name="nav_upgrader_not_avail_firmware">No available firmware version.</string>
+	<string name="nav_upgrader_decry_fail">Decryption failed.</string>
+	<string name="nav_upgrader_firmware_invalid">Firmware is invalid.</string>
+	<string name="nav_upgrader_no_update">No available firmware to update.</string>
+	<string name="nav_upgrader_check_fail">Check new firmware failed.</string>
+	<string name="nav_upgrader_download_fail">Can not download firmware from network.</string>
+	<string name="nav_upgrader_usb_problem">There is some problem of the USB dongle.</string>
+	<string name="nav_upgrader_power">Nap.</string>
+	<string name="nav_upgrader_yes">Áno</string>
+	<string name="nav_upgrader_no">NIE</string>
+	<string name="nav_upgrader_network_tip">Start to download new firmware from server</string>
+	
+	<string name="common_dialog_msg_yes">ÁNO</string>
+	<string name="common_dialog_msg_no">NIE</string>
+	<string name="common_dialog_ews_service_content">Do you want to switch to the EWS service?</string>
+	<string name="common_dialog_special_service_content">Do you want to switch to the special service?</string>
+	<string name="commmon_dialog_book_reminder_content">is coming, Do you want to switch to it?</string>
+	
+	<string name="nav_ttx_top_block">blok</string> 
+  	<string name="nav_ttx_top_group">skupina</string> 
+  	<string name="nav_ttx_top_page">strana</string> 
+    <string name="nav_ttx_no_top">No Top</string> 
+	<string name="table">Tabuľka stránky</string>
+	<string name="nav_banner_not_rating">not rating</string>
+	<string name="setup_select_country">Zvoľte svoju krajinu prosím:</string>
+	<string name="setup_country">Krajina</string>
+	<string name="setup_dvbc_setting">Please configure the cable info</string>
+	<string name="setup_timezone">Časové pásmo</string>
+	<string name="setup_language_spanish">Español</string>
+	<string name="setup_language_french">Français</string>
+	<string name="setup_language_portuguese">Português</string>
+	
+	<string name="setup_dvbc_config_scanmode">Scan Mode</string>
+	<string name="setup_dvbc_config_frequency">Frequency (KHZ)</string>
+	<string name="setup_dvbc_config_modulation">Modulácia</string>
+	<string name="setup_dvbc_config_symbolrate">Symbol Rate(Ksym/s)</string>
+	<string name="setup_dvbc_config_networkid">Sieťové ID</string>
+	
+	<string name="setup_set_password">  </string>
+	<string name="setup_set_password_titile1">New Password</string>
+	<string name="setup_set_password_titile2">Confirm Password</string>
+	<string name="setup_set_password_default_pwd">0000</string>
+	
+	<string name="setup_cable_select_operation">Select Operator</string>
+	
+	<string name="setup_dvbs_statellite_type">Statellite Type</string>
+	<string name="setup_dvbs_statellite_type_title">Please select satellite type.</string>
+	
+	<string name="setup_dvbs_statellite_select_operator">Select Operator</string>
+	<string name="setup_dvbs_statellite_select_operator_title">You can select only one operator from the following list.</string>
+	
+	<string name="setup_cable_setting">  </string>
+	<string name="setup_cable_setting_title">Nakonfigurujte informácie kábla</string>
+	
+	<string name="setup_dvbs_config_info">  </string>
+	<string name="setup_dvbs_config_info_title">Please configure the scan info.</string>
+	
+	<string name="setup_dvbs_satellite_list">Select Satellite</string>
+	<string name="setup_dvbs_satellite_list_title">Please select satellites to scan or edit the selected satellite.</string>
+	
+	<string name="setup_dvbs_config_setting">  </string>
+	<string name="setup_dvbs_config_setting_title">Please set antenna type config.</string>
+
+	<string name="setup_dvbs_satellite_config">Antenna Setup</string>
+	<string name="setup_dvbs_satellite_config_title">Please set the satellite\'s parameters.</string>
+	
+	<string name="setup_select_set">Set</string>
+	<string name="nav_oad_dialog_title">Over Air Download</string>
+	<string name="nav_oad_scanning">Skenovanie</string>
+	<string name="nav_oad_scanning_result_fail">Can not find new software on the air</string>
+	
+	<string name="nav_oad_programming">Programming</string>
+	<string name="nav_oad_flash_confirm">Download the software successfully.Do you want to start flashing?</string>
+	<string name="nav_oad_flash_fail">Programming fail. Retry it again?\n\nPlease Call Service Center.</string>
+	<string name="nav_oad_restart_confirm">Nadgradnja programske opreme je končana! Ali želite TV ponovno zagnati sedaj?</string>
+	
+	<string name="nav_oad_warning_msg_str">Warning: During the process.Please do not unplug the TV Set power code as this will lead to defective TV Set.</string>
+	
+	<string name="nav_oad_manual_download_confirm">Software update.A new recommended software update is avaiable.The update might take some time and the screen might go black.Do not turn of the receiver off during
+	    the update.Do you want to update now?</string>
+	<string name="nav_oad_manual_download_fail">Downloading is not successful, and try to download again?</string>
+	
+	<string name="nav_oad_auto_download_confirm">Software update.A new recommended software update is avaiable.The update might take some time and the screen might go black.Do not turn of the receiver off during
+	    the update.Do you want to update now?It will start automatically in %s second(s)</string>
+	
+	<string name="setup_language_english_value">Programming</string>
+	<string name="setup_language_chinese_value">Programming</string>
+	<string name="setup_language_spanish_value">Programming</string>
+	<string name="setup_language_french_value">Programming</string>
+	<string name="setup_language_portuguese_value">Programming</string>
+	
+    <string name="setup_country_cty_1">Rakúsko</string>
+    <string name="setup_country_cty_2">Belgicko</string>
+    <string name="setup_country_cty_3">Švajčiarsko</string>
+    <string name="setup_country_cty_4">Česká republika</string>
+    <string name="setup_country_cty_5">Nemecko</string>
+    <string name="setup_country_cty_6">Dánsko</string>
+    <string name="setup_country_cty_7">Španielsko</string>
+    <string name="setup_country_cty_8">Fínsko</string>
+    <string name="setup_country_cty_9">Francúzsko</string>
+    <string name="setup_country_cty_10">Veľká Británia</string>
+    <string name="setup_country_cty_11">Taliansko</string>
+    <string name="setup_country_cty_12">luxemburská</string>
+    <string name="setup_country_cty_13">Holandsko</string>
+    <string name="setup_country_cty_14">Nórsko</string>
+    <string name="setup_country_cty_15">Švédsko</string>
+    <string name="setup_country_cty_16">Bulharsko</string>
+    <string name="setup_country_cty_17">Chorvátsko</string>
+    <string name="setup_country_cty_18">Grécko</string>
+    <string name="setup_country_cty_19">Maďarsko</string>
+    <string name="setup_country_cty_20">Írsko</string>
+    <string name="setup_country_cty_21">Poľsko</string>
+    <string name="setup_country_cty_22">Portugalsko</string>
+    <string name="setup_country_cty_23">Rumunsko</string>
+    <string name="setup_country_cty_24">Rusko</string>
+    <string name="setup_country_cty_25">Srbsko</string>
+    <string name="setup_country_cty_26">Slovensko</string>
+    <string name="setup_country_cty_27">Slovinsko</string>
+    <string name="setup_country_cty_28">Turecko</string>
+    <string name="setup_country_cty_29">Estónsko</string>
+    <string name="setup_country_cty_30">Austrália</string>
+    <string name="setup_country_cty_31">Nový Zéland</string>
+	<string name="setup_set_timezone">Please select your time zone:</string>
+	<string name="setup_set_password_title">Please set password."0000" is not a valid password</string>
+	<string name="setup_set_password_success_msg">Password set successfully!</string>
+	<string name="dvbc_operator_upc">UPC</string>
+	<string name="dvbc_operator_telent">Telent</string>
+	<string name="dvbc_operator_unitymedia">Unitymedia</string>
+	<string name="dvbc_operator_stofa">Stofa</string>
+	<string name="dvbc_operator_yousee">Yousee</string>
+	<string name="dvbc_operator_canal_digital">Canal Digital</string>
+	<string name="dvbc_operator_numericable">Numericable</string>
+	<string name="dvbc_operator_ziggo">Ziggo</string>
+	<string name="dvbc_operator_comhem">Comhem</string>
+	<string name="dvbc_operator_others">Others</string>
+</resources>
+

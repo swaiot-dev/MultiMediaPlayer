@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="menu_layout_width">400dip</dimen>
+    <dimen name="menu_layout_height">333dip</dimen>
+    <dimen name="left_marge_size">13.3sp</dimen>
+    <dimen name="large_text_size">9.3sp</dimen>
+    <dimen name="large_text_size1">10sp</dimen>
+    <dimen name="large_text_size2">16.7sp</dimen>
+    <dimen name="middle_text_size">9.3sp</dimen>
+    <dimen name="small_text_size">6.7sp</dimen>
+    <dimen name="image_view_size">106dip</dimen>
+    <dimen name="middle_margin_edge">7dip</dimen>
+    <dimen name="small_margin_edge">2dip</dimen>
+    <dimen name="large_margin_edge">10dip</dimen>
+    <dimen name="frame_layout_width">300dip</dimen>
+    <dimen name="frame_layout_height">267dip</dimen>
+    <dimen name="progressbar_height">150dip</dimen>
+    <dimen name="layout_alignRight">40dip</dimen>
+    <dimen name="big_large_margin_edge">17dip</dimen>
+    <dimen name="menu_main_margin">15dip</dimen>
+    <dimen name="menu_main_draw_pad">10dip</dimen>
+    <dimen name="prompt_textview_margin">15dip</dimen>
+    <dimen name="menu_finetune_padding">14dip</dimen>
+    <dimen name="menu_main_left_margin_top">10dip</dimen>
+    <dimen name="menu_wifi_txt_size">9sp</dimen>
+    <dimen name="menu_change_value_bar_bottom">40dip</dimen>
+    <dimen name="menu_seekbar_thumb_height">26dp</dimen>
+    <dimen name="menu_seekbar_thumb_width">10dp</dimen>
+
+    <dimen name="menu_ci_main_listview_height">141dip</dimen>
+    <dimen name="menu_scan_layout_margin">27dp</dimen>
+    <dimen name="menu_scan_layout_minWidth">200dp</dimen>
+</resources>

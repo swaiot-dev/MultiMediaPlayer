@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="mmp_test">This is test data\n file name \n img\n test
+	</string>
+	<string name="mmp_menu">Menü</string>
+	<string name="mmp_menu_sort">Rendezés</string>
+	<string name="mmp_menu_mediatype">Hordozótípus</string>
+	<string name="mmp_menu_thumb">Miniatűr mérete</string>
+	<string name="mmp_menu_copy">Másol</string>
+	<string name="mmp_menu_paste">Beilleszt</string>
+	<string name="mmp_menu_delete">Törlés</string>
+	<string name="mmp_menu_recur">Önhivatkozó feldolgozó</string>
+	<string name="mmp_menu_not_recur">Normál feldolgozó</string>
+	<string name="mmp_menu_photoframe">Képkeret</string>
+	<string name="mmp_menu_photo_frame">Photo Frame Image is set OK</string>
+
+	<string name="mmp_menu_play">Play</string>
+	<string name="mmp_menu_pause">Szünet</string>
+	<string name="mmp_menu_repeat">Ismétlés</string>
+	<string name="mmp_menu_shuffle">Keverés</string>
+	<string name="mmp_menu_duration">Időtartam</string>
+	<string name="mmp_menu_effect">Hatás</string>
+	<string name="mmp_menu_showinfo">Adatok mutatása</string>
+	<string name="mmp_menu_frame">Képkeret-kép</string>
+	<string name="mmp_menu_rotate">Elforgatás</string>
+	<string name="mmp_menu_3d_photo">3D Photo</string>
+
+	<string name="mmp_menu_display">Display Line</string>
+	<string name="mmp_menu_timeoffset">Időeltolás</string>
+	<string name="mmp_menu_encoding">Kódolás</string>
+
+	<string name="mmp_menu_picturemode">Képmód</string>
+	<string name="mmp_menu_screenmode">Képernyő mód</string>
+
+	<string name="mmp_menu_font">Betűkészlet </string>
+
+	<string name="mmp_menu_size">Méret</string>
+	<string name="mmp_menu_style">Stílus</string>
+	<string name="mmp_menu_color">Szín</string>
+	<!-- child menu -->
+
+	<string name="mmp_menu_date">Dátum</string>
+	<string name="mmp_menu_name">Név</string>
+	<string name="mmp_menu_album">Album</string>
+	<string name="mmp_menu_artist">Előadó</string>
+	<string name="mmp_menu_genre">Műfaj</string>
+	<string name="mmp_menu_type">Típus</string>
+	
+	<string name="mmp_menu_phototext">Fotó</string>
+	<string name="mmp_menu_music">Zene</string>
+	<string name="mmp_menu_video">Videó</string>
+	<string name="mmp_menu_text">Szöveg</string>
+	<string name="mmp_menu_small">Kisméretű</string>
+	<string name="mmp_menu_medium">Közepes</string>
+	<string name="mmp_menu_large">Nagyméretű</string>
+	<string name="mmp_menu_onephotomode">One Photomode</string>
+	<string name="mmp_menu_datafraveler">DataFraveler G2</string>
+	<string name="mmp_menu_none">Nincs</string>
+	<string name="mmp_menu_repeatone">Egy ismétlése</string>
+	<string name="mmp_menu_repeatall">Összes ismétlése</string>
+	<string name="mmp_menu_shuffleoff">Véletlen sorrend: ki</string>
+	<string name="mmp_menu_shuffleon">Véletlen sorrend: be</string>
+	<string name="mmp_menu_short">Rövid</string>
+	<string name="mmp_menu_long">Hosszú</string>
+	<string name="mmp_menu_1x">1 X</string>
+	<string name="mmp_menu_2x">2 X</string>
+	<string name="mmp_menu_4x">4 X</string>
+	<string name="mmp_menu_dissolve">Feloldás</string>
+	<string name="mmp_menu_wiperight">Törlés jobbra</string>
+	<string name="mmp_menu_wipeleft">Törlés balra</string>
+	<string name="mmp_menu_wipeup">Törlés felfelé</string>
+	<string name="mmp_menu_wipedown">Törlés lefelé</string>
+	<string name="mmp_menu_boxin">Doboz befelé</string>
+	<string name="mmp_menu_boxout">Doboz kifelé</string>
+
+	<string name="mmp_menu_random">Véletlen</string>
+
+
+	<string name="mmp_menu_off">Off</string>
+	<string name="mmp_menu_singleline">Single Line</string>
+	<string name="mmp_menu_multiline">Multi Line</string>
+	<string name="mmp_menu_auto">Automatikus</string>
+	<string name="mmp_menu_userdefine">User define</string>
+	<string name="mmp_menu_gb">GB</string>
+	<string name="mmp_menu_big5">Big5</string>
+	<string name="mmp_menu_utf8">Utf8</string>
+	<string name="mmp_menu_utf16">Utf16</string>
+	<string name="mmp_menu_user">Felhasználó</string>
+	<string name="mmp_menu_cinema">Mozi</string>
+	<string name="mmp_menu_sport">Sport</string>
+	<string name="mmp_menu_vivid">Élénk</string>
+	<string name="mmp_menu_hibright">Nagy fényerejű</string>
+	<string name="mmp_menu_normal">Normál</string>
+	<string name="mmp_menu_letterbox">Letter box</string>
+	<string name="mmp_menu_scan">Keresés</string>
+	<string name="mmp_menu_zoom">Nagyítás</string>
+	<string name="mmp_menu_dotbydot">Pontonkénti</string>
+
+	<string name="mmp_menu_regular">Normál</string>
+	<string name="mmp_menu_italic">Dőlt</string>
+	<string name="mmp_menu_bold">Félkövér</string>
+	<string name="mmp_menu_outline">Félkövér Dőlt</string>
+	<string name="mmp_menu_white">Fehér</string>
+	<string name="mmp_menu_blue">Kék</string>
+	<string name="mmp_menu_red">Piros</string>
+	<string name="mmp_menu_green">Zöld</string>
+	<string name="mmp_menu_black">Fekete</string>
+	<string name="mmp_menu_lyricoptions">Lyric Options</string>
+
+	<string name="mmp_menu_showscore">Spektrum megjelenítés</string>
+	<string name="mmp_menu_hidescore">Spektrum elrejtése</string>
+	<string name="mmp_menu_onlyaudio">Csak hang</string>
+
+
+
+	<string name="mmp_photo">Fotó</string>
+	<string name="mmp_audio">Zene</string>
+	<string name="mmp_video">Videó</string>
+	<string name="mmp_text">Szöveg</string>
+	<string name="mmp_select">Velg</string>
+	<string name="mmp_input">Bevitel</string>
+	<string name="mmp_exit">Avslutt</string>
+	<string name="mmp_emptyfile">The current folder is empty!</string>
+	<string name="mmp_reutip">It\'s parsing this folder,please wait...</string>
+	<string name="mmp_filepath">\</string>
+	<string name="mmp_pop_repeat_tvrepeat">Összes ismétlése</string>
+	<string name="mmp_pop_repeat_tvsingle">Single</string>
+	<string name="mmp_pop_repeat_tvnone"> </string>
+	<string name="mmp_pop_time_tv">Rövid</string>
+	<string name="mmp_pop_view_tv">Nincs</string>
+	<string name="mmp_pop_menu">Menü</string>
+	<string name="mmp_pop_enter">Bevitel</string>
+	<string name="mmp_pop_zoomscale">X</string>
+	<string name="mmp_pop_starttime">00:00:00</string>
+	<string name="mmp_pop_pagesize">01\//01</string>
+	<string name="mmp_listmode_play">Play</string>
+
+
+
+	<string name="mmp_info_album">Album:</string>
+	<string name="mmp_info_orientation">Tájolás:</string>
+	<string name="mmp_info_artist">Előadó:</string>
+	<string name="mmp_info_name">Név:</string>
+	<string name="mmp_info_date">Dátum:</string>
+	<string name="mmp_info_size">Méret:</string>
+	<string name="mmp_info_next">Következő:</string>
+	<string name="mmp_info_exposure">EXPOZÍCIÓS IDŐ:</string>
+	<string name="mmp_info_fnumber">FNUMBER:</string>
+	<string name="mmp_info_program">EXPOZÍCIÓS PROGRAM:</string>
+	<string name="mmp_info_colorspace">SZÍNTÉR:</string>
+	<string name="mmp_info_title">Cím:</string>
+	<string name="mmp_info_genre">Műfaj:</string>
+	<string name="mmp_info_year">Év:</string>
+	<string name="mmp_info_duration">Időtartam:</string>
+	<string name="mmp_info_director">Rendező:</string>
+	<string name="mmp_info_copyrght">Szerzői jogvédelem:</string>
+
+	<string name="mmp_info_lastline">Last Line</string>
+	<string name="mmp_info_nextline">Next Line</string>
+	<string name="mmp_info_lastpage">Last Page</string>
+	<string name="mmp_info_nextpage">Következő oldal</string>
+
+	<string name="mmp_info_nolrc">No lrc</string>
+	<string name="mmp_time_separator">:</string>
+	<string name="mmp_time_inti">00</string>
+
+	<!-- Network -->
+	<string name="mmp_loading_tip">It\'s parsing this folder,please wait...</string>
+	<string name="mmp_user_name">User name</string>
+	<string name="mmp_password">Jelszó</string>
+	<string name="mmp_confirm">Megerősítés</string>
+	<string name="mmp_vkb">Vkb</string>
+	<string name="mmp_ok">OK</string>
+	<string name="mmp_cancel">Avbryt</string>
+
+	<string name="mmp_login_failed_tip">Username or password is error!</string>
+	<!-- Network -->
+
+	<string name="mmp_title_copy">Másolás</string>
+	<string name="mmp_title_confirm_replace">Fájlcsere megerősítése</string>
+	<string name="mmp_title_confirm_delete">Fájltörlés megerősítése</string>
+	<string name="mmp_message_copy"> %1$s\nFrom %2$s\nTo %3$s</string>
+	<string name="mmp_message_confirm_replace"> This folder already contains a file named\n%s
+	</string>
+	<string name="mmp_message_confirm_delete">Biztosan törli a kiválasztott fájl(oka)t?</string>
+
+	<string name="mmp_yes">Igen</string>
+	<string name="mmp_yes_to_all">Igen mindre</string>
+	<string name="mmp_no">NEM</string>
+
+	<string name="mmp_capture_title">Capture Logo</string>
+	<string name="mmp_capture_confirm">Do you want to capture this screen ?</string>
+	<string name="mmp_toast_no_photoframe">There is no photo frame image to play</string>
+
+	<string name="mmp_video_notsupport">Video Codec not support</string>
+	<string name="mmp_audio_notsupport">Audio Codec not support</string>
+	<string name="mmp_video_only">Video only</string>
+	<string name="mmp_frame_photo_sleeptime">Időzített kikapcsolás</string>
+	<string name="mmp_sleeptime_lable">Időzített kikapcsolás:  </string>
+	<string name="mmp_video_stopresume">Stop Resume</string>
+	<string name="mmp_can_notpause">Can Not Pause</string>
+	
+	<string name="mmp_photo_type_notsupport">File not support</string>
+
+	<string name="mmp_lable_rorate">Elforgatás</string>
+	<string name="mmp_lable_degree">°</string>
+	<string name="mmp_lable_subtitle_off">Off</string>
+
+	<string name="mmp_info_whitebalance">WhiteBalance:</string>
+	<string name="mmp_info_make">Make:</string>
+	<string name="mmp_info_model">Model:</string>
+	<string name="mmp_info_flash">Flash:</string>
+	<string name="mmp_info_focallength">FocalLength:</string>
+	<string name="mmp_menu_pic_setting">Picture Setting</string>
+
+	<string name="mmp_file_notsupport">File not support</string>
+	<string name="mmp_notsupport">Not support</string>
+	<string name="mmp_seek_notsupport">Seek not support</string>
+	<string name="mmp_step_notsupport">Step not support</string>
+	<string name="mmp_featue_notsupport">A funkció nem elérhető</string>
+	<string name="mmp_nodevice">No Device Connected!</string>
+	<string name="mmp_time_out">The time code you input is wrong!\nPlease assure it\'s less than total time</string>
+    <string name="mmp_file_corrupt">File is corrupted</string>
+    <string name="mmp_menu_mount_iso">Mount the current iso file</string>
+	<string name="mmp_menu_unmount_iso">Nnmount the current device</string>
+
+	<string name="mmp_media_info_scrambled_audio_video_service">Scramble Video and Audio</string>
+	<string name="mmp_media_info_scrambled_audio_clear_video_service">Scramble Audio</string>
+	<string name="mmp_media_info_scrambled_audio_no_video_service">Scramble Audio,Audio only</string>
+	<string name="mmp_media_info_scrambled_video_clear_audio_service">Scramble Video</string>
+	<string name="mmp_media_info_scrambled_video_no_audio_service">Scramble Video,Video only</string>
+	
+	
+	
+	<string name="txture_0">"defaultVideo1.PNG"</string>
+    <string name="txture_1">"defaultVideo2.PNG"</string>
+    <string name="txture_2">"defaultVideo3.PNG"</string>
+    <string name="txture_3">"defaultVideo4.PNG"</string>
+    <string name="txture_4">"defaultVideo5.PNG"</string>
+    <string name="txture_5">"defaultVideo6.PNG"</string>
+    <string name="txture_6">"defaultVideo7.PNG"</string>
+    <string name="txture_7">"defaultVideo8.PNG"</string>
+    <string name="txture_8">"defaultVideo9.PNG"</string>
+    
+</resources>
+

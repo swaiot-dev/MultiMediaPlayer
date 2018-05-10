@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mmp_files_grid_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:id="@+id/layout_left"
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="23"
+        android:orientation="vertical"
+        android:paddingBottom="40dip"
+        android:paddingEnd="20dip"
+        android:paddingTop="40dip">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/file_category_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="50px"/>
+
+        <!--<RadioGroup
+            android:id="@+id/layout_category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:enabled="false"
+            android:focusable="false"
+            android:orientation="vertical"
+            android:paddingLeft="10dip">
+
+            <RadioButton
+                android:id="@+id/btn_category_movie"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:button="@null"
+                android:checked="true"
+                android:enabled="false"
+                android:focusable="false"
+                android:paddingStart="20dip"
+                android:shadowDx="3"
+                android:shadowDy="3"
+                android:shadowRadius="8"
+                android:text="@string/mmp_content_type_movie"
+                android:textColor="@drawable/grid_file_menu_text"
+                android:textSize="18sp" />
+
+            <RadioButton
+                android:id="@+id/btn_category_picture"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:button="@null"
+                android:enabled="false"
+                android:focusable="false"
+                android:paddingStart="20dip"
+                android:paddingTop="14dip"
+                android:shadowDx="3"
+                android:shadowDy="3"
+                android:shadowRadius="8"
+                android:text="@string/mmp_content_type_picture"
+                android:textColor="@drawable/grid_file_menu_text"
+                android:textSize="18sp" />
+
+            <RadioButton
+                android:id="@+id/btn_category_music"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:button="@null"
+                android:enabled="false"
+                android:focusable="false"
+                android:paddingStart="20dip"
+                android:paddingTop="14dip"
+                android:shadowColor="#000000"
+                android:shadowDx="3"
+                android:shadowDy="3"
+                android:shadowRadius="8"
+                android:text="@string/mmp_content_type_music"
+                android:textColor="@drawable/grid_file_menu_text"
+                android:textSize="18sp" />
+
+        </RadioGroup>-->
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/multimedia_showinfo_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="23dp" />
+
+            <TextView
+                android:id="@+id/multimedia_showinfo_tv"
+                style="@style/multimedia_com_text"
+                android:layout_width="300px"
+                android:layout_height="wrap_content"
+                android:ellipsize="marquee"
+                android:gravity="center"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:paddingLeft="15dp"
+                android:singleLine="true"
+                android:text="multimedia_showinfo_tv" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/multimedia_showinfo_left"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="30dip"
+            android:ellipsize="end"
+            android:focusable="false" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_right"
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="73"
+        android:orientation="vertical"
+        android:paddingTop="40dip">
+
+        <TextView
+            android:id="@+id/multimedia_tv_filepath"
+            style="@style/multimedia_com_text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/mmp_mode_topicon_folder"
+            android:drawablePadding="10dp"
+            android:focusable="false"
+            android:gravity="center_vertical"
+            android:text="@string/mmp_filepath" />
+
+        <com.mediatek.wwtv.mediaplayer.mmp.commonview.MediaGridView
+            android:id="@android:id/list"
+            style="@style/mmp_showinfo_gvstyle"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:listSelector="@drawable/transparent_background"
+            android:paddingTop="20dip"
+            android:scrollbars="@null"
+            android:stretchMode="columnWidth" />
+    </LinearLayout>
+</LinearLayout>

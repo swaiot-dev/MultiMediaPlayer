@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="colorPrimary">#3F51B5</color>
+	<color name="colorPrimaryDark">#303F9F</color>
+	<color name="colorAccent">#FF4081</color>
+	<color name="text_play_background">#383838</color>
+	<color name="text_control_total_background">#c67838</color>
+	<color name="text_control_background">#dada65</color>
+	<color name="text_control_name_color">#fafafa</color>
+	<color name="text_control_page_color">#b2b2b2</color>
+
+	<color name="photo_toolbar_bg_color">#313131</color>
+	<color name="photo_textview_quality_color">#e5e5e5</color>
+	<color name="photo_textview_page_color">#b2b2b2</color>
+	<color name="mmp_popup_menu_item_text_color">#999999</color>
+	<color name="mmp_popup_menu_item_text_select_color">#ffffff</color>
+
+</resources>
+

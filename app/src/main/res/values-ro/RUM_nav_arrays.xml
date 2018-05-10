@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+	<string-array name="nav_channel_types">
+		<item>All</item>
+		<!--<item>Analog</item>
+		<item>Digital</item>-->
+		<item>Radio</item>
+	</string-array>
+	<!--
+
+		{ "Auto", "Normal", "LetterBox", "Zoom", "Panorama", "Dot by Dot" }
+	-->
+	<!--
+		<string-array name="nav_aspect_strings"> <item>Auto</item>
+		<item>Normal</item> <item>LetterBox</item> <item>Zoom</item>
+		<item>Panorama</item> <item>Punct cu punct</item> </string-array>
+	-->
+	<!--
+		"Sleep:Off", "Sleep: 10 Minutes", "Sleep:20 Minutes", "Sleep:30
+		Minutes", "Sleep:40 Minutes", "Sleep:50 Minutes", "Sleep:60 Minutes",
+		"Sleep:90 Minutes", "Sleep:120 Minutes" };
+	-->
+
+	<string-array name="nav_sleep_strings">
+		<item>Sleep:Off</item>
+		<item>Sleep:15 Minutes</item>
+		<item>Sleep:30 Minutes</item>
+		<item>Sleep:45 Minutes</item>
+		<item>Sleep:60 Minutes</item>
+		<item>Sleep:90 Minutes</item>
+		<item>Sleep:120 Minutes</item>
+	</string-array>
+	<string-array name="nav_zoom_strings">
+		<item>zoom X 1</item>
+		<item>zoom X 2</item>
+		<item>zoom X 1/2</item>
+	</string-array>
+	
+	<!-- OFF, Rock, Pop, Live, Dance, Techno, Classic and Soft -->
+	<string-array name="nav_s_effect_strings">
+        <item>Utilizator</item>
+		<item>Standard</item>
+		<item>Live1</item>
+	</string-array>
+
+	<string-array name="nav_freeze_strings">
+		<item>Freeze: On</item>
+		<item>Freeze: Off</item>
+	</string-array>
+	
+	<string-array name="nav_epg_filter_type">
+		<item>FILME</item>
+		<item>ŞTIRI</item>
+		<item>SHOW-URI</item>
+		<item>SPORT</item>
+		<item>COPII</item>
+		<item>MUZICĂ</item>
+		<item>ARTĂ</item>
+		<item>SOCIAL</item>
+		<item>EDUCAŢIE</item>
+		<item>TIMP LIBER</item>
+		<item>SPECIAL</item>
+	</string-array>
+	
+	<string-array name="nav_epg_filter_type_AUS">
+		<item>FILM</item>
+		<item>ŞTIRI</item>
+		<item>DIVERTISMENT</item>
+		<item>SPORTURI</item>
+		<item>PENTRU COPII</item>
+		<item>MUZICĂ</item>
+		<item>ARTE</item>
+		
+		<item>PROBLEME DE ACTUALITATE</item>
+		<item>EDUCAŢIE</item>
+		<item>ŞTIRI ŞI DIVERTISMENT</item>
+		<item>SPECIAL</item>
+		<item>COMEDIE</item>
+		<item>DRAMĂ</item>
+		<item>DOCUMENTAR</item>
+	</string-array>
+	
+	<string-array name="nav_epg_filter_type_UK">
+		<item>FILM</item>
+		<item>ŞTIRI</item>
+		<item>DIVERTISMENT</item>
+		<item>SPORTURI</item>
+		<item>PENTRU COPII</item>
+		<item>EDUCAŢIE</item>
+		<item>STIL DE VIAȚĂ</item>
+		<item>DRAMĂ</item>
+	</string-array>
+	
+	<string-array name="nav_epg_filter_sa_type">
+		<item>ŞTIRI</item>
+		<item>SPORTURI</item>
+		<item>EDUCAŢIE</item>
+		<item>SOAP_OPERA</item>
+		<item>MINI_SERIES</item>
+		<item>SERIES</item>
+		<item>VARIETY</item>
+		<item>REALITY_SHOW</item>
+		<item>INFOMATION</item>
+		<item>COMICAL</item>
+		<item>CHILDREN</item>
+		<item>EROTIC</item>
+		<item>FILM</item>
+		<item>RA_TE_SA_PR</item>
+		<item>DEBATE_INTERVIEW</item>
+		<item>OTHER</item>
+	</string-array>
+	
+	<string-array name="nav_epg_subtype_movie">
+		<item>Dramă</item>
+		<item>Detectiv</item>
+		<item>Aventură</item>
+		<item>S.F.</item>
+		<item>Comedie</item>
+		<item>Seriale</item>
+		<item>Romantic</item>
+		<item>Serios</item>
+		<item>Filme pentru adulţi</item>
+	</string-array>
+	
+	<string-array name="nav_epg_subtype_news">
+		<item>Afaceri curente</item>
+		<item>Starea vremii</item>
+		<item>Ştiri</item>
+		<item>Documentar</item>
+		<item>Discuţii</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_news">
+		<item>Ştiri</item>
+		<item>Report</item>
+		<item>Documentar</item>
+		<item>Biography</item>
+	</string-array>
+	
+	<string-array name="nav_epg_subtype_show">
+		<item>Show</item>
+		<item>Show-uri de jocuri</item>
+		<item>Show-uri de varietate</item>
+		<item>Talk Show</item>
+	</string-array>
+	
+	<string-array name="nav_epg_subtype_sports">
+		<item>Sport</item>
+		<item>Evenimente special</item>
+		<item>Revista sporturilor</item>
+		<item>Fotbal</item>
+		<item>Tenis</item>
+		<item>Sporturi de echipă</item>
+		<item>Atletism</item>
+		<item>Sporturi cu motor</item>
+		<item>Sporturi de apă</item>
+		<item>Sporturi de iarnă</item>
+		<item>Ecvestru</item>
+		<item>Arte marţiale</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_sports">
+		<item>Sporturi</item>
+	</string-array>
+	
+	<string-array name="nav_epg_subtype_children">
+		<item>Copii</item>
+		<item>Preşcolari</item>
+		<item>Amuzament pentru copii între 6-14 ani</item>
+		<item>Amuzament pentru copii între 10-16 ani</item>
+		<item>Informaţional</item>
+		<item>Desene animate</item>
+	</string-array>
+	
+	<string-array name="nav_epg_subtype_music">
+		<item>Muzică</item>
+		<item>Rock</item>
+		<item>Serios</item>
+		<item>Folk</item>
+		<item>Jazz</item>
+		<item>Musical-uri</item>
+		<item>Balet</item>
+	</string-array>
+	
+	<string-array name="nav_epg_subtype_arts">
+		<item>Arte</item>
+		<item>Arte interpretative</item>
+		<item>Arte rafinate</item>
+		<item>Religie</item>
+		<item>Cultură populară</item>
+		<item>Literatură</item>
+		<item>Film</item>
+		<item>Experimental</item>
+		<item>Transmisie</item>
+		<item>Noua media</item>
+		<item>Reviste de artă</item>
+		<item>Modă</item>
+	</string-array>
+	
+	<string-array name="nav_epg_subtype_social">
+		<item>Social</item>
+		<item>Reviste</item>
+		<item>Economie</item>
+		<item>Oameni remarcabili</item>
+	</string-array>
+	
+	<string-array name="nav_epg_subtype_education">
+		<item>Educaţie</item>
+		<item>Natură</item>
+		<item>Tehnologie</item>
+		<item>Medicină</item>
+		<item>Ţări străine</item>
+		<item>Ştiinţe sociale</item>
+		<item>Educare ulterioară</item>
+		<item>Limbi străine </item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_education">
+		<item>Educative</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_soap_opera">
+		<item>Soap opera</item>
+	</string-array>
+	
+	<string-array name="nav_epg_subtype_sa_mini_series">
+		<item>Mini-series</item>
+	</string-array>
+	
+	<string-array name="nav_epg_subtype_sa_series">
+		<item>Seriale</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_variety">
+		<item>Auditorium</item>
+		<item>Spectacol</item>
+		<item>Muzical</item>
+		<item>Making of</item>
+		<item>Feminine</item>
+		<item>Joc</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_reality_show">
+		<item>Reality show</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_information">
+		<item>Arta gătitului</item>
+		<item>Modă</item>
+		<item>Ţara</item>
+		<item>Health</item>
+		<item>Travel</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_comical">
+		<item>Comical</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_children">
+		<item>Children</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_erotic">
+		<item>Erotic</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_movie">
+		<item>Film</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_RA_TE_SA_PR">
+		<item>Raffle</item>
+		<item>Television sales</item>
+		<item>Prizing</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_DEBATE_INTERVIEW">
+		<item>Discuţie</item>
+		<item>Interview</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_other">
+		<item>Adult cartoon</item>
+		<item>Interactive</item>
+		<item>Policy</item>
+		<item>Religie</item>
+	</string-array>
+	
+	<string-array name="nav_epg_subtype_leisure">
+		<item>Hobby-uri în timpul liber</item>
+		<item>Turism</item>
+		<item>Artizanat</item>
+		<item>Automobilism</item>
+		<item>Fitness şi sănătate</item>
+		<item>Artă culinară</item>
+		<item>Publicitate</item>
+		<item>Grădinărit</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_special">
+		<item>Limbă originală</item>
+		<item>Alb şi negru</item>
+		<item>Nepublicat</item>
+		<item>Transmisie în direct</item>
+	</string-array>
+
+
+	<!-- MTS -->
+	<string-array name="nav_mts_strings">
+		<item>UNKNOW</item>
+		<item>MONO</item>
+		<item>STEREO</item>
+		<item>SUB_LANG</item>
+		<item>DUAL1</item>
+		<item>DUAL2</item>
+		<item>NICAM_MONO</item>
+		<item>NICAM_STEREO</item>
+		<item>NICAM_DUAL1</item>
+		<item>NICAM_DUAL2</item>
+		<item>FM_MONO</item>
+		<item>FM_STEREO</item>
+	</string-array>
+
+	<!-- AUDIO_TVCM -->
+	<string-array name="nav_audio_tvcm_strings">
+		<item>baq</item>
+		<item>eus</item>
+		<item>bul</item>
+		<item>cat</item>
+		<item>scr</item>
+		<item>cze</item>
+		<item>dan</item>
+		<item>dut</item>
+		<item>eng</item>
+		<item>fin</item>
+		<item>fre</item>
+		<item>gla</item>
+		<item>gdh</item>
+		<item>gle</item>
+		<item>glg</item>
+		<item>ger</item>
+		<item>gre</item>
+		<item>hun</item>
+		<item>ita</item>
+		<item>nor</item>
+		<item>pol</item>
+		<item>por</item>
+		<item>rum</item>
+		<item>rus</item>
+		<item>scc</item>
+		<item>slo</item>
+		<item>slv</item>
+		<item>spa</item>
+		<item>swe</item>
+		<item>tur</item>
+		<item>wel</item>
+		<item>ice</item>
+		<item>isl</item>
+		<item>smi</item>
+		<item>tha</item>
+		<item>vie</item>
+		<item>ara</item>
+		<item>zho</item>
+		<item>chi</item>
+		<item>per</item>
+		<item>kor</item>
+		<item>est</item>
+		<item>mao</item>
+		<item>cmn</item>
+		<item>yue</item>
+		<item>jpn</item>
+		<item>hin</item>
+		<item>nar</item>
+		<item>qaa</item>
+		<item>und</item>
+	</string-array>
+
+	<!-- AUDIO -->
+	<string-array name="nav_audio_strings">
+		<item>Bască</item>
+		<item>Bască</item>
+		<item>Bulaarian</item>
+		<item>catalan</item>
+		<item>Croată</item>
+		<item>Cehă</item>
+		<item>Daneză</item>
+		<item>Olandeză</item>
+		<item>Engleză</item>
+		<item>Finlandeză</item>
+		<item>french</item>
+		<item>gaelic</item>
+		<item>gaelic</item>
+		<item>Irish</item>
+		<item>gallegan</item>
+		<item>german</item>
+		<item>greek</item>
+		<item>hungarian</item>
+		<item>italian</item>
+		<item>norwegian</item>
+		<item>polish</item>
+		<item>portuguese</item>
+		<item>romanian</item>
+		<item>russian</item>
+		<item>serbian</item>
+		<item>slovak</item>
+		<item>slovenian</item>
+		<item>spanish</item>
+		<item>swedish</item>
+		<item>turkish</item>
+		<item>welsh</item>
+		<item>icelandic</item>
+		<item>icelandic</item>
+		<item>Sami langs</item>
+		<item>Tailandeză</item>
+		<item>Vietnameză</item>
+		<item>Arabă</item>
+		<item>T. Chinese</item>
+		<item>S. Chinese</item>
+		<item>Persană</item>
+		<item>Coreană</item>
+		<item>Estonă</item>
+		<item>Maori</item>
+		<item>Mandarină </item>
+		<item>Cantoneză</item>
+		<item>Japoneză </item>
+		<item>Hindi    </item>
+		<item>Narrative</item>
+		<item>Original Version for France</item>
+		<item>Nedefinit</item>
+	</string-array>
+
+	<string-array name="nav_bottom_volume">
+		<item>Control volum</item>
+		<item>Volum stânga faţă</item>
+		<item>Volum dreapta faţă</item>
+		<item>Volum stânga spate</item>
+		<item>Volum dreapta spate</item>
+		<item>Volum centru</item>
+		<item>Volum sunete joase</item>
+	</string-array>
+
+    <string-array name="nav_zoom_mode">
+		<item>Zoom x 1/2</item>
+		<item>Zoom x 1</item>
+		<item>Zoom x 2</item>
+	</string-array>
+
+	<string-array name="nav_receiver_type">
+		<item>Kabel</item>
+		<item>Antena</item>
+	</string-array>
+	<string-array name="pvr_tshift_initdisk_step1">
+		<item>Auto</item>
+		<item>Manual</item>
+	</string-array>
+	<string-array name="pvr_tshift_initdisk_step_format">
+		<item>Format</item>
+		<item>Ignorare</item>
+	</string-array>
+	<string-array name="pvr_tshift_initdisk_step_formatconfirm">
+		<item>Format</item>
+		<item>Prekliči</item>
+	</string-array>
+	
+	<string-array name="week_day">
+	    <item>Duminică</item>
+		<item>Luni</item>
+		<item>Marţi</item>
+		<item>Miercuri</item>
+		<item>Joi</item>
+		<item>Vineri</item>
+		<item>Sâmbătă</item>
+	</string-array>
+    <string-array name="nav_oad_btns_cancel">
+        <item>Prekliči</item>
+    </string-array>
+    <string-array name="nav_oad_btns_accept_remind_me_later">
+        <item>Acceptare</item>
+        <item>Aminteşte mai târziu</item>
+    </string-array>
+    <string-array name="nav_oad_btns_accept_reject">
+        <item>Acceptare</item>
+        <item>Refuzare</item>
+    </string-array>
+    
+    <string-array name="nav_oad_btns_yes_no">
+        <item>Da</item>
+        <item>NU</item>
+    </string-array>
+
+
+
+
+
+	<!--				
+				0:	MSG_STR_ID_EMPTY,						hide screen saver
+     				1:	MSG_STR_ID_NO_SIGNAL,					No Signal!
+     				2:	MSG_STR_ID_SCAN_CH,					Please Scan Channels!
+     				3:	MSG_STR_ID_GETTING_DATA,				Retrieving Data...
+     				4:	MSG_STR_ID_LOCKED_CH,					Channel Locked!
+     				5:	MSG_STR_ID_LOCKED_PROG,				Program Locked!
+     				6:	MSG_STR_ID_LOCKED_INP,					Input Locked!
+     				7:	MSG_STR_ID_NO_EVN_TILE,					(No program title.)
+     				8:	MSG_STR_ID_HIDDEN_CH,					Hidden Channel!
+     				9:	MSG_STR_ID_AUDIO_PROG,					Audio Program
+     				10:	MSG_STR_ID_NO_AUDIO_VIDEO,			No Audio and Video
+     				11:	MSG_STR_ID_NO_EVN_DTIL,				(No program details.)
+     				12:	MSG_STR_ID_NO_CH_DTIL,					(No channel details.)
+     				13:	MSG_STR_ID_NO_AUDIO_STRM,				no audio stream ??
+     				14:	MSG_STR_ID_NO_VIDEO_STRM,				no video stream ??
+     				15:	MSG_STR_ID_PLS_WAIT,					Please Wait...
+     				16:	MSG_STR_ID_VIDEO_NOT_SUPPORT,			video not support ??
+     				17:	MSG_STR_ID_HD_VIDEO_NOT_SUPPORT,		HD Service
+     				18:	MSG_STR_ID_NON_BRDCSTING,				Non-Broadcasting
+     				19:	MSG_STR_ID_NO_CH_IN_LIST,				no channel ??
+     				20:	MSG_STR_ID_TTX_SBTI_X_RATED_BLOCKED,	This content is blocked by your service provider
+     				255:	MSG_STR_ID_LAST_VALID_ENTRY,			only for counting purpose
+    -->
+	<string-array name="nav_twinkle_strings">
+		<item>  </item>
+		<item>Fără semnal!</item>
+		<item>Vă rugăm scanaţi canalele!</item>
+		<item>Recuperare date…</item>
+		<item>Canal blocat!</item>
+		<item>Program blocat!</item>
+		<item>Intrare blocată!</item>
+		<item>(Fără titlu de program.)</item>
+		<item>Canal ascuns!</item>
+		<item>Program audio</item>
+		<item>Nu există semnal audio si video</item>
+		<item>(Fără detalii de program.)</item>
+		<item>(Nu există detalii ale canalului.)</item>
+		<item>♪ No Audio Stream ♪</item>
+		<item>No Video Stream</item>
+		<item>Va rugăm aşteptaţi...</item>
+		<item>Video not Support</item>
+		<item>Serviciu HD</item>
+		<item>Non-Broadcasting</item>
+		<item>No Channel</item>
+		<item>This content is blocked by your service provider</item>
+		<item>Criptat</item>
+	</string-array>
+
+
+	<string-array name="nav_channel_type">
+		<item>All</item>
+		<item>Digital</item>
+		<item>Radio</item>
+		<item>Analog</item>
+	</string-array>
+
+
+    
+</resources>
+

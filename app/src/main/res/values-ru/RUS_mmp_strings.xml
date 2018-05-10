@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="mmp_test">This is test data\n file name \n img\n test
+	</string>
+	<string name="mmp_menu">Меню</string>
+	<string name="mmp_menu_sort">Сортировка</string>
+	<string name="mmp_menu_mediatype">Тип носителя</string>
+	<string name="mmp_menu_thumb">Размер пиктограммы</string>
+	<string name="mmp_menu_copy">Копировать</string>
+	<string name="mmp_menu_paste">Вставит</string>
+	<string name="mmp_menu_delete">Удалить</string>
+	<string name="mmp_menu_recur">Рекурсивный анализатор</string>
+	<string name="mmp_menu_not_recur">Обычный анализатор</string>
+	<string name="mmp_menu_photoframe">Рамка фотографии</string>
+	<string name="mmp_menu_photo_frame">Photo Frame Image is set OK</string>
+
+	<string name="mmp_menu_play">Играя</string>
+	<string name="mmp_menu_pause">Пауза</string>
+	<string name="mmp_menu_repeat">Повтор</string>
+	<string name="mmp_menu_shuffle">Беспорядок</string>
+	<string name="mmp_menu_duration">Длительность</string>
+	<string name="mmp_menu_effect">Эффект</string>
+	<string name="mmp_menu_showinfo">Показать инфо</string>
+	<string name="mmp_menu_frame">Изображение фоторамки</string>
+	<string name="mmp_menu_rotate">Повернуть</string>
+	<string name="mmp_menu_3d_photo">3D Photo</string>
+
+	<string name="mmp_menu_display">Display Line</string>
+	<string name="mmp_menu_timeoffset">Смещение времени</string>
+	<string name="mmp_menu_encoding">Расшифровка</string>
+
+	<string name="mmp_menu_picturemode">Режим изображения</string>
+	<string name="mmp_menu_screenmode">Режим экрана</string>
+
+	<string name="mmp_menu_font">Шрифт </string>
+
+	<string name="mmp_menu_size">Размер</string>
+	<string name="mmp_menu_style">Стиль</string>
+	<string name="mmp_menu_color">Цвет</string>
+	<!-- child menu -->
+
+	<string name="mmp_menu_date">Дата</string>
+	<string name="mmp_menu_name">Название</string>
+	<string name="mmp_menu_album">Альбом</string>
+	<string name="mmp_menu_artist">Артист</string>
+	<string name="mmp_menu_genre">Жанр</string>
+	<string name="mmp_menu_type">Тип</string>
+	
+	<string name="mmp_menu_phototext">Фото</string>
+	<string name="mmp_menu_music">МУЗЫКА</string>
+	<string name="mmp_menu_video">Видео</string>
+	<string name="mmp_menu_text">Текст</string>
+	<string name="mmp_menu_small">Малый</string>
+	<string name="mmp_menu_medium">Среднее</string>
+	<string name="mmp_menu_large">Большой</string>
+	<string name="mmp_menu_onephotomode">One Photomode</string>
+	<string name="mmp_menu_datafraveler">DataFraveler G2</string>
+	<string name="mmp_menu_none">Нет</string>
+	<string name="mmp_menu_repeatone">Повторить один</string>
+	<string name="mmp_menu_repeatall">Повторить все</string>
+	<string name="mmp_menu_shuffleoff">Случайный выкл</string>
+	<string name="mmp_menu_shuffleon">Случайный вкл</string>
+	<string name="mmp_menu_short">Короткая</string>
+	<string name="mmp_menu_long">Длинная</string>
+	<string name="mmp_menu_1x">1 X</string>
+	<string name="mmp_menu_2x">2 X</string>
+	<string name="mmp_menu_4x">4 X</string>
+	<string name="mmp_menu_dissolve">Растворение</string>
+	<string name="mmp_menu_wiperight">Уход вправо</string>
+	<string name="mmp_menu_wipeleft">Уход влево</string>
+	<string name="mmp_menu_wipeup">Уход вверх</string>
+	<string name="mmp_menu_wipedown">Уход вниз</string>
+	<string name="mmp_menu_boxin">Схлопывание</string>
+	<string name="mmp_menu_boxout">Расширение</string>
+
+	<string name="mmp_menu_random">Случайный</string>
+
+
+	<string name="mmp_menu_off">Off</string>
+	<string name="mmp_menu_singleline">Single Line</string>
+	<string name="mmp_menu_multiline">Multi Line</string>
+	<string name="mmp_menu_auto">Авто</string>
+	<string name="mmp_menu_userdefine">User define</string>
+	<string name="mmp_menu_gb">GB</string>
+	<string name="mmp_menu_big5">Big5</string>
+	<string name="mmp_menu_utf8">Utf8</string>
+	<string name="mmp_menu_utf16">Utf16</string>
+	<string name="mmp_menu_user">Пользовательский</string>
+	<string name="mmp_menu_cinema">Кино</string>
+	<string name="mmp_menu_sport">Sport</string>
+	<string name="mmp_menu_vivid">Насыщенный</string>
+	<string name="mmp_menu_hibright">Высокая яркость</string>
+	<string name="mmp_menu_normal">Обычные</string>
+	<string name="mmp_menu_letterbox">Letter box</string>
+	<string name="mmp_menu_scan">Поиск</string>
+	<string name="mmp_menu_zoom">Увеличение</string>
+	<string name="mmp_menu_dotbydot">Режим без интерполяции</string>
+
+	<string name="mmp_menu_regular">Обычный</string>
+	<string name="mmp_menu_italic">Курсив</string>
+	<string name="mmp_menu_bold">Жирный</string>
+	<string name="mmp_menu_outline">Жирный Курсив</string>
+	<string name="mmp_menu_white">Белый</string>
+	<string name="mmp_menu_blue">Синий</string>
+	<string name="mmp_menu_red">Красный</string>
+	<string name="mmp_menu_green">Зеленый</string>
+	<string name="mmp_menu_black">Черный</string>
+	<string name="mmp_menu_lyricoptions">Lyric Options</string>
+
+	<string name="mmp_menu_showscore">Показать спектр</string>
+	<string name="mmp_menu_hidescore">Скрыть спектр</string>
+	<string name="mmp_menu_onlyaudio">Только аудио</string>
+
+
+
+	<string name="mmp_photo">Фото</string>
+	<string name="mmp_audio">МУЗЫКА</string>
+	<string name="mmp_video">Видео</string>
+	<string name="mmp_text">Текст</string>
+	<string name="mmp_select">Odaberi</string>
+	<string name="mmp_input">Ввод</string>
+	<string name="mmp_exit">Izlaz</string>
+	<string name="mmp_emptyfile">The current folder is empty!</string>
+	<string name="mmp_reutip">It\'s parsing this folder,please wait...</string>
+	<string name="mmp_filepath">\</string>
+	<string name="mmp_pop_repeat_tvrepeat">Повторить все</string>
+	<string name="mmp_pop_repeat_tvsingle">Single</string>
+	<string name="mmp_pop_repeat_tvnone"> </string>
+	<string name="mmp_pop_time_tv">Короткая</string>
+	<string name="mmp_pop_view_tv">Нет</string>
+	<string name="mmp_pop_menu">Меню</string>
+	<string name="mmp_pop_enter">Ввод</string>
+	<string name="mmp_pop_zoomscale">X</string>
+	<string name="mmp_pop_starttime">00:00:00</string>
+	<string name="mmp_pop_pagesize">01\//01</string>
+	<string name="mmp_listmode_play">Играя</string>
+
+
+
+	<string name="mmp_info_album">Альбом:</string>
+	<string name="mmp_info_orientation">Ориентация:</string>
+	<string name="mmp_info_artist">Артист:</string>
+	<string name="mmp_info_name">Название:</string>
+	<string name="mmp_info_date">Дата:</string>
+	<string name="mmp_info_size">Размер:</string>
+	<string name="mmp_info_next">Следующие:</string>
+	<string name="mmp_info_exposure">ВРЕМЯ ЭКСПОЗИЦИИ:</string>
+	<string name="mmp_info_fnumber">FNUMBER:</string>
+	<string name="mmp_info_program">ЭКСПОЗИЦИЯ ПРОГРАММЫ:</string>
+	<string name="mmp_info_colorspace">ЦВЕТОВОЕ ПРОСТРАНСТВО:</string>
+	<string name="mmp_info_title">Название:</string>
+	<string name="mmp_info_genre">Жанр:</string>
+	<string name="mmp_info_year">Год:</string>
+	<string name="mmp_info_duration">Длительность:</string>
+	<string name="mmp_info_director">Директор:</string>
+	<string name="mmp_info_copyrght">Авторское право:</string>
+
+	<string name="mmp_info_lastline">Last Line</string>
+	<string name="mmp_info_nextline">Next Line</string>
+	<string name="mmp_info_lastpage">Last Page</string>
+	<string name="mmp_info_nextpage">След. страница</string>
+
+	<string name="mmp_info_nolrc">No lrc</string>
+	<string name="mmp_time_separator">:</string>
+	<string name="mmp_time_inti">00</string>
+
+	<!-- Network -->
+	<string name="mmp_loading_tip">It\'s parsing this folder,please wait...</string>
+	<string name="mmp_user_name">User name</string>
+	<string name="mmp_password">Пароль</string>
+	<string name="mmp_confirm">Подтвердить</string>
+	<string name="mmp_vkb">Vkb</string>
+	<string name="mmp_ok">OK</string>
+	<string name="mmp_cancel">Otkaži</string>
+
+	<string name="mmp_login_failed_tip">Username or password is error!</string>
+	<!-- Network -->
+
+	<string name="mmp_title_copy">Копирование</string>
+	<string name="mmp_title_confirm_replace">Подтвердите замену файлов</string>
+	<string name="mmp_title_confirm_delete">Подтвердите удаление файлов</string>
+	<string name="mmp_message_copy"> %1$s\nFrom %2$s\nTo %3$s</string>
+	<string name="mmp_message_confirm_replace"> This folder already contains a file named\n%s
+	</string>
+	<string name="mmp_message_confirm_delete">Удалить выбранные файлы?</string>
+
+	<string name="mmp_yes">Да</string>
+	<string name="mmp_yes_to_all">Да для всех</string>
+	<string name="mmp_no">НЕТ</string>
+
+	<string name="mmp_capture_title">Capture Logo</string>
+	<string name="mmp_capture_confirm">Do you want to capture this screen ?</string>
+	<string name="mmp_toast_no_photoframe">There is no photo frame image to play</string>
+
+	<string name="mmp_video_notsupport">Video Codec not support</string>
+	<string name="mmp_audio_notsupport">Audio Codec not support</string>
+	<string name="mmp_video_only">Video only</string>
+	<string name="mmp_frame_photo_sleeptime">Время засыпания</string>
+	<string name="mmp_sleeptime_lable">Время засыпания:  </string>
+	<string name="mmp_video_stopresume">Stop Resume</string>
+	<string name="mmp_can_notpause">Can Not Pause</string>
+	
+	<string name="mmp_photo_type_notsupport">File not support</string>
+
+	<string name="mmp_lable_rorate">Повернуть</string>
+	<string name="mmp_lable_degree">°</string>
+	<string name="mmp_lable_subtitle_off">Off</string>
+
+	<string name="mmp_info_whitebalance">WhiteBalance:</string>
+	<string name="mmp_info_make">Make:</string>
+	<string name="mmp_info_model">Model:</string>
+	<string name="mmp_info_flash">Flash:</string>
+	<string name="mmp_info_focallength">FocalLength:</string>
+	<string name="mmp_menu_pic_setting">Picture Setting</string>
+
+	<string name="mmp_file_notsupport">File not support</string>
+	<string name="mmp_notsupport">Not support</string>
+	<string name="mmp_seek_notsupport">Seek not support</string>
+	<string name="mmp_step_notsupport">Step not support</string>
+	<string name="mmp_featue_notsupport">Функция недоступна</string>
+	<string name="mmp_nodevice">No Device Connected!</string>
+	<string name="mmp_time_out">The time code you input is wrong!\nPlease assure it\'s less than total time</string>
+    <string name="mmp_file_corrupt">File is corrupted</string>
+    <string name="mmp_menu_mount_iso">Mount the current iso file</string>
+	<string name="mmp_menu_unmount_iso">Nnmount the current device</string>
+
+	<string name="mmp_media_info_scrambled_audio_video_service">Scramble Video and Audio</string>
+	<string name="mmp_media_info_scrambled_audio_clear_video_service">Scramble Audio</string>
+	<string name="mmp_media_info_scrambled_audio_no_video_service">Scramble Audio,Audio only</string>
+	<string name="mmp_media_info_scrambled_video_clear_audio_service">Scramble Video</string>
+	<string name="mmp_media_info_scrambled_video_no_audio_service">Scramble Video,Video only</string>
+	
+	
+	
+	<string name="txture_0">"defaultVideo1.PNG"</string>
+    <string name="txture_1">"defaultVideo2.PNG"</string>
+    <string name="txture_2">"defaultVideo3.PNG"</string>
+    <string name="txture_3">"defaultVideo4.PNG"</string>
+    <string name="txture_4">"defaultVideo5.PNG"</string>
+    <string name="txture_5">"defaultVideo6.PNG"</string>
+    <string name="txture_6">"defaultVideo7.PNG"</string>
+    <string name="txture_7">"defaultVideo8.PNG"</string>
+    <string name="txture_8">"defaultVideo9.PNG"</string>
+    
+</resources>
+

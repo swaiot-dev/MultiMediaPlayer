@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+	<string-array name="nav_channel_types">
+		<item>All</item>
+		<!--<item>Analog.</item>
+		<item>Digitaalinen</item>-->
+		<item>Radio</item>
+	</string-array>
+	<!--
+
+		{ "Auto", "Normal", "LetterBox", "Zoom", "Panorama", "Dot by Dot" }
+	-->
+	<!--
+		<string-array name="nav_aspect_strings"> <item>Auto</item>
+		<item>Normal</item> <item>LetterBox</item> <item>Zoomaus</item>
+		<item>Panorama</item> <item>Piste pisteeltä</item> </string-array>
+	-->
+	<!--
+		"Sleep:Off", "Sleep: 10 Minutes", "Sleep:20 Minutes", "Sleep:30
+		Minutes", "Sleep:40 Minutes", "Sleep:50 Minutes", "Sleep:60 Minutes",
+		"Sleep:90 Minutes", "Sleep:120 Minutes" };
+	-->
+
+	<string-array name="nav_sleep_strings">
+		<item>Sleep:Off</item>
+		<item>Sleep:15 Minutes</item>
+		<item>Sleep:30 Minutes</item>
+		<item>Sleep:45 Minutes</item>
+		<item>Sleep:60 Minutes</item>
+		<item>Sleep:90 Minutes</item>
+		<item>Sleep:120 Minutes</item>
+	</string-array>
+	<string-array name="nav_zoom_strings">
+		<item>zoom X 1</item>
+		<item>zoom X 2</item>
+		<item>zoom X 1/2</item>
+	</string-array>
+	
+	<!-- OFF, Rock, Pop, Live, Dance, Techno, Classic and Soft -->
+	<string-array name="nav_s_effect_strings">
+        <item>Oma</item>
+		<item>Vakio</item>
+		<item>Live1</item>
+	</string-array>
+
+	<string-array name="nav_freeze_strings">
+		<item>Freeze: On</item>
+		<item>Freeze: Off</item>
+	</string-array>
+	
+	<string-array name="nav_epg_filter_type">
+		<item>ELOKUVA</item>
+		<item>UUTISET</item>
+		<item>SHOW</item>
+		<item>URHEILU</item>
+		<item>LASTENOHJELMAT</item>
+		<item>MUSIIKKI</item>
+		<item>TAITEET</item>
+		<item>YHTEISKUNTA</item>
+		<item>OPETUS</item>
+		<item>VAPAA-AIKA</item>
+		<item>ERIKOIS</item>
+	</string-array>
+	
+	<string-array name="nav_epg_filter_type_AUS">
+		<item>ELOKUVA</item>
+		<item>UUTISET</item>
+		<item>VIIHDE</item>
+		<item>URHEILU</item>
+		<item>LAPSET</item>
+		<item>MUSIIKKI</item>
+		<item>TAITEET</item>
+		<item>AJANKOHTAISET</item>
+		<item>OPETUS</item>
+		<item>TIETOVIIHDE</item>
+		<item>ERIKOIS</item>
+		<item>KOMEDIA</item>
+		<item>DRAAMA</item>
+		<item>DOKUMENTTI</item>
+	</string-array>
+	
+	<string-array name="nav_epg_filter_type_UK">
+		<item>ELOKUVA</item>
+		<item>UUTISET</item>
+		<item>VIIHDE</item>
+		<item>URHEILU</item>
+		<item>LAPSET</item>
+		<item>OPETUS</item>
+		<item>ELÄMÄNTYYLI</item>
+		<item>DRAAMA</item>
+	</string-array>
+	
+	<string-array name="nav_epg_filter_sa_type">
+		<item>UUTISET</item>
+		<item>URHEILU</item>
+		<item>OPETUS</item>
+		<item>SOAP_OPERA</item>
+		<item>MINI_SERIES</item>
+		<item>SERIES</item>
+		<item>VARIETY</item>
+		<item>REALITY_SHOW</item>
+		<item>INFOMATION</item>
+		<item>COMICAL</item>
+		<item>CHILDREN</item>
+		<item>EROTIC</item>
+		<item>ELOKUVA</item>
+		<item>RA_TE_SA_PR</item>
+		<item>DEBATE_INTERVIEW</item>
+		<item>OTHER</item>
+	</string-array>
+	
+	<string-array name="nav_epg_subtype_movie">
+		<item>Draama</item>
+		<item>Dekkari</item>
+		<item>Seikkailu</item>
+		<item>Scifi</item>
+		<item>Komedia</item>
+		<item>Saippuasarja</item>
+		<item>Romantiikka</item>
+		<item>Vakava</item>
+		<item>Aikuisviihde</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_news">
+		<item>Ajankohtaisohjelmat</item>
+		<item>Säätiedotukset</item>
+		<item>Uutismakasiinit</item>
+		<item>Dokumentti</item>
+		<item>Keskustelu</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_news">
+		<item>Uutiset</item>
+		<item>Report</item>
+		<item>Dokumentti</item>
+		<item>Biography</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_show">
+		<item>Show</item>
+		<item>Peliohjelmat</item>
+		<item>Varieteeohjelmat</item>
+		<item>Puheohjelmat</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_sports">
+		<item>Urheilu</item>
+		<item>Erikoistapahtumat</item>
+		<item>Urheilumakasiinit</item>
+		<item>Jalkapallo</item>
+		<item>Tennis</item>
+		<item>Joukkueurheilu</item>
+		<item>Yleisurheilu</item>
+		<item>Moottoriurheilu</item>
+		<item>Vesiurheilu</item>
+		<item>Talviurheilu</item>
+		<item>Hevosurheilu</item>
+		<item>Kamppailulajit</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_sports">
+		<item>Urheilu</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_children">
+		<item>Lastenohjelmat</item>
+		<item>Esikouluikäiset</item>
+		<item>6 - 14-vuotiaat lapset</item>
+		<item>10 - 16-vuotiaat lapset</item>
+		<item>Opetusohjelmat</item>
+		<item>Piirretyt</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_music">
+		<item>Musiikki</item>
+		<item>Rock</item>
+		<item>Vakava</item>
+		<item>Folk</item>
+		<item>Jazz</item>
+		<item>Musikaali</item>
+		<item>Baletti</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_arts">
+		<item>Taiteet</item>
+		<item>Näyttämötaide</item>
+		<item>Kuvataide</item>
+		<item>Uskonto</item>
+		<item>Populaarikulttuuri</item>
+		<item>Kirjallisuus</item>
+		<item>Elokuva</item>
+		<item>Kokeellinen</item>
+		<item>Lähettäminen</item>
+		<item>Uusi media</item>
+		<item>Taideohjelmat</item>
+		<item>Muoti</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_social">
+		<item>Yhteiskunnallinen</item>
+		<item>Makasiiniohjelmat</item>
+		<item>Talous</item>
+		<item>Merkkihenkilöt</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_education">
+		<item>Opetus</item>
+		<item>Luonto</item>
+		<item>Teknologia</item>
+		<item>Lääketiede</item>
+		<item>Vieraat kulttuurit</item>
+		<item>Yhteiskuntatieteet</item>
+		<item>Jatko-opinnot</item>
+		<item>Kielet</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_education">
+		<item>Educative</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_soap_opera">
+		<item>Soap opera</item>
+	</string-array>
+	
+	<string-array name="nav_epg_subtype_sa_mini_series">
+		<item>Mini-series</item>
+	</string-array>
+	
+	<string-array name="nav_epg_subtype_sa_series">
+		<item>Sarja</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_variety">
+		<item>Auditorium</item>
+		<item>Show</item>
+		<item>Musikaali</item>
+		<item>Making of</item>
+		<item>Feminine</item>
+		<item>Peliohjelma</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_reality_show">
+		<item>Reality show</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_information">
+		<item>Ruoanlaitto</item>
+		<item>Muoti</item>
+		<item>Maa</item>
+		<item>Health</item>
+		<item>Travel</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_comical">
+		<item>Comical</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_children">
+		<item>Children</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_erotic">
+		<item>Erotic</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_movie">
+		<item>Elokuva</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_RA_TE_SA_PR">
+		<item>Raffle</item>
+		<item>Television sales</item>
+		<item>Prizing</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_DEBATE_INTERVIEW">
+		<item>Keskustelu</item>
+		<item>Interview</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_other">
+		<item>Adult cartoon</item>
+		<item>Interactive</item>
+		<item>Policy</item>
+		<item>Uskonto</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_leisure">
+		<item>Vapaa-ajan harrastukset</item>
+		<item>Turismi</item>
+		<item>Käsityöt</item>
+		<item>Autoilu</item>
+		<item>Liikunta ja terveys</item>
+		<item>Ruoanlaitto</item>
+		<item>Mainonta</item>
+		<item>Puutarhanhoito</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_special">
+		<item>Alkuperäinen kieli</item>
+		<item>Mustavalkoinen</item>
+		<item>Julkaisematon</item>
+		<item>Live-lähetykset</item>
+	</string-array>
+
+
+	<!-- MTS -->
+	<string-array name="nav_mts_strings">
+		<item>UNKNOW</item>
+		<item>MONO</item>
+		<item>STEREO</item>
+		<item>SUB_LANG</item>
+		<item>DUAL1</item>
+		<item>DUAL2</item>
+		<item>NICAM_MONO</item>
+		<item>NICAM_STEREO</item>
+		<item>NICAM_DUAL1</item>
+		<item>NICAM_DUAL2</item>
+		<item>FM_MONO</item>
+		<item>FM_STEREO</item>
+	</string-array>
+
+	<!-- AUDIO_TVCM -->
+	<string-array name="nav_audio_tvcm_strings">
+		<item>baq</item>
+		<item>eus</item>
+		<item>bul</item>
+		<item>cat</item>
+		<item>scr</item>
+		<item>cze</item>
+		<item>dan</item>
+		<item>dut</item>
+		<item>eng</item>
+		<item>fin</item>
+		<item>fre</item>
+		<item>gla</item>
+		<item>gdh</item>
+		<item>gle</item>
+		<item>glg</item>
+		<item>ger</item>
+		<item>gre</item>
+		<item>hun</item>
+		<item>ita</item>
+		<item>nor</item>
+		<item>pol</item>
+		<item>por</item>
+		<item>rum</item>
+		<item>rus</item>
+		<item>scc</item>
+		<item>slo</item>
+		<item>slv</item>
+		<item>spa</item>
+		<item>swe</item>
+		<item>tur</item>
+		<item>wel</item>
+		<item>ice</item>
+		<item>isl</item>
+		<item>smi</item>
+		<item>tha</item>
+		<item>vie</item>
+		<item>ara</item>
+		<item>zho</item>
+		<item>chi</item>
+		<item>per</item>
+		<item>kor</item>
+		<item>est</item>
+		<item>mao</item>
+		<item>cmn</item>
+		<item>yue</item>
+		<item>jpn</item>
+		<item>hin</item>
+		<item>nar</item>
+		<item>qaa</item>
+		<item>und</item>
+	</string-array>
+
+	<!-- AUDIO -->
+	<string-array name="nav_audio_strings">
+		<item>Baski</item>
+		<item>Baski</item>
+		<item>Bulaarian</item>
+		<item>catalan</item>
+		<item>Kroatia</item>
+		<item>Tšekki</item>
+		<item>Tanska</item>
+		<item>Hollanti</item>
+		<item>Englanti</item>
+		<item>Suomi</item>
+		<item>french</item>
+		<item>gaelic</item>
+		<item>gaelic</item>
+		<item>Irish</item>
+		<item>gallegan</item>
+		<item>german</item>
+		<item>greek</item>
+		<item>hungarian</item>
+		<item>italian</item>
+		<item>norwegian</item>
+		<item>polish</item>
+		<item>portuguese</item>
+		<item>romanian</item>
+		<item>russian</item>
+		<item>serbian</item>
+		<item>slovak</item>
+		<item>slovenian</item>
+		<item>spanish</item>
+		<item>swedish</item>
+		<item>turkish</item>
+		<item>welsh</item>
+		<item>icelandic</item>
+		<item>icelandic</item>
+		<item>Sami langs</item>
+		<item>Thai</item>
+		<item>Vietnam</item>
+		<item>Arabia</item>
+		<item>T. Chinese</item>
+		<item>S. Chinese</item>
+		<item>Persia</item>
+		<item>Korea</item>
+		<item>Viro</item>
+		<item>Maori</item>
+		<item>Mandariini </item>
+		<item>Kantoni</item>
+		<item>Japani </item>
+		<item>Hindi    </item>
+		<item>Narrative</item>
+		<item>Original Version for France</item>
+		<item>Ei määritetty</item>
+	</string-array>
+
+	<string-array name="nav_bottom_volume">
+		<item>Äänenvoimakkuus</item>
+		<item>Äänenvoimakkuus, etuvasen</item>
+		<item>Äänenvoimakkuus, etuoikea</item>
+		<item>Äänenvoimakkuus, takavasen</item>
+		<item>Äänenvoimakkuus, takaoikea</item>
+		<item>Äänenvoimakkuus, keskikaiutin</item>
+		<item>Äänenvoimakkuus, subwoofer</item>
+	</string-array>
+
+    <string-array name="nav_zoom_mode">
+		<item>Zoom x 1/2</item>
+		<item>Zoom x 1</item>
+		<item>Zoom x 2</item>
+	</string-array>
+
+	<string-array name="nav_receiver_type">
+		<item>Καλώδιο</item>
+		<item>Κεραία</item>
+	</string-array>
+	<string-array name="pvr_tshift_initdisk_step1">
+		<item>Auto</item>
+		<item>Manual</item>
+	</string-array>
+	<string-array name="pvr_tshift_initdisk_step_format">
+		<item>Format</item>
+		<item>Ohita</item>
+	</string-array>
+	<string-array name="pvr_tshift_initdisk_step_formatconfirm">
+		<item>Format</item>
+		<item>Ακύρωση</item>
+	</string-array>
+	
+	<string-array name="week_day">
+	    <item>sunnuntaina</item>
+		<item>maanantaina</item>
+		<item>tiistaina</item>
+		<item>keskiviikkona</item>
+		<item>torstai</item>
+		<item>perjantai</item>
+		<item>lauantai</item>
+	</string-array>
+    <string-array name="nav_oad_btns_cancel">
+        <item>Ακύρωση</item>
+    </string-array>
+    <string-array name="nav_oad_btns_accept_remind_me_later">
+        <item>Hyväksy</item>
+        <item>Muistuta myöhemmin</item>
+    </string-array>
+    <string-array name="nav_oad_btns_accept_reject">
+        <item>Hyväksy</item>
+        <item>Hylkää</item>
+    </string-array>
+    
+    <string-array name="nav_oad_btns_yes_no">
+        <item>Kyllä</item>
+        <item>EI</item>
+    </string-array>
+
+
+
+
+
+	<!--				
+				0:	MSG_STR_ID_EMPTY,						hide screen saver
+     				1:	MSG_STR_ID_NO_SIGNAL,					No Signal!
+     				2:	MSG_STR_ID_SCAN_CH,					Please Scan Channels!
+     				3:	MSG_STR_ID_GETTING_DATA,				Retrieving Data...
+     				4:	MSG_STR_ID_LOCKED_CH,					Channel Locked!
+     				5:	MSG_STR_ID_LOCKED_PROG,				Program Locked!
+     				6:	MSG_STR_ID_LOCKED_INP,					Input Locked!
+     				7:	MSG_STR_ID_NO_EVN_TILE,					(No program title.)
+     				8:	MSG_STR_ID_HIDDEN_CH,					Hidden Channel!
+     				9:	MSG_STR_ID_AUDIO_PROG,					Audio Program
+     				10:	MSG_STR_ID_NO_AUDIO_VIDEO,			No Audio and Video
+     				11:	MSG_STR_ID_NO_EVN_DTIL,				(No program details.)
+     				12:	MSG_STR_ID_NO_CH_DTIL,					(No channel details.)
+     				13:	MSG_STR_ID_NO_AUDIO_STRM,				no audio stream ??
+     				14:	MSG_STR_ID_NO_VIDEO_STRM,				no video stream ??
+     				15:	MSG_STR_ID_PLS_WAIT,					Please Wait...
+     				16:	MSG_STR_ID_VIDEO_NOT_SUPPORT,			video not support ??
+     				17:	MSG_STR_ID_HD_VIDEO_NOT_SUPPORT,		HD Service
+     				18:	MSG_STR_ID_NON_BRDCSTING,				Non-Broadcasting
+     				19:	MSG_STR_ID_NO_CH_IN_LIST,				no channel ??
+     				20:	MSG_STR_ID_TTX_SBTI_X_RATED_BLOCKED,	This content is blocked by your service provider
+     				255:	MSG_STR_ID_LAST_VALID_ENTRY,			only for counting purpose
+    -->
+	<string-array name="nav_twinkle_strings">
+		<item>  </item>
+		<item>Ei signaalia.</item>
+		<item>Hae kanavat.</item>
+		<item>Noudetaan tietoja...</item>
+		<item>Kanava lukittu.</item>
+		<item>Ohjelma lukittu.</item>
+		<item>Syöttö lukittu.</item>
+		<item>(Ei ohjelman nimeä.)</item>
+		<item>Piilotettu kanava.</item>
+		<item>Ääniohjelma</item>
+		<item>Ei ääntä tai kuvaa</item>
+		<item>(Ei ohjelman tietoja.)</item>
+		<item>(Kanavan tiedot eivät saatavilla)</item>
+		<item>♪ No Audio Stream ♪</item>
+		<item>No Video Stream</item>
+		<item>Hetkinen...</item>
+		<item>Video not Support</item>
+		<item>HD-palvelu</item>
+		<item>Non-Broadcasting</item>
+		<item>No Channel</item>
+		<item>Ohjelman katsominen estetty operaattorin toimesta</item>
+		<item>Salattu</item>
+	</string-array>
+
+
+	<string-array name="nav_channel_type">
+		<item>All</item>
+		<item>Digitaalinen</item>
+		<item>Radio</item>
+		<item>Analog.</item>
+	</string-array>
+
+
+    
+</resources>
+
