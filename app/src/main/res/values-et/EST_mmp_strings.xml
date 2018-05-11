@@ -113,9 +113,9 @@
 
 
 
-	<string name="mmp_photo">Foto</string>
-	<string name="mmp_audio">Muus.</string>
-	<string name="mmp_video">Video</string>
+	<string name="mmp_photo">Piltide</string>
+	<string name="mmp_audio">Muusika</string>
+	<string name="mmp_video">Film</string>
 	<string name="mmp_text">Tekst</string>
 	<string name="mmp_select">Vali</string>
 	<string name="mmp_input">Enter</string>
@@ -160,7 +160,7 @@
 	<string name="mmp_info_lastpage">Last Page</string>
 	<string name="mmp_info_nextpage">Järgm. lk</string>
 
-	<string name="mmp_info_nolrc">No lrc</string>
+	<string name="mmp_info_nolrc">Nr lyrics</string>
 	<string name="mmp_time_separator">:</string>
 	<string name="mmp_time_inti">00</string>
 

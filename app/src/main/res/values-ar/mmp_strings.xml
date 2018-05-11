@@ -115,7 +115,7 @@
 
 	<string name="mmp_photo">صورة</string>
 	<string name="mmp_audio">موسيقى</string>
-	<string name="mmp_video">فيديو</string>
+	<string name="mmp_video">فيلم</string>
 	<string name="mmp_text">نص</string>
 	<string name="mmp_select">تحديد</string>
 	<string name="mmp_input">إدخال</string>
@@ -160,7 +160,7 @@
 	<string name="mmp_info_lastpage">Last Page</string>
 	<string name="mmp_info_nextpage">الصفحة التالية</string>
 
-	<string name="mmp_info_nolrc">No lrc</string>
+	<string name="mmp_info_nolrc">لا كلمات</string>
 	<string name="mmp_time_separator">:</string>
 	<string name="mmp_time_inti">00</string>
 

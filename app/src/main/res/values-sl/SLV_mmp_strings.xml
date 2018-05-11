@@ -115,7 +115,7 @@
 
 	<string name="mmp_photo">Fotografije</string>
 	<string name="mmp_audio">Glasba</string>
-	<string name="mmp_video">Video</string>
+	<string name="mmp_video">Film</string>
 	<string name="mmp_text">Besedilo</string>
 	<string name="mmp_select">Välj</string>
 	<string name="mmp_input">Enter</string>
@@ -160,7 +160,7 @@
 	<string name="mmp_info_lastpage">Last Page</string>
 	<string name="mmp_info_nextpage">Naslednja stran</string>
 
-	<string name="mmp_info_nolrc">No lrc</string>
+	<string name="mmp_info_nolrc">Brez besedila</string>
 	<string name="mmp_time_separator">:</string>
 	<string name="mmp_time_inti">00</string>
 

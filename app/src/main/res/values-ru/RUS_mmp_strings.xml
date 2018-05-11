@@ -115,7 +115,7 @@
 
 	<string name="mmp_photo">Фото</string>
 	<string name="mmp_audio">МУЗЫКА</string>
-	<string name="mmp_video">Видео</string>
+	<string name="mmp_video">Фильм</string>
 	<string name="mmp_text">Текст</string>
 	<string name="mmp_select">Odaberi</string>
 	<string name="mmp_input">Ввод</string>
@@ -160,7 +160,7 @@
 	<string name="mmp_info_lastpage">Last Page</string>
 	<string name="mmp_info_nextpage">След. страница</string>
 
-	<string name="mmp_info_nolrc">No lrc</string>
+	<string name="mmp_info_nolrc">Нет песен</string>
 	<string name="mmp_time_separator">:</string>
 	<string name="mmp_time_inti">00</string>
 

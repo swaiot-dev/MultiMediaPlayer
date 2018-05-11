@@ -115,7 +115,7 @@
 
 	<string name="mmp_photo">Fotografija</string>
 	<string name="mmp_audio">Muzika</string>
-	<string name="mmp_video">Video</string>
+	<string name="mmp_video">Film</string>
 	<string name="mmp_text">Tekst</string>
 	<string name="mmp_select">Seç</string>
 	<string name="mmp_input">Uði</string>
@@ -160,7 +160,7 @@
 	<string name="mmp_info_lastpage">Last Page</string>
 	<string name="mmp_info_nextpage">Sled. stranica</string>
 
-	<string name="mmp_info_nolrc">No lrc</string>
+	<string name="mmp_info_nolrc">Nema stihove</string>
 	<string name="mmp_time_separator">:</string>
 	<string name="mmp_time_inti">00</string>
 

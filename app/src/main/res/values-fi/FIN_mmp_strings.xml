@@ -115,7 +115,7 @@
 
 	<string name="mmp_photo">Valokuva</string>
 	<string name="mmp_audio">Musiikki</string>
-	<string name="mmp_video">Video</string>
+	<string name="mmp_video">Elokuva</string>
 	<string name="mmp_text">Teksti</string>
 	<string name="mmp_select">Επιλογή</string>
 	<string name="mmp_input">Vahvista</string>
@@ -160,7 +160,7 @@
 	<string name="mmp_info_lastpage">Last Page</string>
 	<string name="mmp_info_nextpage">Seuraava sivu</string>
 
-	<string name="mmp_info_nolrc">No lrc</string>
+	<string name="mmp_info_nolrc">Ei lyrics</string>
 	<string name="mmp_time_separator">:</string>
 	<string name="mmp_time_inti">00</string>
 

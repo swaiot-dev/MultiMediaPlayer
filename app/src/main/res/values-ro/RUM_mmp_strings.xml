@@ -115,7 +115,7 @@
 
 	<string name="mmp_photo">Foto</string>
 	<string name="mmp_audio">Muzică</string>
-	<string name="mmp_video">Video</string>
+	<string name="mmp_video">Film</string>
 	<string name="mmp_text">Text</string>
 	<string name="mmp_select">Izberi</string>
 	<string name="mmp_input">Intrare</string>
@@ -160,7 +160,7 @@
 	<string name="mmp_info_lastpage">Last Page</string>
 	<string name="mmp_info_nextpage">Pagina următoare</string>
 
-	<string name="mmp_info_nolrc">No lrc</string>
+	<string name="mmp_info_nolrc">Nu versuri</string>
 	<string name="mmp_time_separator">:</string>
 	<string name="mmp_time_inti">00</string>
 

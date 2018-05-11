@@ -113,9 +113,9 @@
 
 
 
-	<string name="mmp_photo">Fotó</string>
+	<string name="mmp_photo">Fénykép</string>
 	<string name="mmp_audio">Zene</string>
-	<string name="mmp_video">Videó</string>
+	<string name="mmp_video">Film</string>
 	<string name="mmp_text">Szöveg</string>
 	<string name="mmp_select">Velg</string>
 	<string name="mmp_input">Bevitel</string>
@@ -160,7 +160,7 @@
 	<string name="mmp_info_lastpage">Last Page</string>
 	<string name="mmp_info_nextpage">Következő oldal</string>
 
-	<string name="mmp_info_nolrc">No lrc</string>
+	<string name="mmp_info_nolrc">No lyrics</string>
 	<string name="mmp_time_separator">:</string>
 	<string name="mmp_time_inti">00</string>
 

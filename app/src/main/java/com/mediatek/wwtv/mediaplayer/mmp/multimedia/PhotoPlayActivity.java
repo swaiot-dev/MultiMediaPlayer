@@ -705,16 +705,16 @@ public class PhotoPlayActivity extends SkyMediaPlayActivity implements
         int height = ScreenConstant.SCREEN_HEIGHT;
         View controlView = LayoutInflater.from(this).inflate(resource, null);
         mMediaControlView = new MediaControlView(this, controlView, width, height);
+        mMediaControlView.hideProgressLayout();
         showPlayStatusView();
     }
 
     private void showPlayStatusView() {
-        Looper.myQueue().addIdleHandler(new MessageQueue.IdleHandler() {
+        vLayout.post(new Runnable() {
             @Override
-            public boolean queueIdle() {
+            public void run() {
                 mMediaControlView.showAtLocation(vLayout, Gravity.TOP | Gravity.LEFT, 0, 0);
                 mHandler.sendEmptyMessageDelayed(AUTO_HIDE_PLAY_STATUS, 5000);
-                return false;
             }
         });
     }
@@ -1017,6 +1017,13 @@ public class PhotoPlayActivity extends SkyMediaPlayActivity implements
                 return true;
             }
         // ended by zhangqing
+        case KeyEvent.KEYCODE_MEDIA_PLAY: // KeyMap.KEYCODE_MTKIR_BLUETOOTH_ENTER:
+            playPhoto();
+            isZoomState = false;
+            return true;
+        case KeyEvent.KEYCODE_MEDIA_PAUSE://KeyMap.KEYCODE_MTKIR_BLUETOOTH_ENTER_2:
+            pausePhoto();
+            return true;
         case KeyMap.KEYCODE_MTKIR_PLAYPAUSE: {
            if (mHandler.hasMessages(MESSAGE_PLAY)){
                pausePhoto();
@@ -1208,6 +1215,9 @@ public class PhotoPlayActivity extends SkyMediaPlayActivity implements
     }
 
     public void playPhoto() {
+      if (mHandler.hasMessages(MESSAGE_PLAY)){
+          mHandler.removeMessages(MESSAGE_PLAY);
+      }
         mHandler.sendEmptyMessageDelayed(MESSAGE_PLAY, mDelayedTime);
         mMediaControlView.showPlayStatusLayout();
         mMediaControlView.showPlay();

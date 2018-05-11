@@ -35,7 +35,6 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="55px"
-        android:visibility="gone"
         android:gravity="center_vertical"
         android:orientation="horizontal">
 
@@ -44,7 +43,8 @@
             android:layout_width="190px"
             android:layout_height="wrap_content"
             android:textSize="27px"
-            android:gravity="center" />
+            android:gravity="center"
+            android:text="00:00:00"/>
 
         <ProgressBar
             android:id="@+id/play_media_progress_bar"
@@ -59,7 +59,8 @@
             android:layout_width="190px"
             android:layout_height="wrap_content"
             android:textSize="27px"
-            android:gravity="center" />
+            android:gravity="center"
+            android:text="00:00:00"/>
 
     </LinearLayout>
 

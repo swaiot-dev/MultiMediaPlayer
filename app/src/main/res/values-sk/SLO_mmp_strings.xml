@@ -115,7 +115,7 @@
 
 	<string name="mmp_photo">Fotografia</string>
 	<string name="mmp_audio">Hudba</string>
-	<string name="mmp_video">Video</string>
+	<string name="mmp_video">Film</string>
 	<string name="mmp_text">Text</string>
 	<string name="mmp_select">Valitse</string>
 	<string name="mmp_input">Zadať</string>
@@ -160,7 +160,7 @@
 	<string name="mmp_info_lastpage">Last Page</string>
 	<string name="mmp_info_nextpage">Nasledujúca strana</string>
 
-	<string name="mmp_info_nolrc">No lrc</string>
+	<string name="mmp_info_nolrc">Žiadne texty</string>
 	<string name="mmp_time_separator">:</string>
 	<string name="mmp_time_inti">00</string>
 

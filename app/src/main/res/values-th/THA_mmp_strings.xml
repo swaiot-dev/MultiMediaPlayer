@@ -115,7 +115,7 @@
 
 	<string name="mmp_photo">ภาพถ่าย</string>
 	<string name="mmp_audio">เพลง</string>
-	<string name="mmp_video">วิดีโอ</string>
+	<string name="mmp_video">ภาพยนตร์</string>
 	<string name="mmp_text">ข้อความ</string>
 	<string name="mmp_select">เลือก</string>
 	<string name="mmp_input">ป้อน</string>
@@ -160,7 +160,7 @@
 	<string name="mmp_info_lastpage">Last Page</string>
 	<string name="mmp_info_nextpage">หน้าถัดไป</string>
 
-	<string name="mmp_info_nolrc">No lrc</string>
+	<string name="mmp_info_nolrc">ไม่มีเนื้อเพลง</string>
 	<string name="mmp_time_separator">:</string>
 	<string name="mmp_time_inti">00</string>
 

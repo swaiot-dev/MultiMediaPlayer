@@ -146,6 +146,10 @@ public class MediaControlView extends PopupWindow {
         pb_playProgress.setMax(totalTime);
     }
 
+    public int getTotalTime() {
+        return pb_playProgress == null ? 0 : pb_playProgress.getMax();
+    }
+
 
     public static String convertTimeToString(long mills) {
         long[] current = convertTimeToHMS(mills);

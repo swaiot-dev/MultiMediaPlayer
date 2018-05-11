@@ -753,6 +753,7 @@ public class VideoPlayActivity extends SkyMediaPlayActivity {
       public boolean queueIdle() {
         mMediaControlView.showAtLocation(vLayout, Gravity.TOP | Gravity.LEFT, 0, 0);
         mHandler.sendEmptyMessageDelayed(AUTO_HIDE_PLAY_STATUS, 5000);
+        mHandler.sendEmptyMessageDelayed(AUTO_HIDE_PROGRESSBAR, 5000);
         return false;
       }
     });
@@ -1956,7 +1957,7 @@ public class VideoPlayActivity extends SkyMediaPlayActivity {
             }
             mMediaControlView.showPlayStatusLayout();
             mMediaControlView.showPlay();
-            if (!mLogicManager.isPlaying()){
+            if (!mLogicManager.isPlaying()|| VideoConst.PLAY_STATUS_SEEKING == mLogicManager.getVideoPlayStatus()){
                 mLogicManager.playVideo();
             }
           }
@@ -2137,12 +2138,12 @@ public class VideoPlayActivity extends SkyMediaPlayActivity {
             // SKY luojie modify 20171218 for add choose menu end
             //return true;
 
-            case KeyMap.KEYCODE_MENU:
-                if (playExce == PlayException.AV_NOT_SUPPORT
-                        || playExce == PlayException.FILE_NOT_SUPPORT) {
-                    return true;
-                }
-                break;
+//            case KeyMap.KEYCODE_MENU:
+//                if (playExce == PlayException.AV_NOT_SUPPORT
+//                        || playExce == PlayException.FILE_NOT_SUPPORT) {
+//                    return true;
+//                }
+//                break;
             case KeyMap.KEYCODE_MTKIR_TIMER: {
                 reSetController();
                 if (isValid()) {

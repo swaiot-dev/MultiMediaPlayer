@@ -115,7 +115,7 @@
 
 	<string name="mmp_photo">Ảnh</string>
 	<string name="mmp_audio">Nhạc</string>
-	<string name="mmp_video">Video</string>
+	<string name="mmp_video">Phim</string>
 	<string name="mmp_text">Văn bản</string>
 	<string name="mmp_select">Chọn</string>
 	<string name="mmp_input">Nhập</string>
@@ -160,7 +160,7 @@
 	<string name="mmp_info_lastpage">Last Page</string>
 	<string name="mmp_info_nextpage">Trang sau</string>
 
-	<string name="mmp_info_nolrc">No lrc</string>
+	<string name="mmp_info_nolrc">Không có lyrics</string>
 	<string name="mmp_time_separator">:</string>
 	<string name="mmp_time_inti">00</string>
 

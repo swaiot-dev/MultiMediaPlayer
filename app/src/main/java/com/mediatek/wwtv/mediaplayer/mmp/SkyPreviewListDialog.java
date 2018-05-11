@@ -1084,6 +1084,11 @@ public class SkyPreviewListDialog implements Observer, DialogInterface.OnKeyList
         mBtnMusic.setFocusable(false);
         mBtnPicture.setFocusable(false);
         //add by y.wan for setting focusable false end
+        //add by y.wan for show the music text view start 2018/5/10
+        if (mActivity instanceof MusicPlayActivity) {
+            ((MusicPlayActivity)mActivity).showOrHideMusicTv(true);
+        }
+        //add by y.wan for show the music text view end 2018/5/10
     }
 
     public void showDialog() {
@@ -1095,6 +1100,12 @@ public class SkyPreviewListDialog implements Observer, DialogInterface.OnKeyList
         mBtnPicture.setFocusable(MultiMediaConstant.PHOTO == mContentType);
         //add by y.wan for setting focus by type end
         mHandler.sendEmptyMessageDelayed(MSG_UPDATE_GRIDVIEW, 500);
+
+        //add by y.wan for hide the music text view start 2018/5/10
+        if (mActivity instanceof MusicPlayActivity) {
+            ((MusicPlayActivity)mActivity).showOrHideMusicTv(true);
+        }
+        //add by y.wan for hide the music text view end 2018/5/10
     }
 
     public void dismissDialog() {

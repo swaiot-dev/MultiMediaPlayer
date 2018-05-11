@@ -113,9 +113,9 @@
 
 
 
-	<string name="mmp_photo">Photo</string>
-	<string name="mmp_audio">Music</string>
-	<string name="mmp_video">Video</string>
+	<string name="mmp_photo">Foto</string>
+	<string name="mmp_audio">Música</string>
+	<string name="mmp_video">Filme</string>
 	<string name="mmp_text">Text</string>
 	<string name="mmp_select">Select</string>
 	<string name="mmp_input">Enter</string>
@@ -160,7 +160,7 @@
 	<string name="mmp_info_lastpage">Last Page</string>
 	<string name="mmp_info_nextpage">Next Page</string>
 
-	<string name="mmp_info_nolrc">No lrc</string>
+	<string name="mmp_info_nolrc">Sem letras</string>
 	<string name="mmp_time_separator">:</string>
 	<string name="mmp_time_inti">00</string>
 

@@ -9,6 +9,7 @@ import android.content.IntentFilter;
 import android.content.Context;
 import android.os.Looper;
 import android.os.MessageQueue;
+import android.support.v4.view.ViewCompat;
 import android.util.Log;
 import android.content.Intent;
 import android.graphics.Bitmap;
@@ -226,7 +227,9 @@ public class MusicPlayActivity extends SkyMediaPlayActivity implements GKView.Lo
                   progress = total;
                 }
                 mMediaControlView.setCurrTime(progress);
-                mMediaControlView.setTotalTime(total);
+                if (mMediaControlView.getTotalTime() == 0) {
+                    mMediaControlView.setTotalTime(total);
+                }
               }
             }
           }
@@ -339,6 +342,7 @@ public class MusicPlayActivity extends SkyMediaPlayActivity implements GKView.Lo
           break;
         case AUTO_HIDE_PROGRESSBAR:
           mMediaControlView.hideProgressLayout();
+          mMediaControlView.hidePlayStatusLayout();
           cancelMessage(PROGRESS_CHANGED);
           break;
         default:
@@ -895,6 +899,7 @@ public class MusicPlayActivity extends SkyMediaPlayActivity implements GKView.Lo
     int height = ScreenConstant.SCREEN_HEIGHT;
     View controlView = LayoutInflater.from(this).inflate(resource, null);
     mMediaControlView = new MediaControlView(this, controlView, width, height);
+    mMediaControlView.setTotalTime(mLogicManager.getTotalPlaybackTime());
     showPlayStatusView();
   }
 
@@ -904,6 +909,7 @@ public class MusicPlayActivity extends SkyMediaPlayActivity implements GKView.Lo
       public boolean queueIdle() {
         mMediaControlView.showAtLocation(vLayout, Gravity.TOP | Gravity.LEFT, 0, 0);
         myHandler.sendEmptyMessageDelayed(AUTO_HIDE_PLAY_STATUS, 5000);
+        myHandler.sendEmptyMessageDelayed(AUTO_HIDE_PROGRESSBAR, 5000);
         return false;
       }
     });
@@ -1267,6 +1273,8 @@ public class MusicPlayActivity extends SkyMediaPlayActivity implements GKView.Lo
           case KeyMap.KEYCODE_DPAD_LEFT: {
             if(null != mMediaControlView && mMediaControlView.isProgressShowing()){
               cancelMessage(AUTO_HIDE_PROGRESSBAR);
+              mMediaControlView.showPlayStatusLayout();
+              mMediaControlView.showPlay();
               return seek(keyCode, event);
             }else {
               if (event.getRepeatCount() == 0) {
@@ -1300,21 +1308,11 @@ public class MusicPlayActivity extends SkyMediaPlayActivity implements GKView.Lo
             //        hideController();
             //        showPreviewListDialog();
             //      }
-            if (mLrcView.getVisibility() == View.INVISIBLE) {
-              WrapperView wrapper = new WrapperView(mMusicInfo_rl);
-              ObjectAnimator animator = ObjectAnimator.ofInt(wrapper, "width", 1020);
-              animator.start();
-              mLrcView.setVisibility(View.VISIBLE);
-              setLrcLine(mLyricLine);
-              mLogicManager.lrcHide = false;
-            } else {
-              WrapperView wrapper = new WrapperView(mMusicInfo_rl);
-              ObjectAnimator animator = ObjectAnimator.ofInt(wrapper, "width", 1920);
-              animator.start();
-              mLogicManager.lrcHide = true;
-              hideLrc();
-              mLrcView.setVisibility(View.INVISIBLE);
-            }
+              if (event.getRepeatCount() == 0) {
+                  event.startTracking();
+                  showOrHideLrcView();
+              }
+
             return true;
       /*if (isValid()) {
         dismissNotSupprot();
@@ -1336,6 +1334,8 @@ public class MusicPlayActivity extends SkyMediaPlayActivity implements GKView.Lo
           case KeyMap.KEYCODE_DPAD_RIGHT:
             if(null != mMediaControlView && mMediaControlView.isProgressShowing()){
               cancelMessage(AUTO_HIDE_PROGRESSBAR);
+              mMediaControlView.showPlayStatusLayout();
+              mMediaControlView.showPlay();
               return seek(keyCode, event);
             }else {
               if (event.getRepeatCount() == 0) {
@@ -1550,6 +1550,7 @@ public class MusicPlayActivity extends SkyMediaPlayActivity implements GKView.Lo
             // SKY luojie add 20171219 for add choose menu end
             if (mMediaControlView.isShowing() && mMediaControlView.isProgressShowing()) {
               mMediaControlView.hideProgressLayout();
+              mMediaControlView.hidePlayStatusLayout();
               return true;
             }
             removeScore();
@@ -1576,6 +1577,81 @@ public class MusicPlayActivity extends SkyMediaPlayActivity implements GKView.Lo
     }
     //add by y.wan for long press LR key to show preview dialog end
     return true;
+  }
+
+  /**
+   * show or hide lrc view when press up key 
+   * @author y.wan
+   * create at 2018/5/10
+   */
+  private void showOrHideLrcView() {
+      if (mLrcView.getVisibility() == View.INVISIBLE) {
+          WrapperView wrapper = new WrapperView(mMusicInfo_rl);
+          ObjectAnimator animator = ObjectAnimator.ofInt(wrapper, "width", 1020);
+          animator.start();
+          mLrcView.setVisibility(View.VISIBLE);
+          setLrcLine(mLyricLine);
+          mLogicManager.lrcHide = false;
+      } else {
+          WrapperView wrapper = new WrapperView(mMusicInfo_rl);
+          ObjectAnimator animator = ObjectAnimator.ofInt(wrapper, "width", 1920);
+          animator.start();
+          mLogicManager.lrcHide = true;
+          hideLrc();
+          mLrcView.setVisibility(View.INVISIBLE);
+      }
+  }
+
+  /**
+   * show or hide music name,album,singer text view when preview dialog is show or hide 
+   * @author y.wan
+   * create at 2018/5/10
+   */
+  public void showOrHideMusicTv(boolean withAnimation) {
+      if (mPreviewListDialog == null) return;
+      boolean isPreviewListDialogShowing = mPreviewListDialog.isDialogShowing();
+
+      if (mMusicName_tv != null) {
+          if (withAnimation) {
+              mMusicName_tv.clearAnimation();
+              ViewCompat.animate(mMusicName_tv).alpha(isPreviewListDialogShowing ? 0 : 1)
+                      .translationY(isPreviewListDialogShowing ? -50 : 0)
+                      .setStartDelay(isPreviewListDialogShowing ? 0 : 100)
+                      .setDuration(isPreviewListDialogShowing ? 400 : 300)
+                      .start();
+          } else {
+              mMusicName_tv.setVisibility(isPreviewListDialogShowing ? View.INVISIBLE :
+                      View.VISIBLE);
+          }
+
+      }
+
+      if (mMusicAlbum_tv != null) {
+          if (withAnimation) {
+              mMusicAlbum_tv.clearAnimation();
+              ViewCompat.animate(mMusicAlbum_tv).alpha(isPreviewListDialogShowing ? 0 : 1)
+                      .translationY(isPreviewListDialogShowing ? -50 : 0)
+                      .setStartDelay(50)
+                      .setDuration(350).start();
+          } else {
+              mMusicAlbum_tv.setVisibility(isPreviewListDialogShowing ? View.INVISIBLE :
+                  View.VISIBLE);
+          }
+      }
+
+      if (mMusicSinger_tv!= null) {
+          if (withAnimation) {
+              mMusicSinger_tv.clearAnimation();
+              ViewCompat.animate(mMusicSinger_tv).alpha(isPreviewListDialogShowing ? 0 : 1)
+                      .translationY(isPreviewListDialogShowing ? -50 : 0)
+                      .setStartDelay(isPreviewListDialogShowing ? 100 : 0)
+                      .setDuration(isPreviewListDialogShowing ? 300 : 400)
+                      .start();
+          } else {
+            mMusicSinger_tv.setVisibility(isPreviewListDialogShowing ? View.INVISIBLE :
+                  View.VISIBLE);
+          }
+      }
   }
 
     private void textToSpeech(int keyCode) {
@@ -1827,6 +1903,11 @@ public class MusicPlayActivity extends SkyMediaPlayActivity implements GKView.Lo
     }
     MtkLog.i(TAG, "seek progress calc:" + mSeekingProgress);
     if (mLogicManager.getAudioStatus() != AudioConst.PLAB_STATUS_SEEKING) {
+      //add by y.wan for setting total time when seek process start 2018/5/11
+      if (mMediaControlView.getTotalTime() == 0) {
+        mMediaControlView.setTotalTime(mLogicManager.getTotalPlaybackTime());
+      }
+      //add by y.wan for setting total time when seek process end 2018/5/11
       mMediaControlView.setCurrTime(mSeekingProgress);
 //      mMediaControlView.setProgress(mSeekingProgress);
     }
@@ -2167,6 +2248,7 @@ public class MusicPlayActivity extends SkyMediaPlayActivity implements GKView.Lo
   private void resetControlView() {
     hideInfoView();
     hideProgressBarView();
+    mMediaControlView.hidePlayStatusLayout();
   }
 
   protected Message getMessage() {
