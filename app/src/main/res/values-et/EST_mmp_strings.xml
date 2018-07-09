@@ -192,32 +192,32 @@
 	<string name="mmp_capture_confirm">Do you want to capture this screen ?</string>
 	<string name="mmp_toast_no_photoframe">There is no photo frame image to play</string>
 
-	<string name="mmp_video_notsupport">Video Codec not support</string>
-	<string name="mmp_audio_notsupport">Audio Codec not support</string>
-	<string name="mmp_video_only">Video only</string>
+<string name="mmp_video_notsupport">Videokodeki tugi puudub</string>
+<string name="mmp_audio_notsupport">Audiokodeki tugi puudub</string>
+<string name="mmp_video_only">Ainult video</string>
 	<string name="mmp_frame_photo_sleeptime">Uneaeg</string>
 	<string name="mmp_sleeptime_lable">Uneaeg:  </string>
-	<string name="mmp_video_stopresume">Stop Resume</string>
-	<string name="mmp_can_notpause">Can Not Pause</string>
+<string name="mmp_video_stopresume">Peata jätkamine</string>
+<string name="mmp_can_notpause">Paus ei ole võimalik</string>
 	
-	<string name="mmp_photo_type_notsupport">File not support</string>
+<string name="mmp_photo_type_notsupport">Faili ei toetata</string>
 
 	<string name="mmp_lable_rorate">Pööra</string>
 	<string name="mmp_lable_degree">°</string>
-	<string name="mmp_lable_subtitle_off">Off</string>
+<string name="mmp_lable_subtitle_off">Väljas</string>
 
-	<string name="mmp_info_whitebalance">WhiteBalance:</string>
-	<string name="mmp_info_make">Make:</string>
-	<string name="mmp_info_model">Model:</string>
-	<string name="mmp_info_flash">Flash:</string>
-	<string name="mmp_info_focallength">FocalLength:</string>
-	<string name="mmp_menu_pic_setting">Picture Setting</string>
+<string name="mmp_info_whitebalance">Valge tasakaal:</string>
+<string name="mmp_info_make">Mudel:</string>
+<string name="mmp_info_model">Mudel:</string>
+<string name="mmp_info_flash">Flash:</string>
+<string name="mmp_info_focallength">Fookuskaugus:</string>
+<string name="mmp_menu_pic_setting">Pildi seadistamine</string>
 
-	<string name="mmp_file_notsupport">File not support</string>
+<string name="mmp_file_notsupport">Faili ei toetata</string>
 	<string name="mmp_notsupport">Not support</string>
-	<string name="mmp_seek_notsupport">Seek not support</string>
-	<string name="mmp_step_notsupport">Step not support</string>
-	<string name="mmp_featue_notsupport">Funktsioon ei ole saadaval</string>
+<string name="mmp_seek_notsupport">Otsingut ei toetata</string>
+<string name="mmp_step_notsupport">Sammu ei toetata</string>
+	<string name="mmp_featue_notsupport">Feature not available</string>
 	<string name="mmp_nodevice">No Device Connected!</string>
 	<string name="mmp_time_out">The time code you input is wrong!\nPlease assure it\'s less than total time</string>
     <string name="mmp_file_corrupt">File is corrupted</string>

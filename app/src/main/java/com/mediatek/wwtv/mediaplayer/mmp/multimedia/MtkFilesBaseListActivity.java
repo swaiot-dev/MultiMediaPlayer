@@ -711,6 +711,7 @@ public class MtkFilesBaseListActivity extends FilesListActivity<FileAdapter> {
       mThreadHandler = null;
       mHandlerThead = null;
     }
+    AudioBTManager.getInstance(getApplicationContext()).releaseAudioPatch();
     ((MmpApp) getApplication()).removeRootMenuListener(mRootMenuListener);
     ((MmpApp) getApplication()).remove(this);
     super.onDestroy();
@@ -2426,7 +2427,11 @@ public class MtkFilesBaseListActivity extends FilesListActivity<FileAdapter> {
 
   @Override
   protected void onListItemClick(AbsListView l, View v, int position, long id) {
-    onListItemClickHandle(position);
+    //Prevent quick clicks ANR  ???
+    if (isValid()) {
+      onListItemClickHandle(position);
+    }
+
   }
 
   protected void onListItemClickHandle(int position) {
@@ -2460,7 +2465,17 @@ public class MtkFilesBaseListActivity extends FilesListActivity<FileAdapter> {
         pos -= 1;
       } else {
         try {
-            file.stopThumbnail();
+          mThreadHandler.post(new Runnable() {
+
+            @Override
+            public void run() {
+              try {
+                file.stopThumbnail();
+              } catch (Exception ex) {
+                ex.printStackTrace();
+              }
+            }
+          });
         } catch (Exception ex) {
             ex.printStackTrace();
         }

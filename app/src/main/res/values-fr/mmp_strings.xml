@@ -193,9 +193,9 @@
 	<string name="mmp_capture_confirm">Do you want to capture this screen ?</string>
 	<string name="mmp_toast_no_photoframe">There is no photo frame image to play</string>
 
-	<string name="mmp_video_notsupport">Video Codec not support</string>
-	<string name="mmp_audio_notsupport">Audio Codec not support</string>
-	<string name="mmp_video_only">Video only</string>
+	<string name="mmp_video_notsupport">Codec vidéo non pris en charge</string>
+    <string name="mmp_audio_notsupport">Format audio non supporté</string>
+    <string name="mmp_video_only">Vidéo seulement</string>
 	<string name="mmp_frame_photo_sleeptime">Sleep time</string>
 	<string name="mmp_sleeptime_lable">Sleep time:</string>
 	<string name="mmp_video_stopresume">stop Resume</string>
@@ -214,7 +214,7 @@
 	<string name="mmp_info_focallength">FocalLength:</string>
 	<string name="mmp_menu_pic_setting">Picture Setting</string>
 
-	<string name="mmp_file_notsupport">File not support</string>
+	<string name="mmp_file_notsupport">Fichier non pris en charge</string>
 	<string name="mmp_notsupport">Not support</string>
 	<string name="mmp_seek_notsupport">Seek not support</string>
 	<string name="mmp_step_notsupport">Step not support</string>

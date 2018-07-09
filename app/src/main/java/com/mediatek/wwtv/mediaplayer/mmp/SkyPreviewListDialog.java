@@ -126,42 +126,42 @@ public class SkyPreviewListDialog implements Observer, DialogInterface.OnKeyList
         @Override
         public void handleMessage(Message msg) {
             super.handleMessage(msg);
-            switch(msg.what) {
+            switch (msg.what) {
                 case MSG_UPDATE_MOVIE_DATA:
                     mHandler.removeMessages(SkyPreviewListDialog.MSG_UPDATE_MOVIE_DATA);
                     int addCountMovie = getMoviesFromCache(GET_FILE_FROM_CACHE_COUNT);
-                    if(addCountMovie > 0) {
+                    if (addCountMovie > 0) {
                         handleAddedMovieFromCache(addCountMovie, false);
                     }
-                    if(addCountMovie < GET_FILE_FROM_CACHE_COUNT && !mIsFinishedLoadMovie) {
+                    if (addCountMovie < GET_FILE_FROM_CACHE_COUNT && !mIsFinishedLoadMovie) {
                         mHandler.sendEmptyMessageDelayed(SkyPreviewListDialog.MSG_UPDATE_MOVIE_DATA, 300);
                     }
                     break;
                 case MSG_UPDATE_PICTURE_DATA:
                     mHandler.removeMessages(SkyPreviewListDialog.MSG_UPDATE_PICTURE_DATA);
                     int addCountPicture = getPicturesFromCache(GET_FILE_FROM_CACHE_COUNT);
-                    if(addCountPicture > 0) {
+                    if (addCountPicture > 0) {
                         handleAddedPictureFromCache(addCountPicture, false);
                     }
-                    if(addCountPicture < GET_FILE_FROM_CACHE_COUNT && !mIsFinishedLoadPicture) {
+                    if (addCountPicture < GET_FILE_FROM_CACHE_COUNT && !mIsFinishedLoadPicture) {
                         mHandler.sendEmptyMessageDelayed(SkyPreviewListDialog.MSG_UPDATE_PICTURE_DATA, 300);
                     }
                     break;
                 case MSG_UPDATE_MUSIC_DATA:
                     mHandler.removeMessages(SkyPreviewListDialog.MSG_UPDATE_MUSIC_DATA);
                     int addCountMusic = getMusicsFromCache(GET_FILE_FROM_CACHE_COUNT);
-                    if(addCountMusic > 0) {
+                    if (addCountMusic > 0) {
                         handleAddedMusicFromCache(addCountMusic, false);
                     }
-                    if(addCountMusic < GET_FILE_FROM_CACHE_COUNT && !mIsFinishedLoadMusic) {
+                    if (addCountMusic < GET_FILE_FROM_CACHE_COUNT && !mIsFinishedLoadMusic) {
                         mHandler.sendEmptyMessageDelayed(SkyPreviewListDialog.MSG_UPDATE_MUSIC_DATA, 300);
                     }
                     break;
                 case MSG_UPDATE_GRIDVIEW:
-                    if(mContentType == MultiMediaConstant.AUDIO) {
+                    if (mContentType == MultiMediaConstant.AUDIO) {
                         mVerticalGridView.requestFocus();
                         setSelectedPositionSmooth(mCurrentMusicIndex);
-                    } else if(mContentType == MultiMediaConstant.VIDEO) {
+                    } else if (mContentType == MultiMediaConstant.VIDEO) {
                         mVerticalGridView.requestFocus();
                         setSelectedPositionSmooth(mCurrentVideoIndex);
                     } else {
@@ -237,7 +237,7 @@ public class SkyPreviewListDialog implements Observer, DialogInterface.OnKeyList
             @Override
             public void onItemClicked(PreviewListAdapter.ViewHolder holder, FileAdapter data, int position) {
                 final LocalFileAdapter fileAdapter = (LocalFileAdapter) data;
-                if(fileAdapter == null) {
+                if (fileAdapter == null) {
                     return;
                 }
                 if (fileAdapter.isAudioFile() || fileAdapter.isPhotoFile() || fileAdapter.isVideoFile()) {
@@ -262,21 +262,21 @@ public class SkyPreviewListDialog implements Observer, DialogInterface.OnKeyList
         mHandler.removeMessages(MSG_UPDATE_MUSIC_DATA);
         mFilesManager.deleteObserver(this);
 
-        if(mLoadMovieThread != null && mLoadMovieThread.isAlive()) {
+        if (mLoadMovieThread != null && mLoadMovieThread.isAlive()) {
             try {
                 mLoadMovieThread.interrupt();
             } catch (Exception e) {
             }
         }
 
-        if(mLoadPictureThread != null && mLoadPictureThread.isAlive()) {
+        if (mLoadPictureThread != null && mLoadPictureThread.isAlive()) {
             try {
                 mLoadPictureThread.interrupt();
             } catch (Exception e) {
             }
         }
 
-        if(mLoadMusicThread != null && mLoadMusicThread.isAlive()) {
+        if (mLoadMusicThread != null && mLoadMusicThread.isAlive()) {
             try {
                 mLoadMusicThread.interrupt();
             } catch (Exception e) {
@@ -285,26 +285,26 @@ public class SkyPreviewListDialog implements Observer, DialogInterface.OnKeyList
     }
 
     private void checkWhetherNeedAddMoreMedia(int selectedPosition) {
-        if(mContentType == MultiMediaConstant.VIDEO) {
+        if (mContentType == MultiMediaConstant.VIDEO) {
             mCurrentVideoIndex = selectedPosition;
-            if(mMovies.size() - mCurrentVideoIndex < 4) {
-                if(mCurrentVideoIndex > 0) {
+            if (mMovies.size() - mCurrentVideoIndex < 4) {
+                if (mCurrentVideoIndex > 0) {
                     int addCount = getMoviesFromCache(GET_FILE_FROM_CACHE_COUNT);
                     handleAddedMovieFromCache(addCount, true);
                 }
             }
-        } else if(mContentType == MultiMediaConstant.PHOTO) {
+        } else if (mContentType == MultiMediaConstant.PHOTO) {
             mCurrentPictureIndex = selectedPosition;
-            if(mPictures.size() - mCurrentPictureIndex < 4) {
-                if(mCurrentPictureIndex > 0) {
+            if (mPictures.size() - mCurrentPictureIndex < 4) {
+                if (mCurrentPictureIndex > 0) {
                     int addCount = getPicturesFromCache(GET_FILE_FROM_CACHE_COUNT);
                     handleAddedPictureFromCache(addCount, true);
                 }
             }
         } else {
             mCurrentMusicIndex = selectedPosition;
-            if(mMusics.size() - mCurrentMusicIndex < 4) {
-                if(mCurrentMusicIndex > 0) {
+            if (mMusics.size() - mCurrentMusicIndex < 4) {
+                if (mCurrentMusicIndex > 0) {
                     int addCount = getMusicsFromCache(GET_FILE_FROM_CACHE_COUNT);
                     handleAddedMusicFromCache(addCount, true);
                 }
@@ -333,33 +333,33 @@ public class SkyPreviewListDialog implements Observer, DialogInterface.OnKeyList
 
     // set the first position file path
     public void setTheFirstFilePath(String path) {
-        if(path == null || "".equals(path)) return;
+        if (path == null || "".equals(path)) return;
         mFirstFilePath = path;
     }
 
     public void loadData() {
-        if(mFilesManager == null) {
+        if (mFilesManager == null) {
             setupFilesManager();
         }
-        String originRootPath = ((MultiFilesManager)mFilesManager).getRootPath();
-        if(originRootPath == null || "/".equals(originRootPath) || "".equals(originRootPath)) {
-            String rootPath = ((MultiFilesManager)mFilesManager).getFirstDeviceMountPointPath();
-            ((MultiFilesManager)mFilesManager).setLocalManagerRootPath(rootPath);
+        String originRootPath = ((MultiFilesManager) mFilesManager).getRootPath();
+        if (originRootPath == null || "/".equals(originRootPath) || "".equals(originRootPath)) {
+            String rootPath = ((MultiFilesManager) mFilesManager).getFirstDeviceMountPointPath();
+            ((MultiFilesManager) mFilesManager).setLocalManagerRootPath(rootPath);
         }
 
-        if(mActivityType == MultiMediaConstant.VIDEO) {
+        if (mActivityType == MultiMediaConstant.VIDEO) {
             loadMovies();
             loadPictures();
             loadMusics();
         }
 
-        if(mActivityType == MultiMediaConstant.AUDIO) {
+        if (mActivityType == MultiMediaConstant.AUDIO) {
             loadMusics();
             loadPictures();
             loadMovies();
         }
 
-        if(mActivityType == Photo4K2KPlayActivity.ACTIVITY_TYPE_PHOTO_4K2K
+        if (mActivityType == Photo4K2KPlayActivity.ACTIVITY_TYPE_PHOTO_4K2K
                 || mActivityType == MultiMediaConstant.PHOTO) {
             loadPictures();
             loadMovies();
@@ -368,7 +368,7 @@ public class SkyPreviewListDialog implements Observer, DialogInterface.OnKeyList
     }
 
     private void loadMovies() {
-        if(mApplication.isMovieCacheHasData()) {
+        if (mApplication.isMovieCacheHasData()) {
             mMovieCache.addAll(mApplication.getMovieCache());
             mIsFinishedLoadMovie = true;
             mHandler.sendEmptyMessageDelayed(SkyPreviewListDialog.MSG_UPDATE_MOVIE_DATA, 100);
@@ -389,7 +389,7 @@ public class SkyPreviewListDialog implements Observer, DialogInterface.OnKeyList
                 mApplication.addMovieCache(mMovieCache);
 
                 //If no data, then add default item
-                if(mMovieCache.size() < 1) {
+                if (mMovieCache.size() < 1) {
                     NoDataItemFileAdapter fa = createNoDataItemFileAdapter(FilesManager.CONTENT_VIDEO);
                     mMovies.add(fa);
                 }
@@ -400,7 +400,7 @@ public class SkyPreviewListDialog implements Observer, DialogInterface.OnKeyList
     }
 
     private void loadPictures() {
-        if(mApplication.isPictureCacheHasData()) {
+        if (mApplication.isPictureCacheHasData()) {
             mPictureCache.addAll(mApplication.getPictureCache());
             mIsFinishedLoadPicture = true;
             mHandler.sendEmptyMessageDelayed(SkyPreviewListDialog.MSG_UPDATE_PICTURE_DATA, 100);
@@ -422,7 +422,7 @@ public class SkyPreviewListDialog implements Observer, DialogInterface.OnKeyList
                 mApplication.addPictureCache(mPictureCache);
 
                 //If no data, then add default item
-                if(mPictureCache.size() < 1) {
+                if (mPictureCache.size() < 1) {
                     NoDataItemFileAdapter fa = createNoDataItemFileAdapter(FilesManager.CONTENT_PHOTO);
                     mPictures.add(fa);
                 }
@@ -432,7 +432,7 @@ public class SkyPreviewListDialog implements Observer, DialogInterface.OnKeyList
     }
 
     private void loadMusics() {
-        if(mApplication.isMusicCacheHasData()) {
+        if (mApplication.isMusicCacheHasData()) {
             mMusicCache.addAll(mApplication.getMusicCache());
             mIsFinishedLoadMusic = true;
             mHandler.sendEmptyMessageDelayed(SkyPreviewListDialog.MSG_UPDATE_MUSIC_DATA, 100);
@@ -454,7 +454,7 @@ public class SkyPreviewListDialog implements Observer, DialogInterface.OnKeyList
                 mApplication.addMusicCache(mMusicCache);
 
                 //If no data, then add default item
-                if(mMusicCache.size() < 1) {
+                if (mMusicCache.size() < 1) {
                     NoDataItemFileAdapter fa = createNoDataItemFileAdapter(FilesManager.CONTENT_AUDIO);
                     mMusics.add(fa);
                 }
@@ -466,17 +466,17 @@ public class SkyPreviewListDialog implements Observer, DialogInterface.OnKeyList
     private int getMoviesFromCache(int count) {
         int start = mMovies.size();
         int end = mMovieCache.size();
-        if(end <= start) return 0;
+        if (end <= start) return 0;
 
         // except the removed movie that the first file path
-        if(mActivityType == MultiMediaConstant.VIDEO && mIsRemovedFirstFilePath) {
-            start ++;
+        if (mActivityType == MultiMediaConstant.VIDEO && mIsRemovedFirstFilePath) {
+            start++;
         }
 
-        if(end - start >= count) {
-            for(int i=start; i<start + count; i++) {
+        if (end - start >= count) {
+            for (int i = start; i < start + count; i++) {
                 // do not add the added first file (get from the intent)
-                if(!mIsRemovedFirstFilePath && mActivityType == MultiMediaConstant.VIDEO && mFirstFilePath != null
+                if (!mIsRemovedFirstFilePath && mActivityType == MultiMediaConstant.VIDEO && mFirstFilePath != null
                         && mFirstFilePath.equals(mMovieCache.get(i).getAbsolutePath())) {
                     mIsRemovedFirstFilePath = true;
                 } else {
@@ -485,8 +485,8 @@ public class SkyPreviewListDialog implements Observer, DialogInterface.OnKeyList
             }
             return count;
         } else {
-            for(int i=start; i<end; i++) {
-                if(!mIsRemovedFirstFilePath && mActivityType == MultiMediaConstant.VIDEO && mFirstFilePath != null
+            for (int i = start; i < end; i++) {
+                if (!mIsRemovedFirstFilePath && mActivityType == MultiMediaConstant.VIDEO && mFirstFilePath != null
                         && mFirstFilePath.equals(mMovieCache.get(i).getAbsolutePath())) {
                     mIsRemovedFirstFilePath = true;
                 } else {
@@ -500,16 +500,16 @@ public class SkyPreviewListDialog implements Observer, DialogInterface.OnKeyList
     private int getPicturesFromCache(int count) {
         int start = mPictures.size();
         int end = mPictureCache.size();
-        if(end <= start) return 0;
+        if (end <= start) return 0;
 
-        if((mActivityType == Photo4K2KPlayActivity.ACTIVITY_TYPE_PHOTO_4K2K
+        if ((mActivityType == Photo4K2KPlayActivity.ACTIVITY_TYPE_PHOTO_4K2K
                 || mActivityType == MultiMediaConstant.PHOTO) && mIsRemovedFirstFilePath) {
-            start ++;
+            start++;
         }
 
-        if(end - start >= count) {
-            for(int i=start; i<start + count; i++) {
-                if(!mIsRemovedFirstFilePath && (mActivityType == MultiMediaConstant.PHOTO
+        if (end - start >= count) {
+            for (int i = start; i < start + count; i++) {
+                if (!mIsRemovedFirstFilePath && (mActivityType == MultiMediaConstant.PHOTO
                         || mActivityType == Photo4K2KPlayActivity.ACTIVITY_TYPE_PHOTO_4K2K) && mFirstFilePath != null
                         && mFirstFilePath.equals(mPictureCache.get(i).getAbsolutePath())) {
                     mIsRemovedFirstFilePath = true;
@@ -519,8 +519,8 @@ public class SkyPreviewListDialog implements Observer, DialogInterface.OnKeyList
             }
             return count;
         } else {
-            for(int i=start; i<end; i++) {
-                if(!mIsRemovedFirstFilePath && (mActivityType == MultiMediaConstant.PHOTO
+            for (int i = start; i < end; i++) {
+                if (!mIsRemovedFirstFilePath && (mActivityType == MultiMediaConstant.PHOTO
                         || mActivityType == Photo4K2KPlayActivity.ACTIVITY_TYPE_PHOTO_4K2K) && mFirstFilePath != null
                         && mFirstFilePath.equals(mPictureCache.get(i).getAbsolutePath())) {
                     mIsRemovedFirstFilePath = true;
@@ -535,15 +535,15 @@ public class SkyPreviewListDialog implements Observer, DialogInterface.OnKeyList
     private int getMusicsFromCache(int count) {
         int start = mMusics.size();
         int end = mMusicCache.size();
-        if(end <= start) return 0;
+        if (end <= start) return 0;
 
-        if(mActivityType == MultiMediaConstant.AUDIO && mIsRemovedFirstFilePath) {
-            start ++;
+        if (mActivityType == MultiMediaConstant.AUDIO && mIsRemovedFirstFilePath) {
+            start++;
         }
 
-        if(end - start >= count) {
-            for(int i=start; i<start + count; i++) {
-                if(!mIsRemovedFirstFilePath && mActivityType == MultiMediaConstant.AUDIO && mFirstFilePath != null
+        if (end - start >= count) {
+            for (int i = start; i < start + count; i++) {
+                if (!mIsRemovedFirstFilePath && mActivityType == MultiMediaConstant.AUDIO && mFirstFilePath != null
                         && mFirstFilePath.equals(mMusicCache.get(i).getAbsolutePath())) {
                     mIsRemovedFirstFilePath = true;
                 } else {
@@ -552,8 +552,8 @@ public class SkyPreviewListDialog implements Observer, DialogInterface.OnKeyList
             }
             return count;
         } else {
-            for(int i=start; i<end; i++) {
-                if(!mIsRemovedFirstFilePath && mActivityType == MultiMediaConstant.AUDIO && mFirstFilePath != null
+            for (int i = start; i < end; i++) {
+                if (!mIsRemovedFirstFilePath && mActivityType == MultiMediaConstant.AUDIO && mFirstFilePath != null
                         && mFirstFilePath.equals(mMusicCache.get(i).getAbsolutePath())) {
                     mIsRemovedFirstFilePath = true;
                 } else {
@@ -565,20 +565,25 @@ public class SkyPreviewListDialog implements Observer, DialogInterface.OnKeyList
     }
 
     private void handleAddedMovieFromCache(int addCountMovie, boolean isAddMore) {
-        if(addCountMovie < 1) return;
+        if (addCountMovie < 1) return;
         if (mContentType == MultiMediaConstant.VIDEO) {
             // The first time load data must use refresh method to show UI
             if (mIsFirstLoadMovie && !isAddMore) {
                 refresh(MultiMediaConstant.VIDEO);
                 mIsFirstLoadMovie = false;
             } else {
-                ArrayList<FileAdapter> added = new ArrayList<>();
-                for(int i=mMovies.size() - addCountMovie; i<mMovies.size(); i++) {
+                final ArrayList<FileAdapter> added = new ArrayList<>();
+                for (int i = mMovies.size() - addCountMovie; i < mMovies.size(); i++) {
                     added.add(mMovies.get(i));
                 }
-                if(!mVerticalGridView.isComputingLayout()) {
-                    mRowsAdapter.addAll(added);
-                }
+                new Handler().postDelayed(new Runnable() {
+                    @Override
+                    public void run() {
+                        if (!mVerticalGridView.isComputingLayout()) {
+                            mRowsAdapter.addAll(added);
+                        }
+                    }
+                }, MmpApp.deleter);
             }
         }
         if (mOnLoadedFilesListener != null && mActivityType == MultiMediaConstant.VIDEO) {
@@ -587,20 +592,25 @@ public class SkyPreviewListDialog implements Observer, DialogInterface.OnKeyList
     }
 
     private void handleAddedPictureFromCache(int addCountPicture, boolean isAddMore) {
-        if(addCountPicture < 1) return;
+        if (addCountPicture < 1) return;
         if (mContentType == MultiMediaConstant.PHOTO) {
             // The first time load data must use refresh method to show UI
             if (mIsFirstLoadPicture && !isAddMore) {
                 refresh(MultiMediaConstant.PHOTO);
                 mIsFirstLoadPicture = false;
             } else {
-                ArrayList<FileAdapter> added = new ArrayList<>();
-                for(int i=mPictures.size() - addCountPicture; i<mPictures.size(); i++) {
+                final ArrayList<FileAdapter> added = new ArrayList<>();
+                for (int i = mPictures.size() - addCountPicture; i < mPictures.size(); i++) {
                     added.add(mPictures.get(i));
                 }
-                if(!mVerticalGridView.isComputingLayout()) {
-                    mRowsAdapter.addAll(added);
-                }
+                new Handler().postDelayed(new Runnable() {
+                    @Override
+                    public void run() {
+                        if (!mVerticalGridView.isComputingLayout()) {
+                            mRowsAdapter.addAll(added);
+                        }
+                    }
+                }, MmpApp.deleter);
             }
         }
         if (mOnLoadedFilesListener != null && (mActivityType == MultiMediaConstant.PHOTO
@@ -610,20 +620,25 @@ public class SkyPreviewListDialog implements Observer, DialogInterface.OnKeyList
     }
 
     private void handleAddedMusicFromCache(int addCountMusic, boolean isAddMore) {
-        if(addCountMusic < 1) return;
+        if (addCountMusic < 1) return;
         if (mContentType == MultiMediaConstant.AUDIO) {
             // The first time load data must use refresh method to show UI
             if (mIsFirstLoadMusic && !isAddMore) {
                 refresh(MultiMediaConstant.AUDIO);
                 mIsFirstLoadMusic = false;
             } else {
-                ArrayList<FileAdapter> added = new ArrayList<>();
-                for(int i=mMusics.size() - addCountMusic; i<mMusics.size(); i++) {
+                final ArrayList<FileAdapter> added = new ArrayList<>();
+                for (int i = mMusics.size() - addCountMusic; i < mMusics.size(); i++) {
                     added.add(mMusics.get(i));
                 }
-                if(!mVerticalGridView.isComputingLayout()) {
-                    mRowsAdapter.addAll(added);
-                }
+                new Handler().postDelayed(new Runnable() {
+                    @Override
+                    public void run() {
+                        if (!mVerticalGridView.isComputingLayout()) {
+                            mRowsAdapter.addAll(added);
+                        }
+                    }
+                }, MmpApp.deleter);
             }
         }
         if (mOnLoadedFilesListener != null && mActivityType == MultiMediaConstant.AUDIO) {
@@ -632,19 +647,19 @@ public class SkyPreviewListDialog implements Observer, DialogInterface.OnKeyList
     }
 
     private void makeTheFileToFirstPosition(String path) {
-        if(path == null || path.equals("")) return;
+        if (path == null || path.equals("")) return;
         FileAdapter file = null;
-        if(mContentType == MultiMediaConstant.PHOTO) {
+        if (mContentType == MultiMediaConstant.PHOTO) {
             file = LocalFilesManager.createPhotoFileAdapterByPath(path);
             mPictures.add(0, file);
             refresh(MultiMediaConstant.PHOTO);
         }
-        if(mContentType == MultiMediaConstant.VIDEO) {
+        if (mContentType == MultiMediaConstant.VIDEO) {
             file = LocalFilesManager.createVideoFileAdapterByPath(path);
             mMovies.add(0, file);
             refresh(MultiMediaConstant.VIDEO);
         }
-        if(mContentType == MultiMediaConstant.AUDIO) {
+        if (mContentType == MultiMediaConstant.AUDIO) {
             file = LocalFilesManager.createAudioFileAdapterByPath(path);
             mMusics.add(0, file);
             refresh(MultiMediaConstant.AUDIO);
@@ -653,18 +668,18 @@ public class SkyPreviewListDialog implements Observer, DialogInterface.OnKeyList
     }
 
     private void printData(List<FileAdapter> list) {
-        if(list == null) {
+        if (list == null) {
             Log.v(TAG, "luojie printData list == null");
             return;
         }
-        for(int i=0; i< list.size(); i++) {
+        for (int i = 0; i < list.size(); i++) {
             LocalFileAdapter file = (LocalFileAdapter) list.get(i);
             Log.v(TAG, "luojie path:" + file.getAbsolutePath());
         }
     }
 
     public void changeContentType(int dataType) {
-        if(mContentType == dataType) return;
+        if (mContentType == dataType) return;
         mContentType = dataType;
         refresh(dataType);
     }
@@ -694,26 +709,26 @@ public class SkyPreviewListDialog implements Observer, DialogInterface.OnKeyList
     }
 
     private void changeAdapterData(int dataType) {
-        if(mVerticalGridView.isComputingLayout()) {
+        if (mVerticalGridView.isComputingLayout()) {
             return;
         }
-        if(dataType == MultiMediaConstant.VIDEO) {
+        if (dataType == MultiMediaConstant.VIDEO) {
             mRowsAdapter.addAll(mMovies);
-            if(mCurrentVideoIndex > mMovies.size() - 1) {
+            if (mCurrentVideoIndex > mMovies.size() - 1) {
                 mCurrentVideoIndex = mMovies.size() - 1;
             }
-            if(mCurrentVideoIndex < 0) {
+            if (mCurrentVideoIndex < 0) {
                 mCurrentVideoIndex = 0;
             }
 
             setSelectedPosition(mCurrentVideoIndex);
-        } else if(dataType == MultiMediaConstant.PHOTO) {
+        } else if (dataType == MultiMediaConstant.PHOTO) {
 
             mRowsAdapter.addAll(mPictures);
-            if(mCurrentPictureIndex > mPictures.size() - 1) {
+            if (mCurrentPictureIndex > mPictures.size() - 1) {
                 mCurrentPictureIndex = mPictures.size() - 1;
             }
-            if(mCurrentPictureIndex < 0) {
+            if (mCurrentPictureIndex < 0) {
                 mCurrentPictureIndex = 0;
             }
             setSelectedPosition(mCurrentPictureIndex);
@@ -776,8 +791,8 @@ public class SkyPreviewListDialog implements Observer, DialogInterface.OnKeyList
 
         MultiFilesManager.getInstance(mContext).setCurrentSourceType(MultiFilesManager.SOURCE_LOCAL);
 
-        if(mActivityType == MultiMediaConstant.VIDEO) {
-            if(fileAdapter.isVideoFile()) {
+        if (mActivityType == MultiMediaConstant.VIDEO) {
+            if (fileAdapter.isVideoFile()) {
                 VideoPlayActivity activity = (VideoPlayActivity) mActivity;
                 activity.play(path);
             } else {
@@ -785,26 +800,26 @@ public class SkyPreviewListDialog implements Observer, DialogInterface.OnKeyList
             }
         }
 
-        if(mActivityType == MultiMediaConstant.AUDIO) {
-            if(fileAdapter.isAudioFile()) {
-                MusicPlayActivity activity = (MusicPlayActivity) mActivity;
-                activity.play(path);
-            } else {
-                startPlayActivity(path);
-            }
+        if (mActivityType == MultiMediaConstant.AUDIO) {
+//            if (fileAdapter.isAudioFile()) {
+//                MusicPlayActivity activity = (MusicPlayActivity) mActivity;
+//                activity.play(path);
+//            } else {
+            startPlayActivity(path);
+//            }
         }
 
-        if(mActivityType == MultiMediaConstant.PHOTO) {
-            if(fileAdapter.isPhotoFile()) {
-                PhotoPlayActivity activity = (PhotoPlayActivity) mActivity;
-                activity.play(path);
-            } else {
-                startPlayActivity(path);
-            }
+        if (mActivityType == MultiMediaConstant.PHOTO) {
+//            if (fileAdapter.isPhotoFile()) {
+//                PhotoPlayActivity activity = (PhotoPlayActivity) mActivity;
+//                activity.play(path);
+//            } else {
+            startPlayActivity(path);
+//            }
         }
 
-        if(mActivityType == Photo4K2KPlayActivity.ACTIVITY_TYPE_PHOTO_4K2K) {
-            if(fileAdapter.isPhotoFile()) {
+        if (mActivityType == Photo4K2KPlayActivity.ACTIVITY_TYPE_PHOTO_4K2K) {
+            if (fileAdapter.isPhotoFile()) {
                 Photo4K2KPlayActivity activity = (Photo4K2KPlayActivity) mActivity;
                 activity.play(path);
             } else {
@@ -869,9 +884,9 @@ public class SkyPreviewListDialog implements Observer, DialogInterface.OnKeyList
     }
 
     private int getIndexByPath(List<FileAdapter> fileAdapters, String path) {
-        if(fileAdapters == null || path == null) return -1;
-        for(int i=0; i<fileAdapters.size(); i++) {
-            if(path.equals(fileAdapters.get(i).getAbsolutePath())) {
+        if (fileAdapters == null || path == null) return -1;
+        for (int i = 0; i < fileAdapters.size(); i++) {
+            if (path.equals(fileAdapters.get(i).getAbsolutePath())) {
                 return i;
             }
         }
@@ -927,20 +942,20 @@ public class SkyPreviewListDialog implements Observer, DialogInterface.OnKeyList
 
     private int getFileAdapterPosition(FileAdapter fileAdapter) {
         if (mContentType == FilesManager.CONTENT_VIDEO) {
-            for(int i=0; i<mMovies.size(); i++) {
-                if(mMovies.get(i).getAbsolutePath().equals(fileAdapter.getAbsolutePath())) {
+            for (int i = 0; i < mMovies.size(); i++) {
+                if (mMovies.get(i).getAbsolutePath().equals(fileAdapter.getAbsolutePath())) {
                     return i;
                 }
             }
         } else if (mContentType == FilesManager.CONTENT_AUDIO) {
-            for(int i=0; i<mMusics.size(); i++) {
-                if(mMusics.get(i).getAbsolutePath().equals(fileAdapter.getAbsolutePath())) {
+            for (int i = 0; i < mMusics.size(); i++) {
+                if (mMusics.get(i).getAbsolutePath().equals(fileAdapter.getAbsolutePath())) {
                     return i;
                 }
             }
         } else {
-            for(int i=0; i<mPictures.size(); i++) {
-                if(mPictures.get(i).getAbsolutePath().equals(fileAdapter.getAbsolutePath())) {
+            for (int i = 0; i < mPictures.size(); i++) {
+                if (mPictures.get(i).getAbsolutePath().equals(fileAdapter.getAbsolutePath())) {
                     return i;
                 }
             }
@@ -953,8 +968,8 @@ public class SkyPreviewListDialog implements Observer, DialogInterface.OnKeyList
         @Override
         public void onFocusChange(View view, boolean b) {
 
-            if(b) {
-                if(!mIsDialogShowing) {
+            if (b) {
+                if (!mIsDialogShowing) {
                     return;
                 }
                 getFocusedStatus(view);
@@ -981,15 +996,15 @@ public class SkyPreviewListDialog implements Observer, DialogInterface.OnKeyList
     @Override
     public boolean onKey(DialogInterface dialog, int keyCode, KeyEvent event) {
         //add by y.wan for resetting status start
-        if(event.getAction() == KeyEvent.ACTION_UP &&
-                (keyCode== KeyMap.KEYCODE_DPAD_RIGHT || keyCode== KeyMap.KEYCODE_DPAD_LEFT)){
+        if (event.getAction() == KeyEvent.ACTION_UP &&
+                (keyCode == KeyMap.KEYCODE_DPAD_RIGHT || keyCode == KeyMap.KEYCODE_DPAD_LEFT)) {
             SkyMediaPlayActivity.isLongPressLRKey = false;
             mBtnPicture.setFocusable(true);
             mBtnMusic.setFocusable(true);
             mBtnMovie.setFocusable(true);
         }
         //add by y.wan for resetting status end
-        if(mOnEventKeyListener != null) {
+        if (mOnEventKeyListener != null) {
             mOnEventKeyListener.onEventKeyDown(keyCode, event);
         }
         switch (keyCode) {
@@ -1002,16 +1017,16 @@ public class SkyPreviewListDialog implements Observer, DialogInterface.OnKeyList
                 return true;
             case KeyMap.KEYCODE_DPAD_RIGHT:
                 return SkyMediaPlayActivity.isLongPressLRKey;
-            case  KeyMap.KEYCODE_DPAD_LEFT:
+            case KeyMap.KEYCODE_DPAD_LEFT:
                 return SkyMediaPlayActivity.isLongPressLRKey;
         }
         return false;
     }
 
     public void onEventKeyUp() {
-        if(mBtnMovie.isChecked() || mContentType == MultiMediaConstant.VIDEO) {
+        if (mBtnMovie.isChecked() || mContentType == MultiMediaConstant.VIDEO) {
             mBtnMovie.requestFocus();
-        } else if(mBtnPicture.isChecked() || mContentType == MultiMediaConstant.PHOTO) {
+        } else if (mBtnPicture.isChecked() || mContentType == MultiMediaConstant.PHOTO) {
             mBtnPicture.requestFocus();
         } else {
             mBtnMusic.requestFocus();
@@ -1019,13 +1034,13 @@ public class SkyPreviewListDialog implements Observer, DialogInterface.OnKeyList
     }
 
     public boolean onEventKeyLeft() {
-        if(mBtnPicture.isFocused()) {
+        if (mBtnPicture.isFocused()) {
             mBtnMovie.requestFocus();
             return true;
-        } else if(mBtnMusic.isFocused()) {
+        } else if (mBtnMusic.isFocused()) {
             mBtnPicture.requestFocus();
             return true;
-        } else if(mBtnMovie.isFocused()){
+        } else if (mBtnMovie.isFocused()) {
             mChooseMenuView.requestFocus();
             return true;
         }
@@ -1033,13 +1048,13 @@ public class SkyPreviewListDialog implements Observer, DialogInterface.OnKeyList
     }
 
     public boolean onEventKeyRight() {
-        if(mBtnMovie.isFocused()) {
+        if (mBtnMovie.isFocused()) {
             mBtnPicture.requestFocus();
             return true;
-        } else if(mBtnPicture.isFocused()) {
+        } else if (mBtnPicture.isFocused()) {
             mBtnMusic.requestFocus();
             return true;
-        } else if(mBtnMusic.isFocused()){
+        } else if (mBtnMusic.isFocused()) {
             mChooseMenuView.requestFocus();
             return true;
         }
@@ -1063,12 +1078,12 @@ public class SkyPreviewListDialog implements Observer, DialogInterface.OnKeyList
     }
 
     protected void loseFocusStatus(View view) {
-        if(view == null) return;
+        if (view == null) return;
         view.animate().scaleX(1.0f).scaleY(1.0f).translationZ(1.0f).start();
     }
 
     protected void getFocusedStatus(View view) {
-        if(view == null) return;
+        if (view == null) return;
         view.animate().scaleX(1.2f).scaleY(1.2f).translationZ(8f).start();
     }
 
@@ -1086,7 +1101,7 @@ public class SkyPreviewListDialog implements Observer, DialogInterface.OnKeyList
         //add by y.wan for setting focusable false end
         //add by y.wan for show the music text view start 2018/5/10
         if (mActivity instanceof MusicPlayActivity) {
-            ((MusicPlayActivity)mActivity).showOrHideMusicTv(true);
+            ((MusicPlayActivity) mActivity).showOrHideMusicTv(true);
         }
         //add by y.wan for show the music text view end 2018/5/10
     }
@@ -1103,7 +1118,7 @@ public class SkyPreviewListDialog implements Observer, DialogInterface.OnKeyList
 
         //add by y.wan for hide the music text view start 2018/5/10
         if (mActivity instanceof MusicPlayActivity) {
-            ((MusicPlayActivity)mActivity).showOrHideMusicTv(true);
+            ((MusicPlayActivity) mActivity).showOrHideMusicTv(true);
         }
         //add by y.wan for hide the music text view end 2018/5/10
     }

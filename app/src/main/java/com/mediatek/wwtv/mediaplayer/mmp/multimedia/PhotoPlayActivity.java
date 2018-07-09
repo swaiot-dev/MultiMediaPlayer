@@ -244,6 +244,7 @@ public class PhotoPlayActivity extends SkyMediaPlayActivity implements
       vShowView.setY(0);
       setImageZoomChange(1.0f);
       mControlView.play();
+      pausePhoto();
       Log.i(TAG, "movePic: mControlView play");
       isZoomState = false;
       return;
@@ -858,6 +859,14 @@ public class PhotoPlayActivity extends SkyMediaPlayActivity implements
     }
   }
 
+  public void Play(){   //?¡§?D?2¡ê¡è?¡è?
+      playPhoto();
+      isZoomState = false;
+  }
+  public void Pause(){  //?Y¡§a?¨º2¡ê¡è?¡è?
+      pausePhoto();
+  }
+
   @Override
   public boolean onKeyDown(int keyCode, KeyEvent event) {
     MtkLog.d(TAG, "onKeyDown keyCode:" + keyCode);
@@ -1015,6 +1024,13 @@ public class PhotoPlayActivity extends SkyMediaPlayActivity implements
             if (isZoomState) {
                 Log.i(TAG, "onKeyDown: isZoomState = true");
                 return true;
+            } else {
+                if (mHandler.hasMessages(MESSAGE_PLAY)){
+                    Pause();
+                }else {
+                    Play();
+                }
+                return true;
             }
         // ended by zhangqing
         case KeyEvent.KEYCODE_MEDIA_PLAY: // KeyMap.KEYCODE_MTKIR_BLUETOOTH_ENTER:
@@ -1168,27 +1184,34 @@ public class PhotoPlayActivity extends SkyMediaPlayActivity implements
     return super.onKeyDown(keyCode, event);
   }
 
+  public void leftPhoto(){  //¡§|?¡§¡ã???
+      isNotSupport = false;
+      reSetController();
+      pausePhoto();
+      mCurBitmap = null;
+      hideInfoDialog();
+      Util.LogLife(TAG, "KEYCODE_DPAD_UP");
+      mImageManager.load(Const.MANUALPRE);
+      isLongPressLRKey = false;
+  }
+  public void rightPhoto(){     //??¡§¡ã???
+      isNotSupport = false;
+      reSetController();
+      pausePhoto();
+      mCurBitmap = null;
+      hideInfoDialog();
+      Util.LogLife(TAG, "KEYCODE_DPAD_DOWN");
+      mImageManager.load(Const.MANUALNEXT);
+      isLongPressLRKey = false;
+  }
+
     @Override
     public boolean onKeyUp(int keyCode, KeyEvent event) {
         //add by y.wan for pressing LR key to pre or next start
         if (keyCode == KeyMap.KEYCODE_DPAD_LEFT && !isLongPressLRKey) {
-            isNotSupport = false;
-            reSetController();
-            pausePhoto();
-            mCurBitmap = null;
-            hideInfoDialog();
-            Util.LogLife(TAG, "KEYCODE_DPAD_UP");
-            mImageManager.load(Const.MANUALPRE);
-            isLongPressLRKey = false;
+           leftPhoto();
         } else if (keyCode == KeyMap.KEYCODE_DPAD_RIGHT && !isLongPressLRKey) {
-            isNotSupport = false;
-            reSetController();
-            pausePhoto();
-            mCurBitmap = null;
-            hideInfoDialog();
-            Util.LogLife(TAG, "KEYCODE_DPAD_DOWN");
-            mImageManager.load(Const.MANUALNEXT);
-            isLongPressLRKey = false;
+            rightPhoto();
         }
         //add by y.wan for pressing LR key to pre or next end
         return super.onKeyUp(keyCode, event);

@@ -112,10 +112,6 @@
 	<string name="mmp_menu_onlyaudio">Solo audio</string>
 
 
-
-	<string name="mmp_photo">Foto</string>
-	<string name="mmp_audio">Musica</string>
-	<string name="mmp_video">Film</string>
 	<string name="mmp_text">Testo</string>
 	<string name="mmp_select">Selezione</string>
 	<string name="mmp_input">Enter</string>
@@ -160,7 +156,6 @@
 	<string name="mmp_info_lastpage">Last Page</string>
 	<string name="mmp_info_nextpage">Pagina successiva</string>
 
-	<string name="mmp_info_nolrc">Testo della canzone No</string>
 	<string name="mmp_time_separator">:</string>
 	<string name="mmp_time_inti">00</string>
 
@@ -192,31 +187,31 @@
 	<string name="mmp_capture_confirm">Do you want to capture this screen ?</string>
 	<string name="mmp_toast_no_photoframe">There is no photo frame image to play</string>
 
-	<string name="mmp_video_notsupport">Video Codec not support</string>
-	<string name="mmp_audio_notsupport">Audio Codec not support</string>
-	<string name="mmp_video_only">Video only</string>
+	<string name="mmp_video_notsupport">Il codec video non è supportato</string>
+	<string name="mmp_audio_notsupport">Formato Audio non supportato</string>
+	<string name="mmp_video_only">Solo video</string>
 	<string name="mmp_frame_photo_sleeptime">Ora sospensione</string>
 	<string name="mmp_sleeptime_lable">Ora sospensione:  </string>
-	<string name="mmp_video_stopresume">Stop Resume</string>
-	<string name="mmp_can_notpause">Can Not Pause</string>
-	
-	<string name="mmp_photo_type_notsupport">File not support</string>
+	<string name="mmp_video_stopresume">Stop riprendi</string>
+	<string name="mmp_can_notpause">Imp mettere pausa</string>
+
+	<string name="mmp_photo_type_notsupport">File non supportato</string>
 
 	<string name="mmp_lable_rorate">Ruota</string>
 	<string name="mmp_lable_degree">°</string>
 	<string name="mmp_lable_subtitle_off">Off</string>
 
-	<string name="mmp_info_whitebalance">WhiteBalance:</string>
-	<string name="mmp_info_make">Make:</string>
-	<string name="mmp_info_model">Model:</string>
-	<string name="mmp_info_flash">Flash:</string>
-	<string name="mmp_info_focallength">FocalLength:</string>
-	<string name="mmp_menu_pic_setting">Picture Setting</string>
+	<string name="mmp_info_whitebalance">Bilanciamento del bianco:</string>
+	<string name="mmp_info_make">Produttore:</string>
+	<string name="mmp_info_model">Modello:</string>
+	<string name="mmp_info_flash">shutter:</string>
+	<string name="mmp_info_focallength">Lunghezza focale:</string>
+	<string name="mmp_menu_pic_setting">Imp. Immagine</string>
 
-	<string name="mmp_file_notsupport">File not support</string>
-	<string name="mmp_notsupport">Not support</string>
-	<string name="mmp_seek_notsupport">Seek not support</string>
-	<string name="mmp_step_notsupport">Step not support</string>
+	<string name="mmp_file_notsupport">File non supportato</string>
+	<string name="mmp_notsupport">Non supportato</string>
+	<string name="mmp_seek_notsupport">Cerca non supportato</string>
+	<string name="mmp_step_notsupport">Passo non supportato</string>
 	<string name="mmp_featue_notsupport">Funzione non disponibile</string>
 	<string name="mmp_nodevice">No Device Connected!</string>
 	<string name="mmp_time_out">The time code you input is wrong!\nPlease assure it\'s less than total time</string>

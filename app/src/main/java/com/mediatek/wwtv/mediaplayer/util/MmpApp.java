@@ -7,7 +7,9 @@ import java.util.List;
 
 import com.mediatek.twoworlds.tv.MtkTvVolCtrlBase;
 
+import android.content.res.Resources;
 import android.media.AudioManager;
+import android.os.Bundle;
 import android.os.Handler;
 import android.os.SystemProperties;
 
@@ -46,6 +48,10 @@ public class MmpApp extends Application {
   private final int UNREGISTER = 1;
   private boolean mHasEnterMMP;
   private final MtkTvVolCtrlBase mVol = new MtkTvVolCtrlBase();
+  public static int deleter = 500;
+  public static boolean onKeyDown = true;
+
+  public static int KEYCODE_MTKIR_MTSAUDIO = 1;
 
   // SKY luojie add 20171218 for add choose menu begin
   private String mCacheUSBRootPath = null;
@@ -320,6 +326,8 @@ public class MmpApp extends Application {
   };
 
   boolean isStrict = false;
+  private static Activity sActivity;
+  private static MmpApp mApp;
 
   @Override
   public void onCreate() {
@@ -342,7 +350,60 @@ public class MmpApp extends Application {
           .build());
     }
 
+    mApp = this;
+    this.registerActivityLifecycleCallbacks(new ActivityLifecycleCallbacks() {
+      @Override
+      public void onActivityCreated(Activity activity, Bundle savedInstanceState) {
+        Log.d("YWK",activity+"onActivityCreated");
+      }
+
+      @Override
+      public void onActivityStarted(Activity activity) {
+        Log.d("YWK",activity+"onActivityStarted");
+        sActivity=activity;
+
+      }
+
+      @Override
+      public void onActivityResumed(Activity activity) {
+
+      }
+
+      @Override
+      public void onActivityPaused(Activity activity) {
+
+      }
+
+      @Override
+      public void onActivityStopped(Activity activity) {
+
+      }
+
+      @Override
+      public void onActivitySaveInstanceState(Activity activity, Bundle outState) {
+
+      }
+
+      @Override
+      public void onActivityDestroyed(Activity activity) {
+
+      }
+    });
   }
+
+  public static Context getAppContext() {
+    return mApp;
+  }
+
+  public static Resources getAppResources() {
+    return mApp.getResources();
+  }
+
+  public static Activity getActivity(){
+    return sActivity;
+  }
+
+
 
   @Override
   public void onTerminate() {

@@ -192,26 +192,27 @@
 	<string name="mmp_capture_confirm">Do you want to capture this screen ?</string>
 	<string name="mmp_toast_no_photoframe">There is no photo frame image to play</string>
 
-	<string name="mmp_video_notsupport">Video Codec not support</string>
-	<string name="mmp_audio_notsupport">Audio Codec not support</string>
-	<string name="mmp_video_only">Video only</string>
+<string name="mmp_video_notsupport">Videokoderen er ikke understøttet</string>
+<string name="mmp_audio_notsupport">Lydkodek er ikke understøttet</string>
+	<string name="mmp_video_only">Video KUN</string>
 	<string name="mmp_frame_photo_sleeptime">Sleep tid</string>
 	<string name="mmp_sleeptime_lable">Sleep tid:  </string>
 	<string name="mmp_video_stopresume">Stop Resume</string>
 	<string name="mmp_can_notpause">Can Not Pause</string>
 	
-	<string name="mmp_photo_type_notsupport">File not support</string>
+<string name="mmp_photo_type_notsupport">Filen er ikke understøttet</string>
 
 	<string name="mmp_lable_rorate">Drej</string>
 	<string name="mmp_lable_degree">°</string>
-	<string name="mmp_lable_subtitle_off">Off</string>
+	<string name="mmp_lable_subtitle_off">Slukket</string>
 
-	<string name="mmp_info_whitebalance">WhiteBalance:</string>
-	<string name="mmp_info_make">Make:</string>
-	<string name="mmp_info_model">Model:</string>
-	<string name="mmp_info_flash">Flash:</string>
-	<string name="mmp_info_focallength">FocalLength:</string>
-	<string name="mmp_menu_pic_setting">Picture Setting</string>
+<string name="mmp_info_whitebalance">Hvidbalance:</string>
+<string name="mmp_info_make">Metode:</string>
+<string name="mmp_info_model">Model:</string>
+<string name="mmp_info_flash">Lysglimt:</string>
+<string name="mmp_info_focallength">Fokal længde:</string>
+	<string name="mmp_menu_pic_setting">Billedindstilling</string>
+	<string name="mmp_menu_audio_setting">Lydindstilling</string>
 
 	<string name="mmp_file_notsupport">File not support</string>
 	<string name="mmp_notsupport">Not support</string>

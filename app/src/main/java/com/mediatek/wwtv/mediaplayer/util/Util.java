@@ -392,15 +392,15 @@ public class Util {
     // TODO Auto-generated method stub
     new Exception().printStackTrace();
     MtkLog.i(TAG, "enterMmp before status:" + status);
-    if (status == 0 && VideoPlayActivity.getInstance() != null
-        && VideoPlayActivity.getInstance().isInPictureInPictureMode()) {
-
-    } else {
-      MtkTvConfig.getInstance().setConfigValue(MtkTvConfigType.CFG_MISC_AV_COND_MMP_MODE, status);
-    }
-    int cur = LogicManager.getInstance(context).getCurPictureMode();
-    Log.i(TAG, "cur:--" + cur);
-    LogicManager.getInstance(context).setPictureMode(cur);
+    //if (status == 0 && VideoPlayActivity.getInstance() != null
+    //    && VideoPlayActivity.getInstance().isInPictureInPictureMode()) {
+//
+    //} else {
+    //  MtkTvConfig.getInstance().setConfigValue(MtkTvConfigType.CFG_MISC_AV_COND_MMP_MODE, status);
+    //}
+    //int cur = LogicManager.getInstance(context).getCurPictureMode();
+    //Log.i(TAG, "cur:--" + cur);
+    //LogicManager.getInstance(context).setPictureMode(cur);
 
     if (1 == status) {
       MtkLog.i(TAG, "enterMmp 1 == status ");

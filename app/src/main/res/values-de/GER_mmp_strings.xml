@@ -192,9 +192,9 @@
 	<string name="mmp_capture_confirm">Do you want to capture this screen ?</string>
 	<string name="mmp_toast_no_photoframe">There is no photo frame image to play</string>
 
-	<string name="mmp_video_notsupport">Video Codec not support</string>
-	<string name="mmp_audio_notsupport">Audio Codec not support</string>
-	<string name="mmp_video_only">Video only</string>
+	<string name="mmp_video_notsupport">Video-Codec nicht unterstützt</string>
+	<string name="mmp_audio_notsupport">Audioformat nicht unterstützt</string>
+	<string name="mmp_video_only">Nur Video</string>
 	<string name="mmp_frame_photo_sleeptime">Standbydauer</string>
 	<string name="mmp_sleeptime_lable">Standbydauer:  </string>
 	<string name="mmp_video_stopresume">Stop Resume</string>
@@ -206,12 +206,13 @@
 	<string name="mmp_lable_degree">°</string>
 	<string name="mmp_lable_subtitle_off">Off</string>
 
-	<string name="mmp_info_whitebalance">WhiteBalance:</string>
-	<string name="mmp_info_make">Make:</string>
-	<string name="mmp_info_model">Model:</string>
-	<string name="mmp_info_flash">Flash:</string>
-	<string name="mmp_info_focallength">FocalLength:</string>
-	<string name="mmp_menu_pic_setting">Picture Setting</string>
+	<string name="mmp_info_whitebalance">Weißabgleich:</string>
+	<string name="mmp_info_make">Hersteller:</string>
+	<string name="mmp_info_model">Modell:</string>
+	<string name="mmp_info_flash">Verschluss:</string>
+	<string name="mmp_info_focallength">Brennweite:</string>
+	<string name="mmp_menu_pic_setting">Bildeinstellungen</string>
+	<string name="mmp_menu_audio_setting">Audioeinstellungen</string>
 
 	<string name="mmp_file_notsupport">File not support</string>
 	<string name="mmp_notsupport">Not support</string>

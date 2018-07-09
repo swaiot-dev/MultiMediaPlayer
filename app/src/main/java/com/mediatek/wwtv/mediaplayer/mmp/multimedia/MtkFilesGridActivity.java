@@ -380,14 +380,21 @@ public class MtkFilesGridActivity extends MtkFilesBaseListActivity {
   @Override
   protected void onRestart() {
     super.onRestart();
-    int position = setCurrentSelection();
-    vList.requestFocusFromTouch();
-    vList.setSelection(position);
-    mAdapter.notifyDataSetChanged();
-    Util.LogLife(TAG, "onRestart");
-	setCurrentMountName();
-    // LogicManager.getInstance(this).registerAudioPlayListener(mListener);
-
+    MultiFilesManager multiFileManager = MultiFilesManager
+            .getInstance(this);
+    multiFileManager.addObserver(this);
+    String currentPath = mFilesManager.getCurrentPath();
+    if (multiFileManager.isLocalDevUnmountByPath(currentPath)){
+      openDir(MultiFilesManager.ROOT_PATH, 0);
+    }else {
+	    int position = setCurrentSelection();
+	    vList.requestFocusFromTouch();
+	    vList.setSelection(position);
+	    mAdapter.notifyDataSetChanged();
+	    Util.LogLife(TAG, "onRestart");
+		setCurrentMountName();
+	    // LogicManager.getInstance(this).registerAudioPlayListener(mListener);
+	}
   }
 
   @Override
@@ -506,20 +513,20 @@ public class MtkFilesGridActivity extends MtkFilesBaseListActivity {
         //        vLeftTopTv.setSelected(true);
 
     String curPath = getListCurrentPath();
-//    if (curPath != null && curPath.startsWith("/storage")) {
-//      MultiFilesManager multiFileManager = MultiFilesManager
-//          .getInstance(this);
-//      List<FileAdapter> deviceList = multiFileManager.getLocalDviceAdapter();
-//      if (deviceList != null && deviceList.size() > 0) {
-//        for (int i = 0; i < deviceList.size(); i++) {
-//          if (curPath.contains(deviceList.get(i).getPath())) {
-//            curPath = curPath.substring(deviceList.get(i).getPath().length());
-//            curPath = "/storage/" + deviceList.get(i).getName() + curPath;
-//            break;
-//          }
-//        }
-//      }
-//    }
+    if (curPath != null && curPath.startsWith("/storage")) {
+      MultiFilesManager multiFileManager = MultiFilesManager
+          .getInstance(this);
+      List<FileAdapter> deviceList = multiFileManager.getLocalDviceAdapter();
+      if (deviceList != null && deviceList.size() > 0) {
+        for (int i = 0; i < deviceList.size(); i++) {
+          if (curPath.contains(deviceList.get(i).getPath())) {
+            curPath = curPath.substring(deviceList.get(i).getPath().length());
+            curPath = "/storage/" + deviceList.get(i).getName() + curPath;
+            break;
+          }
+        }
+      }
+    }
     vTopPath.setText(curPath);
     //vTopRight.setText("");
     vLeftMidTv.setText("");
@@ -644,7 +651,11 @@ public class MtkFilesGridActivity extends MtkFilesBaseListActivity {
       final FileAdapter file = getListItem(getListSelectedItemPosition());
       if(file != null) {
                 //                setCategoryBtnFocusable(false);
-        onListItemClickHandle(getListSelectedItemPosition());
+        //Prevent quick clicks ANR  ???
+        if (isValid()) {
+          onListItemClickHandle(getListSelectedItemPosition());
+        }
+
         vList.requestFocus();
       }
       return false;
@@ -1662,6 +1673,7 @@ public class MtkFilesGridActivity extends MtkFilesBaseListActivity {
 		view.setScaleType(ImageView.ScaleType.CENTER_CROP);
 		viewOver.setVisibility(View.VISIBLE);
       } else {
+        Log.i(TAG, "bindThumbnail LoadBitmap!!" + mWorks.get(view) + "  " + path);
         MtkLog.i(TAG, "bindThumbnail LoadBitmap!!" + mWorks.get(view) + "  " + path);
         if (mWorks.get(view) == null) {
           LoadBitmap work = new LoadBitmap(data, view, viewOver);
@@ -1879,6 +1891,7 @@ public class MtkFilesGridActivity extends MtkFilesBaseListActivity {
             // TODO null image
             if (null != vImage.getDrawable())
               vImage.setImageBitmap(mResult);
+              Log.d(TAG, "run: " + mData.getAbsolutePath());
 			  vImage.setScaleType(ImageView.ScaleType.CENTER_CROP);
 			  vImageOver.setVisibility(View.VISIBLE);
           }
@@ -1907,8 +1920,10 @@ public class MtkFilesGridActivity extends MtkFilesBaseListActivity {
   }
 
   private void onItemNormalState(View v) {
-    v.setElevation(0);
-    v.animate().scaleX(1.0f).scaleY(1.0f).translationZ(0).start();
+    if(v.getElevation()==4){
+      v.setElevation(0);
+      v.animate().scaleX(1.0f).scaleY(1.0f).translationZ(0).start();
+    }
   }
 
   private void onItemFocusedState(View v) {

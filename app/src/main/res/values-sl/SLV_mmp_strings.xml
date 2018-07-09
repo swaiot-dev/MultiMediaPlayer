@@ -192,9 +192,9 @@
 	<string name="mmp_capture_confirm">Do you want to capture this screen ?</string>
 	<string name="mmp_toast_no_photoframe">There is no photo frame image to play</string>
 
-	<string name="mmp_video_notsupport">Video Codec not support</string>
-	<string name="mmp_audio_notsupport">Audio Codec not support</string>
-	<string name="mmp_video_only">Video only</string>
+	<string name="mmp_video_notsupport">Videokodek ni podprt</string>
+	<string name="mmp_audio_notsupport">Zvočni format ni podprt</string>
+	<string name="mmp_video_only">Samo video</string>
 	<string name="mmp_frame_photo_sleeptime">Čas spanja</string>
 	<string name="mmp_sleeptime_lable">Čas spanja:  </string>
 	<string name="mmp_video_stopresume">Stop Resume</string>
@@ -213,10 +213,10 @@
 	<string name="mmp_info_focallength">FocalLength:</string>
 	<string name="mmp_menu_pic_setting">Picture Setting</string>
 
-	<string name="mmp_file_notsupport">File not support</string>
-	<string name="mmp_notsupport">Not support</string>
-	<string name="mmp_seek_notsupport">Seek not support</string>
-	<string name="mmp_step_notsupport">Step not support</string>
+	<string name="mmp_file_notsupport">Datoteka ni podprta</string>
+	<string name="mmp_notsupport">Ni podprto</string>
+	<string name="mmp_seek_notsupport">Iskanje ni podprto</string>
+	<string name="mmp_step_notsupport">Korak ni podprt</string>
 	<string name="mmp_featue_notsupport">ZnaĊilnost ni dostopna</string>
 	<string name="mmp_nodevice">No Device Connected!</string>
 	<string name="mmp_time_out">The time code you input is wrong!\nPlease assure it\'s less than total time</string>

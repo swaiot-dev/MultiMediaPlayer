@@ -66,6 +66,11 @@
         android:layout_above="@+id/video_subtitle_text_view"
         android:layout_marginBottom="10px"
         android:gravity="center"
+        android:focusable="true"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:singleLine="true"
+        android:textColor="@color/white"
         android:text="@string/menu_video_mjc_demo_off" />
 
     <TextView
@@ -78,6 +83,10 @@
         android:layout_marginRight="80px"
         android:background="@drawable/board_normal_selector"
         android:gravity="center"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:singleLine="true"
+        android:textColor="@color/white"
         android:text="@string/video_info_dialog_subtitle" />
 
     <TextView
@@ -99,6 +108,10 @@
         android:layout_toLeftOf="@id/video_subtitle_text_view"
         android:background="@drawable/board_normal_selector"
         android:gravity="center"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:singleLine="true"
+        android:textColor="@color/white"
         android:text="@string/mmp_audio" />
 
 

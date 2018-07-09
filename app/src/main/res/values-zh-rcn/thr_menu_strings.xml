@@ -9,8 +9,6 @@
     <string name="thr_menu_picture_mode">画面模式</string>
     <string name="thr_menu_track">音轨</string>
     <string name="thr_menu_Equalizer">均衡器</string>
-    <string name="thr_menu_volume">音量</string>   
-    
-    <string name="app_name">Multi Media Player</string>
+    <string name="thr_menu_volume">音量</string>
     
 </resources>

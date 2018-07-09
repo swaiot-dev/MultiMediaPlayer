@@ -3,7 +3,9 @@ package com.mediatek.wwtv.mediaplayer.mmp.commonview;
 import android.app.Dialog;
 import android.content.DialogInterface;
 import android.os.Bundle;
+import android.os.Handler;
 import android.support.v4.view.ViewCompat;
+import android.view.KeyEvent;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -11,13 +13,14 @@ import android.widget.TextView;
 import com.mediatek.wwtv.mediaplayer.R;
 import com.mediatek.wwtv.mediaplayer.mmp.util.LogicManager;
 import com.mediatek.wwtv.mediaplayer.mmpcm.mmcimpl.Const;
+import com.mediatek.wwtv.mediaplayer.util.MmpApp;
 
 
 /**
  * Created by sniuniu on 2018/3/26.
  */
 
-public class MusicInfoDialog extends InfoDialog implements View.OnClickListener {
+public class MusicInfoDialog extends InfoDialog implements View.OnClickListener, View.OnKeyListener {
 
     private TextView mMusicTitle_tv;
     private TextView mMusicFormat_tv;
@@ -53,6 +56,10 @@ public class MusicInfoDialog extends InfoDialog implements View.OnClickListener 
         mMusicRepeatAll_iv.setFocusable(true);
         mMusicShuffle_iv.setFocusable(true);
 
+        mMusicSimple_iv.setOnKeyListener(this);
+        mMusicRepeatOne_iv.setOnKeyListener(this);
+        mMusicRepeatAll_iv.setOnKeyListener(this);
+        mMusicShuffle_iv.setOnKeyListener(this);
     }
 
     @Override
@@ -72,17 +79,21 @@ public class MusicInfoDialog extends InfoDialog implements View.OnClickListener 
         switch (repeatModel) {
             case Const.REPEAT_NONE:
                 mMusicSimple_iv.setBackgroundResource(R.drawable.board_selected_selector);
+                setBG(mMusicSimple_iv);
                 break;
             case Const.REPEAT_ONE:
                 mMusicRepeatOne_iv.setBackgroundResource(R.drawable.board_selected_selector);
+                setBG(mMusicRepeatOne_iv);
                 break;
             case Const.REPEAT_ALL:
                 mMusicRepeatAll_iv.setBackgroundResource(R.drawable.board_selected_selector);
+                setBG(mMusicRepeatAll_iv);
                 break;
         }
         boolean shuffle = mLogicManager.getShuffleMode(Const.FILTER_AUDIO);
         if (shuffle){
             mMusicShuffle_iv.setBackgroundResource(R.drawable.board_selected_selector);
+            setBG(mMusicShuffle_iv);
         }else {
             mMusicShuffle_iv.setBackgroundResource(R.drawable.board_normal_selector);
         }
@@ -178,4 +189,29 @@ public class MusicInfoDialog extends InfoDialog implements View.OnClickListener 
         }
     };
 
+    private void setBG(final ImageView iv){
+        new Handler().post(new Runnable() {
+            @Override
+            public void run() {
+                iv.setFocusableInTouchMode(true);
+                iv.requestFocus();
+                iv.requestFocusFromTouch();
+            }
+        });
+    }
+
+    @Override
+    public boolean onKey(View view, int i, KeyEvent keyEvent) {
+        if (keyEvent.getAction()== KeyEvent.ACTION_DOWN) {
+            switch (view.getId()){
+                case R.id.music_simple_image_view:
+                case R.id.music_repeat_one_image_view:
+                case R.id.music_repeat_all_image_view:
+                case R.id.music_shuffle_image_view:
+                    MmpApp.onKeyDown  = false;
+                    break;
+            }
+        }
+        return false;
+    }
 }

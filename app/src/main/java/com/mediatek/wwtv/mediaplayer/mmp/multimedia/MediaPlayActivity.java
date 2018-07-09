@@ -5,6 +5,8 @@ import java.util.ArrayList;
 import java.io.File;
 import java.util.List;
 import java.util.concurrent.ScheduledThreadPoolExecutor;
+import java.util.Map;
+import java.util.HashMap;
 
 import android.content.ComponentName;
 import android.content.ServiceConnection;
@@ -105,7 +107,7 @@ import com.mediatek.mmp.util.DivxPlayListInfo;
 
 import com.mediatek.wwtv.mediaplayer.mmpcm.UIMediaPlayer;
 
-import skyworth.androidtvsupport.QMenuManager;
+import skyworth.skyworthlivetv.menu.QMenuManager;
 
 /**
  * Multi-media play activty
@@ -511,13 +513,13 @@ public class MediaPlayActivity extends FragmentActivity {
     mResources = MediaPlayActivity.this.getResources();
     mLogicManager = LogicManager.getInstance(this.getApplicationContext());
     mAudioManager = (AudioManager)MediaPlayActivity.this.getSystemService(Context.AUDIO_SERVICE);
-//  mAudioManager.requestAudioFocus(mAudioFocusListener,
-//      AudioManager.STREAM_MUSIC, AudioManager.AUDIOFOCUS_GAIN);
-//    if (MultiFilesManager.getInstance(getApplicationContext()).getContentType()
-//        == MultiFilesManager.CONTENT_VIDEO
-//        && CommonSet.VID_SCREEN_MODE_NORMAL == mLogicManager.getCurScreenMode()) {
-//      setScreenMode(CommonSet.VID_SCREEN_MODE_NORMAL);
-//    }
+  mAudioManager.requestAudioFocus(mAudioFocusListener,
+      AudioManager.STREAM_MUSIC, AudioManager.AUDIOFOCUS_GAIN);
+    if (MultiFilesManager.getInstance(getApplicationContext()).getContentType()
+        == MultiFilesManager.CONTENT_VIDEO
+        && CommonSet.VID_SCREEN_MODE_NORMAL == mLogicManager.getCurScreenMode()) {
+      setScreenMode(CommonSet.VID_SCREEN_MODE_NORMAL);
+    }
     // Added by Dan for fix bug DTV00373545
     mIsMute = mLogicManager.isMute();
 
@@ -537,7 +539,7 @@ public class MediaPlayActivity extends FragmentActivity {
     mHandlerThead = new HandlerThread(TAG);
     mHandlerThead.start();
     mThreadHandler = new Handler(mHandlerThead.getLooper());
-    MtkTvConfig.getInstance().setConfigValue(MtkTvConfigType.CFG_MISC_AV_COND_MMP_MODE, 1);
+    //MtkTvConfig.getInstance().setConfigValue(MtkTvConfigType.CFG_MISC_AV_COND_MMP_MODE, 1);
 	
     mSubtitleAttr = new SubtitleAttr();
 	mEncodingArray = mResources.getStringArray(R.array.mmp_subtitle_encoding_array);
@@ -1785,25 +1787,101 @@ public class MediaPlayActivity extends FragmentActivity {
 
 
   public void showQMenu() {
-    if (null != mQMenuManager) {
-      try {
-        mQMenuManager.ShowQMenu(!mQMenuManager.IsQMenuShown());
-      } catch (RemoteException e) {
-        e.printStackTrace();
+      //added by zhangqing
+      if (null != mQMenuManager) {
+        try {
+          int type = getMediaType();
+          Map<String, Boolean> maps = new HashMap<>();
+          maps = getQMenuMaps(type);
+          mQMenuManager.ShowQMenuByItem(maps);
+        } catch (Exception e) {
+          e.printStackTrace();
+        }
+      } else {
+        // Action = "android.media.tv.QMENU"
+        String pkg = "skyworth.skyworthlivetv";
+        String cls = "skyworth.skyworthlivetv.global.service.QMenuManagerService";
+        Intent intent = checkIntentExist(this, pkg, cls);
+        if (null != intent) {
+          bindService(intent, mConnection, Context.BIND_AUTO_CREATE);
+        }
       }
-    } else {
-      Intent intent = new Intent("android.media.tv.QMENU");
-      final Intent eintent = createExplicitFromImplicitIntent(this, intent);
-      if (null != eintent) {
-        bindService(eintent, mConnection, Context.BIND_AUTO_CREATE);
-      }
+  }
+
+    //added by zhangqing
+  Map<String, Boolean> getQMenuMaps(int type) {
+    Map<String, Boolean> maps = new HashMap<>();
+    switch (type) {
+      case MultiMediaConstant.PHOTO:
+        maps = getQMenuItem(false, false, true,
+            true, false, false, false);
+        break;
+      case MultiMediaConstant.VIDEO:
+        maps = getQMenuItem(true, true, true,
+            true, false, false, false);
+        break;
+      case MultiMediaConstant.AUDIO:
+        maps = getQMenuItem(false, true, true,
+            true, false, false, false);
+        break;
     }
+    return maps;
+  }
+
+  //added by zhangqing
+  private Intent checkIntentExist(Context context, String pkg, String cls) {
+    PackageManager pm = context.getPackageManager();
+    Intent intent = new Intent();
+    ComponentName component = new ComponentName(pkg, cls);
+    intent.setComponent(component);
+
+    List<ResolveInfo> resolveInfos = pm.queryIntentServices(intent, 0);
+    if (null == resolveInfos || 0 == resolveInfos.size()) {
+      return null;
+    }
+    return intent;
+  }
+
+  //add by zhangqing
+  Map<String, Boolean> getQMenuItem(boolean picEnabled, boolean soundEnabled, boolean
+      sleepEnabled, boolean inputEnabled, boolean moreEnabled, boolean sourceSetEnabled,
+      boolean applinkEnabled) {
+    Map<String, Boolean> maps = new HashMap<>();
+    if (picEnabled) {
+      maps.put("PictureMode", picEnabled);
+    }
+
+    if (soundEnabled) {
+      maps.put("SoundMode", soundEnabled);
+    }
+
+    if (sleepEnabled) {
+      maps.put("SleepTime", sleepEnabled);
+    }
+
+    if (inputEnabled) {
+      maps.put("InputSource", inputEnabled);
+    }
+
+    if (moreEnabled) {
+      maps.put("More", moreEnabled);
+    }
+
+    if (sourceSetEnabled) {
+      maps.put("SourceSetup", sourceSetEnabled);
+    }
+
+    if (applinkEnabled) {
+      maps.put("AppLink", applinkEnabled);
+    }
+    return maps;
   }
 
   public void hideQMenu() {
     if (null != mQMenuManager){
       try {
         mQMenuManager.ShowQMenu(false);
+        mQMenuManager.DismissPictureModeUserDialog();
       } catch (RemoteException e) {
         e.printStackTrace();
       }
@@ -2899,9 +2977,12 @@ public class MediaPlayActivity extends FragmentActivity {
         public void onServiceConnected(ComponentName name, IBinder service) {
             mQMenuManager = QMenuManager.Stub.asInterface(service);
             try {
-                mQMenuManager.ShowQMenu(!mQMenuManager.IsQMenuShown());
+              int type = getMediaType();
+              Map<String, Boolean> maps = new HashMap<>();
+              maps = getQMenuMaps(type);
+              mQMenuManager.ShowQMenuByItem(maps);
             } catch (RemoteException e) {
-                e.printStackTrace();
+              e.printStackTrace();
             }
         }
 

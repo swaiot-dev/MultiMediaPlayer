@@ -192,37 +192,38 @@
 	<string name="mmp_capture_confirm">Do you want to capture this screen ?</string>
 	<string name="mmp_toast_no_photoframe">There is no photo frame image to play</string>
 
-	<string name="mmp_video_notsupport">Video Codec not support</string>
-	<string name="mmp_audio_notsupport">Audio Codec not support</string>
-	<string name="mmp_video_only">Video only</string>
-	<string name="mmp_frame_photo_sleeptime">Czas hibernacji</string>
-	<string name="mmp_sleeptime_lable">Czas hibernacji:  </string>
-	<string name="mmp_video_stopresume">Stop Resume</string>
-	<string name="mmp_can_notpause">Can Not Pause</string>
-	
-	<string name="mmp_photo_type_notsupport">File not support</string>
+    <string name="mmp_video_notsupport">Kodek wideo nieobsługiwany</string>
+    <string name="mmp_audio_notsupport">Format audio nie jest obsługiwany</string>
+    <string name="mmp_video_only">Tylko wideo</string>
+    <string name="mmp_frame_photo_sleeptime">Czas uśpienia </string>
+    <string name="mmp_sleeptime_lable">Czas hibernacji:</string>
+    <string name="mmp_video_stopresume">Stop Wznów</string>
+    <string name="mmp_can_notpause">Nie można zatrzymać</string>
 
-	<string name="mmp_lable_rorate">Obróć</string>
+    <string name="mmp_photo_type_notsupport">Plik nieobsługiwany</string>
+
+    <string name="mmp_lable_rorate">Obracać </string>
 	<string name="mmp_lable_degree">°</string>
 	<string name="mmp_lable_subtitle_off">Off</string>
 
-	<string name="mmp_info_whitebalance">WhiteBalance:</string>
-	<string name="mmp_info_make">Make:</string>
-	<string name="mmp_info_model">Model:</string>
-	<string name="mmp_info_flash">Flash:</string>
-	<string name="mmp_info_focallength">FocalLength:</string>
-	<string name="mmp_menu_pic_setting">Picture Setting</string>
+    <string name="mmp_info_whitebalance">Balans bieli:</string>
+    <string name="mmp_info_make">Producent:</string>
+    <string name="mmp_info_flash">Migawka:</string>
+    <string name="mmp_info_focallength">Długość ogniskowa:</string>
+    <string name="mmp_menu_pic_setting">Ustawienia obrazu</string>
+    <string name="mmp_menu_audio_setting">Ustawienia audio</string>
 
-	<string name="mmp_file_notsupport">File not support</string>
-	<string name="mmp_notsupport">Not support</string>
-	<string name="mmp_seek_notsupport">Seek not support</string>
-	<string name="mmp_step_notsupport">Step not support</string>
+    <string name="mmp_file_notsupport">Plik nieobsługiwany</string>
+    <string name="mmp_notsupport">Nie Wsparcie </string>
+    <string name="mmp_seek_notsupport">Szukanie nieobsługiwane</string>
+    <string name="mmp_step_notsupport">Krok nieobsługiwany</string>
 	<string name="mmp_featue_notsupport">Funkcja niedostępna</string>
-	<string name="mmp_nodevice">No Device Connected!</string>
-	<string name="mmp_time_out">The time code you input is wrong!\nPlease assure it\'s less than total time</string>
-    <string name="mmp_file_corrupt">File is corrupted</string>
-    <string name="mmp_menu_mount_iso">Mount the current iso file</string>
-	<string name="mmp_menu_unmount_iso">Nnmount the current device</string>
+    <string name="mmp_buffer_not_enough">Niewystarczający bufor</string>
+    <string name="mmp_nodevice">Brak podłączonego urządzenia!</string>
+    <string name="mmp_time_out">Wprowadzony kod czasu błędny!\nUpewnij się, że jest mniejszy niż czas łączny</string>
+    <string name="mmp_file_corrupt">Plik uszkodzony</string>
+    <string name="mmp_menu_mount_iso">Zamontuj bieżący plik .iso</string>
+    <string name="mmp_menu_unmount_iso">Odmontuj bieżące urządzenie</string>
 
 	<string name="mmp_media_info_scrambled_audio_video_service">Scramble Video and Audio</string>
 	<string name="mmp_media_info_scrambled_audio_clear_video_service">Scramble Audio</string>

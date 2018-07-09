@@ -157,6 +157,9 @@ public class VideoPlayActivity extends SkyMediaPlayActivity {
   private SundryDialog sundryDialog;
   int curPicMode;
 
+  //added by zhangqing
+  private SwitchSourceReceiver mSwitchSourceReceiver;
+
   private InfoDialog mInfoDialog;
   private MediaControlView mMediaControlView;
   public Handler mHandler = new Handler() {
@@ -708,7 +711,18 @@ public class VideoPlayActivity extends SkyMediaPlayActivity {
     // SKY luojie add 20171218 for add choose menu begin
     setupFilesManager();
     // SKY luojie add 20171218 for add choose menu end
+
+	// added by zhangqing
+	initBroadcastReveiver();
   }
+
+  	//added by zhangqing
+	void initBroadcastReveiver() {
+		mSwitchSourceReceiver = new SwitchSourceReceiver();
+		IntentFilter filter = new IntentFilter();
+		filter.addAction(SwitchSourceReceiver.SKY_ACTION_SOURCE_CHANGE);
+		registerReceiver(mSwitchSourceReceiver, filter);
+	}
 
 // SKY luojie add 20171218 for add choose menu begin
   protected void setPreviewListDialogParams() {
@@ -1379,6 +1393,9 @@ public class VideoPlayActivity extends SkyMediaPlayActivity {
           featureNotWork(mResource
                   .getString(R.string.mmp_video_notsupport));
           mControlView.setPauseIconGone();
+        } else if (playExce == PlayException.VIDEO_NOT_SUPPORT) {
+          featureNotWork(mResource
+                  .getString(R.string.mmp_video_notsupport));
         }
         break;
       case VideoManager.MEDIA_INFO_VIDEO_ONLY_SERVICE:
@@ -1705,6 +1722,24 @@ public class VideoPlayActivity extends SkyMediaPlayActivity {
   // }
 
   // ABRpeatType mRepeat = ABRpeatType.ABREPEAT_TYPE_NONE;
+
+  public void leftVideo(){    //¡§|?¡§¡ã???
+    resetSeek();
+    if (!mMediaControlView.isProgressShowing()){
+      pressPlayPre();
+    }
+    sendDelayMessage(AUTO_HIDE_PROGRESSBAR, AUTO_HIDE_CONTROL_TIME);
+    isLongPressLRKey = false;
+  }
+  public void rightVideo(){   //??¡§¡ã???
+    resetSeek();
+    if (!mMediaControlView.isProgressShowing()){
+      pressPlayNext();
+    }
+    sendDelayMessage(AUTO_HIDE_PROGRESSBAR, AUTO_HIDE_CONTROL_TIME);
+    isLongPressLRKey = false;
+  }
+
   @Override
   public boolean onKeyUp(int keyCode, KeyEvent event) {
     if (keyCode == KeyMap.KEYCODE_MTKIR_PIPPOP) {
@@ -1713,19 +1748,9 @@ public class VideoPlayActivity extends SkyMediaPlayActivity {
 
     //add by y.wan for pressing LR key to pre or next start
     if (keyCode == KeyMap.KEYCODE_DPAD_LEFT && !isLongPressLRKey) {
-      resetSeek();
-      if (!mMediaControlView.isProgressShowing()){
-        pressPlayPre();
-      }
-      sendDelayMessage(AUTO_HIDE_PROGRESSBAR, AUTO_HIDE_CONTROL_TIME);
-      isLongPressLRKey = false;
+      leftVideo();
     } else if (keyCode == KeyMap.KEYCODE_DPAD_RIGHT && !isLongPressLRKey) {
-      resetSeek();
-      if (!mMediaControlView.isProgressShowing()){
-        pressPlayNext();
-      }
-      sendDelayMessage(AUTO_HIDE_PROGRESSBAR, AUTO_HIDE_CONTROL_TIME);
-      isLongPressLRKey = false;
+      rightVideo();
     }
     //add by y.wan for pressing LR key to pre or next end
     return super.onKeyUp(keyCode, event);
@@ -1828,6 +1853,147 @@ public class VideoPlayActivity extends SkyMediaPlayActivity {
     super.onPictureInPictureModeChanged(isInPictureInPictureMode);
   }
 
+  public void Play(){   //?¡§?D?2¡ê¡è?¡è?
+      sendDelayMessage(AUTO_HIDE_PLAY_STATUS, AUTO_HIDE_CONTROL_TIME);
+      sendDelayMessage(AUTO_HIDE_PROGRESSBAR, AUTO_HIDE_CONTROL_TIME);
+      if (mMediaControlView.isProgressShowing()) {
+          sendMessage(PROGRESS_CHANGED);
+      }
+      mMediaControlView.showPlayStatusLayout();
+      mMediaControlView.showPlay();
+      mLogicManager.fastForwardVideoNormal();
+      mLogicManager.playVideo();
+  }
+  public void Pause(){  //?Y¡§a?¨º2¡ê¡è?¡è?
+    cancelMessage(AUTO_HIDE_PLAY_STATUS);
+    cancelMessage(PROGRESS_CHANGED);
+    sendDelayMessage(AUTO_HIDE_PROGRESSBAR, AUTO_HIDE_CONTROL_TIME);
+    mMediaControlView.showPlayStatusLayout();
+    mMediaControlView.showPause();
+    mLogicManager.pauseVideo();
+  }
+public void Stop(){   //¡§a?¨º?12¡ê¡è?¡è?
+  //reSetController();
+  saveLastMemory();//add by yx for fix 72728
+  //                showController();
+  if (isValid()) {
+    if (!mLogicManager.isInPlaybackState() || !mPlayPauseABRepeat) {
+      featureNotWork(getString(R.string.mmp_featue_notsupport));
+      return;
+    }
+    int status = mLogicManager.getVideoPlayStatus();
+    if (mControlView != null) {
+      mControlView.stopKeyPause();
+    }
+    hideFeatureNotWork();
+    if (mInfo != null && mInfo.isShowing()) {
+      mInfo.dismiss();
+    }
+    MtkLog.d(TAG, "KEYCODE_MTKIR_STOP mInfo playExce:" + playExce);
+    if (playExce == PlayException.VIDEO_NOT_SUPPORT) {
+      showFullSotpStatus();
+      removeFeatureMessage();
+    } else {
+      showFullSotpStatus();
+      removeFeatureMessage();
+      //                        showResumeDialog();
+    }
+  }
+  finish();//add by yx for fix the 73911
+}
+public void StartOver(){    //??D?2¡ê¡è?¡è?
+
+}
+
+public void FastForward(){    //?¡§???
+  reSetController();
+  if (isValid()) {
+    if (!mLogicManager.isInPlaybackState()
+            || playExce == PlayException.VIDEO_NOT_SUPPORT
+            || mLogicManager.isReplay()) {
+      MtkLog.i(TAG,
+              "!mLogicManager.isInPlaybackState() playExce ==PlayException.VIDEO_NOT_SUPPORT");
+      featureNotWork(getString(R.string.mmp_featue_notsupport));
+      return ;
+    }
+
+    if (mControlView != null && mControlView.isInABRepeat()) {
+      featureNotWork(getString(R.string.mmp_featue_notsupport));
+      return ;
+    }
+    try {
+      if (null != mLogicManager && mMediaControlView.isShowing()) {
+        cancelMessage(AUTO_HIDE_PLAY_STATUS);
+        mMediaControlView.showPlayStatusLayout();
+        mLogicManager.fastForwardVideo();
+        int speed = mLogicManager.getVideoSpeed();
+        mMediaControlView.showFastAndSpeed(speed);
+        mMediaControlView.showProgressLayout();
+        mMediaControlView.setCurrTime(mLogicManager.getVideoProgress());
+        mMediaControlView.setTotalTime(mLogicManager.getVideoDuration());
+        sendMessage(PROGRESS_CHANGED);
+      }
+    } catch (IllegalStateException e) {
+      MtkLog.d(TAG, "IllegalStateException Exception" + e.getMessage());
+      featureNotWork(getString(R.string.mmp_featue_notsupport));
+    } catch (Exception e) {
+      MtkLog.d(TAG, "KEYCODE_MTKIR_FASTFORWARD Exception" + e.getMessage());
+      try {
+        mLogicManager.fastForwardVideoNormal();
+        setFast(0);
+        featureNotWork(getString(R.string.mmp_featue_notsupport));
+      } catch (Exception ex) {
+        featureNotWork(getString(R.string.mmp_featue_notsupport));
+      }
+    }
+  }
+  subtitleLayout.setCues(null);
+}
+public void Rewind(){   //|¨¬1???
+  reSetController();
+  if (isValid()) {
+    if (!mLogicManager.isInPlaybackState()
+            || playExce == PlayException.VIDEO_NOT_SUPPORT
+            || mLogicManager.isReplay()) {
+      featureNotWork(getString(R.string.mmp_featue_notsupport));
+      return ;
+    }
+
+    if (mControlView != null && mControlView.isInABRepeat()) {
+      featureNotWork(getString(R.string.mmp_featue_notsupport));
+      return ;
+    }
+    boolean isException = false;
+    try {
+      cancelMessage(AUTO_HIDE_PLAY_STATUS);
+      mMediaControlView.showPlayStatusLayout();
+      mLogicManager.fastRewindVideo();
+      int speed = mLogicManager.getVideoSpeed();
+      mMediaControlView.showRewindAndSpeed(speed);
+      mMediaControlView.showProgressLayout();
+      mMediaControlView.setCurrTime(mLogicManager.getVideoProgress());
+      mMediaControlView.setTotalTime(mLogicManager.getVideoDuration());
+      sendMessage(PROGRESS_CHANGED);
+    } catch (IllegalStateException e) {
+      MtkLog.d(TAG, "Exception" + e.getMessage());
+      isException = true;
+      featureNotWork(getString(R.string.mmp_featue_notsupport));
+    } catch (Exception e) {
+      MtkLog.d(TAG, "Exception" + e.getMessage());
+      isException = true;
+      featureNotWork(getString(R.string.mmp_featue_notsupport));
+    }
+
+    if (isException
+            && VideoConst.PLAY_STATUS_PAUSED == mLogicManager.getVideoPlayStatus()) {
+      if (mMediaControlView != null) {
+        mMediaControlView.showPause();
+      }
+    }
+
+  }
+}
+
   @Override
   public boolean onKeyDown(int keyCode, KeyEvent event) {
     mLastKeyDownTime = System.currentTimeMillis();
@@ -1924,22 +2090,15 @@ public class VideoPlayActivity extends SkyMediaPlayActivity {
                     sendMessage(PROGRESS_CHANGED);
                     sendDelayMessage(AUTO_HIDE_PROGRESSBAR, AUTO_HIDE_CONTROL_TIME);
                   }else {
-                    if (mLogicManager.isPlaying()) {
-                      cancelMessage(AUTO_HIDE_PLAY_STATUS);
-                      cancelMessage(PROGRESS_CHANGED);
-                      sendDelayMessage(AUTO_HIDE_PROGRESSBAR, AUTO_HIDE_CONTROL_TIME);
-                      mMediaControlView.showPlayStatusLayout();
-                      mMediaControlView.showPause();
-                      mLogicManager.pauseVideo();
+                    if (!mLogicManager.isPlaying() ||
+                            VideoConst.PLAY_STATUS_SEEKING == mLogicManager.getVideoPlayStatus() ||
+                            VideoConst.PLAY_STATUS_FF == mLogicManager.getVideoPlayStatus() ||
+                            VideoConst.PLAY_STATUS_FR == mLogicManager.getVideoPlayStatus() ||
+                            VideoConst.PLAY_STATUS_SF == mLogicManager.getVideoPlayStatus() ||
+                            VideoConst.PLAY_STATUS_SR == mLogicManager.getVideoPlayStatus()) {
+                        Play();
                     } else {
-                      sendDelayMessage(AUTO_HIDE_PLAY_STATUS, AUTO_HIDE_CONTROL_TIME);
-                      sendDelayMessage(AUTO_HIDE_PROGRESSBAR, AUTO_HIDE_CONTROL_TIME);
-                      if (mMediaControlView.isProgressShowing()) {
-                        sendMessage(PROGRESS_CHANGED);
-                      }
-                      mMediaControlView.showPlayStatusLayout();
-                      mMediaControlView.showPlay();
-                      mLogicManager.playVideo();
+                      Pause();
                     }
                   }
 
@@ -1957,8 +2116,13 @@ public class VideoPlayActivity extends SkyMediaPlayActivity {
             }
             mMediaControlView.showPlayStatusLayout();
             mMediaControlView.showPlay();
-            if (!mLogicManager.isPlaying()|| VideoConst.PLAY_STATUS_SEEKING == mLogicManager.getVideoPlayStatus()){
-                mLogicManager.playVideo();
+            if (!mLogicManager.isPlaying() ||
+                    VideoConst.PLAY_STATUS_SEEKING == mLogicManager.getVideoPlayStatus() ||
+                    VideoConst.PLAY_STATUS_FF == mLogicManager.getVideoPlayStatus() ||
+                    VideoConst.PLAY_STATUS_FR == mLogicManager.getVideoPlayStatus() ||
+                    VideoConst.PLAY_STATUS_SF == mLogicManager.getVideoPlayStatus() ||
+                    VideoConst.PLAY_STATUS_SR == mLogicManager.getVideoPlayStatus()){
+              mLogicManager.playVideo();
             }
           }
         }
@@ -1982,14 +2146,12 @@ public class VideoPlayActivity extends SkyMediaPlayActivity {
       case KeyMap.KEYCODE_MTKIR_PLAYPAUSE:{
         if (isValid()) {
           if (null != mLogicManager && mMediaControlView.isShowing()) {
-            if (mLogicManager.isPlaying()) {
-              cancelMessage(AUTO_HIDE_PLAY_STATUS);
-              cancelMessage(PROGRESS_CHANGED);
-              sendDelayMessage(AUTO_HIDE_PROGRESSBAR, AUTO_HIDE_CONTROL_TIME);
-              mMediaControlView.showPlayStatusLayout();
-              mMediaControlView.showPause();
-              mLogicManager.pauseVideo();
-            } else {
+            if (!mLogicManager.isPlaying() ||
+                    VideoConst.PLAY_STATUS_SEEKING == mLogicManager.getVideoPlayStatus() ||
+                    VideoConst.PLAY_STATUS_FF == mLogicManager.getVideoPlayStatus() ||
+                    VideoConst.PLAY_STATUS_FR == mLogicManager.getVideoPlayStatus() ||
+                    VideoConst.PLAY_STATUS_SF == mLogicManager.getVideoPlayStatus() ||
+                    VideoConst.PLAY_STATUS_SR == mLogicManager.getVideoPlayStatus()) {
               sendDelayMessage(AUTO_HIDE_PLAY_STATUS, AUTO_HIDE_CONTROL_TIME);
               sendDelayMessage(AUTO_HIDE_PROGRESSBAR, AUTO_HIDE_CONTROL_TIME);
               if (mMediaControlView.isProgressShowing()) {
@@ -1997,7 +2159,15 @@ public class VideoPlayActivity extends SkyMediaPlayActivity {
               }
               mMediaControlView.showPlayStatusLayout();
               mMediaControlView.showPlay();
+              mLogicManager.fastForwardVideoNormal();
               mLogicManager.playVideo();
+            } else {
+              cancelMessage(AUTO_HIDE_PLAY_STATUS);
+              cancelMessage(PROGRESS_CHANGED);
+              sendDelayMessage(AUTO_HIDE_PROGRESSBAR, AUTO_HIDE_CONTROL_TIME);
+              mMediaControlView.showPlayStatusLayout();
+              mMediaControlView.showPause();
+              mLogicManager.pauseVideo();
             }
           }
         }
@@ -2046,6 +2216,16 @@ public class VideoPlayActivity extends SkyMediaPlayActivity {
                 if (event.getRepeatCount() == 0) {
                   event.startTracking();
                   isLongPressLRKey = false;
+                  new Handler().postDelayed(new Runnable() {
+                    @Override
+                    public void run() {
+                      mMediaControlView.showProgressLayout();
+                      mMediaControlView.setCurrTime(mLogicManager.getVideoProgress());
+                      mMediaControlView.setTotalTime(mLogicManager.getVideoDuration());
+                      sendMessage(PROGRESS_CHANGED);
+                      sendDelayMessage(AUTO_HIDE_PROGRESSBAR, AUTO_HIDE_CONTROL_TIME);
+                    }
+                  },1500);
                 }
               }
               return true;
@@ -2097,6 +2277,16 @@ public class VideoPlayActivity extends SkyMediaPlayActivity {
                 if (event.getRepeatCount() == 0) {
                   event.startTracking();
                   isLongPressLRKey = false;
+                  new Handler().postDelayed(new Runnable() {
+                    @Override
+                    public void run() {
+                      mMediaControlView.showProgressLayout();
+                      mMediaControlView.setCurrTime(mLogicManager.getVideoProgress());
+                      mMediaControlView.setTotalTime(mLogicManager.getVideoDuration());
+                      sendMessage(PROGRESS_CHANGED);
+                      sendDelayMessage(AUTO_HIDE_PROGRESSBAR, AUTO_HIDE_CONTROL_TIME);
+                    }
+                  },1500);
                 }
               }
               return true;
@@ -2105,6 +2295,7 @@ public class VideoPlayActivity extends SkyMediaPlayActivity {
             }
             case KeyMap.KEYCODE_MTKIR_INFO:
             case KeyMap.KEYCODE_DPAD_DOWN: {
+              MmpApp.KEYCODE_MTKIR_MTSAUDIO = 1;
                 // SKY luojie modify 20171218 for add choose menu begin
                 //        if(!isPreviewListDialogShown()) {
                 //          hideController();
@@ -2179,98 +2370,24 @@ public class VideoPlayActivity extends SkyMediaPlayActivity {
             }
 
             case KeyMap.KEYCODE_MTKIR_FASTFORWARD: {
-                reSetController();
-                if (isValid()) {
-                    if (!mLogicManager.isInPlaybackState()
-                            || playExce == PlayException.VIDEO_NOT_SUPPORT
-                            || mLogicManager.isReplay()) {
-                        MtkLog.i(TAG,
-                                "!mLogicManager.isInPlaybackState() playExce ==PlayException.VIDEO_NOT_SUPPORT");
-                        featureNotWork(getString(R.string.mmp_featue_notsupport));
-                        return true;
-                    }
-
-                    if (mControlView != null && mControlView.isInABRepeat()) {
-                        featureNotWork(getString(R.string.mmp_featue_notsupport));
-                        return true;
-                    }
-
-                    try {
-                      if (null != mLogicManager && mMediaControlView.isShowing()) {
-                        cancelMessage(AUTO_HIDE_PLAY_STATUS);
-                        mMediaControlView.showPlayStatusLayout();
-                        mLogicManager.fastForwardVideo();
-                        int speed = mLogicManager.getVideoSpeed();
-                        mMediaControlView.showFastAndSpeed(speed);
-                        mMediaControlView.showProgressLayout();
-                        mMediaControlView.setCurrTime(mLogicManager.getVideoProgress());
-                        mMediaControlView.setTotalTime(mLogicManager.getVideoDuration());
-                        sendMessage(PROGRESS_CHANGED);
-                      }
-                    } catch (IllegalStateException e) {
-                        MtkLog.d(TAG, "IllegalStateException Exception" + e.getMessage());
-                        featureNotWork(getString(R.string.mmp_featue_notsupport));
-                    } catch (Exception e) {
-                        MtkLog.d(TAG, "KEYCODE_MTKIR_FASTFORWARD Exception" + e.getMessage());
-                        try {
-                            mLogicManager.fastForwardVideoNormal();
-                            setFast(0);
-                            featureNotWork(getString(R.string.mmp_featue_notsupport));
-                        } catch (Exception ex) {
-                            featureNotWork(getString(R.string.mmp_featue_notsupport));
-                        }
-                    }
-                }
-                subtitleLayout.setCues(null);
+              FastForward();
                 return true;
             }
             case KeyMap.KEYCODE_MTKIR_REWIND: {
-                reSetController();
-                if (isValid()) {
-                    if (!mLogicManager.isInPlaybackState()
-                            || playExce == PlayException.VIDEO_NOT_SUPPORT
-                            || mLogicManager.isReplay()) {
-                        featureNotWork(getString(R.string.mmp_featue_notsupport));
-                        return true;
-                    }
-
-                    if (mControlView != null && mControlView.isInABRepeat()) {
-                        featureNotWork(getString(R.string.mmp_featue_notsupport));
-                        return true;
-                    }
-                    boolean isException = false;
-                    try {
-                      cancelMessage(AUTO_HIDE_PLAY_STATUS);
-                      mMediaControlView.showPlayStatusLayout();
-                      mLogicManager.fastRewindVideo();
-                      int speed = mLogicManager.getVideoSpeed();
-                      mMediaControlView.showRewindAndSpeed(speed);
-                      mMediaControlView.showProgressLayout();
-                      mMediaControlView.setCurrTime(mLogicManager.getVideoProgress());
-                      mMediaControlView.setTotalTime(mLogicManager.getVideoDuration());
-                      sendMessage(PROGRESS_CHANGED);
-                    } catch (IllegalStateException e) {
-                        MtkLog.d(TAG, "Exception" + e.getMessage());
-                        isException = true;
-                        featureNotWork(getString(R.string.mmp_featue_notsupport));
-                    } catch (Exception e) {
-                        MtkLog.d(TAG, "Exception" + e.getMessage());
-                        isException = true;
-                        featureNotWork(getString(R.string.mmp_featue_notsupport));
-                    }
-
-                    if (isException
-                            && VideoConst.PLAY_STATUS_PAUSED == mLogicManager.getVideoPlayStatus()) {
-                        if (mMediaControlView != null) {
-                          mMediaControlView.showPause();
-                        }
-                    }
-
-                }
+              Rewind();
                 return true;
             }
 
             case KeyMap.KEYCODE_MTKIR_MTSAUDIO: {
+              MmpApp.KEYCODE_MTKIR_MTSAUDIO = 2;
+              if (isValid()) {
+                if (!mLogicManager.isInPlaybackState()) {
+                  featureNotWork(getString(R.string.mmp_featue_notsupport));
+                  return true;
+                }
+                hideProgressBarView();
+                showOrHideInfoView();
+              }
 //                reSetController();
 //                if (isValid()) {
 //                    if (!mLogicManager.isInPlaybackState()) {
@@ -2298,14 +2415,17 @@ public class VideoPlayActivity extends SkyMediaPlayActivity {
 //                    //          Log.d(TAG, "KEYCODE_MTKIR_MTSAUDIO END");
 //                }
 
-                if (isValid()) {
+              //changed by y.wan for  start 2018/5/18
+
+                /*if (isValid()) {
                     if (!mLogicManager.isInPlaybackState()) {
                         featureNotWork(getString(R.string.mmp_featue_notsupport));
                         return true;
                     }
                     hideProgressBarView();
                     showAudioTrackView();
-                }
+                }*/
+              //changed by y.wan for  end 2018/5/18
                 return true;
             }
             case KeyMap.KEYCODE_MTKIR_REPEAT: {
@@ -2375,33 +2495,7 @@ public class VideoPlayActivity extends SkyMediaPlayActivity {
         return true;
       }*/
             case KeyMap.KEYCODE_MTKIR_STOP: {
-                //reSetController();
-                saveLastMemory();//add by yx for fix 72728
-                //                showController();
-                if (isValid()) {
-                    if (!mLogicManager.isInPlaybackState() || !mPlayPauseABRepeat) {
-                        featureNotWork(getString(R.string.mmp_featue_notsupport));
-                        return true;
-                    }
-                    int status = mLogicManager.getVideoPlayStatus();
-                    if (mControlView != null) {
-                        mControlView.stopKeyPause();
-                    }
-                    hideFeatureNotWork();
-                    if (mInfo != null && mInfo.isShowing()) {
-                        mInfo.dismiss();
-                    }
-                    MtkLog.d(TAG, "KEYCODE_MTKIR_STOP mInfo playExce:" + playExce);
-                    if (playExce == PlayException.VIDEO_NOT_SUPPORT) {
-                        showFullSotpStatus();
-                        removeFeatureMessage();
-                    } else {
-                        showFullSotpStatus();
-                        removeFeatureMessage();
-                        //                        showResumeDialog();
-                    }
-                }
-                finish();//add by yx for fix the 73911
+
                 return true;
             }
             case KeyEvent.KEYCODE_ESCAPE:
@@ -3735,6 +3829,9 @@ public class VideoPlayActivity extends SkyMediaPlayActivity {
     // SKY luojie add 20171218 for add choose menu begin
     mMenuHandler.removeMessages(DETECT_USER_OPERATION);
     // SKY luojie add 20171218 for add choose menu end
+
+    //added by zhangqing
+	unregisterReceiver(mSwitchSourceReceiver);
   }
 
   private DevManager mDevManager = null;

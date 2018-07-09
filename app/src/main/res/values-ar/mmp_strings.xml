@@ -23,9 +23,8 @@
 	<string name="mmp_menu_showinfo">إظهار المعلومات</string>
 	<string name="mmp_menu_frame">إطار الصورة</string>
 	<string name="mmp_menu_rotate">تدوير</string>
-	<string name="mmp_menu_3d_photo">3D Photo</string>
-
-	<string name="mmp_menu_display">Display Line</string>
+	<string name="mmp_menu_3d_photo">صورة ثلاثية الأبعاد</string>
+	<string name="mmp_menu_display">عرض الخط</string>
 	<string name="mmp_menu_timeoffset">تعويض الوقت</string>
 	<string name="mmp_menu_encoding">تشفير</string>
 
@@ -76,11 +75,11 @@
 	<string name="mmp_menu_random">عشوائي</string>
 
 
-	<string name="mmp_menu_off">Off</string>
-	<string name="mmp_menu_singleline">Single Line</string>
-	<string name="mmp_menu_multiline">Multi Line</string>
-	<string name="mmp_menu_auto">تلقائي</string>
-	<string name="mmp_menu_userdefine">User define</string>
+	<string name="mmp_menu_off">إيقاف</string>
+	<string name="mmp_menu_singleline">خط واحد</string>
+	<string name="mmp_menu_multiline">خطوط متعددة</string>
+	<string name="mmp_menu_auto">آلي</string>
+	<string name="mmp_menu_userdefine">تحديد المستخدم</string>
 	<string name="mmp_menu_gb">GB</string>
 	<string name="mmp_menu_big5">Big5</string>
 	<string name="mmp_menu_utf8">Utf8</string>
@@ -90,8 +89,8 @@
 	<string name="mmp_menu_sport">رياضة</string>
 	<string name="mmp_menu_vivid">مشرق</string>
 	<string name="mmp_menu_hibright">سطوع عالي</string>
-	<string name="mmp_menu_normal">عادي</string>
-	<string name="mmp_menu_letterbox">Letter box</string>
+    <string name="mmp_menu_normal">عادي</string>
+	<string name="mmp_menu_letterbox">مربع الحرف</string>
 	<string name="mmp_menu_scan">بحث</string>
 	<string name="mmp_menu_zoom">تكبير</string>
 	<string name="mmp_menu_dotbydot">نقطة بنقطة</string>
@@ -105,7 +104,7 @@
 	<string name="mmp_menu_red">أحمر</string>
 	<string name="mmp_menu_green">أخضر</string>
 	<string name="mmp_menu_black">أسود</string>
-	<string name="mmp_menu_lyricoptions">Lyric Options</string>
+	<string name="mmp_menu_lyricoptions">خيارات كلمات الأغاني</string>
 
 	<string name="mmp_menu_showscore">إظهار الطيف</string>
 	<string name="mmp_menu_hidescore">إخفاء الطيف</string>
@@ -155,9 +154,9 @@
 	<string name="mmp_info_director">المخرج:</string>
 	<string name="mmp_info_copyrght">حقوق النشر:</string>
 
-	<string name="mmp_info_lastline">Last Line</string>
-	<string name="mmp_info_nextline">Next Line</string>
-	<string name="mmp_info_lastpage">Last Page</string>
+	<string name="mmp_info_lastline">الخط الأخير</string>
+	<string name="mmp_info_nextline">الخط التالي</string>
+	<string name="mmp_info_lastpage">الصفحة الأخيرة</string>
 	<string name="mmp_info_nextpage">الصفحة التالية</string>
 
 	<string name="mmp_info_nolrc">لا كلمات</string>
@@ -192,15 +191,15 @@
 	<string name="mmp_capture_confirm">Do you want to capture this screen ?</string>
 	<string name="mmp_toast_no_photoframe">There is no photo frame image to play</string>
 
-	<string name="mmp_video_notsupport">Video Codec not support</string>
-	<string name="mmp_audio_notsupport">Audio Codec not support</string>
+	<string name="mmp_video_notsupport">رميز الفيديو غير مدعوم</string>
+	<string name="mmp_audio_notsupport">نسيق الصوت غير مدعوم</string>
 	<string name="mmp_video_only">Video only</string>
 	<string name="mmp_frame_photo_sleeptime">وقت السكون</string>
 	<string name="mmp_sleeptime_lable">وقت السكون:  </string>
 	<string name="mmp_video_stopresume">Stop Resume</string>
 	<string name="mmp_can_notpause">Can Not Pause</string>
 	
-	<string name="mmp_photo_type_notsupport">File not support</string>
+	<string name="mmp_photo_type_notsupport">الملف غير مدعوم</string>
 
 	<string name="mmp_lable_rorate">تدوير</string>
 	<string name="mmp_lable_degree">°</string>
@@ -213,11 +212,11 @@
 	<string name="mmp_info_focallength">FocalLength:</string>
 	<string name="mmp_menu_pic_setting">Picture Setting</string>
 
-	<string name="mmp_file_notsupport">File not support</string>
-	<string name="mmp_notsupport">Not support</string>
-	<string name="mmp_seek_notsupport">Seek not support</string>
-	<string name="mmp_step_notsupport">Step not support</string>
-	<string name="mmp_featue_notsupport">هذه الخاصية غير متوفرة</string>
+	<string name="mmp_file_notsupport">الملف غير مدعوم</string>
+	<string name="mmp_notsupport">لا يدعم</string>
+	<string name="mmp_seek_notsupport">البحث غير مدعوم</string>
+	<string name="mmp_step_notsupport">الانتقال غير مدعوم</string>
+	<string name="mmp_featue_notsupport">الميزة غير متوفرة</string>
 	<string name="mmp_nodevice">No Device Connected!</string>
 	<string name="mmp_time_out">The time code you input is wrong!\nPlease assure it\'s less than total time</string>
     <string name="mmp_file_corrupt">File is corrupted</string>

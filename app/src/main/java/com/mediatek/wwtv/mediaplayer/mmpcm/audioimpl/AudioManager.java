@@ -1,17 +1,15 @@
 
 package com.mediatek.wwtv.mediaplayer.mmpcm.audioimpl;
 
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.io.InputStream;
 import java.net.MalformedURLException;
 import java.net.UnknownHostException;
 
 import jcifs.smb.SmbException;
-import android.os.Handler;
-import android.os.Message;
+
 import android.util.Log;
+
+import com.mediatek.plugin.function.UIMediaPlayerImpl;
+import com.mediatek.plugin.skyworth.SkyMediaPlayer;
 import com.mediatek.wwtv.mediaplayer.mmp.util.DmrHelper;
 
 //import com.mediatek.mmp.*;
@@ -20,7 +18,6 @@ import com.mediatek.wwtv.mediaplayer.mmpcm.UIMediaPlayer;
 
 import android.media.MediaPlayer;
 
-import android.media.MediaPlayer.OnCompletionListener;
 import android.media.MediaPlayer.OnPreparedListener;
 import android.media.MediaPlayer.OnErrorListener;
 import android.media.MediaPlayer.OnInfoListener;
@@ -32,25 +29,17 @@ import com.mediatek.wwtv.mediaplayer.mmpcm.audio.IPlayback;
 import com.mediatek.wwtv.mediaplayer.mmpcm.fileimpl.MtkFile;
 import com.mediatek.wwtv.mediaplayer.mmpcm.mmcimpl.Const;
 import com.mediatek.wwtv.mediaplayer.mmpcm.mmcimpl.PlayList;
-import com.mediatek.wwtv.mediaplayer.mmpcm.videoimpl.VideoConst;
 import com.mediatek.wwtv.mediaplayer.netcm.dlna.DLNADataSource;
 import com.mediatek.wwtv.mediaplayer.netcm.dlna.DLNAManager;
 import com.mediatek.wwtv.mediaplayer.netcm.dlna.FileSuffixConst;
 import com.mediatek.wwtv.mediaplayer.netcm.samba.SambaManager;
 import com.mediatek.wwtv.mediaplayer.util.Util;
 
-import com.mediatek.MtkMediaPlayer.DataSourceType;
-import com.mediatek.MtkMediaPlayer.DivxDrmInfoType;
 import com.mediatek.MtkMediaPlayer.PlayerSpeed;
-import com.mediatek.MtkMediaPlayer.ABRpeatType;
+
 import android.content.Context;
 
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
-
-import com.mediatek.SubtitleTrackInfo;
 import com.mediatek.AudioTrackInfo;
-import com.mediatek.SubtitleAttr;
 
 import com.mediatek.mmp.util.PcmMediaInfo;
 import com.mediatek.mmp.MtkMediaPlayer;
@@ -59,7 +48,7 @@ public class AudioManager implements IPlayback {// , DataSource {
 
   private static final String TAG = "AudioManager";
 
-  private UIMediaPlayer mtkMediaPlayer;
+  private SkyMediaPlayer mtkMediaPlayer;
   private String dataSource;
   private int speedStep;
   private int mPlayStatus = AudioConst.PLAY_STATUS_INITED;
@@ -76,7 +65,7 @@ public class AudioManager implements IPlayback {// , DataSource {
     Log.d(TAG, "AudioManager srcType =" + srcType);
     mPlayMode = srcType;
     mTmpPlayStatus = AudioConst.PLAY_STATUS_INITED;
-    mtkMediaPlayer = new UIMediaPlayer(srcType);
+    mtkMediaPlayer = new SkyMediaPlayer(new UIMediaPlayerImpl(srcType));
     if (srcType == UIMediaPlayer.MODE_LOCAL) {
       mtkMediaPlayer.setOnCompletionListener(newCompletionListener);
       mtkMediaPlayer.setOnPreparedListener(preparedListener);
@@ -145,7 +134,7 @@ public class AudioManager implements IPlayback {// , DataSource {
     Log.d(TAG, "setPlayMode playMode =" + playMode + "mPlayMode =" + mPlayMode);
     if (playMode != mPlayMode) {
       mPlayMode = playMode;
-      mtkMediaPlayer = new UIMediaPlayer(mPlayMode);
+      mtkMediaPlayer = new SkyMediaPlayer(new UIMediaPlayerImpl(mPlayMode));
       if (mPlayMode == UIMediaPlayer.MODE_LOCAL) {
         mtkMediaPlayer.setOnCompletionListener(newCompletionListener);
         mtkMediaPlayer.setOnPreparedListener(preparedListener);

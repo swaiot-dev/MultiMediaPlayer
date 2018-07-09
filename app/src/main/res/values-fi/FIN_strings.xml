@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="hello">Hello World, TurnkeyUiMainActivity!</string>
-    <string name="app_name">Multi Media Player</string>
+    <string name="app_name">Media Playerin</string>
     <!-- For PVR/tshift -->
     <string name="schedulelist_nofiles">There is no record schedule! Please press "Add" key to add one.</string>
     <string name="schedulelist_nofiles_disable_add">There is no record schedule!</string>

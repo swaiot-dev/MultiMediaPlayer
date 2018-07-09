@@ -1,8 +1,6 @@
 package com.mediatek.wwtv.mediaplayer.mmp.commonview;
 
-import java.util.List;
-import java.util.Vector;
-
+import android.animation.ValueAnimator;
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -10,13 +8,16 @@ import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.view.View;
 
-import com.mediatek.wwtv.mediaplayer.mmp.multimedia.MusicPlayActivity;
+import com.mediatek.wwtv.mediaplayer.R;
 import com.mediatek.wwtv.mediaplayer.mmp.util.LogicManager;
 import com.mediatek.wwtv.mediaplayer.mmpcm.audioimpl.LyricTimeContentInfo;
-import com.mediatek.wwtv.mediaplayer.R;
 import com.mediatek.wwtv.util.MtkLog;
+
+import java.util.List;
+import java.util.Vector;
 
 public class LrcView extends View {
 
@@ -42,7 +43,12 @@ public class LrcView extends View {
         mRedPaint = new Paint();
 
         mWhitePaint.setAntiAlias(true);
+        mWhitePaint.setTextSize(36);
+        mWhitePaint.setColor(Color.WHITE);
+
         mRedPaint.setAntiAlias(true);
+        mRedPaint.setTextSize(36);
+        mRedPaint.setColor(0xff6eeeff);
     }
 
 
@@ -60,36 +66,81 @@ public class LrcView extends View {
             canvas.drawBitmap(bitmap, width / 2 - bitmap.getWidth() / 2,
                     160, new Paint());
 
-            canvas.drawText(noLrc, width/2 - noLrcWidth /2 , 250 +  bitmap.getHeight(), mWhitePaint);
+            canvas.drawText(noLrc, width / 2 - noLrcWidth / 2, 250 + bitmap.getHeight(), mWhitePaint);
             return;
         }
         for (int i = 0; i < lrcarr.size(); i++) {
-            if (lrcWidth.length > i) {
+            if (lrcWidth.length > i && i != mCurrentLine) {
                 canvas.drawText(lrcarr.get(i).getLyricContent(), lrcWidth[i], 40
                         + lrcHeight * i, mWhitePaint);
             }
         }
         // show current music word
-
-        mRedPaint.setColor(0xff6eeeff);
         MtkLog.i(TAG, "lrcarr.size():" + lrcarr.size() + "mCurrentLine:" + mCurrentLine + "lrcWidth.length:" + lrcWidth.length);
         if (mCurrentLine < lrcarr.size() && mCurrentLine >= 0) {
             if (lrcWidth.length > mCurrentLine) {
-                canvas.drawText(lrcarr.get(mCurrentLine).getLyricContent(),
-                        lrcWidth[mCurrentLine], 40 + lrcHeight * mCurrentLine,
-                        mRedPaint);
+                int currLrcWidth = (int) mWhitePaint.measureText(lrcarr.get(mCurrentLine).getLyricContent());
+                if (currLrcWidth > getWidth()) {
+                    if (mAnimator == null || !mAnimator.isStarted()) {
+                        startScrollLrc(currLrcWidth - getWidth(), lrcarr.get(mCurrentLine).getDuration());
+                    }
+                    canvas.drawText(lrcarr.get(mCurrentLine).getLyricContent(),
+                            mCurTextXForHighLightLrc, 40 + lrcHeight * mCurrentLine,
+                            mRedPaint);
+                } else {
+                    canvas.drawText(lrcarr.get(mCurrentLine).getLyricContent(),
+                            lrcWidth[mCurrentLine], 40 + lrcHeight * mCurrentLine,
+                            mRedPaint);
+                }
             }
         }
     }
+
+    private void startScrollLrc(int endX, long duration) {
+        if (mAnimator == null) {
+            mAnimator = ValueAnimator.ofFloat(0, endX);
+            mAnimator.addUpdateListener(updateListener);
+        } else {
+            mCurTextXForHighLightLrc = 0;
+            mAnimator.cancel();
+            mAnimator.setFloatValues(0, endX);
+        }
+        mAnimator.setDuration(duration);
+//        mAnimator.setStartDelay((long) (duration * 0.3)); //?®Æ3®¥?°‰DD®∫?D??°•?-
+        mAnimator.start();
+    }
+
+    private void stopScrollLrc() {
+        if (mAnimator != null) {
+            mAnimator.cancel();
+        }
+        mCurTextXForHighLightLrc = 0;
+    }
+
+    /**
+     * ??®¢®¢?®®°‰®∫¶Ã°¿?°„¶Ã???®∫¶Ãx?®¢????°¡?°¿®∫
+     **/
+    private float mCurTextXForHighLightLrc;
+    private ValueAnimator mAnimator;
+    /***
+     * ?®§®¨y®∫?D??°•?-¶Ã?®∫y?¶Ã?¶Ã¶Ã???°¿?
+     */
+    ValueAnimator.AnimatorUpdateListener updateListener = new ValueAnimator.AnimatorUpdateListener() {
+
+        @Override
+        public void onAnimationUpdate(ValueAnimator animation) {
+            mCurTextXForHighLightLrc = - (Float) animation.getAnimatedValue();
+            Log.d(TAG, "mCurTextXForHighLightLrc=" + mCurTextXForHighLightLrc);
+            invalidate();
+        }
+    };
 
     public void noLrc(String lrc) {
         lrcarr = null;
         noLrc = lrc;
         viewWidth = this.getWidth();
         lrcHeight = this.getHeight();
-        mWhitePaint.setTextSize(36);
 
-        mWhitePaint.setColor(Color.WHITE);
         noLrcWidth = (int) mWhitePaint.measureText(noLrc);
         this.invalidate();
     }
@@ -118,16 +169,15 @@ public class LrcView extends View {
             }
         }
 
-        mWhitePaint.setTextSize(36);
-        mRedPaint.setTextSize(36);
-
-        mWhitePaint.setColor(Color.WHITE);
-
         viewWidth = this.getWidth();
         for (int i = 0; i < lrcarr.size(); i++) {
             if (lrcWidth.length > i) {
-                lrcWidth[i] = (viewWidth - (int) mWhitePaint.measureText(lrcarr
-                        .get(i).getLyricContent())) / 2;
+                int lrcWidth = (int) mWhitePaint.measureText(lrcarr.get(i).getLyricContent());
+                if (lrcWidth > viewWidth) {
+                    this.lrcWidth[i] = 0;
+                } else {
+                    this.lrcWidth[i] = (viewWidth - lrcWidth) / 2;
+                }
             }
         }
         noLrcWidth = (int) mWhitePaint.measureText(noLrc);
@@ -170,8 +220,12 @@ public class LrcView extends View {
                 return;//add by yx for fix nullpointException
             for (int i = 0; i < lrcarr.size(); i++) {
                 if (lrcWidth.length > i) {
-                    lrcWidth[i] = (viewWidth - (int) mWhitePaint.measureText(lrcarr
-                            .get(i).getLyricContent())) / 2;
+                    int lrcWidth = (int) mWhitePaint.measureText(lrcarr.get(i).getLyricContent());
+                    if (lrcWidth > viewWidth) {
+                        this.lrcWidth[i] = 0;
+                    } else {
+                        this.lrcWidth[i] = (viewWidth - lrcWidth) / 2;
+                    }
                 }
             }
             this.invalidate();

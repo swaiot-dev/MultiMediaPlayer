@@ -193,32 +193,32 @@
 	<string name="mmp_capture_confirm">Do you want to capture this screen ?</string>
 	<string name="mmp_toast_no_photoframe">There is no photo frame image to play</string>
 
-	<string name="mmp_video_notsupport">Video Codec not support</string>
-	<string name="mmp_audio_notsupport">Audio Codec not support</string>
-	<string name="mmp_video_only">Video only</string>
-	<string name="mmp_frame_photo_sleeptime">Sleep time</string>
-	<string name="mmp_sleeptime_lable">Sleep time:</string>
-	<string name="mmp_video_stopresume">stop Resume</string>
-	<string name="mmp_can_notpause">Can Not Pause</string>
-	
-	<string name="mmp_photo_type_notsupport">File not support</string>
+    <string name="mmp_video_notsupport">Codec de vídeo não suportado</string>
+    <string name="mmp_audio_notsupport">Formato Áudio não suportado</string>
+    <string name="mmp_video_only">Apenas vídeo</string>
+    <string name="mmp_frame_photo_sleeptime">Hora para dormir</string>
+    <string name="mmp_sleeptime_lable">Hora para dormir:</string>
+    <string name="mmp_video_stopresume">Parar retomar</string>
+    <string name="mmp_can_notpause">Impossível Pausar</string>
 
-	<string name="mmp_lable_rorate">Rotate</string>
+    <string name="mmp_photo_type_notsupport">Ficheiro não suportado</string>
+
+    <string name="mmp_lable_rorate">Rodar</string>
 	<string name="mmp_lable_degree">°</string>
 	<string name="mmp_lable_subtitle_off">Off</string>
 
-	<string name="mmp_info_whitebalance">WhiteBalance:</string>
-	<string name="mmp_info_make">Make:</string>
-	<string name="mmp_info_model">Model:</string>
-	<string name="mmp_info_flash">Flash:</string>
-	<string name="mmp_info_focallength">FocalLength:</string>
-	<string name="mmp_menu_pic_setting">Picture Setting</string>
+    <string name="mmp_info_whitebalance">Equilíbrio de branco:</string>
+    <string name="mmp_info_make">Fabricante:</string>
+    <string name="mmp_info_model">Modelo:</string>
+    <string name="mmp_info_flash">Obturador:</string>
+    <string name="mmp_info_focallength">Comprimento focal:</string>
+    <string name="mmp_menu_pic_setting">Def. imagem</string>
 
-	<string name="mmp_file_notsupport">File not support</string>
-	<string name="mmp_notsupport">Not support</string>
-	<string name="mmp_seek_notsupport">Seek not support</string>
-	<string name="mmp_step_notsupport">Step not support</string>
-	<string name="mmp_featue_notsupport">Feature not available</string>
+    <string name="mmp_file_notsupport">Ficheiro não suportado</string>
+    <string name="mmp_notsupport">Sem apoio</string>
+    <string name="mmp_seek_notsupport">Pesquisa não suportada</string>
+    <string name="mmp_step_notsupport">Etapa não suportada</string>
+    <string name="mmp_featue_notsupport">Função não disponível</string>
 	<string name="mmp_nodevice">No Device Connected!</string>
 	<string name="mmp_time_out">The time code you input is wrong!\nPlease assure it\'s less than total time</string>
     <string name="mmp_file_corrupt">File is corrupted</string>

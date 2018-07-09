@@ -113,9 +113,6 @@
 
 
 
-	<string name="mmp_photo">Fénykép</string>
-	<string name="mmp_audio">Zene</string>
-	<string name="mmp_video">Film</string>
 	<string name="mmp_text">Szöveg</string>
 	<string name="mmp_select">Velg</string>
 	<string name="mmp_input">Bevitel</string>
@@ -160,7 +157,7 @@
 	<string name="mmp_info_lastpage">Last Page</string>
 	<string name="mmp_info_nextpage">Következő oldal</string>
 
-	<string name="mmp_info_nolrc">No lyrics</string>
+
 	<string name="mmp_time_separator">:</string>
 	<string name="mmp_time_inti">00</string>
 
@@ -192,31 +189,31 @@
 	<string name="mmp_capture_confirm">Do you want to capture this screen ?</string>
 	<string name="mmp_toast_no_photoframe">There is no photo frame image to play</string>
 
-	<string name="mmp_video_notsupport">Video Codec not support</string>
-	<string name="mmp_audio_notsupport">Audio Codec not support</string>
-	<string name="mmp_video_only">Video only</string>
-	<string name="mmp_frame_photo_sleeptime">Időzített kikapcsolás</string>
-	<string name="mmp_sleeptime_lable">Időzített kikapcsolás:  </string>
-	<string name="mmp_video_stopresume">Stop Resume</string>
-	<string name="mmp_can_notpause">Can Not Pause</string>
-	
-	<string name="mmp_photo_type_notsupport">File not support</string>
+	<string name="mmp_video_notsupport">Nem támogatott videó kodek</string>
+    <string name="mmp_audio_notsupport">Hangformátum nem támogatott</string>
+    <string name="mmp_video_only">Csak videó</string>
+    <string name="mmp_frame_photo_sleeptime">Időzített kikapcsolás</string>
+    <string name="mmp_sleeptime_lable">Időzített kikapcsolás:</string>
+    <string name="mmp_video_stopresume">Újrakezdés állj</string>
+    <string name="mmp_can_notpause">Nem tudom szüneteltetni</string>
+
+    <string name="mmp_photo_type_notsupport">Nem támogatott fájl</string>
 
 	<string name="mmp_lable_rorate">Elforgatás</string>
 	<string name="mmp_lable_degree">°</string>
 	<string name="mmp_lable_subtitle_off">Off</string>
 
-	<string name="mmp_info_whitebalance">WhiteBalance:</string>
-	<string name="mmp_info_make">Make:</string>
-	<string name="mmp_info_model">Model:</string>
-	<string name="mmp_info_flash">Flash:</string>
-	<string name="mmp_info_focallength">FocalLength:</string>
-	<string name="mmp_menu_pic_setting">Picture Setting</string>
+	<string name="mmp_info_whitebalance">Fehér egyensúly:</string>
+    <string name="mmp_info_make">Gyártó:</string>
+    <string name="mmp_info_model">Modell:</string>
+    <string name="mmp_info_flash">Redőny:</string>
+    <string name="mmp_info_focallength">Gyújtótávolság:</string>
+    <string name="mmp_menu_pic_setting">Képbeállítás</string>
 
-	<string name="mmp_file_notsupport">File not support</string>
-	<string name="mmp_notsupport">Not support</string>
-	<string name="mmp_seek_notsupport">Seek not support</string>
-	<string name="mmp_step_notsupport">Step not support</string>
+	<string name="mmp_file_notsupport">Nem támogatott fájl</string>
+    <string name="mmp_notsupport">Nem támogatott</string>
+    <string name="mmp_seek_notsupport">Nem támogatott keresés</string>
+    <string name="mmp_step_notsupport">Nem támogatott lépés</string>
 	<string name="mmp_featue_notsupport">A funkció nem elérhető</string>
 	<string name="mmp_nodevice">No Device Connected!</string>
 	<string name="mmp_time_out">The time code you input is wrong!\nPlease assure it\'s less than total time</string>

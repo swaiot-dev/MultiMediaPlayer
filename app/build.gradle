@@ -11,6 +11,36 @@ android {
 
     signingConfigs {
         release {
+            storeFile file("../platform-apk.jks")
+            storePassword 'hejihao123'
+            keyAlias 'test'
+            keyPassword 'hejihao123'
+        }
+        debug {
+            storeFile file("../platform-apk.jks")
+            storePassword 'hejihao123'
+            keyAlias 'test'
+            keyPassword 'hejihao123'
+        }
+    }
+
+    /*signingConfigs {
+        release {
+            storeFile file("../platform_o_5660.jks")
+            storePassword 'platform123'
+            keyAlias 'platform'
+            keyPassword 'platform123'
+        }
+        debug {
+            storeFile file("../platform_o_5660.jks")
+            storePassword 'platform123'
+            keyAlias 'platform'
+            keyPassword 'platform123'
+        }
+    }*/
+
+    /*signingConfigs {
+        release {
             storeFile file("../platform.jks")
             storePassword 'snn123456'
             keyAlias 'platform'
@@ -22,7 +52,7 @@ android {
             keyAlias 'platform'
             keyPassword 'snn123456'
         }
-    }
+    }*/
 
     sourceSets {
         main {

@@ -192,37 +192,38 @@
 	<string name="mmp_capture_confirm">Do you want to capture this screen ?</string>
 	<string name="mmp_toast_no_photoframe">There is no photo frame image to play</string>
 
-	<string name="mmp_video_notsupport">Video Codec not support</string>
+	<string name="mmp_video_notsupport">Videokoodekkia ei tueta</string>
 	<string name="mmp_audio_notsupport">Audio Codec not support</string>
-	<string name="mmp_video_only">Video only</string>
+	<string name="mmp_video_only">Vain video</string>
 	<string name="mmp_frame_photo_sleeptime">Nukkuma-aika</string>
 	<string name="mmp_sleeptime_lable">Nukkuma-aika:  </string>
-	<string name="mmp_video_stopresume">Stop Resume</string>
-	<string name="mmp_can_notpause">Can Not Pause</string>
+	<string name="mmp_video_stopresume">Pysäytä jatkaminen</string>
+	<string name="mmp_can_notpause">Ei voida tuottaa</string>
 	
-	<string name="mmp_photo_type_notsupport">File not support</string>
+	<string name="mmp_photo_type_notsupport">Tiedostoa ei tueta</string>
 
 	<string name="mmp_lable_rorate">Kierrä</string>
 	<string name="mmp_lable_degree">°</string>
-	<string name="mmp_lable_subtitle_off">Off</string>
+	<string name="mmp_lable_subtitle_off">Pois</string>
 
-	<string name="mmp_info_whitebalance">WhiteBalance:</string>
-	<string name="mmp_info_make">Make:</string>
-	<string name="mmp_info_model">Model:</string>
+	<string name="mmp_info_whitebalance">Valkotasapaino:</string>
+	<string name="mmp_info_make">Merkki:</string>
+	<string name="mmp_info_model">Malli:</string>
 	<string name="mmp_info_flash">Flash:</string>
-	<string name="mmp_info_focallength">FocalLength:</string>
-	<string name="mmp_menu_pic_setting">Picture Setting</string>
+	<string name="mmp_info_focallength">PolttoVäli:</string>
+	<string name="mmp_menu_pic_setting">Kuva-asetukset</string>
+	<string name="mmp_menu_audio_setting">Ääniasetus</string>
 
-	<string name="mmp_file_notsupport">File not support</string>
-	<string name="mmp_notsupport">Not support</string>
-	<string name="mmp_seek_notsupport">Seek not support</string>
-	<string name="mmp_step_notsupport">Step not support</string>
+	<string name="mmp_file_notsupport">Tiedostoa ei tueta</string>
+	<string name="mmp_notsupport">Ei tuettu</string>
+	<string name="mmp_seek_notsupport">Hakua ei tueta</string>
+	<string name="mmp_step_notsupport">Vaihetta ei tueta</string>
 	<string name="mmp_featue_notsupport">Ominaisuus ei ole käytettävissä</string>
-	<string name="mmp_nodevice">No Device Connected!</string>
-	<string name="mmp_time_out">The time code you input is wrong!\nPlease assure it\'s less than total time</string>
-    <string name="mmp_file_corrupt">File is corrupted</string>
-    <string name="mmp_menu_mount_iso">Mount the current iso file</string>
-	<string name="mmp_menu_unmount_iso">Nnmount the current device</string>
+	<string name="mmp_nodevice">Laiteita ei ole kytketty!</string>
+	<string name="mmp_time_out">Syöttämäsi aikakoodi on väärä!\nVarmista että se on pienempi kuin kokonaisaika</string>
+    <string name="mmp_file_corrupt">Tiedosto on vioittunut</string>
+    <string name="mmp_menu_mount_iso">Liitä nykyinen iso-tiedosto</string>
+	<string name="mmp_menu_unmount_iso">Irrota nykyinen laite</string>
 
 	<string name="mmp_media_info_scrambled_audio_video_service">Scramble Video and Audio</string>
 	<string name="mmp_media_info_scrambled_audio_clear_video_service">Scramble Audio</string>

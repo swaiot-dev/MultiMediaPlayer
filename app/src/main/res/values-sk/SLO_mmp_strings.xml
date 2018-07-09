@@ -192,15 +192,15 @@
 	<string name="mmp_capture_confirm">Do you want to capture this screen ?</string>
 	<string name="mmp_toast_no_photoframe">There is no photo frame image to play</string>
 
-	<string name="mmp_video_notsupport">Video Codec not support</string>
-	<string name="mmp_audio_notsupport">Audio Codec not support</string>
+	<string name="mmp_video_notsupport">Videokodek ni podprt</string>
+	<string name="mmp_audio_notsupport">Zvočni format ni podprt</string>
 	<string name="mmp_video_only">Video only</string>
 	<string name="mmp_frame_photo_sleeptime">Čas spánku</string>
 	<string name="mmp_sleeptime_lable">Čas spánku:  </string>
 	<string name="mmp_video_stopresume">Stop Resume</string>
 	<string name="mmp_can_notpause">Can Not Pause</string>
-	
-	<string name="mmp_photo_type_notsupport">File not support</string>
+
+	<string name="mmp_file_notsupport">Datoteka ni podprta</string>
 
 	<string name="mmp_lable_rorate">Otáčať</string>
 	<string name="mmp_lable_degree">°</string>
@@ -213,7 +213,6 @@
 	<string name="mmp_info_focallength">FocalLength:</string>
 	<string name="mmp_menu_pic_setting">Picture Setting</string>
 
-	<string name="mmp_file_notsupport">File not support</string>
 	<string name="mmp_notsupport">Not support</string>
 	<string name="mmp_seek_notsupport">Seek not support</string>
 	<string name="mmp_step_notsupport">Step not support</string>

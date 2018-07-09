@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+	<string name="app_name">多媒体</string>
 	<string name="mmp_test">测试数据\n 文件名 \n 图片\n 信息
 	</string>
 	<string name="mmp_menu">菜单</string>

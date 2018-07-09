@@ -192,37 +192,37 @@
 	<string name="mmp_capture_confirm">Do you want to capture this screen ?</string>
 	<string name="mmp_toast_no_photoframe">There is no photo frame image to play</string>
 
-	<string name="mmp_video_notsupport">Video Codec not support</string>
-	<string name="mmp_audio_notsupport">Audio Codec not support</string>
-	<string name="mmp_video_only">Video only</string>
-	<string name="mmp_frame_photo_sleeptime">Wachttijd</string>
-	<string name="mmp_sleeptime_lable">Wachttijd:  </string>
-	<string name="mmp_video_stopresume">Stop Resume</string>
-	<string name="mmp_can_notpause">Can Not Pause</string>
+	<string name="mmp_video_notsupport">Video-codex niet ondersteund</string>
+	<string name="mmp_audio_notsupport">Audioformaat niet ondersteund</string>
+	<string name="mmp_video_only">Enkel video</string>
+	<string name="mmp_frame_photo_sleeptime">Slaaptijd</string>
+	<string name="mmp_sleeptime_lable">Slaaptijd:</string>
+	<string name="mmp_video_stopresume">Stop hernemen</string>
+	<string name="mmp_can_notpause">Kan niet pauzeren</string>
 	
-	<string name="mmp_photo_type_notsupport">File not support</string>
+	<string name="mmp_photo_type_notsupport">Bestand niet ondersteund</string>
 
-	<string name="mmp_lable_rorate">Draaien</string>
+	<string name="mmp_lable_rorate">Roteer</string>
 	<string name="mmp_lable_degree">°</string>
-	<string name="mmp_lable_subtitle_off">Off</string>
+	<string name="mmp_lable_subtitle_off">UIT</string>
 
-	<string name="mmp_info_whitebalance">WhiteBalance:</string>
-	<string name="mmp_info_make">Make:</string>
-	<string name="mmp_info_model">Model:</string>
-	<string name="mmp_info_flash">Flash:</string>
-	<string name="mmp_info_focallength">FocalLength:</string>
-	<string name="mmp_menu_pic_setting">Picture Setting</string>
+	<string name="mmp_info_whitebalance">Witbalans:</string>
+	<string name="mmp_info_make">Fabrikant:</string>
+	<string name="mmp_info_flash">Luik:</string>
+	<string name="mmp_info_focallength">Focal Lengte:</string>
+	<string name="mmp_menu_pic_setting">Beeldinstellingen</string>
+	<string name="mmp_menu_audio_setting">Audio-instellingen</string>
 
-	<string name="mmp_file_notsupport">File not support</string>
-	<string name="mmp_notsupport">Not support</string>
-	<string name="mmp_seek_notsupport">Seek not support</string>
-	<string name="mmp_step_notsupport">Step not support</string>
+	<string name="mmp_file_notsupport">Bestand niet ondersteund</string>
+	<string name="mmp_notsupport">Geen ondersteuning </string>
+	<string name="mmp_seek_notsupport">Zoeken niet ondersteund</string>
+	<string name="mmp_step_notsupport">Stap niet ondersteund</string>
 	<string name="mmp_featue_notsupport">Functie niet beschikbaar</string>
-	<string name="mmp_nodevice">No Device Connected!</string>
-	<string name="mmp_time_out">The time code you input is wrong!\nPlease assure it\'s less than total time</string>
-    <string name="mmp_file_corrupt">File is corrupted</string>
-    <string name="mmp_menu_mount_iso">Mount the current iso file</string>
-	<string name="mmp_menu_unmount_iso">Nnmount the current device</string>
+	<string name="mmp_nodevice">Geen toestel verbonden!</string>
+	<string name="mmp_time_out">De tijdscode die u invoerde is foutief!\nGelieve te verzekeren dat dit minder is dan de volledige tijdsduur</string>
+    <string name="mmp_file_corrupt">Bestand is beschadigd</string>
+    <string name="mmp_menu_mount_iso">Mount het huidige iso-bestand</string>
+	<string name="mmp_menu_unmount_iso">Unmount het huidige apparaat</string>
 
 	<string name="mmp_media_info_scrambled_audio_video_service">Scramble Video and Audio</string>
 	<string name="mmp_media_info_scrambled_audio_clear_video_service">Scramble Audio</string>

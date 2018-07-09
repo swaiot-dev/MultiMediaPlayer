@@ -198,7 +198,7 @@ public class MultiFilesManager extends FilesManager<FileAdapter> implements
         case DeviceManagerEvent.ejecting:
           MtkLog.d(TAG, "Device Event ejecting!!");
           LogicManager.getInstance(mContext).onDevUnMount(devicePath);
-          setAuidoOnlyOff();
+          //setAuidoOnlyOff();//HZQ Disable 2018-05-25 since it cause panel LED On when do deep power off.
           stopDecode();
           mLeftLocalDevices.add(getDevNameByPath(devicePath));
           onLocalDevicesStateChanged(devicePath);
@@ -883,6 +883,24 @@ public class MultiFilesManager extends FilesManager<FileAdapter> implements
 
   private String getCurrentUsbdisBlock() {
     return mCurrentUsbdisBlock;
+  }
+
+  public boolean isLocalDevUnmountByPath(String path){
+    if (null == path){
+      return true;
+    }
+    ArrayList<MountPoint> devices = mDevManager.getMountList();
+    if (null != devices && devices.size() > 0) {
+      for (MountPoint mountPoint : devices) {
+        if (mountPoint != null) {
+          String mountName = mountPoint.mMountPoint;
+          if (path.contains(mountName)){
+            return false;
+          }
+        }
+      }
+    }
+    return true;
   }
 
   // end

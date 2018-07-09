@@ -3,6 +3,7 @@ package com.mediatek.wwtv.mediaplayer.mmp.multimedia;
 import android.content.Context;
 import android.support.v4.view.ViewCompat;
 import android.support.v7.widget.RecyclerView;
+import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -11,6 +12,7 @@ import android.widget.TextView;
 
 import com.mediatek.wwtv.mediaplayer.R;
 
+import java.util.Locale;
 import java.util.List;
 
 /**
@@ -139,7 +141,15 @@ public class FileCategoryAdapter extends RecyclerView.Adapter<FileCategoryAdapte
     protected void onFocusedStatus(View view) {
         if (view == null)
             return;
-        ViewCompat.animate(view).scaleX(1.37f).scaleY(1.37f).translationZ(1f).translationX(68).start();
+        if (isLayoutRtl()){
+            ViewCompat.animate(view).scaleX(1.37f).scaleY(1.37f).translationZ(1f).translationX(-68).start();
+        }else {
+            ViewCompat.animate(view).scaleX(1.37f).scaleY(1.37f).translationZ(1f).translationX(68).start();
+        }
+    }
+
+    private boolean isLayoutRtl() {
+        return TextUtils.getLayoutDirectionFromLocale(Locale.getDefault()) == View.LAYOUT_DIRECTION_RTL;
     }
 
     public interface OnItemFocusedListener {

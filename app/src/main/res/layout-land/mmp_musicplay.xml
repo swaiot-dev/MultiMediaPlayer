@@ -48,6 +48,7 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/music_cover_bg_image_view"
                 android:layout_centerHorizontal="true"
+                android:gravity="center"
                 android:layout_marginTop="55px"
                 android:textColor="#ffffff"
                 android:textSize="36px" />
@@ -58,6 +59,7 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/music_name_text_view"
                 android:layout_centerHorizontal="true"
+                android:gravity="center"
                 android:layout_marginTop="35px"
                 android:textColor="#ffffff"
                 android:textSize="27px" />
@@ -68,6 +70,7 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/music_album_text_view"
                 android:layout_centerHorizontal="true"
+                android:gravity="center"
                 android:layout_marginTop="35px"
                 android:textColor="#ffffff"
                 android:textSize="27px" />
@@ -81,6 +84,7 @@
             android:layout_alignParentRight="true"
             android:layout_marginBottom="95px"
             android:layout_marginTop="65px"
+            android:layout_marginRight="10px"
             android:visibility="invisible" />
 
     </RelativeLayout>

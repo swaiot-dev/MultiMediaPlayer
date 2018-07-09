@@ -192,15 +192,15 @@
 	<string name="mmp_capture_confirm">Do you want to capture this screen ?</string>
 	<string name="mmp_toast_no_photoframe">There is no photo frame image to play</string>
 
-	<string name="mmp_video_notsupport">Video Codec not support</string>
-	<string name="mmp_audio_notsupport">Audio Codec not support</string>
+	<string name="mmp_video_notsupport">視頻編解碼器不支持</string>
+	<string name="mmp_audio_notsupport">音頻編解碼器不支持</string>
 	<string name="mmp_video_only">Video only</string>
 	<string name="mmp_frame_photo_sleeptime">睡眠計時器</string>
 	<string name="mmp_sleeptime_lable">睡眠計時器:  </string>
 	<string name="mmp_video_stopresume">Stop Resume</string>
 	<string name="mmp_can_notpause">Can Not Pause</string>
 	
-	<string name="mmp_photo_type_notsupport">File not support</string>
+	<string name="mmp_photo_type_notsupport">文件不支持</string>
 
 	<string name="mmp_lable_rorate">旋轉</string>
 	<string name="mmp_lable_degree">°</string>
@@ -218,7 +218,7 @@
 	<string name="mmp_seek_notsupport">Seek not support</string>
 	<string name="mmp_step_notsupport">Step not support</string>
 	<string name="mmp_featue_notsupport">功能上可用</string>
-	<string name="mmp_nodevice">No Device Connected!</string>
+	<string name="mmp_nodevice">沒有設備連接到電視!</string>
 	<string name="mmp_time_out">The time code you input is wrong!\nPlease assure it\'s less than total time</string>
     <string name="mmp_file_corrupt">File is corrupted</string>
     <string name="mmp_menu_mount_iso">Mount the current iso file</string>

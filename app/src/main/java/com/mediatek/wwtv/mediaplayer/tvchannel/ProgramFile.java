@@ -1,5 +1,7 @@
 package com.mediatek.wwtv.mediaplayer.tvchannel;
 
+import android.os.Handler;
+import android.os.HandlerThread;
 import android.os.Parcel;
 import android.os.Parcelable;
 
@@ -9,6 +11,7 @@ import android.os.Parcelable;
  * Description: This is ProgramFile
  */
 public class ProgramFile implements Parcelable {
+
 
     public static final Creator CREATOR = new Creator() {
         @Override
