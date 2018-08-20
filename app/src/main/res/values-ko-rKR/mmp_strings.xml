@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="mmp_test">This is test data\n file name \n img\n test
+</string>
+	<string name="mmp_menu">메뉴</string>
+<string name="mmp_menu_sort">정렬</string>
+<string name="mmp_menu_mediatype">미디어 유형</string>
+<string name="mmp_menu_thumb">썸네일 크기</string>
+<string name="mmp_menu_copy">복사</string>
+<string name="mmp_menu_paste">붙여넣기</string>
+<string name="mmp_menu_delete">삭제</string>
+<string name="mmp_menu_recur">회기 파서</string>
+<string name="mmp_menu_not_recur">보통 파서</string>
+<string name="mmp_menu_photoframe">액자</string>
+<string name="mmp_menu_photo_frame">액자 이미지가 올바르게 설정되었습니다</string>
+
+<string name="mmp_menu_play">재생</string>
+<string name="mmp_menu_pause">중지</string>
+<string name="mmp_menu_repeat">반복</string>
+<string name="mmp_menu_shuffle">섞기</string>
+<string name="mmp_menu_duration">기간</string>
+<string name="mmp_menu_effect">효과</string>
+<string name="mmp_menu_showinfo">정보 표시</string>
+<string name="mmp_menu_frame">액자 이미지</string>
+<string name="mmp_menu_rotate">회전</string>
+<string name="mmp_menu_3d_photo">3D 사진</string>
+
+<string name="mmp_menu_display">줄 표시</string>
+<string name="mmp_menu_timeoffset">시간 오프셋</string>
+<string name="mmp_menu_encoding">인코딩</string>
+
+	<string name="mmp_menu_picturemode">Picture Mode</string>
+<string name="mmp_menu_screenmode">화면 모드</string>
+
+<string name="mmp_menu_font">글꼴</string>
+
+<string name="mmp_menu_size">크기</string>
+<string name="mmp_menu_style">스타일</string>
+<string name="mmp_menu_color">컬러</string>
+<!-- child menu -->
+
+<string name="mmp_menu_date">날짜</string>
+<string name="mmp_menu_name">이름</string>
+<string name="mmp_menu_album">앨범</string>
+<string name="mmp_menu_artist">예술가</string>
+<string name="mmp_menu_genre">장르</string>
+<string name="mmp_menu_type">유형</string>
+
+<string name="mmp_menu_phototext">사진</string>
+<string name="mmp_menu_music">오디오</string>
+<string name="mmp_menu_video">비디오</string>
+<string name="mmp_menu_text">텍스트</string>
+<string name="mmp_menu_dmr">DMR</string>
+<string name="mmp_menu_small">스몰</string>
+<string name="mmp_menu_medium">중간</string>
+<string name="mmp_menu_large">크게</string>
+<string name="mmp_menu_onephotomode">사진 1장 모드</string>
+	<string name="mmp_menu_datafraveler">DataTraveler G2</string>
+<string name="mmp_menu_none">없음</string>
+<string name="mmp_menu_repeatone">하나 반복</string>
+<string name="mmp_menu_repeatall">모두 반복</string>
+<string name="mmp_menu_shuffleoff">섞기 끄기</string>
+<string name="mmp_menu_shuffleon">섞기 켜기</string>
+<string name="mmp_menu_short">짧게</string>
+<string name="mmp_menu_long">길게</string>
+	<string name="mmp_menu_1x">1 X</string>
+	<string name="mmp_menu_2x">2 X</string>
+	<string name="mmp_menu_4x">4 X</string>
+<string name="mmp_menu_dissolve">디졸브</string>
+<string name="mmp_menu_wiperight">오른쪽 와이프</string>
+<string name="mmp_menu_wipeleft">왼쪽 와이프</string>
+<string name="mmp_menu_wipeup">위로 와이프</string>
+<string name="mmp_menu_wipedown">아래로 와이프</string>
+<string name="mmp_menu_boxin">박스 인</string>
+<string name="mmp_menu_boxout">박스 아웃</string>
+
+<string name="mmp_menu_random">무작위</string>
+
+
+<string name="mmp_menu_off">끄기</string>
+<string name="mmp_menu_singleline">한 줄</string>
+<string name="mmp_menu_multiline">여러 줄</string>
+	<string name="mmp_menu_auto">Auto</string>
+<string name="mmp_menu_userdefine">사용자 정의</string>
+<string name="mmp_menu_gb">GB</string>
+	<string name="mmp_menu_big5">Big5</string>
+	<string name="mmp_menu_utf8">Utf8</string>
+	<string name="mmp_menu_utf16">Utf16</string>
+<string name="mmp_menu_user">사용자</string>
+	<string name="mmp_menu_cinema">Cinema</string>
+<string name="mmp_menu_sport">스포츠</string>
+<string name="mmp_menu_vivid">선명</string>
+<string name="mmp_menu_hibright">매우 밝음</string>
+<string name="mmp_menu_normal">표준</string>
+<string name="mmp_menu_letterbox">레터 박스</string>
+<string name="mmp_menu_scan">스캔</string>
+<string name="mmp_menu_zoom">줌</string>
+<string name="mmp_menu_dotbydot">도트 바이 도트</string>
+
+<string name="mmp_menu_regular">보통</string>
+<string name="mmp_menu_italic">이탤릭체</string>
+<string name="mmp_menu_bold">굵게</string>
+<string name="mmp_menu_outline">굵은 기울임</string>
+<string name="mmp_menu_white">화이트</string>
+<string name="mmp_menu_blue">블루</string>
+<string name="mmp_menu_red">레드</string>
+<string name="mmp_menu_green">그린</string>
+<string name="mmp_menu_black">블랙</string>
+<string name="mmp_menu_lyricoptions">가사 옵션</string>
+
+<string name="mmp_menu_showscore">스펙트럼 표시</string>
+<string name="mmp_menu_hidescore">스펙트럼 숨기기</string>
+<string name="mmp_menu_onlyaudio">오디오 전용</string>
+
+
+
+<string name="mmp_photo">사진</string>
+<string name="mmp_audio">오디오</string>
+<string name="mmp_video">비디오</string>
+<string name="mmp_text">텍스트</string>
+<string name="mmp_select">선택</string>
+<string name="mmp_input">입력</string>
+<string name="mmp_exit">종료</string>
+<string name="mmp_emptyfile">현재 폴더가 비어 있습니다!</string>
+<string name="mmp_reutip">이 폴더를 분석 중입니다. 잠시 기다려주십시오...</string>
+	<string name="mmp_filepath">\</string>
+<string name="mmp_pop_repeat_tvrepeat">모두 반복</string>
+<string name="mmp_pop_repeat_tvsingle">하나 반복</string>
+<string name="mmp_pop_repeat_tvnone">0</string>
+<string name="mmp_pop_time_tv">짧게</string>
+<string name="mmp_pop_view_tv">없음</string>
+	<string name="mmp_pop_menu">Menu</string>
+<string name="mmp_pop_enter">입력</string>
+<string name="mmp_pop_zoomscale">X</string>
+	<string name="mmp_pop_starttime">00:00:00</string>
+	<string name="mmp_pop_pagesize">01\//01</string>
+	<string name="mmp_tip_play">&#160;&#160;Play</string>
+	<string name="mmp_tip_exit">&#160;&#160;Exit</string>
+	<string name="mmp_tip_enter">&#160;&#160;Enter </string>
+	<string name="mmp_tip_select">&#160;&#160;Select</string>
+
+
+
+<string name="mmp_info_album">앨범 :</string>
+<string name="mmp_info_orientation">방향:</string>
+<string name="mmp_info_artist">예술가:</string>
+<string name="mmp_info_name">이름 :</string>
+<string name="mmp_info_date">날짜:</string>
+<string name="mmp_info_size">크기:</string>
+<string name="mmp_info_next">다음:</string>
+<string name="mmp_info_audio">오디오:</string>
+<string name="mmp_info_exposure">노출 시간:</string>
+<string name="mmp_info_fnumber">FNUMBER:</string>
+<string name="mmp_info_program">노출 프로그램:</string>
+<string name="mmp_info_colorspace">컬러 스페이스:</string>
+<string name="mmp_info_title">제목:</string>
+<string name="mmp_info_genre">장르:</string>
+<string name="mmp_info_year">년도:</string>
+<string name="mmp_info_duration">지속 :</string>
+<string name="mmp_info_director">감독:</string>
+<string name="mmp_info_copyrght">저작권:</string>
+
+<string name="mmp_info_lastline">마지막 줄</string>
+<string name="mmp_info_nextline">다음 줄</string>
+<string name="mmp_info_lastpage">마지막 페이지</string>
+<string name="mmp_info_nextpage">다음 페이지</string>
+
+<string name="mmp_info_nolrc">IRC 없음</string>
+	<string name="mmp_time_separator">:</string>
+	<string name="mmp_time_inti">00</string>
+
+<!-- Network -->
+<string name="mmp_loading_tip">이 폴더를 분석 중입니다. 잠시 기다려주십시오...</string>
+<string name="mmp_user_name">사용자 이름</string>
+<string name="mmp_password">비밀번호</string>
+<string name="mmp_confirm">확인</string>
+	<string name="mmp_vkb">Vkb</string>
+<string name="mmp_ok">OK</string>
+<string name="mmp_cancel">취소</string>
+
+<string name="mmp_login_failed_tip">사용자 이름 도는 암호 오류!</string>
+<string name="mmp_dlnaserver_disconnected">DLNA 서버가 사라졌습니다. 네트워크와 서버 상태를 점검하십시오!</string>
+<!-- Network -->
+
+<string name="mmp_title_copy">복사 중</string>
+<string name="mmp_title_confirm_replace">파일 교체 확정</string>
+<string name="mmp_title_confirm_delete">파일 삭제 확정</string>
+<string name="mmp_message_copy">%1$s\n%2$s 부터\n%3$s 까지</string>
+	<string name="mmp_message_confirm_replace"> This folder already contains a file named\n%s
+</string>
+	<string name="mmp_message_confirm_delete"> Are you sure to delete the select file(s)?
+</string>
+
+<string name="mmp_yes">예</string>
+<string name="mmp_yes_to_all">모두 예</string>
+<string name="mmp_no">아니오</string>
+
+<string name="mmp_capture_title">캡처 로고</string>
+<string name="mmp_capture_confirm">이 화면을 캡쳐하시겠습니까?</string>
+<string name="mmp_toast_no_photoframe">재생할 액자 이미지가 없습니다</string>
+
+<string name="mmp_video_notsupport">비디오 코덱이 지원되지 않습니다</string>
+<string name="mmp_audio_notsupport">오디오 형식이 지원되지 않습니다</string>
+<string name="mmp_video_only">비디오 전용</string>
+<string name="mmp_frame_photo_sleeptime">수면 시간</string>
+<string name="mmp_sleeptime_lable">슬립 시간:</string>
+<string name="mmp_video_stopresume">다시 시작 중지</string>
+<string name="mmp_can_notpause">일시 중지할 수 없음</string>
+
+<string name="mmp_photo_type_notsupport">파일 지원 안 됨</string>
+
+<string name="mmp_lable_rorate">회전</string>
+	<string name="mmp_lable_degree">°</string>
+<string name="mmp_lable_subtitle_off">끄기</string>
+
+<string name="mmp_info_whitebalance">화이트 밸런스:</string>
+<string name="mmp_info_make">제조사:</string>
+<string name="mmp_info_model">모델:</string>
+<string name="mmp_info_flash">플래시:</string>
+<string name="mmp_info_focallength">촛점 길이:</string>
+<string name="mmp_menu_pic_setting">그림 설정</string>
+<string name="mmp_menu_audio_setting">오디오 설정</string>
+
+<string name="mmp_file_notsupport">파일 지원 안 됨</string>
+	<string name="mmp_notsupport">Not support</string>
+<string name="mmp_seek_notsupport">찾기 지원 안 됨</string>
+<string name="mmp_step_notsupport">스텝 지원 안 됨</string>
+<string name="mmp_featue_notsupport">기능 사용할 수 없음</string>
+<string name="mmp_buffer_not_enough">버퍼 부족</string>
+<string name="mmp_nodevice">연결된 장치가 없습니다!</string>
+<string name="mmp_time_out">입력한 시간 코드가 잘못되었습니다!\n전체 시간 보다 적어야 합니다</string>
+<string name="mmp_file_corrupt">파일이 손상되었습니다</string>
+<string name="mmp_menu_mount_iso">현재 iso 파일 마운트</string>
+<string name="mmp_menu_unmount_iso">현재 기기 마운트 해제</string>
+
+<string name="mmp_media_info_scrambled_audio_video_service">비디오 및 오디오 스크램블</string>
+<string name="mmp_media_info_scrambled_audio_clear_video_service">오디오 스크램블</string>
+<string name="mmp_media_info_scrambled_audio_no_video_service">오디오 스크램블, 오디오 전용</string>
+<string name="mmp_media_info_scrambled_video_clear_audio_service">비디오 스크램블</string>
+<string name="mmp_media_info_scrambled_video_no_audio_service">비디오 스크램블, 비디오 전용</string>
+
+
+
+	<string name="txture_0">"defaultVideo1.PNG"</string>
+    <string name="txture_1">"defaultVideo2.PNG"</string>
+    <string name="txture_2">"defaultVideo3.PNG"</string>
+    <string name="txture_3">"defaultVideo4.PNG"</string>
+    <string name="txture_4">"defaultVideo5.PNG"</string>
+    <string name="txture_5">"defaultVideo6.PNG"</string>
+    <string name="txture_6">"defaultVideo7.PNG"</string>
+    <string name="txture_7">"defaultVideo8.PNG"</string>
+    <string name="txture_8">"defaultVideo9.PNG"</string>
+
+<string name="mmp_txt_const_font">아니오</string>
+
+<string name="mmp_drm_register">이 기기는 Divx@ 보호 비디오를\n재생하도록 승인되지 않았습니다</string>
+<string name="mmp_drm_register_expired">Divx@ 대여가 만료되었습니다</string>
+<string name="mmp_drm_register_used">Divx@ 대여는 %1$s / %2$s 뷰를 사용했습니다</string>
+<string name="mmp_drm_register_continue">계속하시겠습니까?</string>
+
+<string name="mmp_divx_title">제목</string>
+<string name="mmp_divx_edition">에디션</string>
+<string name="mmp_divx_chapter">챕터</string>
+
+
+<string name="mmp_divx_titleName">제목:</string>
+<string name="mmp_divx_chapterName">챕터:</string>
+<string name="mmp_divx_rateName">등급:</string>
+<string name="mmp_divx_audioName">오디오:</string>
+<string name="mmp_divx_subtitleName">자막:</string>
+<string name="mmp_dmr_starting">DMR 시작 중</string>
+<string name="mmp_dmr_started">DMR 시작되었습니다. 사용하십시오</string>
+<string name="mmp_dmr_network_failed">DMR을 시작할 수 없습니다. 네트워크를 사용할 수 없습니다</string>
+<string name="mmp_dmr_url_failed">잘못된 URL</string>
+
+    <string name="mmp_wrong_psw">Password incorrect. Total %1$s Tries,%2$s Tried,Try again! </string>
+<string name="mmp_subtitle_encoding">자막 인코딩</string>
+<string name="mmp_last_memory">마지막 메모리</string>
+<string name="mmp_last_memory_off">끄기</string>
+<!--delete position item and change tittle 'on' by yangxiong for mmp lastmemory
+<string name="menu_video_mjc_demo_on">열기</string>-->
+<string name="mmp_last_memory_position">위치</string>
+
+<!-- CI PIN -->
+<string name="ci_menu_pin_correct">정확합니다!</string>
+<string name="ci_menu_pin_outoftry">3회 실패</string>
+
+<string name="mmp_video_seektime_title">이동 시간</string>
+    <string name="mmp_video_seektime_colon"> : </string>
+    <string name="mmp_video_seektime_warn_inputnothing">Warning : You input nothing!</string>
+    <string name="mmp_video_seektime_warn_timetoobigger">Warning : The input time must be less than the duration of the video!</string>
+    <string name="mmp_video_not_seekable">Warning : This video isn\'t seekable!</string>
+</resources>

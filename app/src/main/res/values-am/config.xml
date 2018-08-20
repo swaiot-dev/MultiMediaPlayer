@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <string-array name="home_screen_row_ordering" translateable="false">
+        <item>partner_row</item>
+        <item>apps_row</item>
+        <item>inputs_row</item>
+        <item>games_row</item>
+        <item>settings_row</item>
+    </string-array>
+    <bool name="multiple_accounts_enabled">false</bool>
+    <integer name="settings_fade_in_duration">350</integer>
+    <integer name="settings_fade_out_duration">350</integer>
+    <integer name="action_title_max_lines">3</integer>
+    <integer name="dialog_animation_duration">150</integer>
+    
+        <!-- Pin dialog -->
+    <integer name="pin_dialog_anim_duration">250</integer>
+    <integer name="pin_dialog_enter_offset_y">32</integer>
+    <integer name="pin_dialog_exit_offset_y">32</integer>
+    <integer name="pin_number_scroll_duration">250</integer>
+    <integer name="pin_number_scroll_anim_duration">125</integer>
+</resources>

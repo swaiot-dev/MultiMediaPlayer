@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<string name="mmp_test">این اطلاعات آزمایشی است\n نام فایل \n تصویر\n آزمایشی
+</string>
+	<string name="mmp_menu">منو </string>
+	<string name="mmp_menu_sort">مرتب‌سازی</string>
+	<string name="mmp_menu_mediatype">نوع رسانه</string>
+	<string name="mmp_menu_thumb">اندازه نمایش مختصر</string>
+	<string name="mmp_menu_copy">کپی </string>
+	<string name="mmp_menu_paste">چسباندن</string>
+	<string name="mmp_menu_delete">حذف</string>
+	<string name="mmp_menu_recur">تجزیه کننده بازگشتی</string>
+	<string name="mmp_menu_not_recur">تجزیه کننده معمولی</string>
+	<string name="mmp_menu_photoframe">قالب عکس</string>
+	<string name="mmp_menu_photo_frame">قالب عکس بسیار خوب است</string>
+
+	<string name="mmp_menu_play">بازی</string>
+	<string name="mmp_menu_pause">وقفه </string>
+	<string name="mmp_menu_repeat">تکرار</string>
+	<string name="mmp_menu_shuffle">تصادفی</string>
+	<string name="mmp_menu_duration">مدت</string>
+	<string name="mmp_menu_effect">جلوه</string>
+	<string name="mmp_menu_showinfo">نمایش اطلاعات</string>
+	<string name="mmp_menu_frame">قالب عکس</string>
+	<string name="mmp_menu_rotate">چرخش</string>
+	<string name="mmp_menu_display">خط نمایش</string>
+	<string name="mmp_menu_timeoffset">زمان آغاز</string>
+	<string name="mmp_menu_encoding">رمزگذاری</string>
+
+	<string name="mmp_menu_picturemode">حالت تصویر</string>
+	<string name="mmp_menu_screenmode">حالت صفحه</string>
+
+	<string name="mmp_menu_font">فونت</string>
+
+	<string name="mmp_menu_size">اندازه</string>
+	<string name="mmp_menu_style">سبک</string>
+	<string name="mmp_menu_color">رنگ </string>
+	<string name="mmp_menu_date">تاریخ</string>
+	<string name="mmp_menu_name">نام</string>
+	<string name="mmp_menu_album">آلبوم</string>
+	<string name="mmp_menu_artist">هنرمند</string>
+	<string name="mmp_menu_genre">ژانر</string>
+	<string name="mmp_menu_type">نوع</string>
+
+	<string name="mmp_menu_phototext">تصویر </string>
+	<string name="mmp_menu_music">صوتی</string>
+	<string name="mmp_menu_video">ویدیو</string>
+	<string name="mmp_menu_text">متن</string>
+	<string name="mmp_menu_small">کوچک</string>
+	<string name="mmp_menu_medium">متوسط</string>
+	<string name="mmp_menu_large">بزرگ</string>
+	<string name="mmp_menu_onephotomode">حالت تک‌عکس</string>
+	<string name="mmp_menu_datafraveler">حافظه G2</string>
+	<string name="mmp_menu_none">هیچ </string>
+	<string name="mmp_menu_repeatone">تکرار یکی</string>
+	<string name="mmp_menu_repeatall">تکرار همه</string>
+	<string name="mmp_menu_shuffleoff">اجرای تصادفی خاموش</string>
+	<string name="mmp_menu_shuffleon">اجرای تصادفی روشن</string>
+	<string name="mmp_menu_short">کوتاه</string>
+	<string name="mmp_menu_long">بلند</string>
+	<string name="mmp_menu_dissolve">منحل</string>
+	<string name="mmp_menu_wiperight">روبش‌ راست</string>
+	<string name="mmp_menu_wipeleft">روبش‌ چپ</string>
+	<string name="mmp_menu_wipeup">روبش‌ بالا</string>
+	<string name="mmp_menu_wipedown">روبش‌ پایین</string>
+	<string name="mmp_menu_boxin">جعبه داخل</string>
+	<string name="mmp_menu_boxout">جعبه بیرون</string>
+
+	<string name="mmp_menu_random">تصادفی</string>
+
+
+	<string name="mmp_menu_off">حالت خاموش </string>
+	<string name="mmp_menu_singleline">تک خط</string>
+	<string name="mmp_menu_multiline">چند خطی</string>
+	<string name="mmp_menu_auto">خودکار</string>
+	<string name="mmp_menu_userdefine">تعریف کاربر</string>
+    <string name="mmp_menu_gb">GB</string>
+	<string name="mmp_menu_big5">Big5</string>
+	<string name="mmp_menu_utf8">Utf8</string>
+	<string name="mmp_menu_utf16">Utf16</string>
+	<string name="mmp_menu_user">کاربر</string>
+	<string name="mmp_menu_cinema">سینما</string>
+	<string name="mmp_menu_sport">ورزش</string>
+	<string name="mmp_menu_vivid">واضح</string>
+	<string name="mmp_menu_hibright">بسیار روشن</string>
+	<string name="mmp_menu_normal">نرمال </string>
+	<string name="mmp_menu_letterbox">جعبه نامه</string>
+	<string name="mmp_menu_scan">اسکن</string>
+	<string name="mmp_menu_zoom">زوم </string>
+	<string name="mmp_menu_dotbydot">نقطه به نقطه</string>
+
+	<string name="mmp_menu_regular">عادی</string>
+	<string name="mmp_menu_italic">مورب</string>
+	<string name="mmp_menu_bold">برجسته</string>
+	<string name="mmp_menu_outline">برجسته مورد</string>
+	<string name="mmp_menu_white">سفید</string>
+	<string name="mmp_menu_blue">آبی</string>
+	<string name="mmp_menu_red">قرمز</string>
+	<string name="mmp_menu_green">سبز</string>
+	<string name="mmp_menu_black">سیاه</string>
+	<string name="mmp_menu_lyricoptions">گزینه‌‌های موسیقی متن</string>
+
+	<string name="mmp_menu_showscore">نمایش طیف</string>
+	<string name="mmp_menu_hidescore">پنهان کردن طیف</string>
+	<string name="mmp_menu_onlyaudio">فقط صدا</string>
+
+
+
+	<string name="mmp_photo">تصویر </string>
+	<string name="mmp_audio">صوتی</string>
+	<string name="mmp_video">ویدیو</string>
+	<string name="mmp_text">متن</string>
+	<string name="mmp_select">انتخاب</string>
+	<string name="mmp_input">اینتر</string>
+	<string name="mmp_exit">خروج </string>
+	<string name="mmp_emptyfile">پوشه فعلی خالی است!</string>
+	<string name="mmp_reutip">در حال تجزیه این پوشه، لطفاً صبر کنید...</string>
+	<string name="mmp_pop_repeat_tvrepeat">تکرار همه</string>
+	<string name="mmp_pop_repeat_tvsingle">تکرار یکی</string>
+	<string name="mmp_pop_time_tv">کوتاه</string>
+	<string name="mmp_pop_view_tv">هیچ </string>
+	<string name="mmp_pop_menu">منو </string>
+	<string name="mmp_pop_enter">اینتر</string>
+<string name="mmp_pop_zoomscale">X</string>
+	<string name="mmp_pop_starttime">00:00:00</string>
+	<string name="mmp_pop_pagesize">01\//01</string>
+	<string name="mmp_tip_play">&#160;&#160;Play</string>
+	<string name="mmp_tip_exit">&#160;&#160;Exit</string>
+	<string name="mmp_tip_enter">&#160;&#160;Enter </string>
+	<string name="mmp_tip_select">&#160;&#160;Select</string>
+	<string name="mmp_info_album">آلبوم:</string>
+	<string name="mmp_info_orientation">جهت:</string>
+	<string name="mmp_info_artist">هنرمند:</string>
+	<string name="mmp_info_name">نام:</string>
+	<string name="mmp_info_date">تاریخ:</string>
+	<string name="mmp_info_size">اندازه:</string>
+	<string name="mmp_info_next">بعدی:</string>
+	<string name="mmp_info_audio">صوتی:</string>
+	<string name="mmp_info_exposure">زمان نوردهی:</string>
+	<string name="mmp_info_fnumber">شماره اف:</string>
+	<string name="mmp_info_program">برنامه نوردهی:</string>
+	<string name="mmp_info_colorspace">فضای رنگ:</string>
+	<string name="mmp_info_title">عنوان:</string>
+	<string name="mmp_info_genre">ژانر:</string>
+	<string name="mmp_info_year">سال:</string>
+	<string name="mmp_info_duration">مدت:</string>
+	<string name="mmp_info_director">هدایت کننده:</string>
+	<string name="mmp_info_copyrght">حق نسخه برداری:</string>
+
+	<string name="mmp_info_lastline">خط آخر</string>
+	<string name="mmp_info_nextline">خط بعدی</string>
+	<string name="mmp_info_lastpage">صفحه آخر </string>
+	<string name="mmp_info_nextpage">صفحه بعدی </string>
+
+	<string name="mmp_info_nolrc">بدون مقابله‌ افزونگى‌ طولى‌</string>
+	<string name="mmp_loading_tip">در حال تجزیه این پوشه، لطفاً صبر کنید...</string>
+	<string name="mmp_user_name">نام کاربری</string>
+	<string name="mmp_password">رمز عبور </string>
+	<string name="mmp_confirm">تایید</string>
+	<string name="mmp_ok">تایید </string>
+	<string name="mmp_cancel">کنسل کردن </string>
+
+	<string name="mmp_login_failed_tip">نام کاربری یا رمز عبور اشتباه است!</string>
+	<string name="mmp_dlnaserver_disconnected">سرور DLNA ناپدید شده، لطفاً شبکه و وضعیت سرور را بررسی کنید!</string>
+	<string name="mmp_title_copy">در حال کپی</string>
+	<string name="mmp_title_confirm_replace">تأیید تعویض فایل</string>
+	<string name="mmp_title_confirm_delete">تأیید حذف فایل(ها)</string>
+	<string name="mmp_message_confirm_replace"> این پوشه پیشتر فایلی با نام\n%sدارد
+</string>
+	<string name="mmp_message_confirm_delete"> آیا قصد حذف فایل‌(های) انتخابی را دارید؟
+</string>
+
+	<string name="mmp_yes">بله </string>
+	<string name="mmp_yes_to_all">بله همه</string>
+	<string name="mmp_no">شماره </string>
+
+	<string name="mmp_capture_title">علامت ضبط</string>
+	<string name="mmp_capture_confirm">آیا قصد دارید عکس این صفحه را ضبط کنید؟</string>
+	<string name="mmp_toast_no_photoframe">هیچ قالب عکسی برای اجرا وجود ندارد</string>
+
+	<string name="mmp_video_notsupport">رمزگذار ویدیویی پشتیبانی نمی‌شود</string>
+	<string name="mmp_audio_notsupport">فرمت صوتی پشتیبانی نمی‌شود</string>
+	<string name="mmp_video_only">تنها ویدیو</string>
+	<string name="mmp_frame_photo_sleeptime">زمان خواب</string>
+	<string name="mmp_sleeptime_lable">زمان خواب:</string>
+	<string name="mmp_video_stopresume">توقف ادامه</string>
+	<string name="mmp_can_notpause">نمی‌تواند متوقف کند</string>
+
+	<string name="mmp_photo_type_notsupport">فایل پشتیبانی نمی‌شود</string>
+
+	<string name="mmp_lable_rorate">چرخش</string>
+	<string name="mmp_lable_subtitle_off">حالت خاموش </string>
+
+	<string name="mmp_info_whitebalance">تعادل رنگ سفید:</string>
+	<string name="mmp_info_make">سازنده:</string>
+	<string name="mmp_info_model">مدل:</string>
+	<string name="mmp_info_flash">شاتر:</string>
+	<string name="mmp_info_focallength">فاصله کانونی:</string>
+	<string name="mmp_menu_pic_setting">تنظیمات تصویر</string>
+	<string name="mmp_menu_audio_setting">تنظیمات صدا</string>
+
+	<string name="mmp_file_notsupport">فایل پشتیبانی نمی‌شود</string>
+	<string name="mmp_notsupport">عدم حمایت </string>
+	<string name="mmp_seek_notsupport">جستجو پشتیبانی نمی‌شود</string>
+	<string name="mmp_step_notsupport">مرحله پشتیبانی نمی‌شود</string>
+	<string name="mmp_featue_notsupport">قابلیت موجود نیست.</string>
+	<string name="mmp_buffer_not_enough">بافر کافی نیست</string>
+	<string name="mmp_nodevice">دستگاهی متصل نیست!</string>
+	<string name="mmp_time_out">کد زمانی که وارد کرده‌اید اشتباه است!\nلطفاً مطمئن شوید از زمان کلی کمتر باشد.</string>
+    <string name="mmp_file_corrupt">فایل خراب است</string>
+    <string name="mmp_menu_mount_iso">نصب فایل ایزو فعلی</string>
+	<string name="mmp_menu_unmount_iso">حذف دستگاه فعلی</string>
+
+	<string name="mmp_media_info_scrambled_audio_video_service">درهم‌آمیختن تصویر و صوت</string>
+	<string name="mmp_media_info_scrambled_audio_clear_video_service">درهم‌آمیختن صوت</string>
+	<string name="mmp_media_info_scrambled_audio_no_video_service">درهم‌آمیختن صوت، تنها صوتی</string>
+	<string name="mmp_media_info_scrambled_video_clear_audio_service">درهم‌آمیختن تصویر</string>
+	<string name="mmp_media_info_scrambled_video_no_audio_service">درهم‌آمیختن تصویر، تنها تصویری</string>
+
+
+
+    <string name="mmp_txt_const_font">شماره </string>
+
+    <string name="mmp_drm_register_continue">ادامه یابد؟</string>
+
+    <string name="mmp_divx_title">عنوان</string>
+    <string name="mmp_divx_edition">نسخه </string>
+    <string name="mmp_divx_chapter">فصل </string>
+
+
+    <string name="mmp_divx_titleName">عنوان:</string>
+    <string name="mmp_divx_chapterName">فصل:</string>
+    <string name="mmp_divx_rateName">نرخ:</string>
+    <string name="mmp_divx_audioName">صوتی:</string>
+    <string name="mmp_divx_subtitleName">زیرنویس:</string>
+    <string name="mmp_dmr_starting">راه‌اندازی DMR</string>
+    <string name="mmp_dmr_started">DMR راه‌اندازی شد، لطفاً استفاده کنید</string>
+    <string name="mmp_dmr_network_failed">راه‌اندازی DMR ناتمام ماند، شبکه موجود نیست</string>
+    <string name="mmp_dmr_url_failed">نشانی وب غیرمعتبر است</string>
+
+    <string name="mmp_wrong_psw">رمز عبور اشتباه. کل %1$s تلاشها،%2$s تلاش شده، دوباره تلاش کنید! </string>
+	<string name="mmp_subtitle_encoding">رمزگذاری زیرنویس</string>
+	<string name="mmp_last_memory">آخرین حافظه</string>
+	<string name="mmp_last_memory_off">حالت خاموش </string>
+	<string name="mmp_last_memory_time">زمان</string>
+	<string name="mmp_last_memory_position">موقعیت</string>
+
+	<string name="ci_menu_pin_correct">صحیح!</string>
+	<string name="ci_menu_pin_outoftry">سه بار شکست</string>
+    <string name="mmp_video_seektime_title">Goto time</string>
+    <string name="mmp_video_seektime_colon"> : </string>
+    <string name="mmp_video_seektime_warn_inputnothing">Warning : You input nothing!</string>
+    <string name="mmp_video_seektime_warn_timetoobigger">Warning : The input time must be less than the duration of the video!</string>
+    <string name="mmp_video_not_seekable">Warning : This video isn\'t seekable!</string>
+</resources>

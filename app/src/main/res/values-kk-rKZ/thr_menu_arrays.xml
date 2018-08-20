@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+    <string-array name="menu_pictrue_mode_list">
+        <item>Пайдаланушы</item>
+        <item>Кино</item>
+        <item>Спорт</item>
+        <item>Ашық</item>
+        <item>Ашық жарық</item>
+    </string-array>
+    <string-array name="menu_track_mode_list">
+        <item>бір жол</item>
+        <item>екі жол</item>
+    </string-array>
+    <string-array name="menu_audio_equalizer_list">
+        <item>Өшіру</item>
+        <item>Рок</item>
+        <item>POP</item>
+        <item>Тікелей эфир</item>
+        <item>Би</item>
+        <item>Техно</item>
+        <item>Классика</item>
+        <item>Жұмсақ</item>
+    </string-array>
+</resources>

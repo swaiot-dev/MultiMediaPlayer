@@ -1,0 +1,630 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="setup_ini">초기 설정</string>
+<string name="setup_back">돌아가기</string>
+<string name="setup_select">선택</string>
+<string name="setup_next">다음</string>
+<string name="setup_exit">종료</string>
+<string name="setup_welcome">시작</string>
+	<string name="setup_welcome_set">Welcome to use the Wizard for Initial
+Setup!!\nPlease press [ENTER] to start the wizard.</string>
+<string name="setup_language">언어</string>
+<string name="setup_select_language">언어를 선택하십시오:</string>
+<string name="setup_select_one_op">다음 목록 중에서 오퍼레이터 하나만 선택할 수 있습니다.</string>
+<string name="setup_tunner">튜너 모드</string>
+<string name="setup_select_tuner">튜너 모드를 선택하십시오:</string>
+<string name="setup_channelscan">채널 스캔</string>
+	<string name="setup_set_setps">First,please connect antenna.\nStart channel scan
+		now?\nIf you skip this step,the channel scan could be performed in
+Menu.</string>
+<string name="setup_set_setps_us">먼저, 케이블 또는 안테나를 연결하십시오.\n지금 채널 스캔을 시작하시겠습니까?\n이 단계를 건너뛰면, 메뉴에서 채널 스캔을 수행할 수 있습니다</string>
+<string name="setup_language_english">영어</string>
+<string name="setup_language_chinese">간체 중국어</string>
+<string name="setup_tuner_antenna">안테나</string>
+<string name="setup_tuner_cable">케이블</string>
+<string name="setup_tuner_satellite">위성</string>
+<string name="satellites">위성</string>
+<string name="setup_scan">스캔</string>
+<string name="setup_skip_scan">스캔 건너뛰기</string>
+<string name="setup_complete">완료</string>
+	<string name="setup_congratulations">Congratulations!\nCompleted Initial Setup.\nPlease
+press [ENTER] to exit this wizard.</string>
+<string name="setup_channel_scan_note">채널 스캔을 완료하는데 잠시 시간이 걸릴 수도 있습니다.</string>
+<string name="setup_channel_scan_status">상태: 스캔 중</string>
+<string name="setup_channel_scan_analog">아날로그 채널:</string>
+<string name="setup_channel_scan_digital">디지털 채널:</string>
+<string name="setup_cancel">취소</string>
+<string name="setup_cancel_scan">상태: 스캔 취소</string>
+<string name="setup_scan_error">상태: 스캔 오류</string>
+<string name="setup_channel_scan_status_complete">상태: 스캔 완료</string>
+<string name="dvbs_operator_perferred_satellite">선호 위성</string>
+<string name="dvbs_operator_general_satellite">일반 위성</string>
+
+<string name="table">페이지 목차</string>
+<!-- char of simulation main view -->
+<string name="nav_test_user_help">
+		[0-9]\t(0-9) To change channel.\n
+		[SOURCE]\t(A) To
+		display the input source list.\n
+		[TIMER]\t(B) To display the time.\n
+		[SLEEP]\t(C) To set the sleep time.\n
+		[ZOOM]\t(D) To select the zoom.\n
+		[PEFFECT]\t(E) To select the screen effect.\n
+		[SEFFECT]\t(F) To select
+		the sound effect.\n
+		[ASPECT]\t(G) To change the aspect ratio.\n
+		[CHUP]\t(O) To turn up the channel.\n
+		[CHDN]\t(Q) To turn down the
+		channel.\n
+		[MUTE]\t(R) To mute or un-mute the sound.\n
+		[VOLUME_UP]\t(M)
+		To turn up the volume.\n
+		[VOLUME_DOWN]\t(N) To turn down the volume.\n
+		[DPAD_CENTER]\t (ENTER) To display the channel list.\n
+		[INFO]\t(S) To
+		display the channel info.\n
+		[EJECT]\t(U) To display the channel info.\n
+		[PLAYPAUSE]\t(V) To display the favorite list.\n
+		[YELLOW]\t(K) To
+		select the type of the channel list.\n
+</string>
+<string name="nav_test_tv">TV</string>
+
+<!-- +++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- ++++++++++ char of input source view++++++ -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++ -->
+<string name="nav_source_main_title">Main</string>
+<string name="nav_source_sub_title">서브</string>
+
+<!-- +++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- ++++++++++ char of channel list view ++++++ -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++ -->
+<string name="nav_please_scan_channels">채널을 스캔하십시오!</string>
+<string name="nav_no_function">
+No Function</string>
+<string name="nav_select_list">목록 선택</string>
+<string name="nav_page_up">페이지 업</string>
+<string name="nav_page_down">페이지 다운</string>
+<string name="nav_fav_move_up">위로 이동</string>
+<string name="nav_fav_move_down">아래로 이동</string>
+<string name="nav_exit">종료</string>
+<string name="nav_list_satellite">위성 나열</string>
+<string name="nav_satellite_list">위성 선택</string>
+	<!-- <string name="nav_channel_list">Channel List - All</string> -->
+<string name="nav_channel_list">채널 리스트</string>
+
+	<string name="nav_channel_list_title_str">Channel List - </string>
+<string name="nav_channel_selection">채널 목록 선택</string>
+<string name="nav_channel_details">채널 상세 정보</string>
+<string name="nav_volume_main">마스터 볼륨</string>
+<string name="nav_parent_psw">비밀번호</string>
+	<string name="nav_parent_dvbs_hint">Password had been mistaken three times!\nPlease wait...</string>
+	<string name="nav_parent_wrong_psw">Password incorrect Please enter again! </string>
+
+<string name="nav_channel_antenna">안테나</string>
+<!-- +++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- ++++++++++ char of favorite list view ++++++ -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++ -->
+<string name="nav_favorite_list">즐겨 찾는 목록</string>
+<string name="nav_favorite_select">선택</string>
+
+	<string name="nav_channel_infoNum">815</string>
+<string name="nav_channel_infoName">비취</string>
+	<string name="nav_channel_infoFormat">640X480@60Hz</string>
+<string name="nav_channel_infoType">안테나</string>
+	<string name="nav_channel_infoTime">19:19</string>
+<string name="nav_channel_infoMiddle_special">데이터 검색 중...</string>
+	<string name="nav_channel_infoTitle">(No program Title.)</string>
+	<string name="nav_channel_infoDuration">3:35 - 3:40</string>
+<string name="nav_channel_infoNextDuration">주식 거래 현장</string>
+<string name="nav_channel_infoAudioLanguage">1/2 중국어</string>
+<string name="nav_channel_infoFormatField">스테레오</string>
+	<string name="nav_channel_infoNoProgram">(No Program Details.)</string>
+	<string name="nav_channel_infoNoChannelDetail">(No Channel Details.)</string>
+	<string name="nav_channel_infoSubtitle">Chi</string>
+	<string name="nav_channel_infoInfoField">576i SD</string>
+
+<string name="nav_no_signal">신호 없음!</string>
+<string name="nav_no_support">지원 안 함!</string>
+<string name="nav_channel_has_locked">채널 잠금!</string>
+<string name="nav_input_has_locked">입력 잠금!</string>
+<string name="nav_program_has_locked">프로그램 잠금!</string>
+<string name="nav_hidden_channel">숨겨진 채널!</string>
+<string name="nav_channel_audio_scrambled">오디오 스크램블</string>
+<string name="nav_channel_video_scrambled">비디오 스크램블</string>
+	<string name="nav_sleep_label">Sleep:</string>
+<string name="nav_sleep_off">끄기</string>
+<string name="nav_sleep_minutes">분</string>
+<string name="nav_resolution_null">비디오 없음</string>
+<string name="nav_channel_retrieving">데이터 검색 중...</string>
+<string name="nav_unknown_audio">알 수 없는 오디오</string>
+<string name="nav_unknown_stereo">알 수 없는 스테레오</string>
+<string name="nav_unknown_audio_sundry">알 수 없음</string>
+<string name="nav_channel_no_audio">오디오 없음</string>
+
+<!--  for epg -->
+<string name="nav_epg_type">유형</string>
+<string name="nav_epg_sub_type">서브 유형</string>
+<string name="nav_epg_zero_tip">예약 목록</string>
+<string name="nav_epg_book_list">예약 이벤트 목록</string>
+<string name="nav_epg_book_program_tip">\n이 프로그램을 예약하시겠습니까?</string>
+<string name="nav_epg_unbook_program_tip">\n이 프로그램을 이미 예약했습니다. 예약을 해제하겠습니까?</string>
+<string name="nav_epg_book_program_coming_tip">수신 중입니다. 이 채널로 변경하시겠습니까?</string>
+<string name="nav_epg_not_rated">등급 없음</string>
+<string name="nav_epg_no_program_detail">(프로그램 상세 정보 없음.)</string>
+<string name="nav_epg_no_program_data">(프로그램 데이터 없음.)</string>
+<string name="nav_epg_no_program_title">(프로그램 제목 없음.)</string>
+<string name="nav_epg_no_title">(제목 없음)</string>
+<string name="nav_epg_unlock">잠금 풀기</string>
+<string name="nav_epg_unschedule">예약 해제</string>
+<string name="nav_epg_schedule">스케줄</string>
+<string name="nav_epg_unclassified">분류 안 됨</string>
+	<string name="nav_epg_not_support">NOT SUPPORT</string>
+
+<!-- for capture logo (YELLOW KEY) -->
+<string name="cplogo_title">캡처 로고</string>
+	<string name="cplogo_bt_ok">Ok</string>
+<string name="cplogo_bt_cancel">취소</string>
+<string name="cplogo_bt_full_screen">전체 화면</string>
+<string name="cplogo_bt_special_area">특정 영역</string>
+<string name="cplogo_bt_no">아니오</string>
+<string name="cplogo_bt_adjust">조정</string>
+<string name="cplogo_msg_which_screen">Do you want to capture full screen or special area?
+</string>
+<string name="cplogo_msg_this_screen">이 화면을 캡쳐하시겠습니까?</string>
+<string name="cplogo_msg_select_position">로고를 저장할 위치를 선택하십시오</string>
+<string name="cplogo_msg_capturing">캡쳐중...</string>
+<string name="cplogo_msg_adjust_position">Do you want to adjust the position of the special
+area?</string>
+<string name="cplogo_msg_res_success">캡쳐 성공</string>
+<string name="cplogo_msg_res_fail">캡쳐 실패, 다시 시도하십시오</string>
+<string name="cplogo_capture_res_cancel">이 작업은 취소되었습니다</string>
+
+<string name="vga_no_sinal_info">신호 없음. 전원이 꺼질 것입니다.</string>
+
+<!-- for epg -->
+<string name="epg_bottom_prev_day">이전 날</string>
+<string name="epg_bottom_next_day">다음 날</string>
+<string name="epg_bottom_view_detail">상세 정보 보기</string>
+<string name="epg_bottom_type_filter">유형 필터</string>
+	<string name="epg_bottom_prev_page">Page up</string>
+	<string name="epg_bottom_next_page">Page down</string>
+	<string name="epg_bottom_ENTER">ENTER</string>
+	<string name="epg_bottom_0">0</string>
+<string name="epg_rating_unclassified">분류 안 됨</string>
+
+<string name="epg_info_program_type">없음</string>
+<string name="epg_password">비밀번호</string>
+<string name="epg_password_message">암호가 잘못되었습니다</string>
+<string name="epg_retrieving_show">데이터 검색 중...</string>
+
+<string name="nav_epg_January">1월</string>
+<string name="nav_epg_February">2월</string>
+<string name="nav_epg_March">3월</string>
+<string name="nav_epg_April">4월</string>
+<string name="nav_epg_May">5월</string>
+<string name="nav_epg_June">6월</string>
+<string name="nav_epg_July">7월</string>
+<string name="nav_epg_August">8월</string>
+<string name="nav_epg_September">9월</string>
+<string name="nav_epg_October">10월</string>
+<string name="nav_epg_November">11월</string>
+<string name="nav_epg_December">12월</string>
+
+<string name="nav_epg_Jan">1월</string>
+<string name="nav_epg_Feb">2월</string>
+<string name="nav_epg_Mar">3월</string>
+<string name="nav_epg_Apr">4월</string>
+<string name="nav_epg_may">5월</string>
+<string name="nav_epg_Jun">5월</string>
+<string name="nav_epg_Jul">6월</string>
+<string name="nav_epg_Aug">7월</string>
+<string name="nav_epg_Sep">8월</string>
+<string name="nav_epg_Oct">9월</string>
+<string name="nav_epg_Nov">10월</string>
+<string name="nav_epg_Dec">11월</string>
+
+<string name="nav_epg_Sunday">일요일</string>
+<string name="nav_epg_Monday">월요일</string>
+<string name="nav_epg_Tuesday">화요일</string>
+<string name="nav_epg_Wednesday">수요일</string>
+<string name="nav_epg_Thursday">목요일</string>
+<string name="nav_epg_Friday">금요일</string>
+<string name="nav_epg_Saturday">토요일</string>
+
+<string name="nav_epg_Sun">12월</string>
+<string name="nav_epg_Mon">월요일</string>
+<string name="nav_epg_Tue">화요일</string>
+<string name="nav_epg_Wed">수요일</string>
+<string name="nav_epg_Thur">목요일</string>
+<string name="nav_epg_Fri">금요일</string>
+<string name="nav_epg_Sat">위성</string>
+
+<!-- for ginga tv -->
+	<string name="nav_ginga_tv_title">Application list</string>
+<string name="nav_select">선택</string>
+<string name="nav_ginga_tv_message">응용 프로그램이 없습니다!</string>
+<string name="nav_ginga_tv_for_infobar">Ginga 응용 프로그램 로드 중...</string>
+<string name="nav_ginga_tv_for_tips">CC를 중지하고 Ginga 응용 프로그램을 시작하시겠습니까?</string>
+
+<!-- for upgrader -->
+<string name="nav_upgrader_title">마법사 업데이트</string>
+<string name="nav_upgrader_MoreInfo">추가 정보</string>
+<string name="nav_upgrader_invalid">잘못된 펌웨어 이미지 파일!!</string>
+<string name="nav_upgrader_updating">업데이트 중...</string>
+<string name="nav_upgrader_warnning">펌웨어를 업데이트하는 동안 USB 동글을 뽑지 말고 TV를 끄지 마십시오!!</string>
+<string name="nav_upgrader_validate">펌웨어 확인 중...</string>
+<string name="nav_upgrader_confirm">펌웨어를 업데이트하시겠습니까?</string>
+<string name="nav_upgrader_completed">펌웨어를 성공적으로 업데이트했습니다.\n새 펌웨어를 활성화하기 위해 TV를 다시 시작하십시오.</string>
+<string name="nav_upgrader_failed">업데이트 실패.\n펌웨어를 다시 다운로드하기 위해 TV를 다시 시작하십시오.</string>
+<string name="nav_upgrader_retry">업데이트 실패.\n다시 시도하시겠습니까?</string>
+<string name="nav_upgrader_retry2">업데이트 실패. USB를 삽입하십시오.\n다시 시도하시겠습니까?</string>
+<string name="nav_upgrader_usb_space_not_enough">USB 동글의 사용 가능 공간이 충분하지 않습니다.</string>
+<string name="nav_upgrader_usb_not_ready">USB 동글이 준비되지 않았습니다. 꽂은 후에 다시 시도하십시오.</string>
+<string name="nav_upgrader_internal_err">내부 오류.</string>
+<string name="nav_upgrader_not_avail_firmware">사용 가능한 펌웨어 버전이 없습니다.</string>
+<string name="nav_upgrader_decry_fail">복호화 실패.</string>
+<string name="nav_upgrader_firmware_invalid">펌웨어가 잘못되었습니다.</string>
+<string name="nav_upgrader_no_update">업데이트할 펌웨어가 없습니다.</string>
+<string name="nav_upgrader_check_fail">새 펌웨어 확인 실패.</string>
+<string name="nav_upgrader_download_fail">네트워크에서 펌웨어를 다운로드할 수 없습니다.</string>
+<string name="nav_upgrader_usb_problem">USB 동글에 문제가 있습니다.</string>
+<string name="nav_upgrader_power">Power</string>
+<string name="nav_upgrader_yes">예</string>
+<string name="nav_upgrader_no">아니오</string>
+<string name="nav_upgrader_network_tip">서버에서 새 펌웨어 다운로드 시작합니다.</string>
+<string name="nav_mheg5_tips">디지털 텍스트를 활성화하기 전에 자막을 닫아야 합니다. 진행하시겠습니까?</string>
+
+	<string name="common_dialog_msg_yes">YES</string>
+	<string name="common_dialog_msg_no">NO</string>
+<string name="common_dialog_ews_service_content">EWS 서비스로 전환하시겠습니까?</string>
+<string name="common_dialog_special_service_content">특수 서비스로 전환하시겠습니까?</string>
+<string name="commmon_dialog_book_reminder_content">수신 중입니다. 이것으로 전환하시겠습니까?</string>
+<string name="common_dialog_start_cc_stop_ginga">Ginga 응용 프로그램을 중지하고 CC를 열겠습니까?</string>
+
+<string name="nav_ttx_top_block">차단</string>
+<string name="nav_ttx_top_group">GROUP</string>
+<string name="nav_ttx_top_page">페이지</string>
+    <string name="nav_ttx_no_top">No Top</string> 
+
+<string name="nav_banner_not_rating">등급 없음</string>
+<!-- For Nav CI -->
+	<string name="cam_scan_warning">CI Plus Network change,you may search to update network!</string>
+	<string name="cam_scan_urgent">CI Plus Network unavailable,you must search to update network!</string> 
+	<string name="cam_scan_not_init">CI Plus Network not init,you must search to update network!</string> 
+	<string name="cam_scan_schedule">CI Plus Network search schedule time reached,you may search to update network!</string> 
+
+<string name="setup_select_country">국가를 선택하십시오:</string>
+<string name="setup_country">국가</string>
+<string name="setup_dvbc_setting">케이블 정보를 구성하십시오</string>
+<string name="setup_timezone">시간대</string>
+	<string name="setup_language_spanish">Español</string>
+	<string name="setup_language_french">Français</string>
+	<string name="setup_language_portuguese">Português</string>
+
+	<string name="setup_language_Vasco">Vasco</string>
+<string name="setup_language_Catalan">카탈로니아어</string>
+	<string name="setup_language_hrvatski">hrvatski</string>
+	<string name="setup_language_Cesky">Cesky</string>
+<string name="setup_language_Dansk">Dansk</string>
+<string name="setup_language_Nederlands">Nederlands</string>
+<string name="setup_language_Suomi">Suomi</string>
+<string name="setup_language_Gaelic">게일어</string>
+	<string name="setup_language_Gallego">Gallego</string>
+<string name="setup_language_Deutsch">Deutsch</string>
+	<string name="setup_language_Magyar">Magyar</string>
+	<string name="setup_language_Italiano">Italiano</string>
+<string name="setup_language_Norsk">Norsk</string>
+<string name="setup_language_Polski">Polski</string>
+	<string name="setup_language_Romana">Romana</string>
+<string name="setup_language_Srpski">Srpski</string>
+	<string name="setup_language_Slovensky">Slovensky</string>
+	<string name="setup_language_Slovenscina">Slovenscina</string>
+<string name="setup_language_Svenska">Svenska</string>
+	<string name="setup_language_Turkce">Turkce</string>
+<string name="setup_language_Welsh">웨일스어</string>
+	<string name="setup_language_Eesti">Eesti</string>
+	<string name="setup_language_Pyccknn">Pyccknn</string>
+
+<!-- for eu -->
+	<string name="setup_language_spanish_eu">Español</string>
+	<string name="setup_language_french_eu">Français</string>
+	<string name="setup_language_portuguese_eu">Português</string>
+<string name="setup_language_english_eu">영어</string>
+	<string name="setup_language_Vasco_eu">Vasco</string>
+<string name="setup_language_Catalan_eu">카탈로니아어</string>
+	<string name="setup_language_hrvatski_eu">Hrvatska</string>
+	<string name="setup_language_Cesky_eu">Čeština</string>
+<string name="setup_language_Dansk_eu">Dansk</string>
+<string name="setup_language_Nederlands_eu">Nederlands</string>
+<string name="setup_language_Suomi_eu">Suomi</string>
+<string name="setup_language_Gaelic_eu">게일어</string>
+	<string name="setup_language_Gallego_eu">Gallego</string>
+<string name="setup_language_Deutsch_eu">Deutsch</string>
+	<string name="setup_language_Magyar_eu">Magyar</string>
+	<string name="setup_language_Italiano_eu">Italiano</string>
+<string name="setup_language_Norsk_eu">Norsk</string>
+<string name="setup_language_Polski_eu">Polski</string>
+	<string name="setup_language_Romana_eu">Română</string>
+<string name="setup_language_Srpski_eu">Srpski</string>
+	<string name="setup_language_Slovensky_eu">Slovenčina</string>
+	<string name="setup_language_Slovenscina_eu">Slovenščina</string>
+<string name="setup_language_Svenska_eu">Svenska</string>
+	<string name="setup_language_Turkce_eu">Türkçe</string>
+<string name="setup_language_Welsh_eu">웨일스어</string>
+	<string name="setup_language_Eesti_eu">Eesti</string>
+	<string name="setup_language_Pyccknn_eu">Русский</string>
+
+<string name="setup_dvbc_config_scanmode">스캔 모드</string>
+<string name="setup_dvbc_config_frequency">주파수 (KHZ)</string>
+<string name="setup_dvbc_config_modulation">변조</string>
+<string name="setup_dvbc_config_symbolrate">심볼 속도(Ksym/s)</string>
+<string name="setup_dvbc_config_networkid">네트워크 ID</string>
+
+	<string name="setup_default_postal_code">00000</string>
+<string name="setup_set_postal_code_editview">우편 번호</string>
+
+<string name="setup_set_password"></string>
+<string name="setup_set_password_titile1">새 비밀번호</string>
+<string name="setup_set_password_titile2">비밀번호 확인</string>
+	<string name="setup_set_password_default_pwd">0000</string>
+
+<string name="setup_cable_select_operation">오퍼레이터 선택</string>
+
+<string name="setup_dvbs_statellite_type">위성 유형</string>
+<string name="setup_dvbs_statellite_type_title">위성 유형을 선택하십시오.</string>
+
+<string name="setup_dvbs_statellite_select_operator">오퍼레이터 선택</string>
+<string name="setup_dvbs_statellite_select_operator_title">다음 목록 중에서 오퍼레이터 하나만 선택할 수 있습니다.</string>
+
+<string name="setup_cable_setting"></string>
+<string name="setup_cable_setting_title">케이블 정보를 구성하십시오.</string>
+
+<string name="setup_dvbs_config_info"></string>
+<string name="setup_dvbs_config_info_title">스캔 정보를 구성하십시오.</string>
+
+<string name="setup_dvbs_satellite_list">위성 선택</string>
+<string name="setup_dvbs_satellite_list_title">스캔할 위성을 선택하거나 선택한 위성을 편집하십시오.</string>
+
+<string name="setup_dvbs_config_setting"></string>
+<string name="setup_dvbs_config_setting_title">안테나 유형 구성을 설정하십시오.</string>
+
+<string name="setup_dvbs_satellite_config">안테나 설정</string>
+<string name="setup_dvbs_satellite_config_title">위성의 파라미터를 설정하십시오.</string>
+<string name="setup_dvbs_satellite_config_tp_title">트랜스폰더 파라미터를 설정하십시오.</string>
+<string name="setup_dvbs_satellite_config_diseqc_title">DiSEqC 파라미터를 설정하십시오.</string>
+<string name="setup_dvbs_satellite_config_diseqc12_motor_title">DiSEqC 1.2 모터 파라미터를 설정하십시오.</string>
+<string name="setup_dvbs_satellite_config_diseqc12_movementcontrol_title">DiSEqC 1.2 이동 통제 파라미터를 설정하십시오.</string>
+<string name="setup_select_set">설정</string>
+<string name="nav_oad_dialog_title">전파 이용(Over Air) 다운로드</string>
+<string name="nav_oad_scanning">스캔</string>
+	<string name="nav_oad_scanning_result_fail">Can not find new software on the air</string>
+
+<string name="nav_oad_programming">프로그래밍</string>
+<string name="nav_oad_downloading">다운로드 중입니다</string>
+<string name="nav_oad_downloading_info">이 프로세스는 약 25분이 걸립니다</string>
+<string name="nav_oad_flash_confirm">소프트웨어를 성공적으로 다운로드했습니다. 전송(flashing)을 시작하시겠습니까?</string>
+<string name="nav_oad_flash_fail">프로그래밍 실패. 다시 시도하시겠습니까?\n\n서비스 센터에 문의하십시오.</string>
+<string name="nav_oad_restart_confirm">소프트웨어를 성공적으로 다운로드했습니다! 지금 TV를 다시 시작하겠습니까?</string>
+
+<string name="nav_oad_warning_msg_str">경고: 이 과정 동안, TV 전원을 뽑으면 안 됩니다. 이렇게 하면 TV가 고장 날 수도 있습니다.</string>
+
+	<string name="nav_oad_manual_download_confirm">Software update.A new recommended software update is avaiable.The update might take some time and the screen might go black.Do not turn of the receiver off during
+the update.Do you want to update now?</string>
+<string name="nav_oad_manual_download_fail">소프트웨어를 다운로드할 수 없습니다. 다시 시도하시겠습니까?</string>
+
+	<string name="nav_oad_auto_download_confirm">Software update.A new recommended software update is avaiable.The update might take some time and the screen might go black.Do not turn of the receiver off during
+the update.Do you want to update now?It will start automatically in %s second(s)</string>
+
+<string name="nav_oad_schedule_oad_accept_schedule_confirm">소프트웨어 업데이트. 새로운 권장 소프트웨어가 %에(서) 사용할 수 있게 됩니다. 업데이트하는데 시간이 걸릴 수 있으며 화면이 컴컴해질 수도 있습니다. 업데이트하는 동안 수신기를 끄지 마십시오. 이 업데이트를 수용할 경우, 수신기를 켜두거나 예약 시간에 대기 모드 상태로 두십시오. 이 업데이트를 받겠습니까?</string>
+<string name="nav_oad_schedule_oad_change_channel_confirm">소프트웨어 업데이트. 새로운 권장 소프트웨어 업데이트가 다른 채널에 있을 수도 있습니다. 이 다운로드를 수용할 경우, 해당 채널로 자동으로 변경될 수도 있습니다. 바로 지금 이것을 수행하시겠습니까? 이 작업은 %s초 후에 자동으로 시작됩니다</string>
+<string name="nav_oad_atuo_download_with_bgm">새 소프트웨어가 탐지되었습니다!\nTV가 대기 모드 상태일 때 소프트웨어를 자동으로 다운로드하시겠습니까?</string>
+
+<string name="setup_language_english_value">프로그래밍</string>
+<string name="setup_language_chinese_value">프로그래밍</string>
+<string name="setup_language_spanish_value">프로그래밍</string>
+<string name="setup_language_french_value">프로그래밍</string>
+<string name="setup_language_portuguese_value">프로그래밍</string>
+
+<string name="setup_country_cty_1">오스트리아</string>
+<string name="setup_country_cty_2">벨기에</string>
+<string name="setup_country_cty_3">스위스</string>
+<string name="setup_country_cty_4">체코</string>
+<string name="setup_country_cty_5">독일</string>
+<string name="setup_country_cty_6">덴마크</string>
+<string name="setup_country_cty_7">스페인</string>
+<string name="setup_country_cty_8">핀란드</string>
+<string name="setup_country_cty_9">프랑스</string>
+<string name="setup_country_cty_10">영국</string>
+<string name="setup_country_cty_11">이탈리아</string>
+<string name="setup_country_cty_12">룩셈부르크</string>
+<string name="setup_country_cty_13">네덜란드</string>
+<string name="setup_country_cty_14">노르웨이</string>
+<string name="setup_country_cty_15">스웨덴</string>
+<string name="setup_country_cty_16">불가리아</string>
+<string name="setup_country_cty_17">크로아티아</string>
+<string name="setup_country_cty_18">그리스</string>
+<string name="setup_country_cty_19">헝가리</string>
+<string name="setup_country_cty_20">아일랜드</string>
+<string name="setup_country_cty_21">폴란드</string>
+<string name="setup_country_cty_22">포르투갈</string>
+<string name="setup_country_cty_23">루마니아</string>
+<string name="setup_country_cty_24">Russia</string>
+<string name="setup_country_cty_25">세르비아</string>
+<string name="setup_country_cty_26">슬로바키아</string>
+<string name="setup_country_cty_27">슬로베니아</string>
+<string name="setup_country_cty_28">터키</string>
+<string name="setup_country_cty_29">에스토니아</string>
+<string name="setup_country_cty_30">호주</string>
+<string name="setup_country_cty_31">뉴질랜드</string>
+<string name="setup_country_cty_32">인도네시아</string>
+<string name="setup_set_timezone">시간대를 선택하십시오:</string>
+<string name="setup_set_password_title">암호를 "0000"로 설정할 수 없습니다</string>
+<string name="setup_set_postalcode">우편 번호를 입력하십시오.</string>
+<string name="setup_set_password_success_msg">암호를 성공적으로 설정했습니다!</string>
+
+<string name="dvbc_operator_others">기타</string>
+	<string name="dvbc_operator_upc">UPC</string>
+<string name="dvbc_operator_comhem">Comhem</string>
+<string name="dvbc_operator_canal_digital">Canal Digital</string>
+<string name="dvbc_operator_tele2">Tele2</string>
+<string name="dvbc_operator_stofa">Stofa</string>
+<string name="dvbc_operator_yousee">Yousee</string>
+<string name="dvbc_operator_ziggo">Ziggo</string>
+<string name="dvbc_operator_unitymedia">Unitymedia</string>
+<string name="dvbc_operator_numericable">Numericable</string>
+<string name="dvbc_operator_volia">Volia</string>
+<string name="dvbc_operator_telemach">Telemach</string>
+<string name="dvbc_operator_onlime">Onlime</string>
+<string name="dvbc_operator_akado">Akado</string>
+	<string name="dvbc_operator_tkt">TKT</string>
+	<string name="dvbc_operator_divan_tv">DIVAN TV</string>
+	<string name="dvbc_operator_net1">NET1</string>
+	<string name="dvbc_operator_kdg">KDG</string>
+	<string name="dvbc_operator_kbw">KBW</string>
+	<string name="dvbc_operator_blizoo">BLIZOO</string>
+<string name="dvbc_operator_telent">Telent</string>
+<string name="dvbc_operator_telent_eu">Telenet</string>
+
+<string name="dvbc_operator_glenten">Glenten</string>
+<string name="dvbc_operator_tele_columbus">Tele Columbus</string>
+	<string name="dvbc_operator_rcs_rds">RCS RDS</string>
+
+<string name="dvbt_inactivechannel_nw_chg">네트워크 변경으로 인해 일부 채널이 비활성화되었습니다. 지금 이것들을 제거하시겠습니까?</string>
+<string name="tnt_hd_nw_chg">네트워크 데이터가 변경되었습니다. 업데이트 스캔을 수행하시겠습니까?</string>
+<!-- DVBS operators -->
+<string name="dvbs_operator_astra_hd_plus">Astra HD+</string>
+<string name="dvbs_operator_sky_deutschland">Sky Deutschland</string>
+    <string name="dvbs_operator_ors">ORS</string>
+<string name="dvbs_operator_austriasat">AustriaSat</string>
+<string name="dvbs_operator_cannal_digital">Cannal Digital</string>
+<string name="dvbs_operator_tv_vlaanderen_hd">TV VLAANDEREN HD</string>
+<string name="dvbs_operator_tv_vlaanderen_sd">TV VLAANDEREN SD</string>
+<string name="dvbs_operator_telesat_belgium">TELESAT Belgium</string>
+<string name="dvbs_operator_telesat_luxembourg">TELESAT Luxembourg</string>
+<string name="dvbs_operator_seznam_kanalu_pro_cesko">Seznam kanalu pro Cesko</string>
+<string name="dvbs_operator_seznam_kanalu_pro_slovensko">Seznam kanalu pro Slovensko</string>
+<string name="dvbs_operator_cannaldigitaal_hd">CannalDigitaal HD</string>
+<string name="dvbs_operator_cannaldigitaal_sd">CannalDigitaal SD</string>
+<string name="dvbs_operator_n_na_karte">n na karte</string>
+<string name="dvbs_operator_digiturk_eutelsat">Digiturk Eutelsat</string>
+<string name="dvbs_operator_digiturk_turksat">Digiturk Turksat</string>
+<string name="dvbs_operator_fransat">Fransat</string>
+<string name="dvbs_operator_cyfraplus">Cyfra+</string>
+<string name="dvbs_operator_cyfrowy_polsat">Cyfrowy Polsat</string>
+<string name="dvbs_operator_dsmart">D-Smart</string>
+<string name="dvbs_operator_ntvplus">NTV+</string>
+    <string name="dvbs_operator_others">others</string>
+<string name="dvbs_operator_name_nc_plus">nc+/nc+ MIX</string>
+<string name="dvbs_operator_name_smart_hd_plus">smart HD+</string>
+<string name="dvbs_operator_name_tivusat">tivùsat</string>
+
+<string name="dvbs_antenna_type_name_universal">유니버설</string>
+<string name="dvbs_antenna_type_name_singlecable">단일 케이블</string>
+    <string name="dvbs_antenna_setup">Antenna setup</string>
+<string name="dvbs_satellite_setting">위성</string>
+<string name="dvbs_satellite_name">위성 이름</string>
+<string name="dvbs_satellite_orbit">궤도 위치</string>
+<string name="dvbs_lnb_freq">LNB 주파수</string>
+<string name="dvbs_diseqc_set">DiSEqC 세트</string>
+<string name="dvbs_diseqc12_motor_movementcontrol">이동 제어</string>
+<string name="dvbs_diseqc12_motor_disablelimits">한계 사용 안 함</string>
+<string name="dvbs_diseqc12_motor_limiteast">Limit east</string>
+<string name="dvbs_diseqc12_motor_limitwest">Limit west</string>
+<string name="dvbs_diseqc12_motor_storeposition">저장 위치</string>
+<string name="dvbs_diseqc12_motor_gotoposition">이동 위치</string>
+<string name="dvbs_diseqc12_motor_gotoreference">이동 참조</string>
+<string name="dvbs_diseqc12_movement_stepsize">단계 크기</string>
+<string name="dvbs_diseqc12_movement_timeout">시간초과</string>
+<string name="dvbs_diseqc12_movement_moveeast">동쪽 이동</string>
+<string name="dvbs_diseqc12_movement_movewest">서쪽 이동</string>
+<string name="dvbs_diseqc12_movement_stopmovement">이동 중지</string>
+<string name="dvbs_diseqc10_port">DiSEqC 1.0 포트</string>
+<string name="dvbs_diseqc11_port">DiSEqC 1.1 포트</string>
+<string name="dvbs_diseqc_motor">DiSEqC 모터</string>
+<string name="dvbs_diseqc_motor_12">DiSEqC 1.2</string>
+<string name="dvbs_diseqc_input">DiSEqC 입력</string>
+<string name="dvbs_diseqc_input_0">사용 안 함</string>
+<string name="dvbs_diseqc_input_1">Diseqc A</string>
+<string name="dvbs_diseqc_input_2">Diseqc B</string>
+<string name="dvbs_diseqc_input_3">Diseqc C</string>
+<string name="dvbs_diseqc_input_4">Diseqc D</string>
+<string name="dvbs_tone_22khz">톤 22KHz</string>
+<string name="dvbs_tone_22khz_off">끄기</string>
+<string name="dvbs_tone_22khz_on">열기</string>
+    <string name="dvbs_tone_22khz_auto">Auto</string>
+<string name="dvbs_trasponder">트랜스 폰더</string>
+<string name="dvbs_tp_fre">주파수</string>
+<string name="dvbs_tp_sys_rate">심볼 속도(Ksym/s)</string>
+<string name="dvbs_tp_pol">편광</string>
+
+<string name="dvbs_tp_pol_0_unknown">알 수 없음</string>
+<string name="dvbs_tp_pol_1_HORIZONTAL">수평</string>
+<string name="dvbs_tp_pol_2_VERTICAL">수직</string>
+<string name="dvbs_tp_pol_3_LEFT">왼쪽</string>
+<string name="dvbs_tp_pol_4_RIGHT">오른 쪽</string>
+
+<string name="dvbs_add_new_satl">새 위성 추가</string>
+<string name="dvbs_add_new_tp">새 트랜스폰더 추가</string>
+<string name="dvbs_satellite_tuning">위성 튜닝</string>
+<string name="dvbs_satellite_channel">채널</string>
+<string name="dvbs_scan_mode">스캔 모드</string>
+<string name="dvbs_network_search">네트워크 검색</string>
+<string name="dvbs_satellite_search">검색</string>
+    <string name="dvbs_scan_mode_auto">Auto</string>
+<string name="dvbs_scan_mode_preset">사전설정</string>
+<string name="dvbs_channel_free">Free</string>
+<string name="dvbs_channel_all">전체</string>
+<string name="dvbs_sat_no_satl">(위성 없음.)</string>
+<string name="dvbs_manual_tuning">위성 수동 튜닝</string>
+<string name="dvbs_sat_no_tp">(트랜스폰더 없음.)</string>
+<string name="dvbs_sat_name_empty_alarm">위성 이름 비어있음.\n입력하십시오!</string>
+<string name="dvbs_satellite_rescan">위성 다시 스캔</string>
+<string name="dvbs_satellite_add">위성 추가</string>
+<string name="dvbs_satellite_update">위성 업데이트</string>
+<string name="dvbs_satellite_status">위성 상태</string>
+<string name="dvbs_scan_mode_network">네트워크</string>
+<string name="dvbs_scan_mode_full">풀</string>
+<string name="dvbs_scan_satellites">위성</string>
+<string name="dvbs_scan_positon">위치</string>
+<string name="dvbs_lnb_power">LNB 전원</string>
+<string name="dvbs_antenna_type">안테나 유형</string>
+<string name="dvbs_antenna_type_universal">유니버설</string>
+<string name="dvbs_antenna_type_singlecable">단일 케이블</string>
+<string name="dvbs_user_band">튜너</string>
+<string name="dvbs_user_band_1">사용자 대역 1</string>
+<string name="dvbs_user_band_2">사용자 대역 2</string>
+<string name="dvbs_user_band_3">사용자 대역 3</string>
+<string name="dvbs_user_band_4">사용자 대역 4</string>
+<string name="dvbs_user_band_5">사용자 대역 5</string>
+<string name="dvbs_user_band_6">사용자 대역 6</string>
+<string name="dvbs_user_band_7">사용자 대역 7</string>
+<string name="dvbs_user_band_8">사용자 대역 8</string>
+<string name="dvbs_band_freq">대역 주파수</string>
+<string name="dvbs_band_freq_user_define">사용자 정의</string>
+<string name="dvbs_position">위치</string>
+    <string name="dvbs_position_a">A</string>
+    <string name="dvbs_position_b">B</string>
+<string name="dvbs_position_c">C</string>
+<string name="dvbs_position_d">D</string>
+<string name="dvbs_air">안테나</string>
+<string name="dvbs_cable">케이블</string>
+<string name="dvbs_preferred_satellite">선호 위성</string>
+    <string name="dvbs_general_satellite">General Satellite</string>
+<string name="sys_info_lnb">LNB</string>
+<string name="lnb_universal">유니버설</string>
+    <string name="lnb_mdu1">MDU1</string>
+    <string name="lnb_mdu2">MDU2</string>
+    <string name="lnb_mdu3">MDU3</string>
+    <string name="lnb_mdu4">MDU4</string>
+    <string name="lnb_mdu5">MDU5</string>
+<string name="dvbs_tone_burst">톤 버스트</string>
+<string name="dvbs_tone_burst_disable">사용 안 함</string>
+    <string name="dvbs_tone_burst_a">Tone Burst A </string>
+<string name="dvbs_tone_burst_b">톤 버스트 B</string>
+
+<string name="dvbs_sat_on">열기</string>
+<string name="dvbs_sat_off">끄기</string>
+    <string name="dvbs_sat_TUNER_LNB_POWER_13V_18V">13V_18V</string>
+    <string name="dvbs_sat_TUNER_LNB_POWER_14V_19V">14V_19V</string>
+</resources>

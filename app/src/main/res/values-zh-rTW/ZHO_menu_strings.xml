@@ -18,7 +18,7 @@
 	<string name="menu_back">返回</string>
 	<string name="menu_set">Set</string>
 	<string name="menu_ok">確定</string>
-	<string name="menu_cancel">取銷</string>
+	<string name="menu_cancel">取消</string>
 	<string name="menu_ci_close">關閉 CI</string>
 	<string name="menu_scan">掃描</string>
 
@@ -70,8 +70,8 @@
 	<string name="menu_video_clock">時鐘</string>
 	<string name="menu_video_3d_leftright_str">Left/Right</string>
 	<string name="menu_video_3d_updown_str">UP/Down</string>
-	<string name="menu_video_mjc_demo_off">Off</string>
-	<string name="menu_video_mjc_demo_on">On</string>
+	<string name="menu_video_mjc_demo_off">关</string>
+	<string name="menu_video_mjc_demo_on">开</string>
 	<string name="menu_video_black_bar">Black Bar Detection</string>
 	<string name="menu_video_super_resolution">Super Resolution</string>
 	<!-- the parameter of Audio,item display interface strings to be defined -->
@@ -158,7 +158,7 @@
     <string name="menu_tv_store">儲存</string>
 	<string name="menu_tv_clear_channel_info">是否確定?</string>
 	<string name="menu_dialog_confirm">確定</string>
-	<string name="menu_dialog_cancel">取銷</string>
+	<string name="menu_dialog_cancel">取消</string>
 	<string name="menu_dialog_numrepeat">頻道編號重覆‧！</string>
     <string name="menu_tv_channelfine_tune">類比頻道微調</string>
 	<!-- the parameter of Setup,item display interface strings to be defined -->
@@ -424,9 +424,9 @@
 	<string name="menu_setup_network_no_net">There is no wireless device connected to TV!</string>
 	<string name="menu_setup_tvchaneledit_hint">Test</string>
 	<string name="menu_setup_divx_sure">確定</string>
-	<string name="menu_setup_divx_cancel">取銷</string>
+	<string name="menu_setup_divx_cancel">取消</string>
 	<string name="menu_setup_tvchaneledit_sure">確定</string>
-	<string name="menu_setup_tvchaneledit_cancel">取銷</string>
+	<string name="menu_setup_tvchaneledit_cancel">取消</string>
 	<string name="menu_setup_button_yes">取代</string>
 	<string name="menu_setup_button_no">否</string>
 	<string name="menu_setup_ip_edittext_hint">000</string>
@@ -483,7 +483,7 @@
     <string name="menu_rating_enable">啟用評等</string>
     <!-- Part of wifi -->
     <string name="menu_wifi_exit">離開</string>
-    <string name="menu_wifi_cancel">取銷</string>
+    <string name="menu_wifi_cancel">取消</string>
     <string name="menu_wifi_next">下頁</string>
     <string name="menu_wifi_select">選擇</string>
     <string name="menu_wifi_input">Input</string>

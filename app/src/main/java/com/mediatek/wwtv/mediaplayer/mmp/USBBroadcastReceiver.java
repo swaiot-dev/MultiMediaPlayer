@@ -25,7 +25,7 @@ public class USBBroadcastReceiver extends BroadcastReceiver {
         if(intent.getAction().equals(UsbManager.ACTION_USB_DEVICE_DETACHED)) {
             new StopAudioAsyncTask(context, intent).execute();
         }
-        checkTVBlockChannel(context, intent);
+        //checkTVBlockChannel(context, intent);
     }
 
     private void checkTVBlockChannel(Context context, Intent intent) {

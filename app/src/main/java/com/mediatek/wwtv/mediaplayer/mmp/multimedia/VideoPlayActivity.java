@@ -1029,6 +1029,7 @@ public class VideoPlayActivity extends SkyMediaPlayActivity {
     isVideoBegining = true;
     showDrmDialog(0);
     showPlayStatusView();
+    showProgressView();
   }
 
   private DrmDialog mDrmDialog;
@@ -1080,6 +1081,16 @@ public class VideoPlayActivity extends SkyMediaPlayActivity {
         setDivxTitleVideo(index);
       }
     }
+  }
+
+  private void showProgressView() {
+    if (mMediaControlView != null && !mMediaControlView.isProgressShowing() &&
+            mPreviewListDialog != null && !mPreviewListDialog.isDialogShowing()) {
+      mMediaControlView.showProgressLayout();
+      sendMessage(PROGRESS_CHANGED);
+      sendDelayMessage(AUTO_HIDE_PROGRESSBAR, AUTO_HIDE_CONTROL_TIME);
+    }
+
   }
 
   private void hiddlenOtherDialogExceptDrm() {
@@ -1611,63 +1622,63 @@ public class VideoPlayActivity extends SkyMediaPlayActivity {
   }
 
   private boolean handleError(int what) {
-    MtkLog.d(TAG,"handleError,what=="+what);
-    switch (what) {
-      case VideoManager.MEDIA_ERROR_FILE_CORRUPT:
-        MtkLog.d(TAG, "enter onError:  MEDIA_ERROR_FILE_CORRUPT");
-        playExce = PlayException.FILE_NOT_SUPPORT;
-        if (!Util.mIsEnterPip) {
-          featureNotWork(mResource.getString(R.string.mmp_file_corrupt));
+        MtkLog.d(TAG,"handleError,what=="+what);
+        switch (what) {
+            case VideoManager.MEDIA_ERROR_FILE_CORRUPT:
+                MtkLog.d(TAG, "enter onError:  MEDIA_ERROR_FILE_CORRUPT");
+                playExce = PlayException.FILE_NOT_SUPPORT;
+                if (!Util.mIsEnterPip) {
+                    featureNotWork(mResource.getString(R.string.mmp_file_corrupt));
+                }
+                autoNext();
+                return true;
+            case VideoManager.MTK_MEDIA_INFO_MEDIA_LOST:
+                MtkLog.d(TAG, "enter onError:  MTK_MEDIA_INFO_MEDIA_LOST");
+                if (!Util.mIsEnterPip) {
+                    featureNotWork(mResource.getString(R.string.mmp_media_file_lost));
+                }
+                mLogicManager.finishVideo();
+                if (getInstance() != null) {
+                    this.finish();
+                }
+                return true;
+            case VideoManager.MEDIA_INFO_UNKNOWN:
+                MtkLog.d(TAG, "enter onError:  MEDIA_INFO_UNKNOWN");
+            case VideoManager.MEDIA_ERROR_FILE_NOT_SUPPORT:
+                MtkLog.d(TAG, "enter onError:  MEDIA_ERROR_FILE_NOT_SUPPORT");
+            case VideoManager.MEDIA_ERROR_OPEN_FILE_FAILED:
+                MtkLog.d(TAG, "enter onError:  MEDIA_ERROR_OPEN_FILE_FAILED");
+                playExce = PlayException.FILE_NOT_SUPPORT;
+                if (!Util.mIsEnterPip) {
+                    featureNotWork(mResource.getString(R.string.mmp_file_notsupport));
+                }
+                autoNext();
+                return true;
+            case VideoManager.MEDIA_ERROR_RESOURCE_INTERRUPT:
+                mLogicManager.finishVideo();
+                if (getInstance() != null) {
+                    this.finish();
+                }
+                return true;
+            // case VideoManager.MEDIA_ERROR_NOT_VALID_FOR_PROGRESSIVE_PLAYBACK:
+            // MtkLog.d(TAG,"enter onError:  MEDIA_ERROR_NOT_VALID_FOR_PROGRESSIVE_PLAYBACK");
+            // break;
+            //
+            // case VideoManager.MEDIA_ERROR_SERVER_DIED:
+            // MtkLog.d(TAG,"enter onError:  MEDIA_ERROR_SERVER_DIED");
+            // break;
+            // case VideoManager.MEDIA_ERROR_UNKNOWN:
+            // MtkLog.d(TAG,"enter onError:  MEDIA_ERROR_UNKNOWN");
+            // break;
+            default:
+                // MtkLog.d(TAG,"enter onError:  MEDIA_ERROR_OPEN_FILE_FAILED  what:"+what);
+                // FILE_NOT_SUPPORT = true;
+                // onNotSuppsort(mResource.getString(R.string.mmp_file_notsupport));
+                // mHandler.sendEmptyMessageDelayed(DELAY_AUTO_NEXT, DELAYTIME);
+                return true;
         }
-        autoNext();
-        return true;
-      case VideoManager.MTK_MEDIA_INFO_MEDIA_LOST:
-        MtkLog.d(TAG, "enter onError:  MTK_MEDIA_INFO_MEDIA_LOST");
-        if (!Util.mIsEnterPip) {
-          featureNotWork(mResource.getString(R.string.mmp_media_file_lost));
-        }
-        mLogicManager.finishVideo();
-        if (getInstance() != null) {
-          this.finish();
-        }
-        return true;
-      case VideoManager.MEDIA_INFO_UNKNOWN:
-        MtkLog.d(TAG, "enter onError:  MEDIA_INFO_UNKNOWN");
-      case VideoManager.MEDIA_ERROR_FILE_NOT_SUPPORT:
-        MtkLog.d(TAG, "enter onError:  MEDIA_ERROR_FILE_NOT_SUPPORT");
-      case VideoManager.MEDIA_ERROR_OPEN_FILE_FAILED:
-        MtkLog.d(TAG, "enter onError:  MEDIA_ERROR_OPEN_FILE_FAILED");
-        playExce = PlayException.FILE_NOT_SUPPORT;
-        if (!Util.mIsEnterPip) {
-          featureNotWork(mResource.getString(R.string.mmp_file_notsupport));
-        }
-        autoNext();
-        return true;
-      case VideoManager.MEDIA_ERROR_RESOURCE_INTERRUPT:
-        mLogicManager.finishVideo();
-        if (getInstance() != null) {
-          this.finish();
-        }
-        return true;
-      // case VideoManager.MEDIA_ERROR_NOT_VALID_FOR_PROGRESSIVE_PLAYBACK:
-      // MtkLog.d(TAG,"enter onError:  MEDIA_ERROR_NOT_VALID_FOR_PROGRESSIVE_PLAYBACK");
-      // break;
-      //
-      // case VideoManager.MEDIA_ERROR_SERVER_DIED:
-      // MtkLog.d(TAG,"enter onError:  MEDIA_ERROR_SERVER_DIED");
-      // break;
-      // case VideoManager.MEDIA_ERROR_UNKNOWN:
-      // MtkLog.d(TAG,"enter onError:  MEDIA_ERROR_UNKNOWN");
-      // break;
-      default:
-        // MtkLog.d(TAG,"enter onError:  MEDIA_ERROR_OPEN_FILE_FAILED  what:"+what);
-        // FILE_NOT_SUPPORT = true;
-        // onNotSuppsort(mResource.getString(R.string.mmp_file_notsupport));
-        // mHandler.sendEmptyMessageDelayed(DELAY_AUTO_NEXT, DELAYTIME);
-        return true;
-    }
 
-  }
+    }
 
   private boolean isListStart = false;
 
@@ -1723,7 +1734,7 @@ public class VideoPlayActivity extends SkyMediaPlayActivity {
 
   // ABRpeatType mRepeat = ABRpeatType.ABREPEAT_TYPE_NONE;
 
-  public void leftVideo(){    //¡§|?¡§¡ã???
+  public void leftVideo(){
     resetSeek();
     if (!mMediaControlView.isProgressShowing()){
       pressPlayPre();
@@ -1731,7 +1742,7 @@ public class VideoPlayActivity extends SkyMediaPlayActivity {
     sendDelayMessage(AUTO_HIDE_PROGRESSBAR, AUTO_HIDE_CONTROL_TIME);
     isLongPressLRKey = false;
   }
-  public void rightVideo(){   //??¡§¡ã???
+  public void rightVideo(){
     resetSeek();
     if (!mMediaControlView.isProgressShowing()){
       pressPlayNext();
@@ -1853,7 +1864,7 @@ public class VideoPlayActivity extends SkyMediaPlayActivity {
     super.onPictureInPictureModeChanged(isInPictureInPictureMode);
   }
 
-  public void Play(){   //?¡§?D?2¡ê¡è?¡è?
+  public void Play(){
       sendDelayMessage(AUTO_HIDE_PLAY_STATUS, AUTO_HIDE_CONTROL_TIME);
       sendDelayMessage(AUTO_HIDE_PROGRESSBAR, AUTO_HIDE_CONTROL_TIME);
       if (mMediaControlView.isProgressShowing()) {
@@ -1864,7 +1875,7 @@ public class VideoPlayActivity extends SkyMediaPlayActivity {
       mLogicManager.fastForwardVideoNormal();
       mLogicManager.playVideo();
   }
-  public void Pause(){  //?Y¡§a?¨º2¡ê¡è?¡è?
+  public void Pause(){
     cancelMessage(AUTO_HIDE_PLAY_STATUS);
     cancelMessage(PROGRESS_CHANGED);
     sendDelayMessage(AUTO_HIDE_PROGRESSBAR, AUTO_HIDE_CONTROL_TIME);
@@ -1872,7 +1883,7 @@ public class VideoPlayActivity extends SkyMediaPlayActivity {
     mMediaControlView.showPause();
     mLogicManager.pauseVideo();
   }
-public void Stop(){   //¡§a?¨º?12¡ê¡è?¡è?
+public void Stop(){
   //reSetController();
   saveLastMemory();//add by yx for fix 72728
   //                showController();
@@ -1901,11 +1912,11 @@ public void Stop(){   //¡§a?¨º?12¡ê¡è?¡è?
   }
   finish();//add by yx for fix the 73911
 }
-public void StartOver(){    //??D?2¡ê¡è?¡è?
+public void StartOver(){
 
 }
 
-public void FastForward(){    //?¡§???
+public void FastForward(){
   reSetController();
   if (isValid()) {
     if (!mLogicManager.isInPlaybackState()
@@ -1949,7 +1960,7 @@ public void FastForward(){    //?¡§???
   }
   subtitleLayout.setCues(null);
 }
-public void Rewind(){   //|¨¬1???
+public void Rewind(){
   reSetController();
   if (isValid()) {
     if (!mLogicManager.isInPlaybackState()
@@ -1993,6 +2004,18 @@ public void Rewind(){   //|¨¬1???
 
   }
 }
+
+public void Next(){
+      mLogicManager.setReplay(false);
+      playNext();
+      blockMarquee();
+  }
+  
+  public void Previous(){
+    mLogicManager.setReplay(false);
+    playPre();
+    blockMarquee();
+  }
 
   @Override
   public boolean onKeyDown(int keyCode, KeyEvent event) {
@@ -2216,7 +2239,7 @@ public void Rewind(){   //|¨¬1???
                 if (event.getRepeatCount() == 0) {
                   event.startTracking();
                   isLongPressLRKey = false;
-                  new Handler().postDelayed(new Runnable() {
+                  /*new Handler().postDelayed(new Runnable() {
                     @Override
                     public void run() {
                       mMediaControlView.showProgressLayout();
@@ -2225,7 +2248,7 @@ public void Rewind(){   //|¨¬1???
                       sendMessage(PROGRESS_CHANGED);
                       sendDelayMessage(AUTO_HIDE_PROGRESSBAR, AUTO_HIDE_CONTROL_TIME);
                     }
-                  },1500);
+                  },1500);*/
                 }
               }
               return true;
@@ -2277,7 +2300,7 @@ public void Rewind(){   //|¨¬1???
                 if (event.getRepeatCount() == 0) {
                   event.startTracking();
                   isLongPressLRKey = false;
-                  new Handler().postDelayed(new Runnable() {
+                  /*new Handler().postDelayed(new Runnable() {
                     @Override
                     public void run() {
                       mMediaControlView.showProgressLayout();
@@ -2286,7 +2309,7 @@ public void Rewind(){   //|¨¬1???
                       sendMessage(PROGRESS_CHANGED);
                       sendDelayMessage(AUTO_HIDE_PROGRESSBAR, AUTO_HIDE_CONTROL_TIME);
                     }
-                  },1500);
+                  },1500);*/
                 }
               }
               return true;
@@ -2495,7 +2518,7 @@ public void Rewind(){   //|¨¬1???
         return true;
       }*/
             case KeyMap.KEYCODE_MTKIR_STOP: {
-
+              Stop();
                 return true;
             }
             case KeyEvent.KEYCODE_ESCAPE:
@@ -2570,7 +2593,7 @@ public void Rewind(){   //|¨¬1???
                   hideProgressBarView();
                   showSubtitleView();
                 }*/
-
+              MmpApp.KEYCODE_MTKIR_MTSAUDIO = 1;
               if (isValid()) {
                 if (!mLogicManager.isInPlaybackState()) {
                   featureNotWork(getString(R.string.mmp_featue_notsupport));

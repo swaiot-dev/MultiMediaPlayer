@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="menu_pictrue_mode_list">
+<item>사용자</item>
+		<item>Cinema</item>
+<item>스포츠</item>
+<item>선명</item>
+<item>매우 밝음</item>
+</string-array>
+<string-array name="menu_track_mode_list">
+<item>1 트랙</item>
+<item>2 트랙</item>
+</string-array>
+<!--  <string-array name="menu_channel_mode_list">
+        <item>left</item>
+        <item>right</item>
+        <item>stereo</item>
+         <item>left1</item>
+        <item>right1</item>
+        <item>stereo1</item>
+         <item>left2</item>
+        <item>right3</item>
+    </string-array> -->
+
+<string-array name="menu_audio_equalizer_list">
+<item>끄기</item>
+<item>록</item>
+<item>팝</item>
+<item>라이브</item>
+<item>댄스</item>
+<item>테크노</item>
+<item>클래식</item>
+<item>소프트</item>
+</string-array>
+
+<!-- AUDIO -->
+
+
+</resources>

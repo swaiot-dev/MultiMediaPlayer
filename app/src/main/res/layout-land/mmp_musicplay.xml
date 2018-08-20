@@ -84,7 +84,7 @@
             android:layout_alignParentRight="true"
             android:layout_marginBottom="95px"
             android:layout_marginTop="65px"
-            android:layout_marginRight="10px"
+            android:layout_marginRight="80px"
             android:visibility="invisible" />
 
     </RelativeLayout>

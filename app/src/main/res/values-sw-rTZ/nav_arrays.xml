@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+    <string-array name="nav_epg_filter_type_AUS">
+        <item>Sinema</item>
+        <item>Habari</item>
+        <item>Burudani</item>
+        <item>Michezo</item>
+        <item>Programu za watoto</item>
+        <item>Nyimbo</item>
+        <item>Sanaa</item>
+        <item>Mambo sasa</item>
+        <item>Elimu</item>
+        <item>Maelezoburudani</item>
+        <item>Maalumu</item>
+        <item>Uchekesho</item>
+        <item>Kuigiza</item>
+        <item>Makala</item>
+    </string-array>
+    <string-array name="nav_epg_filter_type_UK">
+        <item>Sinema</item>
+        <item>Habari na usahihi</item>
+        <item>Burudani</item>
+        <item>Mchezo</item>
+        <item>Programu za watoto</item>
+        <item>Elimu</item>
+        <item>Kimaisha</item>
+        <item>Kuigiza</item>
+    </string-array>
+    <string-array name="dvbs_tp_pol_arrays">
+        <item>@string/dvbs_tp_pol_1_HORIZONTAL</item>
+        <item>@string/dvbs_tp_pol_2_VERTICAL</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_RA_TE_SA_PR">
+        <item>Bahati nasibu</item>
+        <item>Mauzo Televisheni</item>
+        <item>Utuzaji</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_information">
+        <item>Kupika</item>
+        <item>Fashoni</item>
+        <item>Nchi</item>
+        <item>Afya</item>
+        <item>Matembezi</item>
+    </string-array>
+    <string-array name="dvbs_channel_arrays">
+        <item>@string/dvbs_channel_free</item>
+        <item>@string/dvbs_channel_all</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_special">
+        <item>Lugha Asili</item>
+        <item>Nyeusi na Nyeupe</item>
+        <item>Haijatolewa</item>
+        <item>Tangazo Hai</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_children">
+        <item>Watoto</item>
+    </string-array>
+    <string-array name="dvbs_tone_22khz_arrays">
+        <item>@string/dvbs_tone_22khz_off</item>
+        <item>@string/dvbs_tone_22khz_on</item>
+        <item>@string/dvbs_tone_22khz_auto</item>
+    </string-array>
+    <string-array name="pvr_tshift_initdisk_step_formatconfirm">
+        <item>Uundaji</item>
+        <item>Ghairi</item>
+    </string-array>
+    <string-array name="nav_twinkle_strings">
+        <item></item>
+        <item>Hakuna Signali!</item>
+        <item>Tafadhali Skani Idhaa!</item>
+        <item>Data Inachukuliwa...</item>
+        <item>Kituo Kimefungwa!</item>
+        <item>Programu Imefungwa!</item>
+        <item>Kujaza Kumefungwa!</item>
+        <item>(Hakuna Mada ya Programu.)</item>
+        <item>Idhaa Imefichwa!</item>
+        <item>Programu Sauti</item>
+        <item>Huduma Isiyo Halali</item>
+        <item>(Hakuna Ufafanuo Programu.)</item>
+        <item>(Hakuna Ufafanuo Idhaa.)</item>
+        <item>♪Hakuna Mkondo Sauti♪</item>
+        <item>Hakuna Mkondo Filamu</item>
+        <item>Tafadhali subiri…</item>
+        <item>Filamu haikubaliki</item>
+        <item>Huduma HD</item>
+        <item>Isiyo tangaza</item>
+        <item>Hakuna Idhaa</item>
+        <item>Yaliyomo yamepingwa na mtoaji huduma wako</item>
+        <item>Imevurugika</item>
+    </string-array>
+    <string-array name="dvbs_diseqc_motor_arrays">
+        <item>@string/dvbs_diseqc_input_0</item>
+        <item>@string/dvbs_diseqc_motor_12</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_social">
+        <item>Kijamii</item>
+        <item>Majarida</item>
+        <item>Uchumi</item>
+        <item>watu wa ajabu</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_comical">
+        <item>Uchekesho</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_music">
+        <item>Nyimbo</item>
+        <item>Roki</item>
+        <item>Zito</item>
+        <item>Foki</item>
+        <item>Jazz</item>
+        <item>Kimuziki</item>
+        <item>Balei</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_movie">
+        <item>Kuigiza</item>
+        <item>Upelelezi</item>
+        <item>Tukio</item>
+        <item>Sayansi Bunifu</item>
+        <item>Uchekesho</item>
+        <item>Soap</item>
+        <item>Mahaba</item>
+        <item>Zito</item>
+        <item>Filamu Balehe</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_soap_opera">
+        <item>Sopu Opera</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_movie">
+        <item>Sinema</item>
+    </string-array>
+    <string-array name="dvbs_sat_on_off">
+        <item>@string/dvbs_sat_on</item>
+        <item>@string/dvbs_sat_off</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_other">
+        <item>Vibonzo balehe</item>
+        <item>Kuingiliana</item>
+        <item>Kanuni</item>
+        <item>Dini</item>
+    </string-array>
+    <string-array name="nav_epg_filter_sa_type">
+        <item>Habari</item>
+        <item>Michezo</item>
+        <item>Elimu</item>
+        <item>Sopu opera</item>
+        <item>Sirisi-Ndogo</item>
+        <item>Sirisi</item>
+        <item>Kila aina</item>
+        <item>Onyesho ukweli</item>
+        <item>MAELEZO</item>
+        <item>Uchekesho</item>
+        <item>Watoto</item>
+        <item>Kihisia</item>
+        <item>Sinema</item>
+        <item>RA_TE_SA_PR</item>
+        <item>Mjadala_mahojiano</item>
+        <item>Nyingine</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_education">
+        <item>Kielimu</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_show">
+        <item>Onyesho</item>
+        <item>Onyesho Michezo</item>
+        <item>Onyesho Kila Aina</item>
+        <item>Onyesho Tamko</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_variety">
+        <item>Ukumbi</item>
+        <item>Onyesho</item>
+        <item>Kimuziki</item>
+        <item>Kutengezwa kwa</item>
+        <item>Kike</item>
+        <item>Onyesho Michezo</item>
+    </string-array>
+    <string-array name="dvbs_antenna_type_arrays">
+        <item>@string/dvbs_antenna_type_universal</item>
+        <item>@string/dvbs_antenna_type_singlecable</item>
+    </string-array>
+    <string-array name="pvr_tshift_initdisk_step1">
+        <item>Kujiendesha</item>
+        <item>Mwongozo</item>
+    </string-array>
+    <string-array name="nav_oad_btns_accept_reject">
+        <item>Kubali</item>
+        <item>Kataa</item>
+    </string-array>
+    <string-array name="dvbs_user_band_arrays">
+        <item>@string/dvbs_user_band_1</item>
+        <item>@string/dvbs_user_band_2</item>
+        <item>@string/dvbs_user_band_3</item>
+        <item>@string/dvbs_user_band_4</item>
+        <item>@string/dvbs_user_band_5</item>
+        <item>@string/dvbs_user_band_6</item>
+        <item>@string/dvbs_user_band_7</item>
+        <item>@string/dvbs_user_band_8</item>
+    </string-array>
+    <string-array name="dvbs_sat_lnbfreq">
+        <item>@string/lnb_universal</item>
+        <item>9750,10700</item>
+        <item>9750,10750</item>
+        <item>5150</item>
+        <item>5750</item>
+        <item>9750</item>
+        <item>10600</item>
+        <item>10750</item>
+        <item>11250</item>
+        <item>11300</item>
+        <item>11475</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_DEBATE_INTERVIEW">
+        <item>Mahojiano</item>
+        <item>Mahojiano</item>
+    </string-array>
+    <string-array name="nav_zoom_mode">
+        <item>Zoom x 1/2</item>
+        <item>Zoom x 1</item>
+        <item>Zoom x 2</item>
+    </string-array>
+    <string-array name="week_day">
+        <item>Jumapili</item>
+        <item>Jumatatu</item>
+        <item>Jumanne</item>
+        <item>Jumatano</item>
+        <item>Alhamisi</item>
+        <item>Ijumaa</item>
+        <item>Jumamosi</item>
+    </string-array>
+    <string-array name="nav_oad_btns_accept_remind_me_later">
+        <item>Kubali</item>
+        <item>Nikumbushe Baadaye</item>
+    </string-array>
+    <string-array name="nav_mts_strings">
+        <item>Haijulikani</item>
+        <item>Mono</item>
+        <item>Stirio</item>
+        <item>SUB_LANG</item>
+        <item>Pacha1</item>
+        <item>Pacha2</item>
+        <item>NICAM_MONO</item>
+        <item>NICAM_STEREO</item>
+        <item>NICAM_DUAL1</item>
+        <item>NICAM_DUAL2</item>
+        <item>FM_MONO</item>
+        <item>FM_STEREO</item>
+    </string-array>
+    <string-array name="dvbs_position_arrays">
+        <item>@string/dvbs_tp_pol_0_unknown</item>
+        <item>@string/dvbs_position_a</item>
+        <item>@string/dvbs_position_b</item>
+        <item>@string/dvbs_position_c</item>
+        <item>@string/dvbs_position_d</item>
+    </string-array>
+    <string-array name="dvbs_scan_mode2_arrays">
+        <item>@string/dvbs_scan_mode_auto</item>
+        <item>@string/dvbs_scan_mode_preset</item>
+    </string-array>
+    <string-array name="dvbs_diseqc_motor_store_position_arrays">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_series">
+        <item>Sirisi</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_leisure">
+        <item>Tabia za burudani</item>
+        <item>Utalii</item>
+        <item>Kazi za Kimkono</item>
+        <item>Uendeshaji</item>
+        <item>Uzima na Afya</item>
+        <item>Kupika</item>
+        <item>Utangazaji</item>
+        <item>Ubustani</item>
+    </string-array>
+    <string-array name="nav_channel_type">
+        <item>Zote</item>
+        <item>Dijitali</item>
+        <item>Redio</item>
+        <item>Analogi</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_reality_show">
+        <item>Onyesho ukweli</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_arts">
+        <item>Sanaa</item>
+        <item>Sanaa Utendaji</item>
+        <item>Sanaa Hali Juu</item>
+        <item>Dini</item>
+        <item>Mila maarufu</item>
+        <item>Fasihi</item>
+        <item>Filamu</item>
+        <item>Ujaribio</item>
+        <item>Utangazaji</item>
+        <item>Vyombo Vipya</item>
+        <item>Majarida Sanaa</item>
+        <item>Fashoni</item>
+    </string-array>
+    <string-array name="nav_audio_tvcm_strings">
+        <item>baq</item>
+        <item>eus</item>
+        <item>bul</item>
+        <item>cat</item>
+        <item>scr</item>
+        <item>cze</item>
+        <item>dan</item>
+        <item>dut</item>
+        <item>eng</item>
+        <item>fin</item>
+        <item>fre</item>
+        <item>gla</item>
+        <item>gdh</item>
+        <item>gle</item>
+        <item>glg</item>
+        <item>ger</item>
+        <item>gre</item>
+        <item>hun</item>
+        <item>ita</item>
+        <item>nor</item>
+        <item>pol</item>
+        <item>por</item>
+        <item>rum</item>
+        <item>rus</item>
+        <item>scc</item>
+        <item>slo</item>
+        <item>slv</item>
+        <item>spa</item>
+        <item>swe</item>
+        <item>tur</item>
+        <item>wel</item>
+        <item>ice</item>
+        <item>isl</item>
+        <item>smi</item>
+        <item>tha</item>
+        <item>vie</item>
+        <item>ara</item>
+        <item>zho</item>
+        <item>Chi</item>
+        <item>per</item>
+        <item>kor</item>
+        <item>est</item>
+        <item>mao</item>
+        <item>cmn</item>
+        <item>yue</item>
+        <item>jpn</item>
+        <item>hin</item>
+        <item>nar</item>
+        <item>QAA</item>
+        <item>und</item>
+    </string-array>
+    <string-array name="nav_freeze_strings">
+        <item>Simamisha: Iko</item>
+        <item>Simamisha: Hakuna</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_education">
+        <item>Elimu</item>
+        <item>Mazingira</item>
+        <item>Teknolojia</item>
+        <item>Udaktari</item>
+        <item>Nchi za nje</item>
+        <item>Sayansi Kijamii</item>
+        <item>Elimu Ziada</item>
+        <item>Lugha</item>
+    </string-array>
+    <string-array name="nav_receiver_type">
+        <item>Kebo</item>
+        <item>Antena</item>
+    </string-array>
+    <string-array name="dvbs_diseqc_movement_control_arrays">
+        <item>Haisimami</item>
+        <item>Hatua</item>
+        <item>Kuisha Muda</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_erotic">
+        <item>Kihisia</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_children">
+        <item>Programu za watoto</item>
+        <item>Programu Kabla-shule ya Watoto</item>
+        <item>Burudani kwa 6 hadi 14</item>
+        <item>Burudani kwa 10 hadi 16</item>
+        <item>Kimaelezo</item>
+        <item>Vibonzo</item>
+    </string-array>
+    <string-array name="nav_bottom_volume">
+        <item>Sauti Kuu</item>
+        <item>Sauti Mbele Kushoto</item>
+        <item>Sauti Mbele Kulia</item>
+        <item>Sauti Nyuma Kushoto</item>
+        <item>Sauti Nyuma Kulia</item>
+        <item>Sauti Kati</item>
+        <item>Sauti ya Sab Wufa</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_mini_series">
+        <item>Sirisi-Ndogo</item>
+    </string-array>
+    <string-array name="nav_s_effect_strings">
+        <item>Mtumiaji</item>
+        <item>Kawaida</item>
+        <item>Hai1</item>
+    </string-array>
+    <string-array name="nav_oad_btns_cancel">
+        <item>Ghairi</item>
+    </string-array>
+    <string-array name="dvbs_user_band_freq_arrays">
+        <item>"1210"</item>
+        <item>"1400"</item>
+        <item>"1516"</item>
+        <item>"1632"</item>
+        <item>"1748"</item>
+        <item>"1864"</item>
+        <item>"1980"</item>
+        <item>"2096"</item>
+    </string-array>
+    <string-array name="dvbs_diseqc_10port_arrays">
+        <item>@string/dvbs_diseqc_input_1</item>
+        <item>@string/dvbs_diseqc_input_2</item>
+        <item>@string/dvbs_diseqc_input_3</item>
+        <item>@string/dvbs_diseqc_input_4</item>
+        <item>@string/dvbs_tone_burst_a</item>
+        <item>@string/dvbs_tone_burst_b</item>
+        <item>@string/dvbs_diseqc_input_0</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sports">
+        <item>Michezo</item>
+        <item>Matokeo Maalum</item>
+        <item>Majarida Michezo</item>
+        <item>Kandanda</item>
+        <item>Tenisi</item>
+        <item>Michezo Timu</item>
+        <item>Riadha</item>
+        <item>Mchezo Injini</item>
+        <item>Mchezo Maji</item>
+        <item>Mchezo Winta</item>
+        <item>Farisi</item>
+        <item>Michezo Mapambano</item>
+    </string-array>
+    <string-array name="nav_zoom_strings">
+        <item>zoom X 1</item>
+        <item>zoom X 2</item>
+        <item>zoom X 1/2</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_sports">
+        <item>Michezo</item>
+    </string-array>
+    <string-array name="nav_audio_strings">
+        <item>Kibasque</item>
+        <item>Kibasque</item>
+        <item>Kibulaarian</item>
+        <item>Kikatalan</item>
+        <item>Kicroatia</item>
+        <item>Kiczech</item>
+        <item>Kidanish</item>
+        <item>Kidachi</item>
+        <item>KIZUNGU</item>
+        <item>Kifinnish</item>
+        <item>Kifaransa</item>
+        <item>Kigaelik</item>
+        <item>Kigaelik</item>
+        <item>Kiirish</item>
+        <item>Kigallegan</item>
+        <item>Kijerumani</item>
+        <item>Kigiriki</item>
+        <item>Kihungarian</item>
+        <item>Kiitalia</item>
+        <item>Kinorway</item>
+        <item>Kipolish</item>
+        <item>Kiportuguese</item>
+        <item>Kiromania</item>
+        <item>Kirusi</item>
+        <item>Kisabia</item>
+        <item>Kislovak</item>
+        <item>Kislovenia</item>
+        <item>Kihispani</item>
+        <item>Kiswedish</item>
+        <item>Kituruki</item>
+        <item>Kiwelsh</item>
+        <item>Kiicelandic</item>
+        <item>Kiicelandic</item>
+        <item>Sami langs</item>
+        <item>Kithai</item>
+        <item>Kivietinamu</item>
+        <item>Kiarabu</item>
+        <item>Kichina T.</item>
+        <item>Kichina S.</item>
+        <item>Kiajemi</item>
+        <item>Kikorea</item>
+        <item>Estonia</item>
+        <item>Kimaori</item>
+        <item>Kimandarin</item>
+        <item>Kicantonese</item>
+        <item>Kijapani</item>
+        <item>Kihindi</item>
+        <item>Simulizi</item>
+        <item>Original Version for France</item>
+        <item>Haikufafanuliwa</item>
+    </string-array>
+    <string-array name="pvr_tshift_initdisk_step_format">
+        <item>Uundaji</item>
+        <item>Ruka</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_news">
+        <item>Habari</item>
+        <item>Ripoti</item>
+        <item>Makala</item>
+        <item>Wasifu</item>
+    </string-array>
+    <string-array name="dvbs_scan_mode_arrays">
+        <item>@string/dvbs_scan_mode_network</item>
+        <item>@string/dvbs_scan_mode_full</item>
+    </string-array>
+    <string-array name="lnb_mdu1_arrays">
+        <item>@string/dvbs_preferred_satellite</item>
+        <item>@string/dvbs_general_satellite</item>
+    </string-array>
+    <string-array name="nav_sleep_strings">
+        <item>Lala:Hakuna</item>
+        <item>Lala: Dakika 15</item>
+        <item>Lala: Dakika 30</item>
+        <item>Lala: Dakika 45</item>
+        <item>Lala: Dakika 60</item>
+        <item>Lala: Dakika 90</item>
+        <item>Lala: Dakika 120</item>
+    </string-array>
+    <string-array name="nav_channel_types">
+        <item>Zote</item>
+        <item>Redio</item>
+    </string-array>
+    <string-array name="dvbs_preferred_satellite_arrays">
+        <item>@string/dvbs_preferred_satellite</item>
+        <item>@string/dvbs_general_satellite</item>
+    </string-array>
+    <string-array name="dvbs_sat_lnb_power">
+        <item>@string/dvbs_sat_off</item>
+        <item>@string/dvbs_sat_TUNER_LNB_POWER_13V_18V</item>
+        <item>@string/dvbs_sat_TUNER_LNB_POWER_14V_19V</item>
+        <item>@string/dvbs_sat_on</item>
+    </string-array>
+    <string-array name="dvbs_diseqc_input_arrays">
+        <item>@string/dvbs_diseqc_input_1</item>
+        <item>@string/dvbs_diseqc_input_2</item>
+        <item>@string/dvbs_diseqc_input_3</item>
+        <item>@string/dvbs_diseqc_input_4</item>
+        <item>@string/dvbs_diseqc_input_0</item>
+    </string-array>
+    <string-array name="nav_oad_btns_yes_no">
+        <item>Ndio</item>
+        <item>La</item>
+    </string-array>
+    <string-array name="dvbs_tone_burst_arrays">
+        <item>@string/dvbs_tone_burst_a</item>
+        <item>@string/dvbs_tone_burst_b</item>
+        <item>@string/dvbs_tone_burst_disable</item>
+    </string-array>
+    <string-array name="nav_epg_filter_type">
+        <item>Sinema</item>
+        <item>Habari</item>
+        <item>Onyesho</item>
+        <item>Michezo</item>
+        <item>Programu za watoto</item>
+        <item>Nyimbo</item>
+        <item>Sanaa</item>
+        <item>Kijamii</item>
+        <item>Elimu</item>
+        <item>Burudani</item>
+        <item>Maalumu</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_news">
+        <item>Mambo sasa</item>
+        <item>Ripoti Anga</item>
+        <item>Jarida Habari</item>
+        <item>Makala</item>
+        <item>Mahojiano</item>
+    </string-array>
+</resources>

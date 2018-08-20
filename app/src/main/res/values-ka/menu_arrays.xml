@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Video DTV00581215-->
+    <string-array name="menu_video_gamma_array">
+        <item>ბნელა</item>
+        <item>შუა</item>
+        <item>ნათელი</item>
+    </string-array>
+
+    <string-array name="menu_video_color_temperature2_array">
+        <item>სიგრილე</item>
+        <item>სტანდარტი</item>
+        <item>თბილი</item>
+    </string-array>
+	
+    <string-array name="menu_video_dnr_array">
+        <item>გამორთვა</item>
+        <item>დაბალი</item>
+        <item>საშუალო</item>
+        <item>ძლიერი</item>
+        <item>ავტო</item>
+    </string-array>
+	
+    <string-array name="menu_video_mpeg_nr_array">
+        <item>გამორთვა</item>
+        <item>დაბალი</item>
+        <item>საშუალო</item>
+        <item>ძლიერი</item>
+    </string-array>
+    <string-array name="menu_video_luma_array">
+        <item>გამორთვა</item>
+        <item>დაბალი</item>
+        <item>საშუალო</item>
+        <item>ძლიერი</item>
+    </string-array>
+	
+    <string-array name="menu_video_flesh_tone_us_array">
+        <item>გამორთვა</item>
+        <item>დაბალი</item>
+        <item>საშუალო</item>
+        <item>მაღალი</item>
+    </string-array>
+	
+    <string-array name="menu_video_black_bar_detection_array">
+        <item>გამორთვა</item>
+        <item>ჩართული</item>
+    </string-array>
+	
+    <string-array name="menu_video_super_resolution_array">
+        <item>გამორთვა</item>
+        <item>ჩართული</item>
+    </string-array>
+	
+    <string-array name="menu_video_di_film_mode_array">
+        <item>გამორთვა</item>
+        <item>ავტო</item>
+    </string-array>
+	
+    <string-array name="menu_video_blue_stretch_array">
+        <item>გამორთვა</item>
+        <item>ჩართული</item>
+    </string-array>
+	
+    <string-array name="menu_video_game_mode_array">
+        <item>გამორთვა</item>
+        <item>ჩართული</item>
+    </string-array>
+	
+    <string-array name="menu_video_pq_split_mode_array">
+        <item>გამორთვა</item>
+        <item>ჩართული</item>
+    </string-array>
+	
+    <string-array name="menu_video_mjc_effect_array">
+        <item>გამორთვა</item>
+        <item>დაბალი</item>
+        <item>შუა</item>
+        <item>მაღალი</item>
+    </string-array>
+	
+    <string-array name="menu_video_mjc_demo_partition_array">
+        <item>ყველა</item>
+        <item>მარჯვნივ</item>
+        <item>მარცხენა</item>
+    </string-array>
+	
+    <string-array name="menu_video_vga_mode_array">
+        <item>გრაფიკული</item>
+        <item>ვიდეო</item>
+    </string-array>
+	
+    <string-array name="menu_video_hdmi_mode_array">
+        <item>ავტო</item>
+        <item>გრაფიკული</item>
+        <item>ვიდეო</item>
+    </string-array>
+	
+    <string-array name="menu_video_3d_mode_array">
+        <item>გამორთვა</item>
+        <item>ავტო რეჟიმი</item>
+        <item>2D-to-3D</item>
+        <item>ჩარჩოს რეჟიმი</item>
+        <item>გვერდი-გვერდ</item>
+        <item>ზედა და ქვედა</item>
+        <item>REALD MODE</item>
+        <item>SENSIO</item>
+        <item>ხაზი გადახლართვა</item>
+        <item>DOT ALT MODE</item>
+        <item>CHK BOARD</item>
+    </string-array>
+	
+    <string-array name="menu_video_3d_nav_array">
+        <item>სახელმძღვანელო</item>
+        <item>სემი-ავტო</item>
+        <item>ავტო</item>
+    </string-array>
+	
+    <string-array name="menu_video_3d_image_safety_array">
+        <item>გამორთვა</item>
+        <item>დაბალი</item>
+        <item>შუა</item>
+        <item>მაღალი</item>
+    </string-array>
+	
+    <string-array name="menu_video_3d_lrswitch_array">
+        <item>გამორთვა</item>
+        <item>ჩართული</item>
+    </string-array>
+	
+    <string-array name="menu_video_3d_3t2switch_array">
+        <item>გამორთვა</item>
+        <item>ჩართული</item>
+    </string-array>
+	
+    <string-array name="menu_audio_srs_mode_array">
+        <item>გამორთვა</item>
+        <item>ჩართული</item>
+    </string-array>
+	
+    <string-array name="menu_audio_equalizer_array">
+        <item>გამორთვა</item>
+        <item>როკი</item>
+        <item>Pop</item>
+        <item>ცოცხალი</item>
+        <item>საცეკვაო</item>
+        <item>ტექნო</item>
+        <item>კლასიკური</item>
+        <item>რბილი</item>
+    </string-array>
+	
+    <string-array name="menu_audio_speaker_mode_array">
+        <item>გამორთვა</item>
+        <item>ჩართული</item>
+    </string-array>
+	
+    <string-array name="menu_audio_spdif_mode_us_array">
+        <item>გამორთვა</item>
+        <item>Dolby ციფრული</item>
+        <item>PCM</item>
+    </string-array>
+	
+    <string-array name="menu_audio_avc_mode_array">
+        <item>გამორთვა</item>
+        <item>ჩართული</item>
+    </string-array>
+	
+    <string-array name="menu_audio_type_array">
+        <item>ნორმალური</item>
+        <item>დაზიანებული სმენა</item>
+        <item>მხედველობით დაქვეითებული</item>
+    </string-array>
+	
+    <string-array name="menu_audio_visually_speaker_array">
+        <item>გამორთვა</item>
+        <item>ჩართული</item>
+    </string-array>
+	
+    <string-array name="menu_audio_visually_headphone_array">
+        <item>გამორთვა</item>
+        <item>ჩართული</item>
+    </string-array>
+	
+    <string-array name="menu_audio_downmixmode_array">
+        <item>სტერეო</item>
+        <item>ავტო სტერეო</item>
+        <item>მოცულობითი</item>
+    </string-array>
+
+    <string-array name="menu_audio_downmixmode_eu_array">
+        <item>მოცულობითი</item>
+        <item>სტერეო</item>
+        <item>ავტო სტერეო</item>
+    </string-array>
+	
+    <string-array name="menu_setup_blue_mute_array">
+        <item>გამორთვა</item>
+        <item>ჩართული</item>
+    </string-array>
+	
+    <string-array name="menu_setup_network_connection_array">
+        <item>გამორთვა</item>
+        <item>ჩართული</item>
+    </string-array>
+	
+</resources>

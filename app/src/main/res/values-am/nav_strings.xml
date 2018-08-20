@@ -1,0 +1,626 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="setup_ini">የመጀመሪያ መዋቅር</string>
+<string name="setup_back">ተመለስ</string>
+<string name="setup_select">መምረጥ</string>
+<string name="setup_next">ቀጥል</string>
+<string name="setup_exit">ይውጣ</string>
+<string name="setup_welcome">እንኳን ደህና መጡ</string>
+	<string name="setup_welcome_set">እንኳን የመጀመሪያውን ደረጃ መጫኛ ለመጠቀም በደህና መጡ !! \n እባክዎን መጫኛውን ለማስጀመር [ENTER] ይጫኑ.</string>
+<string name="setup_language">ቋንቋ</string>
+<string name="setup_select_language">እባክዎ ቋንቋዎን ይምረጡ:</string>
+<string name="setup_select_one_op">ከሚከተሉት ዝርዝሮች ውስጥ አንድ ኦፕሬተር ብቻ መምረጥ ይችላሉ:</string>
+<string name="setup_tunner">የማስተካከያ ሞድ</string>
+<string name="setup_select_tuner">እባክዎ የእርስዎን ማስተካከያ ሞድ ይምረጡ:</string>
+<string name="setup_channelscan">የጣቢያ መቃኛ</string>
+	<string name="setup_set_setps">በመጀመሪያ አንቴናውን ያገናኙ. \n አሁን የቻናል ቅኝት ይጀምሩ? \n ይህን ደረጃ ቢዘልሉ፣  የቻናል መቃኘቱ በማውጫ ውስጥ ሊከናወን ይችላል.</string>
+<string name="setup_set_setps_us">በመጀመሪያ እባክዎን ገመድ ወይም አንቴና ያገናኙ. \n \n አሁን የሰርጥ ቅኝት ይጀምሩ? \n \n ይህንን ደረጃ ቢዘልሉ፣ የቻናል መቃኘቱ በማውጫ ውስጥ ሊከናወን ይችላል.</string>
+<string name="setup_language_english">እንግሊዘኛ</string>
+<string name="setup_language_chinese">ቀለል ያለ ቻይንኛ</string>
+<string name="setup_tuner_antenna">አነቴና</string>
+<string name="setup_tuner_cable">ገመድ</string>
+<string name="setup_tuner_satellite">ሳተላይት</string>
+<string name="satellites">ሳተላይቶች</string>
+<string name="setup_scan">ቃኝ</string>
+<string name="setup_skip_scan">መቃኛውን ዝለል</string>
+<string name="setup_complete">ጨርስ</string>
+	<string name="setup_congratulations">እንኳን ደስ አለዎት! \n የመጀመሪያውን ደረጃ አጠናቀዋል. \n እባክዎን መጫኛውን ለመውጣት [ENTER] ይጫኑ.</string>
+<string name="setup_channel_scan_note">የቻናል መቃኘቱ ለመጠናቀቅ ጊዜ ሊወስድ ይችላል.</string>
+<string name="setup_channel_scan_status">ሁኔታ: በመቃኘት ላይ</string>
+<string name="setup_channel_scan_analog">አናሎግ ቻናሎች:</string>
+<string name="setup_channel_scan_digital">ዲጂታል ቻናሎች:</string>
+<string name="setup_cancel">ይቁም</string>
+<string name="setup_cancel_scan">ሁኔታ: ቅኝቱን ሰርዝ</string>
+<string name="setup_scan_error">ሁኔታ: መቃኛ ስህተት</string>
+<string name="setup_channel_scan_status_complete">ሁኔታ: መቃኘቱ ተጠናቅቋል</string>
+<string name="dvbs_operator_perferred_satellite">ተመራጭ ሳተላይት</string>
+<string name="dvbs_operator_general_satellite">አጠቃላይ ሳተላይት</string>
+
+<string name="table">የገፅ ሰንጠረዥ</string>
+<!-- char of simulation main view -->
+<string name="nav_test_user_help">
+		[0-9]\t(0-9) To change channel.\n
+		[SOURCE]\t(A) To
+		display the input source list.\n
+		[TIMER]\t(B) To display the time.\n
+		[SLEEP]\t(C) To set the sleep time.\n
+		[ZOOM]\t(D) To select the zoom.\n
+		[PEFFECT]\t(E) To select the screen effect.\n
+		[SEFFECT]\t(F) To select
+		the sound effect.\n
+		[ASPECT]\t(G) To change the aspect ratio.\n
+		[CHUP]\t(O) To turn up the channel.\n
+		[CHDN]\t(Q) To turn down the
+		channel.\n
+		[MUTE]\t(R) To mute or un-mute the sound.\n
+		[VOLUME_UP]\t(M)
+		To turn up the volume.\n
+		[VOLUME_DOWN]\t(N) To turn down the volume.\n
+		[DPAD_CENTER]\t (ENTER) To display the channel list.\n
+		[INFO]\t(S) To
+		display the channel info.\n
+		[EJECT]\t(U) To display the channel info.\n
+		[PLAYPAUSE]\t(V) To display the favorite list.\n
+		[YELLOW]\t(K) To
+		select the type of the channel list.\n
+</string>
+<string name="nav_test_tv">TV</string>
+
+<!-- +++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- ++++++++++ char of input source view++++++ -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++ -->
+<string name="nav_source_main_title">Main</string>
+<string name="nav_source_sub_title">ንዑስ</string>
+
+<!-- +++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- ++++++++++ char of channel list view ++++++ -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++ -->
+<string name="nav_please_scan_channels">እባክዎን ቻናችን ይቃኙ!</string>
+<string name="nav_no_function">
+No Function</string>
+<string name="nav_select_list">ዝርዝር ይምረጡ</string>
+<string name="nav_page_up">ወደ ላይ</string>
+<string name="nav_page_down">ወደ ታች</string>
+<string name="nav_fav_move_up">ወደላይ ማንቀሳቀስ</string>
+<string name="nav_fav_move_down">ወደታች ማንቀሳቀስ</string>
+<string name="nav_exit">ይውጣ</string>
+<string name="nav_list_satellite">ሳተላይት ዝርዝር</string>
+<string name="nav_satellite_list">ሳተላይት ይምረጡ</string>
+	<!-- <string name="nav_channel_list">Channel List - All</string> -->
+<string name="nav_channel_list">ቻናል ዝርዝር</string>
+
+	<string name="nav_channel_list_title_str">Channel List - </string>
+<string name="nav_channel_selection">የቻና ዝርዝር ምርጫ</string>
+<string name="nav_channel_details">የቻናል ዝርዝሮች</string>
+<string name="nav_volume_main">ዋና ድምጽ</string>
+<string name="nav_parent_psw">ይለፍ ቃል</string>
+	<string name="nav_parent_dvbs_hint">Password had been mistaken three times!\nPlease wait...</string>
+	<string name="nav_parent_wrong_psw">Password incorrect Please enter again! </string>
+
+<string name="nav_channel_antenna">አነቴና</string>
+<!-- +++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- ++++++++++ char of favorite list view ++++++ -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++ -->
+<string name="nav_favorite_list">ተወዳጅ ዝርዝር</string>
+<string name="nav_favorite_select">መምረጥ</string>
+
+	<string name="nav_channel_infoNum">815</string>
+<string name="nav_channel_infoName">ጄድ</string>
+	<string name="nav_channel_infoFormat">640X480@60Hz</string>
+<string name="nav_channel_infoType">አነቴና</string>
+	<string name="nav_channel_infoTime">19:19</string>
+<string name="nav_channel_infoMiddle_special">ውሂብ በማውጣት ላይ ...</string>
+	<string name="nav_channel_infoTitle">(No program Title.)</string>
+	<string name="nav_channel_infoDuration">3:35 - 3:40</string>
+<string name="nav_channel_infoNextDuration">የአክሲዮን ልውውጥ ምልከታ</string>
+<string name="nav_channel_infoAudioLanguage">1/2 ቻይንኛ</string>
+<string name="nav_channel_infoFormatField">ስቲሪዮ</string>
+	<string name="nav_channel_infoNoProgram">(No Program Details.)</string>
+	<string name="nav_channel_infoNoChannelDetail">(No Channel Details.)</string>
+	<string name="nav_channel_infoSubtitle">Chi</string>
+	<string name="nav_channel_infoInfoField">576i SD</string>
+
+<string name="nav_no_signal">ሲግናል የለም!</string>
+<string name="nav_no_support">ምንም ድጋፍ የለም!</string>
+<string name="nav_channel_has_locked">የተዘጋ ቻናል!</string>
+<string name="nav_input_has_locked">የሚገባው ተቆልፏል!</string>
+<string name="nav_program_has_locked">ፕሮግራሙ ተቆልፏል!</string>
+<string name="nav_hidden_channel">የተደበቀ ቻናል!</string>
+<string name="nav_channel_audio_scrambled">የተደባለቀ ድምጽ</string>
+<string name="nav_channel_video_scrambled">የተደባለቀ ቪዲዮ</string>
+	<string name="nav_sleep_label">Sleep:</string>
+<string name="nav_sleep_off">ጠፋ</string>
+<string name="nav_sleep_minutes">ደቂቃዎች</string>
+<string name="nav_resolution_null">ቪዲዮ የለም</string>
+<string name="nav_channel_retrieving">ውሂብ በማውጣት ላይ ...</string>
+<string name="nav_unknown_audio">የማይታወቅ ኦዲዮ</string>
+<string name="nav_unknown_stereo">ያልታወቀ ስቲሪዮ</string>
+<string name="nav_unknown_audio_sundry">የማይታወቅ</string>
+<string name="nav_channel_no_audio">ድምፅ የለም</string>
+
+<!--  for epg -->
+<string name="nav_epg_type">ይተይቡ</string>
+<string name="nav_epg_sub_type">ንዑስ ዓይነት</string>
+<string name="nav_epg_zero_tip">የተያዘ ዝርዝር</string>
+<string name="nav_epg_book_list">የተያዘ የክስተት ዝርዝር</string>
+<string name="nav_epg_book_program_tip">\n ይህን ፕሮግራም ይያዝ?</string>
+<string name="nav_epg_unbook_program_tip">\n ይህን ፕሮግራም ቀድሞ ተቀምጧል፣ ይቅር?</string>
+<string name="nav_epg_book_program_coming_tip">እየመጣ ነው፣ ወደ ቻናሉ ይቀየር?</string>
+<string name="nav_epg_not_rated">ደረጃ አልተሰጠውም</string>
+<string name="nav_epg_no_program_detail">(ምንም የፕሮግራም ዝርዝር የለም.)</string>
+<string name="nav_epg_no_program_data">(ምንም የፕሮግራም ውሂብ የለም.)</string>
+<string name="nav_epg_no_program_title">(የፕሮግራም ርእስ የለም.)</string>
+<string name="nav_epg_no_title">(ርዕስ የለም)</string>
+<string name="nav_epg_unlock">መክፈት</string>
+<string name="nav_epg_unschedule">መርሃግብር አትያዝ</string>
+<string name="nav_epg_schedule">ፕሮግራም</string>
+<string name="nav_epg_unclassified">የልተመደበ</string>
+	<string name="nav_epg_not_support">NOT SUPPORT</string>
+
+<!-- for capture logo (YELLOW KEY) -->
+<string name="cplogo_title">አርማው ይነሳ</string>
+	<string name="cplogo_bt_ok">Ok</string>
+<string name="cplogo_bt_cancel">ይቁም</string>
+<string name="cplogo_bt_full_screen">ሙሉ መመልከቻ</string>
+<string name="cplogo_bt_special_area">ልዩ አካባቢ</string>
+<string name="cplogo_bt_no">አይደለም</string>
+<string name="cplogo_bt_adjust">አስተካክል</string>
+<string name="cplogo_msg_which_screen">Do you want to capture full screen or special area?
+</string>
+<string name="cplogo_msg_this_screen">ይህን ማያ ገጽ ለመቅዳት ይፈልጋሉ?</string>
+<string name="cplogo_msg_select_position">እባክዎን አርማውን ለማስቀመጥ ቦታ ይምረጡ</string>
+<string name="cplogo_msg_capturing">በመቅዳት ላይ ...</string>
+<string name="cplogo_msg_adjust_position">Do you want to adjust the position of the special
+area?</string>
+<string name="cplogo_msg_res_success">በተሳካ ሁኔታ ተይዟል</string>
+<string name="cplogo_msg_res_fail">ቀረጻ አልተሳካም፣  እባክዎ እንደገና ይሞክሩ</string>
+<string name="cplogo_capture_res_cancel">ይህ ክወና ተሰርዟል</string>
+
+<string name="vga_no_sinal_info">ሲግናል የለም. ሀይሉ ጠፍቷል.</string>
+
+<!-- for epg -->
+<string name="epg_bottom_prev_day">ቀዳሚው ቀን</string>
+<string name="epg_bottom_next_day">ቀጣይ ቀን</string>
+<string name="epg_bottom_view_detail">ዝርዝር ይመልከቱ</string>
+<string name="epg_bottom_type_filter">ማጣሪያ አይነት</string>
+	<string name="epg_bottom_prev_page">Page up</string>
+	<string name="epg_bottom_next_page">Page down</string>
+	<string name="epg_bottom_ENTER">ENTER</string>
+	<string name="epg_bottom_0">0</string>
+<string name="epg_rating_unclassified">የልተመደበ</string>
+
+<string name="epg_info_program_type">የለም</string>
+<string name="epg_password">ይለፍ ቃል</string>
+<string name="epg_password_message">የይለፍ ቃሉ የተሳሳተ ነው</string>
+<string name="epg_retrieving_show">ውሂብ በማውጣት ላይ ...</string>
+
+<string name="nav_epg_January">ጥር</string>
+<string name="nav_epg_February">የካቲት</string>
+<string name="nav_epg_March">መጋቢት</string>
+<string name="nav_epg_April">ሚያዚያ</string>
+<string name="nav_epg_May">ግንቦት</string>
+<string name="nav_epg_June">ሰኔ</string>
+<string name="nav_epg_July">ሐምሌ</string>
+<string name="nav_epg_August">ነሐሴ</string>
+<string name="nav_epg_September">መስከረም</string>
+<string name="nav_epg_October">ጥቅምት</string>
+<string name="nav_epg_November">ሕዳር</string>
+<string name="nav_epg_December">ታህሳስ</string>
+
+<string name="nav_epg_Jan">ጥር</string>
+<string name="nav_epg_Feb">የካ</string>
+<string name="nav_epg_Mar">መጋ</string>
+<string name="nav_epg_Apr">ሚያ</string>
+<string name="nav_epg_may">ግንቦት</string>
+<string name="nav_epg_Jun">ግን</string>
+<string name="nav_epg_Jul">ሰኔ</string>
+<string name="nav_epg_Aug">ሀም</string>
+<string name="nav_epg_Sep">ነሀ</string>
+<string name="nav_epg_Oct">መስ</string>
+<string name="nav_epg_Nov">ሕዳር</string>
+<string name="nav_epg_Dec">ህዳ</string>
+
+<string name="nav_epg_Sunday">እሁን</string>
+<string name="nav_epg_Monday">ሰኞ</string>
+<string name="nav_epg_Tuesday">ማክሰኞ</string>
+<string name="nav_epg_Wednesday">ረቡዕ</string>
+<string name="nav_epg_Thursday">ሀሙስ</string>
+<string name="nav_epg_Friday">አርብ</string>
+<string name="nav_epg_Saturday">ቅዳሜ</string>
+
+<string name="nav_epg_Sun">እሁ</string>
+<string name="nav_epg_Mon">ሰኞ</string>
+<string name="nav_epg_Tue">ማክ</string>
+<string name="nav_epg_Wed">እሮ</string>
+<string name="nav_epg_Thur">ሀሙ</string>
+<string name="nav_epg_Fri">አርብ</string>
+<string name="nav_epg_Sat">Sat</string>
+
+<!-- for ginga tv -->
+	<string name="nav_ginga_tv_title">Application list</string>
+<string name="nav_select">መምረጥ</string>
+<string name="nav_ginga_tv_message">ምንም ትግበራ የለም!</string>
+<string name="nav_ginga_tv_for_infobar">የጂንግታ ትግበራ በመጫን ላይ ...</string>
+<string name="nav_ginga_tv_for_tips">የ CC ለማቆም እና የጂንጋ ትግበራ መጀመር ይፈልጋሉ?</string>
+
+<!-- for upgrader -->
+<string name="nav_upgrader_title">የማዘመኛ ማስኬጃ</string>
+<string name="nav_upgrader_MoreInfo">ተጨማሪ መረጃ</string>
+<string name="nav_upgrader_invalid">ልክ ያልኾነ የፊርምዌር ፋይል !!</string>
+<string name="nav_upgrader_updating">በማዘመን ላይ ...</string>
+<string name="nav_upgrader_warnning">እባክዎን ፊርምዌሩ በመዘመን ላይ እያለ የ USB አይንቀሉ እንዲሁም ቴሌቭዥኑን አያጥፉ.</string>
+<string name="nav_upgrader_validate">ፊርምዌሩን በማረጋገጥ ላይ ...</string>
+<string name="nav_upgrader_confirm">ፊርምዌሩን ለማሻሻል እርግጠኛ ነዎት?</string>
+<string name="nav_upgrader_completed">ሶፍትዌሩ በተሳካ ሁኔታ ዘምኗል. \n እባክዎን አዲሱን ፊርምዌር ለማስነሳት ቴሌቪዥኑን ዳግም ያስጀምሩት.</string>
+<string name="nav_upgrader_failed">ማዘመኑ አልተሳካም. \n እባክዎን ድጋሚውን ለማውረድ ቴሌቪዥኑን ዳግም ያስጀምሩ.</string>
+<string name="nav_upgrader_retry">ማዘመኑ አልተሳካም.\n እንደገና መሞከር ይፈልጋሉ?</string>
+<string name="nav_upgrader_retry2">ማዘመኑ አልተሳካም፣ እባክዎን USB ን ያስገቡ. \n በድጋሚ መሞከር ይፈልጋሉ?</string>
+<string name="nav_upgrader_usb_space_not_enough">ለ USB ያሎት ቦታ በቂ አይደለም.</string>
+<string name="nav_upgrader_usb_not_ready">USB ዝግጁ አይደለም፣ እባክዎን ሰክተወው እንደገና ይሞክሩ.</string>
+<string name="nav_upgrader_internal_err">ውስጣዊ ስህተት.</string>
+<string name="nav_upgrader_not_avail_firmware">ምንም የፊርምዌር ስሪት የለም.</string>
+<string name="nav_upgrader_decry_fail">መፍታቱ አልተሳካም.</string>
+<string name="nav_upgrader_firmware_invalid">ፊርምዌሩ ልክ ያልሆነ ነው.</string>
+<string name="nav_upgrader_no_update">ለማዘመን የተገኘ ፊርምዌር የለም.</string>
+<string name="nav_upgrader_check_fail">አዲስ ፊርምዌር መፈተሹ አልሰራም.</string>
+<string name="nav_upgrader_download_fail">ፊርምዌር አውታረ መረብ ማውረድ አይቻልም.</string>
+<string name="nav_upgrader_usb_problem">በ USB ላይ ችግር አለ.</string>
+<string name="nav_upgrader_power">ኃይል</string>
+<string name="nav_upgrader_yes">አዎ</string>
+<string name="nav_upgrader_no">አይደለም</string>
+<string name="nav_upgrader_network_tip">ከሰርቨሩ ላይ አዲስ ፊርምዌር ማውረዱን አስጀምር</string>
+<string name="nav_mheg5_tips">የዲጂታል TEXT ን ከማንቃትዎ በፊት SUBTITLE መዘጋት አለበት. ለመቀጠል OK?</string>
+
+	<string name="common_dialog_msg_yes">YES</string>
+	<string name="common_dialog_msg_no">NO</string>
+<string name="common_dialog_ews_service_content">ወደ EWS አገልግሎት መቀየር ይፈልጋሉ?</string>
+<string name="common_dialog_special_service_content">ወደ ልዩ አገልግሎት ለመቀየር ይፈልጋሉ?</string>
+<string name="commmon_dialog_book_reminder_content">እየመጣ ነው፣ ወደ እሱ መቀየር ይፈልጋሉ?</string>
+<string name="common_dialog_start_cc_stop_ginga">የGinga መተግበሪያን እና CC ለመክፈት ይፈልጋሉ?</string>
+
+<string name="nav_ttx_top_block">አግድ</string>
+<string name="nav_ttx_top_group">ቡድን</string>
+<string name="nav_ttx_top_page">ገጽ </string>
+    <string name="nav_ttx_no_top">No Top</string> 
+
+<string name="nav_banner_not_rating">ደረጃ አልተሰጠውም</string>
+<!-- For Nav CI -->
+	<string name="cam_scan_warning">CI Plus Network change,you may search to update network!</string>
+	<string name="cam_scan_urgent">CI Plus Network unavailable,you must search to update network!</string> 
+	<string name="cam_scan_not_init">CI Plus Network not init,you must search to update network!</string> 
+	<string name="cam_scan_schedule">CI Plus Network search schedule time reached,you may search to update network!</string> 
+
+<string name="setup_select_country">እባክዎ አገርዎን ይምረጡ:</string>
+<string name="setup_country">ሀገር</string>
+<string name="setup_dvbc_setting">እባክዎ የቲቪ ገመድ መረጃውን ያዋቅሩ</string>
+<string name="setup_timezone">የግዜ ክልል</string>
+	<string name="setup_language_spanish">Español</string>
+	<string name="setup_language_french">Français</string>
+	<string name="setup_language_portuguese">Português</string>
+
+	<string name="setup_language_Vasco">Vasco</string>
+<string name="setup_language_Catalan">ካታላን</string>
+	<string name="setup_language_hrvatski">hrvatski</string>
+	<string name="setup_language_Cesky">Cesky</string>
+<string name="setup_language_Dansk">Dansk</string>
+<string name="setup_language_Nederlands">Nederlands</string>
+<string name="setup_language_Suomi">Suomi</string>
+<string name="setup_language_Gaelic">ጌይሊክ</string>
+	<string name="setup_language_Gallego">Gallego</string>
+<string name="setup_language_Deutsch">Deutsch</string>
+	<string name="setup_language_Magyar">Magyar</string>
+	<string name="setup_language_Italiano">Italiano</string>
+<string name="setup_language_Norsk">Norsk</string>
+<string name="setup_language_Polski">Polski</string>
+	<string name="setup_language_Romana">Romana</string>
+<string name="setup_language_Srpski">Srpski</string>
+	<string name="setup_language_Slovensky">Slovensky</string>
+	<string name="setup_language_Slovenscina">Slovenscina</string>
+<string name="setup_language_Svenska">Svenska</string>
+	<string name="setup_language_Turkce">Turkce</string>
+<string name="setup_language_Welsh">ዌልስ</string>
+	<string name="setup_language_Eesti">Eesti</string>
+	<string name="setup_language_Pyccknn">Pyccknn</string>
+
+<!-- for eu -->
+	<string name="setup_language_spanish_eu">Español</string>
+	<string name="setup_language_french_eu">Français</string>
+	<string name="setup_language_portuguese_eu">Português</string>
+<string name="setup_language_english_eu">እንግሊዘኛ</string>
+	<string name="setup_language_Vasco_eu">Vasco</string>
+<string name="setup_language_Catalan_eu">ካታላን</string>
+	<string name="setup_language_hrvatski_eu">Hrvatska</string>
+	<string name="setup_language_Cesky_eu">Čeština</string>
+<string name="setup_language_Dansk_eu">Dansk</string>
+<string name="setup_language_Nederlands_eu">Nederlands</string>
+<string name="setup_language_Suomi_eu">Suomi</string>
+<string name="setup_language_Gaelic_eu">ጌይሊክ</string>
+	<string name="setup_language_Gallego_eu">Gallego</string>
+<string name="setup_language_Deutsch_eu">Deutsch</string>
+	<string name="setup_language_Magyar_eu">Magyar</string>
+	<string name="setup_language_Italiano_eu">Italiano</string>
+<string name="setup_language_Norsk_eu">Norsk</string>
+<string name="setup_language_Polski_eu">Polski</string>
+	<string name="setup_language_Romana_eu">Română</string>
+<string name="setup_language_Srpski_eu">Srpski</string>
+	<string name="setup_language_Slovensky_eu">Slovenčina</string>
+	<string name="setup_language_Slovenscina_eu">Slovenščina</string>
+<string name="setup_language_Svenska_eu">Svenska</string>
+	<string name="setup_language_Turkce_eu">Türkçe</string>
+<string name="setup_language_Welsh_eu">ዌልስ</string>
+	<string name="setup_language_Eesti_eu">Eesti</string>
+	<string name="setup_language_Pyccknn_eu">Русский</string>
+
+<string name="setup_dvbc_config_scanmode">መፈለጊያ ሞድ</string>
+<string name="setup_dvbc_config_frequency">ድግግሞሽ (KHZ)</string>
+<string name="setup_dvbc_config_modulation">ሞጁሌሽን</string>
+<string name="setup_dvbc_config_symbolrate">የምልክት ተመን (Ksym/s)</string>
+<string name="setup_dvbc_config_networkid">ኔትዎርክ አይዲ</string>
+
+	<string name="setup_default_postal_code">00000</string>
+<string name="setup_set_postal_code_editview">ፓስታ ኮድ</string>
+
+<string name="setup_set_password"></string>
+<string name="setup_set_password_titile1">አዲስ ይለፍቃል</string>
+<string name="setup_set_password_titile2">ይለፍ ቃሉን አረጋግጥ</string>
+	<string name="setup_set_password_default_pwd">0000</string>
+
+<string name="setup_cable_select_operation">ኦፕሬተር ይምረጡ</string>
+
+<string name="setup_dvbs_statellite_type">የሳተላይት ዓይነት</string>
+<string name="setup_dvbs_statellite_type_title">እባክዎ የሳተላይት አይነት ይምረጡ.</string>
+
+<string name="setup_dvbs_statellite_select_operator">ኦፕሬተር ይምረጡ</string>
+<string name="setup_dvbs_statellite_select_operator_title">ከሚከተለት ዝርዝር ውስጥ አንድ ኦፕሬተር ብቻ መምረጥ ይችላሉ.</string>
+
+<string name="setup_cable_setting"></string>
+<string name="setup_cable_setting_title">እባክዎ የቲቪ ገመዱን መረጃ ያዋቅሩ.</string>
+
+<string name="setup_dvbs_config_info"></string>
+<string name="setup_dvbs_config_info_title">እባክዎ የቲቪ ቃኚ መረጃን ያዋቅሩ.</string>
+
+<string name="setup_dvbs_satellite_list">ሳተላይት ይምረጡ</string>
+<string name="setup_dvbs_satellite_list_title">እባክዎን ለመፈለግ ወይም ለማረም ሳተላይቶች ይምረጡ.</string>
+
+<string name="setup_dvbs_config_setting"></string>
+<string name="setup_dvbs_config_setting_title">እባክዎ የአንቴና አይነት ያዋቅሩ.</string>
+
+<string name="setup_dvbs_satellite_config">የአውታር ማዋቀር</string>
+<string name="setup_dvbs_satellite_config_title">እባክዎ የሳተላይቱን ግቤት ያዘጋጁ.</string>
+<string name="setup_dvbs_satellite_config_tp_title">እባክዎ የትራንስፖንደር ግቤቱን ያዘጋጁ.</string>
+<string name="setup_dvbs_satellite_config_diseqc_title">እባክዎ የ DiSEqC ግቤት ያስቀምጡ.</string>
+<string name="setup_dvbs_satellite_config_diseqc12_motor_title">እባክዎ የ DiSEqC 1.2 ሞተር ግቤት ያዘጋጁ.</string>
+<string name="setup_dvbs_satellite_config_diseqc12_movementcontrol_title">እባክዎ የ DiSEqC 1.2 ን የማንቀሳቀስ መቆጣጠሪያ ግቤትን ያዘጋጁ.</string>
+<string name="setup_select_set">አዘጋጅ</string>
+<string name="nav_oad_dialog_title">ከአየር በላይ አውርድ</string>
+<string name="nav_oad_scanning">በመቃኘት ላይ</string>
+	<string name="nav_oad_scanning_result_fail">Can not find new software on the air</string>
+
+<string name="nav_oad_programming">ፕሮግራሚንግ</string>
+<string name="nav_oad_downloading">ማውረድ</string>
+<string name="nav_oad_downloading_info">ይህ ሂደት እስከ 25 ደቂቃ ሊወስድ ይችላል</string>
+<string name="nav_oad_flash_confirm">ሶፍትዌሩን በተሳካ ሁኔታ ያውርዱ. ብርሀኑን ማስጀመር ይፈልጋሉ?</string>
+<string name="nav_oad_flash_fail">ፕሮግራሚንግ አልተሳካም. እንደገና ይሞከር? \n \n እባክዎ ወደ አገልግሎት ማዕከል ይደውሉ.</string>
+<string name="nav_oad_restart_confirm">ሶፍትዌር ማውረዱ ተሳክቷል! ቴሌቪዥኑ ዳግም ይጀምር?</string>
+
+<string name="nav_oad_warning_msg_str">ማስጠንቀቂያ: በሂደት ላይ. እባክዎ ቴሌቭዢኑን ሊያበላሽ ስለሚችል የቴሌቭዢኑን ሀይል ማስተላለፊያ ገመድ አይንቀሉ.</string>
+
+	<string name="nav_oad_manual_download_confirm">Software update.A new recommended software update is avaiable.The update might take some time and the screen might go black.Do not turn of the receiver off during
+the update.Do you want to update now?</string>
+<string name="nav_oad_manual_download_fail">ሶፍትዌሩን ማውረድ አልተቻለም. እንደገና መሞከር ይፈልጋሉ?</string>
+
+	<string name="nav_oad_auto_download_confirm">Software update.A new recommended software update is avaiable.The update might take some time and the screen might go black.Do not turn of the receiver off during
+the update.Do you want to update now?It will start automatically in %s second(s)</string>
+
+<string name="nav_oad_schedule_oad_accept_schedule_confirm">የሶፍትዌሩ ዘምኗል. የሚመከር አዲስ የፍትዌር ዝማኔ በ %s ይገኛል. ማሻሻሉ ትንሽ ጊዜ ስለሚወስድ መመልከቻው ጥቁር ሊሆን ይችላል. በማዘመኑ ጊዜ መቀበያው መጥፋት የለበትም. ይህን ማዘመኛ ከተቀበሉ፣ በተያዘለት ሰአት ግዜ መቀበያውን እንዲጠባበቅ ያድርጉ. ማዘመኛውን መቀበል ይፈልጋሉ?</string>
+<string name="nav_oad_schedule_oad_change_channel_confirm">የሶፍትዌር ዝማኔ. አዲስ የተመከረ ሶፍትዌር ዝማኔ በሌላ ቻናል ላይ ሊኖር ይችላል. ለማውረድ ከተቀበሉ, በራስ ሰር ወደ ሰርጡ ሊለወጥ ይችላል. አሁን ሊያደርጉት ይፈልጋሉ? በራስ-ሰር በ% s ሰከንድ (ዎች) ይጀምራል.</string>
+<string name="nav_oad_atuo_download_with_bgm">አዲስ ሶፍትዌር ተገኝቷል! \n ቴሌቪዥኑ ዝግጁ ሆኖ ሲገኝ ሶፍትዌሩን በራስሰር ለማውረድ ይቀበላሉ?</string>
+
+<string name="setup_language_english_value">ፕሮግራሚንግ</string>
+<string name="setup_language_chinese_value">ፕሮግራሚንግ</string>
+<string name="setup_language_spanish_value">ፕሮግራሚንግ</string>
+<string name="setup_language_french_value">ፕሮግራሚንግ</string>
+<string name="setup_language_portuguese_value">ፕሮግራሚንግ</string>
+
+<string name="setup_country_cty_1">ኦስትሪያ</string>
+<string name="setup_country_cty_2">ቤልጂየም</string>
+<string name="setup_country_cty_3">ስዊዘርላንድ</string>
+<string name="setup_country_cty_4">ቼክ ሪፐብሊክ</string>
+<string name="setup_country_cty_5">ጀርመን</string>
+<string name="setup_country_cty_6">ዴንማርክ</string>
+<string name="setup_country_cty_7">ስፔን</string>
+<string name="setup_country_cty_8">ፊንላንድ</string>
+<string name="setup_country_cty_9">ፈረንሳይ</string>
+<string name="setup_country_cty_10">ዩናይትድ ኪንግደም</string>
+<string name="setup_country_cty_11">ጣልያን</string>
+<string name="setup_country_cty_12">ሉክሰምበርግ</string>
+<string name="setup_country_cty_13">ኔዘርላንድ</string>
+<string name="setup_country_cty_14">ኖርዌ</string>
+<string name="setup_country_cty_15">ሲውድን</string>
+<string name="setup_country_cty_16">ቡልጋሪያ</string>
+<string name="setup_country_cty_17">ክሮሺያ</string>
+<string name="setup_country_cty_18">ግሪክ</string>
+<string name="setup_country_cty_19">ሀንጋሪ</string>
+<string name="setup_country_cty_20">አየርላንድ</string>
+<string name="setup_country_cty_21">ፖላንድ</string>
+<string name="setup_country_cty_22">ፖርቱጋል</string>
+<string name="setup_country_cty_23">ሮማኒያንኛ</string>
+<string name="setup_country_cty_24">ሩሲያ</string>
+<string name="setup_country_cty_25">ሰርቢያ</string>
+<string name="setup_country_cty_26">ስሎቫኪያ</string>
+<string name="setup_country_cty_27">ስሎቫኒያ</string>
+<string name="setup_country_cty_28">ቱርክ</string>
+<string name="setup_country_cty_29">ኢስቶኒያ</string>
+<string name="setup_country_cty_30">አውስትራሊያ</string>
+<string name="setup_country_cty_31">ኒውዚላንድ</string>
+<string name="setup_country_cty_32">ኢንዶኔዢያ</string>
+<string name="setup_set_timezone">እባክዎ የሰዓትዎን ዞን ይምረጡ:</string>
+<string name="setup_set_password_title">እባክዎ የይለፍ ቃሉን ያዘጋጁት. "0000" ትክክለኛ የይለፍ ቃል አይደለም</string>
+<string name="setup_set_postalcode">እባክዎ የፖስታ ኮድ ያስገቡ.</string>
+<string name="setup_set_password_success_msg">የይለፍ ቃሉ በተሳካ ሁኔታ ተዘጋጅቷል!</string>
+
+<string name="dvbc_operator_others">ሌሎች</string>
+	<string name="dvbc_operator_upc">UPC</string>
+<string name="dvbc_operator_comhem">ኮምሃም</string>
+<string name="dvbc_operator_canal_digital">Canal Digital</string>
+<string name="dvbc_operator_tele2">ቴሌ2</string>
+<string name="dvbc_operator_stofa">Stofa</string>
+<string name="dvbc_operator_yousee">Yousee</string>
+<string name="dvbc_operator_ziggo">Ziggo</string>
+<string name="dvbc_operator_unitymedia">Unitymedia</string>
+<string name="dvbc_operator_numericable">Numericable</string>
+<string name="dvbc_operator_volia">Volia</string>
+<string name="dvbc_operator_telemach">Telemach</string>
+<string name="dvbc_operator_onlime">Onlime</string>
+<string name="dvbc_operator_akado">Akado</string>
+	<string name="dvbc_operator_tkt">TKT</string>
+	<string name="dvbc_operator_divan_tv">DIVAN TV</string>
+	<string name="dvbc_operator_net1">NET1</string>
+	<string name="dvbc_operator_kdg">KDG</string>
+	<string name="dvbc_operator_kbw">KBW</string>
+	<string name="dvbc_operator_blizoo">BLIZOO</string>
+<string name="dvbc_operator_telent">Telent</string>
+<string name="dvbc_operator_telent_eu">Telenet</string>
+
+<string name="dvbc_operator_glenten">Glenten</string>
+<string name="dvbc_operator_tele_columbus">Tele Columbus</string>
+	<string name="dvbc_operator_rcs_rds">RCS RDS</string>
+
+<string name="dvbt_inactivechannel_nw_chg">በአውታረመረብ ለውጥ ምክንያት አንዳንድ ቻናሎች እየሰሩ አይደለም. አሁን ሊያስወግዷቸው ይፈልጋሉ?</string>
+<string name="tnt_hd_nw_chg">የአውታረ መረቡ ውሂብ ተቀይሯል. የማዘመን ቅኝት ማድረግ ይፈልጋሉ?</string>
+<!-- DVBS operators -->
+<string name="dvbs_operator_astra_hd_plus">Astra HD+</string>
+<string name="dvbs_operator_sky_deutschland">Sky Deutschland</string>
+    <string name="dvbs_operator_ors">ORS</string>
+<string name="dvbs_operator_austriasat">AustriaSat</string>
+<string name="dvbs_operator_cannal_digital">Cannal Digital</string>
+<string name="dvbs_operator_tv_vlaanderen_hd">TV VLAANDEREN HD</string>
+<string name="dvbs_operator_tv_vlaanderen_sd">TV VLAANDEREN SD</string>
+<string name="dvbs_operator_telesat_belgium">TELESAT Belgium</string>
+<string name="dvbs_operator_telesat_luxembourg">TELESAT Luxembourg</string>
+<string name="dvbs_operator_seznam_kanalu_pro_cesko">Seznam kanalu pro Cesko</string>
+<string name="dvbs_operator_seznam_kanalu_pro_slovensko">Seznam kanalu pro Slovensko</string>
+<string name="dvbs_operator_cannaldigitaal_hd">CannalDigitaal HD</string>
+<string name="dvbs_operator_cannaldigitaal_sd">CannalDigitaal SD</string>
+<string name="dvbs_operator_n_na_karte">n na karte</string>
+<string name="dvbs_operator_digiturk_eutelsat">Digiturk Eutelsat</string>
+<string name="dvbs_operator_digiturk_turksat">Digiturk Turksat</string>
+<string name="dvbs_operator_fransat">Fransat</string>
+<string name="dvbs_operator_cyfraplus">Cyfra+</string>
+<string name="dvbs_operator_cyfrowy_polsat">Cyfrowy Polsat</string>
+<string name="dvbs_operator_dsmart">D-Smart</string>
+<string name="dvbs_operator_ntvplus">NTV+</string>
+    <string name="dvbs_operator_others">others</string>
+<string name="dvbs_operator_name_nc_plus">nc+/nc+ MIX</string>
+<string name="dvbs_operator_name_smart_hd_plus">smart HD+</string>
+<string name="dvbs_operator_name_tivusat">tivùsat</string>
+
+<string name="dvbs_antenna_type_name_universal">ዩንቨርሳል</string>
+<string name="dvbs_antenna_type_name_singlecable">ሲግናል ገመድ</string>
+    <string name="dvbs_antenna_setup">Antenna setup</string>
+<string name="dvbs_satellite_setting">ሳተላይት</string>
+<string name="dvbs_satellite_name">ሳተላይት ስም</string>
+<string name="dvbs_satellite_orbit">መዞሪያ አቀማመጥ</string>
+<string name="dvbs_lnb_freq">LNB ድግግሞሽ</string>
+<string name="dvbs_diseqc_set">DiSEqC ተዘጋጅቷል</string>
+<string name="dvbs_diseqc12_motor_movementcontrol">የእንቅስቃሴ ቁጥጥር</string>
+<string name="dvbs_diseqc12_motor_disablelimits">ገደቦችን አሰናክል</string>
+<string name="dvbs_diseqc12_motor_limiteast">Limit east</string>
+<string name="dvbs_diseqc12_motor_limitwest">Limit west</string>
+<string name="dvbs_diseqc12_motor_storeposition">ቦታን ያስቀምጡ</string>
+<string name="dvbs_diseqc12_motor_gotoposition">ወደ ቦታ ሂድ</string>
+<string name="dvbs_diseqc12_motor_gotoreference">ወደ ማጣቀሻ ሂድ</string>
+<string name="dvbs_diseqc12_movement_stepsize">የመጠን ደረጃ</string>
+<string name="dvbs_diseqc12_movement_timeout">የእረፍት ጊዜ (ዎች)</string>
+<string name="dvbs_diseqc12_movement_moveeast">ወደ ምሥራቅ ውሰድ</string>
+<string name="dvbs_diseqc12_movement_movewest">ወደ ምዕራብ ይውሰድ</string>
+<string name="dvbs_diseqc12_movement_stopmovement">እንቅስቃሴ አቁሙ</string>
+<string name="dvbs_diseqc10_port">DiSEqC 1.0 ፖርት</string>
+<string name="dvbs_diseqc11_port">DiSEqC 1.1 ፓርት</string>
+<string name="dvbs_diseqc_motor">DiSEqC ሞተር</string>
+<string name="dvbs_diseqc_motor_12">DiSEqC 1.2</string>
+<string name="dvbs_diseqc_input">Diseqc ግብዓት</string>
+<string name="dvbs_diseqc_input_0">አሰናክል</string>
+<string name="dvbs_diseqc_input_1">Diseqc A</string>
+<string name="dvbs_diseqc_input_2">Diseqc B</string>
+<string name="dvbs_diseqc_input_3">Diseqc C</string>
+<string name="dvbs_diseqc_input_4">Diseqc D</string>
+<string name="dvbs_tone_22khz">22KHz ቶን</string>
+<string name="dvbs_tone_22khz_off">ጠፋ</string>
+<string name="dvbs_tone_22khz_on">በራ</string>
+<string name="dvbs_tone_22khz_auto">ራስ</string>
+<string name="dvbs_trasponder">ትራንስፖንደር</string>
+<string name="dvbs_tp_fre">ፍሪክዌንሲ</string>
+<string name="dvbs_tp_sys_rate">የምልክት ተመን (Ksym/s)</string>
+<string name="dvbs_tp_pol">ፖላራይዜሽን</string>
+
+<string name="dvbs_tp_pol_0_unknown">የማይታወቅ</string>
+<string name="dvbs_tp_pol_1_HORIZONTAL">አግድም</string>
+<string name="dvbs_tp_pol_2_VERTICAL">አቀባዊ</string>
+<string name="dvbs_tp_pol_3_LEFT">ግራ</string>
+<string name="dvbs_tp_pol_4_RIGHT">ቀኝ</string>
+
+<string name="dvbs_add_new_satl">አዲስ ሳተላይት ጨምር</string>
+<string name="dvbs_add_new_tp">አዲስ ትራንስፖርተር አክል</string>
+<string name="dvbs_satellite_tuning">የሳተላይት ማስተካከያ</string>
+<string name="dvbs_satellite_channel">ቻናሎች</string>
+<string name="dvbs_scan_mode">መፈለጊያ ሞድ</string>
+<string name="dvbs_network_search">ኔትዎርክ መፈለግ</string>
+<string name="dvbs_satellite_search">ፈልግ</string>
+<string name="dvbs_scan_mode_auto">ራስ</string>
+<string name="dvbs_scan_mode_preset">ቅድመ-ቅምጥ</string>
+<string name="dvbs_channel_free">ነፃ</string>
+<string name="dvbs_channel_all">ሁሉ</string>
+<string name="dvbs_sat_no_satl">(ምንም ሳተላይት የለም.)</string>
+<string name="dvbs_manual_tuning">የሳተላይት በእጅ ማስተካከያ</string>
+<string name="dvbs_sat_no_tp">(ተራንስፖንደር የለም.)</string>
+<string name="dvbs_sat_name_empty_alarm">የሳተላይት ስም ባዶ ነው. \n እባክዎን ያስገቡ!</string>
+<string name="dvbs_satellite_rescan">ሳተላይት በድጋሚ ቃኝ</string>
+<string name="dvbs_satellite_add">የሳተላይት አክል</string>
+<string name="dvbs_satellite_update">የሳተላይት ዝመና</string>
+<string name="dvbs_satellite_status">የሳተላይት ሁኔታ</string>
+<string name="dvbs_scan_mode_network">ኔትዎርክ</string>
+<string name="dvbs_scan_mode_full">ሙሉ</string>
+<string name="dvbs_scan_satellites">ሳተላይቶች</string>
+<string name="dvbs_scan_positon">ቦታ</string>
+<string name="dvbs_lnb_power">LNB ሀይል</string>
+<string name="dvbs_antenna_type">የአንቴና ዓይነት</string>
+<string name="dvbs_antenna_type_universal">ዩንቨርሳል</string>
+<string name="dvbs_antenna_type_singlecable">ሲግናል ገመድ</string>
+<string name="dvbs_user_band">ማስተካከያ</string>
+<string name="dvbs_user_band_1">የተጠቃሚ ባንድ 1</string>
+<string name="dvbs_user_band_2">የተጠቃሚ ባንድ 2</string>
+<string name="dvbs_user_band_3">የተጠቃሚ ባንድ 3</string>
+<string name="dvbs_user_band_4">የተጠቃሚ ባንድ 4</string>
+<string name="dvbs_user_band_5">የተጠቃሚ ባንድ 5</string>
+<string name="dvbs_user_band_6">የተጠቃሚ ባንድ 6</string>
+<string name="dvbs_user_band_7">የተጠቃሚ ባንድ 7</string>
+<string name="dvbs_user_band_8">የተጠቃሚ ባንድ 8</string>
+<string name="dvbs_band_freq">የባንድ ድግግሞሽ</string>
+<string name="dvbs_band_freq_user_define">ተጠቃሚ የሚፈታው</string>
+<string name="dvbs_position">ቦታ</string>
+    <string name="dvbs_position_a">A</string>
+    <string name="dvbs_position_b">B</string>
+<string name="dvbs_position_c">C</string>
+<string name="dvbs_position_d">D</string>
+<string name="dvbs_air">አነቴና</string>
+<string name="dvbs_cable">ገመድ</string>
+<string name="dvbs_preferred_satellite">የተመረጠው ሳተላይት</string>
+    <string name="dvbs_general_satellite">General Satellite</string>
+<string name="sys_info_lnb">LNB</string>
+<string name="lnb_universal">ዩንቨርሳል</string>
+    <string name="lnb_mdu1">MDU1</string>
+    <string name="lnb_mdu2">MDU2</string>
+    <string name="lnb_mdu3">MDU3</string>
+    <string name="lnb_mdu4">MDU4</string>
+    <string name="lnb_mdu5">MDU5</string>
+<string name="dvbs_tone_burst">ቶን ብረስት</string>
+<string name="dvbs_tone_burst_disable">አሰናክል</string>
+    <string name="dvbs_tone_burst_a">Tone Burst A </string>
+<string name="dvbs_tone_burst_b">ቶን ብረስት ለ</string>
+
+<string name="dvbs_sat_on">በራ</string>
+<string name="dvbs_sat_off">ጠፋ</string>
+    <string name="dvbs_sat_TUNER_LNB_POWER_13V_18V">13V_18V</string>
+    <string name="dvbs_sat_TUNER_LNB_POWER_14V_19V">14V_19V</string>
+</resources>

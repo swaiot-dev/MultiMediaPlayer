@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+	<string name="mmp_menu_sort">დახარისხება</string>
+	<string name="mmp_menu_mediatype">მედია ტიპი </string>
+	<string name="mmp_menu_thumb">ესკიზის ზომა</string>
+	<string name="mmp_menu_copy">ასლის დამახსოვრება</string>
+	<string name="mmp_menu_paste">ჩასმა</string>
+	<string name="mmp_menu_delete">წაშლა</string>
+	<string name="mmp_menu_recur">რეკურსიული პარსერი</string>
+	<string name="mmp_menu_not_recur">ნორმალური პარსერი </string>
+	<string name="mmp_menu_photoframe">ფოტო ჩარჩო </string>
+	<string name="mmp_menu_photo_frame">ფოტო ჩარჩოს გამოსახულება დაყენებულია OK-ზე</string>
+
+	<string name="mmp_menu_play">ჩართვა</string>
+	<string name="mmp_menu_pause">პაუზა</string>
+	<string name="mmp_menu_repeat">გამეორება</string>
+	<string name="mmp_menu_shuffle">არევა </string>
+	<string name="mmp_menu_duration">ხანგრძლივობა</string>
+	<string name="mmp_menu_effect">ეფექტი</string>
+	<string name="mmp_menu_showinfo">ინფორმაციის ჩვენება </string>
+	<string name="mmp_menu_frame">ფოტო ჩარჩოს გამოსახულება </string>
+	<string name="mmp_menu_rotate">ტრიალი</string>
+	<string name="mmp_menu_3d_photo">3D ფოტო</string>
+
+	<string name="mmp_menu_display">დისპლეის ხაზი </string>
+	<string name="mmp_menu_timeoffset">დროის გასწორება </string>
+	<string name="mmp_menu_encoding">კოდირება </string>
+
+	<string name="mmp_menu_picturemode">სურათის რეჟიმი</string>
+	<string name="mmp_menu_screenmode">ეკრანის რეჟიმი</string>
+
+	<string name="mmp_menu_font">ფონტი </string>
+
+	<string name="mmp_menu_size">ზომა</string>
+	<string name="mmp_menu_style">სტილი</string>
+	<string name="mmp_menu_color">ფერი</string>
+	<!-- child menu -->
+
+	<string name="mmp_menu_date">თარიღი</string>
+	<string name="mmp_menu_name">სახელი</string>
+	<string name="mmp_menu_album">ალბომი</string>
+	<string name="mmp_menu_artist">არტისტი </string>
+	<string name="mmp_menu_genre">ჟანრი </string>
+	<string name="mmp_menu_type">ტიპი</string>
+	
+	<string name="mmp_menu_phototext">სურათი</string>
+	<string name="mmp_menu_music">აუდიო</string>
+	<string name="mmp_menu_video">ვიდეო</string>
+	<string name="mmp_menu_text">ტექსტი</string>
+	<string name="mmp_menu_dmr">Dmr</string>
+	<string name="mmp_menu_small">პატარა</string>
+	<string name="mmp_menu_medium">საშუალო</string>
+	<string name="mmp_menu_large">დიდი</string>
+	<string name="mmp_menu_onephotomode">ერთი ფოტორეჟიმი</string>
+	<string name="mmp_menu_datafraveler">DataFraveler G2</string>
+	<string name="mmp_menu_none">არცერთი</string>
+	<string name="mmp_menu_repeatone">ერთის გამეორება</string>
+	<string name="mmp_menu_repeatall">ყველას გამეორება</string>
+	<string name="mmp_menu_shuffleoff">არევა გამორთულია</string>
+	<string name="mmp_menu_shuffleon">არევა ჩართულია</string>
+	<string name="mmp_menu_short">მოკლე</string>
+	<string name="mmp_menu_long">გრძელი </string>
+	<string name="mmp_menu_dissolve">გახსნა </string>
+	<string name="mmp_menu_wiperight">გაუსვით მარჯნივ</string>
+	<string name="mmp_menu_wipeleft">გაუსვით მარცხნივ </string>
+	<string name="mmp_menu_wipeup">გაუსვით ზემოთ</string>
+	<string name="mmp_menu_wipedown">გაუსვით ქვემოთ </string>
+	<string name="mmp_menu_boxin">ყუთში</string>
+	<string name="mmp_menu_boxout">ყუთის გარეთ</string>
+
+	<string name="mmp_menu_random">შემთხვევითი</string>
+
+	<string name="mmp_menu_off">გამორთვა</string>
+	<string name="mmp_menu_singleline">ერთეული ხაზი </string>
+	<string name="mmp_menu_multiline">მრავალი ხაზი </string>
+	<string name="mmp_menu_auto">ავტო</string>
+	<string name="mmp_menu_userdefine">მომხმარებლის განსაზღვრა </string>
+	<string name="mmp_menu_user">მომხმარებელი</string>
+	<string name="mmp_menu_cinema">ფილმი</string>
+	<string name="mmp_menu_sport">სპორტი</string>
+	<string name="mmp_menu_vivid">ცხადი</string>
+	<string name="mmp_menu_hibright">მაღალი განათება</string>
+	<string name="mmp_menu_normal">ნორმალური</string>
+	<string name="mmp_menu_letterbox">საფოსტო ყუთი </string>
+	<string name="mmp_menu_scan">სკანირება</string>
+	<string name="mmp_menu_zoom">ზუმი</string>
+	<string name="mmp_menu_dotbydot">წერტილ-წერტილით</string>
+
+	<string name="mmp_menu_regular">რეგულარული </string>
+	<string name="mmp_menu_italic">Italic</string>
+	<string name="mmp_menu_bold">Bold</string>
+	<string name="mmp_menu_outline">Bold Italic</string>
+	<string name="mmp_menu_white">თეთრი</string>
+	<string name="mmp_menu_blue">ლურჯი</string>
+	<string name="mmp_menu_red">წითელი</string>
+	<string name="mmp_menu_green">მწვანე</string>
+	<string name="mmp_menu_black">შავი</string>
+	<string name="mmp_menu_lyricoptions">ტექსტის პარამეტრები </string>
+
+	<string name="mmp_menu_showscore">სპექტრის ჩვენება</string>
+	<string name="mmp_menu_hidescore">სპექტრის დამალვა </string>
+	<string name="mmp_menu_onlyaudio">მხოლოდ აუდიო</string>
+
+	<string name="mmp_photo">სურათი</string>
+	<string name="mmp_audio">აუდიო</string>
+	<string name="mmp_video">ვიდეო</string>
+	<string name="mmp_text">ტექსტი</string>
+	<string name="mmp_select">შერჩევა</string>
+	<string name="mmp_input">შესვლა</string>
+	<string name="mmp_exit">გასასვლელი</string>
+	<string name="mmp_emptyfile">მიმდინარე ფოლდერი არის ცარიელი!</string>
+	<string name="mmp_reutip"> მიმდინარეობს ამ ფოლდერის პარსირება, გთხოვთ დაელოდეთ....</string>
+	<string name="mmp_pop_repeat_tvrepeat">ყველას გამეორება</string>
+	<string name="mmp_pop_repeat_tvsingle">ერთის გამეორება</string>
+	<string name="mmp_pop_time_tv">მოკლე</string>
+	<string name="mmp_pop_view_tv">არცერთი</string>
+	<string name="mmp_pop_menu">მენიუ</string>
+	<string name="mmp_pop_enter">შესვლა</string>
+	<string name="mmp_tip_play">ჩართვა</string>
+	<string name="mmp_tip_exit">გასასვლელი</string>
+	<string name="mmp_tip_enter">  Enter </string>
+	<string name="mmp_tip_select">შერჩევა</string>
+
+	<string name="mmp_info_album">ალბომი:</string>
+	<string name="mmp_info_orientation">ორიენტაცია...</string>
+	<string name="mmp_info_artist">შემსრულებელი:</string>
+	<string name="mmp_info_name">სახელწოდება:</string>
+	<string name="mmp_info_date">თარიღი:</string>
+	<string name="mmp_info_size">ზომა:</string>
+	<string name="mmp_info_next">შემდეგი: </string>
+	<string name="mmp_info_audio">აუდიო: </string>
+	<string name="mmp_info_exposure">ექსპოზიციის დრო: </string>
+	<string name="mmp_info_fnumber">Fრიცხვი:</string>
+	<string name="mmp_info_program">ექსპოზიიციის პროგრამა: </string>
+	<string name="mmp_info_colorspace">ფერი სივრცე:</string>
+	<string name="mmp_info_title">სათაური:</string>
+	<string name="mmp_info_genre">ჟანრი:</string>
+	<string name="mmp_info_year">წელი:</string>
+	<string name="mmp_info_duration">ხანგრძლივობა: </string>
+	<string name="mmp_info_director">რეჟისორი:</string>
+	<string name="mmp_info_copyrght">საავტორო უფლება:</string>
+
+	<string name="mmp_info_lastline">ბოლო ზახი: </string>
+	<string name="mmp_info_nextline">შემდეგი ხაზი: </string>
+	<string name="mmp_info_lastpage">ბოლო გვერდი</string>
+	<string name="mmp_info_nextpage">შემდეგი გვერდი</string>
+
+	<string name="mmp_info_nolrc">არ არის lrc</string>
+
+	<!-- Network -->
+	<string name="mmp_loading_tip"> მიმდინარეობს ამ ფოლდერის პარსირება, გთხოვთ დაელოდეთ....</string>
+	<string name="mmp_user_name">მომხმარებლის სახელი </string>
+	<string name="mmp_password">პაროლი</string>
+	<string name="mmp_confirm">დადასტურება</string>
+	<string name="mmp_vkb">Vkb</string>
+	<string name="mmp_ok">ოქეი (თანხმობა)</string>
+	<string name="mmp_cancel">გაუქმება</string>
+
+	<string name="mmp_login_failed_tip">მომხმარებლის სახელი ან პაროლი არის შეცდომით!</string>
+	<string name="mmp_dlnaserver_disconnected">DLNA სერვერი გაქრა, გთხოვთ გადაამოწმოთ ქსელი და სერვერის მდგომარეობა!</string>
+	<!-- Network -->
+
+	<string name="mmp_title_copy">გადაწერა</string>
+	<string name="mmp_title_confirm_replace">დაადასტურეთ ფაილის შეცვლა </string>
+	<string name="mmp_title_confirm_delete">დაადასტურეთ ფაილ(ებ)ის წაშლა </string>
+	<string name="mmp_message_copy">%1$s\nდან %2$s\nTo %3$s</string>
+	<string name="mmp_message_confirm_replace">ეს ფოლდერი უკვე შეიცავს ფაილს სახელად\n%s</string>
+	<string name="mmp_message_confirm_delete">დარწმუნებული ხართ რომ გსურთ წაშალოთ მონიშნული ფაილ(ებ)ი? </string>
+
+	<string name="mmp_yes">დიახ</string>
+	<string name="mmp_yes_to_all">კი ყველას</string>
+	<string name="mmp_no">არა</string>
+
+	<string name="mmp_capture_title">ლოგოს დაფიქსირება </string>
+	<string name="mmp_capture_confirm">გსურთ დააფიქსიროთ ეს გამოსახულება ეკრანზე?</string>
+	<string name="mmp_toast_no_photoframe">არ არის ფოტო ჩარჩოს გამოსახულება ჩასართველად</string>
+
+	<string name="mmp_video_notsupport">ვიდეო კოდეკი არ არის მხარდაჭერილი </string>
+	<string name="mmp_audio_notsupport">არ არის ამ აუდიო ფორმატის მხარდაჭერა</string>
+	<string name="mmp_video_only">ვიდეო მხოლოდ</string>
+	<string name="mmp_frame_photo_sleeptime">გამორთვის დრო</string>
+	<string name="mmp_sleeptime_lable">ძილის დრო: </string>
+	<string name="mmp_video_stopresume">გაჩერება გაგრძელება </string>
+	<string name="mmp_can_notpause">არ შეუძლია დაპაუზება </string>
+	
+	<string name="mmp_photo_type_notsupport">ფაილი არ არის მხარდაჭერილი </string>
+
+	<string name="mmp_lable_rorate">ტრიალი</string>
+	<string name="mmp_lable_subtitle_off">გამორთვა</string>
+
+	<string name="mmp_info_whitebalance">თეთრიბალანსი: </string>
+	<string name="mmp_info_make">მარკა: </string>
+	<string name="mmp_info_model">მოდელი:</string>
+	<string name="mmp_info_flash">Flash:</string>
+	<string name="mmp_info_focallength">ფოკალურისიგრძე: </string>
+	<string name="mmp_menu_pic_setting">სურატის პარამეტრი </string>
+	<string name="mmp_menu_audio_setting">აუდიო პარამეტრები</string>
+
+	<string name="mmp_file_notsupport">ფაილი არ არის მხარდაჭერილი </string>
+	<string name="mmp_notsupport">არ აქვს მხარდაჭერა</string>
+	<string name="mmp_seek_notsupport">ძიება არ არის მხარდაჭერილი </string>
+	<string name="mmp_step_notsupport">საფეხური არ არის ხმარდაჭერილი</string>
+	<string name="mmp_featue_notsupport">მახასიათებელი არ არის ხელმისაწვდომი </string>
+	<string name="mmp_buffer_not_enough">არ არის საკმარისი ბუფერი </string>
+	<string name="mmp_nodevice">მოწყობილობა შეერთებული არ არის!</string>
+	<string name="mmp_time_out">შეყვანილი დროის კოდი არის არასწორი! \nგთხოვთ დარწმუნდით  რომ სრულ დროზე ნაკლებია </string>
+    <string name="mmp_file_corrupt">ფაილი გაფუჭებულია</string>
+    <string name="mmp_menu_mount_iso">ჩასვით მიმდინარე iso ფაილი</string>
+	<string name="mmp_menu_unmount_iso">ამოღება მიმდინარე მოწყობილობა</string>
+
+	<string name="mmp_media_info_scrambled_audio_video_service">არეული ვიდეო და აუდიო </string>
+	<string name="mmp_media_info_scrambled_audio_clear_video_service">არეული აუდიო </string>
+	<string name="mmp_media_info_scrambled_audio_no_video_service">არეული აუდიო, აუდიო მხოლოდ</string>
+	<string name="mmp_media_info_scrambled_video_clear_audio_service">არეული ვიდეო </string>
+	<string name="mmp_media_info_scrambled_video_no_audio_service">არეული ვიდეო, ვიდეო მხოლოდ</string>
+
+    <string name="mmp_txt_const_font">არა</string>
+
+    <string name="mmp_drm_register">თქვენი მოწყობილობა არ არის ავტორიზებული რომ დაუკრას \n ეს  Divx@ დაცული ვიდეო</string>
+    <string name="mmp_drm_register_expired">Divx@ იჯარას გაუვიდა ვადა </string>
+    <string name="mmp_drm_register_used">Divx@ იჯარამ გამოიყენა \n %1$s %2$s ნახვიდან </string>
+    <string name="mmp_drm_register_continue">გსურთ გაგრძელება? </string>
+    
+    <string name="mmp_divx_title">სათაური</string>
+    <string name="mmp_divx_edition">გამოცემა</string>
+    <string name="mmp_divx_chapter">განყოფილება</string>
+
+    <string name="mmp_divx_titleName">სათაური:</string>
+    <string name="mmp_divx_chapterName">თავი:</string>
+    <string name="mmp_divx_rateName">განაკვეთი: </string>
+    <string name="mmp_divx_audioName">აუდიო: </string>
+    <string name="mmp_divx_subtitleName">სუბტიტრები:</string>
+    <string name="mmp_dmr_starting">DMR დაწყება </string>
+    <string name="mmp_dmr_started">DMR ჩაირთო, გთხოვთ გამოყენოთ </string>
+    <string name="mmp_dmr_network_failed">DMR ვერ ჩაირთო, ქსელი არ არის ხელმისაწვდომი</string>
+    <string name="mmp_dmr_url_failed">არასწორი URL</string>
+    
+    <string name="mmp_wrong_psw">პაროლი არასწორია. საერთო %1$s მცდელობა, %2$s  მცდელობა, კიდევ სცადეთ!</string>
+	<string name="mmp_subtitle_encoding">სუბტიტრების კოდირება</string>
+	<string name="mmp_last_memory">უკანასკნელი მეხსიერება</string>
+	<string name="mmp_last_memory_off">გამორთვა</string>
+	<!--delete position item and change tittle 'on' by yangxiong for mmp lastmemory
+	<string name="menu_video_mjc_demo_on">On</string>-->
+	<string name="mmp_last_memory_position">პოზიცია</string>
+
+	<!-- CI PIN -->
+	<string name="ci_menu_pin_correct">სწორია!</string>
+	<string name="ci_menu_pin_outoftry">სამმაგი წარუმატებლობა</string>
+	
+    <string name="mmp_video_seektime_title">გადასვლის დრო</string>
+    <string name="mmp_video_seektime_warn_inputnothing">ყურადღება: თქვენს მიერ არაფერია შეყვანილი!</string>
+    <string name="mmp_video_seektime_warn_timetoobigger">ყურადღება: შესაყვანი დრო უნდა იყოს ნაკლები ვიდრე ვიდეოს ხანგრძლივობა</string>
+    <string name="mmp_video_not_seekable">ყურადღება: ეს ვიდეო არ იძებნება!</string>
+	<string name="mmp_test">ეს არის საცდელი მონაცემები\n ფაილის სახელი \n გამოსახულება\n ტესტი</string>
+	<string name="mmp_menu">მენიუ</string>
+
+</resources>

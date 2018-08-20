@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="mmp_test">Бұл – сынақтық деректер\n файл атауы \n сурет\n сынақ</string>
+    <string name="mmp_menu">Цэс</string>
+    <string name="mmp_menu_sort">Төрөл</string>
+    <string name="mmp_menu_mediatype">Медиа түрі</string>
+    <string name="mmp_menu_thumb">Шағын өлшемді</string>
+    <string name="mmp_menu_copy">Хуул</string>
+    <string name="mmp_menu_paste">Тавь</string>
+    <string name="mmp_menu_delete">Устга</string>
+    <string name="mmp_menu_recur">Қайталанатын талдау</string>
+    <string name="mmp_menu_not_recur">Қалыпты талдау</string>
+    <string name="mmp_menu_photoframe">Сурет жақтауы</string>
+    <string name="mmp_menu_photo_frame">Суретті жақтауға алу "Жарайды" күйіне реттелген</string>
+
+    <string name="mmp_menu_play">Тоглуулах</string>
+    <string name="mmp_menu_pause">Түр зогсоох</string>
+    <string name="mmp_menu_repeat">Давт</string>
+    <string name="mmp_menu_shuffle">Солилцоо</string>
+    <string name="mmp_menu_duration">Ұзақтығы</string>
+    <string name="mmp_menu_effect">Әсер</string>
+    <string name="mmp_menu_showinfo">Ақпаратты көрсету</string>
+    <string name="mmp_menu_frame">Суретті жақтауға алу</string>
+    <string name="mmp_menu_rotate">Айналдыру</string>
+    <string name="mmp_menu_display">Дисплей жолағы</string>
+    <string name="mmp_menu_timeoffset">Уақыт көрсеткіші</string>
+    <string name="mmp_menu_encoding">Кодчилол</string>
+
+    <string name="mmp_menu_picturemode">Зурагны Горим</string>
+    <string name="mmp_menu_screenmode">Экран режимі</string>
+
+    <string name="mmp_menu_font">Қаріп</string>
+
+    <string name="mmp_menu_size">Өлшем</string>
+    <string name="mmp_menu_style">Стиль</string>
+    <string name="mmp_menu_color">Өнгө</string>
+    <string name="mmp_menu_date">Огноо</string>
+    <string name="mmp_menu_name">Нэр</string>
+    <string name="mmp_menu_album">Aльбом</string>
+    <string name="mmp_menu_artist">Орындаушы</string>
+    <string name="mmp_menu_genre">Жанр</string>
+    <string name="mmp_menu_type">Төрөл</string>
+
+    <string name="mmp_menu_phototext">Гэрэл зураг</string>
+    <string name="mmp_menu_music">Аудио</string>
+    <string name="mmp_menu_video">Видео</string>
+    <string name="mmp_menu_text">Бичиг</string>
+    <string name="mmp_menu_small">Бага</string>
+    <string name="mmp_menu_medium">Дунд Зэргийн</string>
+    <string name="mmp_menu_large">Том</string>
+    <string name="mmp_menu_onephotomode">Бір фото режимі</string>
+    <string name="mmp_menu_none">Байхгүй</string>
+    <string name="mmp_menu_repeatone">Нэг удаа давтах</string>
+    <string name="mmp_menu_repeatall">Бүгдийг давтах</string>
+    <string name="mmp_menu_shuffleoff">Араластыру өшірулі</string>
+    <string name="mmp_menu_shuffleon">Араластыру қосулы</string>
+    <string name="mmp_menu_short">Қысқа</string>
+    <string name="mmp_menu_long">Ұзын</string>
+    <string name="mmp_menu_dissolve">Уусгах</string>
+    <string name="mmp_menu_wiperight">Оңға сырғыту</string>
+    <string name="mmp_menu_wipeleft">Солға сырғыту</string>
+    <string name="mmp_menu_wipeup">Жоғары сырғыту</string>
+    <string name="mmp_menu_wipedown">Төмен сырғыту</string>
+    <string name="mmp_menu_boxin">Оролтын блок</string>
+    <string name="mmp_menu_boxout">Қорап сыртында</string>
+
+    <string name="mmp_menu_random">Санаандгүй</string>
+
+
+    <string name="mmp_menu_off">Офф</string>
+    <string name="mmp_menu_singleline">Жалғыз жол</string>
+    <string name="mmp_menu_multiline">Бірнеше жол</string>
+    <string name="mmp_menu_auto">Aвто</string>
+    <string name="mmp_menu_userdefine">Пайдаланушыны анықтау</string>
+    <string name="mmp_menu_user">Хэрэглэгч</string>
+    <string name="mmp_menu_cinema">Кино</string>
+    <string name="mmp_menu_sport">Спорт</string>
+    <string name="mmp_menu_vivid">Тод</string>
+    <string name="mmp_menu_hibright">Ашық жарық</string>
+    <string name="mmp_menu_normal">Жирийн</string>
+    <string name="mmp_menu_letterbox">Әріп қорабы</string>
+    <string name="mmp_menu_scan">Скан</string>
+    <string name="mmp_menu_zoom">Томруулах</string>
+    <string name="mmp_menu_dotbydot">Әр нүкте бойынша</string>
+
+    <string name="mmp_menu_regular">Қалыпты</string>
+    <string name="mmp_menu_italic">Қиғаш</string>
+    <string name="mmp_menu_bold">Қою</string>
+    <string name="mmp_menu_outline">Қою қиғаш</string>
+    <string name="mmp_menu_white">Цагаан</string>
+    <string name="mmp_menu_blue">Цэнхэр</string>
+    <string name="mmp_menu_red">Улаан</string>
+    <string name="mmp_menu_green">Ногоон</string>
+    <string name="mmp_menu_black">Хар</string>
+    <string name="mmp_menu_lyricoptions">Мәтін опциялары</string>
+
+    <string name="mmp_menu_showscore">Спектрумды көрсету</string>
+    <string name="mmp_menu_hidescore">Спектрумды жасыру</string>
+    <string name="mmp_menu_onlyaudio">Зөвхөн Аудио</string>
+
+
+    <string name="mmp_photo">Гэрэл зураг</string>
+    <string name="mmp_audio">Аудио</string>
+    <string name="mmp_video">Видео</string>
+    <string name="mmp_text">Бичиг</string>
+    <string name="mmp_select">Сонгох</string>
+    <string name="mmp_input">Енгізу</string>
+    <string name="mmp_exit">ГАРЦ</string>
+    <string name="mmp_emptyfile">Қазіргі қалта бос!</string>
+    <string name="mmp_reutip">Осы қалта талдануда, күте тұрыңыз...</string>
+    <string name="mmp_pop_repeat_tvrepeat">Бүгдийг давтах</string>
+    <string name="mmp_pop_repeat_tvsingle">Нэг удаа давтах</string>
+    <string name="mmp_pop_time_tv">Қысқа</string>
+    <string name="mmp_pop_view_tv">Байхгүй</string>
+    <string name="mmp_pop_menu">Цэс</string>
+    <string name="mmp_pop_enter">Енгізу</string>
+    <string name="mmp_info_album">Aльбом:</string>
+    <string name="mmp_info_orientation">бағдар</string>
+    <string name="mmp_info_artist">Уран бүтээлч :</string>
+    <string name="mmp_info_name">Атауы:</string>
+    <string name="mmp_info_date">Күн:</string>
+    <string name="mmp_info_size">Хэмжээ :</string>
+    <string name="mmp_info_next">Келесі:</string>
+    <string name="mmp_info_audio">Аудио:</string>
+    <string name="mmp_info_exposure">ЭКСПОЗИЦИЯ УАҚЫТЫ:</string>
+    <string name="mmp_info_fnumber">F САНЫ:</string>
+    <string name="mmp_info_program">БАҒДАРЛАМА ЭКСПОЗИЦИЯСЫ:</string>
+    <string name="mmp_info_colorspace">ТҮС АЙМАҒЫ:</string>
+    <string name="mmp_info_title">Нэр :</string>
+    <string name="mmp_info_genre">Жанр:</string>
+    <string name="mmp_info_year">Жыл:</string>
+    <string name="mmp_info_duration">Ұзақтығы:</string>
+    <string name="mmp_info_director">Режиссер:</string>
+    <string name="mmp_info_copyrght">Авторлық құқығы:</string>
+
+    <string name="mmp_info_lastline">Соңғы жолы</string>
+    <string name="mmp_info_nextline">Келесі жолы</string>
+    <string name="mmp_info_lastpage">Сүүлийн Хуудас</string>
+    <string name="mmp_info_nextpage">Дараагийн Хуудас</string>
+
+    <string name="mmp_loading_tip">Осы қалта талдануда, күте тұрыңыз...</string>
+    <string name="mmp_user_name">Пайдаланушының аты-жөні</string>
+    <string name="mmp_password">Нууц үг</string>
+    <string name="mmp_confirm">Баталгаажуулах</string>
+    <string name="mmp_ok">ОК</string>
+    <string name="mmp_cancel">ХҮЧИНГҮЙ БОЛГО</string>
+
+    <string name="mmp_login_failed_tip">Пайдаланушы немесе құпиясөз қате!</string>
+    <string name="mmp_dlnaserver_disconnected">DLNA сервері жоғалып кетті, желі мен сервер күйін тексеріңіз.</string>
+    <string name="mmp_title_copy">Көшіруде</string>
+    <string name="mmp_title_confirm_replace">Файл ауыстыруды растау</string>
+    <string name="mmp_title_confirm_delete">Файл(дар)ды жоюды растау</string>
+    <string name="mmp_message_confirm_replace">Бұл қалтада аталған файл бұрыннан бар\n%s</string>
+    <string name="mmp_message_confirm_delete">Бұл файлды/файлдарды жою пе?</string>
+
+    <string name="mmp_yes">Тийм</string>
+    <string name="mmp_yes_to_all">Барлығын</string>
+    <string name="mmp_no">ҮГҮЙ</string>
+
+    <string name="mmp_capture_title">Жазу логотипі</string>
+    <string name="mmp_capture_confirm">Экранды қамту қажет пе?</string>
+    <string name="mmp_toast_no_photoframe">Көрсететін сурет жақтауы жоқ</string>
+
+    <string name="mmp_video_notsupport">Бейне кодек қолданылмайды</string>
+    <string name="mmp_audio_notsupport">Аудио Формат дэмжигдээгүй</string>
+    <string name="mmp_video_only">Бейне ғана</string>
+    <string name="mmp_frame_photo_sleeptime">Ұйқылық Таймер</string>
+    <string name="mmp_sleeptime_lable">Ұйқылық Таймер:</string>
+    <string name="mmp_video_stopresume">Қайта қосуды тоқтату</string>
+    <string name="mmp_can_notpause">Кідірту мүмкін емес</string>
+
+    <string name="mmp_photo_type_notsupport">Файл қоланылмайды</string>
+
+    <string name="mmp_lable_rorate">Айналдыру</string>
+    <string name="mmp_lable_subtitle_off">Офф</string>
+
+    <string name="mmp_info_whitebalance">Ақ түс балансы:</string>
+    <string name="mmp_info_make">Жасау:</string>
+    <string name="mmp_info_model">Үлгі:</string>
+    <string name="mmp_info_flash">Жарқыл:</string>
+    <string name="mmp_info_focallength">Кезеу ұзақтығы:</string>
+    <string name="mmp_menu_pic_setting">Сурет параметрі</string>
+    <string name="mmp_menu_audio_setting">Аудио параметрлері</string>
+
+    <string name="mmp_file_notsupport">Файл қоланылмайды</string>
+    <string name="mmp_notsupport">Қолданылмайды</string>
+    <string name="mmp_seek_notsupport">Іздеу қолданылмайды</string>
+    <string name="mmp_step_notsupport">Қадам қолдау</string>
+    <string name="mmp_featue_notsupport">функция қолжетімді емес</string>
+    <string name="mmp_buffer_not_enough">Буфферлеу жеткіліксіз</string>
+    <string name="mmp_nodevice">Құрылғы жалғанбаған!</string>
+    <string name="mmp_time_out">Енгізілген уақыт қате!\nБарлық уақыттан аз\болуы тиіс</string>
+    <string name="mmp_file_corrupt">Файл жарамсыз</string>
+    <string name="mmp_menu_mount_iso">Қазіргі файлды ISO салу</string>
+    <string name="mmp_menu_unmount_iso">Қазіргі құрылғыны алу</string>
+
+    <string name="mmp_media_info_scrambled_audio_video_service">Бейне мен аудио ақаулығы</string>
+    <string name="mmp_media_info_scrambled_audio_clear_video_service">Аудио ақаулығы</string>
+    <string name="mmp_media_info_scrambled_audio_no_video_service">Аудио ақаулығы, аудио ғана</string>
+    <string name="mmp_media_info_scrambled_video_clear_audio_service">Бейне ақаулығы</string>
+    <string name="mmp_media_info_scrambled_video_no_audio_service">Бейне ақаулығы, бейне ғана</string>
+
+
+    <string name="mmp_txt_const_font">ҮГҮЙ</string>
+
+    <string name="mmp_drm_register_continue">Жалғастыру қажет пе?</string>
+
+    <string name="mmp_divx_title">Гарчиг</string>
+    <string name="mmp_divx_edition">Засвар</string>
+    <string name="mmp_divx_chapter">Бүлэг</string>
+
+
+    <string name="mmp_divx_titleName">Нэр :</string>
+    <string name="mmp_divx_chapterName">Тарау:</string>
+    <string name="mmp_divx_rateName">Бағалау:</string>
+    <string name="mmp_divx_audioName">Аудио:</string>
+    <string name="mmp_divx_subtitleName">Субтитр:</string>
+    <string name="mmp_dmr_starting">DMR қосу</string>
+    <string name="mmp_dmr_started">DMR қосылды. Қолдануға болады</string>
+    <string name="mmp_dmr_network_failed">DMR қосылмады, желі байланысы жоқ</string>
+    <string name="mmp_dmr_url_failed">URL жарамсыз</string>
+
+    <string name="mmp_wrong_psw">Кілтсөз қате. Барлығы %1$s әрекет,%2$s рет әрекеттенді, қайта көріңіз! </string>
+    <string name="mmp_subtitle_encoding">Субтитр кодтау</string>
+    <string name="mmp_last_memory">Соңғы жад</string>
+    <string name="mmp_last_memory_off">Офф</string>
+    <string name="mmp_last_memory_time">УАҚЫТ</string>
+    <string name="mmp_last_memory_position">Байрлал</string>
+
+    <string name="ci_menu_pin_correct">Дұрыс!</string>
+    <string name="ci_menu_pin_outoftry">Үш рет қателесті</string>
+    <string name="mmp_menu_3d_photo">3D сурет</string>
+    <string name="mmp_menu_dmr">Dmr</string>
+    <string name="mmp_pop_zoomscale">X</string>
+    <string name="mmp_pop_starttime">0</string>
+    <string name="mmp_tip_play">Ойнату</string>
+    <string name="mmp_tip_exit">Шығу</string>
+    <string name="mmp_tip_select">Таңдау</string>
+    <string name="mmp_info_nolrc">No lrc</string>
+    <string name="mmp_drm_register">Құрылғының DivX жүйесімен қорғалған бейнені ойнатуға рұқсаты жоқ.</string>
+    <string name="mmp_drm_register_expired">DivX жалдау мерзімі аяқталды.</string>
+    <string name="mmp_drm_register_used">Divx@ жалдау \n %1$s/%2$s көру қолданды</string>
+    <string name="mmp_video_seektime_title">Шилжиж очих цаг</string>
+</resources>

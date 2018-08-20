@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+
+<string-array name="nav_channel_types">
+		<item>همه</item>
+		<item>رادیو</item>
+</string-array>
+<string-array name="nav_sleep_strings">
+		<item>خواب: خاموش</item>
+		<item>خواب: 15 دقیقه</item>
+		<item>خواب: 30 دقیقه</item>
+		<item>خواب: 45 دقیقه</item>
+		<item>خواب: 60 دقیقه</item>
+		<item>خواب: 90 دقیقه</item>
+		<item>خواب: 120 دقیقه</item>
+</string-array>
+<string-array name="nav_zoom_strings">
+		<item>zoom X 1</item>
+		<item>zoom X 2</item>
+		<item>zoom X 1/2</item>
+</string-array>
+
+<string-array name="nav_s_effect_strings">
+        <item>کاربر</item>
+		<item>استاندارد </item>
+<item>Live1</item>
+</string-array>
+
+<string-array name="nav_freeze_strings">
+		<item>خواب عمیق: روشن</item>
+		<item>خواب عمیق: خاموش</item>
+</string-array>
+
+<string-array name="nav_epg_filter_type">
+		<item>فیلم</item>
+		<item>اخبار</item>
+		<item>نمایش</item>
+		<item>ورزشی</item>
+		<item>برنامه کودکان</item>
+		<item>موسیقی </item>
+		<item>هنرها</item>
+		<item>اجتماعی</item>
+		<item>آموزش</item>
+		<item>سرگرمی</item>
+		<item>خاص </item>
+</string-array>
+
+<string-array name="nav_epg_filter_type_AUS">
+		<item>فیلم</item>
+		<item>اخبار</item>
+		<item>تفریحی</item>
+		<item>ورزشی</item>
+		<item>برنامه کودکان</item>
+		<item>موسیقی </item>
+		<item>هنرها</item>
+		<item>امور فعلی</item>
+		<item>آموزش</item>
+		<item>خبر-سرگرمی</item>
+		<item>خاص </item>
+		<item>کمدی</item>
+		<item>درام</item>
+		<item>مستند</item>
+</string-array>
+
+<string-array name="nav_epg_filter_type_UK">
+		<item>فیلم</item>
+		<item>اخبار و واقعیات</item>
+		<item>تفریحی</item>
+		<item>ورزش</item>
+		<item>برنامه کودکان</item>
+		<item>آموزش</item>
+		<item>سبک زندگی</item>
+		<item>درام</item>
+</string-array>
+
+<string-array name="nav_epg_filter_sa_type">
+		<item>اخبار</item>
+		<item>ورزشی</item>
+		<item>آموزش</item>
+		<item>سریال آبکی</item>
+		<item>سریال کوتاه</item>
+		<item>سریال </item>
+		<item>واریته</item>
+		<item>REALITY_SHOW</item>
+<item>INFOMATION</item>
+		<item>کمدی</item>
+		<item>کودکان</item>
+		<item>اروتیک</item>
+		<item>فیلم</item>
+		<item>RA_TE_SA_PR</item>
+<item>بحث-مصاحبه</item>
+		<item>سایر موارد</item>
+</string-array>
+
+<string-array name="nav_epg_subtype_movie">
+		<item>درام</item>
+		<item>کارگاهی</item>
+		<item>ماجراجویانه</item>
+		<item>علمی تخیلی</item>
+		<item>کمدی</item>
+		<item>Soap</item>
+		<item>عاشقانه</item>
+		<item>جدی</item>
+		<item>فیلم شهوت‌انگیز</item>
+</string-array>
+
+<string-array name="nav_epg_subtype_news">
+		<item>امور فعلی</item>
+		<item>گزارش جوی</item>
+		<item>مجلات خبری</item>
+		<item>مستند</item>
+		<item>بحث</item>
+</string-array>
+<string-array name="nav_epg_subtype_sa_news">
+		<item>اخبار</item>
+		<item>گزارش</item>
+		<item>مستند</item>
+		<item>زندگینامه</item>
+</string-array>
+<string-array name="nav_epg_subtype_show">
+		<item>نمایش</item>
+		<item>مسابقه تلویزیونی</item>
+		<item>چندجوره‌</item>
+		<item>میزگرد</item>
+</string-array>
+
+<string-array name="nav_epg_subtype_sports">
+		<item>ورزشی</item>
+		<item>حوادث خاص</item>
+		<item>مجلات ورزشی</item>
+		<item>فوتبال</item>
+		<item>تنیس</item>
+		<item>ورزش‌های تیمی</item>
+		<item>ورزشی</item>
+		<item>مسابقه موتورسواری</item>
+		<item>مسابقه آبی</item>
+		<item>مسابقه زمستانی</item>
+		<item>اسب سواری</item>
+		<item>ورزشهای رزمی</item>
+</string-array>
+<string-array name="nav_epg_subtype_sa_sports">
+		<item>ورزشی</item>
+</string-array>
+
+<string-array name="nav_epg_subtype_children">
+		<item>برنامه کودکان</item>
+		<item>برنامه کودکان پیش دبستانی</item>
+		<item>سرگرمی برای 6 تا 14 سال</item>
+		<item>سرگرمی برای 10 تا 16 سال</item>
+		<item>اطلاعی</item>
+		<item>کارتون</item>
+</string-array>
+
+<string-array name="nav_epg_subtype_music">
+		<item>موسیقی </item>
+		<item>راک</item>
+		<item>جدی</item>
+		<item>عامیانه</item>
+		<item>جاز</item>
+		<item>موزیکال</item>
+		<item>باله</item>
+</string-array>
+
+<string-array name="nav_epg_subtype_arts">
+		<item>هنرها</item>
+		<item>هنرهای نمایشی</item>
+		<item>هنرهای زیبا</item>
+		<item>دین</item>
+		<item>فرهنگ عامه</item>
+		<item>ادبیات</item>
+		<item>فیلم </item>
+		<item>آزمایشی</item>
+		<item>پخش</item>
+		<item>رسانه جدید</item>
+		<item>مجلات هنری</item>
+		<item>فشن</item>
+</string-array>
+
+<string-array name="nav_epg_subtype_social">
+		<item>اجتماعی</item>
+		<item>مجلات</item>
+		<item>اقتصاد</item>
+		<item>افراد برجسته</item>
+</string-array>
+
+<string-array name="nav_epg_subtype_education">
+		<item>آموزش</item>
+		<item>طبعیت</item>
+		<item>فناوری</item>
+		<item>دارویی</item>
+		<item>کشورهای خارجی</item>
+		<item>علوم اجتماعی</item>
+		<item>تحصیلات دانشگاهی</item>
+		<item>زبان‌ها</item>
+</string-array>
+<string-array name="nav_epg_subtype_sa_education">
+		<item>آموزشی</item>
+</string-array>
+<string-array name="nav_epg_subtype_sa_soap_opera">
+		<item>سریال آبکی</item>
+</string-array>
+
+<string-array name="nav_epg_subtype_sa_mini_series">
+		<item>سریال کوتاه</item>
+</string-array>
+
+<string-array name="nav_epg_subtype_sa_series">
+		<item>سریال </item>
+</string-array>
+<string-array name="nav_epg_subtype_sa_variety">
+		<item>تالار سخنرانی</item>
+		<item>نمایش</item>
+		<item>موزیکال</item>
+		<item>ساخته شده از</item>
+		<item>زنانه</item>
+		<item>مسابقه تلویزیونی</item>
+</string-array>
+<string-array name="nav_epg_subtype_sa_reality_show">
+		<item>تلویزیون واقع نما</item>
+</string-array>
+<string-array name="nav_epg_subtype_sa_information">
+		<item>آشپزی</item>
+		<item>فشن</item>
+		<item>کشور </item>
+		<item>بهداشت</item>
+		<item>سفر</item>
+</string-array>
+<string-array name="nav_epg_subtype_sa_comical">
+		<item>کمدی</item>
+</string-array>
+<string-array name="nav_epg_subtype_sa_children">
+		<item>کودکان</item>
+</string-array>
+<string-array name="nav_epg_subtype_sa_erotic">
+		<item>اروتیک</item>
+</string-array>
+<string-array name="nav_epg_subtype_sa_movie">
+		<item>فیلم</item>
+</string-array>
+<string-array name="nav_epg_subtype_sa_RA_TE_SA_PR">
+		<item>بخت آزمایی</item>
+		<item>فروش تلویزیونی</item>
+		<item>جایزه دهی</item>
+</string-array>
+<string-array name="nav_epg_subtype_sa_DEBATE_INTERVIEW">
+		<item>بحث</item>
+		<item>مصاحبه</item>
+</string-array>
+<string-array name="nav_epg_subtype_sa_other">
+		<item>کارتون بزرگسالان</item>
+		<item>تعاملی</item>
+		<item>سیاست</item>
+		<item>دین</item>
+</string-array>
+
+<string-array name="nav_epg_subtype_leisure">
+		<item>سرگرمی تفریحی</item>
+		<item>گردشگری</item>
+		<item>هنردستى</item>
+		<item>موتورسوری</item>
+		<item>ورزش و سلامتی</item>
+		<item>آشپزی</item>
+		<item>تبلیغات</item>
+		<item>باغبانی</item>
+</string-array>
+
+<string-array name="nav_epg_subtype_special">
+		<item>زبان اصلی </item>
+		<item>سیاه و سفید</item>
+		<item>انتشارنشده</item>
+		<item>پخش زنده</item>
+</string-array>
+
+
+<string-array name="nav_mts_strings">
+		<item>UNKNOW</item>
+		<item>مونو</item>
+		<item>استریو </item>
+		<item>SUB_LANG</item>
+<item>Dual1</item>
+		<item>Dual2</item>
+		<item>NICAM_MONO</item>
+		<item>NICAM_STEREO</item>
+		<item>NICAM_DUAL1</item>
+		<item>NICAM_DUAL2</item>
+		<item>FM_MONO</item>
+		<item>FM_STEREO</item>
+</string-array>
+
+<string-array name="nav_audio_tvcm_strings">
+		<item>baq</item>
+		<item>eus</item>
+		<item>bul</item>
+		<item>cat</item>
+		<item>scr</item>
+		<item>cze</item>
+		<item>dan</item>
+		<item>dut</item>
+		<item>eng</item>
+		<item>fin</item>
+		<item>fre</item>
+		<item>gla</item>
+		<item>gdh</item>
+		<item>gle</item>
+		<item>glg</item>
+		<item>ger</item>
+		<item>gre</item>
+		<item>hun</item>
+		<item>ita</item>
+		<item>nor</item>
+		<item>pol</item>
+		<item>por</item>
+		<item>rum</item>
+		<item>rus</item>
+		<item>scc</item>
+		<item>slo</item>
+		<item>slv</item>
+		<item>spa</item>
+		<item>swe</item>
+		<item>tur</item>
+		<item>wel</item>
+		<item>ice</item>
+		<item>isl</item>
+		<item>smi</item>
+		<item>tha</item>
+		<item>vie</item>
+		<item>ara</item>
+		<item>zho</item>
+		<item>Chi</item>
+		<item>per</item>
+		<item>kor</item>
+		<item>est</item>
+		<item>mao</item>
+		<item>cmn</item>
+		<item>yue</item>
+		<item>jpn</item>
+		<item>hin</item>
+		<item>nar</item>
+<item>QAA</item>
+		<item>und</item>
+</string-array>
+
+<string-array name="nav_audio_strings">
+		<item>باسک </item>
+		<item>باسک </item>
+		<item>بلغار</item>
+		<item>کاتالان </item>
+		<item>کروات </item>
+		<item>جمهوری چک </item>
+		<item>دانمارکی </item>
+		<item>هلندی </item>
+		<item>انگلیسی </item>
+		<item>فنلاندی </item>
+		<item>فرانسوی </item>
+		<item>گی لیک </item>
+		<item>گی لیک </item>
+		<item>ایرلندی </item>
+		<item>گالیسی </item>
+		<item>آلمانی </item>
+		<item>یونانی </item>
+		<item>مجاری </item>
+		<item>ایتالیایی </item>
+		<item>نروژی </item>
+		<item>لهستانی </item>
+		<item>پرتغالی </item>
+		<item>رومانیایی </item>
+		<item>روسی </item>
+		<item>صربی </item>
+		<item>اسلواک </item>
+		<item>اسلونیایی </item>
+		<item>اسپانیایی </item>
+		<item>سوئدی </item>
+		<item>ترکی </item>
+		<item>ولزی </item>
+		<item>ایسلندی </item>
+		<item>ایسلندی </item>
+		<item>Sami langs</item>
+		<item>تایلندی </item>
+		<item>ویتنامی </item>
+		<item>عربی </item>
+		<item>چینی قدیمی</item>
+		<item>چینی ساده</item>
+		<item>فارسی </item>
+		<item>کره ای </item>
+		<item>استونی</item>
+		<item>مائوری</item>
+		<item>ماندارین</item>
+		<item>کانتونی </item>
+		<item>ژاپنی </item>
+		<item>هندی</item>
+		<item>روایت</item>
+<item>نسخه اصلی</item>
+		<item>تعریف نشده </item>
+</string-array>
+
+<string-array name="nav_bottom_volume">
+		<item>صدای اصلی</item>
+		<item>صدای جلو چپ</item>
+		<item>صدای جلو راست</item>
+		<item>صدای عقب چپ</item>
+		<item>صدای عقب راست</item>
+		<item>صدای وسط</item>
+		<item>صدای ساب ووفر</item>
+</string-array>
+
+<string-array name="nav_zoom_mode">
+		<item>Zoom x 1/2</item>
+		<item>Zoom x 1</item>
+		<item>Zoom x 2</item>
+</string-array>
+
+<string-array name="nav_receiver_type">
+		<item>کابل</item>
+		<item>آنتن</item>
+</string-array>
+<string-array name="pvr_tshift_initdisk_step1">
+		<item>خودکار</item>
+		<item>دستی</item>
+</string-array>
+<string-array name="pvr_tshift_initdisk_step_format">
+		<item>قالب</item>
+		<item>پرش</item>
+</string-array>
+<string-array name="pvr_tshift_initdisk_step_formatconfirm">
+		<item>قالب</item>
+		<item>کنسل کردن </item>
+</string-array>
+
+<string-array name="week_day">
+	    <item>یکشنبه</item>
+		<item>دوشنبه</item>
+		<item>سه شنبه</item>
+		<item>چهار شنبه</item>
+		<item>پنج شنبه</item>
+		<item>جمعه</item>
+		<item>روز شنبه</item>
+</string-array>
+<string-array name="nav_oad_btns_cancel">
+        <item>کنسل کردن </item>
+</string-array>
+<string-array name="nav_oad_btns_accept_remind_me_later">
+        <item>پذیرفتن </item>
+        <item>بعداً یادآوری کن</item>
+</string-array>
+<string-array name="nav_oad_btns_accept_reject">
+        <item>پذیرفتن </item>
+        <item>رد</item>
+</string-array>
+
+<string-array name="nav_oad_btns_yes_no">
+        <item>بله </item>
+        <item>شماره </item>
+</string-array>
+
+
+
+
+
+<string-array name="nav_twinkle_strings">
+<item/>
+		<item>بدون سیگنال!</item>
+		<item>لطفاً کانال‌ها را اسکن کن!</item>
+		<item>درحال بازیابی داده...</item>
+		<item>کانال قفل شده!</item>
+		<item>برنامه قفل شده!</item>
+		<item>ورودی قفل شده!</item>
+		<item>(بدون عنوان برنامه.)</item>
+		<item>کانال مخفی!</item>
+		<item>برنامه صوتی</item>
+		<item>سرویس غیر معتبر </item>
+		<item>(بدون جزییات برنامه.)</item>
+		<item>(بدون جزییات کانال.)</item>
+		<item>♪ بدون استریم صوتی ♪</item>
+		<item>بدون استریم صوتی</item>
+		<item>صبر کنید...</item>
+		<item>ویدیو پشتیبانی نمی‌شود</item>
+		<item>سرویس HD</item>
+		<item>عدم پخش</item>
+		<item>بدون کانال</item>
+		<item>این محتوا توسط ارائه دهنده خدمات شما مسدود شده</item>
+		<item>درهم‌آمیخته</item>
+</string-array>
+
+
+<string-array name="nav_channel_type">
+		<item>همه</item>
+		<item>دیجیتال</item>
+		<item>رادیو</item>
+		<item>آنالوگ</item>
+</string-array>
+<string-array name="dvbs_scan_mode_arrays">
+        <item>@string/dvbs_scan_mode_network</item>
+        <item>@string/dvbs_scan_mode_full</item>
+</string-array>
+<string-array name="dvbs_scan_mode2_arrays">
+        <item>@string/dvbs_scan_mode_auto</item>
+        <item>@string/dvbs_scan_mode_preset</item>
+</string-array>
+<string-array name="dvbs_diseqc_input_arrays">
+        <item>@string/dvbs_diseqc_input_1</item>
+        <item>@string/dvbs_diseqc_input_2</item>
+        <item>@string/dvbs_diseqc_input_3</item>
+        <item>@string/dvbs_diseqc_input_4</item>
+        <item>@string/dvbs_diseqc_input_0</item>
+</string-array>
+<string-array name="dvbs_diseqc_10port_arrays">
+        <item>@string/dvbs_diseqc_input_1</item>
+        <item>@string/dvbs_diseqc_input_2</item>
+        <item>@string/dvbs_diseqc_input_3</item>
+        <item>@string/dvbs_diseqc_input_4</item>
+        <item>@string/dvbs_tone_burst_a</item>
+        <item>@string/dvbs_tone_burst_b</item>
+        <item>@string/dvbs_diseqc_input_0</item>
+</string-array>
+<string-array name="dvbs_diseqc_motor_arrays">
+        <item>@string/dvbs_diseqc_input_0</item>
+        <item>@string/dvbs_diseqc_motor_12</item>
+</string-array>
+<string-array name="dvbs_diseqc_motor_store_position_arrays">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+</string-array>
+<string-array name="dvbs_diseqc_movement_control_arrays">
+        <item>یکسره</item>
+        <item>مرحله</item>
+        <item>فرصت زمانی</item>
+</string-array>
+<string-array name="dvbs_tone_22khz_arrays">
+        <item>@string/dvbs_tone_22khz_off</item>
+        <item>@string/dvbs_tone_22khz_on</item>
+        <item>@string/dvbs_tone_22khz_auto</item>
+</string-array>
+
+<string-array name="dvbs_tp_pol_arrays">
+        <item>@string/dvbs_tp_pol_1_HORIZONTAL</item>
+        <item>@string/dvbs_tp_pol_2_VERTICAL</item>
+</string-array>
+<string-array name="dvbs_channel_arrays">
+        <item>@string/dvbs_channel_free</item>
+        <item>@string/dvbs_channel_all</item>
+</string-array>
+<string-array name="dvbs_antenna_type_arrays">
+        <item>@string/dvbs_antenna_type_universal</item>
+        <item>@string/dvbs_antenna_type_singlecable</item>
+</string-array>
+<string-array name="dvbs_user_band_arrays">
+        <item>@string/dvbs_user_band_1</item>
+        <item>@string/dvbs_user_band_2</item>
+        <item>@string/dvbs_user_band_3</item>
+        <item>@string/dvbs_user_band_4</item>
+        <item>@string/dvbs_user_band_5</item>
+        <item>@string/dvbs_user_band_6</item>
+        <item>@string/dvbs_user_band_7</item>
+        <item>@string/dvbs_user_band_8</item>
+</string-array>
+<string-array name="dvbs_user_band_freq_arrays">
+        <item>"1210"</item>
+        <item>"1400"</item>
+        <item>"1516"</item>
+        <item>"1632"</item>
+        <item>"1748"</item>
+        <item>"1864"</item>
+        <item>"1980"</item>
+        <item>"2096"</item>
+</string-array>
+<string-array name="dvbs_position_arrays">
+        <item>@string/dvbs_tp_pol_0_unknown</item>
+        <item>@string/dvbs_position_a</item>
+        <item>@string/dvbs_position_b</item>
+        <item>@string/dvbs_position_c</item>
+        <item>@string/dvbs_position_d</item>
+</string-array>
+<string-array name="dvbs_preferred_satellite_arrays">
+        <item>@string/dvbs_preferred_satellite</item>
+        <item>@string/dvbs_general_satellite</item>
+</string-array>
+<string-array name="lnb_mdu1_arrays">
+        <item>@string/dvbs_preferred_satellite</item>
+        <item>@string/dvbs_general_satellite</item>
+</string-array>
+
+<string-array name="dvbs_tone_burst_arrays">
+        <item>@string/dvbs_tone_burst_a</item>
+        <item>@string/dvbs_tone_burst_b</item>
+        <item>@string/dvbs_tone_burst_disable</item>
+</string-array>
+
+<string-array name="dvbs_sat_on_off">
+        <item>@string/dvbs_sat_on</item>
+        <item>@string/dvbs_sat_off</item>
+</string-array>
+
+<string-array name="dvbs_sat_lnb_power">
+        <item>@string/dvbs_sat_off</item>
+        <item>@string/dvbs_sat_TUNER_LNB_POWER_13V_18V</item>
+        <item>@string/dvbs_sat_TUNER_LNB_POWER_14V_19V</item>
+        <item>@string/dvbs_sat_on</item>
+</string-array>
+
+<string-array name="dvbs_sat_lnbfreq">
+        <item>@string/lnb_universal</item>
+        <item>9750,10700</item>
+        <item>9750,10750</item>
+        <item>5150</item>
+        <item>5750</item>
+        <item>9750</item>
+        <item>10600</item>
+        <item>10750</item>
+        <item>11250</item>
+        <item>11300</item>
+        <item>11475</item>
+</string-array>
+
+
+</resources>

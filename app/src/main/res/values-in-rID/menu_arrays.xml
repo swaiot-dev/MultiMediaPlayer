@@ -1,0 +1,1163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string-array name="menu_video_gamma_array">
+        <item>Gelap</item>
+        <item>Tengah</item>
+        <item>Cerah</item>
+    </string-array>
+    <string-array name="menu_video_color_temperature2_array">
+        <item>Dingin </item>
+        <item>Standar</item>
+        <item>Hangat</item>
+    </string-array>
+    <string-array name="menu_video_dnr_array">
+        <item>Mati</item>
+        <item>Rendah</item>
+        <item>Sedang</item>
+        <item>Kuat</item>
+        <item>Otomatis</item>
+    </string-array>
+    <string-array name="menu_video_mpeg_nr_array">
+        <item>Mati</item>
+        <item>Rendah</item>
+        <item>Sedang</item>
+        <item>Kuat</item>
+    </string-array>
+    <string-array name="menu_video_luma_array">
+        <item>Mati</item>
+        <item>Rendah</item>
+        <item>Sedang</item>
+        <item>Kuat</item>
+    </string-array>
+    <string-array name="menu_video_flesh_tone_array">
+        <item>Mati</item>
+        <item>Nyala</item>
+    </string-array>
+    <string-array name="menu_video_flesh_tone_us_array">
+        <item>Mati</item>
+        <item>Rendah</item>
+        <item>Sedang</item>
+        <item>Tinggi</item>
+    </string-array>
+    <string-array name="menu_video_black_bar_detection_array">
+        <item>Mati</item>
+        <item>Nyala</item>
+    </string-array>
+    <string-array name="menu_video_super_resolution_array">
+        <item>Mati</item>
+        <item>Nyala</item>
+    </string-array>
+    <string-array name="menu_video_di_film_mode_array">
+        <item>Mati</item>
+        <item>Otomatis</item>
+    </string-array>
+    <string-array name="menu_video_blue_stretch_array">
+        <item>Mati</item>
+        <item>Nyala</item>
+    </string-array>
+    <string-array name="menu_video_game_mode_array">
+        <item>Mati</item>
+        <item>Nyala</item>
+    </string-array>
+    <string-array name="menu_video_pq_split_mode_array">
+        <item>Mati</item>
+        <item>Nyala</item>
+    </string-array>
+    <string-array name="menu_video_mjc_effect_array">
+        <item>Mati</item>
+        <item>Rendah</item>
+        <item>Tengah</item>
+        <item>Tinggi</item>
+    </string-array>
+    <string-array name="menu_video_mjc_demo_partition_array">
+        <item>Semua</item>
+        <item>Kanan</item>
+        <item>Kiri</item>
+    </string-array>
+    <string-array name="menu_video_mjc_mode">
+        <item>Normal</item>
+        <item>Hanya Film</item>
+        <item>Hanya Penajaman</item>
+    </string-array>
+    <string-array name="menu_video_vga_mode_array">
+        <item>Grafik</item>
+        <item>Video</item>
+    </string-array>
+    <string-array name="menu_video_hdmi_mode_array">
+        <item>Otomatis</item>
+        <item>Grafik</item>
+        <item>Video</item>
+    </string-array>
+    <string-array name="menu_video_3d_mode_array">
+        <item>Mati</item>
+        <item>Auto Mode</item>
+        <item>2D-to-3D</item>
+        <item>Frame Order</item>
+        <item>Side-by-Side</item>
+        <item>Top-and-Bottom</item>
+        <item>REALD MODE</item>
+        <item>SENSIO</item>
+        <item>Line Interlace</item>
+        <item>DOT ALT MODE</item>
+        <item>CHK BOARD</item>
+    </string-array>
+
+    <string-array name="menu_video_3d_nav_array">
+        <item>Manual</item>
+        <item>Semi-Auto</item>
+        <item>Otomatis</item>
+    </string-array>
+
+    <string-array name="menu_video_3d_image_safety_array">
+        <item>Mati</item>
+        <item>Rendah</item>
+        <item>Tengah</item>
+        <item>Tinggi</item>
+    </string-array>
+
+    <string-array name="menu_video_3d_lrswitch_array">
+        <item>Mati</item>
+        <item>Nyala</item>
+    </string-array>
+    <string-array name="menu_video_3d_3t2switch_array">
+        <item>Mati</item>
+        <item>Nyala</item>
+    </string-array>
+
+    <string-array name="menu_audio_srs_mode_array">
+        <item>Mati</item>
+        <item>Nyala</item>
+    </string-array>
+    <string-array name="menu_audio_equalizer_array">
+        <item>Mati</item>
+        <item>Rok</item>
+        <item>Pop</item>
+        <item>Langsung</item>
+        <item>Tarian</item>
+        <item>Tekno</item>
+        <item>Klasik</item>
+        <item>Lembut</item>
+    </string-array>
+    <string-array name="menu_audio_equalizer_array_us">
+        <item>Mati</item>
+        <item>Rok</item>
+        <item>Pop</item>
+        <item>Langsung</item>
+        <item>Tarian</item>
+        <item>Tekno</item>
+        <item>Klasik</item>
+        <item>Lembut</item>
+        <item>Custom1</item>
+        <item>Custom2</item>
+        <item>custom3</item>
+    </string-array>
+    <string-array name="menu_audio_speaker_mode_array">
+        <item>Mati</item>
+        <item>Nyala</item>
+    </string-array>
+    <string-array name="menu_audio_spdif_mode_array">
+        <item>Mati</item>
+        <item>PCM RAW</item>
+        <item>PCM 16</item>
+        <item>PCM 24</item>
+    </string-array>
+    <string-array name="menu_audio_spdif_mode_us_array">
+        <item>Mati</item>
+        <item>Dolby Digital</item>
+        <item>PCM</item>
+
+    </string-array>
+    <string-array name="menu_audio_avc_mode_array">
+        <item>Mati</item>
+        <item>Nyala</item>
+    </string-array>
+    <string-array name="menu_audio_type_array">
+        <item>Normal</item>
+        <item>Gangguan Pendengaran</item>
+        <item>Rusak Secara Visual</item>
+    </string-array>
+    <string-array name="menu_audio_visually_speaker_array">
+        <item>Mati</item>
+        <item>Nyala</item>
+    </string-array>
+    <string-array name="menu_audio_visually_headphone_array">
+        <item>Mati</item>
+        <item>Nyala</item>
+    </string-array>
+    
+    <string-array name="menu_audio_bbe_mode_array">
+        <item>Mati</item>
+        <item>BBE</item>
+        <item>BBE Viva</item>
+    </string-array>
+    
+    <string-array name="menu_audio_pippop_mode_array">
+        <item>Mati</item>
+        <item>PIP</item>
+        <item>Pop</item>
+    </string-array>
+    
+    <string-array name="menu_audio_downmixmode_array">
+        <item>Stereo</item>
+        <item>Stereo Otomatis</item>
+        <item>Sekitar</item>
+    </string-array>
+     <string-array name="menu_audio_downmixmode_eu_array">
+        <item>Sekitar</item>
+        <item>Stereo</item>
+        <item>Stereo Otomatis</item>
+    </string-array>
+    <string-array name="menu_tv_tuner_mode_array">
+        <item>Antena</item>
+        <item>Cable</item>
+    </string-array>
+    <string-array name="menu_tv_audio_channel_array">
+        <item>Mono</item>
+        <item>Stereo</item>
+        <item>Dual1</item>
+        <item>Dual2</item>
+    </string-array>
+    <string-array name="menu_tv_audio_channel_mts_array">
+        <item>Mono</item>
+        <item>Stereo</item>
+        <item>SAP</item>
+    </string-array>
+    <string-array name="menu_tv_audio_language_array">
+        <item>INGGRIS</item>
+        <item>Spanyol</item>
+        <item>Perancis</item>
+    </string-array>
+     <string-array name="menu_tv_subtitle_language_eu_array">
+        <item>Basque</item>
+        <item>Bulgaria</item>
+        <item>Kanton</item>
+        <item>Katalan</item>
+        <item>Kroasia</item>
+        <item>Ceko</item>
+        <item>Denmark</item>
+        <item>Belanda</item>
+         <item>INGGRIS</item>
+        <item>Estonia</item>
+        <item>Finlandia</item>
+        <item>Prancis</item>
+        <item>Gaelik</item>
+        <item>Irlandia</item>
+        <item>Galisia</item>
+        <item>Jerman</item>
+        <item>Yunani</item>
+        <item>Hindi</item>
+        <item>Hongaria</item>
+        <item>Italia</item>
+        <item>Islandia</item>
+        <item>Jepang</item>
+        <item>Korea</item>
+        <item>Mandarin</item>
+        <item>Maori</item>
+        <item>Norwegia</item>
+        <item>Polandia</item>
+        <item>Portugis</item>
+        <item>Rumania</item>
+        <item>Rusia</item>
+        <item>Sami</item>
+        <item>Serbia</item>
+        <item>Slowakia</item>
+        <item>Slovenia</item>
+        <item>Spanyol</item>
+        <item>Swedia</item>
+        <item>Turki</item>
+        <item>Wales</item>
+        <item>Audio Asli</item>
+        <item>Naratif</item>
+        <item>tidak terdefinisi</item>
+        <item>Mati</item>
+    </string-array>
+    <string-array name="menu_tv_audio_language_eu_array">
+        <item>INGGRIS</item>
+        <item>Estonia</item>
+        <item>Finlandia</item>
+        <item>Prancis</item>
+        <item>Gaelik</item>
+        <item>Irlandia</item>
+        <item>Galisia</item>
+        <item>Jerman</item>
+        <item>Yunani</item>
+        <item>Hindi</item>
+        <item>Hongaria</item>
+        <item>Italia</item>
+        <item>Islandia</item>
+        <item>Jepang</item>
+        <item>Korea</item>
+        <item>Mandarin</item>
+        <item>Maori</item>
+        <item>Norwegia</item>
+        <item>Polandia</item>
+        <item>Portugis</item>
+        <item>Rumania</item>
+        <item>Rusia</item>
+        <item>Sami</item>
+        <item>Serbia</item>
+        <item>Slowakia</item>
+        <item>Slovenia</item>
+        <item>Spanyol</item>
+        <item>Swedia</item>
+        <item>Turki</item>
+        <item>Wales</item>
+        <item>Audio Asli</item>
+        <item>Naratif</item>
+        <item>tidak terdefinisi</item>
+        <item>Basque</item>
+        <item>Bulgaria</item>
+        <item>Kanton</item>
+        <item>Katalan</item>
+        <item>Kroasia</item>
+        <item>Ceko</item>
+        <item>Denmark</item>
+        <item>Belanda</item>
+    </string-array>
+    <string-array name="menu_tv_rf_signal_quality">
+        <item>bagus</item>
+        <item>Sedang</item>
+        <item>Buruk</item>
+    </string-array>
+    <string-array name="menu_tv_tv_system_array">
+        <item> Auto</item>
+        <item> B/G</item>
+        <item> A2 B/G</item>
+        <item> I</item>
+        <item> D/K</item>
+        <item> A2 D/K</item>
+        <item> A2 D/K1</item>
+        <item> A2 D/K2</item>
+        <item> M</item>
+    </string-array>
+    <string-array name="menu_tv_sound_system_array">
+        <item> B/G</item>
+        <item> A2 B/G</item>
+        <item> L</item>
+		<item> L\&#039;</item>
+        <item> I</item>
+        <item> D/K</item>
+        <item> A2 D/K</item>
+        <item> A2 D/K1</item>
+        <item> A2 D/K2</item>
+    </string-array>
+    <string-array name="menu_tv_color_system_array">
+        <item> Auto</item>
+        <item> PAL</item>
+        <item> SECAM</item>
+        <item> NTSC</item>
+    </string-array>
+    <string-array name="menu_tv_color_system_array_eu_edit">
+        <item> Auto</item>
+        <item> NTSC</item>
+        <item> PAL</item>
+        <item> SECAM</item>
+    </string-array>
+    <string-array name="menu_tv_scan_mode_array">
+        <item> Auto</item>
+        <item> 16QAM</item>
+        <item> 32QAM</item>
+        <item> 64QAM</item>
+        <item> 128QAM</item>
+        <item> 256QAM</item>
+    </string-array>
+    <string-array name="menu_tv_mdu_type_array">
+        <item> Universal</item>
+        <item> MDU 1</item>
+        <item> MDU 2</item>
+        <item> MDU 3</item>
+        <item> MDU 4</item>
+        <item> MDU 5</item>
+    </string-array>
+    <string-array name="menu_tv_scan_frequency_plan_array">
+        <item>STD</item>
+        <item>IRC</item>
+        <item>HRC</item>
+    </string-array>
+    <string-array name="menu_tv_scan_modulation_array">
+        <item> QAM64</item>
+        <item> QAM256</item>
+    </string-array>
+    <string-array name="menu_tv_us_scan_mode_array">
+        <item> Analog/Digital</item>
+        <item> Analog</item>
+        <item> Digital</item>
+    </string-array>
+    <string-array name="menu_tv_channeledit_array">
+        <item>Info Saluran</item>
+        <item>Menyisipkan</item>
+        <item>Hapus</item>
+        <item>Tukar</item>
+    </string-array>
+    <string-array name="menu_tv_freeze_channel_array">
+        <item>Mati</item>
+        <item>Nyala</item>
+    </string-array>
+    <string-array name="menu_tv_fa_dataservice_array">
+        <item>Mati</item>
+        <item>Nyala</item>
+    </string-array>
+    <string-array name="menu_tv_fine_tune_array">
+        <item>Mati</item>
+        <item>Nyala</item>
+    </string-array>
+    <string-array name="menu_tv_skip_ch_array">
+        <item>Mati</item>
+        <item>Nyala</item>
+    </string-array>
+
+    <string-array name="menu_setup_language_array">
+        <item>INGGRIS</item>
+        <item>简体中文</item>
+    </string-array>
+    <string-array name="menu_setup_dpms_array">
+        <item>Mati</item>
+        <item>Nyala</item>
+    </string-array>
+    <string-array name="menu_setup_ginga_array">
+        <item>Mati</item>
+        <item>Nyala</item>
+    </string-array>
+    <string-array name="menu_setup_blue_mute_array">
+        <item>Mati</item>
+        <item>Nyala</item>
+    </string-array>
+    <string-array name="menu_setup_fast_boot_array">
+        <item>Mati</item>
+        <item>Nyala</item>
+    </string-array>
+    <string-array name="menu_setup_msi_array">
+        <item>Mati</item>
+        <item>Nyala</item>
+    </string-array>
+    <string-array name="menu_setup_poweron_music_array">
+        <item>Mati</item>
+        <item>Nyala</item>
+    </string-array>
+    <string-array name="menu_setup_tv_single_signal_quality">
+        <item>Buruk</item>
+        <item>Normal</item>
+        <item>bagus</item>
+    </string-array>
+    <string-array name="menu_setup_scart">
+        <item>Otomatis</item>
+        <item>Tercampur</item>
+        <item>RGB</item>
+        <item>CVBS</item>
+        <item>S-Video</item>
+    </string-array>
+    <string-array name="menu_setup_capturelogo_array">
+        <item>Default</item>
+        <item>0</item>
+        <item>1</item>
+        <item>Tidak ada</item>
+    </string-array>
+    
+    <string-array name="menu_setup_analog_subtitle_array">
+        <item>Mati</item>
+        <item>Nyala</item>
+        <item>Bisukan</item>
+    </string-array>
+    <string-array name="menu_setup_subtitle_type_array">
+        <item>Normal</item>
+        <item>Gangguan Pendengaran</item>
+    </string-array>
+    
+    <string-array name="screen_mode_array_sa">
+		<item>Otomatis</item>
+		<item>Normal</item>
+		<item>Memperbesar</item>
+	</string-array>
+	 <string-array name="screen_mode_array_vga">
+		<item>Normal</item>
+		<item>Kotak Surat</item>
+		<item>Memperbesar</item>
+	</string-array>
+     <string-array name="screen_mode_array_sa_analog">
+		<item>Otomatis</item>
+		<item>Normal</item>
+		<item>Kotak Surat</item>
+		<item>Pemandangan</item>
+		<item>Memperbesar</item>
+		<item>Titik demi Titik</item>
+	</string-array>
+     <string-array name="screen_mode_array_us_dtv">
+		<item>Otomatis</item>
+		<item>Normal</item>
+		<item>Kotak Surat</item>
+		<item>Pemandangan</item>
+		<item>Memperbesar</item>
+		<item>Titik demi Titik</item>
+	</string-array>
+	<string-array name="screen_mode_array_us_pip_main_analog">
+		<item>Otomatis</item>
+		<item>Normal</item>
+		<item>Kotak Surat</item>
+		<item>Memperbesar</item>
+		<item>Titik demi Titik</item>
+	</string-array>
+	 <string-array name="screen_mode_array_eu_analog">
+		<item>Otomatis</item>
+		<item>Normal</item>
+		<item>Kotak Surat</item>
+		<item>Pemandangan</item>
+	</string-array>
+	<string-array name="screen_mode_array_sa_pop">
+		<item>Otomatis</item>
+		<item>Normal</item>
+		<item>Kotak Surat</item>
+		<item>Memperbesar</item>
+	</string-array>
+	<string-array name="screen_mode_array_us_pip_sub">
+		<item>Otomatis</item>
+		<item>Normal</item>
+		<item>Kotak Surat</item>
+	</string-array>
+	 <string-array name="screen_mode_array_us_pop">
+		<item>Otomatis</item>
+		<item>Normal</item>
+		<item>Memperbesar</item>
+	</string-array>
+	 <string-array name="screen_mode_array_sa_pip">
+		<item>Otomatis</item>
+		<item>Normal</item>
+		<item>Kotak Surat</item>
+	</string-array>
+	 <string-array name="screen_mode_array_us_pip">
+		<item>Otomatis</item>
+		<item>Normal</item>
+	</string-array>
+    <string-array name="menu_setup_enable_caption_array">
+        <item>Ya</item>
+        <item>Tidak</item>
+        <item>Senyap</item>
+    </string-array>
+    <string-array name="menu_setup_analog_caption_array">
+        <item>Mati</item>
+        <item>CC1</item>
+        <item>CC2</item>
+        <item>CC3</item>
+        <item>CC4</item>
+        <item>TEXT1</item>
+        <item>TEXT2</item>
+        <item>TEXT3</item>
+        <item>TEXT4</item>
+    </string-array>
+    <string-array name="menu_setup_digital_caption_array">
+        <item>Mati</item>
+        <item>Service1</item>
+        <item>Service2</item>
+        <item>Service3</item>
+        <item>Service4</item>
+        <item>Service5</item>
+        <item>Service6</item>
+    </string-array>
+     <string-array name="menu_setup_digital_caption_sa_array">
+        <item>Mati</item>
+        <item>Bahasa1</item>
+        <item>Bahasa2</item>
+        <item>Bahasa3</item>
+        <item>Bahasa4</item>
+        <item>Bahasa5</item>
+        <item>Bahasa6</item>
+         <item>Bahasa7</item>
+        <item>Bahasa8</item>
+    </string-array>
+    <string-array name="menu_setup_superimpose_setup_array">
+        <item>Mati</item>
+        <item>Bahasa1</item>
+        <item>Bahasa2</item>
+    </string-array>
+    <string-array name="menu_setup_caption_style_array">
+        <item>Sebagai Penyiar</item>
+        <item>Kebiasaan</item>
+    </string-array>
+    <string-array name="menu_setup_font_size_array">
+        <item>Kecil </item>
+        <item>Sedang</item>
+        <item>Besar</item>
+    </string-array>
+    <string-array name="menu_setup_font_style_array">
+        <item>Style1</item>
+        <item>Style2</item>
+        <item>Style3</item>
+        <item>Style4</item>
+        <item>Style5</item>
+        <item>Style6</item>
+        <item>Style7</item>
+       
+    </string-array>
+    <string-array name="menu_setup_font_color_array">
+        <item>Hitam </item>
+        <item>Putih</item>
+        <item>Hijau </item>
+        <item>Biru</item>
+        <item>Merah</item>
+        <item>Kuning</item>
+        <item>Kuning</item>
+        <item>Ungu kemerahan</item>
+        
+    </string-array>
+    <string-array name="menu_setup_font_opacity_array">
+        <item>Padat</item>
+        <item>Tembus cahaya</item>
+        <item>transparan</item>
+    </string-array>
+    <string-array name="menu_setup_background_color_array">
+        <item>Hitam </item>
+        <item>Putih</item>
+        <item>Hijau </item>
+        <item>Biru</item>
+        <item>Merah</item>
+        <item>Kuning</item>
+        <item>Kuning</item>
+        <item>Ungu kemerahan</item>
+       
+    </string-array>
+    <string-array name="menu_setup_background_opacity_array">
+        <item>Padat</item>
+        <item>Tembus cahaya</item>
+        <item>transparan</item>
+    </string-array>
+    <string-array name="menu_setup_window_color_array">
+        <item>Hitam </item>
+        <item>Putih</item>
+        <item>Hijau </item>
+        <item>Biru</item>
+        <item>Merah</item>
+        <item>Kuning</item>
+        <item>Kuning</item>
+        <item>Ungu kemerahan</item>
+       
+    </string-array>
+    <string-array name="menu_setup_window_opacity_array">
+        <item>Padat</item>
+        <item>Tembus cahaya</item>
+        <item>transparan</item>
+    </string-array>
+    <string-array name="menu_setup_atv_record_mode_array">
+        <item>Mati</item>
+        <item>Nyala</item>
+    </string-array>
+    <string-array name="menu_setup_time_shifting_mode_array">
+        <item>Mati</item>
+        <item>Nyala</item>
+    </string-array>
+    <string-array name="menu_setup_record_quality_array">
+        <item>Rendah</item>
+        <item>Tengah</item>
+        <item>Tinggi</item>
+    </string-array>
+    <string-array name="menu_parental_age_ratings_array">
+        <item>Tidak ada</item>
+        <item>Below 10</item>
+        <item>Below 12</item>
+        <item>Below 14</item>
+        <item>Below 16</item>
+        <item>Below 18</item>
+    </string-array>
+    <string-array name="menu_parental_age_ratings_array_eu">
+        <item>Tidak ada</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+    </string-array>
+    <string-array name="menu_parental_age_ratings_array_eu_ocean_aus">
+        <item>Tidak ada blokir</item>
+        <item>Blokir R ke atas</item>
+        <item>Blokir AV ke atas</item>
+        <item>Blokir MA ke atas</item>
+        <item>Blokir M ke atas</item>
+        <item>Blokir PG ke atas</item>
+        <item>Blokir G ke atas</item>
+        <item>Blokir semua</item>
+    </string-array>
+    <string-array name="menu_parental_content_ratings_array">
+        <item>Mati</item>
+        <item>Drugs</item>
+        <item>Violence</item>
+        <item>Sex</item>
+        <item>Violence &amp; Drugs</item>
+        <item>Sex &amp; Drugs</item>
+        <item>Violence &amp;  Sex</item>
+        <item>Violence &amp; Sex &amp; Drugs</item>
+        
+    </string-array>
+    
+    <string-array name="menu_factory_high_deviation_mode_array">
+        <item>Mati</item>
+        <item>Nyala</item>
+    </string-array>
+    <string-array name="menu_factory_carrier_shift_function_array">
+        <item>Mati</item>
+         <item>Nyala</item>
+    </string-array>
+    <string-array name="menu_factory_fm_saturation_mute_array">
+        <item>Mati</item>
+        <item>Nyala</item>
+    </string-array>
+    
+    <string-array name="menu_parental_open_vchip_array">
+        <item>Mati</item>
+        <item>Nyala</item>
+    </string-array>
+    <string-array name="menu_parental_block_unrated_array">
+        <item>Mati</item>
+        <item>Nyala</item>
+    </string-array>
+    <string-array name="menu_parental_rating_enable_array">
+        <item>Mati</item>
+        <item>Nyala</item>
+    </string-array>
+    <string-array name="menu_parental_block_channel_schedule_operation_array">
+        <item>Tidak ada</item>
+        <item>Harian</item>
+        <item>Sekali</item>
+    </string-array>
+    <string-array name="menu_setup_digital_teletext_language_array">
+	    <item>Basque</item>  
+	    <item>Bulgaria</item>  
+	    <item>Kanton</item>
+	    <item>Katalan</item> 
+	    <item>Kroasia</item> 
+	    <item>Ceko</item> 
+	    <item>Denmark</item>
+	    <item>Belanda</item>  
+	    <item>INGGRIS</item>
+	    <item>Estonia</item> 
+	    <item>Finlandia</item>
+	    <item>Prancis</item>
+	    <item>Gaelik</item>
+	    <item>Irlandia</item>
+	    <item>Galisia</item> 
+	    <item>Jerman</item> 
+	    <item>Yunani</item>
+	    <item>Hindi</item>
+	    <item>Hongaria</item>
+	    <item>Italia</item>
+	    <item>Islandia</item>
+	    <item>Jepang</item>
+	    <item>Korea</item>
+	    <item>Mandarin</item>
+	    <item>Maori</item>
+	    <item>Norwegia</item>
+	    <item>Polandia</item>
+	    <item>Portugis</item>
+	    <item>Rumania</item>
+	    <item>Rusia</item>
+	    <item>Sami</item>
+	    <item>Serbia</item>
+	    <item>Slowakia</item>
+	    <item>Slovenia</item>
+	    <item>Spanyol</item>
+	    <item>Swedia</item>
+	    <item>Turki</item>
+	    <item>Welsh</item>
+	    <item>Audio Asli</item>
+	    <item>Naratif</item>
+	    <item>tidak terdefinisi</item>
+    </string-array>
+    <string-array name="menu_setup_decoding_page_language_array">
+		<item>WEST EUR</item>
+		<item>EAST EUR</item>
+		<item>Rusia</item>
+		<item>Rusia-2</item>
+		<item>Yunani</item>
+		<item>Turki</item>
+		<item>Arab/Hbrw</item>
+		<item>Persia</item>
+		<item>Arab</item>
+		<item>Belorusia</item>
+    </string-array>
+    <string-array name="menu_setup_ttx_presentation_level_array">
+        <item>Level 1.5</item>
+        <item>Level 2.5</item>
+    </string-array>
+    <string-array name="menu_setup_us_timezone_array">
+        <item>Waktu Timur</item>
+        <item>Hawai</item>
+        <item>Alaska</item>
+        <item>Waktu Pasifik</item>
+        <item>Arizona</item>
+        <item>Waktu Gunung</item>
+        <item>Waktu Tengah</item>
+        <item>Indiana</item>
+    </string-array>
+    <string-array name="menu_setup_us_timezone_str">
+        <item>America/New_York</item>
+        <item>Pacific/Honolulu</item>
+        <item>America/Anchorage</item>
+        <item>America/Los_Angeles</item>
+        <item>America/Phoenix</item>
+        <item>America/Denver</item>
+        <item>America/Chicago</item>
+        <item>America/New_York</item>
+    </string-array>
+
+    <integer-array name="menu_setup_us_timezone_values">
+        <item>-5</item>
+        <item>-10</item>
+        <item>-9</item>
+        <item>-8</item>
+        <item>-7</item>
+        <item>-7</item>
+        <item>-6</item>
+        <item>-5</item>
+    </integer-array>
+
+    <string-array name="menu_setup_timezone_array">
+        <item>GMT-12:00</item>
+        <item>GMT-11:00</item>
+        <item>GMT-10:00</item>
+        <item>GMT-9:00</item>
+        <item>GMT-8:00</item>
+        <item>GMT-7:00</item>
+        <item>GMT-6:00</item>
+        <item>GMT-5:00</item>
+        <item>GMT-4:00</item>
+        <item>GMT-3:30</item>
+        <item>GMT-3:00</item>
+        <item>GMT-2:00</item>
+        <item>GMT-1:00</item>
+        <item>Sebagai Siaran</item>
+        <item>GMT+0:00</item>
+        <item>GMT+1:00</item>
+        <item>GMT+2:00</item>
+        <item>GMT+3:00</item>
+        <item>GMT+3:30</item>
+        <item>GMT+4:00</item>
+        <item>GMT+4:30</item>
+        <item>GMT+5:00</item>
+        <item>GMT+5:30</item>
+        <item>GMT+5:45</item>
+        <item>GMT+6:00</item>
+        <item>GMT+6:30</item>
+        <item>GMT+7:00</item>
+        <item>GMT+8:00</item>
+        <item>GMT+9:00</item>
+        <item>GMT+9:30</item>
+        <item>GMT+10:00</item>
+        <item>GMT+11:00</item>
+        <item>GMT+12:00</item>
+        <item>GMT+12:45</item>
+        <item>GMT+13:00</item>
+    </string-array>
+    
+      <integer-array name="menu_setup_timezone_value_array">
+        <item>-12</item>
+        <item>-11</item>
+        <item>-10</item>
+        <item>-9</item>
+        <item>-8</item>
+        <item>-7</item>
+        <item>-6</item>
+        <item>-5</item>
+        <item>-4</item>
+        <item>-350</item>
+        <item>-3</item>
+        <item>-2</item>
+        <item>-1</item>
+        <item>0</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>350</item>
+        <item>4</item>
+        <item>450</item>
+        <item>5</item>
+        <item>550</item>
+        <item>575</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>950</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>-1125</item>
+        <item>-11</item>
+    </integer-array>
+    
+    <string-array name="menu_setup_timezone_name_array">
+        <item>Asia/Magadan</item>
+        <item>Pacific/Midway</item>
+        <item>Pacific/Honolulu</item>
+        <item>America/Anchorage</item>
+        <item>America/Anchorage</item>
+        <item>America/Los_Angeles</item>
+        <item>America/Chihuahua</item>
+        <item>America/Chicago</item>
+        <item>America/Manaus</item>
+        <item>America/St_Johns</item>
+        <item>America/St_Johns</item>
+        <item>America/Godthab</item>
+        <item>Atlantic/Cape_Verde</item>
+        <item>Sebagai Siaran</item>
+        <item>Africa/Casablanca</item>
+        <item>Europe/London</item>
+        <item>Africa/Harare</item>
+        <item>Asia/Amman</item>
+        <item>Asia/Amman</item>
+        <item>Europe/Moscow</item>
+        <item>Asia/Tehran</item>
+        <item>Asia/Yerevan</item>
+        <item>Asia/Colombo</item>
+        <item>Asia/Katmandu</item>
+        <item>Asia/Almaty</item>
+        <item>Asia/Bangkok</item>
+        <item>Asia/Hong_Kong</item>
+        <item>Asia/Tokyo</item>
+        <item>Australia/Adelaide</item>
+        <item>Asia/Yakutsk</item>
+        <item>Asia/Vladivostok</item>
+        <item>Asia/Vladivostok</item>
+        <item>Pacific/Fiji</item>
+        <item>Pacific/Tongatapu</item>
+    </string-array>
+    <string-array name="menu_setup_auto_synchronization_array">
+        <item>Mati</item>
+        <item>Sync dari Aliran</item>
+        <item>Sync dari Jaringan</item>
+    </string-array>
+    <string-array name="menu_setup_power_on_timer_array">
+        <item>Mati</item>
+        <item>Nyala</item>
+        <item>Sekali</item>
+    </string-array>
+    <string-array name="menu_setup_sleep_timer_array">
+        <item>Mati</item>
+        <item>10 Menit</item>
+        <item>20 Menit</item>
+        <item>30 Menit</item>
+        <item>40 Menit</item>
+        <item>50 Menit</item>
+        <item>60 Menit</item>
+        <item>90 Menit</item>
+        <item>120 Menit</item>
+    </string-array>
+    <string-array name="menu_setup_power_on_channel_mode_array">
+        <item>Status Akhir</item>
+        <item>Pemilihan Pengguna</item>
+    </string-array>
+    <string-array name="menu_setup_power_off_timer_array">
+        <item>Mati</item>
+        <item>Nyala</item>
+        <item>Sekali</item>
+    </string-array>
+    <string-array name="menu_setup_auto_sleep_array">
+        <item>Mati</item>
+        <item>1 Jam</item>
+        <item>2 Jam</item>
+        <item>5 Jam</item>
+    </string-array>
+    <string-array name="menu_setup_auto_sleep_eu_array">
+        <item>Mati</item>
+        <item>4 Jam</item>
+        <item>6 Jam</item>
+        <item>8 Jam</item>
+    </string-array>
+    <string-array name="menu_setup_network_connection_array">
+        <item>Mati</item>
+        <item>Nyala</item>
+    </string-array>
+    <string-array name="menu_setup_address_type_array">
+        <item>Otomatis</item>
+        <item>Manual</item>
+    </string-array>
+    <string-array name="menu_setup_dlna_array">
+        <item>Mati</item>
+        <item>Nyala</item>
+    </string-array>
+    <string-array name="menu_setup_my_network_place_array">
+        <item>Mati</item>
+        <item>Nyala</item>
+    </string-array>
+    <string-array name="menu_setup_null_array">
+        <item></item>
+    </string-array>
+    <string-array name="menu_factory_autovedio_array">
+        <item>Mati</item>
+        <item>Nyala</item>
+    </string-array>
+
+    <string-array name="menu_factory_auto_dima_array">
+        <item>Gambar Lambat</item>
+        <item>Gambar Aksi</item>
+    </string-array>
+
+    <string-array name="menu_factory_video_diedge_array">
+        <item>Lemah</item>
+        <item>Kuat</item>
+    </string-array>
+
+    <string-array name="menu_factory_video_xvycc_array">
+        <item>Mati</item>
+        <item>Nyala</item>
+    </string-array>
+    
+    <string-array name="menu_factory_video_wcg_array">
+        <item>Mati</item>
+        <item>Nyala</item>
+    </string-array>
+
+    <string-array name="menu_factory_video_flip_array">
+        <item>Mati</item>
+        <item>Nyala</item>
+    </string-array>
+
+    <string-array name="menu_factory_video_mirror_array">
+        <item>Mati</item>
+        <item>Nyala</item>
+    </string-array>
+    <string-array name="menu_factory_video_local_array">
+        <item>Mati</item>
+        <item>Nyala</item>
+    </string-array>
+    <string-array name="menu_factory_video_colortemperature_array">
+        <item>Pengguna</item>
+        <item>Dingin </item>
+        <item>Standar</item>
+        <item>Hangat</item>
+    </string-array>
+
+    <string-array name="menu_factory_audio_dolbybanner_array">
+        <item>Mati</item>
+        <item>Nyala</item>
+    </string-array>
+
+    <string-array name="menu_factory_audio_compression_array">
+        <item>Garis</item>
+        <item>RF</item>
+    </string-array>
+
+    <string-array name="menu_factory_audio_compressionfactor_array">
+        <item>Mati</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>40</item>
+        <item>50</item>
+        <item>60</item>
+        <item>70</item>
+        <item>80</item>
+        <item>90</item>
+        <item>100</item>
+    </string-array>
+    <string-array name="menu_factory_setup_eventform">
+        <item>Dua Bentuk</item>
+        <item>Bentuk Panjang</item>
+        <item>Bentuk Pendek</item>
+    </string-array>
+    <string-array name="menu_factory_setup_burning_mode">
+        <item>Mati</item>
+        <item>Nyala</item>
+    </string-array>
+    <string-array name="menu_factory_setup_uart_mode">
+        <item>Mati</item>
+        <item>Nyala</item>
+    </string-array>
+     <string-array name="menu_factory_setup_eu_uart_mode">
+          <item>Mati</item>
+         <item>Nyala</item>
+    </string-array>
+    <string-array name="menu_factory_audio_system_test_array">
+        <item>Mati</item>
+        <item>Nyala</item>
+    </string-array>
+    <string-array name="menu_ci_not_support_channel">
+        <item>没有授权</item>
+    </string-array>
+    <string-array name="pvr_tshift_srctype">
+        <item>Televisi</item>
+        <item>Gabungan</item>
+    </string-array>
+    <string-array name="pvr_tshift_channel_temp_list">
+        <item>CH41</item>
+        <item>CH42</item>
+        <item>CH43</item>
+        <item>CH44</item>
+    </string-array>
+    <string-array name="pvr_tshift_schedule_type">
+        <item>Rekam</item>
+        <item>Peringatan</item>
+    </string-array>
+    <string-array name="pvr_tshift_repeat_type">
+        <item>Sekali</item>
+        <item>Minggu</item>
+        <item>Harian</item>
+    </string-array>
+    <string-array name="menu_tv_tshift_config_array">
+        <item>Mati</item>
+        <item>Nyala</item>
+    </string-array>
+    <string-array name="menu_cec_on_off">
+        <item>Mati</item>
+        <item>Nyala</item>
+    </string-array>
+
+    <string-array name="menu_scan_mode">
+        <item>Lanjutan</item>
+        <item>Cepat</item>
+        <item>Penuh</item>
+    </string-array>
+    <string-array name="menu_tv_tuner_mode_array_full_eu">
+        <item>Antena</item>
+        <item>Cable</item>
+        <item>@string/dvbs_preferred_satellite</item>
+        <item>@string/dvbs_general_satellite</item>
+    </string-array>
+    <string-array name="menu_setup_oad_auto_download_array">
+        <item>Tidak</item>
+        <item>Ya</item>
+    </string-array>
+    <string-array name="menu_tv_country_region_id_eu">
+        <item>ID Wilayah Negara 1</item>
+        <item>ID Wilayah Negara 2</item>
+    </string-array>
+    <string-array name="menu_tv_oceania_country_region">
+        <item>NSW/ACT</item>
+        <item>VIC</item>
+        <item>QLD</item>
+        <item>SA</item>
+        <item>WA</item>
+        <item>TAS</item>
+        <item>NT</item>
+    </string-array>
+    <string-array name="menu_tv_channel_listtype">
+        <item>Siaran</item>
+        <item>CAM</item>
+    </string-array>
+     <string-array name="menu_tv_channel_bl_type">
+        <item>Tidak ada</item>
+        <item>Setiap hari</item>
+        <item>Minggu</item>
+        <item>Senin</item>
+        <item>Selasa</item>
+        <item>Rabu</item>
+        <item>Kamis</item>
+        <item>Jumat</item>
+        <item>Sabtu</item>
+    </string-array>
+    <string-array name="menu_tv_tuner_mode_array_full_eu_sat_only">
+        <item>Antena</item>
+        <item>Cable</item>
+        <item>Satellite</item>
+    </string-array>
+
+</resources>

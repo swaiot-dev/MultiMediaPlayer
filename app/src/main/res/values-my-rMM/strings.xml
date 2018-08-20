@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">မာလ်တီမီဒီယာ</string>
+    <string name="schedulelist_nofiles">မွတ္တမ္းတင္ထားသည့္ အစီအစဥ္ မ႐ွိပါ! ေက်းဇူးျပဳ၍ တစ္ခု ထပ္ထည့္ရန္ "Add" ခလုတ္ကို ႏွိပ္ပါ။</string>
+    <string name="schedulelist_nofiles_disable_add">မွတ္တမ္းတင္ထားသည့္ အစီအစဥ္ မ႐ွိပါ! </string>
+    <string name="exit">ထြက္ပါ</string>
+    <string name="selected">ေရြးခ်ယ္ထားသည္</string>
+    <string name="add_schedule">အစီအစဥ္ ထပ္ထည့္ပါ</string>
+    <string name="pvr_schedule_replace">အစားထိုးပါ</string>
+    <string name="pvr_schedule_add">ထည့္ပါ</string>
+    <string name="menu_value_minus">လြော့ပေါ့စေ</string>
+    <string name="menu_value_plus">တိုးမြှင့်လာသည်</string>
+    <string name="pvr_schedule_cancel">ပယ္ဖ်က္ပါ</string>
+    <string name="pvr_schedule_ok">အိုေက</string>
+    <string name="pvr_schedule_edit">တည္းျဖတ္ပါ</string>
+    <string name="pvr_schedule_delete">ဖ်က္ပါ</string>
+    <string name="pvr_title_device_info">ကိရိယာ သတင္းအခ်က္အလက္</string>
+    <string name="pvr_deviceinfo_info">အခ်က္အလက္</string>
+    <string name="pvr_exit">ထြက္ပါ</string>
+    <string name="pvr_deviceinfo_format">ပံုစံခ်ပါ</string>
+    <string name="pvr_deviceinfo_speed_test">ျမန္ႏႈန္း စမ္းသပ္မႈ</string>
+    <string name="pvr_disk_no_name">အမည္မ႐ွိ</string>
+    <string name="pvr_playlist_record_list">မွတ္တမ္းတင္ စာရင္း</string>
+    <string name="pvr_playlist_page_up">စာမ်က္ႏွာအေပၚသို႔</string>
+    <string name="pvr_playlist_delete">ဖ်က္ပါ</string>
+    <string name="pvr_playlist_page_down">စာမ်က္ႏွာေအာက္သို႔</string>
+    <string name="pvr_playlist_info">အခ်က္အလက္</string>
+    <string name="pvr_playlist_record_detail">မွတ္တမ္းတင္ အေသးစိတ္</string>
+    <string name="pvr_playlist_channel_num">ခ်န္နယ္ နံပါတ္</string>
+    <string name="pvr_playlist_channel_name">ခ်န္နယ္အမည္</string>
+    <string name="pvr_playlist_program_name">ပ႐ိုဂရမ္အမည္</string>
+    <string name="pvr_playlist_date">ရက္စြဲ</string>
+    <string name="pvr_playlist_week">ရက္သတၱပတ္</string>
+    <string name="pvr_playlist_fri">ေသာၾကာ</string>
+    <string name="pvr_playlist_time">အခ်ိန္</string>
+    <string name="pvr_playlist_duration">ၾကာခ်ိန္</string>
+    <string name="pvr_disksetup_disk_setup">ဒစ္ တပ္ဆင္မႈ</string>
+    <string name="pvr_disksetup_page_up">စာမ်က္ႏွာအေပၚသို႔</string>
+    <string name="pvr_disksetup_select">ေရြးပါ</string>
+    <string name="pvr_disksetup_page_down">စာမ်က္ႏွာေအာက္သို႔</string>
+    <string name="pvr_disksetup_exit">ထြက္ပါ</string>
+    <string name="pvr_schedulepvr_week">ရက္သတၱပတ္</string>
+    <string name="pvr_schedulepvr_record">မွတ္တမ္းတင္ပါ</string>
+    <string name="pvr_schedulepvr_schedule_list">အစီအစဥ္စာရင္း</string>
+    <string name="pvr_schedulepvr_add_schedule">အစီအစဥ္ ထပ္ထည့္ပါ</string>
+    <string name="pvr_schedulepvr_selected">ေရြးခ်ယ္ထားသည္</string>
+    <string name="pvr_schedulepvr_exit">ထြက္ပါ</string>
+    <string name="pvr_schedulepvr_schedule_list2">အစီအစဥ္စာရင္း</string>
+    <string name="pvr_confirm_yes">လုပ္မည္</string>
+    <string name="pvr_confirm_no">မဟုတ္ပါ</string>
+    <string name="pvr_dialog_exit">ထြက္ပါ</string>
+    <string name="pvr_schedulelist_wednesday">ဗုဒၶဟူး</string>
+    <string name="pvr_schedulelist_replace_line1">အစီအစဥ္ ထပ္ေနသည္!</string>
+    <string name="pvr_schedulelist_replace_line2">ဤအစီအစဥ္မ်ားကို အစားထိုးခ်င္ပါသလား။</string>
+    <string name="pvr_schedulelist_delete_line1">အစီအစဥ္ ဖ်က္သည္!</string>
+    <string name="pvr_schedulelist_delete_line2">ဤအစီအစဥ္မ်ားကို ဖ်က္ခ်င္ပါသလား</string>
+    <string name="hello_world">မဂၤလာပါ ကမာၻေလာကႀကီး!</string>
+    <string name="menu_settings">ဆက္တင္မ်ား</string>
+    <string name="title_activity_schedule_pvr">ၿပီးခဲ့ေသာလႈပ္႐ွားမႈမ်ားအစီအစဥ္</string>
+    <string name="fav_list_is_full">အႏွစ္သက္ဆံုးစာရင္းတြင္ ျပည့္ေနသည္။</string>
+
+    <string name="inputs_row_title">ထည့္သြင္းပါ</string>
+    <string name="apps_row_title">အက္ပ္</string>
+    <string name="games_row_title">ဂိမ္းမ်ား</string>
+    <string name="settings_row_title">ဆက္တင္မ်ား</string>
+    
+    <string name="power_on_off_time_same">တိုင္မာႏွစ္ခု မတူရပါ၊ ေက်းဇူးျပဳ၍ ျပန္သတ္မွတ္ပါ</string>
+    
+    <string name="sleep_timer_tip_text">ပါဝါ ပိတ္သြားလိမ့္မည္။</string>
+    <string name="sleep_timer_btn_text">အိုေက</string>
+    <string name="menu_dialog_numzero">ခ်န္နယ္ နံပါတ္မွာ 0 မျဖစ္ရပါ!</string>
+    
+    <string name="menu_delete_biss_key_tip">ဤ Biss ခလုတ္ကို ဖ်က္လိုသည္မွာ ေသခ်ာပါသလား။</string>
+
+    <string name="video_info_dialog_format">ပံုစံခ်ပါ:</string>
+    <string name="video_info_dialog_resolution">resolution:</string>
+    <string name="video_info_dialog_subtitle">စာတမ္းထုိးသီခ်င္း</string>
+
+    <string name="mmp_photo">ဓာတ်ပုံ</string>
+    <string name="mmp_audio">ဗီဒီယိုကို</string>
+    <string name="mmp_video">ဂီတ</string>
+</resources>

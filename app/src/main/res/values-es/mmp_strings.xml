@@ -235,5 +235,6 @@
     <string name="txture_6">"defaultVideo7.PNG"</string>
     <string name="txture_7">"defaultVideo8.PNG"</string>
     <string name="txture_8">"defaultVideo9.PNG"</string>
-    
+
+	<string name="file_list_initialization">Cargando…</string>
 </resources>

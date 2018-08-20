@@ -1,0 +1,1130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+    <string-array name="menu_setup_network_connection_array">
+        <item>Офф</item>
+        <item>Он</item>
+    </string-array>
+    <string-array name="menu_tv_scan_mode_array">
+        <item>Авто</item>
+        <item>16QAM</item>
+        <item>32QAM</item>
+        <item>64QAM</item>
+        <item>128QAM</item>
+        <item>256QAM</item>
+    </string-array>
+    <string-array name="menu_setup_capturelogo_array">
+        <item>Анхдагч</item>
+        <item>0</item>
+        <item>1</item>
+        <item>Байхгүй</item>
+    </string-array>
+    <string-array name="menu_ci_not_support_channel">
+        <item>没有授权</item>
+    </string-array>
+    <string-array name="menu_video_mpeg_nr_array">
+        <item>Офф</item>
+        <item>Богино</item>
+        <item>Дунд Зэргийн</item>
+        <item>Хүчтэй</item>
+    </string-array>
+    <string-array name="menu_audio_spdif_mode_array">
+        <item>Офф</item>
+        <item>PCM RAW</item>
+        <item>PCM 16</item>
+        <item>PCM 24</item>
+    </string-array>
+    <string-array name="menu_setup_auto_synchronization_array">
+        <item>Офф</item>
+        <item>Урсгалаас Зохицуулалт</item>
+        <item>Ажиллагаагаас Зохицуулалт</item>
+    </string-array>
+    <string-array name="menu_factory_setup_eventform">
+        <item>Хос хэлбэр</item>
+        <item>Урт хэлбэр</item>
+        <item>Богино хэлбэр</item>
+    </string-array>
+    <string-array name="menu_tv_tv_system_array">
+        <item>Авто</item>
+        <item>B/G</item>
+        <item>A2 B/G</item>
+        <item>I</item>
+        <item>D/K</item>
+        <item>A2 D/K</item>
+        <item>A2 D/K1</item>
+        <item>A2 D/K2</item>
+        <item>M</item>
+    </string-array>
+    <string-array name="menu_setup_null_array">
+        <item></item>
+    </string-array>
+    <string-array name="menu_parental_block_channel_schedule_operation_array">
+        <item>Байхгүй</item>
+        <item>Өдөр тутмын</item>
+        <item>Нэг удаа</item>
+    </string-array>
+    <string-array name="menu_audio_downmixmode_eu_array">
+        <item>Бүслэх</item>
+        <item>Стерео</item>
+        <item>Авто Стерео</item>
+    </string-array>
+    <string-array name="menu_setup_time_shifting_mode_array">
+        <item>Офф</item>
+        <item>Он</item>
+    </string-array>
+    <string-array name="screen_mode_array_us_pip_main_analog">
+        <item>Авто</item>
+        <item>Жирийн</item>
+        <item>Захидлын хайрцаг</item>
+        <item>Томруулалт</item>
+        <item>Цэг цэгээр</item>
+    </string-array>
+    <string-array name="screen_mode_array_us_pip">
+        <item>Авто</item>
+        <item>Жирийн</item>
+    </string-array>
+    <string-array name="menu_factory_audio_compressionfactor_array">
+        <item>Офф</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>40</item>
+        <item>50</item>
+        <item>60</item>
+        <item>70</item>
+        <item>80</item>
+        <item>90</item>
+        <item>100</item>
+    </string-array>
+    <integer-array name="menu_setup_us_timezone_values"> 
+        <item>-5</item>  
+        <item>-10</item>  
+        <item>-9</item>  
+        <item>-8</item>  
+        <item>-7</item>  
+        <item>-7</item>  
+        <item>-6</item>  
+        <item>-5</item> 
+    </integer-array>
+    <integer-array name="menu_setup_timezone_value_array"> 
+        <item>-12</item>  
+        <item>-11</item>  
+        <item>-10</item>  
+        <item>-9</item>  
+        <item>-8</item>  
+        <item>-7</item>  
+        <item>-6</item>  
+        <item>-5</item>  
+        <item>-4</item>  
+        <item>-350</item>  
+        <item>-3</item>  
+        <item>-2</item>  
+        <item>-1</item>  
+        <item>0</item>  
+        <item>0</item>  
+        <item>1</item>  
+        <item>2</item>  
+        <item>3</item>  
+        <item>350</item>  
+        <item>4</item>  
+        <item>450</item>  
+        <item>5</item>  
+        <item>550</item>  
+        <item>575</item>  
+        <item>6</item>  
+        <item>7</item>  
+        <item>8</item>  
+        <item>9</item>  
+        <item>950</item>  
+        <item>10</item>  
+        <item>11</item>  
+        <item>12</item>  
+        <item>-1125</item>  
+        <item>-11</item> 
+    </integer-array>
+    <string-array name="menu_video_3d_image_safety_array">
+        <item>Офф</item>
+        <item>Богино</item>
+        <item>Дунд</item>
+        <item>Өндөр</item>
+    </string-array>
+    <string-array name="menu_setup_record_quality_array">
+        <item>Богино</item>
+        <item>Дунд</item>
+        <item>Өндөр</item>
+    </string-array>
+    <string-array name="menu_tv_oceania_country_region">
+        <item>NSW/ACT</item>
+        <item>VIC</item>
+        <item>QLD</item>
+        <item>SA</item>
+        <item>WA</item>
+        <item>TAS</item>
+        <item>NT</item>
+    </string-array>
+    <string-array name="menu_setup_ginga_array">
+        <item>Офф</item>
+        <item>Он</item>
+    </string-array>
+    <string-array name="menu_setup_dlna_array">
+        <item>Офф</item>
+        <item>Он</item>
+    </string-array>
+    <string-array name="screen_mode_array_sa_pip">
+        <item>Авто</item>
+        <item>Жирийн</item>
+        <item>Захидлын хайрцаг</item>
+    </string-array>
+    <string-array name="menu_video_flesh_tone_array">
+        <item>Офф</item>
+        <item>Он</item>
+    </string-array>
+    <string-array name="screen_mode_array_eu_analog">
+        <item>Авто</item>
+        <item>Жирийн</item>
+        <item>Захидлын хайрцаг</item>
+        <item>Панорам</item>
+    </string-array>
+    <string-array name="menu_parental_rating_enable_array">
+        <item>Офф</item>
+        <item>Он</item>
+    </string-array>
+    <string-array name="menu_factory_video_diedge_array">
+        <item>Сул</item>
+        <item>Хүчтэй</item>
+    </string-array>
+    <string-array name="menu_video_hdmi_mode_array">
+        <item>Авто</item>
+        <item>График</item>
+        <item>Дүрст бичлэг</item>
+    </string-array>
+    <string-array name="menu_factory_video_xvycc_array">
+        <item>Офф</item>
+        <item>Он</item>
+    </string-array>
+    <string-array name="menu_audio_spdif_mode_us_array">
+        <item>Офф</item>
+        <item>Dolby Digital</item>
+        <item>PCM</item>
+    </string-array>
+    <string-array name="menu_tv_channeledit_array">
+        <item>Сувгийн мэдээлэл</item>
+        <item>Оруул</item>
+        <item>Устга</item>
+        <item>Своп</item>
+    </string-array>
+    <string-array name="menu_setup_window_opacity_array">
+        <item>Бөх</item>
+        <item>Тунгалаг</item>
+        <item>Ил тод</item>
+    </string-array>
+    <string-array name="menu_scan_mode">
+        <item>Урагшлал</item>
+        <item>Шуурхай</item>
+        <item>Бүрэн</item>
+    </string-array>
+    <string-array name="menu_tv_audio_channel_array">
+        <item>Моно</item>
+        <item>Стерео</item>
+        <item>Хос 1</item>
+        <item>Хос 2</item>
+    </string-array>
+    <string-array name="menu_setup_scart">
+        <item>Авто</item>
+        <item>Холимог</item>
+        <item>RGB</item>
+        <item>CVBS</item>
+        <item>S-Бичлэг</item>
+    </string-array>
+    <string-array name="menu_video_di_film_mode_array">
+        <item>Офф</item>
+        <item>Авто</item>
+    </string-array>
+    <string-array name="menu_factory_video_colortemperature_array">
+        <item>Хэрэглэгч</item>
+        <item>Сайн</item>
+        <item>Стандарт</item>
+        <item>Дулаан</item>
+    </string-array>
+    <string-array name="menu_tv_scan_frequency_plan_array">
+        <item>STD</item>
+        <item>IRC</item>
+        <item>HRC</item>
+    </string-array>
+    <string-array name="menu_setup_timezone_name_array">
+        <item>Asia/Magadan</item>
+        <item>Pacific/Midway</item>
+        <item>Pacific/Honolulu</item>
+        <item>America/Anchorage</item>
+        <item>America/Anchorage</item>
+        <item>America/Los_Angeles</item>
+        <item>America/Chihuahua</item>
+        <item>America/Chicago</item>
+        <item>America/Manaus</item>
+        <item>America/St_Johns</item>
+        <item>America/St_Johns</item>
+        <item>America/Godthab</item>
+        <item>Atlantic/Cape_Verde</item>
+        <item>Телевиз мэт</item>
+        <item>Africa/Casablanca</item>
+        <item>Europe/London</item>
+        <item>Africa/Harare</item>
+        <item>Asia/Amman</item>
+        <item>Asia/Amman</item>
+        <item>Europe/Moscow</item>
+        <item>Asia/Tehran</item>
+        <item>Asia/Yerevan</item>
+        <item>Asia/Colombo</item>
+        <item>Asia/Katmandu</item>
+        <item>Asia/Almaty</item>
+        <item>Asia/Bangkok</item>
+        <item>Asia/Hong_Kong</item>
+        <item>Asia/Tokyo</item>
+        <item>Australia/Adelaide</item>
+        <item>Asia/Yakutsk</item>
+        <item>Asia/Vladivostok</item>
+        <item>Asia/Vladivostok</item>
+        <item>Pacific/Fiji</item>
+        <item>Pacific/Tongatapu</item>
+    </string-array>
+    <string-array name="menu_tv_channel_bl_type">
+        <item>Байхгүй</item>
+        <item>Өдөр тутам</item>
+        <item>Ням</item>
+        <item>Даваа</item>
+        <item>Мягмар</item>
+        <item>Лхагва</item>
+        <item>Пүрэв</item>
+        <item>Баасан</item>
+        <item>Бямба</item>
+    </string-array>
+    <string-array name="menu_setup_timezone_array">
+        <item>GMT-12:00</item>
+        <item>GMT-11:00</item>
+        <item>GMT-10:00</item>
+        <item>GMT-9:00</item>
+        <item>GMT-8:00</item>
+        <item>GMT-7:00</item>
+        <item>GMT-6:00</item>
+        <item>GMT-5:00</item>
+        <item>GMT-4:00</item>
+        <item>GMT-3:30</item>
+        <item>GMT-3:00</item>
+        <item>GMT-2:00</item>
+        <item>GMT-1:00</item>
+        <item>Телевиз мэт</item>
+        <item>GMT+0:00</item>
+        <item>GMT+1:00</item>
+        <item>GMT+2:00</item>
+        <item>GMT+3:00</item>
+        <item>GMT+3:30</item>
+        <item>GMT+4:00</item>
+        <item>GMT+4:30</item>
+        <item>GMT+5:00</item>
+        <item>GMT+5:30</item>
+        <item>GMT+5:45</item>
+        <item>GMT+6:00</item>
+        <item>GMT+6:30</item>
+        <item>GMT+7:00</item>
+        <item>GMT+8:00</item>
+        <item>GMT+9:00</item>
+        <item>GMT+9:30</item>
+        <item>GMT+10:00</item>
+        <item>GMT+11:00</item>
+        <item>GMT+12:00</item>
+        <item>GMT+12:45</item>
+        <item>GMT+13:00</item>
+    </string-array>
+    <string-array name="menu_tv_tuner_mode_array">
+        <item>Antenna</item>
+        <item>Cable</item>
+    </string-array>
+    <string-array name="menu_audio_equalizer_array_us">
+        <item>Офф</item>
+        <item>Рок</item>
+        <item>Pop</item>
+        <item>Амьд</item>
+        <item>Бүжиг</item>
+        <item>Техно</item>
+        <item>Сонгодог</item>
+        <item>Зөөлөн</item>
+        <item>Custom1</item>
+        <item>Custom2</item>
+        <item>custom3</item>
+    </string-array>
+    <string-array name="menu_setup_sleep_timer_array">
+        <item>Офф</item>
+        <item>10 минут</item>
+        <item>20 минут</item>
+        <item>30 минут</item>
+        <item>40 минут</item>
+        <item>50 минут</item>
+        <item>60 минут</item>
+        <item>90 минут</item>
+        <item>120 минут</item>
+    </string-array>
+    <string-array name="menu_tv_us_scan_mode_array">
+        <item>Аналог/Дижитал</item>
+        <item>Аналог</item>
+        <item>Дижитал</item>
+    </string-array>
+    <string-array name="screen_mode_array_sa_pop">
+        <item>Авто</item>
+        <item>Жирийн</item>
+        <item>Захидлын хайрцаг</item>
+        <item>Томруулалт</item>
+    </string-array>
+    <string-array name="screen_mode_array_us_dtv">
+        <item>Авто</item>
+        <item>Жирийн</item>
+        <item>Захидлын хайрцаг</item>
+        <item>Панорам</item>
+        <item>Томруулалт</item>
+        <item>Цэг цэгээр</item>
+    </string-array>
+    <string-array name="menu_tv_audio_language_eu_array">
+        <item>АНГЛИ</item>
+        <item>Эстони</item>
+        <item>Финланд</item>
+        <item>Франц</item>
+        <item>Кельт</item>
+        <item>Ирланд</item>
+        <item>Галик</item>
+        <item>Герман</item>
+        <item>Грек</item>
+        <item>Хинди</item>
+        <item>Унгар</item>
+        <item>Итали</item>
+        <item>Исланд</item>
+        <item>Япон</item>
+        <item>Солонгос</item>
+        <item>Мандарин</item>
+        <item>Маори</item>
+        <item>Норвеги</item>
+        <item>Польш</item>
+        <item>Португал</item>
+        <item>Румын</item>
+        <item>Орос</item>
+        <item>Сами</item>
+        <item>Серби</item>
+        <item>Словак</item>
+        <item>Словени</item>
+        <item>Испани</item>
+        <item>Швед</item>
+        <item>Турк</item>
+        <item>Уэльс</item>
+        <item>Эх Аудио</item>
+        <item>Ярианы</item>
+        <item>Тодорхойлоогүй</item>
+        <item>Баск</item>
+        <item>Болгар</item>
+        <item>Кантон</item>
+        <item>Каталан</item>
+        <item>Хорват</item>
+        <item>Чех</item>
+        <item>Дани</item>
+        <item>Голланд</item>
+    </string-array>
+    <string-array name="menu_setup_atv_record_mode_array">
+        <item>Офф</item>
+        <item>Он</item>
+    </string-array>
+    <string-array name="screen_mode_array_us_pip_sub">
+        <item>Авто</item>
+        <item>Жирийн</item>
+        <item>Захидлын хайрцаг</item>
+    </string-array>
+    <string-array name="menu_parental_content_ratings_array">
+        <item>Офф</item>
+        <item>Drugs</item>
+        <item>Violence</item>
+        <item>Sex</item>
+        <item>Violence &amp; Drugs</item>
+        <item>Sex &amp; Drugs</item>
+        <item>Violence &amp; Sex</item>
+        <item>Violence &amp; Sex &amp; Drugs</item>
+    </string-array>
+    <string-array name="menu_video_3d_3t2switch_array">
+        <item>Офф</item>
+        <item>Он</item>
+    </string-array>
+    <string-array name="menu_setup_oad_auto_download_array">
+        <item>Үгүй</item>
+        <item>Тийм</item>
+    </string-array>
+    <string-array name="menu_setup_digital_caption_array">
+        <item>Офф</item>
+        <item>Service1</item>
+        <item>Service2</item>
+        <item>Service3</item>
+        <item>Service4</item>
+        <item>Service5</item>
+        <item>Service6</item>
+    </string-array>
+    <string-array name="menu_video_game_mode_array">
+        <item>Офф</item>
+        <item>Он</item>
+    </string-array>
+    <string-array name="screen_mode_array_sa">
+        <item>Авто</item>
+        <item>Жирийн</item>
+        <item>Томруулалт</item>
+    </string-array>
+    <string-array name="menu_parental_open_vchip_array">
+        <item>Офф</item>
+        <item>Он</item>
+    </string-array>
+    <string-array name="menu_setup_us_timezone_str">
+        <item>America/New_York</item>
+        <item>Pacific/Honolulu</item>
+        <item>America/Anchorage</item>
+        <item>America/Los_Angeles</item>
+        <item>America/Phoenix</item>
+        <item>America/Denver</item>
+        <item>America/Chicago</item>
+        <item>America/New_York</item>
+    </string-array>
+    <string-array name="menu_setup_power_off_timer_array">
+        <item>Офф</item>
+        <item>Он</item>
+        <item>Нэг удаа</item>
+    </string-array>
+    <string-array name="menu_video_color_temperature2_array">
+        <item>Сайн</item>
+        <item>Стандарт</item>
+        <item>Дулаан</item>
+    </string-array>
+    <string-array name="menu_video_pq_split_mode_array">
+        <item>Офф</item>
+        <item>Он</item>
+    </string-array>
+    <string-array name="menu_setup_dpms_array">
+        <item>Офф</item>
+        <item>Он</item>
+    </string-array>
+    <string-array name="menu_parental_block_unrated_array">
+        <item>Офф</item>
+        <item>Он</item>
+    </string-array>
+    <string-array name="menu_audio_speaker_mode_array">
+        <item>Офф</item>
+        <item>Он</item>
+    </string-array>
+    <string-array name="menu_setup_ttx_presentation_level_array">
+        <item>Level 1.5</item>
+        <item>Level 2.5</item>
+    </string-array>
+    <string-array name="menu_setup_font_size_array">
+        <item>Бага</item>
+        <item>Дунд Зэргийн</item>
+        <item>Том</item>
+    </string-array>
+    <string-array name="menu_setup_fast_boot_array">
+        <item>Офф</item>
+        <item>Он</item>
+    </string-array>
+    <string-array name="menu_tv_tshift_config_array">
+        <item>Офф</item>
+        <item>Он</item>
+    </string-array>
+    <string-array name="menu_tv_subtitle_language_eu_array">
+        <item>Баск</item>
+        <item>Болгар</item>
+        <item>Кантон</item>
+        <item>Каталан</item>
+        <item>Хорват</item>
+        <item>Чех</item>
+        <item>Дани</item>
+        <item>Голланд</item>
+        <item>АНГЛИ</item>
+        <item>Эстони</item>
+        <item>Финланд</item>
+        <item>Франц</item>
+        <item>Кельт</item>
+        <item>Ирланд</item>
+        <item>Галик</item>
+        <item>Герман</item>
+        <item>Грек</item>
+        <item>Хинди</item>
+        <item>Унгар</item>
+        <item>Итали</item>
+        <item>Исланд</item>
+        <item>Япон</item>
+        <item>Солонгос</item>
+        <item>Мандарин</item>
+        <item>Маори</item>
+        <item>Норвеги</item>
+        <item>Польш</item>
+        <item>Португал</item>
+        <item>Румын</item>
+        <item>Орос</item>
+        <item>Сами</item>
+        <item>Серби</item>
+        <item>Словак</item>
+        <item>Словени</item>
+        <item>Испани</item>
+        <item>Швед</item>
+        <item>Турк</item>
+        <item>Уэльс</item>
+        <item>Эх Аудио</item>
+        <item>Ярианы</item>
+        <item>Тодорхойлоогүй</item>
+        <item>Офф</item>
+    </string-array>
+    <string-array name="menu_tv_fa_dataservice_array">
+        <item>Офф</item>
+        <item>Он</item>
+    </string-array>
+    <string-array name="menu_tv_tuner_mode_array_full_eu">
+        <item>Antenna</item>
+        <item>Cable</item>
+        <item>@string/dvbs_preferred_satellite</item>
+        <item>@string/dvbs_general_satellite</item>
+    </string-array>
+    <string-array name="menu_video_super_resolution_array">
+        <item>Офф</item>
+        <item>Он</item>
+    </string-array>
+    <string-array name="menu_cec_on_off">
+        <item>Офф</item>
+        <item>Он</item>
+    </string-array>
+    <string-array name="menu_tv_mdu_type_array">
+        <item>Нийтийн</item>
+        <item>MDU 1</item>
+        <item>MDU 2</item>
+        <item>MDU 3</item>
+        <item>MDU 4</item>
+        <item>MDU 5</item>
+    </string-array>
+    <string-array name="menu_factory_video_wcg_array">
+        <item>Офф</item>
+        <item>Он</item>
+    </string-array>
+    <string-array name="menu_tv_audio_language_array">
+        <item>АНГЛИ</item>
+        <item>Испани</item>
+        <item>Франц</item>
+    </string-array>
+    <string-array name="menu_setup_tv_single_signal_quality">
+        <item>Муу</item>
+        <item>Жирийн</item>
+        <item>Сайн</item>
+    </string-array>
+    <string-array name="menu_tv_freeze_channel_array">
+        <item>Офф</item>
+        <item>Он</item>
+    </string-array>
+    <string-array name="menu_setup_address_type_array">
+        <item>Авто</item>
+        <item>Гараар</item>
+    </string-array>
+    <string-array name="menu_setup_analog_caption_array">
+        <item>Офф</item>
+        <item>CC1</item>
+        <item>CC2</item>
+        <item>CC3</item>
+        <item>CC4</item>
+        <item>TEXT1</item>
+        <item>TEXT2</item>
+        <item>TEXT3</item>
+        <item>TEXT4</item>
+    </string-array>
+    <string-array name="menu_setup_power_on_channel_mode_array">
+        <item>Сүүлчийн байдал</item>
+        <item>Хэрэглэгч сонголт</item>
+    </string-array>
+    <string-array name="pvr_tshift_channel_temp_list">
+        <item>CH41</item>
+        <item>CH42</item>
+        <item>CH43</item>
+        <item>CH44</item>
+    </string-array>
+    <string-array name="menu_audio_avc_mode_array">
+        <item>Офф</item>
+        <item>Он</item>
+    </string-array>
+    <string-array name="menu_factory_autovedio_array">
+        <item>Офф</item>
+        <item>Он</item>
+    </string-array>
+    <string-array name="menu_tv_scan_modulation_array">
+        <item>QAM64</item>
+        <item>QAM256</item>
+    </string-array>
+    <string-array name="menu_setup_enable_caption_array">
+        <item>Тийм</item>
+        <item>Үгүй</item>
+        <item>Хэлгүй дээр</item>
+    </string-array>
+    <string-array name="menu_video_blue_stretch_array">
+        <item>Офф</item>
+        <item>Он</item>
+    </string-array>
+    <string-array name="menu_tv_skip_ch_array">
+        <item>Офф</item>
+        <item>Он</item>
+    </string-array>
+    <string-array name="screen_mode_array_sa_analog">
+        <item>Авто</item>
+        <item>Жирийн</item>
+        <item>Захидлын хайрцаг</item>
+        <item>Панорам</item>
+        <item>Томруулалт</item>
+        <item>Цэг цэгээр</item>
+    </string-array>
+    <string-array name="screen_mode_array_vga">
+        <item>Жирийн</item>
+        <item>Захидлын хайрцаг</item>
+        <item>Томруулалт</item>
+    </string-array>
+    <string-array name="menu_factory_audio_system_test_array">
+        <item>Офф</item>
+        <item>Он</item>
+    </string-array>
+    <string-array name="menu_setup_poweron_music_array">
+        <item>Офф</item>
+        <item>Он</item>
+    </string-array>
+    <string-array name="menu_factory_auto_dima_array">
+        <item>Удаан Зураг</item>
+        <item>Үйлдэлийн Зураг</item>
+    </string-array>
+    <string-array name="menu_tv_audio_channel_mts_array">
+        <item>Моно</item>
+        <item>Стерео</item>
+        <item>SAP</item>
+    </string-array>
+    <string-array name="menu_video_mjc_mode">
+        <item>Жирийн</item>
+        <item>Зөвхөн кино</item>
+        <item>Зөвхөн деблюр</item>
+    </string-array>
+    <string-array name="menu_setup_auto_sleep_array">
+        <item>Офф</item>
+        <item>1 цаг</item>
+        <item>2 цаг</item>
+        <item>5 цаг</item>
+    </string-array>
+    <string-array name="menu_video_mjc_effect_array">
+        <item>Офф</item>
+        <item>Богино</item>
+        <item>Дунд</item>
+        <item>Өндөр</item>
+    </string-array>
+    <string-array name="menu_audio_downmixmode_array">
+        <item>Стерео</item>
+        <item>Авто Стерео</item>
+        <item>Бүслэх</item>
+    </string-array>
+    <string-array name="menu_factory_audio_compression_array">
+        <item>Шугам</item>
+        <item>RF</item>
+    </string-array>
+    <string-array name="menu_video_mjc_demo_partition_array">
+        <item>Бүгд</item>
+        <item>Баруун</item>
+        <item>Зүүн</item>
+    </string-array>
+    <string-array name="menu_tv_color_system_array">
+        <item>Авто</item>
+        <item>PAL</item>
+        <item>SECAM</item>
+        <item>NTSC</item>
+    </string-array>
+    <string-array name="menu_video_flesh_tone_us_array">
+        <item>Офф</item>
+        <item>Богино</item>
+        <item>Дунд Зэргийн</item>
+        <item>Өндөр</item>
+    </string-array>
+    <string-array name="menu_setup_msi_array">
+        <item>Офф</item>
+        <item>Он</item>
+    </string-array>
+    <string-array name="menu_factory_video_flip_array">
+        <item>Офф</item>
+        <item>Он</item>
+    </string-array>
+    <string-array name="menu_setup_analog_subtitle_array">
+        <item>Офф</item>
+        <item>Он</item>
+        <item>Mute</item>
+    </string-array>
+    <string-array name="menu_setup_font_color_array">
+        <item>Хар</item>
+        <item>Цагаан</item>
+        <item>Ногоон</item>
+        <item>Цэнхэр</item>
+        <item>Улаан</item>
+        <item>Цэнхэр</item>
+        <item>Шар</item>
+        <item>Хөх</item>
+    </string-array>
+    <string-array name="menu_setup_decoding_page_language_array">
+        <item>WEST EUR</item>
+        <item>EAST EUR</item>
+        <item>Оросын Холбооны Улс</item>
+        <item>Оросын Холбооны Улс-2</item>
+        <item>Грек</item>
+        <item>Турк</item>
+        <item>Arab/Hbrw</item>
+        <item>Перси</item>
+        <item>Араб</item>
+        <item>Белорус</item>
+    </string-array>
+    <string-array name="pvr_tshift_schedule_type">
+        <item>Бичлэг хийх</item>
+        <item>Сануулга</item>
+    </string-array>
+    <string-array name="menu_setup_background_opacity_array">
+        <item>Бөх</item>
+        <item>Тунгалаг</item>
+        <item>Ил тод</item>
+    </string-array>
+    <string-array name="menu_audio_type_array">
+        <item>Жирийн</item>
+        <item>Сонсгол Суларсан</item>
+        <item>Хараа муутай</item>
+    </string-array>
+    <string-array name="menu_setup_window_color_array">
+        <item>Хар</item>
+        <item>Цагаан</item>
+        <item>Ногоон</item>
+        <item>Цэнхэр</item>
+        <item>Улаан</item>
+        <item>Цэнхэр</item>
+        <item>Шар</item>
+        <item>Хөх</item>
+    </string-array>
+    <string-array name="menu_video_3d_mode_array">
+        <item>Офф</item>
+        <item>Auto Mode</item>
+        <item>2D-to-3D</item>
+        <item>Frame Order</item>
+        <item>Side-by-Side</item>
+        <item>Top-and-Bottom</item>
+        <item>REALD MODE</item>
+        <item>SENSIO</item>
+        <item>Line Interlace</item>
+        <item>DOT ALT MODE</item>
+        <item>CHK BOARD</item>
+    </string-array>
+    <string-array name="menu_audio_visually_speaker_array">
+        <item>Офф</item>
+        <item>Он</item>
+    </string-array>
+    <string-array name="menu_setup_auto_sleep_eu_array">
+        <item>Офф</item>
+        <item>4 цаг</item>
+        <item>6 цаг</item>
+        <item>8 цаг</item>
+    </string-array>
+    <string-array name="menu_setup_my_network_place_array">
+        <item>Офф</item>
+        <item>Он</item>
+    </string-array>
+    <string-array name="pvr_tshift_srctype">
+        <item>ТВ</item>
+        <item>Бүрдэл</item>
+    </string-array>
+    <string-array name="menu_setup_us_timezone_array">
+        <item>Зүүн Цаг</item>
+        <item>Гавай</item>
+        <item>Аляска</item>
+        <item>Номхон Далайн Цаг</item>
+        <item>Аризона</item>
+        <item>Моунтайн Цаг</item>
+        <item>Төвийн Цаг</item>
+        <item>Индиана</item>
+    </string-array>
+    <string-array name="menu_setup_font_opacity_array">
+        <item>Бөх</item>
+        <item>Тунгалаг</item>
+        <item>Ил тод</item>
+    </string-array>
+    <string-array name="menu_audio_pippop_mode_array">
+        <item>Офф</item>
+        <item>PIP</item>
+        <item>Pop</item>
+    </string-array>
+    <string-array name="menu_factory_fm_saturation_mute_array">
+        <item>Офф</item>
+        <item>Он</item>
+    </string-array>
+    <string-array name="menu_tv_color_system_array_eu_edit">
+        <item>Авто</item>
+        <item>NTSC</item>
+        <item>PAL</item>
+        <item>SECAM</item>
+    </string-array>
+    <string-array name="menu_factory_high_deviation_mode_array">
+        <item>Офф</item>
+        <item>Он</item>
+    </string-array>
+    <string-array name="menu_video_3d_nav_array">
+        <item>Гараар</item>
+        <item>Semi-Auto</item>
+        <item>Авто</item>
+    </string-array>
+    <string-array name="menu_video_gamma_array">
+        <item>Бараан</item>
+        <item>Дунд</item>
+        <item>Тод</item>
+    </string-array>
+    <string-array name="menu_parental_age_ratings_array_eu">
+        <item>Байхгүй</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+    </string-array>
+    <string-array name="menu_factory_setup_eu_uart_mode">
+        <item>Офф</item>
+        <item>Он</item>
+    </string-array>
+    <string-array name="menu_audio_visually_headphone_array">
+        <item>Офф</item>
+        <item>Он</item>
+    </string-array>
+    <string-array name="menu_video_vga_mode_array">
+        <item>График</item>
+        <item>Дүрст бичлэг</item>
+    </string-array>
+    <string-array name="menu_factory_setup_uart_mode">
+        <item>Офф</item>
+        <item>Он</item>
+    </string-array>
+    <string-array name="menu_audio_srs_mode_array">
+        <item>Офф</item>
+        <item>Он</item>
+    </string-array>
+    <string-array name="menu_setup_digital_teletext_language_array">
+        <item>Баск</item>
+        <item>Болгар</item>
+        <item>Кантон</item>
+        <item>Каталан</item>
+        <item>Хорват</item>
+        <item>Чех</item>
+        <item>Дани</item>
+        <item>Голланд</item>
+        <item>АНГЛИ</item>
+        <item>Эстони</item>
+        <item>Финланд</item>
+        <item>Франц</item>
+        <item>Кельт</item>
+        <item>Ирланд</item>
+        <item>Галик</item>
+        <item>Герман</item>
+        <item>Грек</item>
+        <item>Хинди</item>
+        <item>Унгар</item>
+        <item>Итали</item>
+        <item>Исланд</item>
+        <item>Япон</item>
+        <item>Солонгос</item>
+        <item>Мандарин</item>
+        <item>Маори</item>
+        <item>Норвеги</item>
+        <item>Польш</item>
+        <item>Португал</item>
+        <item>Румын</item>
+        <item>Орос</item>
+        <item>Сами</item>
+        <item>Серби</item>
+        <item>Словак</item>
+        <item>Словени</item>
+        <item>Испани</item>
+        <item>Швед</item>
+        <item>Турк</item>
+        <item>Уэльс</item>
+        <item>Эх Аудио</item>
+        <item>Ярианы</item>
+        <item>Тодорхойлоогүй</item>
+    </string-array>
+    <string-array name="menu_parental_age_ratings_array_eu_ocean_aus">
+        <item>Хаалт үгүй</item>
+        <item>R ба дээрхийг хаа</item>
+        <item>AV ба дээрхийг хаа</item>
+        <item>МА ба дээрхийг хаа</item>
+        <item>М ба дээрхийг хаа</item>
+        <item>PG ба дээрхийг хаа</item>
+        <item>G ба дээрхийг хаа</item>
+        <item>Бүгдийг Хаа</item>
+    </string-array>
+    <string-array name="menu_setup_superimpose_setup_array">
+        <item>Офф</item>
+        <item>Хэл1</item>
+        <item>Хэл2</item>
+    </string-array>
+    <string-array name="menu_factory_audio_dolbybanner_array">
+        <item>Офф</item>
+        <item>Он</item>
+    </string-array>
+    <string-array name="menu_video_black_bar_detection_array">
+        <item>Офф</item>
+        <item>Он</item>
+    </string-array>
+    <string-array name="menu_setup_digital_caption_sa_array">
+        <item>Офф</item>
+        <item>Хэл1</item>
+        <item>Хэл2</item>
+        <item>Хэл3</item>
+        <item>Хэл4</item>
+        <item>Хэл5</item>
+        <item>Хэл6</item>
+        <item>Хэл7</item>
+        <item>Хэл8</item>
+    </string-array>
+    <string-array name="menu_tv_tuner_mode_array_full_eu_sat_only">
+        <item>Antenna</item>
+        <item>Cable</item>
+        <item>Satellite</item>
+    </string-array>
+    <string-array name="menu_factory_setup_burning_mode">
+        <item>Офф</item>
+        <item>Он</item>
+    </string-array>
+    <string-array name="menu_audio_bbe_mode_array">
+        <item>Офф</item>
+        <item>BBE</item>
+        <item>BBE Viva</item>
+    </string-array>
+    <string-array name="menu_tv_country_region_id_eu">
+        <item>Улсын Бүсийн ID 1</item>
+        <item>Улсын Бүсийн ID 2</item>
+    </string-array>
+    <string-array name="menu_video_dnr_array">
+        <item>Офф</item>
+        <item>Богино</item>
+        <item>Дунд Зэргийн</item>
+        <item>Хүчтэй</item>
+        <item>Авто</item>
+    </string-array>
+    <string-array name="menu_setup_subtitle_type_array">
+        <item>Жирийн</item>
+        <item>Сонсгол Суларсан</item>
+    </string-array>
+    <string-array name="menu_tv_fine_tune_array">
+        <item>Офф</item>
+        <item>Он</item>
+    </string-array>
+    <string-array name="menu_parental_age_ratings_array">
+        <item>Байхгүй</item>
+        <item>Below 10</item>
+        <item>Below 12</item>
+        <item>Below 14</item>
+        <item>Below 16</item>
+        <item>Below 18</item>
+    </string-array>
+    <string-array name="menu_video_3d_lrswitch_array">
+        <item>Офф</item>
+        <item>Он</item>
+    </string-array>
+    <string-array name="menu_factory_video_local_array">
+        <item>Офф</item>
+        <item>Он</item>
+    </string-array>
+    <string-array name="menu_setup_power_on_timer_array">
+        <item>Офф</item>
+        <item>Он</item>
+        <item>Нэг удаа</item>
+    </string-array>
+    <string-array name="menu_tv_channel_listtype">
+        <item>Нэвтрүүлэг</item>
+        <item>CAM</item>
+    </string-array>
+    <string-array name="screen_mode_array_us_pop">
+        <item>Авто</item>
+        <item>Жирийн</item>
+        <item>Томруулалт</item>
+    </string-array>
+    <string-array name="menu_audio_equalizer_array">
+        <item>Офф</item>
+        <item>Рок</item>
+        <item>Pop</item>
+        <item>Амьд</item>
+        <item>Бүжиг</item>
+        <item>Техно</item>
+        <item>Сонгодог</item>
+        <item>Зөөлөн</item>
+    </string-array>
+    <string-array name="menu_setup_caption_style_array">
+        <item>Телевиз мэт</item>
+        <item>Гааль</item>
+    </string-array>
+    <string-array name="menu_setup_font_style_array">
+        <item>Style1</item>
+        <item>Style2</item>
+        <item>Style3</item>
+        <item>Style4</item>
+        <item>Style5</item>
+        <item>Style6</item>
+        <item>Style7</item>
+    </string-array>
+    <string-array name="menu_tv_rf_signal_quality">
+        <item>Сайн</item>
+        <item>Дунд Зэргийн</item>
+        <item>Муу</item>
+    </string-array>
+    <string-array name="menu_tv_sound_system_array">
+        <item>B/G</item>
+        <item>A2 B/G</item>
+        <item>L</item>
+        <item>L\'</item>
+        <item>I</item>
+        <item>D/K</item>
+        <item>A2 D/K</item>
+        <item>A2 D/K1</item>
+        <item>A2 D/K2</item>
+    </string-array>
+    <string-array name="menu_video_luma_array">
+        <item>Офф</item>
+        <item>Богино</item>
+        <item>Дунд Зэргийн</item>
+        <item>Хүчтэй</item>
+    </string-array>
+    <string-array name="menu_factory_video_mirror_array">
+        <item>Офф</item>
+        <item>Он</item>
+    </string-array>
+    <string-array name="pvr_tshift_repeat_type">
+        <item>Нэг удаа</item>
+        <item>Долоо хоног</item>
+        <item>Өдөр тутмын</item>
+    </string-array>
+    <string-array name="menu_factory_carrier_shift_function_array">
+        <item>Офф</item>
+        <item>Он</item>
+    </string-array>
+    <string-array name="menu_setup_language_array">
+        <item>АНГЛИ</item>
+        <item>简体中文</item>
+    </string-array>
+    <string-array name="menu_setup_blue_mute_array">
+        <item>Офф</item>
+        <item>Он</item>
+    </string-array>
+    <string-array name="menu_setup_background_color_array">
+        <item>Хар</item>
+        <item>Цагаан</item>
+        <item>Ногоон</item>
+        <item>Цэнхэр</item>
+        <item>Улаан</item>
+        <item>Цэнхэр</item>
+        <item>Шар</item>
+        <item>Хөх</item>
+    </string-array>
+</resources>

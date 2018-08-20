@@ -13,8 +13,10 @@ import android.view.Window;
 import android.view.WindowManager;
 
 import com.mediatek.wwtv.mediaplayer.R;
+import com.mediatek.wwtv.mediaplayer.mmp.multimedia.Photo4K2KPlayActivity;
 import com.mediatek.wwtv.mediaplayer.mmp.multimedia.PhotoPlayActivity;
 import com.mediatek.wwtv.mediaplayer.mmpcm.mmcimpl.Const;
+import com.mediatek.wwtv.mediaplayer.util.Util;
 
 
 public class RorateModeDialog extends DialogFragment {
@@ -42,6 +44,16 @@ public class RorateModeDialog extends DialogFragment {
         return dialog;
     }
 
+    @Override
+    public void onDetach() {
+        super.onDetach();
+        if (Util.PHOTO_4K2K_ON) {
+            ((Photo4K2KPlayActivity)getActivity()).resetRotate();
+        }else {
+            ((PhotoPlayActivity)getActivity()).resetRotate();
+        }
+    }
+
     private DialogInterface.OnKeyListener mOnKeyListener = new DialogInterface.OnKeyListener() {
         @Override
         public boolean onKey(DialogInterface dialog, int keyCode, KeyEvent event) {
@@ -49,8 +61,12 @@ public class RorateModeDialog extends DialogFragment {
                 switch (keyCode) {
                     case KeyEvent.KEYCODE_DPAD_CENTER:
                         if (isValid()){
+                        if (Util.PHOTO_4K2K_ON) {
+                            ((Photo4K2KPlayActivity)getActivity()).rotate();
+                        }else {
                             ((PhotoPlayActivity)getActivity()).rotate();
                         }
+                    }
                         return true;
                 }
             }

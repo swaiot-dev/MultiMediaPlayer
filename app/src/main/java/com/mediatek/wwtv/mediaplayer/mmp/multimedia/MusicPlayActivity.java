@@ -35,6 +35,7 @@ import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import com.mediatek.dm.DeviceManagerEvent;
 import com.mediatek.gamekit.GKView;
 import com.mediatek.gamekit.GKView.MessageListener;
 import com.mediatek.wwtv.mediaplayer.mmp.SkyPreviewListDialog;
@@ -42,6 +43,8 @@ import com.mediatek.wwtv.mediaplayer.mmp.commonview.InfoDialog;
 import com.mediatek.wwtv.mediaplayer.mmp.commonview.MediaControlView;
 import com.mediatek.wwtv.mediaplayer.mmp.model.FileAdapter;
 import com.mediatek.wwtv.mediaplayer.mmp.model.FilesManager;
+import com.mediatek.wwtv.mediaplayer.mmpcm.device.DevListener;
+import com.mediatek.wwtv.mediaplayer.mmpcm.device.DevManager;
 import com.mediatek.wwtv.mediaplayer.setting.util.TVContent;
 
 import android.media.MediaPlayer;
@@ -727,6 +730,7 @@ public class MusicPlayActivity extends SkyMediaPlayActivity implements GKView.Lo
         myHandler.sendEmptyMessage(PROGRESS_START);
         removeScore(isHideSperum);
         //        reSetController();
+        showProgressView();
     }
 
     private void handleComplete() {
@@ -1043,6 +1047,7 @@ public class MusicPlayActivity extends SkyMediaPlayActivity implements GKView.Lo
             case MultiFilesManager.SOURCE_LOCAL:
                 mAudioSource = AudioConst.PLAYER_MODE_LOCAL;
                 mAudioFileType = FileConst.SRC_USB;
+                onRegisterUsbEvent();
                 break;
             case MultiFilesManager.SOURCE_SMB:
                 mAudioSource = AudioConst.PLAYER_MODE_SAMBA;
@@ -1058,6 +1063,7 @@ public class MusicPlayActivity extends SkyMediaPlayActivity implements GKView.Lo
     }
 
     private void initData() {
+        loadMusicInfo();
         mLogicManager = LogicManager.getInstance(this);
 
         if (AudioConst.PLAYER_MODE_LOCAL == mAudioSource) {
@@ -1086,7 +1092,7 @@ public class MusicPlayActivity extends SkyMediaPlayActivity implements GKView.Lo
         isCenterKey2Pause = false;
         // end
 
-        loadMusicInfo();
+
 
     }
 
@@ -1145,7 +1151,7 @@ public class MusicPlayActivity extends SkyMediaPlayActivity implements GKView.Lo
     }
 
 
-    public void Play(){      //?¡§?D?2¡ê¡è?¡è?
+    public void Play(){
 //        if (!mMediaControlView.isProgressShowing()) {
 //            mMediaControlView.showProgressLayout();
 //            mMediaControlView.setCurrTime(mLogicManager.getPlaybackProgress());
@@ -1170,7 +1176,7 @@ public class MusicPlayActivity extends SkyMediaPlayActivity implements GKView.Lo
         mCoverAnimator.start();
 
     }
-    public void Pause(){     //?Y¡§a?¨º2¡ê¡è?¡è?
+    public void Pause(){
         if (!mMediaControlView.isProgressShowing()) {
         mMediaControlView.showProgressLayout();
         mMediaControlView.setCurrTime(mLogicManager.getPlaybackProgress());
@@ -1193,7 +1199,7 @@ public class MusicPlayActivity extends SkyMediaPlayActivity implements GKView.Lo
 
 
     }
-    public void Stop(){     //¡§a?¨º?12¡ê¡è?¡è?
+    public void Stop(){
         /* add by lei 1228 */
         if (isNotSupport) {
             return;
@@ -1216,7 +1222,7 @@ public class MusicPlayActivity extends SkyMediaPlayActivity implements GKView.Lo
             }
         }).start();
     }
-    public void Rewind(){    //|¨¬1???  &  ?¡§???
+    public void Rewind(){
         // SKY luojie add 20171218 for add choose menu begin
         if (isNotSupport || mLogicManager.isAudioFast()) {//|| mIsSeeking
             return ;
@@ -1237,7 +1243,7 @@ public class MusicPlayActivity extends SkyMediaPlayActivity implements GKView.Lo
         }
         seek(key, keyEvent);
     }
-    public void StartOver(){       //??D?2¡ê¡è?¡è?
+    public void StartOver(){
         key = 3;
             cancelMessage(AUTO_HIDE_PROGRESSBAR);
             mMediaControlView.showPlayStatusLayout();
@@ -1259,6 +1265,49 @@ public class MusicPlayActivity extends SkyMediaPlayActivity implements GKView.Lo
         }
 
     }
+	
+	public void Next(){
+      if (isValid()) {
+          dismissNotSupprot();
+          myHandler.removeMessages(NOSUPPORT_PLAYNEXT);
+          // add by xiaojie fix cr DTV00379650
+          myHandler.removeMessages(CLEAR_LRC);
+          myHandler.sendEmptyMessage(CLEAR_LRC);
+          // end
+          mIsSeeking = false;
+          mLogicManager.playNextAudio();
+          myHandler.removeMessages(PROGRESS_START);
+          luaStopAnim(); // by lei add for play 3D animal start
+      }
+      return;
+  }
+	
+	public void Fastward(){
+    if (null == mControlView) {
+      return ;
+    }
+    if (!mLogicManager.canSeek()) {
+      MtkLog.i(TAG, "!mLogicManager.canSeek()");
+      featureNotWork(getString(R.string.mmp_featue_notsupport));
+      return ;
+    }
+	}
+	
+	public void Previous(){
+      if (isValid()) {
+          dismissNotSupprot();
+          myHandler.removeMessages(NOSUPPORT_PLAYNEXT);
+          // add by xiaojie fix cr DTV00379650
+          myHandler.removeMessages(CLEAR_LRC);
+          myHandler.sendEmptyMessage(CLEAR_LRC);
+          // end
+          mIsSeeking = false;
+          mLogicManager.playPrevAudio();
+          myHandler.removeMessages(PROGRESS_START);
+          luaStopAnim(); // by lei add for play 3D animal start
+      }
+      return ;
+  }
 
     int key = 1;
     KeyEvent keyEvent;
@@ -1266,7 +1315,7 @@ public class MusicPlayActivity extends SkyMediaPlayActivity implements GKView.Lo
      * {@inheritDoc}
      */
     @Override
-    public boolean onKeyDown(int keyCode, KeyEvent event) {
+    public boolean onKeyDown(int keyCode, final KeyEvent event) {
         MtkLog.i(TAG, "keyCode:" + keyCode);
         mLastKeyDownTime = System.currentTimeMillis();
         // temp solution
@@ -1443,7 +1492,7 @@ public class MusicPlayActivity extends SkyMediaPlayActivity implements GKView.Lo
                         isLongPressLRKey = false;
                     }
                 }
-                new Handler().postDelayed(new Runnable() {
+                /*new Handler().postDelayed(new Runnable() {
                     @Override
                     public void run() {
                         if (!mMediaControlView.isProgressShowing()) {
@@ -1452,9 +1501,19 @@ public class MusicPlayActivity extends SkyMediaPlayActivity implements GKView.Lo
                             mMediaControlView.setTotalTime(mLogicManager.getTotalPlaybackTime());
                             sendMessage(PROGRESS_CHANGED);
                             sendDelayMessage(AUTO_HIDE_PROGRESSBAR, AUTO_HIDE_CONTROL_TIME);
+
+                            if (mLrcView.getVisibility() == View.VISIBLE){
+                                event.startTracking();
+                                WrapperView wrapper = new WrapperView(mMusicInfo_rl);
+                                ObjectAnimator animator = ObjectAnimator.ofInt(wrapper, "width", 1020);
+                                animator.start();
+                                mLrcView.setVisibility(View.VISIBLE);
+                                setLrcLine(mLyricLine);
+                                mLogicManager.lrcHide = false;
+                            }
                         }
                     }
-                },1500);
+                },1500);*/
 //            if (isValid()) {
 //              dismissNotSupprot();
 //              myHandler.removeMessages(NOSUPPORT_PLAYNEXT);
@@ -1530,7 +1589,7 @@ public class MusicPlayActivity extends SkyMediaPlayActivity implements GKView.Lo
                         isLongPressLRKey = false;
                     }
                 }
-                new Handler().postDelayed(new Runnable() {
+               /* new Handler().postDelayed(new Runnable() {
                     @Override
                     public void run() {
                         if (!mMediaControlView.isProgressShowing()) {
@@ -1539,9 +1598,19 @@ public class MusicPlayActivity extends SkyMediaPlayActivity implements GKView.Lo
                             mMediaControlView.setTotalTime(mLogicManager.getTotalPlaybackTime());
                             sendMessage(PROGRESS_CHANGED);
                             sendDelayMessage(AUTO_HIDE_PROGRESSBAR, AUTO_HIDE_CONTROL_TIME);
+
+                            if (mLrcView.getVisibility() == View.VISIBLE){
+                                event.startTracking();
+                                WrapperView wrapper = new WrapperView(mMusicInfo_rl);
+                                ObjectAnimator animator = ObjectAnimator.ofInt(wrapper, "width", 1020);
+                                animator.start();
+                                mLrcView.setVisibility(View.VISIBLE);
+                                setLrcLine(mLyricLine);
+                                mLogicManager.lrcHide = false;
+                            }
                         }
                     }
-                },1500);
+                },1500);*/
 
 //            if (isValid()) {
 //              dismissNotSupprot();
@@ -1931,7 +2000,7 @@ public class MusicPlayActivity extends SkyMediaPlayActivity implements GKView.Lo
         mControlView.onFast(speed, isForward, Const.FILTER_AUDIO);
     }
 
-    public void leftMusic(){    //?D??|¨¬?¡§|?¡§¡ã??¡§2
+    public void leftMusic(){
         dismissNotSupprot();
         myHandler.removeMessages(NOSUPPORT_PLAYNEXT);
         // add by xiaojie fix cr DTV00379650
@@ -1945,7 +2014,7 @@ public class MusicPlayActivity extends SkyMediaPlayActivity implements GKView.Lo
         myHandler.removeMessages(PROGRESS_START);
         luaStopAnim();
     }
-    public void rightMusic(){   //¡§|?¡§¡ã??¡§2
+    public void rightMusic(){
         dismissNotSupprot();
         myHandler.removeMessages(NOSUPPORT_PLAYNEXT);
         // add by xiaojie fix cr DTV00379650
@@ -2147,11 +2216,49 @@ public class MusicPlayActivity extends SkyMediaPlayActivity implements GKView.Lo
         super.onDestroy();
         unregisterReceiver(mTalkBackReceiver);//add by yx for talkback
         Util.LogLife(TAG, "onDestroy");
-
+        if (mDevManager != null) {
+            mDevManager.removeDevListener(mDevListener);
+        }
         lrc_map = null;
         // SKY luojie add 20171218 for add choose menu begin
         mMenuHandler.removeMessages(DETECT_USER_OPERATION);
         // SKY luojie add 20171218 for add choose menu end
+    }
+
+    private DevManager mDevManager = null;
+    private MyDevListener mDevListener = null;
+
+    public class MyDevListener implements DevListener {
+        public void onEvent(DeviceManagerEvent event) {
+            MtkLog.d(TAG, "Device Event : " + event.getType());
+            int type = event.getType();
+            String devicePath = event.getMountPointPath();
+            String filePath = mLogicManager.getCurrentFilePath(Const.FILTER_AUDIO);
+            switch (type) {
+                case DeviceManagerEvent.umounted:
+                    MtkLog.d(TAG, "Device Event Unmounted!!");
+                    if (filePath == null && null != devicePath) {
+                        resetResource();
+                        mLogicManager.stopAudio();
+                        finish();
+                    }
+                    break;
+
+                default:
+                    break;
+            }
+        }
+    }
+
+    private void onRegisterUsbEvent() {
+        try {
+            mDevListener = new MyDevListener();
+            mDevManager = DevManager.getInstance();
+            mDevManager.addDevListener(mDevListener);
+        } catch (ExceptionInInitializerError e) {
+            mDevManager = null;
+            mDevListener = null;
+        }
     }
 
     public void clearLrc() {
@@ -2329,6 +2436,15 @@ public class MusicPlayActivity extends SkyMediaPlayActivity implements GKView.Lo
                 }
             }
         }).start();
+    }
+
+    private void showProgressView() {
+        if (mMediaControlView != null && !mMediaControlView.isProgressShowing() &&
+                mPreviewListDialog != null && !mPreviewListDialog.isDialogShowing()) {
+            mMediaControlView.showProgressLayout();
+            sendMessage(PROGRESS_CHANGED);
+            sendDelayMessage(AUTO_HIDE_PROGRESSBAR, AUTO_HIDE_CONTROL_TIME);
+        }
     }
 
     private void setCoverImg() {

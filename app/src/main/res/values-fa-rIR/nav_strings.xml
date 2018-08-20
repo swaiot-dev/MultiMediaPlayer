@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<string name="setup_ini">نصب اولیه</string>
+	<string name="setup_back">برگشت </string>
+	<string name="setup_select">انتخاب</string>
+	<string name="setup_next">بعدی</string>
+	<string name="setup_exit">خروج </string>
+	<string name="setup_welcome">خوشامدید</string>
+	<string name="setup_welcome_set">به برنامه کاربری 
+نصب اولیه خوشامدید!!\nلطفاً برای ورود به برنامه، روی [ENTER] را فشار دهید.</string>
+	<string name="setup_language">زبان </string>
+	<string name="setup_select_language">لطفاً زبان خود را انتخاب کنید:</string>
+	<string name="setup_select_one_op">شما می‌توانید تنها یک اپراتور را از لیست ذیل انتخاب کنید:</string>
+	<string name="setup_tunner">حالت تنظیم‌کننده</string>
+	<string name="setup_select_tuner">لطفاً حالت تنظیم‌کننده خود را انتخاب کنید :</string>
+	<string name="setup_channelscan">اسکن کانال</string>
+	<string name="setup_set_setps">ابتدا لطفاً آنتن را وصل کنید.\nجستجوی کانال را آغاز کنید
+		اکنون؟\nاگر این مرحله را انجام ندهید، جستجوی کانال را می‌توانید در
+فهرست انجام دهید.</string>
+	<string name="setup_set_setps_us">ابتدا لطفاً کابل یا آنتن را وصل کنید.\n\nجستجوی کانال را آغاز کنید
+		اکنون؟\n\nاگر این مرحله را انجام ندهید، جستجوی کانال را می‌توانید در
+فهرست انجام دهید.</string>
+	<string name="setup_language_english">انگلیسی </string>
+	<string name="setup_tuner_antenna">آنتن</string>
+	<string name="setup_tuner_cable">کابل</string>
+	<string name="setup_scan">اسکن</string>
+	<string name="setup_skip_scan">نادیده گرفتن جستجو</string>
+	<string name="setup_complete">تکمیل شد</string>
+	<string name="setup_congratulations">تبریک!\nنصب اولیه کامل شد.\nلطفاً
+برای خروج از برنامه دکمه [ENTER] را فشار دهید.</string>
+	<string name="setup_channel_scan_note">تکمیل شدن جستجوی کانال ممکن است طول بکشد.</string>
+	<string name="setup_channel_scan_status">وضعیت: در حال جستجو</string>
+	<string name="setup_channel_scan_analog">کانال‌های آنالوگ:</string>
+	<string name="setup_channel_scan_digital">کانال‌های دیجیتال:</string>
+	<string name="setup_cancel">کنسل کردن </string>
+	<string name="setup_cancel_scan">وضعیت: لغو جستجو</string>
+	<string name="setup_scan_error">وضعیت خطای جستجو</string>
+	<string name="setup_channel_scan_status_complete">وضعیت: جستجو تکمیل</string>
+	<string name="dvbs_operator_perferred_satellite">ماهواره دلخواه</string>
+	<string name="dvbs_operator_general_satellite">ماهواره کلی</string>
+
+	<string name="table">جدول صفحه</string>
+	<string name="nav_test_tv">تلویزیون</string>
+
+	<string name="nav_source_main_title">اصلی</string>
+	<string name="nav_source_sub_title">فرعی</string>
+
+	<string name="nav_please_scan_channels">لطفاً کانال‌ها را اسکن کن!</string>
+<string name="nav_no_function">
+بدون عملکرد</string>
+	<string name="nav_select_list">انتخاب لیست</string>
+	<string name="nav_page_up">بالای صفحه</string>
+	<string name="nav_page_down">پایین صفحه</string>
+	<string name="nav_fav_move_up">حرکت به بالا</string>
+	<string name="nav_fav_move_down">حرکت به پایین</string>
+	<string name="nav_exit">خروج </string>
+	<string name="nav_list_satellite">لیست ماهواره</string>
+	<string name="nav_satellite_list">انتخاب ماهواره</string>
+	<string name="nav_channel_list">لیست کانال</string>
+
+	<string name="nav_channel_list_title_str">لیست کانال - </string>
+	<string name="nav_channel_selection">انتخاب لیست کانال</string>
+	<string name="nav_channel_details">جزییات کانال</string>
+	<string name="nav_volume_main">صدای اصلی</string>
+	<string name="nav_parent_psw">رمز عبور </string>
+	<string name="nav_parent_dvbs_hint">رمز عبور سه بار اشتباه وارد شده!\nلطفاً صبر کنید...</string>
+	<string name="nav_channel_antenna">آنتن</string>
+	<string name="nav_favorite_list">فهرست علاقه‌مندی‌ها</string>
+	<string name="nav_favorite_select">انتخاب</string>
+
+	<string name="nav_channel_infoType">آنتن</string>
+	<string name="nav_channel_infoMiddle_special">درحال بازیابی داده...</string>
+	<string name="nav_channel_infoTitle">(بدون عنوان برنامه.)</string>
+	<string name="nav_channel_infoNextDuration">شرکت بورس این‌سایت</string>
+	<string name="nav_channel_infoFormatField">استریو </string>
+	<string name="nav_channel_infoNoProgram">(بدون جزییات برنامه.)</string>
+	<string name="nav_channel_infoNoChannelDetail">(بدون جزییات کانال.)</string>
+	<string name="nav_no_signal">بدون سیگنال!</string>
+	<string name="nav_no_support">بدون پشتیبانی!</string>
+	<string name="nav_channel_has_locked">کانال قفل شده!</string>
+	<string name="nav_input_has_locked">ورودی قفل شده!</string>
+	<string name="nav_program_has_locked">برنامه قفل شده!</string>
+	<string name="nav_hidden_channel">کانال مخفی!</string>
+	<string name="nav_channel_audio_scrambled">صوت درهم‌آمیخته</string>
+	<string name="nav_channel_video_scrambled">تصویر درهم‌آمیخته</string>	
+	<string name="nav_sleep_label">خوابیدن:</string>
+	<string name="nav_sleep_off"> خاموش</string>
+	<string name="nav_sleep_minutes"> دقیقه</string>
+	<string name="nav_resolution_null">بدون ویدیو</string>
+	<string name="nav_channel_retrieving">درحال بازیابی داده...</string>
+	<string name="nav_unknown_audio">صوت ناشناس</string>
+	<string name="nav_unknown_stereo">استریو ناشناس</string>
+	<string name="nav_unknown_audio_sundry">ناشناخته </string>
+	<string name="nav_channel_no_audio">بدون صدا</string>
+
+	<string name="nav_epg_type">نوع</string>
+	<string name="nav_epg_sub_type">زیرنوع</string>
+	<string name="nav_epg_zero_tip">لیست رزروشده</string>
+	<string name="nav_epg_book_list">لیست رویداد رزروشده</string>
+	<string name="nav_epg_book_program_tip">\nاین برنامه رزرو شود؟</string>
+	<string name="nav_epg_unbook_program_tip">\nاین برنامه از قبل رزرو شده، از رزرو خارج شود؟</string>
+	<string name="nav_epg_book_program_coming_tip"> می‌آید، به کانال تغییر کند؟</string>
+	<string name="nav_epg_not_rated">بدون رتبه</string>
+	<string name="nav_epg_no_program_detail">(بدون جزییات برنامه)</string>
+	<string name="nav_epg_no_program_data">( بدون داده برنامه)</string>
+	<string name="nav_epg_no_program_title">(بدون عنوان برنامه.)</string>
+	<string name="nav_epg_no_title">(بدون عنوان)</string>
+	<string name="nav_epg_unlock">بازکردن قفل</string>
+	<string name="nav_epg_unschedule">بدون برنامه</string>
+	<string name="nav_epg_schedule">برنامه</string>
+	<string name="nav_epg_unclassified">فاقد طبقه بندی </string>
+	<string name="nav_epg_not_support">عدم حمایت </string>
+
+	<string name="cplogo_title">علامت ضبط</string>
+	<string name="cplogo_bt_ok">تایید </string>
+	<string name="cplogo_bt_cancel">کنسل کردن </string>
+	<string name="cplogo_bt_full_screen">صفحه کامل </string>
+	<string name="cplogo_bt_special_area">بخش خاص</string>
+	<string name="cplogo_bt_no">شماره </string>
+	<string name="cplogo_bt_adjust">تنظیم </string>
+	<string name="cplogo_msg_which_screen">آیا قصد دارید عکس تمام صفحه را ضبط کنید یا بخشی خاص؟
+</string>
+	<string name="cplogo_msg_this_screen">آیا قصد دارید عکس این صفحه را ضبط کنید؟</string>
+	<string name="cplogo_msg_select_position">لطفاً برای ذخیره‌سازی علامت مکانی را انتخاب کنید</string>
+	<string name="cplogo_msg_capturing">در حال ضبط ...</string>
+	<string name="cplogo_msg_adjust_position">آیا قصد دارید موقعیت بخش 		خاص را تنظیم کنید؟</string>
+	<string name="cplogo_msg_res_success">ضبط موفق بود</string>
+	<string name="cplogo_msg_res_fail">ضبط ناتمام ماند، لطفاً دوباره امتحان کنید.</string>
+	<string name="cplogo_capture_res_cancel">این عملیات لغو شده است</string>
+
+	<string name="vga_no_sinal_info">بدون سیگنال. برق خاموش خواهد شد.</string>
+
+	<string name="epg_bottom_prev_day">روز قبل</string>
+	<string name="epg_bottom_next_day">روز آینده</string>
+	<string name="epg_bottom_view_detail">مشاهده جزییات</string>
+	<string name="epg_bottom_type_filter">فیلتر نوع</string>
+	<string name="epg_bottom_prev_page">بالای صفحه</string>
+	<string name="epg_bottom_next_page">پایین صفحه</string>
+	<string name="epg_bottom_ENTER">اینتر</string>
+	<string name="epg_rating_unclassified">فاقد طبقه بندی </string>
+
+	<string name="epg_info_program_type">هیچ </string>
+	<string name="epg_password">رمز عبور </string>
+	<string name="epg_password_message">رمز عبور اشتباه است</string>
+	<string name="epg_retrieving_show">درحال بازیابی داده...</string>
+
+	<string name="nav_epg_January">ژانویه</string>
+	<string name="nav_epg_February">فبریه</string>
+	<string name="nav_epg_March">مارس</string>
+	<string name="nav_epg_April">آوریل</string>
+	<string name="nav_epg_May">مه</string>
+	<string name="nav_epg_June">ژوئن</string>
+	<string name="nav_epg_July">جولای</string>
+	<string name="nav_epg_August">آگوست</string>
+	<string name="nav_epg_September">سپتامبر</string>
+	<string name="nav_epg_October">اکتبر</string>
+	<string name="nav_epg_November">نوامبر</string>
+	<string name="nav_epg_December">دسامبر</string>
+
+	<string name="nav_epg_Jan">ژان</string>
+	<string name="nav_epg_Feb">فوریه</string>
+	<string name="nav_epg_Mar">مار</string>
+	<string name="nav_epg_Apr">آور</string>
+	<string name="nav_epg_may">مه</string>
+	<string name="nav_epg_Jun">ژوئن</string>
+	<string name="nav_epg_Jul">جول</string>
+	<string name="nav_epg_Aug"> ماه اوت </string>
+	<string name="nav_epg_Sep">سپت</string>
+	<string name="nav_epg_Oct">اکت</string>
+	<string name="nav_epg_Nov">نوا</string>
+	<string name="nav_epg_Dec">دسا</string>
+
+	<string name="nav_epg_Sunday">یکشنبه</string>
+	<string name="nav_epg_Monday">دوشنبه</string>
+	<string name="nav_epg_Tuesday">سه شنبه</string>
+	<string name="nav_epg_Wednesday">چهار شنبه</string>
+	<string name="nav_epg_Thursday">پنج شنبه</string>
+	<string name="nav_epg_Friday">جمعه</string>
+	<string name="nav_epg_Saturday">روز شنبه</string>
+
+	<string name="nav_epg_Sun">یکشنبه</string>
+	<string name="nav_epg_Mon">دوشنبه</string>
+	<string name="nav_epg_Tue">سه شنبه</string>
+	<string name="nav_epg_Wed">چهارشنبه</string>
+	<string name="nav_epg_Thur">پنجشنبه</string>
+	<string name="nav_epg_Fri">جمعه</string>
+	<string name="nav_epg_Sat">شنبه</string>
+
+	<string name="nav_ginga_tv_title">لیست برنامه</string>
+	<string name="nav_select">انتخاب</string>
+	<string name="nav_ginga_tv_message">برنامه‌ای نیست!</string>
+	<string name="nav_ginga_tv_for_infobar">بارگذاری برنامه Ginga...</string>
+	<string name="nav_ginga_tv_for_tips">آیا قصد دارید CC را متوقف و برنامه Ginga را آغاز کنید؟</string>
+
+	<string name="nav_upgrader_title">آپدیت برنامه</string>
+	<string name="nav_upgrader_MoreInfo">اطلاعات بیشتر</string>
+	<string name="nav_upgrader_invalid">فایل عکس سفت افزار نامعتبر!!</string>
+	<string name="nav_upgrader_updating">آپدیت...</string>
+	<string name="nav_upgrader_warnning">لطفاً در حین آپدیت سفت افزار دانگل یواس بی را خارج نکنید و تلویزیون را خاموش نکنید!!</string>
+	<string name="nav_upgrader_validate">معتبرسازی سفت افزار...</string>
+	<string name="nav_upgrader_confirm">آیا قصد دارید سفت افزار را بروز کنید؟</string>
+	<string name="nav_upgrader_completed">سفت‌افزار با موفقیت بروز شد.\nبرای فعالسازی سفت‌افزار جدید لطفاً تلویزیون را خاموش و دوباره روشن کنید.</string>
+	<string name="nav_upgrader_failed">آپدیت سفت‌افزار ناتمام ماند.\nبرای دانلود مجدد سفت‌افزار، لطفاً تلویزیون را خاموش و دوباره روشن کنید.</string>
+	<string name="nav_upgrader_retry">آپدیت ناتمام ماند.\nقصد دارید دوباره امتحان کنید؟</string>
+	<string name="nav_upgrader_retry2">آپدیت ناتمام ماند، لطفاً یواس بی وارد کنید.\nقصد دارید دوباره امتحان کنید؟</string>
+	<string name="nav_upgrader_usb_space_not_enough">فضای موجود دانگل یواس بی شما کافی نیست.</string>
+	<string name="nav_upgrader_usb_not_ready">دانگل یواس بی آماده نیست، لطفاً آن را به دوشاخ بزنید و دوباره امتحان کنید.</string>
+	<string name="nav_upgrader_internal_err">خطای داخلی.</string>
+	<string name="nav_upgrader_not_avail_firmware">نسخه سفت‌افزاری موجود نیست.</string>
+	<string name="nav_upgrader_decry_fail">رمزگشایی ناتمام ماند.</string>
+	<string name="nav_upgrader_firmware_invalid">سفت‌افزار نامعتبر است.</string>
+	<string name="nav_upgrader_no_update">سفت‌افزاری برای آپدیت موجود نیست.</string>
+	<string name="nav_upgrader_check_fail">بررس سفت‌افزار جدید ناتمام ماند.</string>
+	<string name="nav_upgrader_download_fail">نمی‌تواند سفت‌افزار را از شبکه دانلود کند.</string>
+	<string name="nav_upgrader_usb_problem">دانگل یواس بی مشکلی دارد.</string>
+	<string name="nav_upgrader_power">روشن/خاموش</string>
+	<string name="nav_upgrader_yes">بله </string>
+	<string name="nav_upgrader_no">شماره </string>
+	<string name="nav_upgrader_network_tip">آغاز دانلود سفت‌افزار جدید از سرور</string>
+	<string name="nav_mheg5_tips">زیرنویس باید قبل از فعالسازی متن دیجیتال بسته شود. ادامه یابد؟</string>
+
+	<string name="common_dialog_msg_yes">بله </string>
+	<string name="common_dialog_msg_no">شماره </string>
+	<string name="common_dialog_ews_service_content">آیا قصد دارید به خدمات EWS روی آورید؟</string>
+	<string name="common_dialog_special_service_content">آیا قصد دارید به خدمات ویژه روی آورید؟</string>
+	<string name="commmon_dialog_book_reminder_content">می‌آید، آیا قصد دارید به آن روی آورید؟</string>
+	<string name="common_dialog_start_cc_stop_ginga">آیا قصد دارید Ginga را متوقف و برنامه CC را اجرا کنید؟</string>
+
+	<string name="nav_ttx_top_block">مسدود</string> 
+  <string name="nav_ttx_top_group">گروه</string> 
+  <string name="nav_ttx_top_page">صفحه</string> 
+    <string name="nav_ttx_no_top">بدون قله</string> 
+
+	<string name="nav_banner_not_rating">بدون رتبه</string>
+	<string name="cam_scan_warning">شبکه CI Plus تغییر کرده، برای آپدیت شبکه جستجو کنید!</string>
+	<string name="cam_scan_urgent">شبکه CI Plus ناموجود است، برای آپدیت شبکه باید جستجو کنید!</string> 
+	<string name="cam_scan_not_init">شبکه CI Plus آغاز نشده، برای آپدیت شبکه باید جستجو کنید!</string> 
+	<string name="cam_scan_schedule">زمان جستجوی شبکه CI Plus فرارسیده، برای آپدیت شبکه می‌توانید جستجو کنید!</string> 
+
+	<string name="setup_select_country">لطفاً کشور خود را انتخاب کنید:</string>
+	<string name="setup_country">کشور </string>
+	<string name="setup_dvbc_setting">لطفاً اطلاعات کابل را پیکربندی کنید</string>
+	<string name="setup_timezone">منطقه زمانی</string>
+	<string name="setup_language_spanish">Español</string>
+	<string name="setup_language_french">Français</string>
+	<string name="setup_language_portuguese">Português</string>
+	<string name="setup_language_Vasco">Vasco</string>
+	<string name="setup_language_Catalan">کاتالان </string>
+	<string name="setup_language_hrvatski">hrvatski</string>
+	<string name="setup_language_Cesky">Cesky</string>
+<string name="setup_language_Dansk">Dansk</string>
+<string name="setup_language_Nederlands">هلندی </string>
+<string name="setup_language_Suomi">Suomi</string>
+	<string name="setup_language_Gaelic">گی لیک </string>
+	<string name="setup_language_Gallego">Gallego</string>
+<string name="setup_language_Deutsch">آلمانی </string>
+	<string name="setup_language_Magyar">Magyar</string>
+	<string name="setup_language_Italiano">Italiano</string>
+<string name="setup_language_Norsk">Norsk</string>
+<string name="setup_language_Polski">Polski</string>
+	<string name="setup_language_Romana">Romana</string>
+<string name="setup_language_Srpski">Srpski</string>
+	<string name="setup_language_Slovensky">Slovensky</string>
+	<string name="setup_language_Slovenscina">Slovenscina</string>
+<string name="setup_language_Svenska">Svenska</string>
+	<string name="setup_language_Turkce">Turkce</string>
+	<string name="setup_language_Welsh">ولزی </string>
+	<string name="setup_language_Eesti">Eesti</string>
+	<string name="setup_language_Pyccknn">Pyccknn</string>
+	<string name="setup_language_spanish_eu">Español</string>
+	<string name="setup_language_french_eu">Français</string>
+	<string name="setup_language_portuguese_eu">Português</string>
+	<string name="setup_language_english_eu">انگلیسی </string>
+	<string name="setup_language_Vasco_eu">Vasco</string>
+	<string name="setup_language_Catalan_eu">کاتالان </string>
+	<string name="setup_language_hrvatski_eu">Hrvatska</string>
+	<string name="setup_language_Cesky_eu">Čeština</string>
+<string name="setup_language_Dansk_eu">Dansk</string>
+<string name="setup_language_Nederlands_eu">هلندی </string>
+<string name="setup_language_Suomi_eu">Suomi</string>
+	<string name="setup_language_Gaelic_eu">گی لیک </string>
+	<string name="setup_language_Gallego_eu">Gallego</string>
+<string name="setup_language_Deutsch_eu">آلمانی </string>
+	<string name="setup_language_Magyar_eu">Magyar</string>
+	<string name="setup_language_Italiano_eu">Italiano</string>
+<string name="setup_language_Norsk_eu">Norsk</string>
+<string name="setup_language_Polski_eu">Polski</string>
+	<string name="setup_language_Romana_eu">Română</string>
+<string name="setup_language_Srpski_eu">Srpski</string>
+	<string name="setup_language_Slovensky_eu">Slovenčina</string>
+	<string name="setup_language_Slovenscina_eu">Slovenščina</string>
+<string name="setup_language_Svenska_eu">Svenska</string>
+	<string name="setup_language_Turkce_eu">Türkçe</string>
+	<string name="setup_language_Welsh_eu">ولزی </string>
+	<string name="setup_language_Eesti_eu">Eesti</string>
+	<string name="setup_language_Pyccknn_eu">Русский</string>
+	<string name="setup_dvbc_config_scanmode">حالت اسکن</string>
+	<string name="setup_dvbc_config_frequency">فرکانس (KHZ)</string>
+	<string name="setup_dvbc_config_modulation">مدولاسیون</string>
+	<string name="setup_dvbc_config_symbolrate">نرخ سمبل(Ksym/s)</string>
+	<string name="setup_dvbc_config_networkid">شناسه شبکه</string>
+
+	<string name="setup_default_postal_code">00000</string>
+<string name="setup_set_postal_code_editview">کد پستی</string>
+	<string name="setup_set_password_titile1">رمز جدید</string>
+	<string name="setup_set_password_titile2">تأیید رمز عبور</string>
+	<string name="setup_set_password_default_pwd">0000</string>
+
+<string name="setup_cable_select_operation">انتخاب اپراتور</string>
+
+<string name="setup_dvbs_statellite_type">نوع ماهواره</string>
+<string name="setup_dvbs_statellite_type_title">لطفا نوع ماهواره را انتخاب کنید.</string>
+
+<string name="setup_dvbs_statellite_select_operator">انتخاب اپراتور</string>
+<string name="setup_dvbs_statellite_select_operator_title">میتوانید فقط یک اپراتور از فهرست زیر انتخاب کنید.</string>
+
+
+<string name="setup_cable_setting_title">لطفا اطلاعات کابل را پیکربندی کنید.</string>
+
+
+<string name="setup_dvbs_config_info_title">لطفا اطلاعات اسکن را پیکربندی کنید.</string>
+	<string name="setup_dvbs_satellite_list">انتخاب ماهواره</string>
+	<string name="setup_dvbs_satellite_config">نصب آنتن</string>
+	
+<string name="setup_dvbs_satellite_config_title">لطفا پارامترهای ماهواره را تنظیم کنید.</string>
+<string name="setup_dvbs_satellite_config_tp_title">لطفا پارامترهای فرستنده را تنظیم کنید.</string>
+<string name="setup_dvbs_satellite_config_diseqc_title">لطفا پارامترهای DiSEqC را تنظیم کنید.</string>
+<string name="setup_dvbs_satellite_config_diseqc12_motor_title">لطفا پارامترهای موتور DiSEqC 1.2 را تنظیم کنید.</string>
+<string name="setup_dvbs_satellite_config_diseqc12_movementcontrol_title">لطفا پارامترهای کنترل حرکت DiSEqC 1.2 را تنظیم کنید.</string>
+	<string name="setup_select_set">تعیین</string>
+	<string name="nav_oad_dialog_title">دانلود فراهوایی</string>
+	<string name="nav_oad_scanning">در حال اسکن</string>
+	<string name="nav_oad_scanning_result_fail">نمی‌تواند نرم‌افزار را از آنتن پیدا کنید.</string>
+
+	<string name="nav_oad_programming">برنامه‌ریزی</string>
+	<string name="nav_oad_downloading">درحال دانلود</string>
+	<string name="nav_oad_downloading_info">این روند ممکن است تا 25 دقیقه طول بکشد</string>
+	<string name="nav_oad_flash_confirm">دانلود نرم‌افزار موفق بود.آیا قصد دارید چشمک را آغاز کنید؟</string>
+	<string name="nav_oad_flash_fail">برنامه‌ریزی ناتمام ماند. دوباره امتحان شود؟\n\nلطفاً با مرکز خدمات تماس بگیرید.</string>
+	<string name="nav_oad_restart_confirm">دانلود نرم‌افزار موفق بود. اکنون تلویزیون دوباره راه‌اندازی شود؟</string>
+
+	<string name="nav_oad_warning_msg_str">هشدار: در حین روند، لطفاً تلویزیون را از برق نکشید، چون به آن آسیب خواهد رسید.</string>
+
+	<string name="nav_oad_manual_download_confirm">آپدیت نرم‌افزار. یک آپدیت جدید توصیه‌شده موجود است. آپدیت ممکن است طول بکشد و صفحه نمایش خاموش می‌شود. در حین آپدیت گیرنده را خاموش نکنید.آیا قصد دارید اکنون بروز کنید؟ </string>
+	<string name="nav_oad_manual_download_fail">نمی‌تواند نرم‌افزار را دانلود کند. آیا قصد دارید دوباره امتحان کنید؟</string>
+
+	<string name="nav_oad_auto_download_confirm">آپدیت نرم‌افزار.یک آپدیت جدید توصیه‌شده موجود است. آپدیت ممکن است طول بکشد و صفحه نمایش خاموش می‌شود. در حین آپدیت گیرنده را خاموش نکنید.آیا قصد دارید اکنون بروز کنید؟ آپدیت بصورت خودکار %s بعد از چند ثانیه آغاز خواهد شد)</string>
+
+	<string name="nav_oad_schedule_oad_accept_schedule_confirm">آپدیت نرم‌افزار. یک نرم‌افزار توصیه شده جدید در %sموجود خواهد بود. آپدیت کمی طول می‌کشد و صفحه نمایش خاموش خواهد شد. در حین آپدیت گیرنده را خاموش نکنید. در صورت پذیرش آپدیت، لطفاً گیرنده را در موعد مقرر، روشن یا در حالت آماده باش نگه دارید. آیا قصد دارید این آپدیت را دریافت کنید؟</string>
+	<string name="nav_oad_schedule_oad_change_channel_confirm">آپدیت نرم‌افزار. یک آپدیت توصیه‌شده نرم‌افزاری جدید در کانال دیگر موجود است. در صورت پذیرش دانلود، ممکن است بصورت خودکار به آن کانال تغییر کند. آیا قصد دارید اکنون انجام دهید؟ بصورت خودکار در %s ثانیه آغاز خواهد شد</string>
+	<string name="nav_oad_atuo_download_with_bgm">نرم افزار جدید یافت شد!\nآیا دانلود خودکار نرم‌افزار را وقتی تلویزیون در حالت آماده باش است می‌پذیرید؟</string>
+
+	<string name="setup_language_english_value">برنامه‌ریزی</string>
+	<string name="setup_language_chinese_value">برنامه‌ریزی</string>
+	<string name="setup_language_spanish_value">برنامه‌ریزی</string>
+	<string name="setup_language_french_value">برنامه‌ریزی</string>
+	<string name="setup_language_portuguese_value">برنامه‌ریزی</string>
+
+    <string name="setup_country_cty_1">اتریش</string>
+    <string name="setup_country_cty_2">بلژیک</string>
+    <string name="setup_country_cty_3">سوییس</string>
+    <string name="setup_country_cty_4">جمهوری چک</string>
+    <string name="setup_country_cty_5">آلمان </string>
+    <string name="setup_country_cty_6">دانمارک </string>
+    <string name="setup_country_cty_7">اسپانیا </string>
+    <string name="setup_country_cty_8">فنلاند </string>
+    <string name="setup_country_cty_9">فراسه </string>
+    <string name="setup_country_cty_10">انگلستان</string>
+    <string name="setup_country_cty_11">ایتالیا </string>
+    <string name="setup_country_cty_12">لوکزامبورگ</string>
+    <string name="setup_country_cty_13">هلند</string>
+    <string name="setup_country_cty_14">نروژ </string>
+    <string name="setup_country_cty_15">سوئد </string>
+    <string name="setup_country_cty_16">بلغارستان</string>
+    <string name="setup_country_cty_17">کرواسی</string>
+    <string name="setup_country_cty_18">یونان</string>
+    <string name="setup_country_cty_19">مجارستان </string>
+    <string name="setup_country_cty_20">ایرلند</string>
+    <string name="setup_country_cty_21">لهستان </string>
+    <string name="setup_country_cty_22">پرتغال</string>
+    <string name="setup_country_cty_23">رومانی</string>
+    <string name="setup_country_cty_24">روسیه </string>
+    <string name="setup_country_cty_25">صربستان</string>
+    <string name="setup_country_cty_26">اسلواکی </string>
+    <string name="setup_country_cty_27">اسلوونی</string>
+    <string name="setup_country_cty_28">ترکیه</string>
+    <string name="setup_country_cty_29">استونی</string>
+    <string name="setup_country_cty_30">استرالیا</string>
+    <string name="setup_country_cty_31">نیوزیلند</string>
+    <string name="setup_country_cty_32">اندونزی</string>
+	<string name="setup_set_timezone">لطفاً منطقه زمانی خود را انتخاب کنید:</string>
+	<string name="setup_set_password_title">لطفاً رمزعبور تعیین کنید."0000" رمز معتبری نیست</string>
+	<string name="setup_set_postalcode">لطفاً کد پستی وارد کنید.</string>
+	<string name="setup_set_password_success_msg">رمزعبور باموفقیت تعیین شد!</string>
+
+	<string name="dvbc_operator_others">سایر کشورها </string>
+	<string name="dvbt_inactivechannel_nw_chg">برخی کانال‌ها بدلیل تغییر شبکه غیرفعال می‌شوند. آیا قصد دارید آنها را اکنون حذف کنید؟</string>
+	<string name="tnt_hd_nw_chg">داده شبکه تغییر کرد. آیا قصد دارید جستجوی آپدیت انجام دهید؟</string>
+<string name="dvbc_operator_canal_digital">Canal Digital</string>
+<string name="dvbc_operator_tele2">Tele2</string>
+<string name="dvbc_operator_stofa">Stofa</string>
+<string name="dvbc_operator_yousee">Yousee</string>
+<string name="dvbc_operator_ziggo">Ziggo</string>
+<string name="dvbc_operator_unitymedia">Unitymedia</string>
+<string name="dvbc_operator_numericable">Numericable</string>
+<string name="dvbc_operator_volia">VOLIA</string>
+<string name="dvbc_operator_telemach">اپراتور کابلی و اینترنتی TELEMACH</string>
+<string name="dvbc_operator_onlime">Onlime</string>
+<string name="dvbc_operator_akado">Akado</string>
+	<string name="dvbc_operator_tkt">TKT</string>
+	<string name="dvbc_operator_divan_tv">DIVAN TV</string>
+	<string name="dvbc_operator_net1">NET1</string>
+	<string name="dvbc_operator_kdg">KDG</string>
+	<string name="dvbc_operator_kbw">KBW</string>
+	<string name="dvbc_operator_blizoo">BLIZOO</string>
+<string name="dvbc_operator_telent">Telent</string>
+<string name="dvbc_operator_telent_eu">Telenet</string>
+
+<string name="dvbc_operator_glenten">Glenten</string>
+<string name="dvbc_operator_tele_columbus">Tele Columbus</string>
+	<string name="dvbc_operator_rcs_rds">RCS RDS</string>
+
+
+<!-- DVBS operators -->
+<string name="dvbs_operator_astra_hd_plus">Astra HD+</string>
+<string name="dvbs_operator_sky_deutschland">Sky Deutschland</string>
+    <string name="dvbs_operator_ors">ORS</string>
+<string name="dvbs_operator_austriasat">AustriaSat</string>
+<string name="dvbs_operator_cannal_digital">Cannal Digital</string>
+<string name="dvbs_operator_tv_vlaanderen_hd">TV VLAANDEREN HD</string>
+<string name="dvbs_operator_tv_vlaanderen_sd">TV VLAANDEREN SD</string>
+<string name="dvbs_operator_telesat_belgium">تله‌ست بلژیک</string>
+<string name="dvbs_operator_telesat_luxembourg">تله‌ست لوکزامبورگ</string>
+<string name="dvbs_operator_seznam_kanalu_pro_cesko">Seznam kanalu pro Cesko</string>
+<string name="dvbs_operator_seznam_kanalu_pro_slovensko">Seznam kanalu pro Slovensko</string>
+<string name="dvbs_operator_cannaldigitaal_hd">CannalDigitaal HD</string>
+<string name="dvbs_operator_cannaldigitaal_sd">CannalDigitaal SD</string>
+<string name="dvbs_operator_n_na_karte">n na karte</string>
+<string name="dvbs_operator_digiturk_eutelsat">Digiturk Eutelsat</string>
+<string name="dvbs_operator_digiturk_turksat">Digiturk Turksat</string>
+<string name="dvbs_operator_fransat">Fransat</string>
+<string name="dvbs_operator_cyfraplus">Cyfra+</string>
+<string name="dvbs_operator_cyfrowy_polsat">Cyfrowy Polsat</string>
+<string name="dvbs_operator_dsmart">D-Smart</string>
+<string name="dvbs_operator_ntvplus">NTV+</string>
+    <string name="dvbs_operator_others">سایر کشورها </string>
+<string name="dvbs_operator_name_nc_plus">nc+/nc+ MIX</string>
+<string name="dvbs_operator_name_smart_hd_plus">smart HD+</string>
+<string name="dvbs_operator_name_tivusat">tivùsat</string>
+
+    <string name="dvbs_antenna_type_name_universal">جهانی</string>
+    <string name="dvbs_antenna_type_name_singlecable">کابل تکی</string>
+    <string name="dvbs_antenna_setup">نصب آنتن</string>
+<string name="dvbs_satellite_setting">ماهواره</string>
+    <string name="dvbs_satellite_name">نام ماهواره</string>
+    <string name="dvbs_satellite_orbit">جهت مدار</string>
+    <string name="dvbs_lnb_freq">فرکانس LNB</string>
+<string name="dvbs_diseqc12_motor_movementcontrol">کنترل حرکت</string>
+<string name="dvbs_diseqc12_motor_disablelimits">غیرفعال کردن محدودیت ها</string>
+<string name="dvbs_diseqc12_motor_limiteast">Limit east</string>
+<string name="dvbs_diseqc12_motor_limitwest">Limit west</string>
+    <string name="dvbs_diseqc12_motor_storeposition">ذخیره‌سازی موقعیت</string>
+    <string name="dvbs_diseqc12_motor_gotoposition">برو به موقعیت</string>
+    <string name="dvbs_diseqc12_motor_gotoreference">برو به مرجع</string>
+    <string name="dvbs_diseqc12_movement_stepsize">اندازه گام</string>
+    <string name="dvbs_diseqc12_movement_timeout">فرصت زمانی</string>
+    <string name="dvbs_diseqc12_movement_moveeast">حرکت به شرق</string>
+    <string name="dvbs_diseqc12_movement_movewest">حرکت به غرب</string>
+    <string name="dvbs_diseqc12_movement_stopmovement">توقف حرکت</string>
+<string name="dvbs_diseqc10_port">پورت DiSEqC 1.0</string>
+<string name="dvbs_diseqc11_port">پورت DiSEqC 1.1</string>
+<string name="dvbs_diseqc_motor">موتور DiSEqC</string>
+<string name="dvbs_diseqc_motor_12">DiSEqC 1.2</string>
+<string name="dvbs_diseqc_input"> ورودی Diseqc</string>
+<string name="dvbs_diseqc_input_0">غیرفعال</string>
+<string name="dvbs_diseqc_input_1">Diseqc A</string>
+<string name="dvbs_diseqc_input_2">Diseqc B</string>
+<string name="dvbs_diseqc_input_3">Diseqc C</string>
+<string name="dvbs_diseqc_input_4">Diseqc D</string>
+<string name="dvbs_tone_22khz">تن 22کیلوهرتز</string>
+    <string name="dvbs_tone_22khz_off">حالت خاموش </string>
+    <string name="dvbs_tone_22khz_on">حالت روشن </string>
+    <string name="dvbs_tone_22khz_auto">خودکار</string>
+    <string name="dvbs_trasponder">فرستنده-گیرنده</string>
+    <string name="dvbs_tp_fre">فركانس</string>
+    <string name="dvbs_tp_sys_rate">نرخ سمبل (Ksym/s)</string>
+    <string name="dvbs_tp_pol">قطبش</string>
+
+    <string name="dvbs_tp_pol_0_unknown">ناشناخته </string>
+    <string name="dvbs_tp_pol_1_HORIZONTAL">افقی</string>
+    <string name="dvbs_tp_pol_2_VERTICAL">عمودی</string>
+    <string name="dvbs_tp_pol_3_LEFT">چپ</string>
+    <string name="dvbs_tp_pol_4_RIGHT">راست</string>
+
+    <string name="dvbs_add_new_satl">افزودن ماهواره جدید</string>
+    <string name="dvbs_add_new_tp">افزودن تراپاسخگر فرستنده جدید</string>
+    <string name="dvbs_satellite_tuning">تنظیم ماهواره</string>
+    <string name="dvbs_satellite_channel">كانال ها</string>
+    <string name="dvbs_scan_mode">حالت اسکن</string>
+    <string name="dvbs_network_search">جستجوی شبکه</string>
+    <string name="dvbs_satellite_search">جستجو</string>
+    <string name="dvbs_scan_mode_auto">خودکار</string>
+    <string name="dvbs_scan_mode_preset">پیش تنظیم</string>
+    <string name="dvbs_channel_free">آزاد</string>
+    <string name="dvbs_channel_all">همه</string>
+<string name="dvbs_sat_no_satl">(بدون ماهواره)</string>
+<string name="dvbs_manual_tuning">تنظیم کانال دستی ماهواره</string>
+<string name="dvbs_sat_no_tp">(بدون فرستنده)</string>
+<string name="dvbs_sat_name_empty_alarm">نام ماهواره خالی است.\nلطفا واردش کنید!</string>
+<string name="dvbs_satellite_rescan">اسکن دوباره ماهواره</string>
+<string name="dvbs_satellite_add">افزودن ماهواره</string>
+<string name="dvbs_satellite_update">به روزرسانی ماهواره</string>
+<string name="dvbs_satellite_status">وضعیت ماهواره</string>
+    <string name="dvbs_scan_mode_network">شبکه</string>
+    <string name="dvbs_scan_mode_full">کامل </string>
+    <string name="dvbs_scan_positon">موقعیت</string>
+    <string name="dvbs_lnb_power">توان LNB</string>
+    <string name="dvbs_antenna_type">نوع آنتن</string>
+    <string name="dvbs_antenna_type_universal">جهانی</string>
+    <string name="dvbs_antenna_type_singlecable">کابل تکی</string>
+    <string name="dvbs_user_band">تنظیم‌کننده</string>
+<string name="dvbs_user_band_1">باند کاربر 1</string>
+<string name="dvbs_user_band_2">باند کاربر 2</string>
+<string name="dvbs_user_band_3">باند کاربر 3</string>
+<string name="dvbs_user_band_4">باند کاربر 4</string>
+<string name="dvbs_user_band_5">باند کاربر 5</string>
+<string name="dvbs_user_band_6">باند کاربر 6</string>
+<string name="dvbs_user_band_7">باند کاربر 7</string>
+<string name="dvbs_user_band_8">باند کاربر 8</string>
+    <string name="dvbs_band_freq">فرکانس باند</string>
+    <string name="dvbs_band_freq_user_define">تعریف کاربر</string>
+    <string name="dvbs_position">موقعیت</string>
+    <string name="dvbs_position_a">A</string>
+    <string name="dvbs_position_b">B</string>
+<string name="dvbs_position_c">C</string>
+<string name="dvbs_position_d">D</string>
+    <string name="dvbs_air">آنتن</string>
+    <string name="dvbs_cable">کابل</string>
+    <string name="dvbs_preferred_satellite">ماهواره دلخواه</string>
+    <string name="dvbs_general_satellite">ماهواره کلی</string>
+    <string name="lnb_universal">جهانی</string>
+    <string name="lnb_mdu1">MDU1</string>
+    <string name="lnb_mdu2">MDU2</string>
+    <string name="lnb_mdu3">MDU3</string>
+    <string name="lnb_mdu4">MDU4</string>
+    <string name="lnb_mdu5">MDU5</string>
+<string name="dvbs_tone_burst">Tone Burst</string>
+<string name="dvbs_tone_burst_disable">غیرفعال</string>
+    <string name="dvbs_tone_burst_a">Tone Burst A </string>
+<string name="dvbs_tone_burst_b">Tone Burst B</string>
+
+    <string name="dvbs_sat_on">حالت روشن </string>
+    <string name="dvbs_sat_off">حالت خاموش </string>
+<string name="setup_tuner_satellite">ماهواره</string>
+
+</resources>

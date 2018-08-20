@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="mmp_test">Це тестові дані\n назва файлу\n зображення\n тест</string>
+    <string name="mmp_menu">МЕНЮ</string>
+    <string name="mmp_menu_sort">Сортування</string>
+    <string name="mmp_menu_mediatype">Тип медіа</string>
+    <string name="mmp_menu_thumb">Розмір іконки</string>
+    <string name="mmp_menu_copy">Копіювати</string>
+    <string name="mmp_menu_paste">Вставити</string>
+    <string name="mmp_menu_delete">Видалити </string>
+    <string name="mmp_menu_recur">Рекурсивний аналізатор</string>
+    <string name="mmp_menu_not_recur">Нормальний аналізатор</string>
+    <string name="mmp_menu_photoframe">Фоторамка</string>
+    <string name="mmp_menu_photo_frame">Зображення фоторамки встановлено</string>
+
+    <string name="mmp_menu_play">Грати</string>
+    <string name="mmp_menu_pause">Пауза</string>
+    <string name="mmp_menu_repeat">Повтор</string>
+    <string name="mmp_menu_shuffle">Перемішати</string>
+    <string name="mmp_menu_duration">Тривалість</string>
+    <string name="mmp_menu_effect">Ефект</string>
+    <string name="mmp_menu_showinfo">Показати інформацію</string>
+    <string name="mmp_menu_frame">Зображення фоторамки</string>
+    <string name="mmp_menu_rotate">Обертати</string>
+    <string name="mmp_menu_display">Лінія дисплею</string>
+    <string name="mmp_menu_timeoffset">Зміщення часу</string>
+    <string name="mmp_menu_encoding">Кодування</string>
+
+    <string name="mmp_menu_picturemode">Режим зображення </string>
+    <string name="mmp_menu_screenmode">Режим екрану</string>
+
+    <string name="mmp_menu_font">Шрифт</string>
+
+    <string name="mmp_menu_size">Розмір</string>
+    <string name="mmp_menu_style">Стиль</string>
+    <string name="mmp_menu_color">Насиченість</string>
+    <string name="mmp_menu_date">Дата</string>
+    <string name="mmp_menu_name">Ім\'я</string>
+    <string name="mmp_menu_album">Альбом</string>
+    <string name="mmp_menu_artist">Виконавець</string>
+    <string name="mmp_menu_genre">Жанр</string>
+    <string name="mmp_menu_type">Тип</string>
+
+    <string name="mmp_menu_phototext">ФОТО </string>
+    <string name="mmp_menu_music">Аудіо </string>
+    <string name="mmp_menu_video">ВІДЕО </string>
+    <string name="mmp_menu_text">ТЕКСТ </string>
+    <string name="mmp_menu_small">Малий</string>
+    <string name="mmp_menu_medium">Середній</string>
+    <string name="mmp_menu_large">Великий </string>
+    <string name="mmp_menu_onephotomode">Один фоторежим</string>
+    <string name="mmp_menu_none">НЕМАЄ</string>
+    <string name="mmp_menu_repeatone">Повторити один</string>
+    <string name="mmp_menu_repeatall">Повторити все</string>
+    <string name="mmp_menu_shuffleoff">Вимк. випадковий порядок</string>
+    <string name="mmp_menu_shuffleon">Увімк. випадковий порядок</string>
+    <string name="mmp_menu_short">Короткий</string>
+    <string name="mmp_menu_long">Довгий</string>
+    <string name="mmp_menu_dissolve">Розчинення</string>
+    <string name="mmp_menu_wiperight">Зсув кадру вправо</string>
+    <string name="mmp_menu_wipeleft">Зсув кадру вліво</string>
+    <string name="mmp_menu_wipeup">Зсув кадру вгору</string>
+    <string name="mmp_menu_wipedown">Зсув кадру вниз</string>
+    <string name="mmp_menu_boxin">Субтитри на фоні</string>
+    <string name="mmp_menu_boxout">Субтитри без фону</string>
+
+    <string name="mmp_menu_random">Довільно</string>
+
+
+    <string name="mmp_menu_off">ВИМК.</string>
+    <string name="mmp_menu_singleline">Один рядок</string>
+    <string name="mmp_menu_multiline">Кільки рядків</string>
+    <string name="mmp_menu_auto">Авто</string>
+    <string name="mmp_menu_userdefine">Визначається користувачем</string>
+    <string name="mmp_menu_user">Користувач</string>
+    <string name="mmp_menu_cinema">Кіно</string>
+    <string name="mmp_menu_sport">Спорт</string>
+    <string name="mmp_menu_vivid">Яскравий</string>
+    <string name="mmp_menu_hibright">Висока яскравість</string>
+    <string name="mmp_menu_normal">Нормальний </string>
+    <string name="mmp_menu_letterbox">Поштова скринька</string>
+    <string name="mmp_menu_scan">Пошук</string>
+    <string name="mmp_menu_zoom">Збільшити</string>
+    <string name="mmp_menu_dotbydot">Крапка до крапки</string>
+
+    <string name="mmp_menu_regular">Звичайний</string>
+    <string name="mmp_menu_italic">Курсив</string>
+    <string name="mmp_menu_bold">Напівжирний</string>
+    <string name="mmp_menu_outline">Напівжирний курсив</string>
+    <string name="mmp_menu_white">Білий</string>
+    <string name="mmp_menu_blue">Синій</string>
+    <string name="mmp_menu_red">Червоний </string>
+    <string name="mmp_menu_green">Зелений </string>
+    <string name="mmp_menu_black">Чорний</string>
+    <string name="mmp_menu_lyricoptions">Налаштування тексту пісень</string>
+
+    <string name="mmp_menu_showscore">Показати діапазон</string>
+    <string name="mmp_menu_hidescore">Сховати діапазон</string>
+    <string name="mmp_menu_onlyaudio">Тільки аудіо</string>
+
+
+    <string name="mmp_photo">ФОТО </string>
+    <string name="mmp_audio">Аудіо </string>
+    <string name="mmp_video">ВІДЕО </string>
+    <string name="mmp_text">ТЕКСТ </string>
+    <string name="mmp_select">Виберіть</string>
+    <string name="mmp_input">Введіть</string>
+    <string name="mmp_exit">ВИЙТИ</string>
+    <string name="mmp_emptyfile">Поточна папка порожня!</string>
+    <string name="mmp_reutip">Папка аналізується, зачекайте...</string>
+    <string name="mmp_pop_repeat_tvrepeat">Повторити все</string>
+    <string name="mmp_pop_repeat_tvsingle">Повторити один</string>
+    <string name="mmp_pop_time_tv">Короткий</string>
+    <string name="mmp_pop_view_tv">НЕМАЄ</string>
+    <string name="mmp_pop_menu">МЕНЮ</string>
+    <string name="mmp_pop_enter">Введіть</string>
+    <string name="mmp_info_album">Альбом:</string>
+    <string name="mmp_info_orientation">Орієнтація:</string>
+    <string name="mmp_info_artist">Артист:</string>
+    <string name="mmp_info_name">Назва:</string>
+    <string name="mmp_info_date">Дата:</string>
+    <string name="mmp_info_size">Розмір:</string>
+    <string name="mmp_info_next">Наступний:</string>
+    <string name="mmp_info_audio">Аудіо:</string>
+    <string name="mmp_info_exposure">Час витримки:</string>
+    <string name="mmp_info_fnumber">F-коефіцієнт:</string>
+    <string name="mmp_info_program">Режим витримки:</string>
+    <string name="mmp_info_colorspace">Кольорова палітра:</string>
+    <string name="mmp_info_title">Назва</string>
+    <string name="mmp_info_genre">Жанр:</string>
+    <string name="mmp_info_year">Рік випуску:</string>
+    <string name="mmp_info_duration">Тривалість:</string>
+    <string name="mmp_info_director">Режисер:</string>
+    <string name="mmp_info_copyrght">Авторські права:</string>
+
+    <string name="mmp_info_lastline">Останній рядок</string>
+    <string name="mmp_info_nextline">Наступний рядок</string>
+    <string name="mmp_info_lastpage">Остання сторінка</string>
+    <string name="mmp_info_nextpage">Наступ. сторінка</string>
+
+    <string name="mmp_info_nolrc">Без тексту пісень</string>
+    <string name="mmp_loading_tip">Папка аналізується, зачекайте...</string>
+    <string name="mmp_user_name">Ім’я користувача</string>
+    <string name="mmp_password">пароль</string>
+    <string name="mmp_confirm">підтвердити</string>
+    <string name="mmp_ok">ОК</string>
+    <string name="mmp_cancel">Відміна</string>
+
+    <string name="mmp_login_failed_tip">Неправильне ім’я користувача або пароль</string>
+    <string name="mmp_dlnaserver_disconnected">DLNA сервер зник, перевірте мережу і стан сервера!</string>
+    <string name="mmp_title_copy">Копіювати</string>
+    <string name="mmp_title_confirm_replace">Підтвердити заміну файлу</string>
+    <string name="mmp_title_confirm_delete">Підтвердити видалення файлу(ів)</string>
+    <string name="mmp_message_confirm_replace">Ця папка вже містить файл з ім’ям\n%s</string>
+    <string name="mmp_message_confirm_delete">Ви впевнені, що хочете видалити обраний(і) файл(и)?</string>
+
+    <string name="mmp_yes">та</string>
+    <string name="mmp_yes_to_all">Так, для всіх</string>
+    <string name="mmp_no">НІ</string>
+
+    <string name="mmp_capture_title">Захопити логотип</string>
+    <string name="mmp_capture_confirm">Ви хочете зробити знімок екрану?</string>
+    <string name="mmp_toast_no_photoframe">Немає фоторамки для відтворення</string>
+
+    <string name="mmp_video_notsupport">Відеокодек не підтримується</string>
+    <string name="mmp_audio_notsupport">Формат аудіо не підтримуються</string>
+    <string name="mmp_video_only">Тільки відео</string>
+    <string name="mmp_frame_photo_sleeptime">Час очікування </string>
+    <string name="mmp_sleeptime_lable">Таймер сну:</string>
+    <string name="mmp_video_stopresume">Зупинити повтор</string>
+    <string name="mmp_can_notpause">Неможливо призупинити</string>
+
+    <string name="mmp_photo_type_notsupport">Файл не підтримується</string>
+
+    <string name="mmp_lable_rorate">Обертати</string>
+    <string name="mmp_lable_subtitle_off">ВИМК.</string>
+
+    <string name="mmp_info_whitebalance">Баланс білого:</string>
+    <string name="mmp_info_make">Виробник:</string>
+    <string name="mmp_info_model">модель:</string>
+    <string name="mmp_info_flash">Витримка:</string>
+    <string name="mmp_info_focallength">Фокусна відстань:</string>
+    <string name="mmp_menu_pic_setting">Налаштування зображення</string>
+    <string name="mmp_menu_audio_setting">Аудіо налаштування</string>
+
+    <string name="mmp_file_notsupport">Файл не підтримується</string>
+    <string name="mmp_notsupport">Не підтримка</string>
+    <string name="mmp_seek_notsupport">Пошук не підтримується</string>
+    <string name="mmp_step_notsupport">Етап не підтримується</string>
+    <string name="mmp_featue_notsupport">Функція недоступна</string>
+    <string name="mmp_buffer_not_enough">Проміжок не підтримується</string>
+    <string name="mmp_nodevice">Жодного пристрою не підключено!</string>
+    <string name="mmp_time_out">Введений часовий код неправильний!\nПереконайтесь, що він не більший, ніж загальний
+        час
+    </string>
+    <string name="mmp_file_corrupt">Файл пошкоджено</string>
+    <string name="mmp_menu_mount_iso">Встановити поточний файл з</string>
+    <string name="mmp_menu_unmount_iso">Nnmount поточний пристрій</string>
+
+    <string name="mmp_media_info_scrambled_audio_video_service">Зашифрувати відео та аудіо</string>
+    <string name="mmp_media_info_scrambled_audio_clear_video_service">Зашифрувати аудіо</string>
+    <string name="mmp_media_info_scrambled_audio_no_video_service">Зашифрувати аудіо, тільки аудіо</string>
+    <string name="mmp_media_info_scrambled_video_clear_audio_service">Зашифрувати відео</string>
+    <string name="mmp_media_info_scrambled_video_no_audio_service">Зашифрувати відео, тільки відео</string>
+
+
+    <string name="mmp_txt_const_font">НІ</string>
+
+    <string name="mmp_drm_register_continue">Продовжити?</string>
+
+    <string name="mmp_divx_title">Назва</string>
+    <string name="mmp_divx_edition">Видання</string>
+    <string name="mmp_divx_chapter">Розділ</string>
+
+
+    <string name="mmp_divx_titleName">Назва</string>
+    <string name="mmp_divx_chapterName">Глава:</string>
+    <string name="mmp_divx_rateName">Коефіцієнт:</string>
+    <string name="mmp_divx_audioName">Аудіо:</string>
+    <string name="mmp_divx_subtitleName">Підзаголовок:</string>
+    <string name="mmp_dmr_starting">Запуск DMR</string>
+    <string name="mmp_dmr_started">DMR запущено, використовуйте</string>
+    <string name="mmp_dmr_network_failed">Помилка в запуску DMR, мережа недоступна</string>
+    <string name="mmp_dmr_url_failed">Неправильний URL</string>
+
+    <string name="mmp_wrong_psw">Неправильний пароль. Всього %1$s спроб,%2$s спробуйте ще раз!</string>
+    <string name="mmp_subtitle_encoding">Кодування субтитрів</string>
+    <string name="mmp_last_memory">Остання пам’ять</string>
+    <string name="mmp_last_memory_off">ВИМК.</string>
+    <string name="mmp_last_memory_time">Час</string>
+    <string name="mmp_last_memory_position">Положення</string>
+
+    <string name="ci_menu_pin_correct">Правильно!</string>
+    <string name="ci_menu_pin_outoftry">Три рази неправильно</string>
+    <string name="mmp_menu_3d_photo">3D фото</string>
+    <string name="mmp_menu_dmr">Dmr</string>
+    <string name="mmp_menu_gb">ГБ</string>
+    <string name="mmp_pop_zoomscale">X</string>
+    <string name="mmp_drm_register">Ваш пристрій не має права на\n відтворення цього відео, захищеного Divx @</string>
+    <string name="mmp_drm_register_expired">Час оренди Divx @ вичерпано</string>
+    <string name="mmp_drm_register_used">The Divx@ був переглянутий \n %1$s з %2$s разів</string>
+    <string name="mmp_video_seektime_title">Перейти час</string>
+    <string name="mmp_tip_play">Слухати</string>
+    <string name="mmp_tip_exit">Вихід</string>
+    <string name="mmp_tip_select">Вибрати</string>
+</resources>

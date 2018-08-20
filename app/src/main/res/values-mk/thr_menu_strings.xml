@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <string name="thr_menu_common_setting">Прилагодена поставка</string>
+    <string name="thr_menu_confim">Потврди</string>
+    <string name="thr_menu_cancal">ИЗЛЕЗИ</string>
+    <string name="thr_menu">МЕНИ</string>
+    <string name="thr_menu_select">Избери</string>
+
+    <string name="thr_menu_picture_mode">Режим на слика</string>
+    <string name="thr_menu_track">Аудио лента</string>
+    <string name="thr_menu_Equalizer">Еквилајзер</string>
+    <string name="thr_menu_volume">Јачина на звукот</string>
+
+
+</resources>

@@ -138,9 +138,10 @@ public class VideoInfoDialog extends InfoDialog implements View.OnClickListener 
                             //add by y.wan for  start 2018/7/5
                             /*showAudioTrack();
                             dismiss();*/
-                            if (mVideoAudio_tv.hasFocus()) {
+                            //if (mVideoAudio_tv.hasFocus()) {
+                            mVideoAudio_tv.requestFocus();
                                 switchAudioTrack();
-                            }
+                            //}
                             //add by y.wan for  end 2018/7/5
                             return true;
                         case KeyMap.KEYCODE_MTKIR_MTKIR_CC:
@@ -149,9 +150,10 @@ public class VideoInfoDialog extends InfoDialog implements View.OnClickListener 
                             /*showSubtitle();
                             dismiss();*/
                             //changed by y.wan for intercept subtitle end 2018/5/10
-                            if (mVideoSubtitle_tv.hasFocus()) {
+                            //if (mVideoSubtitle_tv.hasFocus()) {
+                            mVideoSubtitle_tv.requestFocus();
                                 switchSubtitleTrack();
-                            }
+                            //}
                             return true;
                     }
                 }
@@ -198,7 +200,7 @@ public class VideoInfoDialog extends InfoDialog implements View.OnClickListener 
         audioTrackIndex = logicManager.getAudioTrackIndex() + 1;
         if (mAudioTracks[0].equalsIgnoreCase("off")) {
             //mVideoAudio_tv.setFocusable(false);
-            mVideoAudioCurStatusTv.setText("off");
+            mVideoAudioCurStatusTv.setText(R.string.menu_video_mjc_demo_off);
         } else {
             mVideoAudioCurStatusTv.setText(String.format("%d/%d", audioTrackIndex, mAudioTracks.length));
             showAudioTrackIcon(logicManager.getAudioTrackIndex());

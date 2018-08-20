@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="mmp_test">இது ஒரு சோதனைத் தரவு\n கோப்புப் பெயர் \n படம்\n சோதனை
+    </string>
+    <string name="mmp_menu">பட்டியல்</string>
+    <string name="mmp_menu_sort">அடுக்கவும்</string>
+    <string name="mmp_menu_mediatype">ஊடகவகை</string>
+    <string name="mmp_menu_thumb">சிறுபட அளவு</string>
+    <string name="mmp_menu_copy">பிரதியெடுக்கவும்</string>
+    <string name="mmp_menu_paste">ஒட்டவும்</string>
+    <string name="mmp_menu_delete">அழிக்கவும்</string>
+    <string name="mmp_menu_recur">மீளுருவாக்கப் பாகுபடுத்தி</string>
+    <string name="mmp_menu_not_recur">இயல்புப் பாகுபடுத்தி</string>
+    <string name="mmp_menu_photoframe">புகைப்படச்சட்டம்</string>
+    <string name="mmp_menu_photo_frame">புகைப்படச்சட்டப் படம் சரியாக அமைக்கப்பட்டுள்ளது</string>
+
+    <string name="mmp_menu_play">இயக்கவும்</string>
+    <string name="mmp_menu_pause">இடைநிறுத்தவும்</string>
+    <string name="mmp_menu_repeat">திரும்பச்செய்யவும்</string>
+    <string name="mmp_menu_shuffle">கலக்குதல்</string>
+    <string name="mmp_menu_duration">கால அளவு</string>
+    <string name="mmp_menu_effect">விளைவு</string>
+    <string name="mmp_menu_showinfo">விவரத்தைக் காட்டு</string>
+    <string name="mmp_menu_frame">புகைப்படச்சட்டப் படம்</string>
+    <string name="mmp_menu_rotate">திருப்பு</string>
+    <string name="mmp_menu_display">காட்சி வரி</string>
+    <string name="mmp_menu_timeoffset">நேர வித்தியாசம்</string>
+    <string name="mmp_menu_encoding">குறியாக்கம்</string>
+
+    <string name="mmp_menu_picturemode">பட முறை</string>
+    <string name="mmp_menu_screenmode">திரை முறைமை</string>
+
+    <string name="mmp_menu_font">எழுத்து</string>
+
+    <string name="mmp_menu_size">அளவு</string>
+    <string name="mmp_menu_style">பாணி</string>
+    <string name="mmp_menu_color">வண்ணம்</string>
+    <string name="mmp_menu_date">நாள்</string>
+    <string name="mmp_menu_name">பெயர்</string>
+    <string name="mmp_menu_album">தொகுப்பு</string>
+    <string name="mmp_menu_artist">கலைஞர்</string>
+    <string name="mmp_menu_genre">வகை</string>
+    <string name="mmp_menu_type">வகை</string>
+
+    <string name="mmp_menu_phototext">புகைப்படம்</string>
+    <string name="mmp_menu_music">ஒலி</string>
+    <string name="mmp_menu_video">வீடியோ</string>
+    <string name="mmp_menu_text">எழுத்து</string>
+    <string name="mmp_menu_small">சிறியது</string>
+    <string name="mmp_menu_medium">நடுத்தரமானது</string>
+    <string name="mmp_menu_large">பெரியது</string>
+    <string name="mmp_menu_onephotomode">ஒரு படமுறைமை</string>
+    <string name="mmp_menu_none">எதுவுமில்லை</string>
+    <string name="mmp_menu_repeatone">ஒன்றைத் திரும்ப இயக்குக</string>
+    <string name="mmp_menu_repeatall">அனைத்தையும் திரும்ப இயக்குக</string>
+    <string name="mmp_menu_shuffleoff">கலைத்தலை அணை</string>
+    <string name="mmp_menu_shuffleon">கலைத்தலை இயக்கு</string>
+    <string name="mmp_menu_short">குறுகியது</string>
+    <string name="mmp_menu_long">நீளமானது</string>
+    <string name="mmp_menu_dissolve">கலைக்கவும்</string>
+    <string name="mmp_menu_wiperight">வலப்பக்கம் துடை</string>
+    <string name="mmp_menu_wipeleft">இடப்பக்கம் துடை</string>
+    <string name="mmp_menu_wipeup">மேலே துடை</string>
+    <string name="mmp_menu_wipedown">கீழே துடை</string>
+    <string name="mmp_menu_boxin">பாக்ஸ் இன்</string>
+    <string name="mmp_menu_boxout">கட்டத்திலிருந்து வெளியேற்று</string>
+
+    <string name="mmp_menu_random">சீரற்றது</string>
+
+
+    <string name="mmp_menu_off">அணைக்கவும்</string>
+    <string name="mmp_menu_singleline">ஒற்றை வரி</string>
+    <string name="mmp_menu_multiline">பல வரிகள்</string>
+    <string name="mmp_menu_auto">தானியங்கி</string>
+    <string name="mmp_menu_userdefine">பயனர் வரையறுத்தது</string>
+    <string name="mmp_menu_user">பயனாளர்</string>
+    <string name="mmp_menu_cinema">சினிமா</string>
+    <string name="mmp_menu_sport">விளையாட்டு</string>
+    <string name="mmp_menu_vivid">தெளிவான</string>
+    <string name="mmp_menu_hibright">ஹை-பிரைட்</string>
+    <string name="mmp_menu_normal">சாதாரண</string>
+    <string name="mmp_menu_letterbox">எழுத்துப் பெட்டி</string>
+    <string name="mmp_menu_scan">ஸ்கான் செய்யவும்</string>
+    <string name="mmp_menu_zoom">பெரிதாக்குக</string>
+    <string name="mmp_menu_dotbydot">புள்ளி புள்ளியாய்</string>
+
+    <string name="mmp_menu_regular">வழக்கமான</string>
+    <string name="mmp_menu_italic">சாய்ந்த</string>
+    <string name="mmp_menu_bold">பெரிய</string>
+    <string name="mmp_menu_outline">பெரிய சாய்ந்த</string>
+    <string name="mmp_menu_white">வெள்ளை</string>
+    <string name="mmp_menu_blue">நீலம்</string>
+    <string name="mmp_menu_red">சிவப்பு</string>
+    <string name="mmp_menu_green">பச்சை</string>
+    <string name="mmp_menu_black">கருப்பு</string>
+    <string name="mmp_menu_lyricoptions">பாடல்வரி விருப்பங்கள்</string>
+
+    <string name="mmp_menu_showscore">நிறமாலையைக் காட்டு</string>
+    <string name="mmp_menu_hidescore">நிறமாலையை மறை</string>
+    <string name="mmp_menu_onlyaudio">ஒலிமட்டும்</string>
+
+
+    <string name="mmp_photo">புகைப்படம்</string>
+    <string name="mmp_audio">ஒலி</string>
+    <string name="mmp_video">வீடியோ</string>
+    <string name="mmp_text">எழுத்து</string>
+    <string name="mmp_select">தேர்ந்தெடு</string>
+    <string name="mmp_input">உள்ளிடு</string>
+    <string name="mmp_exit">வெளியேறவும்</string>
+    <string name="mmp_emptyfile">இந்தக் கோப்புறை காலியாக உள்ளது!</string>
+    <string name="mmp_reutip">இந்தக் கோப்புறையைப் பாகுபடுத்துகிறது, தயவுசெய்து காத்திருக்கவும்….</string>
+    <string name="mmp_pop_repeat_tvrepeat">அனைத்தையும் திரும்ப இயக்குக</string>
+    <string name="mmp_pop_repeat_tvsingle">ஒன்றைத் திரும்ப இயக்குக</string>
+    <string name="mmp_pop_time_tv">குறுகியது</string>
+    <string name="mmp_pop_view_tv">எதுவுமில்லை</string>
+    <string name="mmp_pop_menu">பட்டியல்</string>
+    <string name="mmp_pop_enter">உள்ளிடு</string>
+    <string name="mmp_info_album">தொகுப்பு:</string>
+    <string name="mmp_info_orientation">நிலை:</string>
+    <string name="mmp_info_artist">இசைக்கலைஞர்:</string>
+    <string name="mmp_info_name">பெயர்:</string>
+    <string name="mmp_info_date">நாள்:</string>
+    <string name="mmp_info_size">அளவு :</string>
+    <string name="mmp_info_next">அடுத்தது:</string>
+    <string name="mmp_info_audio">ஒலி:</string>
+    <string name="mmp_info_exposure">வெளிப்பாடு நேரம்:</string>
+    <string name="mmp_info_fnumber">Fஎண்:</string>
+    <string name="mmp_info_program">வெளிப்பாடு நிரல்:</string>
+    <string name="mmp_info_colorspace">வண்ண இடைவெளி:</string>
+    <string name="mmp_info_title">தலைப்பு :</string>
+    <string name="mmp_info_genre">வகை:</string>
+    <string name="mmp_info_year">ஆண்டு:</string>
+    <string name="mmp_info_duration">கால அளவு:</string>
+    <string name="mmp_info_director">இயக்குநர்:</string>
+    <string name="mmp_info_copyrght">காப்புரிமை:</string>
+
+    <string name="mmp_info_lastline">கடைசி வரி</string>
+    <string name="mmp_info_nextline">அடுத்த வரி</string>
+    <string name="mmp_info_lastpage">கடைசிப் பக்கம்</string>
+    <string name="mmp_info_nextpage">அடுத்த பக்கம்</string>
+
+    <string name="mmp_info_nolrc">lrc இல்லை</string>
+    <string name="mmp_loading_tip">இந்தக் கோப்புறையைப் பாகுபடுத்துகிறது, தயவுசெய்து காத்திருக்கவும்….</string>
+    <string name="mmp_user_name">பயனர் பெயர்</string>
+    <string name="mmp_password">கடவுச்சொல்</string>
+    <string name="mmp_confirm">உறுதிசெய்க</string>
+    <string name="mmp_ok">சரி</string>
+    <string name="mmp_cancel">ரத்து செயவும்</string>
+
+    <string name="mmp_login_failed_tip">பயனர்பெயர் அல்லது கடவுச்சொல் பிழையானது!</string>
+    <string name="mmp_dlnaserver_disconnected">DLNA வழங்கி மறைந்தது, தயவுசெய்து இணைப்பு மற்றும் வழங்கியின் நிலையைச்
+        சோதிக்கவும்!
+    </string>
+    <string name="mmp_title_copy">நகலெடுக்கிறது</string>
+    <string name="mmp_title_confirm_replace">கோப்பை மாற்றுவதை உறுதிப்படுத்தவும்</string>
+    <string name="mmp_title_confirm_delete">கோப்பு(களை) அழிப்பதை உறுதிப்படுத்தவும்</string>
+    <string name="mmp_message_confirm_replace">இக்கோப்புறையில் ஏற்கனவே இப்பெயர் கொண்ட கோப்பு உள்ளது\n%s
+    </string>
+    <string name="mmp_message_confirm_delete">தேர்ந்தெடுத்த கோப்பு(களை) அழிப்பதில் உறுதியாக உள்ளீர்களா?</string>
+
+    <string name="mmp_yes">ஆம்</string>
+    <string name="mmp_yes_to_all">எல்லாவற்றிற்கும் ஆம்</string>
+    <string name="mmp_no">இல்லை</string>
+
+    <string name="mmp_capture_title">சின்னத்தைப் பிடிப்பெடுக்கவும்</string>
+    <string name="mmp_capture_confirm">இத்திரையைப் பிடிப்பெடுக்க விரும்புகிறீர்களா?</string>
+    <string name="mmp_toast_no_photoframe">எந்த புகைப்படச்சட்ட படங்களும் இயக்குவதற்கு இல்லை</string>
+
+    <string name="mmp_video_notsupport">காணொளி குறியாக்கி ஆதரிக்கப்படவில்லை</string>
+    <string name="mmp_audio_notsupport">ஒலி வடிவம் ஆதரிக்கப்படவில்லை</string>
+    <string name="mmp_video_only">காணொளி மட்டும்</string>
+    <string name="mmp_frame_photo_sleeptime">தூக்க நேரம்</string>
+    <string name="mmp_sleeptime_lable">தூக்க நேரம்:</string>
+    <string name="mmp_video_stopresume">நிறுத்து தொடர்</string>
+    <string name="mmp_can_notpause">இடைநிறுத்த இயலாது</string>
+
+    <string name="mmp_photo_type_notsupport">கோப்பு ஆதரிக்கவில்லை</string>
+
+    <string name="mmp_lable_rorate">திருப்பு</string>
+    <string name="mmp_lable_subtitle_off">அணைக்கவும்</string>
+
+    <string name="mmp_info_whitebalance">வெள்ளை இருப்பு:</string>
+    <string name="mmp_info_make">உற்பத்தியாளர்:</string>
+    <string name="mmp_info_model">மாதிரி:</string>
+    <string name="mmp_info_flash">ஷட்டர்:</string>
+    <string name="mmp_info_focallength">குவியத்தூரம்:</string>
+    <string name="mmp_menu_pic_setting">பட அமைப்பு</string>
+    <string name="mmp_menu_audio_setting">ஒலி அமைப்புகள்</string>
+
+    <string name="mmp_file_notsupport">கோப்பு ஆதரிக்கவில்லை</string>
+    <string name="mmp_notsupport">ஆதரிக்கவில்லை</string>
+    <string name="mmp_seek_notsupport">இழுத்தல் ஆதரிக்கப்படவில்லை</string>
+    <string name="mmp_step_notsupport">படி ஆதரிக்கப்படவில்லை</string>
+    <string name="mmp_featue_notsupport">இந்த வசதி இல்லை</string>
+    <string name="mmp_buffer_not_enough">தாங்கல் போதாது</string>
+    <string name="mmp_nodevice">எந்தச் சாதனமும் இணைக்கப்படவில்லை!</string>
+    <string name="mmp_time_out">நீங்கள் உள்ளிட்ட நேரக்குறி தவறானது!\nதயவுசெய்து அது மொத்த நேரத்தைவிடக் குறைவாக இருப்பதை
+        உறுதிப்படுத்தவும்
+    </string>
+    <string name="mmp_file_corrupt">கோப்பு சிதைவடைந்துள்ளது</string>
+    <string name="mmp_menu_mount_iso">தற்போதைய iso கோப்பை ஏற்றவும்</string>
+    <string name="mmp_menu_unmount_iso">தற்போதைய சாதனத்தை Nnஏற்றவும்</string>
+
+    <string name="mmp_media_info_scrambled_audio_video_service">ஒளியையும் ஒலியையும் கலக்கவும்</string>
+    <string name="mmp_media_info_scrambled_audio_clear_video_service">ஒலியைக் கலக்கவும்</string>
+    <string name="mmp_media_info_scrambled_audio_no_video_service">ஒலியைக் கலக்கவும், ஒலியை மட்டும்</string>
+    <string name="mmp_media_info_scrambled_video_clear_audio_service">ஒளியைக் கலக்கவும்</string>
+    <string name="mmp_media_info_scrambled_video_no_audio_service">ஒளியைக் கலக்கவும், ஒளியை மட்டும்</string>
+
+
+    <string name="mmp_txt_const_font">இல்லை</string>
+
+    <string name="mmp_drm_register_continue">தொடரவா?</string>
+
+    <string name="mmp_divx_title">தலைப்பு</string>
+    <string name="mmp_divx_edition">பதிப்பு</string>
+    <string name="mmp_divx_chapter">அத்தியாயம்</string>
+
+
+    <string name="mmp_divx_titleName">தலைப்பு :</string>
+    <string name="mmp_divx_chapterName">அத்தியாயம்:</string>
+    <string name="mmp_divx_rateName">அளவு:</string>
+    <string name="mmp_divx_audioName">ஒலி:</string>
+    <string name="mmp_divx_subtitleName">துணைதலைப்பு:</string>
+    <string name="mmp_dmr_starting">DMR தொடங்குதல்</string>
+    <string name="mmp_dmr_started">DMR தொடங்கப்பட்டது,தயவுசெய்து பயன்படுத்தவும்</string>
+    <string name="mmp_dmr_network_failed">DMR தொடங்குவதில் தோல்வியுற்றது,இணைப்பு கிடைக்கப்பெறவில்லை</string>
+    <string name="mmp_dmr_url_failed">தவறான URL</string>
+
+    <string name="mmp_wrong_psw">கடவுச்சொலை தவறு. மொத்தம் %1$s முயற்ச்சிகள்,%2$s முயற்சிக்கப்பட்டது,மீண்டும் முயலவும்!
+    </string>
+    <string name="mmp_subtitle_encoding">துணைத்தலைப்பு என்கோடிங்</string>
+    <string name="mmp_last_memory">கடந்த நினைவகம்</string>
+    <string name="mmp_last_memory_off">அணைக்கவும்</string>
+    <string name="mmp_last_memory_time">நேரம்</string>
+    <string name="mmp_last_memory_position">நிலை</string>
+
+    <string name="ci_menu_pin_correct">சரியானது!</string>
+    <string name="ci_menu_pin_outoftry">மூன்று முறைகள் தவறானது</string>
+    <string name="mmp_menu_3d_photo">3D படம்</string>
+    <string name="mmp_menu_dmr">Dmr</string>
+    <string name="mmp_pop_zoomscale">X</string>
+    <string name="mmp_tip_play">இயக்கவும்</string>
+    <string name="mmp_tip_exit">வெளியேற</string>
+    <string name="mmp_tip_select">தேர்ந்தெடு</string>
+    <string name="mmp_drm_register">உங்கள் கருவி இந்த \n Divx@ புரடக்டட் விடியோவை இயக்க அங்கீகரிக்கப்படவில்லை</string>
+    <string name="mmp_drm_register_expired">Divx@ ரெண்டல் காலாவதியானது</string>
+    <string name="mmp_drm_register_used">Divx@ ரெண்டல் \n %2$s ல் %1$s பார்வைகளைப் பயன்படுத்திவிட்டது</string>
+    <string name="mmp_video_seektime_title">இந்த நேரத்துக்குச் செல்க</string>
+</resources>

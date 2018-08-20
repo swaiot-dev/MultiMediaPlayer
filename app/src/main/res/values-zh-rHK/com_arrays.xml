@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="screen_mode_array">
+		<item>未知</item>
+		<item>普通</item>
+		<item>信箱</item>
+		<item>平移掃描</item>
+		<item>用戶定義</item>
+		<item>非線性</item>
+		<item>逐點</item>
+		<item>自動</item>
+		<item>Custom Def 1</item>
+		<item>Custom Def 2</item>
+		<item>Custom Def 3</item>
+		<item>Custom Def 4</item>
+		<item>Custom Def 5</item>
+		<item>Custom Def 6</item>
+		<item>Custom Def 7</item>
+		<item>NLZ Custom Def 0</item>
+		<item>NLZ Custom Def 1</item>
+		<item>NLZ Custom Def 2</item>
+		<item>NLZ Custom Def 3</item>
+	</string-array>
+	
+	<string-array name="screen_mode_array_us">
+		<item>未知</item>
+		<item>普通</item>
+		<item>信箱</item>
+		<item>縮放</item>
+		<item>用戶定義</item>
+		<item>全景模式</item>
+		<item>逐點</item>
+		<item>自動</item>
+		<item>Custom Def 1</item>
+		<item>Custom Def 2</item>
+		<item>Custom Def 3</item>
+		<item>Custom Def 4</item>
+		<item>Custom Def 5</item>
+		<item>Custom Def 6</item>
+		<item>Custom Def 7</item>
+		<item>NLZ Custom Def 0</item>
+		<item>NLZ Custom Def 1</item>
+		<item>NLZ Custom Def 2</item>
+		<item>NLZ Custom Def 3</item>
+	</string-array>
+
+	<string-array name="picture_effect_array">
+		<item>自訂</item>
+		<item>電影</item>
+		<item>體育</item>
+		<item>生動</item>
+		<item>高亮度</item>
+	</string-array>
+	
+	<string-array name="picture_effect_array_us">
+		<item>自訂</item>
+		<item>電影</item>
+		<item>體育</item>
+		<item>生動</item>
+		<item>高亮度</item>
+		<item>Custom1</item>
+		<item>Custom2</item>
+		<item>Custom3</item>
+	</string-array>
+
+	    <string-array name="setup_default_language_array">
+        <item>@string/setup_language_english</item>
+        <item>@string/setup_language_chinese</item>
+    </string-array>
+    
+    <string-array name="setup_us_language_array">
+        <item>@string/setup_language_english</item>
+        <item>@string/setup_language_spanish</item>
+        <item>@string/setup_language_french</item>
+    </string-array>
+    
+    <string-array name="setup_sa_language_array">
+        <item>@string/setup_language_english</item>
+        <item>@string/setup_language_portuguese</item>
+        <item>@string/setup_language_spanish</item>
+    </string-array>
+    
+    <string-array name="setup_eu_language_array">
+        <item>@string/setup_language_english</item>
+        <item>@string/setup_language_Vasco</item>
+        <item>@string/setup_language_Catalan</item>
+        <item>@string/setup_language_hrvatski</item>
+        <item>@string/setup_language_Cesky</item>
+        <item>@string/setup_language_Dansk</item>
+        <item>@string/setup_language_Nederlands</item>
+        <item>@string/setup_language_Suomi</item>
+        <item>@string/setup_language_french</item>
+        <item>@string/setup_language_Gaelic</item>
+        <item>@string/setup_language_Gallego</item>
+        <item>@string/setup_language_Deutsch</item>
+        <item>@string/setup_language_Magyar</item>
+        <item>@string/setup_language_Italiano</item>
+        <item>@string/setup_language_Norsk</item>
+        <item>@string/setup_language_Polski</item>
+        <item>@string/setup_language_portuguese</item>
+        <item>@string/setup_language_Romana</item>
+        <item>@string/setup_language_Srpski</item>
+        <item>@string/setup_language_Slovensky</item>
+        <item>@string/setup_language_Slovenscina</item>
+        <item>@string/setup_language_spanish</item>
+        <item>@string/setup_language_Svenska</item>
+        <item>@string/setup_language_Turkce</item>
+        <item>@string/setup_language_Welsh</item>
+        <item>@string/setup_language_Eesti</item>
+        <item>@string/setup_language_Pyccknn</item>
+    </string-array>
+    
+    <string-array name="setup_eu_language_array_eu">
+        <item>@string/setup_language_english_eu</item>
+        <item>@string/setup_language_Vasco_eu</item>
+        <item>@string/setup_language_Catalan_eu</item>
+        <item>@string/setup_language_hrvatski_eu</item>
+        <item>@string/setup_language_Cesky_eu</item>
+        <item>@string/setup_language_Dansk_eu</item>
+        <item>@string/setup_language_Nederlands_eu</item>
+        <item>@string/setup_language_Suomi_eu</item>
+        <item>@string/setup_language_french_eu</item>
+        <item>@string/setup_language_Gaelic_eu</item>
+        <item>@string/setup_language_Gallego_eu</item>
+        <item>@string/setup_language_Deutsch_eu</item>
+        <item>@string/setup_language_Magyar_eu</item>
+        <item>@string/setup_language_Italiano_eu</item>
+        <item>@string/setup_language_Norsk_eu</item>
+        <item>@string/setup_language_Polski_eu</item>
+        <item>@string/setup_language_portuguese_eu</item>
+        <item>@string/setup_language_Romana_eu</item>
+        <item>@string/setup_language_Srpski_eu</item>
+        <item>@string/setup_language_Slovensky_eu</item>
+        <item>@string/setup_language_Slovenscina_eu</item>
+        <item>@string/setup_language_spanish_eu</item>
+        <item>@string/setup_language_Svenska_eu</item>
+        <item>@string/setup_language_Turkce_eu</item>
+        <item>@string/setup_language_Welsh_eu</item>
+        <item>@string/setup_language_Eesti_eu</item>
+        <item>@string/setup_language_Pyccknn_eu</item>
+    </string-array>
+    
+    <string-array name="setup_eu_country_array">
+        <item>@string/setup_country_cty_1</item>
+        <item>@string/setup_country_cty_2</item>
+        <item>@string/setup_country_cty_3</item>
+        <item>@string/setup_country_cty_4</item>
+        <item>@string/setup_country_cty_5</item>
+        <item>@string/setup_country_cty_6</item>
+        <item>@string/setup_country_cty_7</item>
+        <item>@string/setup_country_cty_8</item>
+        <item>@string/setup_country_cty_9</item>
+        <item>@string/setup_country_cty_10</item>
+        <item>@string/setup_country_cty_11</item>
+        <item>@string/setup_country_cty_12</item>
+        <item>@string/setup_country_cty_13</item>
+        <item>@string/setup_country_cty_14</item>
+        <item>@string/setup_country_cty_15</item>
+        <item>@string/setup_country_cty_16</item>
+        <item>@string/setup_country_cty_17</item>
+        <item>@string/setup_country_cty_18</item>
+        <item>@string/setup_country_cty_19</item>
+        <item>@string/setup_country_cty_20</item>
+        <item>@string/setup_country_cty_21</item>
+        <item>@string/setup_country_cty_22</item>
+        <item>@string/setup_country_cty_23</item>
+        <item>@string/setup_country_cty_24</item>
+        <item>@string/setup_country_cty_25</item>
+        <item>@string/setup_country_cty_26</item>
+        <item>@string/setup_country_cty_27</item>
+        <item>@string/setup_country_cty_28</item>
+        <item>@string/setup_country_cty_29</item>
+    </string-array>
+    
+    <string-array name="setup_eu_oceania_country_array">
+        <item>@string/setup_country_cty_30</item>
+        <item>@string/setup_country_cty_31</item>
+        <item>@string/setup_country_cty_32</item>
+    </string-array>
+    
+    <string-array name="setup_us_timezone_region">
+        <item>東部時間</item>
+        <item>印第安納</item>
+        <item>中部時間</item>
+        <item>山地時間</item>
+        <item>亞利桑那州</item>
+        <item>太平洋時間</item>
+        <item>阿拉斯加</item>
+        <item>夏威夷</item>
+    </string-array>
+    
+    <string-array name="setup_us_timezone_str">
+        <item>America/New_York</item>
+        <item>America/New_York</item>
+        <item>America/Chicago</item>
+        <item>America/Denver</item>
+        <item>America/Phoenix</item>
+        <item>America/Los_Angeles</item>
+        <item>America/Anchorage</item>
+        <item>Pacific/Honolulu</item>
+    </string-array>
+    <integer-array name="setup_us_timezone_values">
+        <item>-5</item>
+        <item>-5</item>
+        <item>-6</item>
+        <item>-7</item>
+        <item>-7</item>
+        <item>-8</item>
+        <item>-9</item>
+        <item>-10</item>
+    </integer-array>
+    <string-array name="dvbc_operators_eu">
+        <item>@string/dvbc_operator_others</item>
+        <item>@string/dvbc_operator_upc</item>
+        <item>@string/dvbc_operator_comhem</item>
+        <item>@string/dvbc_operator_canal_digital</item>
+        <item>@string/dvbc_operator_tele2</item>
+        <item>@string/dvbc_operator_stofa</item>
+        <item>@string/dvbc_operator_yousee</item>
+        <item>@string/dvbc_operator_ziggo</item>
+        <item>@string/dvbc_operator_unitymedia</item>
+        <item>@string/dvbc_operator_numericable</item>
+        <item>@string/dvbc_operator_volia</item>
+        <item>@string/dvbc_operator_telemach</item>
+        <item>@string/dvbc_operator_onlime</item>
+        <item>@string/dvbc_operator_akado</item>
+        <item>@string/dvbc_operator_tkt</item>
+        <item>@string/dvbc_operator_divan_tv</item>
+        <item>@string/dvbc_operator_net1</item>
+        <item>@string/dvbc_operator_kdg</item>
+        <item>@string/dvbc_operator_kbw</item>
+        <item>@string/dvbc_operator_blizoo</item>
+        <item>@string/dvbc_operator_telent_eu</item>
+        <item>@string/dvbc_operator_glenten</item>
+        <item>@string/dvbc_operator_tele_columbus</item>
+        <item>@string/dvbc_operator_rcs_rds</item>
+    </string-array>
+
+    <string-array name="dvbs_operators">
+        <item>@string/dvbs_operator_astra_hd_plus</item>
+        <item>@string/dvbs_operator_sky_deutschland</item>
+        <item>@string/dvbs_operator_ors</item>
+        <item>@string/dvbs_operator_austriasat</item>
+        <item>@string/dvbs_operator_cannal_digital</item>
+        <item>@string/dvbs_operator_tv_vlaanderen_hd</item>
+        <item>@string/dvbs_operator_tv_vlaanderen_sd</item>
+        <item>@string/dvbs_operator_telesat_belgium</item>
+        <item>@string/dvbs_operator_telesat_luxembourg</item>
+        <item>@string/dvbs_operator_seznam_kanalu_pro_cesko</item>
+        <item>@string/dvbs_operator_seznam_kanalu_pro_slovensko</item>
+        <item>@string/dvbs_operator_cannaldigitaal_hd</item>
+        <item>@string/dvbs_operator_cannaldigitaal_sd</item>
+        <item>@string/dvbs_operator_n_na_karte</item>
+        <item>@string/dvbs_operator_digiturk_eutelsat</item>
+        <item>@string/dvbs_operator_digiturk_turksat</item>
+        <item>@string/dvbs_operator_fransat</item>
+        <item>@string/dvbs_operator_cyfraplus</item>
+        <item>@string/dvbs_operator_cyfrowy_polsat</item>
+        <item>@string/dvbs_operator_dsmart</item>
+        <item>@string/dvbs_operator_ntvplus</item>
+        <item>@string/dvbs_operator_others</item>
+        <item>@string/dvbs_operator_name_nc_plus</item>
+        <item>@string/dvbs_operator_name_smart_hd_plus</item>
+        <item>@string/dvbs_operator_name_tivusat</item>
+    </string-array>
+</resources>

@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+    <string-array name="nav_epg_filter_type_AUS">
+        <item>Филм</item>
+        <item>Вести</item>
+        <item>Забава</item>
+        <item>Спорт</item>
+        <item>ДЕТСКА</item>
+        <item>Музика</item>
+        <item>УМЕТНОСТ</item>
+        <item>ТЕКОВНИ РАБОТИ</item>
+        <item>Образование</item>
+        <item>КОЛАЖЕН ПРОГРАМ</item>
+        <item>СПЕЦИЈАЛНО</item>
+        <item>COMEDY</item>
+        <item>Драма</item>
+        <item>DOCUMENTARY</item>
+    </string-array>
+    <string-array name="nav_epg_filter_type_UK">
+        <item>Филм</item>
+        <item>Вести и Факти</item>
+        <item>Забава</item>
+        <item>Спорт</item>
+        <item>ДЕТСКА</item>
+        <item>Образование</item>
+        <item>Животен стил</item>
+        <item>Драма</item>
+    </string-array>
+    <string-array name="dvbs_tp_pol_arrays">
+        <item>@string/dvbs_tp_pol_1_HORIZONTAL</item>
+        <item>@string/dvbs_tp_pol_2_VERTICAL</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_RA_TE_SA_PR">
+        <item>Лотарија</item>
+        <item>Телевизиски продажби</item>
+        <item>Наградување</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_information">
+        <item>COOKING</item>
+        <item>FASHION</item>
+        <item>Земја</item>
+        <item>Здравје</item>
+        <item>Патување</item>
+    </string-array>
+    <string-array name="dvbs_channel_arrays">
+        <item>@string/dvbs_channel_free</item>
+        <item>@string/dvbs_channel_all</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_special">
+        <item>изворен јазик</item>
+        <item>BLACK AND WHITE</item>
+        <item>UNPUBLISHED</item>
+        <item>LIVE BROADCAST</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_children">
+        <item>Деца</item>
+    </string-array>
+    <string-array name="dvbs_tone_22khz_arrays">
+        <item>@string/dvbs_tone_22khz_off</item>
+        <item>@string/dvbs_tone_22khz_on</item>
+        <item>@string/dvbs_tone_22khz_auto</item>
+    </string-array>
+    <string-array name="pvr_tshift_initdisk_step_formatconfirm">
+        <item>Формат</item>
+        <item>ОТКАЖИ</item>
+    </string-array>
+    <string-array name="nav_twinkle_strings">
+        <item></item>
+        <item>Нема сигнал!</item>
+        <item>Ве молиме скенирајте канали!</item>
+        <item>Враќање податоци...</item>
+        <item>Каналот е заклучен!</item>
+        <item>Програмот е заклучен!</item>
+        <item>Внесот е заклучен!</item>
+        <item>(Нема наслов на програма.)</item>
+        <item>Скриен канал!</item>
+        <item>Audio Program</item>
+        <item>Неважечка услуга</item>
+        <item>(Нема детали за програма.)</item>
+        <item>(Нема детали за канал.)</item>
+        <item>♪ Нема аудио проток ♪</item>
+        <item>Нема видео проток</item>
+        <item>Ве молиме почекајте...</item>
+        <item>Видеото не е поддржано</item>
+        <item>HD услуга</item>
+        <item>Нема емитување</item>
+        <item>Нема канал</item>
+        <item>Оваа содржина е блокирана од вашиот давател на услуги</item>
+        <item>Шифрирано</item>
+    </string-array>
+    <string-array name="dvbs_diseqc_motor_arrays">
+        <item>@string/dvbs_diseqc_input_0</item>
+        <item>@string/dvbs_diseqc_motor_12</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_social">
+        <item>ОПШТЕСТВЕНА</item>
+        <item>Магазини</item>
+        <item>Економија</item>
+        <item>Исклучителни личности</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_comical">
+        <item>Комично</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_music">
+        <item>Музика</item>
+        <item>Рок</item>
+        <item>Сериозни</item>
+        <item>Фолк</item>
+        <item>Џез</item>
+        <item>Музичка</item>
+        <item>BALLET</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_movie">
+        <item>Драма</item>
+        <item>Детективски</item>
+        <item>Авантуристички</item>
+        <item>Научно-фантастични</item>
+        <item>COMEDY</item>
+        <item>Soap</item>
+        <item>ROMANCE</item>
+        <item>Сериозни</item>
+        <item>Филмови за возрасни</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_soap_opera">
+        <item>Сапунска опера</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_movie">
+        <item>Филм</item>
+    </string-array>
+    <string-array name="dvbs_sat_on_off">
+        <item>@string/dvbs_sat_on</item>
+        <item>@string/dvbs_sat_off</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_other">
+        <item>Цртани филмови за возрасни</item>
+        <item>Интерактивни</item>
+        <item>Политика</item>
+        <item>RELIGION</item>
+    </string-array>
+    <string-array name="nav_epg_filter_sa_type">
+        <item>Вести</item>
+        <item>Спорт</item>
+        <item>Образование</item>
+        <item>SOAP_OPERA</item>
+        <item>MINI_SERIES</item>
+        <item>Серии</item>
+        <item>Разновидност</item>
+        <item>REALITY_SHOW</item>
+        <item>INFOMATION</item>
+        <item>Комично</item>
+        <item>Деца</item>
+        <item>Еротика</item>
+        <item>Филм</item>
+        <item>RA_TE_SA_PR</item>
+        <item>DEBATE_INTERVIEW</item>
+        <item>Друго</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_education">
+        <item>Образовна</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_show">
+        <item>ПРИКАЖИ</item>
+        <item>Квизови</item>
+        <item>Вариете шоу</item>
+        <item>Говорна емисија</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_variety">
+        <item>Публика</item>
+        <item>ПРИКАЖИ</item>
+        <item>Музичка</item>
+        <item>Производство на</item>
+        <item>Женски</item>
+        <item>Квизови</item>
+    </string-array>
+    <string-array name="dvbs_antenna_type_arrays">
+        <item>@string/dvbs_antenna_type_universal</item>
+        <item>@string/dvbs_antenna_type_singlecable</item>
+    </string-array>
+    <string-array name="pvr_tshift_initdisk_step1">
+        <item>Автоматски</item>
+        <item>рачно</item>
+    </string-array>
+    <string-array name="nav_oad_btns_accept_reject">
+        <item>Прифати</item>
+        <item>Отфрли</item>
+    </string-array>
+    <string-array name="dvbs_user_band_arrays">
+        <item>@string/dvbs_user_band_1</item>
+        <item>@string/dvbs_user_band_2</item>
+        <item>@string/dvbs_user_band_3</item>
+        <item>@string/dvbs_user_band_4</item>
+        <item>@string/dvbs_user_band_5</item>
+        <item>@string/dvbs_user_band_6</item>
+        <item>@string/dvbs_user_band_7</item>
+        <item>@string/dvbs_user_band_8</item>
+    </string-array>
+    <string-array name="dvbs_sat_lnbfreq">
+        <item>@string/lnb_universal</item>
+        <item>9750,10700</item>
+        <item>9750,10750</item>
+        <item>5150</item>
+        <item>5750</item>
+        <item>9750</item>
+        <item>10600</item>
+        <item>10750</item>
+        <item>11250</item>
+        <item>11300</item>
+        <item>11475</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_DEBATE_INTERVIEW">
+        <item>Дискусии</item>
+        <item>Интервју</item>
+    </string-array>
+    <string-array name="nav_zoom_mode">
+        <item>зум х 1/2</item>
+        <item>зум х 1</item>
+        <item>зум х 2</item>
+    </string-array>
+    <string-array name="week_day">
+        <item>Недела</item>
+        <item>Понеделник</item>
+        <item>Вторник</item>
+        <item>Среда</item>
+        <item>Четврток</item>
+        <item>Петок</item>
+        <item>Сабота</item>
+    </string-array>
+    <string-array name="nav_oad_btns_accept_remind_me_later">
+        <item>Прифати</item>
+        <item>Потсети ме подоцна</item>
+    </string-array>
+    <string-array name="nav_mts_strings">
+        <item>Непознато</item>
+        <item>Моно</item>
+        <item>Стерео</item>
+        <item>SUB_LANG</item>
+        <item>Dual1</item>
+        <item>Dual2</item>
+        <item>NICAM_MONO</item>
+        <item>NICAM_STEREO</item>
+        <item>NICAM_DUAL1</item>
+        <item>NICAM_DUAL2</item>
+        <item>FM_MONO</item>
+        <item>FM_STEREO</item>
+    </string-array>
+    <string-array name="dvbs_position_arrays">
+        <item>@string/dvbs_tp_pol_0_unknown</item>
+        <item>@string/dvbs_position_a</item>
+        <item>@string/dvbs_position_b</item>
+        <item>@string/dvbs_position_c</item>
+        <item>@string/dvbs_position_d</item>
+    </string-array>
+    <string-array name="dvbs_scan_mode2_arrays">
+        <item>@string/dvbs_scan_mode_auto</item>
+        <item>@string/dvbs_scan_mode_preset</item>
+    </string-array>
+    <string-array name="dvbs_diseqc_motor_store_position_arrays">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_series">
+        <item>Серии</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_leisure">
+        <item>Слободно време и хоби</item>
+        <item>Туризам</item>
+        <item>HANDICRAFT</item>
+        <item>MOTORING</item>
+        <item>Фитнес и здравје</item>
+        <item>COOKING</item>
+        <item>Реклами</item>
+        <item>GARDENING</item>
+    </string-array>
+    <string-array name="nav_channel_type">
+        <item>Сите</item>
+        <item>Дигитално</item>
+        <item>Радио</item>
+        <item>Аналогно</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_reality_show">
+        <item>Реално шоу</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_arts">
+        <item>УМЕТНОСТ</item>
+        <item>Репродуктивна уметност</item>
+        <item>Ликовни уметности</item>
+        <item>RELIGION</item>
+        <item>Популарна култура</item>
+        <item>LITERATURE</item>
+        <item>Филм</item>
+        <item>Експериментално</item>
+        <item>Емитување</item>
+        <item>Нов медиум</item>
+        <item>Уметнички магазини</item>
+        <item>FASHION</item>
+    </string-array>
+    <string-array name="nav_audio_tvcm_strings">
+        <item>baq</item>
+        <item>eus</item>
+        <item>bul</item>
+        <item>cat</item>
+        <item>scr</item>
+        <item>cze</item>
+        <item>dan</item>
+        <item>dut</item>
+        <item>eng</item>
+        <item>fin</item>
+        <item>fre</item>
+        <item>gla</item>
+        <item>gdh</item>
+        <item>gle</item>
+        <item>glg</item>
+        <item>ger</item>
+        <item>gre</item>
+        <item>hun</item>
+        <item>ita</item>
+        <item>nor</item>
+        <item>pol</item>
+        <item>por</item>
+        <item>rum</item>
+        <item>rus</item>
+        <item>scc</item>
+        <item>slo</item>
+        <item>slv</item>
+        <item>spa</item>
+        <item>swe</item>
+        <item>tur</item>
+        <item>wel</item>
+        <item>ice</item>
+        <item>isl</item>
+        <item>smi</item>
+        <item>tha</item>
+        <item>vie</item>
+        <item>ara</item>
+        <item>zho</item>
+        <item>chi</item>
+        <item>per</item>
+        <item>kor</item>
+        <item>est</item>
+        <item>mao</item>
+        <item>cmn</item>
+        <item>yue</item>
+        <item>jpn</item>
+        <item>hin</item>
+        <item>nar</item>
+        <item>QAA</item>
+        <item>Und</item>
+    </string-array>
+    <string-array name="nav_freeze_strings">
+        <item>Замрзни: Вклучено</item>
+        <item>Замрзни: Исклучено</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_education">
+        <item>Образование</item>
+        <item>Природа</item>
+        <item>Технологија</item>
+        <item>Медицина</item>
+        <item>Странски земји</item>
+        <item>Општествени науки</item>
+        <item>Вечерно училиште</item>
+        <item>LANGUAGES</item>
+    </string-array>
+    <string-array name="nav_receiver_type">
+        <item>Кабел</item>
+        <item>Антена</item>
+    </string-array>
+    <string-array name="dvbs_diseqc_movement_control_arrays">
+        <item>Нон-стоп</item>
+        <item>Чекор</item>
+        <item>Одложување</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_erotic">
+        <item>Еротика</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_children">
+        <item>ДЕТСКА</item>
+        <item>За претшколски деца</item>
+        <item>Забава за 6 до 14</item>
+        <item>Забава за 10 до 16</item>
+        <item>Информативна</item>
+        <item>Цртани филмови</item>
+    </string-array>
+    <string-array name="nav_bottom_volume">
+        <item>Главна јачина на звук</item>
+        <item>Јачина на звук Напред лево</item>
+        <item>Јачина на звук Напред десно</item>
+        <item>Јачина на звук Назад лево</item>
+        <item>Јачина на звук Назад десно</item>
+        <item>Јачина на звук Центар</item>
+        <item>Јачина на звук на субвуфер</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_mini_series">
+        <item>Кратки серии</item>
+    </string-array>
+    <string-array name="nav_s_effect_strings">
+        <item>Корисник</item>
+        <item>Стандардно</item>
+        <item>Во живо1</item>
+    </string-array>
+    <string-array name="nav_oad_btns_cancel">
+        <item>ОТКАЖИ</item>
+    </string-array>
+    <string-array name="dvbs_user_band_freq_arrays">
+        <item>"1210"</item>
+        <item>"1400"</item>
+        <item>"1516"</item>
+        <item>"1632"</item>
+        <item>"1748"</item>
+        <item>"1864"</item>
+        <item>"1980"</item>
+        <item>"2096"</item>
+    </string-array>
+    <string-array name="dvbs_diseqc_10port_arrays">
+        <item>@string/dvbs_diseqc_input_1</item>
+        <item>@string/dvbs_diseqc_input_2</item>
+        <item>@string/dvbs_diseqc_input_3</item>
+        <item>@string/dvbs_diseqc_input_4</item>
+        <item>@string/dvbs_tone_burst_a</item>
+        <item>@string/dvbs_tone_burst_b</item>
+        <item>@string/dvbs_diseqc_input_0</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sports">
+        <item>Спорт</item>
+        <item>Специјални настани</item>
+        <item>Спортски емисии</item>
+        <item>Фудбал</item>
+        <item>Тенис</item>
+        <item>Тимски спортови</item>
+        <item>ATHLETICS</item>
+        <item>Мото спорт</item>
+        <item>Водени спортови</item>
+        <item>Зимски спортови</item>
+        <item>EQUESTRIAN</item>
+        <item>Боречки вештини</item>
+    </string-array>
+    <string-array name="nav_zoom_strings">
+        <item>зум х 1</item>
+        <item>зум х 2</item>
+        <item>зум х 1/2</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_sports">
+        <item>Спорт</item>
+    </string-array>
+    <string-array name="nav_audio_strings">
+        <item>Баскиски</item>
+        <item>Баскиски</item>
+        <item>Бугарски</item>
+        <item>Каталонски</item>
+        <item>хрватски</item>
+        <item>Чешка</item>
+        <item>дански</item>
+        <item>Холандски</item>
+        <item>англиски</item>
+        <item>фински</item>
+        <item>Француски</item>
+        <item>Gaelic</item>
+        <item>Gaelic</item>
+        <item>ирски</item>
+        <item>Галициски</item>
+        <item>Германски</item>
+        <item>грчки</item>
+        <item>унгарски</item>
+        <item>Италијански</item>
+        <item>Норвешки</item>
+        <item>полски</item>
+        <item>Португалски</item>
+        <item>романски</item>
+        <item>Русија</item>
+        <item>српски</item>
+        <item>Словачка</item>
+        <item>словенечки</item>
+        <item>Шпански</item>
+        <item>шведски</item>
+        <item>Турски</item>
+        <item>ВЕЛШКИ</item>
+        <item>Исландски</item>
+        <item>Исландски</item>
+        <item>Лапонски јаз</item>
+        <item>Таи</item>
+        <item>Виетнамски</item>
+        <item>Арапски</item>
+        <item>Т. Кинески</item>
+        <item>Е. Кинески</item>
+        <item>Персиски</item>
+        <item>Корејски</item>
+        <item>Естонија</item>
+        <item>маорски</item>
+        <item>Мандарински</item>
+        <item>Кантонски</item>
+        <item>Јапонски</item>
+        <item>Хинди</item>
+        <item>Нарација</item>
+        <item>Оригинална верзија за Франција</item>
+        <item>Недефинирано</item>
+    </string-array>
+    <string-array name="pvr_tshift_initdisk_step_format">
+        <item>Формат</item>
+        <item>Прескокни</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_news">
+        <item>Вести</item>
+        <item>Извештај</item>
+        <item>DOCUMENTARY</item>
+        <item>Биографија</item>
+    </string-array>
+    <string-array name="dvbs_scan_mode_arrays">
+        <item>@string/dvbs_scan_mode_network</item>
+        <item>@string/dvbs_scan_mode_full</item>
+    </string-array>
+    <string-array name="lnb_mdu1_arrays">
+        <item>@string/dvbs_preferred_satellite</item>
+        <item>@string/dvbs_general_satellite</item>
+    </string-array>
+    <string-array name="nav_sleep_strings">
+        <item>Sleep:Off</item>
+        <item>Sleep:15 Minutes</item>
+        <item>Sleep:30 Minutes</item>
+        <item>Sleep:45 Minutes</item>
+        <item>Sleep:60 Minutes</item>
+        <item>Sleep:90 Minutes</item>
+        <item>Sleep:120 Minutes</item>
+    </string-array>
+    <string-array name="nav_channel_types">
+        <item>Сите</item>
+        <item>Радио</item>
+    </string-array>
+    <string-array name="dvbs_preferred_satellite_arrays">
+        <item>@string/dvbs_preferred_satellite</item>
+        <item>@string/dvbs_general_satellite</item>
+    </string-array>
+    <string-array name="dvbs_sat_lnb_power">
+        <item>@string/dvbs_sat_off</item>
+        <item>@string/dvbs_sat_TUNER_LNB_POWER_13V_18V</item>
+        <item>@string/dvbs_sat_TUNER_LNB_POWER_14V_19V</item>
+        <item>@string/dvbs_sat_on</item>
+    </string-array>
+    <string-array name="dvbs_diseqc_input_arrays">
+        <item>@string/dvbs_diseqc_input_1</item>
+        <item>@string/dvbs_diseqc_input_2</item>
+        <item>@string/dvbs_diseqc_input_3</item>
+        <item>@string/dvbs_diseqc_input_4</item>
+        <item>@string/dvbs_diseqc_input_0</item>
+    </string-array>
+    <string-array name="nav_oad_btns_yes_no">
+        <item>Да</item>
+        <item>Не</item>
+    </string-array>
+    <string-array name="dvbs_tone_burst_arrays">
+        <item>@string/dvbs_tone_burst_a</item>
+        <item>@string/dvbs_tone_burst_b</item>
+        <item>@string/dvbs_tone_burst_disable</item>
+    </string-array>
+    <string-array name="nav_epg_filter_type">
+        <item>Филм</item>
+        <item>Вести</item>
+        <item>ПРИКАЖИ</item>
+        <item>Спорт</item>
+        <item>ДЕТСКА</item>
+        <item>Музика</item>
+        <item>УМЕТНОСТ</item>
+        <item>ОПШТЕСТВЕНА</item>
+        <item>Образование</item>
+        <item>СЛОБОДНО ВРЕМЕ</item>
+        <item>СПЕЦИЈАЛНО</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_news">
+        <item>ТЕКОВНИ РАБОТИ</item>
+        <item>Временски извештај</item>
+        <item>Информативна програма</item>
+        <item>DOCUMENTARY</item>
+        <item>Дискусии</item>
+    </string-array>
+</resources>

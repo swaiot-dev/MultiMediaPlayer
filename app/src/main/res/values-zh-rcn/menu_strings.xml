@@ -225,7 +225,7 @@
 	<!-- part of factory -->
 	<string name="menu_factory_name">工厂</string>
 	<string name="menu_factory_video">视频</string>
-	<string name="menu_factory_audio">音频</string>
+	<string name="menu_factory_audio">音乐</string>
 	<string name="menu_factory_TV">电视</string>
 	<string name="menu_factory_setup">设置</string>
 	<string name="menu_factory_preset">预设频道</string>

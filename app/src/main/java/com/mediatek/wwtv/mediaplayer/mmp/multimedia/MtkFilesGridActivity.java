@@ -45,6 +45,7 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.mediatek.dm.DeviceManagerEvent;
 import com.mediatek.mmp.MtkMediaPlayer;
 import com.mediatek.mmp.MtkMediaPlayer.OnCompletionListener;
 import com.mediatek.wwtv.mediaplayer.mmp.USBBroadcastReceiver;
@@ -53,6 +54,8 @@ import com.mediatek.wwtv.mediaplayer.mmp.util.DivxUtil;
 import com.mediatek.wwtv.mediaplayer.mmp.util.LastMemory;
 import com.mediatek.wwtv.mediaplayer.mmpcm.audio.IAudioPlayListener;
 import com.mediatek.wwtv.mediaplayer.mmpcm.audioimpl.AudioConst;
+import com.mediatek.wwtv.mediaplayer.mmpcm.device.DevListener;
+import com.mediatek.wwtv.mediaplayer.mmpcm.device.DevManager;
 import com.mediatek.wwtv.mediaplayer.mmpcm.mmcimpl.Const;
 import com.mediatek.wwtv.mediaplayer.mmpcm.mmcimpl.PlayList;
 import com.mediatek.wwtv.mediaplayer.mmpcm.videoimpl.Thumbnail;
@@ -158,6 +161,7 @@ public class MtkFilesGridActivity extends MtkFilesBaseListActivity {
   private boolean mIsSeeking;
   private int mSeekingProgress;
   //SKY luojie 20180211 add for remove the MediaMainActivity end
+  public boolean fileNull = false;
 
   private final Handler mGridHandler = new Handler() {
     @Override
@@ -183,6 +187,36 @@ public class MtkFilesGridActivity extends MtkFilesBaseListActivity {
 
     }
   };
+
+    private DevManager mDevManager = null;
+    private MyDevListener mDevListener = null;
+
+    public class MyDevListener implements DevListener {
+        public void onEvent(DeviceManagerEvent event) {
+            MtkLog.d(TAG, "Device Event : " + event.getType());
+            int type = event.getType();
+            switch (type) {
+                case DeviceManagerEvent.umounted:
+                   MmpApp.fileNull = true;
+                    break;
+                case DeviceManagerEvent.mounted:
+                    MmpApp.fileNull = false;
+                default:
+                    break;
+            }
+        }
+    }
+
+    private void onRegisterUsbEvent() {
+        try {
+            mDevListener = new MyDevListener();
+            mDevManager = DevManager.getInstance();
+            mDevManager.addDevListener(mDevListener);
+        } catch (ExceptionInInitializerError e) {
+            mDevManager = null;
+            mDevListener = null;
+        }
+    }
 
   private final AccessibilityDelegate mAccDelegate = new AccessibilityDelegate() {
       @Override
@@ -298,6 +332,7 @@ public class MtkFilesGridActivity extends MtkFilesBaseListActivity {
     } else {
       mContentView.setBackgroundResource(R.drawable.mmp_files_bg_photo);
     }
+      onRegisterUsbEvent();
     //SKY luojie 20180108 added for UI end
   }
 
@@ -513,6 +548,7 @@ public class MtkFilesGridActivity extends MtkFilesBaseListActivity {
         //        vLeftTopTv.setSelected(true);
 
     String curPath = getListCurrentPath();
+    MmpApp.MainPath = curPath;
     if (curPath != null && curPath.startsWith("/storage")) {
       MultiFilesManager multiFileManager = MultiFilesManager
           .getInstance(this);
@@ -648,17 +684,19 @@ public class MtkFilesGridActivity extends MtkFilesBaseListActivity {
   @Override
   public boolean dispatchKeyEvent(KeyEvent event) {
     if(event.getKeyCode() == KeyMap.KEYCODE_DPAD_CENTER && event.getAction() == KeyEvent.ACTION_UP) {
-      final FileAdapter file = getListItem(getListSelectedItemPosition());
-      if(file != null) {
-                //                setCategoryBtnFocusable(false);
-        //Prevent quick clicks ANR  ???
-        if (isValid()) {
+      if(vList.isLayoutRequested()) {
+        final FileAdapter file = getListItem(getListSelectedItemPosition());
+        if (file != null) {
+          //                setCategoryBtnFocusable(false);
+          if (MmpApp.MainPath.equals("/")) {
+            int a = getListSelectedItemPosition();
+            MmpApp.path = getListSelectedItemPosition();
+          }
           onListItemClickHandle(getListSelectedItemPosition());
+          vList.requestFocus();
         }
-
-        vList.requestFocus();
+        return false;
       }
-      return false;
     }
 
 	  tempPostion = 2;
@@ -862,7 +900,9 @@ public class MtkFilesGridActivity extends MtkFilesBaseListActivity {
       case KeyMap.KEYCODE_MTKIR_STOP: {
         Log.d(TAG, "onKeyDown KEYCODE_MTKIR_STOP");
         mLogicManager.stopAudio();
-                vMusicView.changeVisualizer();
+        if (vMusicView != null) {
+          vMusicView.changeVisualizer();
+        }
         return true;
       }
     }
@@ -1322,6 +1362,9 @@ public class MtkFilesGridActivity extends MtkFilesBaseListActivity {
     if (null != mTTSUtil){
       mTTSUtil.shutdown();
     }
+      if (mDevManager != null) {
+          mDevManager.removeDevListener(mDevListener);
+      }
     exitMediaMain();
     //SKY luojie 20180211 add for remove the MediaMainActivity end
   }
@@ -1333,7 +1376,16 @@ public class MtkFilesGridActivity extends MtkFilesBaseListActivity {
     Util.LogLife(TAG, "onStop");
   }
 
-//  public void exit() {
+  @Override
+  protected void onPause() {
+    super.onPause();
+//    mLogicManager.stopAudio();
+//    if (vMusicView != null) {
+//      vMusicView.changeVisualizer();
+//    }
+  }
+
+  //  public void exit() {
 //    // if(AnimationManager.getInstance().getIsAnimation()){
 //    // AnimationManager.getInstance().startActivityEndAnimation(this,
 //    // findViewById(R.id.mmp_files_grid_layout), null);
@@ -1580,6 +1632,7 @@ public class MtkFilesGridActivity extends MtkFilesBaseListActivity {
       holder.tv.setVisibility(View.VISIBLE);
       if (data.isDirectory() ||
           (source == MultiFilesManager.SOURCE_LOCAL && data.isIsoFile())) {
+      	holder.imgOver.setVisibility(View.GONE);
         switch (source) {
           case MultiFilesManager.SOURCE_LOCAL:
             holder.img.setImageDrawable(mFolder);
@@ -1673,9 +1726,9 @@ public class MtkFilesGridActivity extends MtkFilesBaseListActivity {
 		view.setScaleType(ImageView.ScaleType.CENTER_CROP);
 		viewOver.setVisibility(View.VISIBLE);
       } else {
-        Log.i(TAG, "bindThumbnail LoadBitmap!!" + mWorks.get(view) + "  " + path);
         MtkLog.i(TAG, "bindThumbnail LoadBitmap!!" + mWorks.get(view) + "  " + path);
         if (mWorks.get(view) == null) {
+          Log.d("wanya", "*****************bindThumbnail: ");
           LoadBitmap work = new LoadBitmap(data, view, viewOver);
           mWorks.put(view, work);
           mLoader.addWork(work);
@@ -1891,7 +1944,6 @@ public class MtkFilesGridActivity extends MtkFilesBaseListActivity {
             // TODO null image
             if (null != vImage.getDrawable())
               vImage.setImageBitmap(mResult);
-              Log.d(TAG, "run: " + mData.getAbsolutePath());
 			  vImage.setScaleType(ImageView.ScaleType.CENTER_CROP);
 			  vImageOver.setVisibility(View.VISIBLE);
           }
@@ -1908,6 +1960,9 @@ public class MtkFilesGridActivity extends MtkFilesBaseListActivity {
     stopMusicView();
     if (MediaMainActivity.mIsDlnaAutoTest || MediaMainActivity.mIsSambaAutoTest) {
       finish();
+    }
+    if (mLogicManager != null) {
+      mLogicManager.stopAudio();
     }
   }
 

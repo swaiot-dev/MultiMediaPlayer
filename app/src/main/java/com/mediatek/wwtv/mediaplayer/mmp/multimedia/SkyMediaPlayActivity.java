@@ -1,6 +1,7 @@
 package com.mediatek.wwtv.mediaplayer.mmp.multimedia;
 
 import android.content.Intent;
+import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
 import android.util.Log;
@@ -14,6 +15,7 @@ import com.mediatek.wwtv.mediaplayer.mmp.util.MultiMediaConstant;
 import com.mediatek.wwtv.mediaplayer.mmpcm.fileimpl.FileConst;
 import com.mediatek.wwtv.mediaplayer.mmpcm.mmcimpl.PlayList;
 import com.mediatek.wwtv.mediaplayer.netcm.dlna.DLNAManager;
+import com.mediatek.wwtv.mediaplayer.util.MmpApp;
 import com.mediatek.wwtv.mediaplayer.util.MmpConst;
 import com.mediatek.wwtv.mediaplayer.util.SaveValue;
 import com.mediatek.wwtv.mediaplayer.R;
@@ -81,14 +83,21 @@ public class SkyMediaPlayActivity extends MediaPlayActivity {
     };
 
     @Override
-    protected void onResume() {
-        super.onResume();
-        mLastKeyDownTime = System.currentTimeMillis();
+    protected void onCreate(Bundle savedInstanceState) {
         initPreviewListDialog();
         setPreviewListDialogParams();
         if(mPreviewListDialog != null) {
             mPreviewListDialog.init();
         }
+        super.onCreate(savedInstanceState);
+
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        mLastKeyDownTime = System.currentTimeMillis();
+
 
 //        if(mHideChooseMenu) {
 //            hidePreviewListDialog();
@@ -107,6 +116,9 @@ public class SkyMediaPlayActivity extends MediaPlayActivity {
     protected void onDestroy() {
         super.onDestroy();
         mPreviewListDialog.dismissDialog();
+        //mPreviewListDialog.cancelPreFileLoadLastWork();
+        //mPreviewListDialog.clearPreFileLoadQueue();
+        //((MmpApp) this.getApplication()).clearCache();
     }
 
     /**

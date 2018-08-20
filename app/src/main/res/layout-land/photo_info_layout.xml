@@ -10,7 +10,7 @@
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
         android:layout_marginLeft="100px"
-        android:text="Format:" />
+        android:text="@string/video_info_dialog_format" />
 
     <TextView
         android:id="@+id/photo_format_text_view"
@@ -27,7 +27,7 @@
         android:layout_above="@id/photo_format_show_text_view"
         android:layout_alignLeft="@id/photo_format_show_text_view"
         android:layout_marginBottom="40px"
-        android:text="Title:" />
+        android:text="@string/mmp_info_title" />
 
     <TextView
         android:id="@+id/photo_title_text_view"
@@ -50,7 +50,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
 
-            android:text="resolution:" />
+            android:text="@string/video_info_dialog_resolution" />
 
         <TextView
             android:id="@+id/photo_resolution_text_view"

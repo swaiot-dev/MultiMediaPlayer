@@ -30,13 +30,14 @@ import android.os.HandlerThread;
 import android.os.Process;
 import android.util.Log;
 import android.graphics.Movie;
+import android.widget.ImageView;
 
 /**
  *
  * This class represents picture effect .
  *
  */
-public class EffectView implements Runnable {
+public class EffectView extends ImageView implements Runnable {
   private static final String TAG = "EFFECTVIEW";
 
   private int top;
@@ -50,6 +51,17 @@ public class EffectView implements Runnable {
   private int bmp_x;
   private int bmp_y;
   private int bmpPre_x;
+
+  public EffectView(Context context) {
+    super(context);
+    Log.d(TAG, "EffectView dw = " + displayW + " dh = " + displayH);
+    // drawBmp = Bitmap.createBitmap(displayW,displayH,Bitmap.Config.ARGB_8888);
+    myCanvas = new Canvas();
+    mThread = new HandlerThread("DrawThread", Process.THREAD_PRIORITY_DEFAULT);
+    mThread.start();
+    eHandler = new MyHandler(mThread.getLooper());
+  }
+
   private int bmpPre_y;
   private int displayW = ((PhotoRender.is4KPanel() == true) ? 3840 : 1920);
   private int displayH = ((PhotoRender.is4KPanel() == true) ? 2160 : 1080);
@@ -128,22 +140,6 @@ public class EffectView implements Runnable {
     myCanvas.setBitmap(drawBmp);
   }
 
-  /**
-   * Simple constructor to use when creating a effect view from code.
-   *
-   * @param context The Context the view is running in, through which it can
-     *        access the current theme, resources, etc.
-   */
-  public EffectView() {
-
-    Log.d(TAG, "EffectView dw = " + displayW + " dh = " + displayH);
-    // drawBmp = Bitmap.createBitmap(displayW,displayH,Bitmap.Config.ARGB_8888);
-    myCanvas = new Canvas();
-    mThread = new HandlerThread("DrawThread", Process.THREAD_PRIORITY_DEFAULT);
-    mThread.start();
-    eHandler = new MyHandler(mThread.getLooper());
-
-  }
 
   public void clearScreen() {
     Log.i(TAG, "clearScreen:drawBmp:" + drawBmp + "--playLisenter:" + playLisenter);
@@ -203,6 +199,10 @@ public class EffectView implements Runnable {
     }
   }
 
+  public Movie getGifMovie() {
+    return mGifMovie;
+  }
+
   public void setRes(PhotoUtil bitmap) {
     if (null != bitmap) {
       if (null != bitmap.getMovie()) {
@@ -229,13 +229,13 @@ public class EffectView implements Runnable {
     }
   }
 
-  volatile int multiple = 1;
+  volatile float multiple = 1.0f;
 
   /**
    * Set a base value to use zoom out or zoom in.
    * @param i
    */
-  public void setMultiple(int i) {
+  public void setMultiple(float i) {
     multiple = i;
   }
 
@@ -253,7 +253,7 @@ public class EffectView implements Runnable {
    * Get a base value to use zoom out or zoom in.
    * @param i
    */
-  public int getMultiple() {
+  public float getMultiple() {
     return multiple;
   }
 
@@ -997,6 +997,11 @@ public class EffectView implements Runnable {
    public void setmZoomScale() {//add by yx for reset photo size when pause
         mZoomScale = 1.0f;
     }
+
+  public float getmZoomScale() {
+    return mZoomScale;
+  }
+
   // begin by yangxiong for fix MTK the function of photo moving
   public boolean isBeyongScreen(){
       if (bmp == null) {
@@ -1020,7 +1025,7 @@ public class EffectView implements Runnable {
   float mZoomScale = 1.0f;
   float mStepMoveTranslate = 200;
 
-  private void MoveTranslate(Canvas canvas, int moveDirection) {
+  private synchronized void MoveTranslate(Canvas canvas, int moveDirection) {
       if (bmp == null) {
         return;
       }
@@ -1116,8 +1121,8 @@ public class EffectView implements Runnable {
 
       int relTime = (int) ((curTime - movieStart) % dur);
 
-      int x = (canvas.getWidth() - mGifMovie.width() * multiple) / (2 * multiple);
-      int y = (canvas.getHeight() - mGifMovie.height() * multiple) / (2 * multiple);
+      int x = (int) ((canvas.getWidth() - mGifMovie.width() * multiple) / (2 * multiple));
+      int y = (int)((canvas.getHeight() - mGifMovie.height() * multiple) / (2 * multiple));
       mGifMovie.setTime(relTime);
       try {
         canvas.save();
@@ -2093,14 +2098,15 @@ public class EffectView implements Runnable {
   private final float SPCEIL_FILTER = 800f;
 
   private void getProperZoomMatrix(Bitmap bitmap, Matrix matrix, float s) {
-    float viewWidth = displayW;// getWidth();
-    float viewHeight = displayH;// getHeight();
-    MtkLog.d(TAG, "getProperZoomMatrix viewHeight:" + viewHeight + "  viewWidth:" + viewWidth
-        + "   s:" + s);
-    float w = bitmap.getWidth();
-    float h = bitmap.getHeight();
-    MtkLog.d(TAG, "getProperZoomMatrix bitmap h:" + h + "  w:" + w);
-    matrix.reset();
+    if (bitmap != null) {
+      float viewWidth = displayW;// getWidth();
+      float viewHeight = displayH;// getHeight();
+      MtkLog.d(TAG, "getProperZoomMatrix viewHeight:" + viewHeight + "  viewWidth:" + viewWidth
+              + "   s:" + s);
+      float w = bitmap.getWidth();
+      float h = bitmap.getHeight();
+      MtkLog.d(TAG, "getProperZoomMatrix bitmap h:" + h + "  w:" + w);
+      matrix.reset();
 
     float specialphoto = w / h;
     MtkLog.d(TAG, "getProperZoomMatrix specialphoto w / h:" + specialphoto);
@@ -2115,6 +2121,7 @@ public class EffectView implements Runnable {
       if (specialphoto >= SPCEIL_FILTER || specialphoto <= 1 / SPCEIL_FILTER) {
         scale = 1.0f;
       }
+      scale = (float) Math.sqrt(scale);
     } else if (s > 1.0f) {
       scale = (float) Math.sqrt(scale);
       MtkLog.d(TAG, "getProperZoomMatrix scale:" + scale);
@@ -2128,9 +2135,10 @@ public class EffectView implements Runnable {
 
     mZoomScale = scale;
 
-    matrix.postTranslate(
-        (viewWidth - w * scale) / 2F,
-        (viewHeight - h * scale) / 2F);
+      matrix.postTranslate(
+              (viewWidth - w * scale) / 2F,
+              (viewHeight - h * scale) / 2F);
+    }
   }
 
   public int getRotate() {
@@ -2155,9 +2163,12 @@ public class EffectView implements Runnable {
 
   public void RotatePhoto(Canvas canvas) {
     MtkLog.i(TAG, "Rotate Photo use Matrix method!");
-    getProperZoomMatrix(bmp, mDisplayMatrix, multiple);
-    mDisplayMatrix.postRotate(EffectDigreeNum, displayW / 2, displayH / 2);
-    canvas.drawBitmap(bmp, mDisplayMatrix, paint);
+    if (bmp != null) {
+      getProperZoomMatrix(bmp, mDisplayMatrix, multiple);
+      mDisplayMatrix.postRotate(EffectDigreeNum, displayW / 2, displayH / 2);
+      canvas.drawBitmap(bmp, mDisplayMatrix, paint);
+    }
+
   }
 
   public void bitmapRecycle() {

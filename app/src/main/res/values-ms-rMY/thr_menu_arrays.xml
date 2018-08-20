@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+    <string-array name="menu_pictrue_mode_list">
+        <item>Pengguna</item>
+        <item>Wayang</item>
+        <item>Sukan</item>
+        <item>Terang</item>
+        <item>Kecerahan Tinggi</item>
+    </string-array>
+    <string-array name="menu_track_mode_list">
+        <item>Satu trek</item>
+        <item>Dua trek</item>
+    </string-array>
+    <string-array name="menu_audio_equalizer_list">
+        <item>Matikan</item>
+        <item>Rock</item>
+        <item>Pop</item>
+        <item>Siaran Langsung</item>
+        <item>Tarian</item>
+        <item>Tekno</item>
+        <item>Klasik</item>
+        <item>Lembut</item>
+    </string-array>
+</resources>

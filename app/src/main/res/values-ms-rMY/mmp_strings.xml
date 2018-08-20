@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="mmp_test">Ini adalah data ujian\n nama fail \n imej\n ujian
+    </string>
+    <string name="mmp_menu_sort">Isihkan</string>
+    <string name="mmp_menu_mediatype">Jenis Media</string>
+    <string name="mmp_menu_thumb">Saiz Imej Kecil</string>
+    <string name="mmp_menu_copy">Salinan</string>
+    <string name="mmp_menu_paste">Tampal</string>
+    <string name="mmp_menu_delete">Padam</string>
+    <string name="mmp_menu_recur">Penghurai Rekursif</string>
+    <string name="mmp_menu_not_recur">Penghurai Biasa</string>
+    <string name="mmp_menu_photoframe">Bingkai Gambar</string>
+    <string name="mmp_menu_photo_frame">Imej Bingkai Gambar ditetapkan OK</string>
+
+    <string name="mmp_menu_play">Main</string>
+    <string name="mmp_menu_pause">Jeda</string>
+    <string name="mmp_menu_repeat">Ulang</string>
+    <string name="mmp_menu_shuffle">Rombakan</string>
+    <string name="mmp_menu_duration">Tempoh</string>
+    <string name="mmp_menu_effect">Kesan</string>
+    <string name="mmp_menu_showinfo">Paparkan Maklumat</string>
+    <string name="mmp_menu_frame">Imej Bingkai Gambar</string>
+    <string name="mmp_menu_rotate">Putar</string>
+    <string name="mmp_menu_display">Paparkan Garisan</string>
+    <string name="mmp_menu_timeoffset">Masa diimbangi</string>
+    <string name="mmp_menu_encoding">Pengekodan</string>
+
+    <string name="mmp_menu_picturemode">Mod Gambar</string>
+    <string name="mmp_menu_screenmode">Mod Skrin</string>
+
+    <string name="mmp_menu_font">Fon</string>
+
+    <string name="mmp_menu_size">Saiz</string>
+    <string name="mmp_menu_style">Gaya</string>
+    <string name="mmp_menu_color">Warna</string>
+    <string name="mmp_menu_date">Tarikh</string>
+    <string name="mmp_menu_name">Nama</string>
+    <string name="mmp_menu_artist">Artis</string>
+    <string name="mmp_menu_type">Jenis</string>
+
+    <string name="mmp_menu_phototext">Foto</string>
+    <string name="mmp_menu_text">Teks</string>
+    <string name="mmp_menu_small">Kecil</string>
+    <string name="mmp_menu_medium">Sederhana</string>
+    <string name="mmp_menu_large">Besar</string>
+    <string name="mmp_menu_onephotomode">Satu Photomode</string>
+    <string name="mmp_menu_none">Tiada</string>
+    <string name="mmp_menu_repeatone">Ulang Sekali</string>
+    <string name="mmp_menu_repeatall">Ulang Semua</string>
+    <string name="mmp_menu_shuffleoff">Rombakan Dimatikan</string>
+    <string name="mmp_menu_shuffleon">Rombakan Dihidupkan</string>
+    <string name="mmp_menu_short">Pendek</string>
+    <string name="mmp_menu_long">Panjang</string>
+    <string name="mmp_menu_dissolve">Cair</string>
+    <string name="mmp_menu_wiperight">Lungsur kanan</string>
+    <string name="mmp_menu_wipeleft">Lungsur kiri</string>
+    <string name="mmp_menu_wipeup">Lungsur atas</string>
+    <string name="mmp_menu_wipedown">Lungsur bawah</string>
+    <string name="mmp_menu_boxin">Box In</string>
+    <string name="mmp_menu_boxout">Memetak keluar</string>
+
+    <string name="mmp_menu_random">Rawak</string>
+
+
+    <string name="mmp_menu_off">Matikan</string>
+    <string name="mmp_menu_singleline">Satu Garisan</string>
+    <string name="mmp_menu_multiline">Pelbagai Garisan</string>
+    <string name="mmp_menu_userdefine">Takrifan pengguna</string>
+    <string name="mmp_menu_user">Pengguna</string>
+    <string name="mmp_menu_cinema">Pawagam</string>
+    <string name="mmp_menu_sport">Sukan</string>
+    <string name="mmp_menu_vivid">Terang</string>
+    <string name="mmp_menu_hibright">Kecerahan Tinggi</string>
+    <string name="mmp_menu_letterbox">Petak huruf</string>
+    <string name="mmp_menu_scan">Imbas</string>
+    <string name="mmp_menu_zoom">Zum</string>
+    <string name="mmp_menu_dotbydot">Titik demi Titik</string>
+
+    <string name="mmp_menu_regular">Biasa</string>
+    <string name="mmp_menu_italic">Condong</string>
+    <string name="mmp_menu_bold">Tebal</string>
+    <string name="mmp_menu_outline">Tebal Condong</string>
+    <string name="mmp_menu_white">Putih</string>
+    <string name="mmp_menu_blue">Biru</string>
+    <string name="mmp_menu_red">Merah</string>
+    <string name="mmp_menu_green">Hijau</string>
+    <string name="mmp_menu_black">Hitam</string>
+    <string name="mmp_menu_lyricoptions">Pilihan Lirik</string>
+
+    <string name="mmp_menu_showscore">Paparkan Spektrum</string>
+    <string name="mmp_menu_hidescore">Sembunyikan Spektrum</string>
+    <string name="mmp_menu_onlyaudio">Audio Sahaja</string>
+
+
+    <string name="mmp_photo">Gambar</string>
+    <string name="mmp_text">Teks</string>
+    <string name="mmp_select">Pilih</string>
+    <string name="mmp_input">Masuk</string>
+    <string name="mmp_exit">KELUAR</string>
+    <string name="mmp_emptyfile">Folder semasa kosong!</string>
+    <string name="mmp_reutip">Sedang menghurai folder ini,sila tunggu…</string>
+    <string name="mmp_pop_repeat_tvrepeat">Ulang Semua</string>
+    <string name="mmp_pop_repeat_tvsingle">Ulang Sekali</string>
+    <string name="mmp_pop_time_tv">Pendek</string>
+    <string name="mmp_pop_view_tv">Tiada</string>
+    <string name="mmp_pop_enter">Masuk</string>
+    <string name="mmp_info_orientation">Orientasi:</string>
+    <string name="mmp_info_artist">Artis:</string>
+    <string name="mmp_info_name">Nama:</string>
+    <string name="mmp_info_date">Tarikh:</string>
+    <string name="mmp_info_size">Saiz:</string>
+    <string name="mmp_info_next">Seterusnya:</string>
+    <string name="mmp_info_exposure">Masa pendedahan:</string>
+    <string name="mmp_info_program">Program pendedahan:</string>
+    <string name="mmp_info_colorspace">Ruang warna:</string>
+    <string name="mmp_info_title">Judul :</string>
+    <string name="mmp_info_year">Tahun:</string>
+    <string name="mmp_info_duration">Tempoh:</string>
+    <string name="mmp_info_director">Pengarah:</string>
+    <string name="mmp_info_copyrght">Hak cipta:</string>
+
+    <string name="mmp_info_lastline">Garisan Terakhir</string>
+    <string name="mmp_info_nextline">Garisan Seterusnya</string>
+    <string name="mmp_info_lastpage">Halaman Terakhir</string>
+    <string name="mmp_info_nextpage">Halaman Seterusnya</string>
+
+    <string name="mmp_loading_tip">Sedang menghurai folder ini,sila tunggu…</string>
+    <string name="mmp_user_name">Nama pengguna</string>
+    <string name="mmp_password">Kata Laluan</string>
+    <string name="mmp_confirm">Sahkan</string>
+    <string name="mmp_cancel">BATAL</string>
+
+    <string name="mmp_login_failed_tip">Nama pengguna atau kata laluan adalah ralat!</string>
+    <string name="mmp_dlnaserver_disconnected">Pelayan DLNA hilang, sila semak rangkaian dan keadaan pelayan!</string>
+    <string name="mmp_title_copy">Menyalin</string>
+    <string name="mmp_title_confirm_replace">Sahkan Fail Diganti</string>
+    <string name="mmp_title_confirm_delete">Sahkan Fail Dipadam</string>
+    <string name="mmp_message_confirm_replace">Folder ini telah mengandungi fail nama\n%s
+    </string>
+    <string name="mmp_message_confirm_delete">Adakah anda pasti untuk padam fail yang dipilih?</string>
+
+    <string name="mmp_yes">Ya</string>
+    <string name="mmp_yes_to_all">Ya untuk Semua</string>
+    <string name="mmp_no">TIDAK</string>
+
+    <string name="mmp_capture_title">Tangkap Logo</string>
+    <string name="mmp_capture_confirm">Adakah anda ingin tangkap skrin ini ?</string>
+    <string name="mmp_toast_no_photoframe">Tiada imej bingkai gambar untuk dimainkan</string>
+
+    <string name="mmp_video_notsupport">Kodek Video tidak disokong</string>
+    <string name="mmp_audio_notsupport">Format Audio tidak disokong</string>
+    <string name="mmp_video_only">Video sahaja</string>
+    <string name="mmp_frame_photo_sleeptime">Masa tidur</string>
+    <string name="mmp_sleeptime_lable">Masa tidur:</string>
+    <string name="mmp_video_stopresume">Hentikan Teruskan</string>
+    <string name="mmp_can_notpause">Tidak Boleh Jeda</string>
+
+    <string name="mmp_photo_type_notsupport">Fail tidak disokong</string>
+
+    <string name="mmp_lable_rorate">Putar</string>
+    <string name="mmp_lable_subtitle_off">Matikan</string>
+
+    <string name="mmp_info_whitebalance">Baki putih:</string>
+    <string name="mmp_info_make">pengilang:</string>
+    <string name="mmp_info_flash">shutter:</string>
+    <string name="mmp_info_focallength">Panjang fokus:</string>
+    <string name="mmp_menu_pic_setting">Tetapan Gambar</string>
+    <string name="mmp_menu_audio_setting">Tetapan Audio</string>
+
+    <string name="mmp_file_notsupport">Fail tidak disokong</string>
+    <string name="mmp_notsupport">Tidak disokong</string>
+    <string name="mmp_seek_notsupport">Carian tidak disokong</string>
+    <string name="mmp_step_notsupport">Langkah tidak disokong</string>
+    <string name="mmp_featue_notsupport">Fungsi ini tidak tersedia</string>
+    <string name="mmp_buffer_not_enough">Buffer tidak cukup</string>
+    <string name="mmp_nodevice">Tiada Peranti Bersambung!</string>
+    <string name="mmp_time_out">Kod masa yang anda input salah!\nSila pastikan ia kurang dari jumlah masa</string>
+    <string name="mmp_file_corrupt">Fail rosak</string>
+    <string name="mmp_menu_mount_iso">Lekapkan fail iso semasa</string>
+    <string name="mmp_menu_unmount_iso">Nyahlekapkan peranti semasa</string>
+
+    <string name="mmp_media_info_scrambled_audio_video_service">Karaukan Video dan Audio</string>
+    <string name="mmp_media_info_scrambled_audio_clear_video_service">Karaukan Audio dan Audio</string>
+    <string name="mmp_media_info_scrambled_audio_no_video_service">Karaukan Audio, Audio sahaja</string>
+    <string name="mmp_media_info_scrambled_video_clear_audio_service">Karaukan Video</string>
+    <string name="mmp_media_info_scrambled_video_no_audio_service">Karaukan Video, Video sahaja</string>
+
+
+    <string name="mmp_txt_const_font">TIDAK</string>
+
+    <string name="mmp_drm_register_continue">Teruskan ?</string>
+
+    <string name="mmp_divx_title">Tajuk</string>
+    <string name="mmp_divx_edition">Edisi</string>
+    <string name="mmp_divx_chapter">Bab</string>
+
+
+    <string name="mmp_divx_titleName">Judul :</string>
+    <string name="mmp_divx_chapterName">Bab:</string>
+    <string name="mmp_divx_rateName">Nilai:</string>
+    <string name="mmp_divx_subtitleName">Sari kata:</string>
+    <string name="mmp_dmr_starting">Pelancaran DMR</string>
+    <string name="mmp_dmr_started">DMR dilancarkan,Sila gunakan</string>
+    <string name="mmp_dmr_network_failed">DMR gagal dilancarkan,Rangkaian tiada</string>
+    <string name="mmp_dmr_url_failed">URL tidak sah</string>
+
+    <string name="mmp_wrong_psw">Kata laluan salah. Jumlah %1$s Cubaan,%2$s Cuba lagi!</string>
+    <string name="mmp_subtitle_encoding">Pengekodan Sari kata</string>
+    <string name="mmp_last_memory">Ingatan Terakhir</string>
+    <string name="mmp_last_memory_off">Matikan</string>
+    <string name="mmp_last_memory_time">Masa</string>
+    <string name="mmp_last_memory_position">Posisi</string>
+
+    <string name="ci_menu_pin_correct">Betul!</string>
+    <string name="ci_menu_pin_outoftry">Tiga kali gagal</string>
+    <string name="mmp_menu">MENU</string>
+    <string name="mmp_menu_3d_photo">Foto 3D</string>
+    <string name="mmp_menu_album">Album</string>
+    <string name="mmp_menu_genre">Genre</string>
+    <string name="mmp_menu_music">Audio</string>
+    <string name="mmp_menu_video">VIDEO</string>
+    <string name="mmp_menu_dmr">Dmr</string>
+    <string name="mmp_menu_auto">Auto</string>
+    <string name="mmp_menu_normal">Normal</string>
+    <string name="mmp_audio">Muzik</string>
+    <string name="mmp_video">Video</string>
+    <string name="mmp_pop_menu">MENU</string>
+    <string name="mmp_pop_zoomscale">X</string>
+    <string name="mmp_tip_play">Main</string>
+    <string name="mmp_tip_exit">Keluar</string>
+    <string name="mmp_tip_select">Pilih</string>
+    <string name="mmp_info_album">Album:</string>
+    <string name="mmp_info_audio">Audio:</string>
+    <string name="mmp_info_fnumber">Fnumber:</string>
+    <string name="mmp_info_genre">Genre:</string>
+    <string name="mmp_info_nolrc">Tiada lirik</string>
+    <string name="mmp_ok">OK</string>
+    <string name="mmp_info_model">Model:</string>
+    <string name="mmp_drm_register">Peranti anda tidak dibenarkan untuk \n memainkan video yang dilindungi Divx@ ini
+    </string>
+    <string name="mmp_drm_register_expired">Penyewaan Divx@ telah tamat tempoh</string>
+    <string name="mmp_drm_register_used">Penyewaan Divx@ telah menggunakan \n %1$s daripada %2$s tontonan</string>
+    <string name="mmp_divx_audioName">Audio:</string>
+    <string name="mmp_video_seektime_title">Masa Goto</string>
+
+    <string name="video_info_dialog_format">Pemformatan:</string>
+    <string name="video_info_dialog_resolution">Resolusi:</string>
+    <string name="video_info_dialog_subtitle">Sarikata</string>
+</resources>

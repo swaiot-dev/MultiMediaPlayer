@@ -1,0 +1,744 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<!-- parameter configuration module Navigation bar -->
+<string name="mmp_main_playback">재생</string>
+<string name="mmp_main_settings">설정</string>
+<string name="mmp_main_menuvideo">메뉴 비디오</string>
+ <string name="mmp_main_menuaudio">메뉴 오디오</string>
+	<string name="mmp_main_menu">메뉴</string>
+<string name="menu_header_name">MMP 설정</string>
+	<string name="menu_interface_name">Menu</string>
+<string name="menu_show_menu_item">비디오</string>
+<string name="menu_tab_video">비디오</string>
+<string name="menu_tab_audio">오디오</string>
+<string name="menu_tab_tv">TV</string>
+<string name="menu_tab_setup">설치</string>
+<string name="menu_tab_parent">부모 지도</string>
+
+<!-- parameter configuration module function prompt-->
+<string name="menu_tab_inactive_channels">비활성 채널</string>
+<string name="menu_remove_all">모두 제거</string>
+<string name="menu_remove">제거</string>
+<string name="menu_enter">입력</string>
+<string name="menu_select">선택</string>
+<string name="menu_exit">종료</string>
+<string name="menu_adjust">조정</string>
+<string name="menu_back">돌아가기</string>
+<string name="menu_set">설정</string>
+<string name="menu_ok">OK</string>
+<string name="menu_cancel">취소</string>
+<string name="menu_ci_close">CI 닫기</string>
+<string name="menu_scan">스캔</string>
+
+<!-- the parameter of Video,item display interface strings to be defined -->
+	<string name="menu_video_picture_mode">Picture Mode</string>
+<string name="menu_video_auto_view">활성 백라이트</string>
+<string name="menu_video_backlight">백 라이트</string>
+<string name="menu_video_brighttness">밝음</string>
+<string name="menu_video_contrast">대조</string>
+<string name="menu_video_saturation">포화도</string>
+<string name="menu_video_hue">색조</string>
+<string name="menu_video_sharpness">선예도</string>
+<string name="menu_video_gamma">감마</string>
+<string name="menu_video_color_temperature">색온도</string>
+<string name="menu_video_color_g_red">R 게인</string>
+<string name="menu_video_color_g_green">G 게인</string>
+<string name="menu_video_color_g_blue">B 게인</string>
+<string name="menu_video_advancedvideo">고급 비디오</string>
+<string name="menu_video_3d">3D</string>
+<string name="menu_video_3d_mode">3D 모드</string>
+<string name="menu_video_3d_nav">3D 탐색</string>
+<string name="menu_video_3d_3t2">3D-to-2D</string>
+<string name="menu_video_3d_depth_field">필드 깊이</string>
+<string name="menu_video_3d_protrude">돌출</string>
+<string name="menu_video_3d_distance">TV까지 거리</string>
+<string name="menu_video_3d_image_safety">이미지 안전</string>
+<string name="menu_video_3d_leftright">L-R 스위치</string>
+<string name="menu_video_3d_osd">OSD 깊이</string>
+<string name="menu_video_3d_wear_glass">3D 안경을 착용하십시오!</string>
+<string name="menu_video_vga_mode">VGA 모드</string>
+	<string name="menu_video_dnr">DNR</string>
+<string name="menu_video_mpeg_nr">MPEG NR</string>
+<string name="menu_video_luma">적응 루마 컨트롤</string>
+<string name="menu_video_flesh_tone">플레시 톤</string>
+<string name="menu_video_di_film_mode">DI 영화 모드</string>
+<string name="menu_video_blue_stretch">블루 늘림</string>
+<string name="menu_video_wme_mode">게임 모드</string>
+<string name="menu_video_pq_split_mode">PQ 분할 화면 데모</string>
+	<string name="menu_video_mjc">MJC</string>
+<string name="menu_video_mjc_effect">효과</string>
+<string name="menu_video_mjc_demo_partition">데모 분할</string>
+<string name="menu_video_mjc_mode">모드</string>
+<string name="menu_video_mjc_demo">데모</string>
+<string name="menu_video_hdmi_mode">HDMI 모드</string>
+<string name="menu_video_vga">VGA</string>
+<string name="menu_video_auto_adjust">자동 조정</string>
+<string name="menu_video_hposition">수평 위치</string>
+<string name="menu_video_vposition">세로 위치</string>
+<string name="menu_video_phase">단계</string>
+<string name="menu_video_clock">시계</string>
+<string name="menu_video_3d_leftright_str">왼쪽/오른쪽</string>
+<string name="menu_video_3d_updown_str">위/아래</string>
+<string name="menu_video_mjc_demo_off">끄기</string>
+<string name="menu_video_mjc_demo_on">열기</string>
+<string name="menu_video_black_bar">검은 띠 탐지</string>
+<string name="menu_video_super_resolution">수퍼 해상도</string>
+	<string name="menu_video_xvycc">xvYCC</string>
+<!-- the parameter of Audio,item display interface strings to be defined -->
+<string name="menu_audio_balance">밸런스</string>
+<string name="menu_audio_bass">베이스</string>
+<string name="menu_audio_treble">트레블</string>
+<string name="menu_audio_srs_mode">DTS TruSurround</string>
+<string name="menu_audio_equalize">이퀄라이저</string>
+<string name="menu_audio_speaker_mode">스피커</string>
+<string name="menu_audio_spdif_mode">SPDIF 형식</string>
+<string name="menu_audio_spdif_delay">SPDIF 지연</string>
+<string name="menu_audio_avc_mode">자동 볼륨 컨트롤</string>
+<string name="menu_audio_type">유형</string>
+<string name="menu_audio_visually_impaired">시각장애</string>
+<string name="menu_audio_visually_speaker">스피커</string>
+<string name="menu_audio_visually_headphone">헤드폰</string>
+<string name="menu_audio_visually_volume">음량</string>
+<string name="menu_audio_visually_pan_and_fade">팬 및 페이드</string>
+<string name="menu_audio_visually_impaired_audio">시각장애 오디오</string>
+<string name="menu_audio_downmix_mode">다운믹스 모드</string>
+<string name="menu_audio_sound_tracks">사운드 트랙</string>
+<string name="menu_audio_bbe_mode">BBE 모드</string>
+<!-- the parameter of TV item display interface strings to be defined-->
+<string name="menu_tv_tuner_mode">튜너 모드</string>
+<string name="menu_tv_channel_list_type">채널 목록 유형</string>
+<string name="menu_tv_country_region_id">국가 지역 ID</string>
+<string name="menu_tv_oceania_country_region">국가 지역</string>
+<string name="menu_tv_mts">오디오 채널</string>
+	<string name="menu_tv_mts_us">MTS</string>
+<string name="menu_tv_audio_language">오디어 언어</string>
+<string name="menu_tv_audio_language2nd">오디오 언어 2차</string>
+<string name="menu_tv_channels">채널</string>
+<string name="menu_tv_channel_scan">채널 스캔</string>
+<string name="menu_tv_tv_system">TV 시스템</string>
+<string name="menu_tv_color_system">컬러 시스템</string>
+<string name="menu_tv_update_scan">업데이트 스캔</string>
+<string name="menu_tv_analog_manual_scan">아날로그 수동 스캔</string>
+<string name="menu_tv_single_rf_scan">단일 RF 스캔</string>
+<string name="menu_tv_channel_edit">채널 편집</string>
+<string name="menu_tv_channel_skip">채널 건너뛰기</string>
+<string name="menu_tv_channel_setup">채널 설정</string>
+<string name="menu_tv_clear_channel_list">채널 목록 지우기</string>
+<string name="menu_tv_freeze_channel">채널 고정</string>
+<string name="menu_tv_status">상태</string>
+<string name="menu_tv_status_value">스캔</string>
+<string name="menu_tv_analog_channels">아날로그 채널</string>
+<string name="menu_tv_digital_channels">디지털 채널</string>
+<string name="menu_tv_start_frequency">시작 주파수(MHz)</string>
+<string name="menu_tv_end_frequency">끝 주파수(MHz)</string>
+<string name="menu_tv_rf_scan_frequency">주파수 스캔(MHz)</string>
+<string name="menu_tv_rf_scan_frequency_mhz">MHz</string>
+<string name="menu_tv_rf_scan_mode">QAM 스타일</string>
+<string name="menu_tv_rf_sym_rate">심볼레이트</string>
+<string name="menu_tv_rf_signal_level">신호 세기:</string>
+<string name="menu_tv_sigle_frequency_plan">주파수 플랜</string>
+<string name="menu_tv_sigle_modulation">변조</string>
+
+<string name="menu_tv_sigle_scan_mode">스캔 모드</string>
+<string name="menu_tv_sigle_from_channel">채널 시작</string>
+<string name="menu_tv_sigle_to_channcel">채널 끝</string>
+
+<string name="menu_tv_insert">삽입</string>
+<string name="menu_tv_delete">삭제</string>
+<string name="menu_tv_swap">교체</string>
+<string name="menu_tv_number">번호</string>
+<string name="menu_tv_type">유형</string>
+<string name="menu_tv_frequency">주파수</string>
+<string name="menu_tv_system">시스템</string>
+<string name="menu_tv_name">이름</string>
+<string name="menu_tv_skip">스킵</string>
+<string name="menu_tv_scann_allchannels">모든 채널 스캔</string>
+
+<!-- DTMB Single RF Channel -->
+<string name="menu_tv_single_rf_channel">RF 채널</string>
+<string name="menu_tv_single_signal_level">신호 세기</string>
+<string name="menu_tv_single_signal_quality">시그널 품질</string>
+<!-- channel edit-->
+<string name="menu_tv_channel_tsname">TS 이름:</string>
+<string name="menu_tv_channel_no">채널 번호:</string>
+<string name="menu_tv_channel_name">채널 이름:</string>
+<string name="menu_tv_network_name">네트워크 이름:</string>
+	<string name="menu_tv_freq">Frequency ： </string>
+<string name="menu_tv_freq_scan_no_channel">채널을 찾을 수 없습니다.</string>
+<string name="menu_tv_sound_system">사운드 시스템</string>
+	<string name="menu_tv_auto_finetune">AFT</string>
+<string name="menu_tv_finetune">세밀 조정</string>
+<string name="menu_tv_enter">입력</string>
+<string name="menu_tv_exit">종료</string>
+<string name="menu_tv_store">저장</string>
+<string name="menu_tv_clear_channel_info">삭제하시겠습니까?</string>
+<string name="menu_dialog_confirm">OK</string>
+<string name="menu_dialog_cancel">취소</string>
+<string name="menu_dialog_numrepeat">채널 번호 중복!</string>
+<string name="menu_tv_channelfine_tune">아날로그 채널 세밀 조정</string>
+<string name="menu_tv_remove_inactive_channel">이 채널을 제거하시겠습니까?</string>
+<string name="menu_tv_remove_all_inactive_channels">모든 채널을 제거하시겠습니까?</string>
+<!-- the parameter of Setup,item display interface strings to be defined -->
+<!-- first level -->
+<string name="menu_setup_language">OSD 언어</string>
+<string name="menu_setup_screenmode">화면 모드</string>
+	<string name="menu_setup_dpms">DPMS</string>
+<string name="menu_setup_bluemute">블루 스크린</string>
+<string name="menu_setup_modes_list_style">모드 목록 스타일</string>
+<string name="menu_setup_modes_dmr_control">Dmr 기능</string>
+<string name="menu_setup_interaction_channel">대화식 채널</string>
+<string name="menu_setup_MHEG_PIN_Protection">MHEG PIN 보호</string>
+<string name="menu_setup_oceania_freeview">프리뷰</string>
+<string name="menu_setup_HBBTV_Support">HBBTV 지원</string>
+<string name="menu_setup_ginga_setup">Ginga 설정</string>
+<string name="menu_setup_divx_reg_setup">DivX(R) 등록</string>
+<string name="menu_setup_divx_deac_setup">DivX(R) 비활성화</string>
+<string name="menu_setup_scart_setup">SCART</string>
+<string name="menu_setup_scart1_setup">SCART</string>
+	<string name="menu_setup_scart2_setup">SCART2</string>
+<string name="menu_setup_caption_setup">캡션 설정</string>
+<string name="menu_setup_fastboot">핫 부팅</string>
+<string name="menu_setup_poweron_music">전원 켜기 음악</string>
+<string name="menu_setup_poweroff_music">전원 끄기 음악</string>
+<string name="menu_setup_capturelogo_select">캡처 로고 선택</string>
+<string name="menu_setup_time_setup">시간 설정</string>
+<string name="menu_setup_teletext">텔레텍스</string>
+<string name="menu_setup_subtitle">자막</string>
+<string name="menu_setup_analog_subtitle">아날로그 자막</string>
+<string name="menu_setup_digital_subtitle_lang">디지털 자막 언어</string>
+<string name="menu_setup_digital_subtitle_lang_2nd">디지털 자막 언어 2번째</string>
+<string name="menu_setup_subtitle_type">자막 유형</string>
+<string name="menu_setup_network">네트워크</string>
+<string name="menu_setup_version_info">버전 정보</string>
+	<string name="menu_setup_msi">MSI</string>
+<string name="menu_setup_reset_default">기본값으로 재설정</string>
+<string name="menu_setup_download_firmware">펌웨어 다운로드</string>
+<string name="menu_setup_common_interface">공통 인터페이스</string>
+<string name="menu_setup_record_setting">레코드 설정</string>
+<string name="menu_setup_oad_setting">OAD</string>
+<string name="menu_setup_atv_record_mode">ATV 녹화 모드</string>
+<string name="menu_setup_device_info">기기 정보</string>
+<string name="menu_setup_time_shifting_mode">시간 이동 모드</string>
+<string name="menu_setup_record_quality">녹화 품질</string>
+<!-- CECFUN-->
+<string name="menu_setup_cec_function">CEC 기능</string>
+<string name="menu_setup_cec_auto_turn">자동 끄기</string>
+<string name="menu_setup_cec_device_discovery">기기 검색</string>
+<string name="menu_setup_cec_standby">대기</string>
+<string name="menu_setup_cec_poweron">전원 켜기</string>
+<string name="menu_setup_cec_enablesys">시스템 활성화 Aud. Ctrl</string>
+<string name="menu_setup_cec_disablesys">시스템 비활성화 Aud. Ctrl</string>
+<string name="menu_setup_cec_noresponese">기기 응답 없음</string>
+
+<!-- CI -->
+<string name="menu_setup_ci_no_card">CI 카드 없음.</string>
+<string name="menu_setup_ci_cam_menu">Cam 메뉴</string>
+	<string name="menu_setup_ci_pin_code">Please Input Cam Pin Code</string>
+<string name="menu_setup_ci_pin_code_input_tip">pin 코드 입력</string>
+<string name="menu_setup_ci_pin_code_incorrect_tip">부정확, 다시 입력!</string>
+
+<!-- second level -->
+<string name="menu_setup_timezone">시간대</string>
+<string name="menu_setup_time">시간</string>
+<string name="menu_setup_sleep_timer">슬립 타이머</string>
+<string name="menu_setup_auto_sleep">자동 수면</string>
+<string name="menu_setup_configuration">구성</string>
+<string name="menu_setup_auto_network_upgrade">네트워크 업그레이드</string>
+<string name="menu_setup_application">응용 프로그램</string>
+<string name="menu_setup_version_name">턴키</string>
+<string name="menu_setup_version_ver">1.0</string>
+<string name="menu_setup_version_number">0001</string>
+<string name="menu_setup_ginga_enable">Ginga 활성화</string>
+<string name="menu_setup_ginga_auto_start_app">자동 시작 응용 프로그램</string>
+
+<string name="menu_setup_caption_enable">캡션 활성화</string>
+<string name="menu_setup_analog_closed_caption">아날로그 폐쇄 캡션</string>
+<string name="menu_setup_digital_caption">디지털 폐쇄 캡션</string>
+<string name="menu_setup_digital_style">디지털 캡션 스타일</string>
+<string name="menu_setup_superimpose_setup">이미지 중첩 설정</string>
+
+<string name="menu_setup_caption_style">캡션 스타일</string>
+<string name="menu_setup_font_size">폰트 크기</string>
+<string name="menu_setup_font_style">폰트 유형</string>
+<string name="menu_setup_font_color">글꼴 색</string>
+<string name="menu_setup_font_opacity">글꼴 불투명도</string>
+<string name="menu_setup_background_color">배경색</string>
+<string name="menu_setup_background_opacity">배경 불투명도</string>
+<string name="menu_setup_window_color">창 색</string>
+<string name="menu_setup_window_opacity">창 불투명도</string>
+
+<string name="menu_setup_digital_teletext_language">디지털 텔리텍스트 언어</string>
+<string name="menu_setup_decoding_page_language">디코딩 페이지 언어</string>
+<string name="menu_setup_ttx_presentation_level">TTX 프리젠테이션 수준</string>
+<!-- third level -->
+<string name="menu_setup_auto_synchronization">자동 동기화</string>
+<string name="menu_setup_date">날짜</string>
+<string name="menu_setup_power_on_timer">전원 켜기 타이머</string>
+<string name="menu_setup_timer">타이머</string>
+<string name="menu_setup_power_on_channel">전원 켜기 채널</string>
+<string name="menu_setup_power_off_timer">전원 끄기 타이머</string>
+<string name="menu_setup_internet_connection">인터넷 연결</string>
+<string name="menu_setup_wireless_setting">무선 설정</string>
+<string name="menu_setup_information">정보</string>
+<string name="menu_setup_ip_setting">IP 설정</string>
+<string name="menu_setup_connection_test">연결 테스트</string>
+<string name="menu_setup_interface">인터페이스</string>
+<string name="menu_setup_dlna">DLNA</string>
+<string name="menu_setup_my_net_place">내 네트워크 장소</string>
+<string name="menu_setup_wow">WOW</string>
+    <string name="menu_setup_wol">WOL</string>
+<string name="menu_setup_pip_pop">PIP/POP</string>
+<string name="menu_setup_pip_pop_mode">모드</string>
+<string name="menu_setup_pip_pop_source">Source</string>
+<string name="menu_setup_pip_pop_position">위치</string>
+<string name="menu_setup_pip_pop_size">크기</string>
+<!-- forth level -->
+<string name="menu_setup_power_on_channel_mode">모드 선택</string>
+<string name="menu_setup_power_on_no_channel">(채널 없음)</string>
+<string name="menu_setup_address_type">주소 유형</string>
+<string name="menu_setup_ip_address">IP 주소</string>
+<string name="menu_setup_subnetwork_mask">서브넷 마스크</string>
+<string name="menu_setup_default_gateway">기본 게이트웨이</string>
+<string name="menu_setup_first_dns">주 DNS</string>
+<string name="menu_setup_standby_dns">2차 DNS</string>
+<string name="menu_setup_ethernet_mac">이더넷 MAC</string>
+
+<!-- wifi setting -->
+<string name="wifi_setup_title">무선 설정</string>
+
+
+
+<!-- pop-up dialog or window  -->
+<string name="menu_setup_connetion_info1">네트워크 연결 테스트를 시작하십시오.</string>
+<string name="menu_setup_connetion_info2">네트워크 연결 테스트 성공!</string>
+<string name="menu_setup_connetion_info3">네트워크 연결 테스트 실패!</string>
+<string name="menu_setup_connetion_wait">잠시 기다려주십시오</string>
+<string name="menu_setup_upgrade_info1">서버에서 새 펌웨어 다운로드 시작.</string>
+<string name="menu_setup_upgrade_info2_title">마법사 업데이트</string>
+<string name="menu_setup_upgrade_info2">새 펌웨어 확인 실패.</string>
+<string name="menu_setup_reset_info1">삭제하시겠습니까?</string>
+
+<!-- part of factory -->
+<string name="menu_factory_name">공장</string>
+<string name="menu_factory_video">비디오</string>
+<string name="menu_factory_audio">오디오</string>
+<string name="menu_factory_TV">TV</string>
+<string name="menu_factory_setup">설치</string>
+<string name="menu_factory_preset">사전설정 채널</string>
+<!-- part of factory_video -->
+<string name="menu_factory_video_auto_color">자동 색</string>
+<string name="menu_factory_video_color_temperature">색온도</string>
+<string name="menu_factory_video_auto_phase">자동 페이즈</string>
+<string name="menu_factory_video_phase">단계</string>
+<string name="menu_factory_video_h_position">수평 위치</string>
+<string name="menu_factory_video_v_position">세로 위치</string>
+	<string name="menu_factory_video_di_ma">DI MA</string>
+<string name="menu_factory_video_di_edge">DI 에지</string>
+	<string name="menu_factory_video_wcg">WCG</string>
+<string name="menu_factory_video_flip">뒤집기</string>
+<string name="menu_factory_video_mirror">미러</string>
+<string name="menu_factory_video_local_dimming">국부 흐림</string>
+<!--factory_video_color_temperature  -->
+<string name="menu_factory_video_color_rgain">R 게인</string>
+<string name="menu_factory_video_color_ggain">G 게인</string>
+<string name="menu_factory_video_color_bgain">B 게인</string>
+	<string name="menu_factory_video_color_roffset">R Offset</string>
+	<string name="menu_factory_video_color_goffset">G Offset</string>
+	<string name="menu_factory_video_color_boffset">B Offset</string>
+
+<!-- part of factory_audio -->
+<string name="menu_factory_audio_dolby_banner">Dolby 배너</string>
+<string name="menu_factory_audio_compression">압축</string>
+<string name="menu_factory_audio_compression_factor">압축 요소</string>
+<string name="menu_factory_audio_mts_system">MTS 시스템</string>
+<string name="menu_factory_audio_a2_system">A2 시스템</string>
+<string name="menu_factory_audio_pal_system">PAL 시스템</string>
+<string name="menu_factory_audio_eu_system">EU 시스템</string>
+<string name="menu_factory_audio_latency">지연율</string>
+<!-- part of factory_audio_mts_system -->
+<string name="menu_factory_audio_mts_numbersofcheck">검사 횟수</string>
+<string name="menu_factory_audio_mts_numbersofpilot">Numbers Of Pilot</string>
+<string name="menu_factory_audio_mts_pilot_threshold_high">Pilot Threshold 높음</string>
+<string name="menu_factory_audio_mts_pilot_threshold_low">Pilot Threshold 낮음</string>
+<string name="menu_factory_audio_mts_number_of_sap">SAP 개수</string>
+<string name="menu_factory_audio_mts_sap_threshold_high">SAP 임계값 높음</string>
+<string name="menu_factory_audio_mts_sap_threshold_low">SAP 임계값 낮음</string>
+<string name="menu_factory_audio_mts_high_deviation_mode">고편차 모드</string>
+<string name="menu_factory_audio_mts_carriershiftfunction">캐리어 쉬프트 기능</string>
+<string name="menu_factory_audio_mts_fmstaurationmute">FM Stauration Mute</string>
+<string name="menu_factory_audio_mts_fmcarriermutemode">FM Carrier Mute Mode</string>
+<string name="menu_factory_audio_mts_fmcarriermutethreshold_high">FM Carrier Mute Threshold 높음</string>
+<string name="menu_factory_audio_mts_fmcarriermutethreshold_low">FM Carrier Mute Threshold 낮음</string>
+<string name="menu_factory_audio_mts_mono_stero_finetunevolume">모노 스테레오 세밀 조정 볼륨</string>
+<string name="menu_factory_audio_mts_sap_finetunevolume">SAP 세밀 조정 볼륨</string>
+<!-- part of factory_audio_a2_system -->
+<string name="menu_factory_audio_a2_numbersofcheck">검사 횟수</string>
+<string name="menu_factory_audio_a2_numbersofdouble">Numbers Of Double</string>
+<string name="menu_factory_audio_a2_monoweight">모노 가중치</string>
+<string name="menu_factory_audio_a2_stereoweight">스테레오 가중치</string>
+<string name="menu_factory_audio_a2_dualweight">Dual Weight</string>
+<string name="menu_factory_audio_a2_highdeviationmode">고편차 모드</string>
+<string name="menu_factory_audio_a2_carriershiftfunction">캐리어 쉬프트 기능</string>
+<string name="menu_factory_audio_a2_fmcarriermutemode">FM Carrier Mute Mode</string>
+<string name="menu_factory_audio_a2_fmcarriermutethreshold_high">FM Carrier Mute Threshold 높음</string>
+<string name="menu_factory_audio_a2_fmcarriermutethreshold_low">FM Carrier Mute Threshold 낮음</string>
+<string name="menu_factory_audio_a2_finetunevolume">세밀 조정 볼륨</string>
+
+<!-- part of factory_audio_pal_system -->
+<string name="menu_factory_audio_pal_correctthreshold">정확한 임계값</string>
+<string name="menu_factory_audio_pal_totalsyncloop">전체 동기화 루프</string>
+<string name="menu_factory_audio_pal_errorthreshold">오류 임계값</string>
+<string name="menu_factory_audio_pal_parityerrorthreshold">Parity Error Threshold</string>
+<string name="menu_factory_audio_pal_everynumberframes">Every Number Frames</string>
+<string name="menu_factory_audio_pal_highdeviationmode">고편차 모드</string>
+<string name="menu_factory_audio_pal_amcarriermutemode">AM Carrier Mute Mode</string>
+<string name="menu_factory_audio_pal_amcarriermutethresholdhigh">AM Carrier Mute Threshold 높음</string>
+<string name="menu_factory_audio_pal_amcarriermutethresholdlow">AM Carrier Mute Threshold 낮음</string>
+<string name="menu_factory_audio_pal_carriershiftfunction">캐리어 쉬프트 기능</string>
+<string name="menu_factory_audio_pal_fmcarriermutemode">FM Carrier Mute Mode</string>
+<string name="menu_factory_audio_pal_fmcarriermutethresholdhigh">FM Carrier Mute Threshold 높음</string>
+<string name="menu_factory_audio_pal_fmcarriermutethresholdlow">FM Carrier Mute Threshold 낮음</string>
+<string name="menu_factory_audio_pal_palfinetunevolume">PAL 세밀 조정 볼륨</string>
+<string name="menu_factory_audio_pal_amfinetunevolume">AM 세밀 조정 볼륨</string>
+<string name="menu_factory_audio_pal_nicamfinetunevolume">NICAM 세밀 조정 볼륨</string>
+<!-- part of factory_audio_eu_system -->
+<string name="menu_factory_audio_eu_fmsaturationmute">FM Saturation Mute</string>
+<string name="menu_factory_audio_eu_eunoneusystem">EU Non-EU System</string>
+
+
+<string name="menu_factory_TV_digital_channel_scan">디지털 채널 범위 스캔</string>
+<string name="menu_factory_TV_analog_channel_scan">아날로그 채널 범위 스캔</string>
+
+<string name="menu_factory_TV_range_scan">범위 스캔</string>
+<string name="menu_factory_TV_single_rf_scan">단일 RF 스캔</string>
+<string name="menu_factory_TV_factory_scan">Factory Scan</string>
+<string name="menu_factory_TV_tunerdiag">튜너 진단</string>
+<string name="menu_factory_TV_tunerdiag_noinfo">Diag.Info 없음</string>
+<string name="menu_factory_TV_tunerdiag_version">버전:</string>
+<string name="menu_factory_TV_tunerdiag_freq">RF 주파수(KHz):</string>
+<string name="menu_factory_TV_tunerdiag_lockstate">상태 잠금:</string>
+<string name="menu_factory_setup_eventform">이벤트 폼</string>
+<string name="menu_factory_setup_burningmode">Burning Mode</string>
+<string name="menu_factory_setup_uart_factory_mode">Uart 공장 모드</string>
+<string name="menu_factory_setup_cleanstorage">스토리지 지우기</string>
+
+<string name="menu_factory_setup_data_service_support">데이터 서비스 지원</string>
+<string name="menu_factory_setup_caption">캡션 설정</string>
+<string name="menu_factory_setup_extern_size">외부 크기</string>
+<string name="menu_factory_setup_equal_width">같은 너비</string>
+<string name="menu_factory_setup_auto_line">자동 라인</string>
+<string name="menu_factory_setup_roll_up">롤업</string>
+
+<string name="menu_factory_setup_clean_dialog">확실합니까?</string>
+<string name="menu_factory_preset_dump">Dump Ch</string>
+<string name="menu_factory_preset_print">채널 인쇄</string>
+<string name="menu_factory_preset_restore">채널 복원</string>
+<string name="menu_factory_setup_ci_update">USB로부터 CI+ 자격증명 업데이트</string>
+<string name="menu_factory_setup_ci_erase">Erase CI+ Credential</string>
+<string name="menu_factory_setup_ci_query">Query CI+ Credential</string>
+<string name="menu_factory_setup_ci_update_false">파일 찾을 수 없음</string>
+<string name="menu_factory_setup_ci_update_success">업데이트 성공</string>
+<string name="menu_factory_setup_ci_key_false">키 찾을 수 없음</string>
+<string name="menu_factory_setup_ci_erase_success">삭제 성공!</string>
+<string name="menu_factory_setup_ci_erase_false">삭제 실패!</string>
+<string name="menu_factory_setup_ci_query_false">유효:N 고객 코드:</string>
+
+<!-- pop-up dialog or window  -->
+<string name="menu_tv_analog_manual_scan_init">아날로그 채널 스캔</string>
+<string name="menu_tv_single_rf_scan_init">단일 RF 채널 스캔. (디지털 전용)</string>
+<string name="menu_tv_us_range_scan">채널 범위 스캔</string>
+<string name="menu_tv_analog_manual_scan_cancel">상태: 스캔 취소</string>
+<string name="menu_setup_channel_scan">상태: 스캔 중</string>
+<string name="menu_setup_satellite_name">위성 이름:&#160;</string>
+<string name="menu_setup_channel_scan_ana">아날로그 채널:</string>
+<string name="menu_setup_channel_scan_dig">디지털 채널:</string>
+<string name="menu_tv_store_data">저장하시겠습니까?</string>
+<string name="menu_tv_reset_all">모든 설정을 복원하겠습니까？</string>
+<string name="menu_setup_channel_scan_cancel">상태: 스캔 취소</string>
+<string name="menu_setup_channel_scan_error">상태: 스캔 오류</string>
+<string name="menu_setup_channel_scan_done">상태: 스캔 완료됨</string>
+<string name="menu_setup_network_upgrade">네트워크 업그레이드...</string>
+<string name="menu_setup_network_wireless">무선 설정</string>
+<string name="menu_setup_network_no_net">TV에 연결된 무선 기기가 없습니다!</string>
+<string name="menu_setup_tvchaneledit_hint">테스트</string>
+<string name="menu_setup_divx_sure">OK</string>
+<string name="menu_setup_divx_cancel">취소</string>
+<string name="menu_setup_tvchaneledit_sure">OK</string>
+<string name="menu_setup_tvchaneledit_cancel">취소</string>
+<string name="menu_setup_button_yes">예</string>
+<string name="menu_setup_button_no">아니오</string>
+	<string name="menu_setup_ip_edittext_hint">000</string>
+	<string name="menu_setup_ip_error_warning1">please enter values between 1 and 233 </string>
+<string name="menu_setup_ip_error_warning2">0 ~ 255 사이 값을 입력하십시오</string>
+<string name="menu_setup_ip_error_warning3">IP 주소 서브넷 마스크와 기본 게이트웨이 중에서 둘 이상이 잘못되었습니다. 다시 입력하십시오!</string>
+<string name="menu_setup_ip_null_warning">연결 끊어짐 또는 불러오는 중...</string>
+    <string name="menu_address_auto">Auto</string>
+<string name="menu_address_ethernet">이더넷</string>
+<string name="menu_address_wireless">무선</string>
+<string name="menu_versioninfo_name">모델 이름</string>
+<string name="menu_versioninfo_version">버전</string>
+<string name="menu_versioninfo_number">일련 번호</string>
+<string name="menu_video_auto_adjust_info">자동 조정</string>
+    <string name="menu_video_auto_color_info">Please Wait</string>
+<string name="menu_setup_divxreg">DivX® 보호 비디오를 재생하려면 기기를 등록해야 합니다.\n등록 코드:BX9ASIKQEI\nhttp://vod.divx.com에서 등록하십시오.</string>
+<string name="menu_setup_divxdea">등록 해지 코드:\nhttp://vod.divx.com에서 등록 해지하십시오\n등록을 계속 하시겠습니까?</string>
+
+<!--Part of Parental  -->
+<string name="menu_parental_password">비밀번호</string>
+<string name="menu_parental_channel_block">채널 블랙</string>
+<string name="menu_parental_time_interval_block">시간 간격 잠금</string>
+<string name="menu_parental_program_block">프로그램 차단</string>
+<string name="menu_parental_channel_schedule_block">채널 예약 차단</string>
+<string name="menu_parental_channel_schedule_block_operation_mode">작동 모드</string>
+<string name="menu_parental_input_block">입력 차단</string>
+<string name="menu_parental_change_password">비밀번호 변경</string>
+<string name="menu_parental_clean_all">모두 지우기</string>
+<string name="menu_parental_password_incorrect">암호가 부정확합니다.\n다시 입력하십시오!</string>
+<string name="menu_parental_password_new">새 비밀번호</string>
+<string name="menu_parental_password_new_re">비밀번호 확인</string>
+<string name="menu_parental_password_matchinfo">암호가 일치하지 않습니다.\n다시 입력하십시오!</string>
+    <string name="menu_parental_password_default">1234</string>
+    <string name="menu_parental_tvsource_tv0">tv0</string>
+
+<string name="menu_parental_channel_schedule_start_date">시작 날짜</string>
+<string name="menu_parental_channel_schedule_start_time">시작 시간</string>
+<string name="menu_parental_channel_schedule_end_date">끝 날짜</string>
+<string name="menu_parental_channel_schedule_end_time">끝 시간</string>
+
+<string name="menu_parental_time_interval_start_time">시작 시간</string>
+<string name="menu_parental_time_interval_end_time">종료 시간</string>
+
+
+
+<string name="menu_allowed_rating">허용된 등급</string>
+<string name="menu_blocked_rating">차단 등급</string>
+<string name="menu_us_tv_ratings">미국 TV 등급</string>
+<string name="menu_us_movie_ratings">미국 영화 등급</string>
+<string name="menu_canadian_english_ratings">캐나다 영어 등급</string>
+<string name="menu_canadian_french_ratings">캐나다 불어 등급</string>
+<string name="menu_age_ratings">연령 등급</string>
+<string name="menu_oceania_aus_ratings">액세스 제한</string>
+<string name="menu_content_ratings">컨텐츠 등급</string>
+<string name="menu_open_vchip">V-Chip 열기</string>
+<string name="menu_block_unrated">무등급 차단</string>
+<string name="menu_rating_enable">등급 활성화</string>
+<!-- Part of wifi -->
+<string name="menu_wifi_exit">종료</string>
+<string name="menu_wifi_cancel">취소</string>
+<string name="menu_wifi_next">다음</string>
+<string name="menu_wifi_select">선택</string>
+<string name="menu_wifi_input">입력</string>
+<string name="menu_wifi_set">설정</string>
+<string name="menu_wifi_prev">이전</string>
+<string name="menu_wifi_main_scan">스캔</string>
+<string name="menu_wifi_main_manual">수동</string>
+    <string name="menu_wifi_main_auto">Auto</string>    
+<string name="menu_wifi_connected">무선 네트워크 연결을 끊습니다.\n계속하려면 오른쪽 키를 누르십시오.</string>
+<string name="menu_wifi_nodongle">TV에 연결된 무선 기기가 없습니다</string>
+<string name="menu_wifi_connect_fail">연결 실패!</string>
+<string name="menu_wifi_connect_success">연결 성공, IP 주소를 받았습니다!</string>
+<string name="menu_wifi_invalid_wpa_key">잘못된 WPA 키, 확인하십시오.</string>
+<string name="menu_wifi_invalid_wep_key">잘못된 WEP 키, 확인하십시오.</string>
+<string name="menu_wifi_no_match">일치하는 액세스 포인트가 없습니다.\n다시 시도하십시오.</string>
+<string name="menu_wifi_pass_err">암호가 부정확합니다. 액세스 포인트 설정을 확인하십시오.</string>
+<string name="menu_wifi_time_out">시간 초과로 인해 연결 실패.\n다시 시도하십시오.</string>
+<string name="menu_wifi_input_key_nosupport">Please input Not Support key.</string>
+<string name="menu_wifi_input_key_wpa">WPA 키를 입력하십시오.</string>
+<string name="menu_wifi_input_key_wep">WEP 키를 입력하십시오.</string>
+<string name="menu_wifi_input_ssid">SSID를 입력하십시오.</string>
+<string name="menu_wifi_input_ssid_error">SSID의 유효 길이는 1~32 글자입니다. SSID를 확인하십시오.</string>
+<string name="menu_wifi_select_auth_mode">보안 모드를 선택하십시오</string>
+<string name="menu_wifi_auth_mode_none">없음</string>
+<string name="menu_wifi_auth_mode_wep">WEP</string>
+    <string name="menu_wifi_auth_mode_wpa_tkip">WPA-PSK(TKIP)</string>
+    <string name="menu_wifi_auth_mode_wpa_aes">WPA-PSK(AES)</string>
+    <string name="menu_wifi_auth_mode_wpa2_tkip">WPA2-PSK(TKIP)</string>
+    <string name="menu_wifi_auth_mode_wpa2_aes">WPA2-PSK(AES)</string>
+    <string name="menu_wifi_auth_mode_auto">WPA/WPA2-PSK(AUTO)</string>    
+<string name="menu_wifi_ap_security_none">없음</string>
+<string name="menu_wifi_ap_security_notsupport">지원 안 함</string>
+<string name="menu_wifi_ap_security_auto">WPA/WPA2-PSK</string>
+    <string name="menu_wifi_ap_security_wpa">WPA-PSK</string>
+    <string name="menu_wifi_ap_security_wpa2">WPA2-PSK</string>
+<string name="menu_wifi_ap_security_wep">WEP</string>
+<string name="menu_wifi_ap_head_ssid">SSID</string>
+    <string name="menu_wifi_ap_head_bssid">BSSID</string>
+<string name="menu_wifi_ap_head_security">보안</string>
+<string name="menu_wifi_ap_head_signal">신호</string>
+<string name="menu_wifi_wps_header1">WPS(Wifi 보호 설정)</string>
+<string name="menu_wifi_wps_header2">-PIN(개인 식별 번호)</string>
+<string name="menu_wifi_wps_header3">-PBC(누름 버튼 구성)</string>
+    <string name="menu_wifi_wps_main_pin">PIN</string>
+    <string name="menu_wifi_wps_main_pbc">PBC</string>
+<string name="menu_wifi_wps_pbc_hint">아래에 있는 \'다음(Next)\' 버튼을 클릭한 이후 120초 이내에 AP의 누름 버튼을 누르십시오.</string>
+<string name="menu_wifi_wps_pin_hint">아래에 있는 \'다음(Next)\' 버튼을 클릭하기 전에 AP에 다음 PIN 코드가 설치되어있는지 확인하십시오.</string>
+<string name="menu_wifi_wps_pin_textcode">PIN 코드:</string>
+    <string name="menu_wifi_wps_pin_inittextcode">[111111]</string>
+<string name="menu_wifi_wps_pin_refresh">PIN 새로 고침</string>
+<string name="menu_wifi_connecting">TV가 AP에 연결 중입니다</string>
+<string name="menu_wifi_scaning">TV가 AP를 스캔 중입니다</string>
+    <string name="menu_wifi_wait">Please wait</string>   
+<string name="menu_wifi_no_ap">사용 가능한 AP가 없습니다</string>
+<string name="menu_wifi_what">도대체 무엇을 하고 있습니까?</string>
+
+<string name="menu_wifi_need_special">특수 AP를 선택하고 싶습니까?</string>
+<string name="menu_teletext_notsupport_tip">텔리텍스트 없음</string>
+<string name="menu_teletext_no_top_tip">TOP 없음</string>
+<string name="schedule_pvr_srctype">Src 유형</string>
+<string name="schedule_pvr_channel_num">채널 정보</string>
+<string name="schedule_pvr_reminder_type">예약 유형</string>
+<string name="schedule_pvr_repeat_type">반복 유형</string>
+
+<string name="schedule_pvr_start_date">시작 날짜</string>
+<string name="schedule_pvr_start_time">시작 시간</string>
+<string name="schedule_pvr_stop_time">중지 날짜</string>
+
+<string name="menu_tv_tshift_config">시간 이동 모드</string>
+<string name="menu_tv_device_info">기기 정보</string>
+<string name="menu_setup_schedule_list">예약 목록</string>
+<string name="menu_setup_license_info">라이선스 정보</string>
+<string name="menu_setup_system_info">시스템 정보</string>
+
+<string name="menu_setup_oad_detect">수동 OAD 다운로드</string>
+<string name="menu_setup_oad_set_auto_dl">자동 다운로드</string>
+	<string name="menu_rating_a">A</string>
+<string name="menu_rating_d">D</string>
+<string name="menu_rating_l">L</string>
+<string name="menu_rating_s">S</string>
+<string name="menu_rating_v">V</string>
+<string name="menu_rating_fv">FV</string>
+<string name="menu_rating_tvy">TV-Y</string>
+<string name="menu_rating_tvy7">TV-Y7</string>
+<string name="menu_rating_tvg">TV-G</string>
+<string name="menu_rating_tvpg">TV-PG</string>
+<string name="menu_rating_tv14">TV-14</string>
+<string name="menu_rating_tvma">TV-MA</string>
+
+<string name="menu_rating_movie_g">G</string>
+<string name="menu_rating_movie_pg">PG</string>
+<string name="menu_rating_movie_pg13">PG-13</string>
+<string name="menu_rating_movie_r">R</string>
+<string name="menu_rating_movie_nc17">NC-17</string>
+<string name="menu_rating_movie_x">X</string>
+
+<string name="menu_rating_english_c">C</string>
+<string name="menu_rating_english_c8">C8+</string>
+<string name="menu_rating_english_g">G</string>
+<string name="menu_rating_english_pg">PG</string>
+<string name="menu_rating_english_14">14+</string>
+<string name="menu_rating_english_18">18+</string>
+
+<string name="menu_rating_french_g">G</string>
+<string name="menu_rating_french_8ans">8ANS+</string>
+<string name="menu_rating_french_13ans">13ANS+</string>
+<string name="menu_rating_french_16ans">16ANS+</string>
+<string name="menu_rating_french_18ans">18ANS+</string>
+
+<!-- Add for DVBC on EU -->
+<string name="menu_c_channel_scan">채널 스캔</string>
+<string name="menu_c_analog_manual_scan">아날로그 수동 스캔</string>
+<string name="menu_c_rf_scan">단일 RF 스캔</string>
+
+<string name="menu_c_favorite_net">즐겨찾기 네트워크 선택</string>
+<string name="menu_c_chanel_skip">채널 건너뛰기</string>
+<string name="menu_c_chanel_sor">채널 정렬</string>
+<string name="menu_c_chanel_edit">채널 편집</string>
+<string name="menu_c_chanel_decode">채널 디코딩</string>
+<string name="menu_c_analog_tune">아날로그 채널 세밀 조정</string>
+    <string name="menu_c_channelscan_utc">UPC</string>
+<string name="menu_c_channelscan_oth">기타</string>
+<string name="menu_c_analogscan_scanup">위로 스캔</string>
+<string name="menu_c_analogscan_scandown">아래로 스캔</string>
+<string name="menu_c_analogscan_frequency">시작 주파수</string>
+
+<string name="menu_c_scan_mode">스캔 모드</string>
+<string name="menu_c_scan_mode_advance">진행</string>
+<string name="menu_c_scan_mode_full">풀</string>
+<string name="menu_c_scan_mode_quick">퀵</string>
+
+<string name="menu_dvbs_scan_mode_network">네트워크</string>
+<string name="menu_dvbs_scan_mode_full">풀</string>
+<string name="menu_c_net">네트워크 ID</string>
+<string name="menu_c_scan">스캔</string>
+
+<string name="menu_c_rfscan_frequency">주파수(KHz)</string>
+<string name="menu_c_rfscan_modulation">변조</string>
+<string name="menu_c_rfscan_symbol_rate">심볼 속도(Ksym/s)</string>
+<string name="menu_c_rfscan_signal_level">신호 세기</string>
+<string name="menu_c_rfscan_signal_quality">시그널 품질</string>
+
+<string name="menu_eu_audio_channel">오디오 채널</string>
+
+<!-- add for DVBS EU -->
+<string name="menu_s_sate_rescan">위성 다시 스캔</string>
+<string name="menu_s_sate_add">위성 추가</string>
+<string name="menu_s_sate_update">위성 업데이트</string>
+<string name="menu_s_sate_tuning">위성 수동 튜닝</string>
+<string name="menu_s_favorite_network">즐겨찾기 네트워크 선택</string>
+<string name="menu_s_channel_skip">채널 건너뛰기</string>
+<string name="menu_s_channel_sort">채널 정렬</string>
+<string name="menu_s_channel_edit">채널 편집</string>
+<string name="menu_s_channel_decode">채널 디코딩</string>
+     <string name="menu_config_value_auto">Auto</string>
+
+<string name="menu_system_info_channel">취소</string>
+<string name="menu_system_info_pre">Pre RS</string>
+<string name="menu_system_info_fre">주파수</string>
+<string name="menu_system_info_prog">Prog</string>
+     <string name="menu_system_info_cn">C/N</string>
+     <string name="menu_system_info_uec">UEC</string>
+<string name="menu_system_info_service_id">서비스 ID</string>
+<string name="menu_system_info_symbol_rate">심벌 비율</string>
+<string name="menu_system_info_symbol_tsid">TS ID</string>
+<string name="menu_system_info_symbol_onid">ON ID</string>
+<string name="menu_system_info_symbol_networkid">네트워크 ID</string>
+     <string name="menu_system_info_symbol_agc">AGC</string>
+<string name="menu_system_info_symbol_lnb">LNB</string>
+
+<string name="menu_system_info_symbol_pre_viterbi">Pre Viterbi</string>
+<string name="menu_system_info_symbol_post_viterbi">Post Viterbi</string>
+     <string name="menu_system_info_symbol_5s">5S</string>
+
+<string name="menu_config_bl_type">잠금 유형</string>
+<string name="scan_trd_fav_network_title">네트워크</string>
+<string name="scan_trd_fav_network">좋아하는 네트워크를 선택하십시오:</string>
+<string name="scan_trd_pt_save_channel">검색 결과를 저장하시겠습니까?</string>
+<string name="scan_trd_uk_reg_title">지역 선택</string>
+<string name="scan_trd_uk_reg_reg_1">지역 1</string>
+<string name="scan_trd_uk_reg_reg_2">지역 2</string>
+<string name="scan_trd_uk_reg_reg_3">지역 3</string>
+<string name="scan_trd_uk_reg_reg_nodefine">지정 안 됨</string>
+
+<string name="scan_trd_lcn_CONFLICT_INDEX">충돌 그룹 인덱스:</string>
+<string name="scan_trd_lcn_CONFLICT_CHANL_NUM">충돌 채널 번호:</string>
+<string name="scan_trd_lcn_CONFLICT_USE_DEFAULT">모두 기본 설정 사용</string>
+
+<string name="scan_trd_lcnv2">채널 목록 선택</string>
+<string name="scan_trd_lcnv2_title">채널 목록을 선택하십시오:</string>
+
+<string name="download_firmware_start_button_text">시작</string>
+<string name="download_firmware_exit_button_text">취소</string>
+<string name="download_firmware_reboot_button_text">재부팅</string>
+<string name="download_firmware_progress_textview_text">진행 :</string>
+<string name="download_firmware_status_textview_text">상태:</string>
+<string name="download_firmware_toast_textview_validating_text">확인 중...</string>
+<string name="download_firmware_toast_textview_upgrade_text">펌웨어 준비 됨. 지금 시스템을\n재부팅하겠습니까?</string>
+<string name="download_firmware_toast_textview_to_start_text">펌웨어를 다운로드하려면 시작 버튼을 누르십시오!</string>
+<string name="download_firmware_status_value_start">다운로드 시작</string>
+<string name="download_firmware_status_value_downloading">다운로드 중입니다</string>
+<string name="download_firmware_status_value_complete">완료</string>
+<string name="download_firmware_status_value_cancel_down">다운로드 취소</string>
+<string name="download_firmware_toast_textview_download_exit_none">다운로드 종료! 다운로드 파일이 없습니다!</string>
+<string name="download_firmware_toast_textview_validate_complete">확인 완료</string>
+<string name="download_firmware_toast_textview_download_exit_network_error">다운로드 종료! 네트워크 오류!</string>
+<string name="download_firmware_toast_textview_download_exit_validate_error">다운로드 종료! 확인 오류!</string>
+<string name="download_firmware_toast_textview_download_exit_fail">다운로드 종료! 다운로드 실패!</string>
+<string name="download_firmware_not_upgrade">시스템이 펌웨어를 업그레이드하지 않았습니다!</string>
+<string name="download_firmware_upgrade_successfully">시스템이 펌웨어를 성공적으로 업그레이드했습니다!</string>
+<string name="download_firmware_upgrade_unsuccessfully">시스템이 펌웨어를 성공적으로 업그레이드하지 못했습니다!</string>
+
+<!-- CI string -->
+<string name="menu_ci_cam_scan">Cam 스캔</string>
+<string name="ci_title">CI 정보</string>
+</resources>

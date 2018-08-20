@@ -13,6 +13,7 @@ import android.content.ServiceConnection;
 import android.content.pm.PackageManager;
 import android.content.pm.ResolveInfo;
 
+import com.mediatek.wwtv.mediaplayer.jni.PhotoRender;
 import com.mediatek.wwtv.mediaplayer.mmpcm.fileimpl.FileConst;
 import com.mediatek.wwtv.mediaplayer.mmpcm.audioimpl.AudioConst;
 import com.mediatek.wwtv.mediaplayer.mmpcm.fileimpl.MtkFile;
@@ -513,13 +514,13 @@ public class MediaPlayActivity extends FragmentActivity {
     mResources = MediaPlayActivity.this.getResources();
     mLogicManager = LogicManager.getInstance(this.getApplicationContext());
     mAudioManager = (AudioManager)MediaPlayActivity.this.getSystemService(Context.AUDIO_SERVICE);
-  mAudioManager.requestAudioFocus(mAudioFocusListener,
-      AudioManager.STREAM_MUSIC, AudioManager.AUDIOFOCUS_GAIN);
-    if (MultiFilesManager.getInstance(getApplicationContext()).getContentType()
-        == MultiFilesManager.CONTENT_VIDEO
-        && CommonSet.VID_SCREEN_MODE_NORMAL == mLogicManager.getCurScreenMode()) {
-      setScreenMode(CommonSet.VID_SCREEN_MODE_NORMAL);
-    }
+//  mAudioManager.requestAudioFocus(mAudioFocusListener,
+//      AudioManager.STREAM_MUSIC, AudioManager.AUDIOFOCUS_GAIN);
+//    if (MultiFilesManager.getInstance(getApplicationContext()).getContentType()
+//        == MultiFilesManager.CONTENT_VIDEO
+//        && CommonSet.VID_SCREEN_MODE_NORMAL == mLogicManager.getCurScreenMode()) {
+//      setScreenMode(CommonSet.VID_SCREEN_MODE_NORMAL);
+//    }
     // Added by Dan for fix bug DTV00373545
     mIsMute = mLogicManager.isMute();
 
@@ -539,11 +540,11 @@ public class MediaPlayActivity extends FragmentActivity {
     mHandlerThead = new HandlerThread(TAG);
     mHandlerThead.start();
     mThreadHandler = new Handler(mHandlerThead.getLooper());
-    //MtkTvConfig.getInstance().setConfigValue(MtkTvConfigType.CFG_MISC_AV_COND_MMP_MODE, 1);
+    MtkTvConfig.getInstance().setConfigValue(MtkTvConfigType.CFG_MISC_AV_COND_MMP_MODE, 1);
 	
     mSubtitleAttr = new SubtitleAttr();
 	mEncodingArray = mResources.getStringArray(R.array.mmp_subtitle_encoding_array);
-	
+
   }
 
   protected void getScreenWH() {

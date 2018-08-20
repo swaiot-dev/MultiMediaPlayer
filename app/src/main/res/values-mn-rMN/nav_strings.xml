@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="setup_ini">Анхны тохируулга</string>
+    <string name="setup_back">БУЦАХ</string>
+    <string name="setup_select">Сонгох</string>
+    <string name="setup_next">Дараач</string>
+    <string name="setup_exit">ГАРЦ</string>
+    <string name="setup_welcome">Тавтай морилно уу</string>
+    <string name="setup_welcome_set">Анхдагч Тохиргооны Визард хэрэглээнд тавтай морилно уу!! \nВизард эхлүүлэхээр
+        [ENTER] дээр дарна уу
+    </string>
+    <string name="setup_language">Хэл</string>
+    <string name="setup_select_language">Хэлээ сонгоно уу:</string>
+    <string name="setup_select_one_op">Доорхи жагсаалтаас та ганцхан оператор сонгох эрхтэй:</string>
+    <string name="setup_tunner">Тааруулагч горим</string>
+    <string name="setup_select_tuner">Тааруулагч горимоо сонгоно уу:</string>
+    <string name="setup_channelscan">Сувгийн скан</string>
+    <string name="setup_set_setps">Нэгдүгээрт, антеныг холбоно уу. \nСувгийн скан одоо эхлэх үү? \nХэрэв та энэ алхамыг
+        алгасвал, сувгийн сканыг Цэсээр хийлгэж болно.
+    </string>
+    <string name="setup_set_setps_us">Нэгдүгээрт, антен эсвэл кабелийг холбоно уу. \n\nСувгийн скан одоо эхлэх үү?
+        \n\nХэрэв та энэ алхамыг алгасвал, сувгийн сканыг Цэсээр хийлгэж болно.
+    </string>
+    <string name="setup_language_english">Англи</string>
+    <string name="setup_scan">Скан</string>
+    <string name="setup_skip_scan">Сканыг алгас</string>
+    <string name="setup_complete">Дуусгах</string>
+    <string name="setup_congratulations">Баяр хүргэе! \nАнхны Тохируулга бүрдэж дууссан. \nВизард эхлүүлэхээр [ENTER]
+        дээр дарна уу
+    </string>
+    <string name="setup_channel_scan_note">Сувгийн скан бүрдэж дуусахад хугацаа хэрэгтэй.</string>
+    <string name="setup_channel_scan_status">Байдал: Скан хийж байна</string>
+    <string name="setup_channel_scan_analog">Адил сувгууд:</string>
+    <string name="setup_channel_scan_digital">Дижитал сувгууд:</string>
+    <string name="setup_cancel">ХҮЧИНГҮЙ БОЛГО</string>
+    <string name="setup_cancel_scan">Байдал: Сканыг болиул</string>
+    <string name="setup_scan_error">Байдал: Сканы алдаа</string>
+    <string name="setup_channel_scan_status_complete">Байдал: Скан бүрдсэн</string>
+    <string name="dvbs_operator_perferred_satellite">Дуртай хиймэл дагуул</string>
+    <string name="dvbs_operator_general_satellite">Ерөнхий хиймэл дагуул</string>
+
+    <string name="table">хуудасны Бүдүүвч</string>
+    <string name="nav_test_tv">TV</string>
+
+    <string name="nav_source_main_title">Гол</string>
+    <string name="nav_source_sub_title">Дэд</string>
+
+    <string name="nav_please_scan_channels">Сувгуудын скан үйлдэнэ үү!</string>
+    <string name="nav_no_function">Ажиллагаагүй</string>
+    <string name="nav_select_list">Жагсаалт сонго</string>
+    <string name="nav_page_up">Хуудас дээшээ</string>
+    <string name="nav_page_down">Хуудас доошоо</string>
+    <string name="nav_fav_move_up">Дээш хөдөлгө</string>
+    <string name="nav_fav_move_down">Доош хөдөлгө</string>
+    <string name="nav_exit">ГАРЦ</string>
+    <string name="nav_list_satellite">Хиймэл дагуулын жагсаалт</string>
+    <string name="nav_satellite_list">Хиймэл дагуул сонго</string>
+    <string name="nav_channel_list">Сувгийн Жагсаалт</string>
+
+    <string name="nav_channel_list_title_str">Сувгийн жагсаалт -</string>
+    <string name="nav_channel_selection">Сувгийн жагсаалтын сонголт</string>
+    <string name="nav_channel_details">Сувгийн нарийвчлал</string>
+    <string name="nav_volume_main">Мастер дууны хүч</string>
+    <string name="nav_parent_psw">Нууц үг</string>
+    <string name="nav_parent_dvbs_hint">Нууц үг гурван удаа алдаатай гарсан! \nХүлээнэ үү...</string>
+    <string name="nav_favorite_list">Дуртай Жагсаалт</string>
+    <string name="nav_favorite_select">Сонгох</string>
+
+    <string name="nav_channel_infoName">Хаш</string>
+    <string name="nav_channel_infoMiddle_special">Өгөгдөлийг олж байна...</string>
+    <string name="nav_channel_infoTitle">(Хөтөлбөрийн гарчиг байхгүй)</string>
+    <string name="nav_channel_infoNextDuration">Биржийн дотор</string>
+    <string name="nav_channel_infoFormatField">Стерео</string>
+    <string name="nav_channel_infoNoProgram">(Програмын нарийвчлал байхгүй)</string>
+    <string name="nav_channel_infoNoChannelDetail">(Сувгийн нарийвчлал байхгүй)</string>
+    <string name="nav_channel_infoSubtitle">Ши</string>
+    <string name="nav_no_signal">Дохиогүй!</string>
+    <string name="nav_no_support">Дэмжлэггүй!</string>
+    <string name="nav_channel_has_locked">Суваг түгжигдсэн!</string>
+    <string name="nav_input_has_locked">Орц түгжигдсэн!</string>
+    <string name="nav_program_has_locked">Програм түгжигдсэн!</string>
+    <string name="nav_hidden_channel">Нууц суваг!</string>
+    <string name="nav_channel_audio_scrambled">Хольсон Аудио</string>
+    <string name="nav_channel_video_scrambled">Хольсон дүрс бичлэг</string>
+    <string name="nav_sleep_label">Унт:</string>
+    <string name="nav_sleep_off">Офф</string>
+    <string name="nav_sleep_minutes">минут</string>
+    <string name="nav_resolution_null">Дүрс бичлэг үгүй</string>
+    <string name="nav_channel_retrieving">Өгөгдөлийг олж байна...</string>
+    <string name="nav_unknown_audio">Аудио үл мэдэгдэх</string>
+    <string name="nav_unknown_stereo">Стерео үл мэдэгдэх</string>
+    <string name="nav_unknown_audio_sundry">МЭДЭГДЭХГҮЙ</string>
+    <string name="nav_channel_no_audio">Аудио байхгүй</string>
+
+    <string name="nav_epg_type">Төрөл</string>
+    <string name="nav_epg_sub_type">Доорхи төрөл</string>
+    <string name="nav_epg_zero_tip">жагсаалт хадгалсан</string>
+    <string name="nav_epg_book_list">Үйл явдлын жагсаалт хадгалсан</string>
+    <string name="nav_epg_book_program_tip">Энэ програмыг хадгалах уу?</string>
+    <string name="nav_epg_unbook_program_tip">Энэ програмыг аль хэдийн хадгалсан, нээх үү?</string>
+    <string name="nav_epg_book_program_coming_tip">ирж байна, суваг руу өөрчлөх үү?</string>
+    <string name="nav_epg_not_rated">Үнэлээгүй</string>
+    <string name="nav_epg_no_program_detail">(Програмын нарийвчлал байхгүй)</string>
+    <string name="nav_epg_no_program_data">(Програмын өгөгдөл байхгүй)</string>
+    <string name="nav_epg_no_program_title">(Хөтөлбөрийн гарчиг байхгүй)</string>
+    <string name="nav_epg_no_title">(Гарчиг байхгүй)</string>
+    <string name="nav_epg_unlock">Онгойлго</string>
+    <string name="nav_epg_unschedule">Хуваариас гарга</string>
+    <string name="nav_epg_schedule">Хуваарь</string>
+    <string name="nav_epg_unclassified">Ангилаагүй</string>
+    <string name="nav_epg_not_support">Дэмжлэггүй</string>
+
+    <string name="cplogo_title">Барилтын Лого</string>
+    <string name="cplogo_bt_ok">ОК</string>
+    <string name="cplogo_bt_cancel">ХҮЧИНГҮЙ БОЛГО</string>
+    <string name="cplogo_bt_full_screen">Дэлгэц бүрэн</string>
+    <string name="cplogo_bt_special_area">Тусгай талбай</string>
+    <string name="cplogo_bt_no">ҮГҮЙ</string>
+    <string name="cplogo_bt_adjust">тохируул</string>
+    <string name="cplogo_msg_which_screen">Та тусгай талбай эсвэл дэлгэц бүхэлд нь гаргамаар байна уу?</string>
+    <string name="cplogo_msg_this_screen">Та дэлгэцийг гаргамаар байна уу?</string>
+    <string name="cplogo_msg_select_position">Логог хадгалахаар байрлалыг сонгоно уу?</string>
+    <string name="cplogo_msg_capturing">Авч байна...</string>
+    <string name="cplogo_msg_adjust_position">Та тусгай талбайн байрлалыг тохируулмаар байна уу?</string>
+    <string name="cplogo_msg_res_success">Амжилттай авлаа</string>
+    <string name="cplogo_msg_res_fail">Авах нь амжилтгүй болсон, дахин оролдоно уу</string>
+    <string name="cplogo_capture_res_cancel">Энэ үйлдэлийг хийх боломжгүй болсон</string>
+
+    <string name="vga_no_sinal_info">Дохио үгүй. Унтрах болно.</string>
+
+    <string name="epg_bottom_prev_day">Өмнөх өдөр</string>
+    <string name="epg_bottom_next_day">Дараах өдөр</string>
+    <string name="epg_bottom_view_detail">Харах Нарийвчлалууд</string>
+    <string name="epg_bottom_type_filter">Шүүлтүүрийн төрөл</string>
+    <string name="epg_bottom_prev_page">Хуудас дээшээ</string>
+    <string name="epg_bottom_next_page">Хуудас доошоо</string>
+    <string name="epg_bottom_ENTER">Орох</string>
+    <string name="epg_rating_unclassified">Ангилаагүй</string>
+
+    <string name="epg_info_program_type">Байхгүй</string>
+    <string name="epg_password">Нууц үг</string>
+    <string name="epg_password_message">Нууц үг буруу</string>
+    <string name="epg_retrieving_show">Өгөгдөлийг олж байна...</string>
+
+    <string name="nav_epg_January">1-р сар</string>
+    <string name="nav_epg_February">2-р сар</string>
+    <string name="nav_epg_March">3-р сар</string>
+    <string name="nav_epg_April">4-р сар</string>
+    <string name="nav_epg_May">5-р сар</string>
+    <string name="nav_epg_June">6-р сар</string>
+    <string name="nav_epg_July">7-р сар</string>
+    <string name="nav_epg_August">8-р сар</string>
+    <string name="nav_epg_September">9-р сар</string>
+    <string name="nav_epg_October">10-р сар</string>
+    <string name="nav_epg_November">11-р сар</string>
+    <string name="nav_epg_December">12-р сар</string>
+
+    <string name="nav_epg_Jan">1-р сар</string>
+    <string name="nav_epg_Feb">2-р сар</string>
+    <string name="nav_epg_Mar">3-р сар</string>
+    <string name="nav_epg_Apr">4-р сар</string>
+    <string name="nav_epg_may">5-р сар</string>
+    <string name="nav_epg_Jun">6-р сар</string>
+    <string name="nav_epg_Jul">7-р сар</string>
+    <string name="nav_epg_Aug">8-р сар</string>
+    <string name="nav_epg_Sep">9-р сар</string>
+    <string name="nav_epg_Oct">10-р сар</string>
+    <string name="nav_epg_Nov">11-р сар</string>
+    <string name="nav_epg_Dec">12-р сар</string>
+
+    <string name="nav_epg_Sunday">Ням</string>
+    <string name="nav_epg_Monday">Даваа</string>
+    <string name="nav_epg_Tuesday">Мягмар</string>
+    <string name="nav_epg_Wednesday">Лхагва</string>
+    <string name="nav_epg_Thursday">Пүрэв</string>
+    <string name="nav_epg_Friday">Баасан</string>
+    <string name="nav_epg_Saturday">Бямба</string>
+
+    <string name="nav_epg_Sun">Ня</string>
+    <string name="nav_epg_Mon">Да</string>
+    <string name="nav_epg_Tue">Мя</string>
+    <string name="nav_epg_Wed">Лх</string>
+    <string name="nav_epg_Thur">Пү</string>
+    <string name="nav_epg_Fri">Баасан</string>
+    <string name="nav_epg_Sat">Бя</string>
+
+    <string name="nav_ginga_tv_title">Апликейшны жагсаалт</string>
+    <string name="nav_select">Сонгох</string>
+    <string name="nav_ginga_tv_message">Энд апликейшн байхгүй байна!</string>
+    <string name="nav_ginga_tv_for_infobar">Жинга апликейшн татаж байна...</string>
+    <string name="nav_ginga_tv_for_tips">Та СС-г зогсоож Жинга апликейшныг эхлүүлмээр байна уу?</string>
+
+    <string name="nav_upgrader_title">Визард шинэчилж байна</string>
+    <string name="nav_upgrader_MoreInfo">Илүү мэдээлэл</string>
+    <string name="nav_upgrader_invalid">Хүчингүй програм Дүрсний алдаа!!</string>
+    <string name="nav_upgrader_updating">Шинэчилж байна...</string>
+    <string name="nav_upgrader_warnning">USB-г БҮҮ ав ба ТВ тохируулгыг програм шинэчилж байгаа хугацаанд унтраа!!
+    </string>
+    <string name="nav_upgrader_validate">Програмыг баталж байна...</string>
+    <string name="nav_upgrader_confirm">Та програмыг шинэчлэхдээ итгэлтэй байна уу?</string>
+    <string name="nav_upgrader_completed">Програм амжилттай шинэчлэгдсэн. Шинэ програмыг идэвхижүүлэхээр ТВ-г дахин
+        ажиллуул.
+    </string>
+    <string name="nav_upgrader_failed">Шинэчлэлтийн алдаа. ТВ-г дахин асааж програмыг дахин суулгана уу.</string>
+    <string name="nav_upgrader_retry">Шинэчлэлтийн алдаа. Дахин оролдох уу?</string>
+    <string name="nav_upgrader_retry2">Шинэчлэлтийн алдаа, USB оруулна уу. Дахин оролдох уу?</string>
+    <string name="nav_upgrader_usb_space_not_enough">Таны USB-ны зай дутаж байна.</string>
+    <string name="nav_upgrader_usb_not_ready">USB бэлэн бус, дахин залгаад дахин оролдоно уу.</string>
+    <string name="nav_upgrader_internal_err">Дотоод алдаа.</string>
+    <string name="nav_upgrader_not_avail_firmware">Програмын хувилбар ажиллагаагүй.</string>
+    <string name="nav_upgrader_decry_fail">Шифрлэлт амжилтгүй.</string>
+    <string name="nav_upgrader_firmware_invalid">Програм хүчингүй.</string>
+    <string name="nav_upgrader_no_update">Шинэчлэх програм байхгүй.</string>
+    <string name="nav_upgrader_check_fail">Шинэ програм шалгалт амжилтгүй.</string>
+    <string name="nav_upgrader_download_fail">Ажиллагаанаас програм суулгах боломжгүй.</string>
+    <string name="nav_upgrader_usb_problem">USB - д алдаа гарсан.</string>
+    <string name="nav_upgrader_power">Хүч</string>
+    <string name="nav_upgrader_yes">Тийм</string>
+    <string name="nav_upgrader_no">ҮГҮЙ</string>
+    <string name="nav_upgrader_network_tip">Сервераас шинэ програм суулгаж эхэл</string>
+    <string name="nav_mheg5_tips">ХАДМАЛ нь дижитал БИЧГИЙГ ажиллуулахаас өмнө хаагдсан байх ёстой. Хийх үү?</string>
+
+    <string name="common_dialog_msg_yes">Тийм</string>
+    <string name="common_dialog_msg_no">ҮГҮЙ</string>
+    <string name="common_dialog_ews_service_content">Та EWS үйлчилгээ рүү ормоор байна уу?</string>
+    <string name="common_dialog_special_service_content">Та тусгай үйлчилгээ рүү ормоор байна уу?</string>
+    <string name="commmon_dialog_book_reminder_content">ирж байна, та үүн рүү ормоор байна уу?</string>
+    <string name="common_dialog_start_cc_stop_ginga">Та СС-г зогсоож Жинга апликейшныг эхлүүлмээр байна уу?</string>
+
+    <string name="nav_ttx_top_block">Хаах</string>
+    <string name="nav_ttx_top_group">Бүлэглэ</string>
+    <string name="nav_ttx_top_page">Хуудас</string>
+    <string name="nav_ttx_no_top">Топ үгүй</string>
+
+    <string name="nav_banner_not_rating">үнэлгээ үгүй</string>
+    <string name="cam_scan_warning">CI Plus Network өөрчлөгдөж байна, та ажиллагааны шинэчлэлийн хайлтыг хийж болно!
+    </string>
+    <string name="cam_scan_urgent">CI Plus Network ажиллагаагүй, та ажиллагааны шинэчлэлийн хайлтыг хийх ёстой!</string>
+    <string name="cam_scan_not_init">CI Plus Network нэгж биш, та ажиллагааны шинэчлэлийн хайлтыг хийж ёстой!</string>
+    <string name="cam_scan_schedule">CI Plus Network хуваарийн цаг хайх хүрсэн, та ажиллагааны шинэчлэлийн хайлтыг хийнэ
+        үү!
+    </string>
+
+    <string name="setup_select_country">Өөрийн улсыг сонгоно уу:</string>
+    <string name="setup_country">Улс</string>
+    <string name="setup_dvbc_setting">Кабелийн мэдээллийг тохируулна уу:</string>
+    <string name="setup_timezone">Цагийн Бүс</string>
+    <string name="setup_language_Catalan">Catalan</string>
+    <string name="setup_language_Gaelic">Кельт</string>
+    <string name="setup_language_Welsh">УЭЛЬС</string>
+    <string name="setup_language_english_eu">Англи</string>
+    <string name="setup_language_Catalan_eu">Catalan</string>
+    <string name="setup_language_Gaelic_eu">Кельт</string>
+    <string name="setup_language_Welsh_eu">УЭЛЬС</string>
+    <string name="setup_dvbc_config_scanmode">Сканы Горим</string>
+    <string name="setup_dvbc_config_frequency">Давтамж (KГЦ)</string>
+    <string name="setup_dvbc_config_modulation">Модуляци</string>
+    <string name="setup_dvbc_config_symbolrate">Тэмдэгийн үнэлгээ (Kсим/сек)</string>
+    <string name="setup_dvbc_config_networkid">Ажиллагааны ID</string>
+
+    <string name="setup_set_password_titile1">Шинэ нууц үг</string>
+    <string name="setup_set_password_titile2">Нууц үг баталгаажуулах</string>
+    <string name="setup_dvbs_satellite_list">Хиймэл дагуул сонго</string>
+    <string name="setup_dvbs_satellite_config">Антены тохируулга</string>
+    <string name="setup_select_set">Тохируул</string>
+    <string name="nav_oad_dialog_title">Агаараар татаж авах</string>
+    <string name="nav_oad_scanning">Скан хийж байна</string>
+    <string name="nav_oad_scanning_result_fail">Шинэ програм хангамж олохгүй байна</string>
+
+    <string name="nav_oad_programming">Програмчилж байна</string>
+    <string name="nav_oad_downloading">Ачаалж байна</string>
+    <string name="nav_oad_downloading_info">Энэ процес 25 минутаас илүү хугацаанд хийгдэнэ</string>
+    <string name="nav_oad_flash_confirm">Програм хангамжийг амжилттай суулга. Флашинг эхэлмээр байна уу?</string>
+    <string name="nav_oad_flash_fail">Програмчлал амжилтгүй болсон. Дахин оролдох уу? Үйлчилгээний Төв рүү ярина уу.
+    </string>
+    <string name="nav_oad_restart_confirm">Програм хангамж амжилттай суулгалаа. ТВ-г одоо асаах уу?</string>
+
+    <string name="nav_oad_warning_msg_str">Анхаар: Ажиллагаа хийж байна. ТВ ажиллагааны кодоос бүү унтраа, энэ нь ТВ
+        тохируулгыг алдагдуулах болно.
+    </string>
+
+    <string name="nav_oad_manual_download_confirm">Програм хангамжийн шинэчлэл. Шинэ програм хангамж ажиллах боломжтой.
+        Шинэчлэлд хугацаа шаардагдах ба дэлгэц хар болно. Шинэчлэлийн үед хүлээн авагчийг бүү унтраа. Та одоо
+        шинэчлэмээр байна уу?
+    </string>
+    <string name="nav_oad_manual_download_fail">Програм хангамж татаж авах боломжгүй. Дахин оролдох уу?</string>
+
+    <string name="nav_oad_auto_download_confirm">Програм хангамж шинэчлэгдэж байна. Шинэ санал болгосон програм хангамж
+        ажиллах боломжтой. Шинэчлэлд хугацаа шаардагдах ба дэлгэц хар болно. Шинэчлэлийн үед хүлээн авагчийг бүү унтраа.
+        Та одоо шинэчлэмээр байна уу? Автоматаар %s секундад эхэлнэ.
+    </string>
+
+    <string name="nav_oad_schedule_oad_accept_schedule_confirm">Програм хангамж шинэчлэгдэж байна. Шинэ санал болгосон
+        програм хангамж ажиллах боломжтой %s. Шинэчлэлд хугацаа шаардагдах ба дэлгэц хар болно. Шинэчлэлийн үед хүлээн
+        авагчийг бүү унтраа.Энэ шинэчлэлийг хүлээн авбал, хүлээн авагчийг он байлгаад эсвэл хуваарилсан цагт байлга. Та
+        одоо шинэчлэл хүлээн авмаар байна уу?
+    </string>
+    <string name="nav_oad_schedule_oad_change_channel_confirm">Програм хангамж шинэчлэгдэж байна. Шинэ санал болгосон
+        програм хангамж нэгэн өөр сувагт байж болзошгүй. Та татаж авахыг хүлээн авбал энэ нь сувгийг автоматаар
+        өөрчилнө. Автоматаар %s секундад эхэлнэ.
+    </string>
+    <string name="nav_oad_atuo_download_with_bgm">Шинэ программ хангамж олдлоо! \nПрограм хангамжийг ТВ тохируулга
+        зогсож байхад авто татан авахаар хүлээн авах уу?
+    </string>
+
+    <string name="setup_language_english_value">Програмчилж байна</string>
+    <string name="setup_language_chinese_value">Програмчилж байна</string>
+    <string name="setup_language_spanish_value">Програмчилж байна</string>
+    <string name="setup_language_french_value">Програмчилж байна</string>
+    <string name="setup_language_portuguese_value">Програмчилж байна</string>
+
+    <string name="setup_country_cty_1">Австри</string>
+    <string name="setup_country_cty_2">Бельги</string>
+    <string name="setup_country_cty_3">Швейцар</string>
+    <string name="setup_country_cty_4">Чех Республик</string>
+    <string name="setup_country_cty_5">Герман</string>
+    <string name="setup_country_cty_6">Дани</string>
+    <string name="setup_country_cty_7">Испани</string>
+    <string name="setup_country_cty_8">Финланд</string>
+    <string name="setup_country_cty_9">Франц</string>
+    <string name="setup_country_cty_10">Нэгдсэн Вант улс</string>
+    <string name="setup_country_cty_11">Итали</string>
+    <string name="setup_country_cty_12">Люксембург</string>
+    <string name="setup_country_cty_13">Нидерланд</string>
+    <string name="setup_country_cty_14">Норвеги</string>
+    <string name="setup_country_cty_15">Швед</string>
+    <string name="setup_country_cty_16">Болгар</string>
+    <string name="setup_country_cty_17">Хорват</string>
+    <string name="setup_country_cty_18">Грек</string>
+    <string name="setup_country_cty_19">Унгар</string>
+    <string name="setup_country_cty_20">Ирланд</string>
+    <string name="setup_country_cty_21">Польш</string>
+    <string name="setup_country_cty_22">Португал</string>
+    <string name="setup_country_cty_23">Румын</string>
+    <string name="setup_country_cty_24">Оросын Холбооны Улс</string>
+    <string name="setup_country_cty_25">Серби</string>
+    <string name="setup_country_cty_26">Словак</string>
+    <string name="setup_country_cty_27">Словени</string>
+    <string name="setup_country_cty_28">Турк</string>
+    <string name="setup_country_cty_29">Эстони</string>
+    <string name="setup_country_cty_30">Австрали</string>
+    <string name="setup_country_cty_31">Шинэ Зеланд</string>
+    <string name="setup_country_cty_32">Indonesia</string>
+    <string name="setup_set_timezone">Цагийнхаа бүсийг сонгоно уу:</string>
+    <string name="setup_set_password_title">Нууц үгээ тохируул. "0000" хүчинтэй нууц үг биш</string>
+    <string name="setup_set_postalcode">Шуудангийн кодоо оруулна уу.</string>
+    <string name="setup_set_password_success_msg">Нууц үг амжилттай орлоо!</string>
+
+    <string name="dvbc_operator_others">Бусад</string>
+    <string name="dvbt_inactivechannel_nw_chg">Зарим сувгууд ажиллагааны өөрчлөлтийн үед идэвхигүй болдог. Та тэднийг
+        одоо арилгамаар байна уу?
+    </string>
+    <string name="tnt_hd_nw_chg">Ажиллагааны мэдээлэл өөрчлөгдсөн. Та скан шинэчлэлийг үйлдмээр байна уу?</string>
+    <string name="dvbs_operator_others">Бусад</string>
+    <string name="dvbs_antenna_type_name_universal">Бүх Нийтийн</string>
+    <string name="dvbs_antenna_type_name_singlecable">Ганц кабель</string>
+    <string name="dvbs_antenna_setup">Антены тохируулга</string>
+    <string name="dvbs_satellite_name">Хиймэл дагуулын нэр</string>
+    <string name="dvbs_satellite_orbit">Орбитын байрлал</string>
+    <string name="dvbs_lnb_freq">LNB давтамж</string>
+    <string name="dvbs_diseqc12_motor_storeposition">Байрлалыг Хадгал</string>
+    <string name="dvbs_diseqc12_motor_gotoposition">Байрлал руу явах</string>
+    <string name="dvbs_diseqc12_motor_gotoreference">Лавлах руу явах</string>
+    <string name="dvbs_diseqc12_movement_stepsize">Алхамын хэмжээ</string>
+    <string name="dvbs_diseqc12_movement_timeout">Хугацаа</string>
+    <string name="dvbs_diseqc12_movement_moveeast">Зүүн хөдөлгө</string>
+    <string name="dvbs_diseqc12_movement_movewest">Баруун хөдөлгө</string>
+    <string name="dvbs_diseqc12_movement_stopmovement">Хөдөлгөөн зогсоо</string>
+    <string name="dvbs_tone_22khz_off">Офф</string>
+    <string name="dvbs_tone_22khz_on">Он</string>
+    <string name="dvbs_tone_22khz_auto">Авто</string>
+    <string name="dvbs_trasponder">Транспондер</string>
+    <string name="dvbs_tp_fre">Давтамж</string>
+    <string name="dvbs_tp_sys_rate">Тэмдэгтийн хэмжээ (Kсим/сек)</string>
+    <string name="dvbs_tp_pol">Поляризаци</string>
+
+    <string name="dvbs_tp_pol_0_unknown">МЭДЭГДЭХГҮЙ</string>
+    <string name="dvbs_tp_pol_1_HORIZONTAL">Хэвтээ</string>
+    <string name="dvbs_tp_pol_2_VERTICAL">Босоо</string>
+    <string name="dvbs_tp_pol_3_LEFT">Зүүн</string>
+    <string name="dvbs_tp_pol_4_RIGHT">Баруун</string>
+
+    <string name="dvbs_add_new_satl">Шинэ хиймэл дагуул нэм</string>
+    <string name="dvbs_add_new_tp">Шинэ тээвэрлэгч нэм</string>
+    <string name="dvbs_satellite_tuning">Хиймэл дагуулын тохиргоо</string>
+    <string name="dvbs_satellite_channel">Сувгууд</string>
+    <string name="dvbs_scan_mode">Сканы Горим</string>
+    <string name="dvbs_network_search">Ажиллагаа хайлт</string>
+    <string name="dvbs_satellite_search">Хайх</string>
+    <string name="dvbs_scan_mode_auto">Авто</string>
+    <string name="dvbs_scan_mode_preset">урьдчилан</string>
+    <string name="dvbs_channel_free">Чөлөөтэй</string>
+    <string name="dvbs_channel_all">Бүгд</string>
+    <string name="dvbs_scan_mode_network">Ажиллагаа</string>
+    <string name="dvbs_scan_mode_full">Бүрэн</string>
+    <string name="dvbs_scan_positon">Байрлал</string>
+    <string name="dvbs_lnb_power">LNB Хүчдэл</string>
+    <string name="dvbs_antenna_type">Антены Төрөл</string>
+    <string name="dvbs_antenna_type_universal">Бүх Нийтийн</string>
+    <string name="dvbs_antenna_type_singlecable">Ганц кабель</string>
+    <string name="dvbs_user_band">тааруулга</string>
+    <string name="dvbs_band_freq">зурвасын давтамж</string>
+    <string name="dvbs_band_freq_user_define">Хэрэглэгч тодруулах</string>
+    <string name="dvbs_position">Байрлал</string>
+    <string name="dvbs_preferred_satellite">тохиромжтой хиймэл дагуул</string>
+    <string name="dvbs_general_satellite">Ерөнхий хиймэл дагуул</string>
+    <string name="lnb_universal">Бүх Нийтийн</string>
+    <string name="dvbs_sat_on">Он</string>
+    <string name="dvbs_sat_off">Офф</string>
+    <string name="setup_tuner_satellite">Хиймэл Дагуул</string>
+    <string name="dvbs_satellite_setting">Хиймэл Дагуул</string>
+    <string name="setup_language_chinese">Хялбарчилсан Хятад</string>
+    <string name="setup_tuner_antenna">Антен</string>
+    <string name="setup_tuner_cable">Кабель</string>
+    <string name="satellites">Хиймэл дагуулууд</string>
+    <string name="nav_channel_antenna">Антен</string>
+    <string name="nav_channel_infoType">Антен</string>
+    <string name="nav_channel_infoAudioLanguage">1/2 Хятад</string>
+    <string name="setup_language_Dansk">Dansk</string>
+    <string name="setup_language_Nederlands">Nederlands</string>
+    <string name="setup_language_Suomi">Suomi</string>
+    <string name="setup_language_Deutsch">Deutsch</string>
+    <string name="setup_language_Polski">Polski</string>
+    <string name="setup_language_Srpski">Srpski</string>
+    <string name="setup_language_Svenska">Svenska</string>
+    <string name="setup_language_Dansk_eu">Dansk</string>
+    <string name="setup_language_Nederlands_eu">Nederlands</string>
+    <string name="setup_language_Suomi_eu">Suomi</string>
+    <string name="setup_language_Deutsch_eu">Deutsch</string>
+    <string name="setup_language_Polski_eu">Polski</string>
+    <string name="setup_language_Srpski_eu">Srpski</string>
+    <string name="setup_language_Svenska_eu">Svenska</string>
+    <string name="setup_set_postal_code_editview">Шуудангийн Код</string>
+    <string name="setup_cable_select_operation">Оператор сонгоно уу</string>
+    <string name="setup_dvbs_statellite_type">Хиймэл Дагуулын Хэлбэр</string>
+    <string name="setup_dvbs_statellite_type_title">Хиймэл дагуулын төрлийг сонгоно уу.</string>
+    <string name="setup_dvbs_statellite_select_operator">Оператор сонгоно уу</string>
+    <string name="setup_dvbs_statellite_select_operator_title">Та доорхи жагсаалтаас зөвхөн нэг оператор сонгох
+        эрхтэй.
+    </string>
+    <string name="setup_cable_setting_title">Кабелийн мэдээллийг батална уу.</string>
+    <string name="setup_dvbs_config_info_title">Скан мэдээллийг баталгаажуулна уу.</string>
+    <string name="setup_dvbs_satellite_list_title">Сонгосон хиймэл дагуулын засварлах болон скан хийхээр хиймэл дагуул
+        сонгоно уу.
+    </string>
+    <string name="setup_dvbs_config_setting_title">Антений бат. төрлийг тохируулна уу.</string>
+    <string name="setup_dvbs_satellite_config_title">Хиймэл дагуулын үзүүлэлтийг тохируулна уу.</string>
+    <string name="setup_dvbs_satellite_config_tp_title">Транспондерийн үзүүлэлтийг тохируулна уу.</string>
+    <string name="setup_dvbs_satellite_config_diseqc_title">DiSEqC\'s үзүүлэлтүүдийг тохируулна уу.</string>
+    <string name="setup_dvbs_satellite_config_diseqc12_motor_title">DiSEqC 1.2 моторын үзүүлэлтийг тохируулна уу.
+    </string>
+    <string name="setup_dvbs_satellite_config_diseqc12_movementcontrol_title">DiSEqC 1.2-ыг хөдөлгөөний хяналтын
+        үзүүлэлтийг тохируулна уу.
+    </string>
+    <string name="dvbc_operator_upc">Upc</string>
+    <string name="dvbc_operator_comhem">Comhem</string>
+    <string name="dvbc_operator_canal_digital">Дижитал Суваг</string>
+    <string name="dvbc_operator_tele2">Теле2</string>
+    <string name="dvbc_operator_stofa">Stofa</string>
+    <string name="dvbc_operator_yousee">Yousee</string>
+    <string name="dvbc_operator_ziggo">Ziggo</string>
+    <string name="dvbc_operator_unitymedia">Unitymedia</string>
+    <string name="dvbc_operator_numericable">Дугаарчилсан</string>
+    <string name="dvbc_operator_volia">Волиа</string>
+    <string name="dvbc_operator_telemach">Теле тоглоом</string>
+    <string name="dvbc_operator_onlime">Онлайн</string>
+    <string name="dvbc_operator_akado">Акадо</string>
+    <string name="dvbc_operator_telent">Телент</string>
+    <string name="dvbc_operator_telent_eu">Теленет</string>
+    <string name="dvbc_operator_glenten">Глентен</string>
+    <string name="dvbc_operator_tele_columbus">Колумбус теле</string>
+    <string name="dvbs_operator_astra_hd_plus">Астра HD+</string>
+    <string name="dvbs_operator_sky_deutschland">Скай Герман</string>
+    <string name="dvbs_operator_austriasat">Австри сат</string>
+    <string name="dvbs_operator_cannal_digital">Дижитал Суваг</string>
+    <string name="dvbs_operator_tv_vlaanderen_hd">TV VLAANDEREN HD</string>
+    <string name="dvbs_operator_tv_vlaanderen_sd">TV VLAANDEREN SD</string>
+    <string name="dvbs_operator_telesat_belgium">ТЕЛЕСАТ Бельги</string>
+    <string name="dvbs_operator_telesat_luxembourg">ТЕЛЕСАТ Люксембург</string>
+    <string name="dvbs_operator_seznam_kanalu_pro_cesko">Чехийн сувгуудын жагсаалт</string>
+    <string name="dvbs_operator_seznam_kanalu_pro_slovensko">Словенийн сувгуудын жагсаалт</string>
+    <string name="dvbs_operator_cannaldigitaal_hd">HD Дижитал суваг</string>
+    <string name="dvbs_operator_cannaldigitaal_sd">SD Дижитал Суваг</string>
+    <string name="dvbs_operator_n_na_karte">Карт дээр</string>
+    <string name="dvbs_operator_digiturk_eutelsat">Digiturk Eutelsat</string>
+    <string name="dvbs_operator_digiturk_turksat">Digiturk Turksat</string>
+    <string name="dvbs_operator_fransat">Франсат</string>
+    <string name="dvbs_operator_cyfraplus">Кифра+</string>
+    <string name="dvbs_operator_cyfrowy_polsat">Полсат</string>
+    <string name="dvbs_operator_dsmart">D-Смарт</string>
+    <string name="dvbs_operator_ntvplus">NTV+</string>
+    <string name="dvbs_operator_name_nc_plus">nc+/nc+ MIX</string>
+    <string name="dvbs_operator_name_smart_hd_plus">смарт HD+</string>
+    <string name="dvbs_operator_name_tivusat">tivùsat</string>
+    <string name="dvbs_diseqc_set">DiSEqC тохироо</string>
+    <string name="dvbs_diseqc12_motor_movementcontrol">Хөдөлгөөний Хяналт</string>
+    <string name="dvbs_diseqc12_motor_disablelimits">Хязгааруудыг идэвхгүй болго</string>
+    <string name="dvbs_diseqc12_motor_limiteast">Limit east</string>
+    <string name="dvbs_diseqc12_motor_limitwest">Limit west</string>
+    <string name="dvbs_diseqc10_port">DiSEqC 1.0 порт</string>
+    <string name="dvbs_diseqc11_port">DiSEqC 1.1 порт</string>
+    <string name="dvbs_diseqc_motor">DiSEqC мотор</string>
+    <string name="dvbs_diseqc_motor_12">DiSEqC 1.2</string>
+    <string name="dvbs_diseqc_input">Diseqc орц</string>
+    <string name="dvbs_diseqc_input_0">Идэвхгүй болгох</string>
+    <string name="dvbs_diseqc_input_1">Diseqc A</string>
+    <string name="dvbs_diseqc_input_2">Diseqc B</string>
+    <string name="dvbs_diseqc_input_3">Diseqc C</string>
+    <string name="dvbs_diseqc_input_4">Diseqc D</string>
+    <string name="dvbs_tone_22khz">22 КГц аялгуу</string>
+    <string name="dvbs_sat_no_satl">(хиймэл дагуул байхгүй)</string>
+    <string name="dvbs_manual_tuning">Хиймэл Дагуул Гар Тохируулга</string>
+    <string name="dvbs_sat_no_tp">(Транспондер байхгүй)</string>
+    <string name="dvbs_sat_name_empty_alarm">Хиймэл дагуулын нэр хоосон байна. Үүнийг оруулна уу!</string>
+    <string name="dvbs_satellite_rescan">Хиймэл Дагуулын Дахин Скан хийх</string>
+    <string name="dvbs_satellite_add">Хиймэл Дагуул Нэмэх</string>
+    <string name="dvbs_satellite_update">Хиймэл Дагуул Шинэчлэлт</string>
+    <string name="dvbs_satellite_status">Хиймэл дагуулын байдал</string>
+    <string name="dvbs_scan_satellites">Хиймэл дагуулууд</string>
+    <string name="dvbs_user_band_1">Хэрэглэгч зурвас 1</string>
+    <string name="dvbs_user_band_2">Хэрэглэгч зурвас 2</string>
+    <string name="dvbs_user_band_3">Хэрэглэгч зурвас 3</string>
+    <string name="dvbs_user_band_4">Хэрэглэгч зурвас 4</string>
+    <string name="dvbs_user_band_5">Хэрэглэгч зурвас 5</string>
+    <string name="dvbs_user_band_6">Хэрэглэгч зурвас 6</string>
+    <string name="dvbs_user_band_7">Хэрэглэгч зурвас 7</string>
+    <string name="dvbs_user_band_8">Хэрэглэгч зурвас 8</string>
+    <string name="dvbs_position_c">С</string>
+    <string name="dvbs_air">Антен</string>
+    <string name="dvbs_cable">Кабель</string>
+    <string name="sys_info_lnb">LNB</string>
+    <string name="dvbs_tone_burst">Tone Burst</string>
+    <string name="dvbs_tone_burst_disable">Идэвхгүй болгох</string>
+    <string name="dvbs_tone_burst_b">Tone Burst B</string>
+</resources>

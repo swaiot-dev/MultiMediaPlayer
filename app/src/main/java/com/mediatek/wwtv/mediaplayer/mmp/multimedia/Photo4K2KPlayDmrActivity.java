@@ -413,7 +413,7 @@ public class Photo4K2KPlayDmrActivity extends MediaPlayActivity {
    *  find view
    */
   private void findView() {
-    vShowView = new EffectView();
+    vShowView = new EffectView(this);
     vShowView.setPlayLisenter(mPlay);
     vLayout = (LinearLayout) findViewById(R.id.mmp_mediaplay);
     vLayout.setSystemUiVisibility(View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN
@@ -985,7 +985,7 @@ public class Photo4K2KPlayDmrActivity extends MediaPlayActivity {
       mTipsDialog.dismiss();
     }
     DmrHelper.handleStop();
-    ;
+
     super.onDestroy();
     Util.LogLife(TAG, "onDestroy");
   }
@@ -1282,7 +1282,7 @@ public class Photo4K2KPlayDmrActivity extends MediaPlayActivity {
       return;
 
     } else {
-      int size = vShowView.getMultiple();
+      int size = (int) vShowView.getMultiple();
       int rotate = vShowView.getRotate();
       mControlView.setPhotoZoom(mResources
           .getString(R.string.mmp_menu_1x));

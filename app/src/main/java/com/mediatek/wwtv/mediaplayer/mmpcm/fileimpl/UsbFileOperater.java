@@ -244,6 +244,9 @@ public class UsbFileOperater {
 
         File[] files = dir.listFiles(new ImageFilter());
         if(files != null) {
+            if (files.length > 0) {
+                sortFiles(files,FileConst.SORT_NAME);
+            }
             for (File f : files) {
                 if (f.isHidden() == false) {
                     mfiles.add(new MtkFile(f));
@@ -272,7 +275,11 @@ public class UsbFileOperater {
         List<MtkFile> mfiles = new ArrayList<MtkFile>();
 
         File[] files = dir.listFiles(new AudioFilter());
+
         if(files != null){
+            if (files.length > 0) {
+                sortFiles(files,FileConst.SORT_NAME);
+            }
             for (File f : files) {
                 if (f.isHidden() == false) {
                     mfiles.add(new MtkFile(f));
@@ -287,6 +294,9 @@ public class UsbFileOperater {
 
         File[] files = dir.listFiles(new VideoFilter());
         if(files != null) {
+            if (files.length > 0) {
+                sortFiles(files,FileConst.SORT_NAME);
+            }
             for (File f : files) {
                 if (f.isHidden() == false) {
                     mfiles.add(new MtkFile(f));
@@ -324,7 +334,7 @@ public class UsbFileOperater {
         return mFiles.toArray(new MtkFile[mFiles.size()]);
     }
 
-    private File[] listFile(File dir, int file_filter) {
+    public File[] listFile(File dir, int file_filter) {
         if (file_filter == FileConst.MMP_FF_VIDEO) {
             return dir.listFiles(new VideoFilter());
         } else if (file_filter == FileConst.MMP_FF_PHOTO) {

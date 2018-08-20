@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="mmp_test">Энэ бол шалгуур өгөгдөл\n файлын нэр \n дүрс\n шалгуур</string>
+    <string name="mmp_menu">Цэс</string>
+    <string name="mmp_menu_sort">Төрөл</string>
+    <string name="mmp_menu_mediatype">Медиа төрөл</string>
+    <string name="mmp_menu_thumb">Тумбнайл хэмжээ</string>
+    <string name="mmp_menu_copy">Хуул</string>
+    <string name="mmp_menu_paste">Тавь</string>
+    <string name="mmp_menu_delete">Устга</string>
+    <string name="mmp_menu_recur">Рекурсив Хуваарилагч</string>
+    <string name="mmp_menu_not_recur">Жирийн Хуваарилагч</string>
+    <string name="mmp_menu_photoframe">Зургийн Хүрээ</string>
+    <string name="mmp_menu_photo_frame">Зургийн Хүрээний Дүрс тохируулга ОК</string>
+
+    <string name="mmp_menu_play">Тоглуулах</string>
+    <string name="mmp_menu_pause">Түр зогсоох</string>
+    <string name="mmp_menu_repeat">Давт</string>
+    <string name="mmp_menu_shuffle">Солилцоо</string>
+    <string name="mmp_menu_duration">Хугацаа</string>
+    <string name="mmp_menu_effect">Үр нөлөө</string>
+    <string name="mmp_menu_showinfo">Мэдээ Харуул</string>
+    <string name="mmp_menu_frame">Зургийн Хүрээний Дүрс</string>
+    <string name="mmp_menu_rotate">Эргүүлэх</string>
+    <string name="mmp_menu_display">Дэлгэцийн Шугам</string>
+    <string name="mmp_menu_timeoffset">Цаг унтраах</string>
+    <string name="mmp_menu_encoding">Кодчилол</string>
+
+    <string name="mmp_menu_picturemode">Зурагны Горим</string>
+    <string name="mmp_menu_screenmode">Дэлгэцийн Горим</string>
+
+    <string name="mmp_menu_font">Фонт</string>
+
+    <string name="mmp_menu_size">Хэмжээ</string>
+    <string name="mmp_menu_style">Хэв маяг</string>
+    <string name="mmp_menu_color">Өнгө</string>
+    <string name="mmp_menu_date">Огноо</string>
+    <string name="mmp_menu_name">Нэр</string>
+    <string name="mmp_menu_album">Зургийн цомог</string>
+    <string name="mmp_menu_artist">Уран бүтээлч</string>
+    <string name="mmp_menu_genre">Төрөл</string>
+    <string name="mmp_menu_type">Төрөл</string>
+
+    <string name="mmp_menu_phototext">Гэрэл зураг</string>
+    <string name="mmp_menu_music">Аудио</string>
+    <string name="mmp_menu_video">Видео</string>
+    <string name="mmp_menu_text">Бичиг</string>
+    <string name="mmp_menu_small">Бага</string>
+    <string name="mmp_menu_medium">Дунд Зэргийн</string>
+    <string name="mmp_menu_large">Том</string>
+    <string name="mmp_menu_onephotomode">Нэг зурагийн төрөл</string>
+    <string name="mmp_menu_datafraveler">Өгөгдөл Фравелер G2</string>
+    <string name="mmp_menu_none">Байхгүй</string>
+    <string name="mmp_menu_repeatone">Нэг удаа давтах</string>
+    <string name="mmp_menu_repeatall">Бүгдийг давтах</string>
+    <string name="mmp_menu_shuffleoff">Солилцоо офф</string>
+    <string name="mmp_menu_shuffleon">Солилцоо он</string>
+    <string name="mmp_menu_short">Богино</string>
+    <string name="mmp_menu_long">Урт</string>
+    <string name="mmp_menu_dissolve">Уусгах</string>
+    <string name="mmp_menu_wiperight">баруун тийш арч</string>
+    <string name="mmp_menu_wipeleft">зүүн тийш арч</string>
+    <string name="mmp_menu_wipeup">дээшээ арч</string>
+    <string name="mmp_menu_wipedown">доошоо арч</string>
+    <string name="mmp_menu_boxin">Оролтын блок</string>
+    <string name="mmp_menu_boxout">хайрцаг гадна</string>
+
+    <string name="mmp_menu_random">Санаандгүй</string>
+
+
+    <string name="mmp_menu_off">Офф</string>
+    <string name="mmp_menu_singleline">Нэг шугам</string>
+    <string name="mmp_menu_multiline">Олон шугам</string>
+    <string name="mmp_menu_auto">Авто</string>
+    <string name="mmp_menu_userdefine">Хэрэглэгч тодруулах</string>
+    <string name="mmp_menu_user">Хэрэглэгч</string>
+    <string name="mmp_menu_cinema">Кино</string>
+    <string name="mmp_menu_sport">Спорт</string>
+    <string name="mmp_menu_vivid">Тод</string>
+    <string name="mmp_menu_hibright">Тодотгол</string>
+    <string name="mmp_menu_normal">Жирийн</string>
+    <string name="mmp_menu_letterbox">Захидлын хайрцаг</string>
+    <string name="mmp_menu_scan">Скан</string>
+    <string name="mmp_menu_zoom">Томруулах</string>
+    <string name="mmp_menu_dotbydot">Цэг цэгээр</string>
+
+    <string name="mmp_menu_regular">Тогтмол</string>
+    <string name="mmp_menu_italic">Налуу</string>
+    <string name="mmp_menu_bold">Тод</string>
+    <string name="mmp_menu_outline">Тод налуу</string>
+    <string name="mmp_menu_white">Цагаан</string>
+    <string name="mmp_menu_blue">Цэнхэр</string>
+    <string name="mmp_menu_red">Улаан</string>
+    <string name="mmp_menu_green">Ногоон</string>
+    <string name="mmp_menu_black">Хар</string>
+    <string name="mmp_menu_lyricoptions">Үгийн тохируулга</string>
+
+    <string name="mmp_menu_showscore">Спектрум харуул</string>
+    <string name="mmp_menu_hidescore">Спектрум нуу</string>
+    <string name="mmp_menu_onlyaudio">Зөвхөн Аудио</string>
+
+
+    <string name="mmp_photo">Гэрэл зураг</string>
+    <string name="mmp_audio">Аудио</string>
+    <string name="mmp_video">Видео</string>
+    <string name="mmp_text">Бичиг</string>
+    <string name="mmp_select">Сонгох</string>
+    <string name="mmp_input">Орох</string>
+    <string name="mmp_exit">ГАРЦ</string>
+    <string name="mmp_emptyfile">Энэ хавтас хоосон!</string>
+    <string name="mmp_reutip">Хавтасанд хуваарилалт хийж байна, хүлээнэ үү...</string>
+    <string name="mmp_pop_repeat_tvrepeat">Бүгдийг давтах</string>
+    <string name="mmp_pop_repeat_tvsingle">Нэг удаа давтах</string>
+    <string name="mmp_pop_time_tv">Богино</string>
+    <string name="mmp_pop_view_tv">Байхгүй</string>
+    <string name="mmp_pop_menu">Цэс</string>
+    <string name="mmp_pop_enter">Орох</string>
+    <string name="mmp_info_album">Цомог:</string>
+    <string name="mmp_info_orientation">Баримжаа:</string>
+    <string name="mmp_info_artist">Уран бүтээлч :</string>
+    <string name="mmp_info_name">Нэр:</string>
+    <string name="mmp_info_date">Огноо:</string>
+    <string name="mmp_info_size">Хэмжээ :</string>
+    <string name="mmp_info_next">Дараач:</string>
+    <string name="mmp_info_audio">Аудио:</string>
+    <string name="mmp_info_exposure">Өртөх хугацаа:</string>
+    <string name="mmp_info_fnumber">Дугаар:</string>
+    <string name="mmp_info_program">Өртөх хөтөлбөр:</string>
+    <string name="mmp_info_colorspace">Өнгийн зай:</string>
+    <string name="mmp_info_title">Нэр :</string>
+    <string name="mmp_info_genre">Төрөл:</string>
+    <string name="mmp_info_year">Он:</string>
+    <string name="mmp_info_duration">Хугацаа:</string>
+    <string name="mmp_info_director">Захирал:</string>
+    <string name="mmp_info_copyrght">Зохиогчийн эрх:</string>
+
+    <string name="mmp_info_lastline">Сүүлийн шугам:</string>
+    <string name="mmp_info_nextline">Дараачийн шугам:</string>
+    <string name="mmp_info_lastpage">Сүүлийн Хуудас</string>
+    <string name="mmp_info_nextpage">Дараагийн Хуудас</string>
+
+    <string name="mmp_info_nolrc">lrc үгүй</string>
+    <string name="mmp_loading_tip">Хавтасанд хуваарилалт хийж байна, хүлээнэ үү...</string>
+    <string name="mmp_user_name">Хэрэглэгчийн нэр</string>
+    <string name="mmp_password">Нууц үг</string>
+    <string name="mmp_confirm">Баталгаажуулах</string>
+    <string name="mmp_ok">ОК</string>
+    <string name="mmp_cancel">ХҮЧИНГҮЙ БОЛГО</string>
+
+    <string name="mmp_login_failed_tip">Хэрэглэгчийн нэр ба нууц үгийн алдаа!</string>
+    <string name="mmp_dlnaserver_disconnected">DLNA сервер алга болсон, ажиллагаа ба серверийн байдлыг шалгана уу!
+    </string>
+    <string name="mmp_title_copy">Хуулж байна</string>
+    <string name="mmp_title_confirm_replace">Файлын байр өөрчлөлтийг батал</string>
+    <string name="mmp_title_confirm_delete">Файл устгасаныг батал</string>
+    <string name="mmp_message_confirm_replace">Хавтасанд \n%s нэртэй файл аль хэдийнээ байна</string>
+    <string name="mmp_message_confirm_delete">Сонгосон файлуудыг устгахдаа итгэлтэй байна уу?</string>
+
+    <string name="mmp_yes">Тийм</string>
+    <string name="mmp_yes_to_all">Тийм Бүгдийг</string>
+    <string name="mmp_no">ҮГҮЙ</string>
+
+    <string name="mmp_capture_title">Барилтын Лого</string>
+    <string name="mmp_capture_confirm">Та дэлгэцийг тодруулмаар байна уу?</string>
+    <string name="mmp_toast_no_photoframe">Тоглуулах зургийн хүрээ дүрс байхгүй</string>
+
+    <string name="mmp_video_notsupport">Дүрс бичлэг Codec дэмжлэггүй</string>
+    <string name="mmp_audio_notsupport">Аудио Формат дэмжигдээгүй</string>
+    <string name="mmp_video_only">Зөвхөн дүрст бичлэг</string>
+    <string name="mmp_frame_photo_sleeptime">Унтах цаг</string>
+    <string name="mmp_sleeptime_lable">Унтах цаг:</string>
+    <string name="mmp_video_stopresume">Зогсоох ажил</string>
+    <string name="mmp_can_notpause">Түр зогсоож болохгүй байна</string>
+
+    <string name="mmp_photo_type_notsupport">Файл дэмжлэггүй</string>
+
+    <string name="mmp_lable_rorate">Эргүүлэх</string>
+    <string name="mmp_lable_subtitle_off">Офф</string>
+
+    <string name="mmp_info_whitebalance">Цагаан тэнцэл:</string>
+    <string name="mmp_info_make">үйлдвэрлэгч:</string>
+    <string name="mmp_info_model">загвар:</string>
+    <string name="mmp_info_flash">Хөшигний:</string>
+    <string name="mmp_info_focallength">Фокусын урт:</string>
+    <string name="mmp_menu_pic_setting">Зургийн тохиргоо</string>
+    <string name="mmp_menu_audio_setting">Аудио Тохируулга</string>
+
+    <string name="mmp_file_notsupport">Файл дэмжлэггүй</string>
+    <string name="mmp_notsupport">Дэмжлэггүй</string>
+    <string name="mmp_seek_notsupport">Хайлт дэмжлэггүй</string>
+    <string name="mmp_step_notsupport">Алхам дэмжлэггүй</string>
+    <string name="mmp_featue_notsupport">Онцлог ажиллагаагүй</string>
+    <string name="mmp_buffer_not_enough">Буфер хүрэлцээгүй</string>
+    <string name="mmp_nodevice">Холбогдсон Төхөөрөмж байхгүй!</string>
+    <string name="mmp_time_out">Таны оруулсан цагийн код буруу!\n Нийт хугацаанаас багыг батагаажуулна уу</string>
+    <string name="mmp_file_corrupt">Файл эвдэрсэн</string>
+    <string name="mmp_menu_mount_iso">Одоогийн iso файлын холболт</string>
+    <string name="mmp_menu_unmount_iso">Одоогийн төхөөрөмжийн холболт</string>
+
+    <string name="mmp_media_info_scrambled_audio_video_service">Дүрс бичлэг ба аудиог нийлүүл</string>
+    <string name="mmp_media_info_scrambled_audio_clear_video_service">Аудиог нийлүүл</string>
+    <string name="mmp_media_info_scrambled_audio_no_video_service">Аудиог нийлүүл, зөвхөн аудио</string>
+    <string name="mmp_media_info_scrambled_video_clear_audio_service">Дүрс бичлэгийг нийлүүл</string>
+    <string name="mmp_media_info_scrambled_video_no_audio_service">Дүрс бичлэгийг нийлүүл, зөвхөн дүрст бичлэг</string>
+
+
+    <string name="mmp_txt_const_font">ҮГҮЙ</string>
+
+    <string name="mmp_drm_register_continue">Үргэлжлүүлэх үү?</string>
+
+    <string name="mmp_divx_title">Гарчиг</string>
+    <string name="mmp_divx_edition">Засвар</string>
+    <string name="mmp_divx_chapter">Бүлэг</string>
+
+
+    <string name="mmp_divx_titleName">Нэр :</string>
+    <string name="mmp_divx_chapterName">Бүлэг:</string>
+    <string name="mmp_divx_rateName">Хэмжээ:</string>
+    <string name="mmp_divx_audioName">Аудио:</string>
+    <string name="mmp_divx_subtitleName">Хадмал:</string>
+    <string name="mmp_dmr_starting">DMR эхлэх</string>
+    <string name="mmp_dmr_started">DMR эхэлсэн, хэрэглэнэ үү</string>
+    <string name="mmp_dmr_network_failed">DMR эхлэхэд алдаа гарсан, Ажиллагаагүй</string>
+    <string name="mmp_dmr_url_failed">Ажиллагаагүй URL</string>
+
+    <string name="mmp_wrong_psw">Нууц үг буруу. Нийт %1$s Оролдлого, %2$s оролдсон, Дахин оролдоно уу!</string>
+    <string name="mmp_subtitle_encoding">Хадмал Орчуулга Кодчлол</string>
+    <string name="mmp_last_memory">Сүүлийн Ой Санамж</string>
+    <string name="mmp_last_memory_off">Офф</string>
+    <string name="mmp_last_memory_time">Хугацаа</string>
+    <string name="mmp_last_memory_position">Байрлал</string>
+
+    <string name="ci_menu_pin_correct">Зөв!</string>
+    <string name="ci_menu_pin_outoftry">Гурван удаа алдаа</string>
+    <string name="mmp_menu_3d_photo">3D Гэрэл Зураг</string>
+    <string name="mmp_menu_dmr">Dmr</string>
+    <string name="mmp_pop_zoomscale">X</string>
+    <string name="mmp_tip_play">Тогло</string>
+    <string name="mmp_tip_exit">ГАРАХ</string>
+    <string name="mmp_tip_select">Сонго</string>
+    <string name="mmp_drm_register">Таны төхөөрөмж Divx@ хамгаалалттай зүрст бичлэгийг тоглуулах зөвшөөрөл байхгүй
+    </string>
+    <string name="mmp_drm_register_expired">Divx@ түрээсний хугацаа дууссан</string>
+    <string name="mmp_drm_register_used">Divx@ түрээс \n %1$s гадна %2$s харагдац</string>
+    <string name="mmp_video_seektime_title">Шилжиж очих цаг</string>
+</resources>

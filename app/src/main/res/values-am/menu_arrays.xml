@@ -1,0 +1,1203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+<!-- Video DTV00581215-->
+<string-array name="menu_video_gamma_array">
+<item>ጨለማ</item>
+<item>መሀከል</item>
+<item>ብሩህ</item>
+</string-array>
+<string-array name="menu_video_color_temperature2_array">
+<!-- <item> ተጠቃሚ </item> -->
+<item>ቀዝቃዛ</item>
+<item> ደረጃ </item>
+<item>ሞቃት</item>
+</string-array>
+<string-array name="menu_video_dnr_array">
+<item>ጠፋ</item>
+<item>ህግ</item>
+<item>መሀከለኛ</item>
+<item>ጠንካራ</item>
+<item>ራስ</item>
+</string-array>
+<!-- mpeg nr -->
+<string-array name="menu_video_mpeg_nr_array">
+<item>ጠፋ</item>
+<item>ህግ</item>
+<item>መሀከለኛ</item>
+<item>ጠንካራ</item>
+</string-array>
+<string-array name="menu_video_luma_array">
+<item>ጠፋ</item>
+<item>ህግ</item>
+<item>መሀከለኛ</item>
+<item>ጠንካራ</item>
+</string-array>
+<string-array name="menu_video_flesh_tone_array">
+<item>ጠፋ</item>
+<item>በራ</item>
+</string-array>
+<string-array name="menu_video_flesh_tone_us_array">
+<item>ጠፋ</item>
+<item>ህግ</item>
+<item>መሀከለኛ</item>
+<item>ከፍታ</item>
+</string-array>
+<string-array name="menu_video_black_bar_detection_array">
+<item>ጠፋ</item>
+<item>በራ</item>
+</string-array>
+<string-array name="menu_video_super_resolution_array">
+<item>ጠፋ</item>
+<item>በራ</item>
+</string-array>
+<!-- di film mode -->
+<string-array name="menu_video_di_film_mode_array">
+<item>ጠፋ</item>
+<item>ራስ</item>
+</string-array>
+<string-array name="menu_video_blue_stretch_array">
+<item>ጠፋ</item>
+<item>በራ</item>
+</string-array>
+<string-array name="menu_video_game_mode_array">
+<item>ጠፋ</item>
+<item>በራ</item>
+</string-array>
+<string-array name="menu_video_pq_split_mode_array">
+<item>ጠፋ</item>
+<item>በራ</item>
+</string-array>
+<!-- mjc effect -->
+<string-array name="menu_video_mjc_effect_array">
+<item>ጠፋ</item>
+<item>ህግ</item>
+<item>መሀከል</item>
+<item>ከፍታ</item>
+</string-array>
+<!-- mjc demo partition -->
+<string-array name="menu_video_mjc_demo_partition_array">
+<item>ሁሉ</item>
+<item>ቀኝ</item>
+<item>ግራ</item>
+</string-array>
+<!-- mjc mode -->
+<string-array name="menu_video_mjc_mode">
+<item> የተለመደ </item>
+<item>ፊልም ብቻ</item>
+<item>ጥራት መጨመሪያ ብቻ</item>
+</string-array>
+<!-- vga mode -->
+<string-array name="menu_video_vga_mode_array">
+<item>ግራፊክ</item>
+<item>ቪዲዮ</item>
+</string-array>
+<!-- hdmi mode -->
+<string-array name="menu_video_hdmi_mode_array">
+<item>ራስ</item>
+<item>ግራፊክ</item>
+<item>ቪዲዮ</item>
+</string-array>
+<!-- 3d mode -->
+<string-array name="menu_video_3d_mode_array">
+        <item>OFF</item>
+<item>ራስ-ሰር ሞድ</item>
+<item>ከ 2ዲ - ወደ - 3ዲ</item>
+<item>የክፈፍ ትዕዛዝ</item>
+<item>ጎን ለጎን</item>
+<item>ከላይ-እና-ታች</item>
+<item>REALD MODE</item>
+<item>SENSIO</item>
+<item>መውጫ መስመር</item>
+<item>DOT ALT MODE</item>
+<item>ቸክ ቦርድ</item>
+</string-array>
+
+<!-- 3d_navigation -->
+<string-array name="menu_video_3d_nav_array">
+<item>በእጅ</item>
+<item>ከፊል-ራስ ሰር</item>
+<item>ራስ</item>
+</string-array>
+
+<!-- 3d_image_safety -->
+<string-array name="menu_video_3d_image_safety_array">
+<item>ጠፋ</item>
+<item>ህግ</item>
+<item>መሀከል</item>
+<item>ከፍታ</item>
+</string-array>
+
+<!-- left and right exchange switch -->
+<string-array name="menu_video_3d_lrswitch_array">
+<item>ጠፋ</item>
+<item>በራ</item>
+</string-array>
+<!-- 3d to 2d switch -->
+<string-array name="menu_video_3d_3t2switch_array">
+<item>ጠፋ</item>
+<item>በራ</item>
+</string-array>
+
+<!-- Audio -->
+<string-array name="menu_audio_srs_mode_array">
+<item>ጠፋ</item>
+<item>በራ</item>
+</string-array>
+<string-array name="menu_audio_equalizer_array">
+<item>ጠፋ</item>
+<item>ሮክ</item>
+<item>ፖፕ</item>
+<item>ቀጥታ</item>
+<item>ዳንስ</item>
+<item>ቴክኖ</item>
+<item>ክላሲክ</item>
+<item>ስስ</item>
+</string-array>
+<string-array name="menu_audio_equalizer_array_us">
+<item>ጠፋ</item>
+<item>ሮክ</item>
+<item>ፖፕ</item>
+<item>ቀጥታ</item>
+<item>ዳንስ</item>
+<item>ቴክኖ</item>
+<item>ክላሲክ</item>
+<item>ስስ</item>
+<item>ብጁ 1</item>
+<item>ብጁ 2</item>
+        <item>custom3</item>
+</string-array>
+<string-array name="menu_audio_speaker_mode_array">
+<item>ጠፋ</item>
+<item>በራ</item>
+</string-array>
+<string-array name="menu_audio_spdif_mode_array">
+<item>ጠፋ</item>
+<item>ሲፒኤም ሮው</item>
+<item>ሲፒኤም 16</item>
+<item>ሲፒኤም 24</item>
+</string-array>
+<!-- DTV00580924 -->
+<string-array name="menu_audio_spdif_mode_us_array">
+<item>ጠፋ</item>
+<item>ዶልቢ ዲጂታል</item>
+<item>PCM</item>
+
+</string-array>
+<string-array name="menu_audio_avc_mode_array">
+<item>ጠፋ</item>
+<item>በራ</item>
+</string-array>
+<!-- type -->
+<string-array name="menu_audio_type_array">
+<item> የተለመደ </item>
+<item>የመስማት ችግር</item>
+<item>ማየት የተሳነው</item>
+</string-array>
+<!-- speaker -->
+<string-array name="menu_audio_visually_speaker_array">
+<item>ጠፋ</item>
+<item>በራ</item>
+</string-array>
+<!-- headphone -->
+<string-array name="menu_audio_visually_headphone_array">
+<item>ጠፋ</item>
+<item>በራ</item>
+</string-array>
+
+<string-array name="menu_audio_bbe_mode_array">
+<item>ጠፋ</item>
+<item>BBE</item>
+<item>በ ቢቢኢ </item>
+</string-array>
+
+<string-array name="menu_audio_pippop_mode_array">
+<item>ጠፋ</item>
+<item>PIP</item>
+<item>POP</item>
+</string-array>
+
+<string-array name="menu_audio_downmixmode_array">
+<item>ስቲሪዮ</item>
+<item>ራስ ሰር ስቲሪዮ</item>
+<item>ዙሪያውን</item>
+</string-array>
+<string-array name="menu_audio_downmixmode_eu_array">
+<item>ዙሪያውን</item>
+<item>ስቲሪዮ</item>
+<item>ራስ ሰር ስቲሪዮ</item>
+</string-array>
+<!-- TV -->
+<string-array name="menu_tv_tuner_mode_array">
+<item>አነቴና</item>
+<item>ገመድ</item>
+</string-array>
+<string-array name="menu_tv_audio_channel_array">
+<item>አንድ</item>
+<item>ስቲሪዮ</item>
+<item>ጥንድ1</item>
+<item>ጥንድ2</item>
+</string-array>
+<string-array name="menu_tv_audio_channel_mts_array">
+<item>አንድ</item>
+<item>ስቲሪዮ</item>
+<item>SAP</item>
+</string-array>
+<!-- fix DTV00581226 -->
+<string-array name="menu_tv_audio_language_array">
+<item>እንግሊዘኛ</item>
+<item>ስፓንኛ</item>
+<item>ፈረንሳይኛ</item>
+</string-array>
+<string-array name="menu_tv_subtitle_language_eu_array">
+<item>ያልታወቀ</item>
+<item>ቤላሩሲኛ</item>
+<item>ካንቶኒስ</item>
+<item>ካታላን</item>
+<item>ክሮሺያዊ</item>
+<item>ቼክ</item>
+<item>ዴንማርካዊ</item>
+<item>ደች</item>
+<item>እንግሊዘኛ</item>
+<item>ኢስቶኒያ</item>
+<item>ፊንላንድኛ</item>
+<item>ፈረንሳይኛ</item>
+<item>ጌይሊክ</item>
+<item>አየርላንዳዊ</item>
+<item>ጋልሺሲያንኛ</item>
+<item>ጀርመናዊ</item>
+<item>ግሪክ</item>
+<item>ሂንዲ</item>
+<item>ሀንጋሪኛ</item>
+<item>ጣልያናዊ</item>
+<item>አይስላንድኛ</item>
+<item>ጃፓንኛ</item>
+<item>ኮሪያኛ</item>
+<item>ማንዳሪን</item>
+<item>ማሪኦ</item>
+<item>ኖርዌይኛ</item>
+<item>ፖላንዳዊ</item>
+<item>ፖርቱጋልኛ</item>
+<item>ሮማኒያንኛ</item>
+<item>ሩሲያኛ</item>
+<item>ሳሚ</item>
+<item>ሰርቢያን</item>
+<item>ስሎቫክ</item>
+<item>ስሎቫኒያኛ</item>
+<item>ስፓኒሽ</item>
+<item>ዊውድናዊ</item>
+<item>ቱሪክሽ</item>
+<item>ዌልስ</item>
+<item>የመጀመሪያ ድምጽ</item>
+<item>ትረካ</item>
+<item>ያልተወሰነ</item>
+<item>ጠፋ</item>
+</string-array>
+<string-array name="menu_tv_audio_language_eu_array">
+<item>እንግሊዘኛ</item>
+<item>ኢስቶኒያ</item>
+<item>ፊንላንድኛ</item>
+<item>ፈረንሳይኛ</item>
+<item>ጌይሊክ</item>
+<item>አየርላንዳዊ</item>
+<item>ጋልሺሲያንኛ</item>
+<item>ጀርመናዊ</item>
+<item>ግሪክ</item>
+<item>ሂንዲ</item>
+<item>ሀንጋሪኛ</item>
+<item>ጣልያናዊ</item>
+<item>አይስላንድኛ</item>
+<item>ጃፓንኛ</item>
+<item>ኮሪያኛ</item>
+<item>ማንዳሪን</item>
+<item>ማሪኦ</item>
+<item>ኖርዌይኛ</item>
+<item>ፖላንዳዊ</item>
+<item>ፖርቱጋልኛ</item>
+<item>ሮማኒያንኛ</item>
+<item>ሩሲያኛ</item>
+<item>ሳሚ</item>
+<item>ሰርቢያን</item>
+<item>ስሎቫክ</item>
+<item>ስሎቫኒያኛ</item>
+<item>ስፓኒሽ</item>
+<item>ዊውድናዊ</item>
+<item>ቱሪክሽ</item>
+<item>ዌልስ</item>
+<item>የመጀመሪያ ድምጽ</item>
+<item>ትረካ</item>
+<item>ያልተወሰነ</item>
+<item>ያልታወቀ</item>
+<item>ቤላሩሲኛ</item>
+<item>ካንቶኒስ</item>
+<item>ካታላን</item>
+<item>ክሮሺያዊ</item>
+<item>ቼክ</item>
+<item>ዴንማርካዊ</item>
+<item>ደች</item>
+</string-array>
+<string-array name="menu_tv_rf_signal_quality">
+<item>ጥሩ</item>
+<item>መሀከለኛ</item>
+<item>ደካማ</item>
+</string-array>
+<string-array name="menu_tv_tv_system_array">
+<item>ራስ</item>
+        <item> B/G</item>
+        <item> A2 B/G</item>
+<item>I</item>
+        <item> D/K</item>
+        <item> A2 D/K</item>
+        <item> A2 D/K1</item>
+        <item> A2 D/K2</item>
+<item>M</item>
+</string-array>
+<string-array name="menu_tv_sound_system_array">
+        <item> B/G</item>
+        <item> A2 B/G</item>
+<item>L</item>
+		<item> L\&#039;</item>
+<item>I</item>
+        <item> D/K</item>
+        <item> A2 D/K</item>
+        <item> A2 D/K1</item>
+        <item> A2 D/K2</item>
+</string-array>
+<string-array name="menu_tv_color_system_array">
+<item>ራስ</item>
+<item>PAL</item>
+<item>SECAM</item>
+<item>NTSC</item>
+</string-array>
+<string-array name="menu_tv_color_system_array_eu_edit">
+<item>ራስ</item>
+<item>NTSC</item>
+<item>PAL</item>
+<item>SECAM</item>
+</string-array>
+<string-array name="menu_tv_scan_mode_array">
+<item>ራስ</item>
+<item>16QAM</item>
+<item>32QAM</item>
+<item>64QAM</item>
+<item>128QAM</item>
+<item>256QAM</item>
+</string-array>
+<string-array name="menu_tv_mdu_type_array">
+<item>ዩንቨርሳል</item>
+        <item> MDU 1</item>
+        <item> MDU 2</item>
+        <item> MDU 3</item>
+        <item> MDU 4</item>
+        <item> MDU 5</item>
+</string-array>
+<string-array name="menu_tv_scan_frequency_plan_array">
+<item>STD</item>
+<item>IRC</item>
+<item>HRC</item>
+</string-array>
+<string-array name="menu_tv_scan_modulation_array">
+<item>QAM64</item>
+<item>QAM256</item>
+</string-array>
+<string-array name="menu_tv_us_scan_mode_array">
+<item>አናሎግ / ዲጂታል</item>
+<item>አናሎግ</item>
+<item>ዲጂታል</item>
+</string-array>
+<string-array name="menu_tv_channeledit_array">
+<item>የጣቢያ መረጃ</item>
+<item>አስገባ</item>
+<item>አጥፋ</item>
+<item>ይቀይሩ</item>
+</string-array>
+<string-array name="menu_tv_freeze_channel_array">
+<item>ጠፋ</item>
+<item>በራ</item>
+</string-array>
+<string-array name="menu_tv_fa_dataservice_array">
+<item>ጠፋ</item>
+<item>በራ</item>
+</string-array>
+<string-array name="menu_tv_fine_tune_array">
+<item>ጠፋ</item>
+<item>በራ</item>
+</string-array>
+<string-array name="menu_tv_skip_ch_array">
+<item>ጠፋ</item>
+<item>በራ</item>
+</string-array>
+
+<!-- setup -->
+<string-array name="menu_setup_language_array">
+<item>እንግሊዘኛ</item>
+<item>ቀለል ያለ ቻይንኛ</item>
+</string-array>
+<string-array name="menu_setup_dpms_array">
+<item>ጠፋ</item>
+<item>በራ</item>
+</string-array>
+<string-array name="menu_setup_ginga_array">
+<item>ጠፋ</item>
+<item>በራ</item>
+</string-array>
+<string-array name="menu_setup_blue_mute_array">
+<item>ጠፋ</item>
+<item>በራ</item>
+</string-array>
+<string-array name="menu_setup_fast_boot_array">
+<item>ጠፋ</item>
+<item>በራ</item>
+</string-array>
+<string-array name="menu_setup_msi_array">
+<item>ጠፋ</item>
+<item>በራ</item>
+</string-array>
+<string-array name="menu_setup_poweron_music_array">
+<item>ጠፋ</item>
+<item>በራ</item>
+</string-array>
+<string-array name="menu_setup_tv_single_signal_quality">
+        <item>poor</item>
+        <item>normal</item>
+        <item>good</item>
+</string-array>
+<string-array name="menu_setup_scart">
+<item>ራስ</item>
+<item>ቅልቅል</item>
+<item>RGB</item>
+<item>CVBS</item>
+<item>ኤስ-ቪድዮ</item>
+</string-array>
+<string-array name="menu_setup_capturelogo_array">
+<item>ነባሪ</item>
+        <item>0</item>
+        <item>1</item>
+<item>የለም</item>
+</string-array>
+
+<string-array name="menu_setup_analog_subtitle_array">
+<item>ጠፋ</item>
+<item>በራ</item>
+<item>ድምጸ-ከል ያድርጉ</item>
+</string-array>
+<string-array name="menu_setup_subtitle_type_array">
+<item> የተለመደ </item>
+<item>የመስማት ችግር</item>
+</string-array>
+
+<string-array name="screen_mode_array_sa">
+<item>ራስ</item>
+<item> የተለመደ </item>
+<item>ማጉላት</item>
+</string-array>
+<string-array name="screen_mode_array_vga">
+<item> የተለመደ </item>
+<item>ትንሽ ሳጥን</item>
+<item>ማጉላት</item>
+</string-array>
+<string-array name="screen_mode_array_sa_analog">
+<item>ራስ</item>
+<item> የተለመደ </item>
+<item>ትንሽ ሳጥን</item>
+<item>ፓኖራማ</item>
+<item>ማጉላት</item>
+<item>ነጥብ በነጥብ</item>
+</string-array>
+<string-array name="screen_mode_array_us_dtv">
+<item>ራስ</item>
+<item> የተለመደ </item>
+<item>ትንሽ ሳጥን</item>
+<item>ፓኖራማ</item>
+<item>ማጉላት</item>
+<item>ነጥብ በነጥብ</item>
+</string-array>
+<string-array name="screen_mode_array_us_pip_main_analog">
+<item>ራስ</item>
+<item> የተለመደ </item>
+<item>ትንሽ ሳጥን</item>
+<item>ማጉላት</item>
+<item>ነጥብ በነጥብ</item>
+</string-array>
+<string-array name="screen_mode_array_eu_analog">
+<item>ራስ</item>
+<item> የተለመደ </item>
+<item>ትንሽ ሳጥን</item>
+<item>ፓኖራማ</item>
+</string-array>
+<string-array name="screen_mode_array_sa_pop">
+<item>ራስ</item>
+<item> የተለመደ </item>
+<item>ትንሽ ሳጥን</item>
+<item>ማጉላት</item>
+</string-array>
+<string-array name="screen_mode_array_us_pip_sub">
+<item>ራስ</item>
+<item> የተለመደ </item>
+<item>ትንሽ ሳጥን</item>
+</string-array>
+<string-array name="screen_mode_array_us_pop">
+<item>ራስ</item>
+<item> የተለመደ </item>
+<item>ማጉላት</item>
+</string-array>
+<string-array name="screen_mode_array_sa_pip">
+<item>ራስ</item>
+<item> የተለመደ </item>
+<item>ትንሽ ሳጥን</item>
+</string-array>
+<string-array name="screen_mode_array_us_pip">
+<item>ራስ</item>
+<item> የተለመደ </item>
+</string-array>
+<!--DTV00580325  -->
+<string-array name="menu_setup_enable_caption_array">
+<item>አዎ</item>
+<item>አይደለም</item>
+<item>ድምጸ-ከል በማድረግ ላይ</item>
+</string-array>
+<string-array name="menu_setup_analog_caption_array">
+<item>ጠፋ</item>
+<item>CC1</item>
+<item>CC2</item>
+<item>CC3</item>
+<item>CC4</item>
+<item>ፅሁፍ 1</item>
+<item>ፅሁፍ 2</item>
+<item>ፅሁፍ 3</item>
+<item>ፅሁፍ 4</item>
+</string-array>
+<string-array name="menu_setup_digital_caption_array">
+<item>ጠፋ</item>
+<item>አገልግሎት1</item>
+<item>አገልግሎት2</item>
+<item>አገልግሎት3</item>
+<item>አገልግሎት4</item>
+<item>አገልግሎት5</item>
+<item>አገልግሎት6</item>
+</string-array>
+<string-array name="menu_setup_digital_caption_sa_array">
+<item>ጠፋ</item>
+<item>ቋንቋ 1</item>
+<item>ቋንቋ 2</item>
+<item>ቋንቋ3</item>
+<item>ቋንቋ 4</item>
+<item>ቋንቋ5</item>
+<item>ቋንቋ 6</item>
+<item>ቋንቋ 7</item>
+<item>ቋንቋ 8</item>
+</string-array>
+<string-array name="menu_setup_superimpose_setup_array">
+<item>ጠፋ</item>
+<item>ቋንቋ 1</item>
+<item>ቋንቋ 2</item>
+</string-array>
+<string-array name="menu_setup_caption_style_array">
+<item>እንደ አሰራጭ</item>
+<item>ብጁ</item>
+</string-array>
+<string-array name="menu_setup_font_size_array">
+<item>ትንሽ</item>
+<item>መሀከለኛ</item>
+<item>ትልቅ</item>
+</string-array>
+<string-array name="menu_setup_font_style_array">
+<item>ቅጥ 1</item>
+<item>ቅጥ 2</item>
+<item>ቅጥ 3</item>
+<item>ቅጥ 4</item>
+<item>ቅጥ 5</item>
+<item>ቅጥ 6</item>
+<item>ቅጥ 7</item>
+
+</string-array>
+<string-array name="menu_setup_font_color_array">
+<item>ጥቁር</item>
+<item>ነጭ</item>
+<item>አረንጓዴ</item>
+<item>ሰማያዊ</item>
+<item>ቀይ</item>
+<item>ሲያን</item>
+<item>ቢጫ</item>
+<item>ማጀንታ</item>
+
+</string-array>
+<string-array name="menu_setup_font_opacity_array">
+<item>ጠንካራ</item>
+<item>ብርሀን አስተላላፊ</item>
+<item>ግልጽ</item>
+</string-array>
+<string-array name="menu_setup_background_color_array">
+<item>ጥቁር</item>
+<item>ነጭ</item>
+<item>አረንጓዴ</item>
+<item>ሰማያዊ</item>
+<item>ቀይ</item>
+<item>ሲያን</item>
+<item>ቢጫ</item>
+<item>ማጀንታ</item>
+
+</string-array>
+<string-array name="menu_setup_background_opacity_array">
+<item>ጠንካራ</item>
+<item>ብርሀን አስተላላፊ</item>
+<item>ግልጽ</item>
+</string-array>
+<string-array name="menu_setup_window_color_array">
+<item>ጥቁር</item>
+<item>ነጭ</item>
+<item>አረንጓዴ</item>
+<item>ሰማያዊ</item>
+<item>ቀይ</item>
+<item>ሲያን</item>
+<item>ቢጫ</item>
+<item>ማጀንታ</item>
+
+</string-array>
+<string-array name="menu_setup_window_opacity_array">
+<item>ጠንካራ</item>
+<item>ብርሀን አስተላላፊ</item>
+<item>ግልጽ</item>
+</string-array>
+<string-array name="menu_setup_atv_record_mode_array">
+<item>ጠፋ</item>
+<item>በራ</item>
+</string-array>
+<string-array name="menu_setup_time_shifting_mode_array">
+<item>ጠፋ</item>
+<item>በራ</item>
+</string-array>
+<string-array name="menu_setup_record_quality_array">
+<item>ህግ</item>
+<item>መሀከል</item>
+<item>ከፍታ</item>
+</string-array>
+<string-array name="menu_parental_age_ratings_array">
+<item>የለም</item>
+<item>ከ 10 በታች</item>
+<item>ከ 12 በታች</item>
+<item>ከ 14 በታች</item>
+<item>ከ 16 በታች</item>
+<item>ከ 18 በታች</item>
+</string-array>
+<string-array name="menu_parental_age_ratings_array_eu">
+<item>የለም</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+</string-array>
+<string-array name="menu_parental_age_ratings_array_eu_ocean_aus">
+<item>ያልታገደ</item>
+<item>ከ R እና ከዛ በላይ ያሉትን አግድ</item>
+<item>ከ AV እና ከዛ በላይ ያሉትን አግድ</item>
+<item>ከ MA እና ከዛ በላይ ያሉትን አግድ</item>
+<item>ከ M እና ከዛ በላይ ያሉትን አግድ</item>
+<item>ከ PG እና ከዛ በላይ ያሉትን አግድ</item>
+<item>ከ G እና ከዛ በላይ ያሉትን አግድ</item>
+<item>ሁሉንም አግድ</item>
+</string-array>
+<!-- fix CR DTV580531 -->
+<string-array name="menu_parental_content_ratings_array">
+<item>ጠፋ</item>
+<item>መድሐኒቶች</item>
+<item>ብጥብጥ</item>
+<item>ጾታ</item>
+<item>አመጽ &amp; አደንዛዥ እጾች</item>
+<item>ወሲብ &amp; አደንዛዥ እጾች</item>
+        <item>Violence &amp;  Sex</item>
+<item>አመጽ &amp; ወሲብ &amp; አደንዛዥ እጾች</item>
+
+</string-array>
+
+<string-array name="menu_factory_high_deviation_mode_array">
+<item>ጠፋ</item>
+<item>በራ</item>
+</string-array>
+<string-array name="menu_factory_carrier_shift_function_array">
+<item>ጠፋ</item>
+<item>በራ</item>
+</string-array>
+<string-array name="menu_factory_fm_saturation_mute_array">
+<item>ጠፋ</item>
+<item>በራ</item>
+</string-array>
+
+<string-array name="menu_parental_open_vchip_array">
+<item>ጠፋ</item>
+<item>በራ</item>
+</string-array>
+<string-array name="menu_parental_block_unrated_array">
+<item>ጠፋ</item>
+<item>በራ</item>
+</string-array>
+<string-array name="menu_parental_rating_enable_array">
+<item>ጠፋ</item>
+<item>በራ</item>
+</string-array>
+<string-array name="menu_parental_block_channel_schedule_operation_array">
+<item>የለም</item>
+<item>መዘግየት</item>
+<item>አንዴ</item>
+</string-array>
+<string-array name="menu_setup_digital_teletext_language_array">
+<item>ያልታወቀ</item>
+<item>ቤላሩሲኛ</item>
+<item>ካንቶኒስ</item>
+<item>ካታላን</item>
+<item>ክሮሺያዊ</item>
+<item>ቼክ</item>
+<item>ዴንማርካዊ</item>
+<item>ደች</item>
+<item>እንግሊዘኛ</item>
+<item>ኢስቶኒያ</item>
+<item>ፊንላንድኛ</item>
+<item>ፈረንሳይኛ</item>
+<item>ጌይሊክ</item>
+<item>አየርላንዳዊ</item>
+<item>ጋልሺሲያንኛ</item>
+<item>ጀርመናዊ</item>
+<item>ግሪክ</item>
+<item>ሂንዲ</item>
+<item>ሀንጋሪኛ</item>
+<item>ጣልያናዊ</item>
+<item>አይስላንድኛ</item>
+<item>ጃፓንኛ</item>
+<item>ኮሪያኛ</item>
+<item>ማንዳሪን</item>
+<item>ማሪኦ</item>
+<item>ኖርዌይኛ</item>
+<item>ፖላንዳዊ</item>
+<item>ፖርቱጋልኛ</item>
+<item>ሮማኒያንኛ</item>
+<item>ሩሲያኛ</item>
+<item>ሳሚ</item>
+<item>ሰርቢያን</item>
+<item>ስሎቫክ</item>
+<item>ስሎቫኒያኛ</item>
+<item>ስፓኒሽ</item>
+<item>ዊውድናዊ</item>
+<item>ቱሪክሽ</item>
+<item>ዌልስ</item>
+<item>የመጀመሪያ ድምጽ</item>
+<item>ትረካ</item>
+<item>ያልተወሰነ</item>
+</string-array>
+<string-array name="menu_setup_decoding_page_language_array">
+<item>ምእራብ ዩሮ</item>
+<item>ምስራቅ ዩሮ</item>
+<item>ሩሲያ</item>
+<item>RUSSIA_2</item>
+		<item>GREEK</item>
+<item>ቱርክ</item>
+<item>አረብ / ሄብሪው</item>
+<item>ፐርሺያን</item>
+<item>አረብኛ</item>
+<item>የቤልሆለስ</item>
+</string-array>
+<string-array name="menu_setup_ttx_presentation_level_array">
+<item>ደረጃ 1.5</item>
+<item>ደረጃ 2.5</item>
+</string-array>
+<string-array name="menu_setup_us_timezone_array">
+<item>ኢስተርን ሰዓት</item>
+<item>ሀዋይ</item>
+<item>አላስካ</item>
+<item>የፓስፊክ ሰዓት</item>
+<item>አሪዞና</item>
+<item>ማውንቴን ሰዓት</item>
+<item>ሴንትራል ሰዓት</item>
+<item>ኢንዲያና</item>
+</string-array>
+<string-array name="menu_setup_us_timezone_str">
+<item>አሜሪካ / ኒውዮርክ</item>
+<item>ፓስፊክ / ሆኖሉሉ</item>
+<item>አሜሪካ / አንኮሬጅ</item>
+<item>አሜሪካ / ሎስ አንጀለስ</item>
+<item>አሜሪካ / ፊኒክስ</item>
+<item>አሜሪካ / ዴንቨር</item>
+<item>አሜሪካ / ቺካጎ</item>
+<item>አሜሪካ / ኒውዮርክ</item>
+</string-array>
+
+<integer-array name="menu_setup_us_timezone_values">
+        <item>-5</item>
+        <item>-10</item>
+        <item>-9</item>
+        <item>-8</item>
+        <item>-7</item>
+        <item>-7</item>
+        <item>-6</item>
+        <item>-5</item>
+</integer-array>
+
+<string-array name="menu_setup_timezone_array">
+<item>GMT-12:00</item>
+<item>GMT-11:00</item>
+<item>GMT-10:00</item>
+<item>GMT-9:00</item>
+<item>GMT-8:00</item>
+<item>GMT-7:00</item>
+<item>GMT-6:00</item>
+<item>GMT-5:00</item>
+<item>GMT-4:00</item>
+<item>GMT-3:30</item>
+<item>GMT-3:00</item>
+<item>GMT-2:00</item>
+<item>GMT-1:00</item>
+<item>እንደ ስርጭት</item>
+<item>GMT+0:00</item>
+<item>GMT+1:00</item>
+<item>GMT+2:00</item>
+<item>GMT+3:00</item>
+<item>GMT+3:30</item>
+<item>GMT+4:00</item>
+<item>GMT+4:30</item>
+<item>GMT+5:00</item>
+<item>GMT+5:30</item>
+<item>GMT+5:45</item>
+<item>GMT+6:00</item>
+<item>GMT+6:30</item>
+<item>GMT+7:00</item>
+<item>GMT+8:00</item>
+<item>GMT+9:00</item>
+<item>GMT+9:30</item>
+<item>GMT+10:00</item>
+<item>GMT+11:00</item>
+<item>GMT+12:00</item>
+<item>GMT+12:45</item>
+<item>GMT+13:00</item>
+</string-array>
+
+<integer-array name="menu_setup_timezone_value_array">
+        <item>-12</item>
+        <item>-11</item>
+        <item>-10</item>
+        <item>-9</item>
+        <item>-8</item>
+        <item>-7</item>
+        <item>-6</item>
+        <item>-5</item>
+        <item>-4</item>
+        <item>-350</item>
+        <item>-3</item>
+        <item>-2</item>
+        <item>-1</item>
+        <item>0</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>350</item>
+        <item>4</item>
+        <item>450</item>
+        <item>5</item>
+        <item>550</item>
+        <item>575</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>950</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>-1125</item>
+        <item>-11</item>
+</integer-array>
+
+<string-array name="menu_setup_timezone_name_array">
+<item>እስያ / ማጋዳን</item>
+<item>ፓስፊክ / ሚድዌይ</item>
+<item>ፓስፊክ / ሆኖሉሉ</item>
+<item>አሜሪካ / አንኮሬጅ</item>
+<item>አሜሪካ / አንኮሬጅ</item>
+<item>አሜሪካ / ሎስ አንጀለስ</item>
+<item>አሜሪካ / ቺዋዋው</item>
+<item>አሜሪካ / ቺካጎ</item>
+<item>አሜሪካ / ማናኡስ</item>
+<item>አሜሪካ / ቅ-ጆንስ</item>
+<item>አሜሪካ / ቅ-ጆንስ</item>
+<item>አሜሪካ / ጎደትሀብ</item>
+<item>አትላንቲክ / ኬፕ-ቨርዴ</item>
+<item>እንደ ስርጭት</item>
+<item>አፍሪካ / ካዛብላንካ</item>
+<item>አውሮፓ / ለንደን</item>
+<item>አፍሪካ / ሀረር</item>
+<item>እስያ / አማን</item>
+<item>እስያ / አማን</item>
+<item>አውሮፓ / ሞስኮ</item>
+<item>እስያ / ቴሄራን</item>
+<item>እስያ / ይሬቫን</item>
+<item>እስያ / ኮሎምቦ</item>
+<item>እስያ / ካትማንዱ</item>
+<item>እስያ / አልማቲ</item>
+<item>እስያ / ባንኮክ</item>
+<item>እስያ / ሆንግ ኮንግ</item>
+<item>እስያ / ቶኪዮ</item>
+<item>አውስትራሊያ / አድላደይ</item>
+<item>እስያ / ያኩታስክ</item>
+<item>እስያ / ቭላዲቮስቶክ</item>
+<item>እስያ / ቭላዲቮስቶክ</item>
+<item>ፓሲፊክ / ፊጂ</item>
+<item>ፓስፊክ / ቶንጋታፑ</item>
+</string-array>
+<string-array name="menu_setup_auto_synchronization_array">
+<item>ጠፋ</item>
+<item>ከመተላለፊያው ሆነው ያመሳስሉ</item>
+        <item>sync from Network</item>
+</string-array>
+<string-array name="menu_setup_power_on_timer_array">
+<item>ጠፋ</item>
+<item>በራ</item>
+<item>አንዴ</item>
+</string-array>
+<string-array name="menu_setup_sleep_timer_array">
+<item>ጠፋ</item>
+<item>10 ደቂቃዎች</item>
+<item>20 ደቂቃዎች</item>
+<item>30 ደቂቃዎች</item>
+<item>40 ደቂቃዎች</item>
+<item>50 ደቂቃዎች</item>
+<item>60 ደቂቃዎች</item>
+<item>90 ደቂቃዎች</item>
+<item>120 ደቂቃዎች</item>
+</string-array>
+<string-array name="menu_setup_power_on_channel_mode_array">
+<item>የመጨረሻው ሁኔታ</item>
+<item>የተጠቃሚ ምርጫ</item>
+</string-array>
+<string-array name="menu_setup_power_off_timer_array">
+<item>ጠፋ</item>
+<item>በራ</item>
+<item>አንዴ</item>
+</string-array>
+<string-array name="menu_setup_auto_sleep_array">
+<item>ጠፋ</item>
+<item>1 ሰአት</item>
+<item>2 ሰአታት</item>
+<item>5 ሰዓታት</item>
+</string-array>
+<string-array name="menu_setup_auto_sleep_eu_array">
+<item>ጠፋ</item>
+<item>4 ሰአታት</item>
+<item>6 ሰአታት</item>
+<item>8 ሰአታት</item>
+</string-array>
+<string-array name="menu_setup_network_connection_array">
+<item>ጠፋ</item>
+<item>በራ</item>
+</string-array>
+<string-array name="menu_setup_address_type_array">
+<item>ራስ</item>
+<item>በእጅ</item>
+</string-array>
+<string-array name="menu_setup_dlna_array">
+<item>ጠፋ</item>
+<item>በራ</item>
+</string-array>
+<string-array name="menu_setup_my_network_place_array">
+<item>ጠፋ</item>
+<item>በራ</item>
+</string-array>
+<string-array name="menu_setup_null_array">
+<item></item>
+</string-array>
+<!-- factory -->
+<string-array name="menu_factory_autovedio_array">
+<item>ጠፋ</item>
+<item>በራ</item>
+</string-array>
+
+<!-- factory_video_dima  fix CR 580473-->
+<string-array name="menu_factory_auto_dima_array">
+<item>ዘገምተኛ ፎቶ</item>
+<item>የድርጊት ምስል</item>
+</string-array>
+
+<!-- factory_video_deedge -->
+<string-array name="menu_factory_video_diedge_array">
+<item>ደካማ</item>
+<item>ጠንካራ</item>
+</string-array>
+
+<!-- factory_video_xvycc -->
+<string-array name="menu_factory_video_xvycc_array">
+<item>ጠፋ</item>
+<item>በራ</item>
+</string-array>
+
+<!-- factory_video_wcg -->
+<string-array name="menu_factory_video_wcg_array">
+<item>ጠፋ</item>
+<item>በራ</item>
+</string-array>
+
+<!-- factory_video_flip -->
+<string-array name="menu_factory_video_flip_array">
+<item>ጠፋ</item>
+<item>በራ</item>
+</string-array>
+
+<!-- factory_video_mirror -->
+<string-array name="menu_factory_video_mirror_array">
+<item>ጠፋ</item>
+<item>በራ</item>
+</string-array>
+<!-- factory_video_local -->
+<string-array name="menu_factory_video_local_array">
+<item>ጠፋ</item>
+<item>በራ</item>
+</string-array>
+<!-- factory_video_color_temperature -->
+<string-array name="menu_factory_video_colortemperature_array">
+<item> ተጠቃሚ </item>
+<item>ቀዝቃዛ</item>
+<item> ደረጃ </item>
+<item>ሞቃት</item>
+</string-array>
+
+<!-- factory_audio_dolby_banner -->
+<string-array name="menu_factory_audio_dolbybanner_array">
+<item>ጠፋ</item>
+<item>በራ</item>
+</string-array>
+
+<!-- factory_audio_compression -->
+<string-array name="menu_factory_audio_compression_array">
+<item>መስመር</item>
+<item>RF</item>
+</string-array>
+
+<!-- factory_audio_compression_factor -->
+<string-array name="menu_factory_audio_compressionfactor_array">
+<item>ጠፋ</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>40</item>
+        <item>50</item>
+        <item>60</item>
+        <item>70</item>
+        <item>80</item>
+        <item>90</item>
+        <item>100</item>
+</string-array>
+<string-array name="menu_factory_setup_eventform">
+<item>ሁለቱም ቅጾች</item>
+<item>ረጅም ቅርጽ</item>
+<item>አጭር ቅፅ</item>
+</string-array>
+<string-array name="menu_factory_setup_burning_mode">
+<item>ጠፋ</item>
+<item>በራ</item>
+</string-array>
+<!-- DTV00580367 -->
+<string-array name="menu_factory_setup_uart_mode">
+<item>ጠፋ</item>
+<item>በራ</item>
+</string-array>
+<string-array name="menu_factory_setup_eu_uart_mode">
+<item>ጠፋ</item>
+<item>በራ</item>
+</string-array>
+<!-- factory_audio_system_test -->
+<string-array name="menu_factory_audio_system_test_array">
+<item>ጠፋ</item>
+<item>በራ</item>
+</string-array>
+<string-array name="menu_ci_not_support_channel">
+<item>ፈቃድ የለውም</item>
+</string-array>
+<!-- pvr & tshift -->
+<string-array name="pvr_tshift_srctype">
+<item>TV</item>
+<item>ውህደት</item>
+</string-array>
+<string-array name="pvr_tshift_channel_temp_list">
+<item>CH41</item>
+<item>CH42</item>
+<item>CH43</item>
+<item>CH44</item>
+</string-array>
+<string-array name="pvr_tshift_schedule_type">
+<item>መቅዳት</item>
+<item>አስታዋሽ</item>
+</string-array>
+<string-array name="pvr_tshift_repeat_type">
+<item>አንዴ</item>
+<item>ሳምንት</item>
+<item>መዘግየት</item>
+</string-array>
+<string-array name="menu_tv_tshift_config_array">
+<item>ጠፋ</item>
+<item>በራ</item>
+</string-array>
+<string-array name="menu_cec_on_off">
+<item>ጠፋ</item>
+<item>በራ</item>
+</string-array>
+
+<!-- Add for EU DVBC -->
+<string-array name="menu_scan_mode">
+<item>ቅድሚያ</item>
+<item>ፈጣን</item>
+<item>ሙሉ</item>
+</string-array>
+<string-array name="menu_tv_tuner_mode_array_full_eu">
+<item>አነቴና</item>
+<item>ገመድ</item>
+<item>@string/dvbs_preferred_satellite</item>
+<item>@string/dvbs_general_satellite</item>
+</string-array>
+<string-array name="menu_setup_oad_auto_download_array">
+<item>አይደለም</item>
+<item>አዎ</item>
+</string-array>
+<string-array name="menu_tv_country_region_id_eu">
+<item>የአገር ክልል አመልካች 1</item>
+<item>የሀገር ክልል አመልካች 2</item>
+</string-array>
+<string-array name="menu_tv_oceania_country_region">
+        <item>NSW/ACT</item>
+        <item>VIC</item>
+        <item>QLD</item>
+<item>SA</item>
+        <item>WA</item>
+        <item>TAS</item>
+        <item>NT</item>
+</string-array>
+<string-array name="menu_tv_channel_listtype">
+<item>ማሰራጫ</item>
+<item>ካሜራ</item>
+</string-array>
+<string-array name="menu_tv_channel_bl_type">
+<item>የለም</item>
+<item>በየቀኑ</item>
+<item>እሁን</item>
+<item>ሰኞ</item>
+<item>ማክሰኞ</item>
+<item>ረቡዕ</item>
+<item>ሀሙስ</item>
+<item>አርብ</item>
+<item>ቅዳሜ</item>
+</string-array>
+<string-array name="menu_tv_tuner_mode_array_full_eu_sat_only">
+<item>አነቴና</item>
+<item>ገመድ</item>
+<item>ሳተላይት</item>
+</string-array>
+
+</resources>

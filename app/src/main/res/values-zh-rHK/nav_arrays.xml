@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+	<string-array name="nav_channel_types">
+		<item>所有</item>
+		<item>廣播</item>
+	</string-array>
+	<string-array name="nav_sleep_strings">
+		<item>睡眠：關</item>
+		<item>睡眠：10分鐘</item>
+		<item>睡眠：20分鐘</item>
+		<item>睡眠：30分鐘</item>
+		<item>睡眠：40分鐘</item>
+		<item>睡眠：50分鐘</item>
+		<item>睡眠：60分鐘</item>
+	</string-array>
+	<string-array name="nav_zoom_strings">
+		<item>zoom X 1</item>
+		<item>zoom X 2</item>
+		<item>zoom X 1/2</item>
+	</string-array>
+	
+	<string-array name="nav_s_effect_strings">
+        <item>自訂</item>
+		<item>標準</item>
+		<item>現場1</item>
+	</string-array>
+
+	<string-array name="nav_freeze_strings">
+		<item>凍結：開</item>
+		<item>凍結：關</item>
+	</string-array>
+
+	<string-array name="nav_epg_filter_type">
+		<item>電影模式</item>
+		<item>新聞</item>
+		<item>綜藝</item>
+		<item>體育</item>
+		<item>少兒</item>
+		<item>音樂</item>
+		<item>藝術</item>
+		<item>社會</item>
+		<item>教育</item>
+		<item>休閒</item>
+		<item>特殊</item>
+	</string-array>
+	
+	<string-array name="nav_epg_filter_type_AUS">
+		<item>電影模式</item>
+		<item>新聞</item>
+		<item>娛樂</item>
+		<item>體育</item>
+		<item>少兒</item>
+		<item>音樂</item>
+		<item>藝術</item>
+		<item>時事</item>
+		<item>教育</item>
+		<item>娛樂訊息</item>
+		<item>特殊</item>
+		<item>喜劇</item>
+		<item>劇情片</item>
+		<item>紀錄片</item>
+	</string-array>
+	
+	<string-array name="nav_epg_filter_type_UK">
+		<item>電影模式</item>
+		<item>新聞</item>
+		<item>娛樂</item>
+		<item>體育</item>
+		<item>少兒</item>
+		<item>教育</item>
+		<item>生活方式</item>
+		<item>劇情片</item>
+	</string-array>
+	
+	<string-array name="nav_epg_filter_sa_type">
+		<item>新聞</item>
+		<item>體育</item>
+		<item>教育</item>
+		<item>肥皂劇</item>
+		<item>迷你劇</item>
+		<item>連續劇</item>
+		<item>雜耍表演</item>
+		<item>真人秀</item>
+		<item>信息</item>
+		<item>滑稽</item>
+		<item>少兒</item>
+		<item>色情</item>
+		<item>電影模式</item>
+		<item>RA_TE_SA_PR</item>
+		<item>辯論</item>
+		<item>其他</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_movie">
+		<item>劇情片</item>
+		<item>偵探片</item>
+		<item>探險片</item>
+		<item>科幻片</item>
+		<item>喜劇</item>
+		<item>肥皂劇</item>
+		<item>浪漫片</item>
+		<item>嚴肅話題</item>
+		<item>成人片</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_news">
+		<item>時事</item>
+		<item>氣象</item>
+		<item>新聞雜誌</item>
+		<item>紀錄片</item>
+		<item>討論</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_news">
+		<item>新聞</item>
+		<item>報導</item>
+		<item>紀錄片</item>
+		<item>傳記</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_show">
+		<item>綜藝</item>
+		<item>遊戲節目</item>
+		<item>各類綜藝</item>
+		<item>談話節目</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_sports">
+		<item>體育</item>
+		<item>特殊事件</item>
+		<item>運動雜誌</item>
+		<item>足球</item>
+		<item>網球</item>
+		<item>團隊運動</item>
+		<item>運動</item>
+		<item>動力運動</item>
+		<item>水上運動</item>
+		<item>冬季運動</item>
+		<item>馬術</item>
+		<item>武術</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_sports">
+		<item>體育</item>
+	</string-array>
+	
+	<string-array name="nav_epg_subtype_children">
+		<item>少兒</item>
+		<item>學齡前少兒節目</item>
+		<item>娛樂（6-14歲）</item>
+		<item>娛樂（10-16歲）</item>
+		<item>資訊</item>
+		<item>卡通</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_music">
+		<item>音樂</item>
+		<item>搖滾</item>
+		<item>嚴肅話題</item>
+		<item>民謠</item>
+		<item>爵士</item>
+		<item>音樂劇</item>
+		<item>芭蕾</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_arts">
+		<item>藝術</item>
+		<item>表演藝術</item>
+		<item>精緻藝術</item>
+		<item>宗教</item>
+		<item>大眾文化</item>
+		<item>文學</item>
+		<item>電影</item>
+		<item>實驗性</item>
+		<item>廣播</item>
+		<item>新媒體</item>
+		<item>藝術雜誌</item>
+		<item>時尚</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_social">
+		<item>社會</item>
+		<item>雜誌</item>
+		<item>經濟</item>
+		<item>名人傳記</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_education">
+		<item>教育</item>
+		<item>自然</item>
+		<item>科技</item>
+		<item>醫藥</item>
+		<item>外國</item>
+		<item>社會科學</item>
+		<item>成人教育</item>
+		<item>語言</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_education">
+		<item>教育</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_soap_opera">
+		<item>肥皂劇</item>
+	</string-array>
+	
+	<string-array name="nav_epg_subtype_sa_mini_series">
+		<item>迷你劇</item>
+	</string-array>
+	
+	<string-array name="nav_epg_subtype_sa_series">
+		<item>連續劇</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_variety">
+		<item>講堂、禮堂/音樂廳/觀眾席</item>
+		<item>綜藝</item>
+		<item>音樂劇</item>
+		<item>製作特輯/拍攝花絮</item>
+		<item>女性</item>
+		<item>遊戲節目</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_reality_show">
+		<item>真人秀</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_information">
+		<item>烹飪</item>
+		<item>時尚</item>
+		<item>國家</item>
+		<item>健康</item>
+		<item>旅行</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_comical">
+		<item>滑稽</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_children">
+		<item>少兒</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_erotic">
+		<item>色情</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_movie">
+		<item>電影模式</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_RA_TE_SA_PR">
+		<item>抽彩</item>
+		<item>電視銷售</item>
+		<item>獎品/競賽</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_DEBATE_INTERVIEW">
+		<item>討論</item>
+		<item>採訪</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_other">
+		<item>成人卡通</item>
+		<item>互動</item>
+		<item>政治</item>
+		<item>宗教</item>
+	</string-array>
+	
+	<string-array name="nav_epg_subtype_leisure">
+		<item>休閒嗜好</item>
+		<item>旅遊</item>
+		<item>手工藝</item>
+		<item>駕駛</item>
+		<item>健身與健康</item>
+		<item>烹飪</item>
+		<item>廣告</item>
+		<item>園藝</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_special">
+		<item>原語言</item>
+		<item>黑與白</item>
+		<item>未出版</item>
+		<item>現場直播</item>
+	</string-array>
+
+
+	<string-array name="nav_mts_strings">
+		<item>未知</item>
+		<item>單聲道</item>
+		<item>立體聲</item>
+		<item>SUB_LANG</item>
+		<item>雙重 1</item>
+		<item>雙重 2</item>
+		<item>NICAM_MONO</item>
+		<item>NICAM_STEREO</item>
+		<item>NICAM_DUAL1</item>
+		<item>NICAM_DUAL2</item>
+		<item>FM_MONO</item>
+		<item>FM_STEREO</item>
+	</string-array>
+
+	<string-array name="nav_audio_tvcm_strings">
+		<item>baq</item>
+		<item>eus</item>
+		<item>bul</item>
+		<item>cat</item>
+		<item>scr</item>
+		<item>cze</item>
+		<item>dan</item>
+		<item>dut</item>
+		<item>eng</item>
+		<item>fin</item>
+		<item>fre</item>
+		<item>gla</item>
+		<item>gdh</item>
+		<item>gle</item>
+		<item>glg</item>
+		<item>ger</item>
+		<item>gre</item>
+		<item>hun</item>
+		<item>ita</item>
+		<item>nor</item>
+		<item>pol</item>
+		<item>por</item>
+		<item>rum</item>
+		<item>rus</item>
+		<item>scc</item>
+		<item>slo</item>
+		<item>slv</item>
+		<item>spa</item>
+		<item>swe</item>
+		<item>tur</item>
+		<item>wel</item>
+		<item>ice</item>
+		<item>isl</item>
+		<item>smi</item>
+		<item>tha</item>
+		<item>vie</item>
+		<item>ara</item>
+		<item>zho</item>
+		<item>chi</item>
+		<item>per</item>
+		<item>kor</item>
+		<item>est</item>
+		<item>mao</item>
+		<item>cmn</item>
+		<item>yue</item>
+		<item>jpn</item>
+		<item>hin</item>
+		<item>nar</item>
+		<item>QAA</item>
+		<item>und</item>
+	</string-array>
+
+	<string-array name="nav_audio_strings">
+		<item>巴斯克文</item>
+		<item>巴斯克文</item>
+		<item>Bulaarian</item>
+		<item>加泰羅尼亞語</item>
+		<item>克羅埃西亞文</item>
+		<item>捷克文</item>
+		<item>丹麥文</item>
+		<item>荷蘭文</item>
+		<item>英語</item>
+		<item>芬蘭文</item>
+		<item>法文</item>
+		<item>蓋爾語</item>
+		<item>蓋爾語</item>
+		<item>愛爾蘭語</item>
+		<item>加利西亞語</item>
+		<item>德文</item>
+		<item>希臘文</item>
+		<item>匈牙利文</item>
+		<item>義大利文</item>
+		<item>挪威文</item>
+		<item>波蘭文</item>
+		<item>葡萄牙文</item>
+		<item>羅馬尼亞文</item>
+		<item>俄文</item>
+		<item>賽爾維亞文</item>
+		<item>斯洛伐克文</item>
+		<item>斯洛凡尼亞文</item>
+		<item>西班牙文</item>
+		<item>瑞典文</item>
+		<item>土耳其文</item>
+		<item>威爾士語</item>
+		<item>冰島文</item>
+		<item>冰島文</item>
+		<item>薩米語</item>
+		<item>泰國語</item>
+		<item>越南文</item>
+		<item>阿拉伯文</item>
+		<item>繁體中文</item>
+		<item>簡體中文</item>
+		<item>波斯文</item>
+		<item>韓文</item>
+		<item>愛沙尼亞</item>
+		<item>毛利文</item>
+		<item>國語 </item>
+		<item>廣東話</item>
+		<item>日文 </item>
+		<item>印度文    </item>
+		<item>敘述</item>
+		<item>法語原始版本</item>
+		<item>未定義</item>
+	</string-array>
+
+	<string-array name="nav_bottom_volume">
+		<item>主音量</item>
+		<item>左前音量</item>
+		<item>右前音量</item>
+		<item>左後音量</item>
+		<item>右後音量</item>
+		<item>中置音量</item>
+		<item>重低音音量</item>
+	</string-array>
+
+    <string-array name="nav_zoom_mode">
+		<item>Zoom x 1/2</item>
+		<item>Zoom x 1</item>
+		<item>Zoom x 2</item>
+	</string-array>
+
+	<string-array name="nav_receiver_type">
+		<item>Cable</item>
+		<item>Antenna</item>
+	</string-array>
+	<string-array name="pvr_tshift_initdisk_step1">
+		<item>自動</item>
+		<item>手動</item>
+	</string-array>
+	<string-array name="pvr_tshift_initdisk_step_format">
+		<item>格式化</item>
+		<item>跳臺</item>
+	</string-array>
+	<string-array name="pvr_tshift_initdisk_step_formatconfirm">
+		<item>格式化</item>
+		<item>取消</item>
+	</string-array>
+	
+	<string-array name="week_day">
+	    <item>週日</item>
+		<item>週一</item>
+		<item>週二</item>
+		<item>週三</item>
+		<item>週四</item>
+		<item>週五</item>
+		<item>週六</item>
+	</string-array>
+    <string-array name="nav_oad_btns_cancel">
+        <item>取消</item>
+    </string-array>
+    <string-array name="nav_oad_btns_accept_remind_me_later">
+        <item>接受</item>
+        <item>稍後提醒我</item>
+    </string-array>
+    <string-array name="nav_oad_btns_accept_reject">
+        <item>接受</item>
+        <item>拒絕</item>
+    </string-array>
+    
+    <string-array name="nav_oad_btns_yes_no">
+        <item>是</item>
+        <item>否</item>
+    </string-array>
+
+
+
+
+
+	<string-array name="nav_twinkle_strings">
+		<item></item>
+		<item>無訊號！</item>
+		<item>請掃描頻道！</item>
+		<item>讀取數據...</item>
+		<item>頻道已封鎖！</item>
+		<item>節目已封鎖！</item>
+		<item>輸入已鎖定！</item>
+		<item>（無節目名稱。）</item>
+		<item>隱藏頻道！</item>
+		<item>音聲節目</item>
+		<item>無效服務</item>
+		<item>（無節目詳情。）</item>
+		<item>（無頻道詳情。）</item>
+		<item>♪ 無音頻 ♪</item>
+		<item>無視頻</item>
+		<item>請稊待...</item>
+		<item>不支持視頻</item>
+		<item>高畫質朊務</item>
+		<item>非廣播</item>
+		<item>無台</item>
+		<item>此內容被您的服務提供商阻止</item>
+		<item>已加密</item>
+	</string-array>
+
+
+	<string-array name="nav_channel_type">
+		<item>所有</item>
+		<item>數位</item>
+		<item>廣播</item>
+		<item>類比式</item>
+	</string-array>
+    <string-array name="dvbs_scan_mode_arrays">
+        <item>@string/dvbs_scan_mode_network</item>
+        <item>@string/dvbs_scan_mode_full</item>
+    </string-array>
+    <string-array name="dvbs_scan_mode2_arrays">
+        <item>@string/dvbs_scan_mode_auto</item>
+        <item>@string/dvbs_scan_mode_preset</item>
+    </string-array>
+    <string-array name="dvbs_diseqc_input_arrays">
+        <item>@string/dvbs_diseqc_input_1</item>
+        <item>@string/dvbs_diseqc_input_2</item>
+        <item>@string/dvbs_diseqc_input_3</item>
+        <item>@string/dvbs_diseqc_input_4</item>
+        <item>@string/dvbs_diseqc_input_0</item>
+    </string-array>
+    <string-array name="dvbs_diseqc_10port_arrays">
+        <item>@string/dvbs_diseqc_input_1</item>
+        <item>@string/dvbs_diseqc_input_2</item>
+        <item>@string/dvbs_diseqc_input_3</item>
+        <item>@string/dvbs_diseqc_input_4</item>
+        <item>@string/dvbs_tone_burst_a</item>
+        <item>@string/dvbs_tone_burst_b</item>
+        <item>@string/dvbs_diseqc_input_0</item>
+    </string-array>
+    <string-array name="dvbs_diseqc_motor_arrays">
+        <item>@string/dvbs_diseqc_input_0</item>
+        <item>@string/dvbs_diseqc_motor_12</item>
+    </string-array>
+    <string-array name="dvbs_diseqc_motor_store_position_arrays">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="dvbs_diseqc_movement_control_arrays">
+        <item>不間斷</item>
+        <item>步驟</item>
+        <item>超時</item>
+    </string-array>
+    <string-array name="dvbs_tone_22khz_arrays">
+        <item>@string/dvbs_tone_22khz_off</item>
+        <item>@string/dvbs_tone_22khz_on</item>
+        <item>@string/dvbs_tone_22khz_auto</item>
+    </string-array>
+    
+    <string-array name="dvbs_tp_pol_arrays">
+        <item>@string/dvbs_tp_pol_1_HORIZONTAL</item>
+        <item>@string/dvbs_tp_pol_2_VERTICAL</item>
+    </string-array>
+    <string-array name="dvbs_channel_arrays">
+        <item>@string/dvbs_channel_free</item>
+        <item>@string/dvbs_channel_all</item>
+    </string-array>
+    <string-array name="dvbs_antenna_type_arrays">
+        <item>@string/dvbs_antenna_type_universal</item>
+        <item>@string/dvbs_antenna_type_singlecable</item>
+    </string-array>
+    <string-array name="dvbs_user_band_arrays">
+        <item>@string/dvbs_user_band_1</item>
+        <item>@string/dvbs_user_band_2</item>
+        <item>@string/dvbs_user_band_3</item>
+        <item>@string/dvbs_user_band_4</item>
+        <item>@string/dvbs_user_band_5</item>
+        <item>@string/dvbs_user_band_6</item>
+        <item>@string/dvbs_user_band_7</item>
+        <item>@string/dvbs_user_band_8</item>
+    </string-array>
+    <string-array name="dvbs_user_band_freq_arrays">
+        <item>"1210"</item>
+        <item>"1400"</item>
+        <item>"1516"</item>
+        <item>"1632"</item>
+        <item>"1748"</item>
+        <item>"1864"</item>
+        <item>"1980"</item>
+        <item>"2096"</item>
+    </string-array>
+    <string-array name="dvbs_position_arrays">
+        <item>@string/dvbs_tp_pol_0_unknown</item>
+        <item>@string/dvbs_position_a</item>
+        <item>@string/dvbs_position_b</item>
+        <item>@string/dvbs_position_c</item>
+        <item>@string/dvbs_position_d</item>
+    </string-array>
+    <string-array name="dvbs_preferred_satellite_arrays">
+        <item>@string/dvbs_preferred_satellite</item>
+        <item>@string/dvbs_general_satellite</item>
+    </string-array>
+    <string-array name="lnb_mdu1_arrays">
+        <item>@string/dvbs_preferred_satellite</item>
+        <item>@string/dvbs_general_satellite</item>
+    </string-array>
+   
+    <string-array name="dvbs_tone_burst_arrays">
+        <item>@string/dvbs_tone_burst_a</item>
+        <item>@string/dvbs_tone_burst_b</item>
+        <item>@string/dvbs_tone_burst_disable</item>
+    </string-array>
+	
+	<string-array name="dvbs_sat_on_off">
+        <item>@string/dvbs_sat_on</item>
+        <item>@string/dvbs_sat_off</item>
+    </string-array>
+    
+	<string-array name="dvbs_sat_lnb_power">
+        <item>@string/dvbs_sat_off</item>
+        <item>@string/dvbs_sat_TUNER_LNB_POWER_13V_18V</item>
+        <item>@string/dvbs_sat_TUNER_LNB_POWER_14V_19V</item>
+        <item>@string/dvbs_sat_on</item>
+    </string-array>
+				
+	<string-array name="dvbs_sat_lnbfreq">
+        <item>@string/lnb_universal</item>
+        <item>9750,10700</item>
+        <item>9750,10750</item>
+        <item>5150</item>
+        <item>5750</item>
+        <item>9750</item>
+        <item>10600</item>
+        <item>10750</item>
+        <item>11250</item>
+        <item>11300</item>
+        <item>11475</item>
+    </string-array>
+
+    
+</resources>

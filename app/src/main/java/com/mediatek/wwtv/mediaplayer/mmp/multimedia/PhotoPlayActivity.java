@@ -30,6 +30,7 @@ import android.widget.AdapterView.OnItemClickListener;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import com.mediatek.dm.DeviceManagerEvent;
 import com.mediatek.wwtv.mediaplayer.R;
 import com.mediatek.wwtv.mediaplayer.mmp.MediaMainActivity;
 import com.mediatek.wwtv.mediaplayer.mmp.SkyPreviewListDialog;
@@ -53,6 +54,8 @@ import com.mediatek.wwtv.mediaplayer.mmp.util.LogicManager;
 import com.mediatek.wwtv.mediaplayer.mmp.util.MenuFatherObject;
 import com.mediatek.wwtv.mediaplayer.mmp.util.MultiMediaConstant;
 import com.mediatek.wwtv.mediaplayer.mmpcm.audioimpl.AudioConst;
+import com.mediatek.wwtv.mediaplayer.mmpcm.device.DevListener;
+import com.mediatek.wwtv.mediaplayer.mmpcm.device.DevManager;
 import com.mediatek.wwtv.mediaplayer.mmpcm.mmcimpl.Const;
 import com.mediatek.wwtv.mediaplayer.mmpcm.mmcimpl.PlayList;
 import com.mediatek.wwtv.mediaplayer.mmpcm.photoimpl.ConstPhoto;
@@ -60,6 +63,7 @@ import com.mediatek.wwtv.mediaplayer.mmpcm.photoimpl.EffectView;
 import com.mediatek.wwtv.mediaplayer.mmpcm.photoimpl.Imageshowimpl.OnPhotoCompletedListener;
 import com.mediatek.wwtv.mediaplayer.mmpcm.photoimpl.Imageshowimpl.OnPhotoDecodeListener;
 import com.mediatek.wwtv.mediaplayer.mmpcm.photoimpl.PhotoUtil;
+import com.mediatek.wwtv.mediaplayer.util.MmpApp;
 import com.mediatek.wwtv.mediaplayer.util.ScreenConstant;
 import com.mediatek.wwtv.mediaplayer.util.Util;
 import com.mediatek.wwtv.util.KeyMap;
@@ -192,13 +196,13 @@ public class PhotoPlayActivity extends SkyMediaPlayActivity implements
 			if (scale < ZOOMMAX && scale >= ZOOMMIN) {
 				scale += 0.2f;
 			} else if (scale >= ZOOMMAX) {
-				scale = 1.0f;
+				//scale = 1.0f;
 			}
 		} else if (type == ZOOMIN) {
 			if (scale <= ZOOMMAX && scale > ZOOMMIN) {
 				scale -= 0.2f;
 			} else if (scale <= ZOOMMIN) {
-				scale = 1.0f;
+				//scale = 1.0f;
 			}
 		}
 		setImageZoomChange(scale);
@@ -320,14 +324,16 @@ public class PhotoPlayActivity extends SkyMediaPlayActivity implements
 
 	// begin by zhangqing ==> picture zoom function
   private void setImageZoomChange(float scale) {
-    if (null != mCurBitmap.getMovie()) {
-      vShowView.setMultiple(scale);
-    } else {
-      vShowView.setRes(mCurBitmap);
-      vShowView.setMultiple(scale);
-      vShowView.setType(ConstPhoto.ZOOMOUT);
-      vShowView.run();
-    }
+	    if (null != mCurBitmap) {
+            if (null != mCurBitmap.getMovie()) {
+                vShowView.setMultiple(scale);
+            } else {
+                vShowView.setRes(mCurBitmap);
+                vShowView.setMultiple(scale);
+                vShowView.setType(ConstPhoto.ZOOMOUT);
+                vShowView.run();
+            }
+        }
   }
 	// end by zhangqing ==> picture zoom function
 
@@ -689,6 +695,7 @@ public class PhotoPlayActivity extends SkyMediaPlayActivity implements
     switch (mImageSource) {
       case MultiFilesManager.SOURCE_LOCAL:
         mImageSource = ConstPhoto.LOCAL;
+        onRegisterUsbEvent();
         break;
       case MultiFilesManager.SOURCE_SMB:
         mImageSource = ConstPhoto.SAMBA;
@@ -859,12 +866,39 @@ public class PhotoPlayActivity extends SkyMediaPlayActivity implements
     }
   }
 
-  public void Play(){   //?¡§?D?2¡ê¡è?¡è?
+  public void Play(){
       playPhoto();
       isZoomState = false;
   }
-  public void Pause(){  //?Y¡§a?¨º2¡ê¡è?¡è?
+  public void Pause(){
       pausePhoto();
+  }
+  
+  public void Next(){
+    if (isValid()) {
+      isNotSupport = false;
+      reSetController();
+      mHandler.removeMessages(MESSAGE_PLAY);
+      mCurBitmap = null;
+      //mImageManager.load(Const.MANUALPRE);
+      Util.LogLife(TAG, "KEYCODE_DPAD_DOWN");
+      mImageManager.load(Const.MANUALNEXT);
+
+    }
+    return;
+  }
+  
+  public void Previous(){
+    if (isValid()) {
+      isNotSupport = false;
+      reSetController();
+      mHandler.removeMessages(MESSAGE_PLAY);
+      mCurBitmap = null;
+      //mImageManager.load(Const.MANUALNEXT);
+      Util.LogLife(TAG, "KEYCODE_DPAD_UP");
+      mImageManager.load(Const.MANUALPRE);
+    }
+    return;
   }
 
   @Override
@@ -944,7 +978,7 @@ public class PhotoPlayActivity extends SkyMediaPlayActivity implements
 //      }
                 if (null == mInfoDialog) {
                     mInfoDialog = new PhotoInfoDialog();
-					mInfoDialog.setOnZoomChangeListener(this);
+					mInfoDialog.setOnZoomChangeListener(PhotoPlayActivity.this);
                     mInfoDialog.show(getFragmentManager(), "photo_info");
                 } else if (mInfoDialog.isVisible()) {
                     mInfoDialog.dismiss();
@@ -1184,7 +1218,7 @@ public class PhotoPlayActivity extends SkyMediaPlayActivity implements
     return super.onKeyDown(keyCode, event);
   }
 
-  public void leftPhoto(){  //¡§|?¡§¡ã???
+  public void leftPhoto(){
       isNotSupport = false;
       reSetController();
       pausePhoto();
@@ -1194,7 +1228,7 @@ public class PhotoPlayActivity extends SkyMediaPlayActivity implements
       mImageManager.load(Const.MANUALPRE);
       isLongPressLRKey = false;
   }
-  public void rightPhoto(){     //??¡§¡ã???
+  public void rightPhoto(){
       isNotSupport = false;
       reSetController();
       pausePhoto();
@@ -1445,6 +1479,9 @@ public class PhotoPlayActivity extends SkyMediaPlayActivity implements
     }
     vShowView.bitmapRecycle();
     super.onDestroy();
+      if (mDevManager != null) {
+          mDevManager.removeDevListener(mDevListener);
+      }
     Util.LogResRelease("onDestroy");
 
     // SKY luojie add 20171218 for add choose menu begin
@@ -1472,6 +1509,46 @@ public class PhotoPlayActivity extends SkyMediaPlayActivity implements
     }
     super.onBackPressed();
   }
+
+    private DevManager mDevManager = null;
+    private MyDevListener mDevListener = null;
+
+    public class MyDevListener implements DevListener {
+        public void onEvent(DeviceManagerEvent event) {
+            MtkLog.d(TAG, "Device Event : " + event.getType());
+            int type = event.getType();
+            String devicePath = event.getMountPointPath();
+            String filePath = mLogicManager.getCurrentFilePath(Const.FILTER_IMAGE);
+            switch (type) {
+                case DeviceManagerEvent.umounted:
+                    MtkLog.d(TAG, "Device Event Unmounted!!");
+                    if (filePath != null && filePath.startsWith(devicePath)) {
+                        if (null != mImageManager) {
+                            mImageManager.finish();
+                        }
+                        if (null != mLogicManager) {
+                            mLogicManager.stopDecode();
+                        }
+                        finish();
+                    }
+                    break;
+
+                default:
+                    break;
+            }
+        }
+    }
+
+    private void onRegisterUsbEvent() {
+        try {
+            mDevListener = new MyDevListener();
+            mDevManager = DevManager.getInstance();
+            mDevManager.addDevListener(mDevListener);
+        } catch (ExceptionInInitializerError e) {
+            mDevManager = null;
+            mDevListener = null;
+        }
+    }
 
   /**
    * show information when photo frame is selected in menu
@@ -1544,12 +1621,15 @@ public class PhotoPlayActivity extends SkyMediaPlayActivity implements
       menuDialog.setItemEnabled(3, !isNotSupport);
       menuDialog.setItemEnabled(4, !isNotSupport);
   if (null != mLogicManager.getCurrentPath(Const.FILTER_IMAGE) && mLogicManager.getCurrentPath(Const.FILTER_IMAGE).endsWith(".gif")){//gif
-           if (null == mCurBitmap.getMovie()){
-            menuDialog.setItemEnabled(3, false);
+      if (mCurBitmap != null) {
+          if (null == mCurBitmap.getMovie()){
+              menuDialog.setItemEnabled(3, false);
           }
-        }else{
-			 menuDialog.setItemEnabled(3, true);
-		}
+      }else{
+          menuDialog.setItemEnabled(3, true);
+      }
+      }
+
       // not support gif rotate
       if (isRealGif) {
 
@@ -1692,6 +1772,18 @@ public class PhotoPlayActivity extends SkyMediaPlayActivity implements
       mHandler.sendEmptyMessageDelayed(MESSAGE_HIDDLE_FRAME, DELAYED_FRAME);
     }
   }
+
+    public void resetRotate() {
+        if (vShowView != null) {
+            Log.d(TAG, "resetRotate: " + vShowView.getRotate());
+            vShowView.setRotate(0);
+            mCurBitmap.setBitmap(mLogicManager.resetRotate(mCurBitmap.getBitmap()));
+            mLogicManager.initRotate();
+            vShowView.setRes(mCurBitmap);
+            vShowView.setType(ConstPhoto.ROTATE_PHOTO);
+            vShowView.run();
+        }
+    }
 
     public void rotate() {
 		// added by zhangqing BUG 88076
@@ -1842,6 +1934,9 @@ public class PhotoPlayActivity extends SkyMediaPlayActivity implements
       vShowView.removeMessage();
     }
     isStop = true;
+      if (mLogicManager != null) {
+          mLogicManager.stopAudio();
+      }
   }
 
   // SKY luojie add 20171218 for add choose menu begin

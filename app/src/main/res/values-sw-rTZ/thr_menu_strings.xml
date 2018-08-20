@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+              
+    <string name="thr_menu_common_setting">Muundo Kawaida</string>
+    <string name="thr_menu_confim">Kubali</string>
+    <string name="thr_menu_cancal">Toka</string>
+    <string name="thr_menu">Menyu</string>
+    <string name="thr_menu_select">Chagua</string>
+    
+    <string name="thr_menu_picture_mode">Modi ya Picha</string>
+    <string name="thr_menu_track">Kanda Sauti</string> 
+    <string name="thr_menu_Equalizer">Kisawazishi</string>
+    <string name="thr_menu_volume">Sauti</string>
+    
+    
+    
+</resources>

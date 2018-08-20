@@ -1,0 +1,1130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+    <string-array name="menu_setup_network_connection_array">
+        <item>அணைக்கவும்</item>
+        <item>இயக்கவும்</item>
+    </string-array>
+    <string-array name="menu_tv_scan_mode_array">
+        <item>தானியங்கு</item>
+        <item>16QAM</item>
+        <item>32QAM</item>
+        <item>64QAM</item>
+        <item>128QAM</item>
+        <item>256QAM</item>
+    </string-array>
+    <string-array name="menu_setup_capturelogo_array">
+        <item>இயல்புநிலை</item>
+        <item>0</item>
+        <item>1</item>
+        <item>எதுவுமில்லை</item>
+    </string-array>
+    <string-array name="menu_ci_not_support_channel">
+        <item>அங்கீகரிக்கப்படவில்லை</item>
+    </string-array>
+    <string-array name="menu_video_mpeg_nr_array">
+        <item>அணைக்கவும்</item>
+        <item>கீழ்</item>
+        <item>ஊடகம்</item>
+        <item>வலுவானது</item>
+    </string-array>
+    <string-array name="menu_audio_spdif_mode_array">
+        <item>அணைக்கவும்</item>
+        <item>PCM RAW</item>
+        <item>PCM 16</item>
+        <item>PCM 24</item>
+    </string-array>
+    <string-array name="menu_setup_auto_synchronization_array">
+        <item>அணைக்கவும்</item>
+        <item>ஓட்டத்திலிருந்து ஒத்திசைக்கவும்</item>
+        <item>இணைப்பிலிருந்து ஒத்திசைக்கவும்</item>
+    </string-array>
+    <string-array name="menu_factory_setup_eventform">
+        <item>இரு வடிவில்</item>
+        <item>நீள வடிவில்</item>
+        <item>குறுகிய வடிவில்</item>
+    </string-array>
+    <string-array name="menu_tv_tv_system_array">
+        <item>தானியங்கு</item>
+        <item>B/G</item>
+        <item>A2 B/G</item>
+        <item>I</item>
+        <item>D/K</item>
+        <item>A2 D/K</item>
+        <item>A2 D/K1</item>
+        <item>A2 D/K2</item>
+        <item>M</item>
+    </string-array>
+    <string-array name="menu_setup_null_array">
+        <item></item>
+    </string-array>
+    <string-array name="menu_parental_block_channel_schedule_operation_array">
+        <item>எதுவுமில்லை</item>
+        <item>தினசரி</item>
+        <item>ஒருமுறை</item>
+    </string-array>
+    <string-array name="menu_audio_downmixmode_eu_array">
+        <item>சூழவும்</item>
+        <item>ஸ்டீரியோ</item>
+        <item>தானியங்கு ஸ்டிரியோ</item>
+    </string-array>
+    <string-array name="menu_setup_time_shifting_mode_array">
+        <item>அணைக்கவும்</item>
+        <item>இயக்கவும்</item>
+    </string-array>
+    <string-array name="screen_mode_array_us_pip_main_analog">
+        <item>தானியங்கி</item>
+        <item>இயல்பு</item>
+        <item>எழுத்துப் பெட்டி</item>
+        <item>உருப்பெருக்கு</item>
+        <item>புள்ளி புள்ளியாய்</item>
+    </string-array>
+    <string-array name="screen_mode_array_us_pip">
+        <item>தானியங்கி</item>
+        <item>இயல்பு</item>
+    </string-array>
+    <string-array name="menu_factory_audio_compressionfactor_array">
+        <item>அணைக்கவும்</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>40</item>
+        <item>50</item>
+        <item>60</item>
+        <item>70</item>
+        <item>80</item>
+        <item>90</item>
+        <item>100</item>
+    </string-array>
+    <string-array name="menu_video_3d_image_safety_array">
+        <item>அணைக்கவும்</item>
+        <item>கீழ்</item>
+        <item>நடுவே</item>
+        <item>உயர்ந்தது</item>
+    </string-array>
+    <string-array name="menu_setup_record_quality_array">
+        <item>கீழ்</item>
+        <item>நடுவே</item>
+        <item>உயர்ந்தது</item>
+    </string-array>
+    <string-array name="menu_tv_oceania_country_region">
+        <item>NSW/ACT</item>
+        <item>VIC</item>
+        <item>QLD</item>
+        <item>SA</item>
+        <item>WA</item>
+        <item>TAS</item>
+        <item>NT</item>
+    </string-array>
+    <string-array name="menu_setup_ginga_array">
+        <item>அணைக்கவும்</item>
+        <item>இயக்கவும்</item>
+    </string-array>
+    <string-array name="menu_setup_dlna_array">
+        <item>அணைக்கவும்</item>
+        <item>இயக்கவும்</item>
+    </string-array>
+    <string-array name="screen_mode_array_sa_pip">
+        <item>தானியங்கி</item>
+        <item>இயல்பு</item>
+        <item>எழுத்துப் பெட்டி</item>
+    </string-array>
+    <string-array name="menu_video_flesh_tone_array">
+        <item>அணைக்கவும்</item>
+        <item>இயக்கவும்</item>
+    </string-array>
+    <string-array name="screen_mode_array_eu_analog">
+        <item>தானியங்கி</item>
+        <item>இயல்பு</item>
+        <item>எழுத்துப் பெட்டி</item>
+        <item>பனோரமா</item>
+    </string-array>
+    <string-array name="menu_parental_rating_enable_array">
+        <item>அணைக்கவும்</item>
+        <item>இயக்கவும்</item>
+    </string-array>
+    <string-array name="menu_factory_video_diedge_array">
+        <item>பலவீனமானது</item>
+        <item>வலுவானது</item>
+    </string-array>
+    <string-array name="menu_video_hdmi_mode_array">
+        <item>தானியங்கி</item>
+        <item>படம்சார்ந்தது</item>
+        <item>வீடியோ</item>
+    </string-array>
+    <string-array name="menu_factory_video_xvycc_array">
+        <item>அணைக்கவும்</item>
+        <item>இயக்கவும்</item>
+    </string-array>
+    <string-array name="menu_audio_spdif_mode_us_array">
+        <item>அணைக்கவும்</item>
+        <item>Dolby Digital</item>
+        <item>PCM</item>
+    </string-array>
+    <string-array name="menu_tv_channeledit_array">
+        <item>சேனல் விவரம்</item>
+        <item>உள்நுழை</item>
+        <item>அழிக்கவும்</item>
+        <item>மாற்றவும்</item>
+    </string-array>
+    <string-array name="menu_setup_window_opacity_array">
+        <item>திண்மையாக</item>
+        <item>ஒளிகசியும்</item>
+        <item>ஒளி ஊடுருவும்</item>
+    </string-array>
+    <string-array name="menu_scan_mode">
+        <item>மேம்பட்டது</item>
+        <item>விரைவு</item>
+        <item>முழு</item>
+    </string-array>
+    <string-array name="menu_tv_audio_channel_array">
+        <item>ஒற்றை</item>
+        <item>ஸ்டீரியோ</item>
+        <item>டூயல்1</item>
+        <item>டூயல்2</item>
+    </string-array>
+    <string-array name="menu_setup_scart">
+        <item>தானியங்கி</item>
+        <item>கலக்கு</item>
+        <item>RGB</item>
+        <item>CVBS</item>
+        <item>எஸ்-வீடியோ</item>
+    </string-array>
+    <string-array name="menu_video_di_film_mode_array">
+        <item>அணைக்கவும்</item>
+        <item>தானியங்கி</item>
+    </string-array>
+    <string-array name="menu_factory_video_colortemperature_array">
+        <item>பயனாளர்</item>
+        <item>குளிர்</item>
+        <item>தரமானது</item>
+        <item>கதகதப்பானது</item>
+    </string-array>
+    <string-array name="menu_tv_scan_frequency_plan_array">
+        <item>STD</item>
+        <item>IRC</item>
+        <item>HRC</item>
+    </string-array>
+    <string-array name="menu_setup_timezone_name_array">
+        <item>ஆசியா/மகடன்</item>
+        <item>பசிபிக்/மிட்வே</item>
+        <item>பசிபிக்/ஹோனுலு</item>
+        <item>அமெரிக்கா/அங்கரேஜ்</item>
+        <item>அமெரிக்கா/அங்கரேஜ்</item>
+        <item>அமெரிக்கா/Los_Angeles</item>
+        <item>அமெரிக்கா/சிஹுவாஹுவா</item>
+        <item>அமெரிக்கா/சிகாகோ</item>
+        <item>அமெரிக்கா/மனௌஸ்</item>
+        <item>அமெரிக்கா/St_Johns</item>
+        <item>அமெரிக்கா/St_Johns</item>
+        <item>அமெரிக்கா/காட்தப்</item>
+        <item>அட்லாண்டிக்/Cape_Verde</item>
+        <item>ஒலிபரப்பாக</item>
+        <item>ஆப்பிரிக்கா/காஸாபிளான்கா</item>
+        <item>ஐரோப்பா/இலண்டன்</item>
+        <item>ஆப்பிரிக்கா/ஹாராரே</item>
+        <item>ஆசியா/அம்மான்</item>
+        <item>ஆசியா/அம்மான்</item>
+        <item>ஐரோப்பா/மாஸ்கோ</item>
+        <item>ஆசியா/டெஹ்ரான்</item>
+        <item>ஆசியா/யெரெவான்</item>
+        <item>ஆசியா/கொழும்பு</item>
+        <item>ஆசியா/காத்மாண்டு</item>
+        <item>ஆசியா/அல்மாடி</item>
+        <item>ஆசியா/பாங்காக்</item>
+        <item>ஆசியா/Hong_Kong</item>
+        <item>ஆசியா/டோக்கியோ</item>
+        <item>ஆஸ்திரேலியா/அடிலெய்டு</item>
+        <item>ஆசியா/யாக்டுஸ்க்</item>
+        <item>ஆசியா/விளாடிவோஸ்டாக்</item>
+        <item>ஆசியா/விளாடிவோஸ்டாக்</item>
+        <item>பசிபிக்/பிஜி</item>
+        <item>பசிபிக்/டாங்கராப்பு</item>
+    </string-array>
+    <string-array name="menu_tv_channel_bl_type">
+        <item>எதுவுமில்லை</item>
+        <item>ஒவ்வொருநாள்</item>
+        <item>ஞாயிற்றுக்கிழமை</item>
+        <item>திங்கள்கிழமை</item>
+        <item>செவ்வாய்க்கிழமை</item>
+        <item>புதன்கிழமை</item>
+        <item>வியாழக்கிழமை</item>
+        <item>வெள்ளிக்கிழமை</item>
+        <item>சனிக்கிழமை</item>
+    </string-array>
+    <string-array name="menu_setup_timezone_array">
+        <item>GMT-12:00</item>
+        <item>GMT-11:00</item>
+        <item>GMT-10:00</item>
+        <item>GMT-9:00</item>
+        <item>GMT-8:00</item>
+        <item>GMT-7:00</item>
+        <item>GMT-6:00</item>
+        <item>GMT-5:00</item>
+        <item>GMT-4:00</item>
+        <item>GMT-3:30</item>
+        <item>GMT-3:00</item>
+        <item>GMT-2:00</item>
+        <item>GMT-1:00</item>
+        <item>ஒலிபரப்பாக</item>
+        <item>GMT+0:00</item>
+        <item>GMT+1:00</item>
+        <item>GMT+2:00</item>
+        <item>GMT+3:00</item>
+        <item>GMT+3:30</item>
+        <item>GMT+4:00</item>
+        <item>GMT+4:30</item>
+        <item>GMT+5:00</item>
+        <item>GMT+5:30</item>
+        <item>GMT+5:45</item>
+        <item>GMT+6:00</item>
+        <item>GMT+6:30</item>
+        <item>GMT+7:00</item>
+        <item>GMT+8:00</item>
+        <item>GMT+9:00</item>
+        <item>GMT+9:30</item>
+        <item>GMT+10:00</item>
+        <item>GMT+11:00</item>
+        <item>GMT+12:00</item>
+        <item>GMT+12:45</item>
+        <item>GMT+13:00</item>
+    </string-array>
+    <string-array name="menu_tv_tuner_mode_array">
+        <item>உணர்கொம்பு</item>
+        <item>கேபிள்</item>
+    </string-array>
+    <string-array name="menu_audio_equalizer_array_us">
+        <item>அணைக்கவும்</item>
+        <item>ராக்</item>
+        <item>பாப்</item>
+        <item>லைவ்</item>
+        <item>டான்ஸ்</item>
+        <item>டெக்னோ</item>
+        <item>கிளாசிக்</item>
+        <item>மென்மை</item>
+        <item>Custom1</item>
+        <item>Custom2</item>
+        <item>custom3</item>
+    </string-array>
+    <string-array name="menu_setup_sleep_timer_array">
+        <item>அணைக்கவும்</item>
+        <item>10 நிமிடம்</item>
+        <item>20 நிமிடங்கள்</item>
+        <item>30 நிமிடம்</item>
+        <item>40 நிமிடங்கள்</item>
+        <item>50 நிமிடங்கள்</item>
+        <item>60 நிமிடங்கள்</item>
+        <item>90 நிமிடங்கள்</item>
+        <item>120 நிமிடங்கள்</item>
+    </string-array>
+    <string-array name="menu_tv_us_scan_mode_array">
+        <item>அனலாக்/டிஜிட்டல்</item>
+        <item>அனலாக்</item>
+        <item>டிஜிட்டல்</item>
+    </string-array>
+    <string-array name="screen_mode_array_sa_pop">
+        <item>தானியங்கி</item>
+        <item>இயல்பு</item>
+        <item>எழுத்துப் பெட்டி</item>
+        <item>உருப்பெருக்கு</item>
+    </string-array>
+    <string-array name="screen_mode_array_us_dtv">
+        <item>தானியங்கி</item>
+        <item>இயல்பு</item>
+        <item>எழுத்துப் பெட்டி</item>
+        <item>பனோரமா</item>
+        <item>உருப்பெருக்கு</item>
+        <item>புள்ளி புள்ளியாய்</item>
+    </string-array>
+    <string-array name="menu_tv_audio_language_eu_array">
+        <item>ஆங்கில மொழி</item>
+        <item>எஸ்டோனிய மொழி</item>
+        <item>பின்னிஷ் மொழி</item>
+        <item>பிரெஞ்சு மொழி</item>
+        <item>கேலிக் மொழி</item>
+        <item>ஐரிஷ் மொழி</item>
+        <item>காலிசியன் மொழி</item>
+        <item>ஜெர்மானிய மொழி</item>
+        <item>க்ரேக்க மொழி</item>
+        <item>இந்தி மொழி</item>
+        <item>ஹங்கேரிய மொழி</item>
+        <item>இத்தாலிய மொழி</item>
+        <item>ஐஸ்லாந்திய மொழி</item>
+        <item>ஜப்பானிய மொழி</item>
+        <item>கொரிய மொழி</item>
+        <item>மண்டாரின் மொழி</item>
+        <item>மவோரி மொழி</item>
+        <item>நார்வே மொழி</item>
+        <item>போலிஷ் மொழி</item>
+        <item>போர்ச்சுக்கீசிய மொழி</item>
+        <item>ரோமானிய மொழி</item>
+        <item>ரஷ்ய மொழி</item>
+        <item>சமி மொழி</item>
+        <item>செர்பிய மொழி</item>
+        <item>ஸ்லோவாக் மொழி</item>
+        <item>ஸ்லோவேனிய மொழி</item>
+        <item>ஸ்பானிய மொழி</item>
+        <item>ஸ்வீடிஷ் மொழி</item>
+        <item>துருக்கிய மொழி</item>
+        <item>வெல்ஷ் மொழி</item>
+        <item>அசல் ஒலி</item>
+        <item>விரிவுரையாக</item>
+        <item>வரையறுக்கப்படாதது</item>
+        <item>பாஸ்க்யூ மொழி</item>
+        <item>பல்கேரிய மொழி</item>
+        <item>கன்டோனிய மொழி</item>
+        <item>கடலன் மொழி</item>
+        <item>க்ரோஷிய மொழி</item>
+        <item>செக்</item>
+        <item>டேனிய மொழி</item>
+        <item>டச்சு மொழி</item>
+    </string-array>
+    <string-array name="menu_setup_atv_record_mode_array">
+        <item>அணைக்கவும்</item>
+        <item>இயக்கவும்</item>
+    </string-array>
+    <string-array name="screen_mode_array_us_pip_sub">
+        <item>தானியங்கி</item>
+        <item>இயல்பு</item>
+        <item>எழுத்துப் பெட்டி</item>
+    </string-array>
+    <string-array name="menu_parental_content_ratings_array">
+        <item>அணைக்கவும்</item>
+        <item>போதைப்பொருள்</item>
+        <item>வன்முறை</item>
+        <item>Sex</item>
+        <item>வன்முறை &amp; போதைப்பொருள்</item>
+        <item>பாலியல் &amp; போதைப்பொருள்</item>
+        <item>வன்முறை &amp; பாலியல்</item>
+        <item>வன்முறை &amp; பாலியல் &amp; போதைப்பொருள்</item>
+    </string-array>
+    <string-array name="menu_video_3d_3t2switch_array">
+        <item>அணைக்கவும்</item>
+        <item>இயக்கவும்</item>
+    </string-array>
+    <string-array name="menu_setup_oad_auto_download_array">
+        <item>இல்லை</item>
+        <item>ஆம்</item>
+    </string-array>
+    <string-array name="menu_setup_digital_caption_array">
+        <item>அணைக்கவும்</item>
+        <item>சேவை1</item>
+        <item>சேவை2</item>
+        <item>சேவை3</item>
+        <item>சேவை4</item>
+        <item>சேவை5</item>
+        <item>சேவை6</item>
+    </string-array>
+    <string-array name="menu_video_game_mode_array">
+        <item>அணைக்கவும்</item>
+        <item>இயக்கவும்</item>
+    </string-array>
+    <string-array name="screen_mode_array_sa">
+        <item>தானியங்கி</item>
+        <item>இயல்பு</item>
+        <item>உருப்பெருக்கு</item>
+    </string-array>
+    <string-array name="menu_parental_open_vchip_array">
+        <item>அணைக்கவும்</item>
+        <item>இயக்கவும்</item>
+    </string-array>
+    <string-array name="menu_setup_us_timezone_str">
+        <item>அமெரிக்கா/New_York</item>
+        <item>பசிபிக்/ஹோனுலு</item>
+        <item>அமெரிக்கா/அங்கரேஜ்</item>
+        <item>அமெரிக்கா/Los_Angeles</item>
+        <item>அமெரிக்கா/பீனிக்ஸ்</item>
+        <item>அமெரிக்கா/டென்வர்</item>
+        <item>அமெரிக்கா/சிகாகோ</item>
+        <item>அமெரிக்கா/New_York</item>
+    </string-array>
+    <string-array name="menu_setup_power_off_timer_array">
+        <item>அணைக்கவும்</item>
+        <item>இயக்கவும்</item>
+        <item>ஒருமுறை</item>
+    </string-array>
+    <string-array name="menu_video_color_temperature2_array">
+        <item>குளிர்</item>
+        <item>தரமானது</item>
+        <item>கதகதப்பானது</item>
+    </string-array>
+    <string-array name="menu_video_pq_split_mode_array">
+        <item>அணைக்கவும்</item>
+        <item>இயக்கவும்</item>
+    </string-array>
+    <string-array name="menu_setup_dpms_array">
+        <item>அணைக்கவும்</item>
+        <item>இயக்கவும்</item>
+    </string-array>
+    <string-array name="menu_parental_block_unrated_array">
+        <item>அணைக்கவும்</item>
+        <item>இயக்கவும்</item>
+    </string-array>
+    <string-array name="menu_audio_speaker_mode_array">
+        <item>அணைக்கவும்</item>
+        <item>இயக்கவும்</item>
+    </string-array>
+    <string-array name="menu_setup_ttx_presentation_level_array">
+        <item>Level 1.5</item>
+        <item>Level 2.5</item>
+    </string-array>
+    <string-array name="menu_setup_font_size_array">
+        <item>சிறியது</item>
+        <item>ஊடகம்</item>
+        <item>பெரியது</item>
+    </string-array>
+    <string-array name="menu_setup_fast_boot_array">
+        <item>அணைக்கவும்</item>
+        <item>இயக்கவும்</item>
+    </string-array>
+    <string-array name="menu_tv_tshift_config_array">
+        <item>அணைக்கவும்</item>
+        <item>இயக்கவும்</item>
+    </string-array>
+    <string-array name="menu_tv_subtitle_language_eu_array">
+        <item>பாஸ்க்யூ மொழி</item>
+        <item>பல்கேரிய மொழி</item>
+        <item>கன்டோனிய மொழி</item>
+        <item>கடலன் மொழி</item>
+        <item>க்ரோஷிய மொழி</item>
+        <item>செக்</item>
+        <item>டேனிய மொழி</item>
+        <item>டச்சு மொழி</item>
+        <item>ஆங்கில மொழி</item>
+        <item>எஸ்டோனிய மொழி</item>
+        <item>பின்னிஷ் மொழி</item>
+        <item>பிரெஞ்சு மொழி</item>
+        <item>கேலிக் மொழி</item>
+        <item>ஐரிஷ் மொழி</item>
+        <item>காலிசியன் மொழி</item>
+        <item>ஜெர்மானிய மொழி</item>
+        <item>க்ரேக்க மொழி</item>
+        <item>இந்தி மொழி</item>
+        <item>ஹங்கேரிய மொழி</item>
+        <item>இத்தாலிய மொழி</item>
+        <item>ஐஸ்லாந்திய மொழி</item>
+        <item>ஜப்பானிய மொழி</item>
+        <item>கொரிய மொழி</item>
+        <item>மண்டாரின் மொழி</item>
+        <item>மவோரி மொழி</item>
+        <item>நார்வே மொழி</item>
+        <item>போலிஷ் மொழி</item>
+        <item>போர்ச்சுக்கீசிய மொழி</item>
+        <item>ரோமானிய மொழி</item>
+        <item>ரஷ்ய மொழி</item>
+        <item>சமி மொழி</item>
+        <item>செர்பிய மொழி</item>
+        <item>ஸ்லோவாக் மொழி</item>
+        <item>ஸ்லோவேனிய மொழி</item>
+        <item>ஸ்பானிய மொழி</item>
+        <item>ஸ்வீடிஷ் மொழி</item>
+        <item>துருக்கிய மொழி</item>
+        <item>வெல்ஷ் மொழி</item>
+        <item>அசல் ஒலி</item>
+        <item>விரிவுரையாக</item>
+        <item>வரையறுக்கப்படாதது</item>
+        <item>அணைக்கவும்</item>
+    </string-array>
+    <string-array name="menu_tv_fa_dataservice_array">
+        <item>அணைக்கவும்</item>
+        <item>இயக்கவும்</item>
+    </string-array>
+    <string-array name="menu_tv_tuner_mode_array_full_eu">
+        <item>உணர்கொம்பு</item>
+        <item>கேபிள்</item>
+        <item>@string/dvbs_preferred_satellite</item>
+        <item>@string/dvbs_general_satellite</item>
+    </string-array>
+    <string-array name="menu_video_super_resolution_array">
+        <item>அணைக்கவும்</item>
+        <item>இயக்கவும்</item>
+    </string-array>
+    <string-array name="menu_cec_on_off">
+        <item>அணைக்கவும்</item>
+        <item>இயக்கவும்</item>
+    </string-array>
+    <string-array name="menu_tv_mdu_type_array">
+        <item>யூனிவர்சல்</item>
+        <item>MDU 1</item>
+        <item>MDU 2</item>
+        <item>MDU 3</item>
+        <item>MDU 4</item>
+        <item>MDU 5</item>
+    </string-array>
+    <string-array name="menu_factory_video_wcg_array">
+        <item>அணைக்கவும்</item>
+        <item>இயக்கவும்</item>
+    </string-array>
+    <string-array name="menu_tv_audio_language_array">
+        <item>ஆங்கில மொழி</item>
+        <item>ஸ்பானிய மொழி</item>
+        <item>பிரன்ஞ்சு மொழி</item>
+    </string-array>
+    <string-array name="menu_setup_tv_single_signal_quality">
+        <item>மோசம்</item>
+        <item>இயல்பு</item>
+        <item>நன்று</item>
+    </string-array>
+    <string-array name="menu_tv_freeze_channel_array">
+        <item>அணைக்கவும்</item>
+        <item>இயக்கவும்</item>
+    </string-array>
+    <string-array name="menu_setup_address_type_array">
+        <item>தானியங்கி</item>
+        <item>கைமுறை</item>
+    </string-array>
+    <string-array name="menu_setup_analog_caption_array">
+        <item>அணைக்கவும்</item>
+        <item>CC1</item>
+        <item>CC2</item>
+        <item>CC3</item>
+        <item>CC4</item>
+        <item>உரை1</item>
+        <item>TEXT2</item>
+        <item>TEXT3</item>
+        <item>TEXT4</item>
+    </string-array>
+    <string-array name="menu_setup_power_on_channel_mode_array">
+        <item>கடைசி நிலை</item>
+        <item>பயனர் தேர்வு</item>
+    </string-array>
+    <string-array name="pvr_tshift_channel_temp_list">
+        <item>CH41</item>
+        <item>CH42</item>
+        <item>CH43</item>
+        <item>CH44</item>
+    </string-array>
+    <string-array name="menu_audio_avc_mode_array">
+        <item>அணைக்கவும்</item>
+        <item>இயக்கவும்</item>
+    </string-array>
+    <string-array name="menu_factory_autovedio_array">
+        <item>அணைக்கவும்</item>
+        <item>இயக்கவும்</item>
+    </string-array>
+    <string-array name="menu_tv_scan_modulation_array">
+        <item>QAM64</item>
+        <item>QAM256</item>
+    </string-array>
+    <string-array name="menu_setup_enable_caption_array">
+        <item>ஆம்</item>
+        <item>இல்லை</item>
+        <item>சத்தமில்லாமல்</item>
+    </string-array>
+    <string-array name="menu_video_blue_stretch_array">
+        <item>அணைக்கவும்</item>
+        <item>இயக்கவும்</item>
+    </string-array>
+    <string-array name="menu_tv_skip_ch_array">
+        <item>அணைக்கவும்</item>
+        <item>இயக்கவும்</item>
+    </string-array>
+    <string-array name="screen_mode_array_sa_analog">
+        <item>தானியங்கி</item>
+        <item>இயல்பு</item>
+        <item>எழுத்துப் பெட்டி</item>
+        <item>பனோரமா</item>
+        <item>உருப்பெருக்கு</item>
+        <item>புள்ளி புள்ளியாய்</item>
+    </string-array>
+    <string-array name="screen_mode_array_vga">
+        <item>இயல்பு</item>
+        <item>எழுத்துப் பெட்டி</item>
+        <item>உருப்பெருக்கு</item>
+    </string-array>
+    <string-array name="menu_factory_audio_system_test_array">
+        <item>அணைக்கவும்</item>
+        <item>இயக்கவும்</item>
+    </string-array>
+    <string-array name="menu_setup_poweron_music_array">
+        <item>அணைக்கவும்</item>
+        <item>இயக்கவும்</item>
+    </string-array>
+    <string-array name="menu_factory_auto_dima_array">
+        <item>மெதுவான படம்</item>
+        <item>அதிரடிப் படம்</item>
+    </string-array>
+    <string-array name="menu_tv_audio_channel_mts_array">
+        <item>ஒற்றை</item>
+        <item>ஸ்டீரியோ</item>
+        <item>SAP</item>
+    </string-array>
+    <string-array name="menu_video_mjc_mode">
+        <item>இயல்பு</item>
+        <item>படம் மட்டும்</item>
+        <item>மங்கல் நீக்கம் மட்டும்</item>
+    </string-array>
+    <string-array name="menu_setup_auto_sleep_array">
+        <item>அணைக்கவும்</item>
+        <item>1 மணிநேரம்</item>
+        <item>2 மணிநேரங்கள்</item>
+        <item>5 மணிநேரங்கள்</item>
+    </string-array>
+    <string-array name="menu_video_mjc_effect_array">
+        <item>அணைக்கவும்</item>
+        <item>கீழ்</item>
+        <item>நடுவே</item>
+        <item>உயர்ந்தது</item>
+    </string-array>
+    <string-array name="menu_audio_downmixmode_array">
+        <item>ஸ்டீரியோ</item>
+        <item>தானியங்கு ஸ்டிரியோ</item>
+        <item>சூழவும்</item>
+    </string-array>
+    <string-array name="menu_factory_audio_compression_array">
+        <item>வரி</item>
+        <item>RF</item>
+    </string-array>
+    <string-array name="menu_video_mjc_demo_partition_array">
+        <item>அனைத்தும்</item>
+        <item>வலப்பக்கம்</item>
+        <item>இடப்பக்கம்</item>
+    </string-array>
+    <string-array name="menu_tv_color_system_array">
+        <item>தானியங்கு</item>
+        <item>PAL</item>
+        <item>SECAM</item>
+        <item>NTSC</item>
+    </string-array>
+    <string-array name="menu_video_flesh_tone_us_array">
+        <item>அணைக்கவும்</item>
+        <item>கீழ்</item>
+        <item>ஊடகம்</item>
+        <item>உயர்ந்தது</item>
+    </string-array>
+    <string-array name="menu_setup_msi_array">
+        <item>அணைக்கவும்</item>
+        <item>இயக்கவும்</item>
+    </string-array>
+    <string-array name="menu_factory_video_flip_array">
+        <item>அணைக்கவும்</item>
+        <item>இயக்கவும்</item>
+    </string-array>
+    <string-array name="menu_setup_analog_subtitle_array">
+        <item>அணைக்கவும்</item>
+        <item>இயக்கவும்</item>
+        <item>ஒலியை நிறுத்தவும்</item>
+    </string-array>
+    <string-array name="menu_setup_font_color_array">
+        <item>கருப்பு</item>
+        <item>வெள்ளை</item>
+        <item>பச்சை</item>
+        <item>நீலம்</item>
+        <item>சிவப்பு</item>
+        <item>சையான்</item>
+        <item>மஞ்சள்</item>
+        <item>மெஜண்டா</item>
+    </string-array>
+    <string-array name="menu_setup_decoding_page_language_array">
+        <item>WEST EUR</item>
+        <item>EAST EUR</item>
+        <item>ரஷ்யா</item>
+        <item>ரஷ்யா-2</item>
+        <item>க்ரேக்க மொழி</item>
+        <item>துருக்கி</item>
+        <item>Arab/Hbrw</item>
+        <item>பார்சி மொழி</item>
+        <item>அரேபியா</item>
+        <item>பைலொரஷ்யன் மொழி</item>
+    </string-array>
+    <string-array name="pvr_tshift_schedule_type">
+        <item>பதிவுசெய்யவும்</item>
+        <item>நினைவுபடுத்தி</item>
+    </string-array>
+    <string-array name="menu_setup_background_opacity_array">
+        <item>திண்மையாக</item>
+        <item>ஒளிகசியும்</item>
+        <item>ஒளி ஊடுருவும்</item>
+    </string-array>
+    <string-array name="menu_audio_type_array">
+        <item>இயல்பு</item>
+        <item>கேட்டல் குறைபாடு உள்ளவர்</item>
+        <item>பார்வைத்திறனில்லாத</item>
+    </string-array>
+    <string-array name="menu_setup_window_color_array">
+        <item>கருப்பு</item>
+        <item>வெள்ளை</item>
+        <item>பச்சை</item>
+        <item>நீலம்</item>
+        <item>சிவப்பு</item>
+        <item>சையான்</item>
+        <item>மஞ்சள்</item>
+        <item>மெஜண்டா</item>
+    </string-array>
+    <string-array name="menu_video_3d_mode_array">
+        <item>அணைக்கவும்</item>
+        <item>தானியக்க முறை</item>
+        <item>2D-லிருந்து-3D</item>
+        <item>பிரேம் வரிசை</item>
+        <item>பக்கத்துக்குப் பக்கம்</item>
+        <item>மேலும் கீழும்</item>
+        <item>REALD MODE</item>
+        <item>SENSIO</item>
+        <item>வரிசை இண்டர்லேஸ்</item>
+        <item>DOT ALT MODE</item>
+        <item>CHK BOARD</item>
+    </string-array>
+    <string-array name="menu_audio_visually_speaker_array">
+        <item>அணைக்கவும்</item>
+        <item>இயக்கவும்</item>
+    </string-array>
+    <string-array name="menu_setup_auto_sleep_eu_array">
+        <item>அணைக்கவும்</item>
+        <item>4 மணிநேரங்கள்</item>
+        <item>6 மணிநேரங்கள்</item>
+        <item>8 மணிநேரங்கள்</item>
+    </string-array>
+    <string-array name="menu_setup_my_network_place_array">
+        <item>அணைக்கவும்</item>
+        <item>இயக்கவும்</item>
+    </string-array>
+    <string-array name="pvr_tshift_srctype">
+        <item>டிவி</item>
+        <item>கலப்பு</item>
+    </string-array>
+    <string-array name="menu_setup_us_timezone_array">
+        <item>கிழக்கு நேரம்</item>
+        <item>ஹவாய்</item>
+        <item>அலாஸ்கா</item>
+        <item>பசிபிக் நேரம்</item>
+        <item>அரிசோனா</item>
+        <item>மவுண்டைன் நேரம்</item>
+        <item>மத்திய நேரம்</item>
+        <item>இண்டியானா</item>
+    </string-array>
+    <string-array name="menu_setup_font_opacity_array">
+        <item>திண்மையாக</item>
+        <item>ஒளிகசியும்</item>
+        <item>ஒளி ஊடுருவும்</item>
+    </string-array>
+    <string-array name="menu_audio_pippop_mode_array">
+        <item>அணைக்கவும்</item>
+        <item>பிப்</item>
+        <item>பாப்</item>
+    </string-array>
+    <string-array name="menu_factory_fm_saturation_mute_array">
+        <item>அணைக்கவும்</item>
+        <item>இயக்கவும்</item>
+    </string-array>
+    <string-array name="menu_tv_color_system_array_eu_edit">
+        <item>தானியங்கு</item>
+        <item>NTSC</item>
+        <item>PAL</item>
+        <item>SECAM</item>
+    </string-array>
+    <string-array name="menu_factory_high_deviation_mode_array">
+        <item>அணைக்கவும்</item>
+        <item>இயக்கவும்</item>
+    </string-array>
+    <string-array name="menu_video_3d_nav_array">
+        <item>கைமுறை</item>
+        <item>பாதி-தானியக்கம்</item>
+        <item>தானியங்கி</item>
+    </string-array>
+    <string-array name="menu_video_gamma_array">
+        <item>இருட்டானது</item>
+        <item>நடுவே</item>
+        <item>வெளிச்சமானது</item>
+    </string-array>
+    <string-array name="menu_parental_age_ratings_array_eu">
+        <item>எதுவுமில்லை</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+    </string-array>
+    <string-array name="menu_factory_setup_eu_uart_mode">
+        <item>அணைக்கவும்</item>
+        <item>இயக்கவும்</item>
+    </string-array>
+    <string-array name="menu_audio_visually_headphone_array">
+        <item>அணைக்கவும்</item>
+        <item>இயக்கவும்</item>
+    </string-array>
+    <string-array name="menu_video_vga_mode_array">
+        <item>படம்சார்ந்தது</item>
+        <item>வீடியோ</item>
+    </string-array>
+    <string-array name="menu_factory_setup_uart_mode">
+        <item>அணைக்கவும்</item>
+        <item>இயக்கவும்</item>
+    </string-array>
+    <string-array name="menu_audio_srs_mode_array">
+        <item>அணைக்கவும்</item>
+        <item>இயக்கவும்</item>
+    </string-array>
+    <string-array name="menu_setup_digital_teletext_language_array">
+        <item>பாஸ்க்யூ மொழி</item>
+        <item>பல்கேரிய மொழி</item>
+        <item>கன்டோனிய மொழி</item>
+        <item>கடலன் மொழி</item>
+        <item>க்ரோஷிய மொழி</item>
+        <item>செக்</item>
+        <item>டேனிய மொழி</item>
+        <item>டச்சு மொழி</item>
+        <item>ஆங்கில மொழி</item>
+        <item>எஸ்டோனிய மொழி</item>
+        <item>பின்னிஷ் மொழி</item>
+        <item>பிரெஞ்சு மொழி</item>
+        <item>கேலிக் மொழி</item>
+        <item>ஐரிஷ் மொழி</item>
+        <item>காலிசியன் மொழி</item>
+        <item>ஜெர்மானிய மொழி</item>
+        <item>க்ரேக்க மொழி</item>
+        <item>இந்தி மொழி</item>
+        <item>ஹங்கேரிய மொழி</item>
+        <item>இத்தாலிய மொழி</item>
+        <item>ஐஸ்லாந்திய மொழி</item>
+        <item>ஜப்பானிய மொழி</item>
+        <item>கொரிய மொழி</item>
+        <item>மண்டாரின் மொழி</item>
+        <item>மவோரி மொழி</item>
+        <item>நார்வே மொழி</item>
+        <item>போலிஷ் மொழி</item>
+        <item>போர்ச்சுக்கீசிய மொழி</item>
+        <item>ரோமானிய மொழி</item>
+        <item>ரஷ்ய மொழி</item>
+        <item>சமி மொழி</item>
+        <item>செர்பிய மொழி</item>
+        <item>ஸ்லோவாக் மொழி</item>
+        <item>ஸ்லோவேனிய மொழி</item>
+        <item>ஸ்பானிய மொழி</item>
+        <item>ஸ்வீடிஷ் மொழி</item>
+        <item>துருக்கிய மொழி</item>
+        <item>வேல்சு மொழி</item>
+        <item>அசல் ஒலி</item>
+        <item>விரிவுரையாக</item>
+        <item>வரையறுக்கப்படாதது</item>
+    </string-array>
+    <string-array name="menu_parental_age_ratings_array_eu_ocean_aus">
+        <item>தடை இல்லை</item>
+        <item>ஆர் மற்றும் அதற்குமேல் உள்ளவற்றைத் தடைசெய்யவும்</item>
+        <item>ஏவி மற்றும் அதற்குமேல் உள்ளவற்றைத் தடைசெய்யவும்</item>
+        <item>எம்ஏ மற்றும் அதற்குமேல் உள்ளவற்றைத் தடைசெய்யவும்</item>
+        <item>எம் மற்றும் அதற்குமேல் உள்ளவற்றைத் தடைசெய்யவும்</item>
+        <item>பிஜி மற்றும் அதற்குமேல் உள்ளவற்றைத் தடைசெய்யவும்</item>
+        <item>ஜி மற்றும் அதற்குமேல் உள்ளவற்றைத் தடைசெய்யவும்</item>
+        <item>அனைத்தையும் தடைசெய்யவும்</item>
+    </string-array>
+    <string-array name="menu_setup_superimpose_setup_array">
+        <item>அணைக்கவும்</item>
+        <item>மொழி1</item>
+        <item>மொழி2</item>
+    </string-array>
+    <string-array name="menu_factory_audio_dolbybanner_array">
+        <item>அணைக்கவும்</item>
+        <item>இயக்கவும்</item>
+    </string-array>
+    <string-array name="menu_video_black_bar_detection_array">
+        <item>அணைக்கவும்</item>
+        <item>இயக்கவும்</item>
+    </string-array>
+    <string-array name="menu_setup_digital_caption_sa_array">
+        <item>அணைக்கவும்</item>
+        <item>மொழி1</item>
+        <item>மொழி2</item>
+        <item>மொழி3</item>
+        <item>மொழி4</item>
+        <item>மொழி5</item>
+        <item>மொழி6</item>
+        <item>மொழி7</item>
+        <item>மொழி8</item>
+    </string-array>
+    <string-array name="menu_tv_tuner_mode_array_full_eu_sat_only">
+        <item>உணர்கொம்பு</item>
+        <item>கேபிள்</item>
+        <item>செயற்கைக்கோள்</item>
+    </string-array>
+    <string-array name="menu_factory_setup_burning_mode">
+        <item>அணைக்கவும்</item>
+        <item>இயக்கவும்</item>
+    </string-array>
+    <string-array name="menu_audio_bbe_mode_array">
+        <item>அணைக்கவும்</item>
+        <item>BBE</item>
+        <item>BBE Viva</item>
+    </string-array>
+    <string-array name="menu_tv_country_region_id_eu">
+        <item>நாடு இருப்பிட ID 1</item>
+        <item>நாடு இருப்பிட ID 2</item>
+    </string-array>
+    <string-array name="menu_video_dnr_array">
+        <item>அணைக்கவும்</item>
+        <item>கீழ்</item>
+        <item>ஊடகம்</item>
+        <item>வலுவானது</item>
+        <item>தானியங்கி</item>
+    </string-array>
+    <string-array name="menu_setup_subtitle_type_array">
+        <item>இயல்பு</item>
+        <item>கேட்டல் குறைபாடு உள்ளவர்</item>
+    </string-array>
+    <string-array name="menu_tv_fine_tune_array">
+        <item>அணைக்கவும்</item>
+        <item>இயக்கவும்</item>
+    </string-array>
+    <string-array name="menu_parental_age_ratings_array">
+        <item>எதுவுமில்லை</item>
+        <item>Below 10</item>
+        <item>Below 12</item>
+        <item>Below 14</item>
+        <item>Below 16</item>
+        <item>Below 18</item>
+    </string-array>
+    <string-array name="menu_video_3d_lrswitch_array">
+        <item>அணைக்கவும்</item>
+        <item>இயக்கவும்</item>
+    </string-array>
+    <string-array name="menu_factory_video_local_array">
+        <item>அணைக்கவும்</item>
+        <item>இயக்கவும்</item>
+    </string-array>
+    <string-array name="menu_setup_power_on_timer_array">
+        <item>அணைக்கவும்</item>
+        <item>இயக்கவும்</item>
+        <item>ஒருமுறை</item>
+    </string-array>
+    <string-array name="menu_tv_channel_listtype">
+        <item>ஒளிபரப்பு</item>
+        <item>CAM</item>
+    </string-array>
+    <string-array name="screen_mode_array_us_pop">
+        <item>தானியங்கி</item>
+        <item>இயல்பு</item>
+        <item>உருப்பெருக்கு</item>
+    </string-array>
+    <string-array name="menu_audio_equalizer_array">
+        <item>அணைக்கவும்</item>
+        <item>ராக்</item>
+        <item>பாப்</item>
+        <item>லைவ்</item>
+        <item>டான்ஸ்</item>
+        <item>டெக்னோ</item>
+        <item>கிளாசிக்</item>
+        <item>மென்மை</item>
+    </string-array>
+    <string-array name="menu_setup_caption_style_array">
+        <item>ஒலிபரப்பாளராக</item>
+        <item>தனிப்பயன்</item>
+    </string-array>
+    <string-array name="menu_setup_font_style_array">
+        <item>முறை 1</item>
+        <item>Style2</item>
+        <item>Style3</item>
+        <item>Style4</item>
+        <item>Style5</item>
+        <item>Style6</item>
+        <item>Style7</item>
+    </string-array>
+    <string-array name="menu_tv_rf_signal_quality">
+        <item>நன்று</item>
+        <item>ஊடகம்</item>
+        <item>மோசம்</item>
+    </string-array>
+    <string-array name="menu_tv_sound_system_array">
+        <item>B/G</item>
+        <item>A2 B/G</item>
+        <item>L</item>
+        <item>L\'</item>
+        <item>I</item>
+        <item>D/K</item>
+        <item>A2 D/K</item>
+        <item>A2 D/K1</item>
+        <item>A2 D/K2</item>
+    </string-array>
+    <string-array name="menu_video_luma_array">
+        <item>அணைக்கவும்</item>
+        <item>கீழ்</item>
+        <item>ஊடகம்</item>
+        <item>வலுவானது</item>
+    </string-array>
+    <string-array name="menu_factory_video_mirror_array">
+        <item>அணைக்கவும்</item>
+        <item>இயக்கவும்</item>
+    </string-array>
+    <string-array name="pvr_tshift_repeat_type">
+        <item>ஒருமுறை</item>
+        <item>வாரம்</item>
+        <item>தினசரி</item>
+    </string-array>
+    <string-array name="menu_factory_carrier_shift_function_array">
+        <item>அணைக்கவும்</item>
+        <item>இயக்கவும்</item>
+    </string-array>
+    <string-array name="menu_setup_language_array">
+        <item>ஆங்கில மொழி</item>
+        <item>எளிய சீனமொழி</item>
+    </string-array>
+    <string-array name="menu_setup_blue_mute_array">
+        <item>அணைக்கவும்</item>
+        <item>இயக்கவும்</item>
+    </string-array>
+    <string-array name="menu_setup_background_color_array">
+        <item>கருப்பு</item>
+        <item>வெள்ளை</item>
+        <item>பச்சை</item>
+        <item>நீலம்</item>
+        <item>சிவப்பு</item>
+        <item>சையான்</item>
+        <item>மஞ்சள்</item>
+        <item>மெஜண்டா</item>
+    </string-array>
+	<integer-array name="menu_setup_us_timezone_values">
+        <item>-5</item>
+        <item>-10</item>
+        <item>-9</item>
+        <item>-8</item>
+        <item>-7</item>
+        <item>-7</item>
+        <item>-6</item>
+        <item>-5</item>
+    </integer-array>
+	<integer-array name="menu_setup_timezone_value_array">
+        <item>-12</item>
+        <item>-11</item>
+        <item>-10</item>
+        <item>-9</item>
+        <item>-8</item>
+        <item>-7</item>
+        <item>-6</item>
+        <item>-5</item>
+        <item>-4</item>
+        <item>-350</item>
+        <item>-3</item>
+        <item>-2</item>
+        <item>-1</item>
+        <item>0</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>350</item>
+        <item>4</item>
+        <item>450</item>
+        <item>5</item>
+        <item>550</item>
+        <item>575</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>950</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>-1125</item>
+        <item>-11</item>
+    </integer-array>
+</resources>

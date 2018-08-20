@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>  
+    <string-array name="menu_pictrue_mode_list">
+		<item>သံုးစြဲသူ</item>
+		<item>႐ုပ္ရွင္႐ံု</item>
+		<item>အားကစား</item>
+		<item>ႂကြႂကြရြရြ</item>
+		<item>ဟုိင္း</item>
+    </string-array>
+   <string-array name="menu_track_mode_list">
+        <item>အသံသြင္းလမ္းေၾကာင္း တစ္ခု</item>
+        <item>အသံသြင္းလမ္းေၾကာင္း ႏွစ္ခု</item>
+    </string-array> 
+    <string-array name="menu_audio_equalizer_list">
+		<item>ပိတ္</item>
+		<item>ေရာ့ခ္</item>
+		<item>Pop</item>
+		<item>တိုက္႐ိုက္</item>
+		<item>အက</item>
+		<item>နည္းပညာ</item>
+		<item>ဂႏၳဝင္</item>
+		<item>ေပ်ာ့ေပ်ာင္းေသာ</item>		
+	</string-array>
+	
+</resources>

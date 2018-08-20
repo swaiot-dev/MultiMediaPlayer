@@ -113,7 +113,7 @@
 	<string name="mmp_menu_onlyaudio">Audio Only</string>
 
 
-
+	<string name="mmp_audios">Audio</string>
 	<string name="mmp_photo">Photo</string>
 	<string name="mmp_audio">Music</string>
 	<string name="mmp_video">Movie</string>
@@ -294,12 +294,12 @@
 
 	<string name="mmp_content_type_movie">Movie</string>
 	<string name="mmp_content_type_picture">Picture</string>
-	<string name="mmp_content_type_music">Music</string>
+	<string name="mmp_content_type_music">Audio</string>
 	<string name="mmp_content_type_pvr">USB Recording</string>
 	<string name="more">More</string>
 	<string name="no_video">No video</string>
 	<string name="no_photo">No photo</string>
 	<string name="no_music">No music</string>
 
-
+	<string name="file_list_initialization">File list is loading…</string>
 </resources>

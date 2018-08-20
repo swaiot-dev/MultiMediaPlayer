@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+
+	<string-array name="nav_channel_types">
+		<item>အားလံုး</item>
+		<item>ေရဒီယို</item>
+	</string-array>
+	<string-array name="nav_sleep_strings">
+		<item>နားေနမႈ - ပိတ္</item>
+		<item>နားေနမႈ - 15 မိနစ္</item>
+		<item>နားေနမႈ - 30 မိနစ္</item>
+		<item>နားေနမႈ - 45 မိနစ္</item>
+		<item>နားေနမႈ - 60 မိနစ္</item>
+		<item>နားေနမႈ - 90 မိနစ္</item>
+		<item>နားေနမႈ - 120 မိနစ္</item>
+	</string-array>
+	<string-array name="nav_zoom_strings">
+		<item>zoom X 1</item>
+		<item>zoom X 2</item>
+		<item>zoom X 1/2</item>
+	</string-array>
+	
+	<string-array name="nav_s_effect_strings">
+        <item>သံုးစြဲသူ</item>
+		<item>စံ</item>
+		<item>တိုက္႐ိုက္1</item>
+	</string-array>
+
+	<string-array name="nav_freeze_strings">
+		<item>ၿငိမ္ - ဖြင့္</item>
+		<item>ၿငိမ္ - ပိတ္</item>
+	</string-array>
+
+	<string-array name="nav_epg_filter_type">
+		<item>႐ုပ္ရွင္</item>
+		<item>သတင္း</item>
+		<item>ျပပါ</item>
+		<item>အားကစားမ်ား</item>
+		<item>ကေလးသူငယ္မ်ား၏ အစီအစဥ္</item>
+		<item>သီခ်င္း</item>
+		<item>အႏုပညာ</item>
+		<item>လူမႈေရး</item>
+		<item>ပညာေရး</item>
+		<item>အားလပ္ခ်ိန္</item>
+		<item>သီးသန္႔</item>
+	</string-array>
+	
+	<string-array name="nav_epg_filter_type_AUS">
+		<item>႐ုပ္ရွင္</item>
+		<item>သတင္း</item>
+		<item>ေဖ်ာ္ေျဖေရး</item>
+		<item>အားကစားမ်ား</item>
+		<item>ကေလးသူငယ္မ်ား၏ အစီအစဥ္</item>
+		<item>သီခ်င္း</item>
+		<item>အႏုပညာ</item>
+		<item>လက္႐ွိကိစၥမ်ား</item>
+		<item>ပညာေရး</item>
+		<item>သတင္းအခ်က္အလက္ျဖင့္ ေဖ်ာ္ေျဖမႈ</item>
+		<item>သီးသန္႔</item>
+		<item>ဟာသ</item>
+		<item>ျပဇာတ္/ဒရာမာ</item>
+		<item>မွတ္တမ္းတင္႐ုပ္႐ွင္</item>
+	</string-array>
+	
+	<string-array name="nav_epg_filter_type_UK">
+		<item>႐ုပ္ရွင္</item>
+		<item>သတင္းႏွင့္ အေၾကာင္းအရာစံု</item>
+		<item>ေဖ်ာ္ေျဖေရး</item>
+		<item>အားကစား</item>
+		<item>ကေလးသူငယ္မ်ား၏ အစီအစဥ္</item>
+		<item>ပညာေရး</item>
+		<item>ဘဝေနထုိင္မႈပုံစံ</item>
+		<item>ျပဇာတ္/ဒရာမာ</item>
+	</string-array>
+	
+	<string-array name="nav_epg_filter_sa_type">
+		<item>သတင္း</item>
+		<item>အားကစားမ်ား</item>
+		<item>ပညာေရး</item>
+		<item>ဘဝ သ႐ုပ္ေဖာ္ဇာတ္လမ္း</item>
+		<item>ဇာတ္လမ္းတြဲတို</item>
+		<item>အစီအစဥ္</item>
+		<item>အမ်ဳိးမ်ဳိးေသာ</item>
+		<item>REALITY_SHOW</item>
+		<item>INFOMATION</item>
+		<item>COMICAL</item>
+		<item>ကေလးမ်ား</item>
+		<item>ကာမရာဂ ႏႈိးဆြျခင္း</item>
+		<item>႐ုပ္ရွင္</item>
+		<item>RA_TE_SA_PR</item>
+		<item>DEBATE_INTERVIEW</item>
+		<item>အျခား</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_movie">
+		<item>ျပဇာတ္/ဒရာမာ</item>
+		<item>စံုေထာက္</item>
+		<item>စြန္႔စားခန္း</item>
+		<item>သိပၸံစိတ္ကူးယဥ္ဇာတ္လမ္း</item>
+		<item>ဟာသ</item>
+		<item>Soap</item>
+		<item>စိတ္ကူးယဥ္အခ်စ္ဇာတ္လမ္း</item>
+		<item>အသည္းအသန္</item>
+		<item>လူႀကီး ႐ုပ္႐ွင္</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_news">
+		<item>လက္႐ွိကိစၥမ်ား</item>
+		<item>မိုးေလဝသ အစီရင္ခံစာ</item>
+		<item>သတင္း မဂၢဇင္း</item>
+		<item>မွတ္တမ္းတင္႐ုပ္႐ွင္</item>
+		<item>ေဆြးေႏြးခ်က္</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_news">
+		<item>သတင္း</item>
+		<item>အစီရင္ခံစာ</item>
+		<item>မွတ္တမ္းတင္႐ုပ္႐ွင္</item>
+		<item>အတၳဳပၸတၱိ</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_show">
+		<item>ျပပါ</item>
+		<item>ဂိမ္း ျပပြဲ</item>
+		<item>ျပပြဲစံု</item>
+		<item>စကားလက္ဆံု ေဆြးေႏြးပြဲ</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_sports">
+		<item>အားကစားမ်ား</item>
+		<item>အထူး လႈပ္႐ွားမႈမ်ား</item>
+		<item>အားကစား မဂၢဇင္းမ်ား</item>
+		<item>ေဘာလံုး</item>
+		<item>တင္းနစ္</item>
+		<item>အသင္းလိုက္ကစားရသည့္ အားကစား</item>
+		<item>ေျပးခုန္ပစ္အားကစား</item>
+		<item>ေမာ္ေတာ္ကား ၿပိဳင္ပြဲ</item>
+		<item>ေရႏွင့္ဆိုင္ေသာ အားကစား</item>
+		<item>ေဆာင္းရာသီ အားကစား</item>
+		<item>ျမင္းစီးအတတ္ႏွင့္ဆိုင္ေသာ</item>
+		<item>ကိုယ္ခံပညာႏွင့္ဆိုင္ေသာ အားကစား</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_sports">
+		<item>အားကစားမ်ား</item>
+	</string-array>
+	
+	<string-array name="nav_epg_subtype_children">
+		<item>ကေလးသူငယ္မ်ား၏ အစီအစဥ္</item>
+		<item>မူႀကိဳ ကေလးမ်ား အစီအစဥ္</item>
+		<item>6 မွ 14 ထိ အတြက္ ေျဖေဖ်ာ္မႈ</item>
+		<item>10 မွ 16 ထိ အတြက္ ေျဖေဖ်ာ္မႈ</item>
+		<item>သတင္းအခ်က္အလက္ႏွင့္ဆိုင္ေသာ</item>
+		<item>ကာတြန္း</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_music">
+		<item>သီခ်င္း</item>
+		<item>ေရာ့ခ္</item>
+		<item>အသည္းအသန္</item>
+		<item>ေက်းလက္ေတး</item>
+		<item>ဂ်ပ္ဇ္ ေတးဂီတ</item>
+		<item>ဂီတႏွင့္ဆိုင္ေသာ</item>
+		<item>ဘဲေလး</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_arts">
+		<item>အႏုပညာ</item>
+		<item>သ႐ုပ္ေဆာင္ပညာ</item>
+		<item>အႏုသုခုမပညာ</item>
+		<item>ကိုးကြယ္သည့္ဘာသာ</item>
+		<item>ေရပန္းစားသည့္ ယဥ္ေက်းမႈ</item>
+		<item>ရသစာေပ</item>
+		<item>႐ုပ္႐ွင္</item>
+		<item>လက္ေတြ႕ႏွင့္ဆိုင္ေသာ</item>
+		<item>ထုတ္လႊင့္ေနသည္</item>
+		<item>႐ုပ္/သံ အသစ္</item>
+		<item>အႏုပညာ မဂၢဇင္း</item>
+		<item>ဖက္႐ွင္</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_social">
+		<item>လူမႈေရး</item>
+		<item>မဂၢဇင္း</item>
+		<item>စီးပြားေရးပညာ</item>
+		<item>ထူးခြားပြောင်မြောက်လူ</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_education">
+		<item>ပညာေရး</item>
+		<item>သဘာဝ</item>
+		<item>နည္းပညာ</item>
+		<item>ေဆးပညာ</item>
+		<item>ႏိုင္ငံျခားတိုင္းျပည္မ်ား</item>
+		<item>လူမႈေရးသိပၸံ</item>
+		<item>အျခားေသာ ပညာေရး</item>
+		<item>ဘာသာစကား</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_education">
+		<item>ပညာေရးဆိုင္ရာ</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_soap_opera">
+		<item>ဘဝ သ႐ုပ္ေဖာ္ဇာတ္လမ္း</item>
+	</string-array>
+	
+	<string-array name="nav_epg_subtype_sa_mini_series">
+		<item>မီနီ-စီးရီးမ်ား</item>
+	</string-array>
+	
+	<string-array name="nav_epg_subtype_sa_series">
+		<item>အစီအစဥ္</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_variety">
+		<item>ဇာတ္႐ံု</item>
+		<item>ျပပါ</item>
+		<item>ဂီတႏွင့္ဆိုင္ေသာ</item>
+		<item>ျဖင့္ျပဳလုပ္ထားသည္</item>
+		<item>မိန္းမဆန္ေသာ</item>
+		<item>ဂိမ္း ျပပြဲ</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_reality_show">
+		<item>ျပင္ပတြင္ အမွန္တကယ္ ျပသမႈ</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_information">
+		<item>ခ်က္ျပဳတ္ျခင္း</item>
+		<item>ဖက္႐ွင္</item>
+		<item>ႏိုင္ငံ</item>
+		<item>က်န္းမာေရး</item>
+		<item>ခရီးသြား</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_comical">
+		<item>COMICAL</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_children">
+		<item>ကေလးမ်ား</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_erotic">
+		<item>ကာမရာဂ ႏႈိးဆြျခင္း</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_movie">
+		<item>႐ုပ္ရွင္</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_RA_TE_SA_PR">
+		<item>ရံပံုေငြ႐ွာေဖြရန္ ကံစမ္းမဲေဖာက္ျခင္း</item>
+		<item>႐ုပ္ျမင္သံၾကား ေရာင္းခ်ျခင္း</item>
+		<item>ဆုခ်ီးျမႇင့္ျခင္း</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_DEBATE_INTERVIEW">
+		<item>ေဆြးေႏြးခ်က္</item>
+		<item>စံုစမ္းေမးျမန္းမႈ</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_other">
+		<item>လူႀကီး ကာတြန္း</item>
+		<item>အျပန္အလွန္ဆက္ဆံမႈ</item>
+		<item>မူဝါဒ</item>
+		<item>ကိုးကြယ္သည့္ဘာသာ</item>
+	</string-array>
+	
+	<string-array name="nav_epg_subtype_leisure">
+		<item>အားလပ္ခ်ိန္ ဝါသနာမ်ား</item>
+		<item>ခရီးသြားလုပ္ငန္း</item>
+		<item>လက္မႈပညာ</item>
+		<item>ကားႏွင့္ဆိုင္ေသာ</item>
+		<item>က်န္းမာၾကံ့ခိုင္မႈ</item>
+		<item>ခ်က္ျပဳတ္ျခင္း</item>
+		<item>ေၾကာ္ျငာ</item>
+		<item>ဥယ်ာဥ္စိုက္ပ်ိဳးျခင္း</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_special">
+		<item>မူရင္းဘာသာ</item>
+		<item>အျဖဴ ႏွင့္ အမည္း</item>
+		<item>ပံုႏွိပ္ထုတ္ေဝမႈမလုပ္ထားပါ</item>
+		<item>တိုက္႐ိုက္ ထုတ္လႊင့္မႈ</item>
+	</string-array>
+
+
+	<string-array name="nav_mts_strings">
+		<item>UNKNOW</item>
+		<item>မိုႏို</item>
+		<item>စတီရီယို</item>
+		<item>SUB_LANG</item>
+		<item>စံုတြဲ 1</item>
+		<item>စံုတြဲ 2</item>
+		<item>NICAM_MONO</item>
+		<item>NICAM_STEREO</item>
+		<item>NICAM_DUAL1</item>
+		<item>NICAM_DUAL2</item>
+		<item>FM_MONO</item>
+		<item>FM_STEREO</item>
+	</string-array>
+
+	<string-array name="nav_audio_tvcm_strings">
+		<item>baq</item>
+		<item>eus</item>
+		<item>bul</item>
+		<item>cat</item>
+		<item>scr</item>
+		<item>cze</item>
+		<item>dan</item>
+		<item>dut</item>
+		<item>eng</item>
+		<item>fin</item>
+		<item>fre</item>
+		<item>gla</item>
+		<item>gdh</item>
+		<item>gle</item>
+		<item>glg</item>
+		<item>ger</item>
+		<item>gre</item>
+		<item>hun</item>
+		<item>ita</item>
+		<item>nor</item>
+		<item>pol</item>
+		<item>por</item>
+		<item>rum</item>
+		<item>rus</item>
+		<item>scc</item>
+		<item>slo</item>
+		<item>slv</item>
+		<item>spa</item>
+		<item>swe</item>
+		<item>tur</item>
+		<item>wel</item>
+		<item>ice</item>
+		<item>isl</item>
+		<item>smi</item>
+		<item>tha</item>
+		<item>vie</item>
+		<item>ara</item>
+		<item>zho</item>
+		<item>Chi</item>
+		<item>per</item>
+		<item>kor</item>
+		<item>est</item>
+		<item>mao</item>
+		<item>cmn</item>
+		<item>yue</item>
+		<item>jpn</item>
+		<item>hin</item>
+		<item>nar</item>
+		<item>QAA</item>
+		<item>und</item>
+	</string-array>
+
+	<string-array name="nav_audio_strings">
+		<item>ဘက္စ္ခ္ဘာသာ</item>
+		<item>ဘက္စ္ခ္ဘာသာ</item>
+		<item>ဘူလားရီးယန္း</item>
+		<item>ကက္တလန္ဘာသာ</item>
+		<item>ခ႐ိုေအးရွားဘာသာ</item>
+		<item>ခ်က္</item>
+		<item>ဒိန္းမတ္ဘာသာ</item>
+		<item>ဒတ္ခ်္</item>
+		<item>အဂၤလိပ္</item>
+		<item>ဖင္လန္ဘာသာ</item>
+		<item>ျပင္သစ္</item>
+		<item>ကဲလ္တစ္ဘာသာ</item>
+		<item>ကဲလ္တစ္ဘာသာ</item>
+		<item>အိုင္ယာလန္ဘာသာ</item>
+		<item>ဂယ္လီဂန္</item>
+		<item>ဂ်ာမန္ဘာသာ</item>
+		<item>ဂရိဘာသာ</item>
+		<item>ဟန္ေဂရီဘာသာ</item>
+		<item>အီတလီဘာသာ</item>
+		<item>ေနာ္ေဝးဘာသာ</item>
+		<item>ပိုလန္ဘာသာ</item>
+		<item>ေပၚတူဂီ</item>
+		<item>႐ိုေမးနီးယားဘာသာ</item>
+		<item>႐ုရွ</item>
+		<item>ဆားဗီးယားဘာသာ</item>
+		<item>ဆလိုဗက္</item>
+		<item>ဆလိုဗက္ကီးယားဘာသာ</item>
+		<item>စပိန္</item>
+		<item>ဆြီဒင္ဘာသာ</item>
+		<item>တူရကီဘာသာ</item>
+		<item>ေဝလဘာသာ</item>
+		<item>အုိက္စ္လန္ဒစ္ဘာသာ</item>
+		<item>အုိက္စ္လန္ဒစ္ဘာသာ</item>
+		<item>Sami langs</item>
+		<item>ထိုင္း</item>
+		<item>ဗီယက္နမ္</item>
+		<item>အာရဗီ</item>
+		<item>ေရွး႐ိုး တ႐ုတ္ဘာသာစကား</item>
+		<item>႐ိုးရွင္းေသာ တ႐ုတ္ဘာသာစကား</item>
+		<item>ပါရွားဘာသာစကား</item>
+		<item>ကိုးရီးယားဘာသာ</item>
+		<item>အက္စတိုးနီးယား</item>
+		<item>နယူးဇီလန္ဘာသာ</item>
+		<item>မန္ဒရင္ဘာသာ</item>
+		<item>ကန္တံုတ႐ုတ္</item>
+		<item>ဂ်ပန္ဘာသာ</item>
+		<item>ဟင္ဒီ</item>
+		<item>ေျပာျပမႈ</item>
+		<item>Original Version for France</item>
+		<item>မသတ္မွတ္ရေသးပါ</item>
+	</string-array>
+
+	<string-array name="nav_bottom_volume">
+		<item>မာစတာ အသံ ခ်ံဳ႕/ခ်ဲ႕</item>
+		<item>အေ႐ွ႕ ဘယ္ဖက္ အသံ ခ်ံဳ႕/ခ်ဲ႕</item>
+		<item>အေ႐ွ႕ ညာဖက္ အသံ ခ်ံဳ႕/ခ်ဲ႕</item>
+		<item>အေနာက္ ဘယ္ဖက္ အသံ ခ်ံဳ႕/ခ်ဲ႕</item>
+		<item>အေနာက္ ညာဖက္ အသံ ခ်ံဳ႕/ခ်ဲ႕</item>
+		<item>ဗဟို အသံ ခ်ံဳ႕/ခ်ဲ႕</item>
+		<item>ဝုဖာ အခြဲ အသံ ခ်ံဳ႕/ခ်ဲ႕</item>
+	</string-array>
+
+    <string-array name="nav_zoom_mode">
+		<item>Zoom x 1/2</item>
+		<item>Zoom x 1</item>
+		<item>Zoom x 2</item>
+	</string-array>
+
+	<string-array name="nav_receiver_type">
+		<item>Cable</item>
+		<item>Antenna</item>
+	</string-array>
+	<string-array name="pvr_tshift_initdisk_step1">
+		<item>အလိုအေလ်ာက္</item>
+		<item>လူကိုယ္တိုင္</item>
+	</string-array>
+	<string-array name="pvr_tshift_initdisk_step_format">
+		<item>ပံုစံခ်ပါ</item>
+		<item>ေက်ာ္ပါ</item>
+	</string-array>
+	<string-array name="pvr_tshift_initdisk_step_formatconfirm">
+		<item>ပံုစံခ်ပါ</item>
+		<item>ပယ္ဖ်က္ပါ</item>
+	</string-array>
+	
+	<string-array name="week_day">
+	    <item>တနဂၤေႏြ</item>
+		<item>တနလၤာေန႔</item>
+		<item>အဂၤါေန႔</item>
+		<item>ဗုဒၶဟူး</item>
+		<item>ၾကသပေတးေန႔</item>
+		<item>ေသာၾကာေန႔</item>
+		<item>စေနေန႔</item>
+	</string-array>
+    <string-array name="nav_oad_btns_cancel">
+        <item>ပယ္ဖ်က္ပါ</item>
+    </string-array>
+    <string-array name="nav_oad_btns_accept_remind_me_later">
+        <item>လက္ခံပါ</item>
+        <item>ကၽြႏု္ပ္ကို ေနာက္မွ သတိေပးပါ</item>
+    </string-array>
+    <string-array name="nav_oad_btns_accept_reject">
+        <item>လက္ခံပါ</item>
+        <item>ျငင္းပယ္သည္</item>
+    </string-array>
+    
+    <string-array name="nav_oad_btns_yes_no">
+        <item>လုပ္မည္</item>
+        <item>မဟုတ္ပါ</item>
+    </string-array>
+
+
+
+
+
+	<string-array name="nav_twinkle_strings">
+		<item/>
+		<item>အခ်က္ျပလိႈင္းမ႐ွိပါ!</item>
+		<item>ေက်းဇူးျပဳ၍ ခ်န္နယ္မ်ား ႐ွာေဖြပါ!</item>
+		<item>ေဒတာ ျပန္လည္ထုတ္ေနသည္ …</item>
+		<item>ခ်န္နယ္ ေသာ့ခတ္ထားသည္!</item>
+		<item>အစီအစဥ္ ေသာ့ခတ္ထားသည္!</item>
+		<item>အဝင္ ေသာ့ခတ္ထားသည္!</item>
+		<item>(အစီအစဥ္ ေခါင္းစဥ္ မ႐ွိပါ)</item>
+		<item>ဝွက္ထားသည့္ ခ်န္နယ္!</item>
+		<item>အသံအစီအစဥ္</item>
+		<item>မမွန္ကန္သည့္ ဝန္ေဆာင္မႈ</item>
+		<item>(အစီအစဥ္ အေသးစိတ္ မ႐ွိပါ။)</item>
+		<item>(ခ်န္နယ္ အေသးစိတ္ မ႐ွိပါ။)</item>
+		<item>♪ အသံထုတ္လႊင့္မႈ♪</item>
+		<item>ဗီဒီယိုထုတ္လႊင့္မႈမ႐ွိပါ</item>
+		<item>ေက်းဇူးျပဳ၍ ေစာင့္ပါ…</item>
+		<item>ဗီဒီယို မေထာက္ပံ့ပါ</item>
+		<item>HD ဝန္ေဆာင္မႈ</item>
+		<item>မထုတ္လႊင့္ျခင္း</item>
+		<item>ခ်န္နယ္ မ႐ွိပါ</item>
+		<item>ဤအေၾကာင္းအရာကို သင့္ဝန္ေဆာင္မႈ ပံ့ပိုးသူက တားျမစ္ထားသည္</item>
+		<item>လႈိင္းအားနည္းေသာ</item>
+	</string-array>
+
+
+	<string-array name="nav_channel_type">
+		<item>အားလံုး</item>
+		<item>ဒစ္ဂ်စ္တယ္</item>
+		<item>ေရဒီယို</item>
+		<item>အန္နာေလာ့ခ္</item>
+	</string-array>
+    <string-array name="dvbs_scan_mode_arrays">
+        <item>@string/dvbs_scan_mode_network</item>
+        <item>@string/dvbs_scan_mode_full</item>
+    </string-array>
+    <string-array name="dvbs_scan_mode2_arrays">
+        <item>@string/dvbs_scan_mode_auto</item>
+        <item>@string/dvbs_scan_mode_preset</item>
+    </string-array>
+    <string-array name="dvbs_diseqc_input_arrays">
+        <item>@string/dvbs_diseqc_input_1</item>
+        <item>@string/dvbs_diseqc_input_2</item>
+        <item>@string/dvbs_diseqc_input_3</item>
+        <item>@string/dvbs_diseqc_input_4</item>
+        <item>@string/dvbs_diseqc_input_0</item>
+    </string-array>
+    <string-array name="dvbs_diseqc_10port_arrays">
+        <item>@string/dvbs_diseqc_input_1</item>
+        <item>@string/dvbs_diseqc_input_2</item>
+        <item>@string/dvbs_diseqc_input_3</item>
+        <item>@string/dvbs_diseqc_input_4</item>
+        <item>@string/dvbs_tone_burst_a</item>
+        <item>@string/dvbs_tone_burst_b</item>
+        <item>@string/dvbs_diseqc_input_0</item>
+    </string-array>
+    <string-array name="dvbs_diseqc_motor_arrays">
+        <item>@string/dvbs_diseqc_input_0</item>
+        <item>@string/dvbs_diseqc_motor_12</item>
+    </string-array>
+    <string-array name="dvbs_diseqc_motor_store_position_arrays">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="dvbs_diseqc_movement_control_arrays">
+        <item>မနားတမ္း</item>
+        <item>အဆင့္ </item>
+        <item>သတ္မွတ္ခ်ိန္ေက်ာ္လြန္မႈ</item>
+    </string-array>
+    <string-array name="dvbs_tone_22khz_arrays">
+        <item>@string/dvbs_tone_22khz_off</item>
+        <item>@string/dvbs_tone_22khz_on</item>
+        <item>@string/dvbs_tone_22khz_auto</item>
+    </string-array>
+    
+    <string-array name="dvbs_tp_pol_arrays">
+        <item>@string/dvbs_tp_pol_1_HORIZONTAL</item>
+        <item>@string/dvbs_tp_pol_2_VERTICAL</item>
+    </string-array>
+    <string-array name="dvbs_channel_arrays">
+        <item>@string/dvbs_channel_free</item>
+        <item>@string/dvbs_channel_all</item>
+    </string-array>
+    <string-array name="dvbs_antenna_type_arrays">
+        <item>@string/dvbs_antenna_type_universal</item>
+        <item>@string/dvbs_antenna_type_singlecable</item>
+    </string-array>
+    <string-array name="dvbs_user_band_arrays">
+        <item>@string/dvbs_user_band_1</item>
+        <item>@string/dvbs_user_band_2</item>
+        <item>@string/dvbs_user_band_3</item>
+        <item>@string/dvbs_user_band_4</item>
+        <item>@string/dvbs_user_band_5</item>
+        <item>@string/dvbs_user_band_6</item>
+        <item>@string/dvbs_user_band_7</item>
+        <item>@string/dvbs_user_band_8</item>
+    </string-array>
+    <string-array name="dvbs_user_band_freq_arrays">
+        <item>"1210"</item>
+        <item>"1400"</item>
+        <item>"1516"</item>
+        <item>"1632"</item>
+        <item>"1748"</item>
+        <item>"1864"</item>
+        <item>"1980"</item>
+        <item>"2096"</item>
+    </string-array>
+    <string-array name="dvbs_position_arrays">
+        <item>@string/dvbs_tp_pol_0_unknown</item>
+        <item>@string/dvbs_position_a</item>
+        <item>@string/dvbs_position_b</item>
+        <item>@string/dvbs_position_c</item>
+        <item>@string/dvbs_position_d</item>
+    </string-array>
+    <string-array name="dvbs_preferred_satellite_arrays">
+        <item>@string/dvbs_preferred_satellite</item>
+        <item>@string/dvbs_general_satellite</item>
+    </string-array>
+    <string-array name="lnb_mdu1_arrays">
+        <item>@string/dvbs_preferred_satellite</item>
+        <item>@string/dvbs_general_satellite</item>
+    </string-array>
+   
+    <string-array name="dvbs_tone_burst_arrays">
+        <item>@string/dvbs_tone_burst_a</item>
+        <item>@string/dvbs_tone_burst_b</item>
+        <item>@string/dvbs_tone_burst_disable</item>
+    </string-array>
+	
+	<string-array name="dvbs_sat_on_off">
+        <item>@string/dvbs_sat_on</item>
+        <item>@string/dvbs_sat_off</item>
+    </string-array>
+    
+	<string-array name="dvbs_sat_lnb_power">
+        <item>@string/dvbs_sat_off</item>
+        <item>@string/dvbs_sat_TUNER_LNB_POWER_13V_18V</item>
+        <item>@string/dvbs_sat_TUNER_LNB_POWER_14V_19V</item>
+        <item>@string/dvbs_sat_on</item>
+    </string-array>
+				
+	<string-array name="dvbs_sat_lnbfreq">
+        <item>@string/lnb_universal</item>
+        <item>9750,10700</item>
+        <item>9750,10750</item>
+        <item>5150</item>
+        <item>5750</item>
+        <item>9750</item>
+        <item>10600</item>
+        <item>10750</item>
+        <item>11250</item>
+        <item>11300</item>
+        <item>11475</item>
+    </string-array>
+
+    
+</resources>

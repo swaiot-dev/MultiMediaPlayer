@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">KichezajiMultiMedia</string>
+    <string name="schedulelist_nofiles">Hakuna ratiba rekodi! Tafadhali finya kibonyezi "Ongeza" kuongeza moja.</string>
+    <string name="schedulelist_nofiles_disable_add">Hakuna ratiba rekodi!</string>
+    <string name="exit">Toka</string>
+    <string name="selected">Imechaguliwa</string>
+    <string name="add_schedule">Ongeza ratiba</string>
+    <string name="pvr_schedule_replace">Badilisha</string>
+    <string name="pvr_schedule_add">Ongeza</string>
+    <string name="menu_value_minus">kupungua</string>
+    <string name="menu_value_plus">Ongeza</string>
+    <string name="pvr_schedule_cancel">Ghairi</string>
+    <string name="pvr_schedule_ok">Sawa</string>
+    <string name="pvr_schedule_edit">Badilisha</string>
+    <string name="pvr_schedule_delete">Futa</string>
+    <string name="pvr_title_device_info">Maelezo Kifaa</string>
+    <string name="pvr_deviceinfo_info">Maelezo</string>
+    <string name="pvr_exit">Toka</string>
+    <string name="pvr_deviceinfo_format">Muundo</string>
+    <string name="pvr_deviceinfo_speed_test">Jaribio Upesi</string>
+    <string name="pvr_disk_no_name">Hakuna Jina</string>
+    <string name="pvr_playlist_record_list">Orodha ya Kurekodi</string>
+    <string name="pvr_playlist_page_up">ukurasa juu</string>
+    <string name="pvr_playlist_delete">Futa</string>
+    <string name="pvr_playlist_page_down">ukurasa chini</string>
+    <string name="pvr_playlist_info">Maelezo</string>
+    <string name="pvr_playlist_record_detail">Rekodi Ufafanuo</string>
+    <string name="pvr_playlist_channel_num">Nambari ya Idhaa</string>
+    <string name="pvr_playlist_channel_name">Jina la Kituo</string>
+    <string name="pvr_playlist_program_name">Jina la Programu</string>
+    <string name="pvr_playlist_date">Tarehe</string>
+    <string name="pvr_playlist_week">Wiki</string>
+    <string name="pvr_playlist_fri">Ijumaa</string>
+    <string name="pvr_playlist_time">Wakati</string>
+    <string name="pvr_playlist_duration">Muda</string>
+    <string name="pvr_disksetup_disk_setup">Uundaji Kisahani</string>
+    <string name="pvr_disksetup_page_up">ukurasa juu</string>
+    <string name="pvr_disksetup_select">Chagua</string>
+    <string name="pvr_disksetup_page_down">ukurasa chini</string>
+    <string name="pvr_disksetup_exit">Toka</string>
+    <string name="pvr_schedulepvr_week">Wiki</string>
+    <string name="pvr_schedulepvr_record">Rekodi</string>
+    <string name="pvr_schedulepvr_schedule_list">Orodha ya Ratiba</string>
+    <string name="pvr_schedulepvr_add_schedule">Ongeza ratiba</string>
+    <string name="pvr_schedulepvr_selected">Imechaguliwa</string>
+    <string name="pvr_schedulepvr_exit">Toka</string>
+    <string name="pvr_schedulepvr_schedule_list2">Orodha ya Ratiba</string>
+    <string name="pvr_confirm_yes">Ndiyo</string>
+    <string name="pvr_confirm_no">Hapana</string>
+    <string name="pvr_dialog_exit">Toka</string>
+    <string name="pvr_schedulelist_wednesday">Jumatano</string>
+    <string name="pvr_schedulelist_replace_line1">Ratiba Imepitwa</string>
+    <string name="pvr_schedulelist_replace_line2">Unataka kuchukua nafasi ya ratiba hizi</string>
+    <string name="pvr_schedulelist_delete_line1">Ratiba futa!</string>
+    <string name="pvr_schedulelist_delete_line2">Unataka kufuta ratiba hizi</string>
+    <string name="hello_world">Hamjambo nyote!</string>
+    <string name="menu_settings">Miundo</string>
+    <string name="title_activity_schedule_pvr">OrodheshaTendoPvr</string>
+    <string name="fav_list_is_full">Orodha inayopendwa imejaa</string>
+
+    <string name="partner_row_title">runinga mediatek </string>
+    <string name="inputs_row_title">Jaza</string>
+    <string name="apps_row_title">Programu</string>
+    <string name="games_row_title">Michezo</string>
+    <string name="settings_row_title">Miundo</string>
+    
+    <string name="power_on_off_time_same">vipima muda viwili haviwezi kuwa sawa,tafadhali unda tena</string>
+    
+    <string name="sleep_timer_tip_text">Nguvu zitazimwa.</string>
+    <string name="sleep_timer_btn_text">Sawa</string>
+    <string name="menu_dialog_numzero">Nambari ya Idhaa haiwezi kuwa 0!</string>
+    
+    <string name="menu_delete_biss_key_tip">Una hakika unataka kufuta kibonyezi Biss?</string>
+    <string name="pvr_deviceinfo_set_timeshift">Weka MudaSogea</string>
+    <string name="pvr_playlist_special_6_1">Maalum 6+1</string>
+    <string name="pvr_schedulepvr_date">2013/01/04 13:22 Jnn</string>
+    <string name="pvr_schedulepvr_time">00sa 00dak</string>
+    <string name="pvr_schedulepvr_diskinfo">Hakuna jina: 3.8/3.8 GB</string>
+    <string name="pvr_schedulepvr_disk_info">Hakuna jina: 3.8/3.8 GB</string>
+
+    <string name="video_info_dialog_format">Umbizo:</string>
+    <string name="video_info_dialog_resolution">Azimio:</string>
+    <string name="video_info_dialog_subtitle">Tafsiri za Filamu</string>
+</resources>

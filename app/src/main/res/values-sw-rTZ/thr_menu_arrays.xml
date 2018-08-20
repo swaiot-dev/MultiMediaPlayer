@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+    <string-array name="menu_pictrue_mode_list">
+        <item>Mtumiaji</item>
+        <item>Sinema</item>
+        <item>Mchezo</item>
+        <item>Ng\'avu</item>
+        <item>Juu-Mwanga</item>
+    </string-array>
+    <string-array name="menu_track_mode_list">
+        <item>Kanda ya kwanza</item>
+        <item>Kanda ya pili</item>
+    </string-array>
+    <string-array name="menu_audio_equalizer_list">
+        <item>Umezimwa</item>
+        <item>Roki</item>
+        <item>Popu</item>
+        <item>Hai</item>
+        <item>Dansi</item>
+        <item>Tekno</item>
+        <item>Klasiki</item>
+        <item>Laini</item>
+    </string-array>
+</resources>

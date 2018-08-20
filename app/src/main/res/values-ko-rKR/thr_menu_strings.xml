@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<string name="thr_menu_common_setting">공통 설정</string>
+    <string name="thr_menu_confim">확인</string>
+<string name="thr_menu_cancal">종료</string>
+    <string name="thr_menu">메뉴</string>
+<string name="thr_menu_select">선택</string>
+
+    <string name="thr_menu_picture_mode">픽처 모드</string>
+<string name="thr_menu_track">오디오 트랙</string>
+<string name="thr_menu_Equalizer">이퀄라이저</string>
+<string name="thr_menu_volume">음량</string>
+
+
+
+</resources>

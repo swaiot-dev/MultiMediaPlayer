@@ -1,0 +1,1132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+    <string-array name="menu_setup_network_connection_array">
+        <item>Өшіру</item>
+        <item>Қосу</item>
+    </string-array>
+    <string-array name="menu_tv_scan_mode_array">
+        <item>Aвто</item>
+        <item>16QAM</item>
+        <item>32QAM</item>
+        <item>64QAM</item>
+        <item>128QAM</item>
+        <item>256QAM</item>
+    </string-array>
+    <string-array name="menu_setup_capturelogo_array">
+        <item>Әдепкі</item>
+        <item>0</item>
+        <item>1</item>
+        <item>Ешбір</item>
+    </string-array>
+    <string-array name="menu_ci_not_support_channel">
+        <item>没有授权</item>
+    </string-array>
+    <string-array name="menu_video_mpeg_nr_array">
+        <item>Өшіру</item>
+        <item>Төмен</item>
+        <item>Орташа</item>
+        <item>Қатты</item>
+    </string-array>
+    <string-array name="menu_audio_spdif_mode_array">
+        <item>Өшіру</item>
+        <item>PCM RAW</item>
+        <item>PCM 16</item>
+        <item>PCM 24</item>
+    </string-array>
+    <string-array name="menu_setup_auto_synchronization_array">
+        <item>Өшіру</item>
+        <item>Ағыннан синхрондау</item>
+        <item>Желіден синхрондау</item>
+    </string-array>
+    <string-array name="menu_factory_setup_eventform">
+        <item>Екі түрі де</item>
+        <item>Ұзын түрі</item>
+        <item>Қысқа түрі</item>
+    </string-array>
+    <string-array name="menu_tv_tv_system_array">
+        <item>Aвто</item>
+        <item>B/G</item>
+        <item>A2 B/G</item>
+        <item>I</item>
+        <item>D/K</item>
+        <item>A2 D/K</item>
+        <item>A2 D/K1</item>
+        <item>A2 D/K2</item>
+        <item>M</item>
+    </string-array>
+    <string-array name="menu_setup_null_array">
+        <item></item>
+    </string-array>
+    <string-array name="menu_parental_block_channel_schedule_operation_array">
+        <item>Ешбір</item>
+        <item>Күнделікті</item>
+        <item>Бір рет</item>
+    </string-array>
+    <string-array name="menu_audio_downmixmode_eu_array">
+        <item>Қоршаған орта</item>
+        <item>Стерео</item>
+        <item>Авто стерео</item>
+    </string-array>
+    <string-array name="menu_setup_time_shifting_mode_array">
+        <item>Өшіру</item>
+        <item>Қосу</item>
+    </string-array>
+    <string-array name="screen_mode_array_us_pip_main_analog">
+        <item>Авто</item>
+        <item>Орташа</item>
+        <item>Әріп қорабы</item>
+        <item>Ұлғайту</item>
+        <item>Әр нүкте бойынша</item>
+    </string-array>
+    <string-array name="screen_mode_array_us_pip">
+        <item>Авто</item>
+        <item>Орташа</item>
+    </string-array>
+    <string-array name="menu_factory_audio_compressionfactor_array">
+        <item>Өшіру</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>40</item>
+        <item>50</item>
+        <item>60</item>
+        <item>70</item>
+        <item>80</item>
+        <item>90</item>
+        <item>100</item>
+    </string-array>
+    <string-array name="menu_video_3d_image_safety_array">
+        <item>Өшіру</item>
+        <item>Төмен</item>
+        <item>Орташа</item>
+        <item>Жоғары</item>
+    </string-array>
+    <string-array name="menu_setup_record_quality_array">
+        <item>Төмен</item>
+        <item>Орташа</item>
+        <item>Жоғары</item>
+    </string-array>
+    <string-array name="menu_tv_oceania_country_region">
+        <item>NSW/ACT</item>
+        <item>VIC</item>
+        <item>QLD</item>
+        <item>SA</item>
+        <item>WA</item>
+        <item>TAS</item>
+        <item>NT</item>
+    </string-array>
+    <string-array name="menu_setup_ginga_array">
+        <item>Өшіру</item>
+        <item>Қосу</item>
+    </string-array>
+    <string-array name="menu_setup_dlna_array">
+        <item>Өшіру</item>
+        <item>Қосу</item>
+    </string-array>
+    <string-array name="screen_mode_array_sa_pip">
+        <item>Авто</item>
+        <item>Орташа</item>
+        <item>Әріп қорабы</item>
+    </string-array>
+    <string-array name="menu_video_flesh_tone_array">
+        <item>Өшіру</item>
+        <item>Қосу</item>
+    </string-array>
+    <string-array name="screen_mode_array_eu_analog">
+        <item>Авто</item>
+        <item>Орташа</item>
+        <item>Әріп қорабы</item>
+        <item>Панорама</item>
+    </string-array>
+    <string-array name="menu_parental_rating_enable_array">
+        <item>Өшіру</item>
+        <item>Қосу</item>
+    </string-array>
+    <string-array name="menu_factory_video_diedge_array">
+        <item>Әлсіз</item>
+        <item>Қатты</item>
+    </string-array>
+    <string-array name="menu_video_hdmi_mode_array">
+        <item>Авто</item>
+        <item>Графика</item>
+        <item>Бейне</item>
+    </string-array>
+    <string-array name="menu_factory_video_xvycc_array">
+        <item>Өшіру</item>
+        <item>Қосу</item>
+    </string-array>
+    <string-array name="menu_audio_spdif_mode_us_array">
+        <item>Өшіру</item>
+        <item>Dolby Digital</item>
+        <item>PCM</item>
+    </string-array>
+    <string-array name="menu_tv_channeledit_array">
+        <item>Арна туралы</item>
+        <item>Енгізу</item>
+        <item>Жою</item>
+        <item>Ауыстыру</item>
+    </string-array>
+    <string-array name="menu_setup_window_opacity_array">
+        <item>Қою</item>
+        <item>Жеңіл</item>
+        <item>Мөлдір</item>
+    </string-array>
+    <string-array name="menu_scan_mode">
+        <item>Қосымша</item>
+        <item>Жылдам</item>
+        <item>Толық</item>
+    </string-array>
+    <string-array name="menu_tv_audio_channel_array">
+        <item>Моно</item>
+        <item>Стерео</item>
+        <item>Dual1</item>
+        <item>Dual2</item>
+    </string-array>
+    <string-array name="menu_setup_scart">
+        <item>Авто</item>
+        <item>Аралас</item>
+        <item>RGB</item>
+        <item>CVBS</item>
+        <item>S-Бичлэг</item>
+    </string-array>
+    <string-array name="menu_video_di_film_mode_array">
+        <item>Өшіру</item>
+        <item>Авто</item>
+    </string-array>
+    <string-array name="menu_factory_video_colortemperature_array">
+        <item>Пайдаланушы</item>
+        <item>Салқын</item>
+        <item>Стандартты</item>
+        <item>Жылы</item>
+    </string-array>
+    <string-array name="menu_tv_scan_frequency_plan_array">
+        <item>STD</item>
+        <item>IRC</item>
+        <item>HRC</item>
+    </string-array>
+    <string-array name="menu_setup_timezone_name_array">
+        <item>Aзия/Maгадан</item>
+        <item>Тынық/Мидвей</item>
+        <item>Тынық/Хонолулу</item>
+        <item>Америка/Анкоридж</item>
+        <item>Америка/Анкоридж</item>
+        <item>Америка/Los_Angeles</item>
+        <item>Aмерика/Чихуахуа</item>
+        <item>Aмерика/Чикаго</item>
+        <item>Aмерика/Maнаус</item>
+        <item>Aмерика/St_Johns</item>
+        <item>Aмерика/St_Johns</item>
+        <item>Aмерика/Готхоб</item>
+        <item>Aтлант/Cape_Verde</item>
+        <item>Трансляция ретінде</item>
+        <item>Aфрика/Касабланка</item>
+        <item>Eуропа/Лондон</item>
+        <item>Aфрика/Хараре</item>
+        <item>Aзия/Aмман</item>
+        <item>Aзия/Aмман</item>
+        <item>Eуропа/Mәскеу</item>
+        <item>Aзия/Teгеран</item>
+        <item>Aзия/Ереван</item>
+        <item>Aзия/Коломбо</item>
+        <item>Aзия/Kaтманду</item>
+        <item>Aзия/Aлматы</item>
+        <item>Aзия/Бангок</item>
+        <item>Aзия/Hong_Kong</item>
+        <item>Aзия/Tокио</item>
+        <item>Aвстралия/Aделаида</item>
+        <item>Aзия/Яркутск</item>
+        <item>Aзия/Владивосток</item>
+        <item>Aзия/Владивосток</item>
+        <item>Тынық/Фиджи</item>
+        <item>Тыныс/Toнгатару</item>
+    </string-array>
+    <string-array name="menu_tv_channel_bl_type">
+        <item>Ешбір</item>
+        <item>Күн сайын</item>
+        <item>Жексенбі</item>
+        <item>Дүйсенбі</item>
+        <item>Сейсенбі</item>
+        <item>Сәрсенбі</item>
+        <item>Бейсенбі</item>
+        <item>Жұма</item>
+        <item>Сенбі</item>
+    </string-array>
+    <string-array name="menu_setup_timezone_array">
+        <item>GMT-12:00</item>
+        <item>GMT-11:00</item>
+        <item>GMT-10:00</item>
+        <item>GMT-9:00</item>
+        <item>GMT-8:00</item>
+        <item>GMT-7:00</item>
+        <item>GMT-6:00</item>
+        <item>GMT-5:00</item>
+        <item>GMT-4:00</item>
+        <item>GMT-3:30</item>
+        <item>GMT-3:00</item>
+        <item>GMT-2:00</item>
+        <item>GMT-1:00</item>
+        <item>Трансляция ретінде</item>
+        <item>GMT+0:00</item>
+        <item>GMT+1:00</item>
+        <item>GMT+2:00</item>
+        <item>GMT+3:00</item>
+        <item>GMT+3:30</item>
+        <item>GMT+4:00</item>
+        <item>GMT+4:30</item>
+        <item>GMT+5:00</item>
+        <item>GMT+5:30</item>
+        <item>GMT+5:45</item>
+        <item>GMT+6:00</item>
+        <item>GMT+6:30</item>
+        <item>GMT+7:00</item>
+        <item>GMT+8:00</item>
+        <item>GMT+9:00</item>
+        <item>GMT+9:30</item>
+        <item>GMT+10:00</item>
+        <item>GMT+11:00</item>
+        <item>GMT+12:00</item>
+        <item>GMT+12:45</item>
+        <item>GMT+13:00</item>
+    </string-array>
+    <string-array name="menu_tv_tuner_mode_array">
+        <item>Aнтенна</item>
+        <item>Кабель</item>
+    </string-array>
+    <string-array name="menu_audio_equalizer_array_us">
+        <item>Өшіру</item>
+        <item>Рок</item>
+        <item>POP</item>
+        <item>Тікелей эфир</item>
+        <item>Би</item>
+        <item>Техно</item>
+        <item>Классика</item>
+        <item>Жұмсақ</item>
+        <item>Custom1</item>
+        <item>Custom2</item>
+        <item>custom3</item>
+    </string-array>
+    <string-array name="menu_setup_sleep_timer_array">
+        <item>Өшіру</item>
+        <item>10 минут</item>
+        <item>20 минут</item>
+        <item>30 минут</item>
+        <item>40 минут</item>
+        <item>50 минут</item>
+        <item>60 минут</item>
+        <item>90 минут</item>
+        <item>120 минут</item>
+    </string-array>
+    <string-array name="menu_tv_us_scan_mode_array">
+        <item>Аналогтық/Сандық</item>
+        <item>Аналогтық</item>
+        <item>Сандық</item>
+    </string-array>
+    <string-array name="screen_mode_array_sa_pop">
+        <item>Авто</item>
+        <item>Орташа</item>
+        <item>Әріп қорабы</item>
+        <item>Ұлғайту</item>
+    </string-array>
+    <string-array name="screen_mode_array_us_dtv">
+        <item>Авто</item>
+        <item>Орташа</item>
+        <item>Әріп қорабы</item>
+        <item>Панорама</item>
+        <item>Ұлғайту</item>
+        <item>Әр нүкте бойынша</item>
+    </string-array>
+    <string-array name="menu_tv_audio_language_eu_array">
+        <item>Ағылшын</item>
+        <item>Эстон</item>
+        <item>Фин</item>
+        <item>Француз</item>
+        <item>Гойдель</item>
+        <item>Ирланд</item>
+        <item>Гал</item>
+        <item>Неміс</item>
+        <item>Грек</item>
+        <item>Хинди</item>
+        <item>Венгр</item>
+        <item>Италиян</item>
+        <item>Исланд</item>
+        <item>Жапон</item>
+        <item>Kорей</item>
+        <item>Maндарин</item>
+        <item>Maoри</item>
+        <item>Норвег</item>
+        <item>Поляк</item>
+        <item>Португал</item>
+        <item>Румын</item>
+        <item>Орыс</item>
+        <item>Сами</item>
+        <item>Серб</item>
+        <item>Словак</item>
+        <item>Словен</item>
+        <item>Испан</item>
+        <item>Швед</item>
+        <item>Tүрік</item>
+        <item>Уэльс</item>
+        <item>Түпнұсқа аудио</item>
+        <item>Бандау</item>
+        <item>Анықталмаған</item>
+        <item>Баск</item>
+        <item>Болгар</item>
+        <item>Кантон диалекті</item>
+        <item>Каталан</item>
+        <item>Хорват</item>
+        <item>Чех</item>
+        <item>Дат</item>
+        <item>Нидерланд</item>
+    </string-array>
+    <string-array name="menu_setup_atv_record_mode_array">
+        <item>Өшіру</item>
+        <item>Қосу</item>
+    </string-array>
+    <string-array name="screen_mode_array_us_pip_sub">
+        <item>Авто</item>
+        <item>Орташа</item>
+        <item>Әріп қорабы</item>
+    </string-array>
+    <string-array name="menu_parental_content_ratings_array">
+        <item>Өшіру</item>
+        <item>Есірткі</item>
+        <item>Хүчирхийлэл</item>
+        <item>Sex</item>
+        <item>Қатігездік және есірткі</item>
+        <item>Секс және есірткі</item>
+        <item>Қатігездік және секс</item>
+        <item>Қатігездік, секс және есірткі</item>
+    </string-array>
+    <string-array name="menu_video_3d_3t2switch_array">
+        <item>Өшіру</item>
+        <item>Қосу</item>
+    </string-array>
+    <string-array name="menu_setup_oad_auto_download_array">
+        <item>Жоқ</item>
+        <item>Иә</item>
+    </string-array>
+    <string-array name="menu_setup_digital_caption_array">
+        <item>Өшіру</item>
+        <item>Үйлчилгээ1</item>
+        <item>Үйлчилгээ2</item>
+        <item>Үйлчилгээ3</item>
+        <item>Үйлчилгээ4</item>
+        <item>Үйлчилгээ5</item>
+        <item>Үйлчилгээ6</item>
+    </string-array>
+    <string-array name="menu_video_game_mode_array">
+        <item>Өшіру</item>
+        <item>Қосу</item>
+    </string-array>
+    <string-array name="screen_mode_array_sa">
+        <item>Авто</item>
+        <item>Орташа</item>
+        <item>Ұлғайту</item>
+    </string-array>
+    <string-array name="menu_parental_open_vchip_array">
+        <item>Өшіру</item>
+        <item>Қосу</item>
+    </string-array>
+    <string-array name="menu_setup_us_timezone_str">
+        <item>Aмерика/New_York</item>
+        <item>Тынық/Хонолулу</item>
+        <item>Америка/Анкоридж</item>
+        <item>Америка/Los_Angeles</item>
+        <item>Aмерика/Феникс</item>
+        <item>Aмерика/Денвер</item>
+        <item>Aмерика/Чикаго</item>
+        <item>Aмерика/New_York</item>
+    </string-array>
+    <string-array name="menu_setup_power_off_timer_array">
+        <item>Өшіру</item>
+        <item>Қосу</item>
+        <item>Бір рет</item>
+    </string-array>
+    <string-array name="menu_video_color_temperature2_array">
+        <item>Салқын</item>
+        <item>Стандартты</item>
+        <item>Жылы</item>
+    </string-array>
+    <string-array name="menu_video_pq_split_mode_array">
+        <item>Өшіру</item>
+        <item>Қосу</item>
+    </string-array>
+    <string-array name="menu_setup_dpms_array">
+        <item>Өшіру</item>
+        <item>Қосу</item>
+    </string-array>
+    <string-array name="menu_parental_block_unrated_array">
+        <item>Өшіру</item>
+        <item>Қосу</item>
+    </string-array>
+    <string-array name="menu_audio_speaker_mode_array">
+        <item>Өшіру</item>
+        <item>Қосу</item>
+    </string-array>
+    <string-array name="menu_setup_ttx_presentation_level_array">
+        <item>Level 1.5</item>
+        <item>Level 2.5</item>
+    </string-array>
+    <string-array name="menu_setup_font_size_array">
+        <item>Кішкене</item>
+        <item>Орташа</item>
+        <item>Үлкен</item>
+    </string-array>
+    <string-array name="menu_setup_fast_boot_array">
+        <item>Өшіру</item>
+        <item>Қосу</item>
+    </string-array>
+    <string-array name="menu_tv_tshift_config_array">
+        <item>Өшіру</item>
+        <item>Қосу</item>
+    </string-array>
+    <string-array name="menu_tv_subtitle_language_eu_array">
+        <item>Баск</item>
+        <item>Болгар</item>
+        <item>Кантон диалекті</item>
+        <item>Каталан</item>
+        <item>Хорват</item>
+        <item>Чех</item>
+        <item>Дат</item>
+        <item>Нидерланд</item>
+        <item>Ағылшын</item>
+        <item>Эстон</item>
+        <item>Фин</item>
+        <item>Француз</item>
+        <item>Гойдель</item>
+        <item>Ирланд</item>
+        <item>Гал</item>
+        <item>Неміс</item>
+        <item>Грек</item>
+        <item>Хинди</item>
+        <item>Венгр</item>
+        <item>Италиян</item>
+        <item>Исланд</item>
+        <item>Жапон</item>
+        <item>Kорей</item>
+        <item>Maндарин</item>
+        <item>Maoри</item>
+        <item>Норвег</item>
+        <item>Поляк</item>
+        <item>Португал</item>
+        <item>Румын</item>
+        <item>Орыс</item>
+        <item>Сами</item>
+        <item>Серб</item>
+        <item>Словак</item>
+        <item>Словен</item>
+        <item>Испан</item>
+        <item>Швед</item>
+        <item>Tүрік</item>
+        <item>Уэльс</item>
+        <item>Түпнұсқа аудио</item>
+        <item>Бандау</item>
+        <item>Анықталмаған</item>
+        <item>Өшіру</item>
+    </string-array>
+    <string-array name="menu_tv_fa_dataservice_array">
+        <item>Өшіру</item>
+        <item>Қосу</item>
+    </string-array>
+    <string-array name="menu_tv_tuner_mode_array_full_eu">
+        <item>Aнтенна</item>
+        <item>Кабель</item>
+        <item>@string/dvbs_preferred_satellite</item>
+        <item>@string/dvbs_general_satellite</item>
+    </string-array>
+    <string-array name="menu_video_super_resolution_array">
+        <item>Өшіру</item>
+        <item>Қосу</item>
+    </string-array>
+    <string-array name="menu_cec_on_off">
+        <item>Өшіру</item>
+        <item>Қосу</item>
+    </string-array>
+    <string-array name="menu_tv_mdu_type_array">
+        <item>Әмбебап</item>
+        <item>MDU 1</item>
+        <item>MDU 2</item>
+        <item>MDU 3</item>
+        <item>MDU 4</item>
+        <item>MDU 5</item>
+    </string-array>
+    <string-array name="menu_factory_video_wcg_array">
+        <item>Өшіру</item>
+        <item>Қосу</item>
+    </string-array>
+    <string-array name="menu_tv_audio_language_array">
+        <item>Ағылшын</item>
+        <item>Испан</item>
+        <item>Француз</item>
+    </string-array>
+    <string-array name="menu_setup_tv_single_signal_quality">
+        <item>Нашар</item>
+        <item>Орташа</item>
+        <item>Жақсы</item>
+    </string-array>
+    <string-array name="menu_tv_freeze_channel_array">
+        <item>Өшіру</item>
+        <item>Қосу</item>
+    </string-array>
+    <string-array name="menu_setup_address_type_array">
+        <item>Авто</item>
+        <item>Қолмен</item>
+    </string-array>
+    <string-array name="menu_setup_analog_caption_array">
+        <item>Өшіру</item>
+        <item>CC1</item>
+        <item>CC2</item>
+        <item>CC3</item>
+        <item>CC4</item>
+        <item>Мәтін 1</item>
+        <item>Мәтін 2</item>
+        <item>Мәтін 3</item>
+        <item>Мәтін 4</item>
+    </string-array>
+    <string-array name="menu_setup_power_on_channel_mode_array">
+        <item>Соңғы күйі</item>
+        <item>Пайдаланушы таңдауы</item>
+    </string-array>
+    <string-array name="pvr_tshift_channel_temp_list">
+        <item>CH41</item>
+        <item>CH42</item>
+        <item>CH43</item>
+        <item>CH44</item>
+    </string-array>
+    <string-array name="menu_audio_avc_mode_array">
+        <item>Өшіру</item>
+        <item>Қосу</item>
+    </string-array>
+    <string-array name="menu_factory_autovedio_array">
+        <item>Өшіру</item>
+        <item>Қосу</item>
+    </string-array>
+    <string-array name="menu_tv_scan_modulation_array">
+        <item>QAM64</item>
+        <item>QAM256</item>
+    </string-array>
+    <string-array name="menu_setup_enable_caption_array">
+        <item>Иә</item>
+        <item>Жоқ</item>
+        <item>Дыбысы өшірулі</item>
+    </string-array>
+    <string-array name="menu_video_blue_stretch_array">
+        <item>Өшіру</item>
+        <item>Қосу</item>
+    </string-array>
+    <string-array name="menu_tv_skip_ch_array">
+        <item>Өшіру</item>
+        <item>Қосу</item>
+    </string-array>
+    <string-array name="screen_mode_array_sa_analog">
+        <item>Авто</item>
+        <item>Орташа</item>
+        <item>Әріп қорабы</item>
+        <item>Панорама</item>
+        <item>Ұлғайту</item>
+        <item>Әр нүкте бойынша</item>
+    </string-array>
+    <string-array name="screen_mode_array_vga">
+        <item>Орташа</item>
+        <item>Әріп қорабы</item>
+        <item>Ұлғайту</item>
+    </string-array>
+    <string-array name="menu_factory_audio_system_test_array">
+        <item>Өшіру</item>
+        <item>Қосу</item>
+    </string-array>
+    <string-array name="menu_setup_poweron_music_array">
+        <item>Өшіру</item>
+        <item>Қосу</item>
+    </string-array>
+    <string-array name="menu_factory_auto_dima_array">
+        <item>Баяу</item>
+        <item>Экшн</item>
+    </string-array>
+    <string-array name="menu_tv_audio_channel_mts_array">
+        <item>Моно</item>
+        <item>Стерео</item>
+        <item>SAP</item>
+    </string-array>
+    <string-array name="menu_video_mjc_mode">
+        <item>Орташа</item>
+        <item>Үлдір ғана</item>
+        <item>Бұлыңғыр алу ғана</item>
+    </string-array>
+    <string-array name="menu_setup_auto_sleep_array">
+        <item>Өшіру</item>
+        <item>1 сағат</item>
+        <item>2 сағат</item>
+        <item>5 сағат</item>
+    </string-array>
+    <string-array name="menu_video_mjc_effect_array">
+        <item>Өшіру</item>
+        <item>Төмен</item>
+        <item>Орташа</item>
+        <item>Жоғары</item>
+    </string-array>
+    <string-array name="menu_audio_downmixmode_array">
+        <item>Стерео</item>
+        <item>Авто стерео</item>
+        <item>Қоршаған орта</item>
+    </string-array>
+    <string-array name="menu_factory_audio_compression_array">
+        <item>Сызық</item>
+        <item>RF</item>
+    </string-array>
+    <string-array name="menu_video_mjc_demo_partition_array">
+        <item>Барлық</item>
+        <item>Оңға</item>
+        <item>Солға</item>
+    </string-array>
+    <string-array name="menu_tv_color_system_array">
+        <item>Aвто</item>
+        <item>PAL</item>
+        <item>SECAM</item>
+        <item>NTSC</item>
+    </string-array>
+    <string-array name="menu_video_flesh_tone_us_array">
+        <item>Өшіру</item>
+        <item>Төмен</item>
+        <item>Орташа</item>
+        <item>Жоғары</item>
+    </string-array>
+    <string-array name="menu_setup_msi_array">
+        <item>Өшіру</item>
+        <item>Қосу</item>
+    </string-array>
+    <string-array name="menu_factory_video_flip_array">
+        <item>Өшіру</item>
+        <item>Қосу</item>
+    </string-array>
+    <string-array name="menu_setup_analog_subtitle_array">
+        <item>Өшіру</item>
+        <item>Қосу</item>
+        <item>ҮНСІЗ</item>
+    </string-array>
+    <string-array name="menu_setup_font_color_array">
+        <item>Қара</item>
+        <item>Ақ</item>
+        <item>Жасыл</item>
+        <item>Көк</item>
+        <item>Қызыл</item>
+        <item>Көк</item>
+        <item>Сары</item>
+        <item>Қызыл</item>
+    </string-array>
+    <string-array name="menu_setup_decoding_page_language_array">
+        <item>WEST EUR</item>
+        <item>EAST EUR</item>
+        <item>Ресей</item>
+        <item>РЕСЕЙ_2</item>
+        <item>Грек</item>
+        <item>Түркия</item>
+        <item>Arab/Hbrw</item>
+        <item>Парсы</item>
+        <item>Араб</item>
+        <item>БЕЛАРУСЬ</item>
+    </string-array>
+    <string-array name="pvr_tshift_schedule_type">
+        <item>Жазу</item>
+        <item>Еске салғыш</item>
+    </string-array>
+    <string-array name="menu_setup_background_opacity_array">
+        <item>Қою</item>
+        <item>Жеңіл</item>
+        <item>Мөлдір</item>
+    </string-array>
+    <string-array name="menu_audio_type_array">
+        <item>Орташа</item>
+        <item>Есту қабілеті төмен</item>
+        <item>Көру қабілеті төмен</item>
+    </string-array>
+    <string-array name="menu_setup_window_color_array">
+        <item>Қара</item>
+        <item>Ақ</item>
+        <item>Жасыл</item>
+        <item>Көк</item>
+        <item>Қызыл</item>
+        <item>Көк</item>
+        <item>Сары</item>
+        <item>Қызыл</item>
+    </string-array>
+    <string-array name="menu_video_3d_mode_array">
+        <item>Өшіру</item>
+        <item>Авто режимі</item>
+        <item>2D-ден 3D-ге</item>
+        <item>Жақтау реті</item>
+        <item>Зэрэгцээ</item>
+        <item>Дээд-ба-доор</item>
+        <item>REALD MODE</item>
+        <item>SENSIO</item>
+        <item>Сызық интерфейсі</item>
+        <item>DOT ALT MODE</item>
+        <item>CHK BOARD</item>
+    </string-array>
+    <string-array name="menu_audio_visually_speaker_array">
+        <item>Өшіру</item>
+        <item>Қосу</item>
+    </string-array>
+    <string-array name="menu_setup_auto_sleep_eu_array">
+        <item>Өшіру</item>
+        <item>4 сағат</item>
+        <item>6 сағат</item>
+        <item>8 сағат</item>
+    </string-array>
+    <string-array name="menu_setup_my_network_place_array">
+        <item>Өшіру</item>
+        <item>Қосу</item>
+    </string-array>
+    <string-array name="pvr_tshift_srctype">
+        <item>ТД</item>
+        <item>Құрама</item>
+    </string-array>
+    <string-array name="menu_setup_us_timezone_array">
+        <item>Шығыс уақыты</item>
+        <item>Гавай</item>
+        <item>Аляска</item>
+        <item>Тынық мұхит уақыты</item>
+        <item>Аризона</item>
+        <item>Маунтейн уақыты</item>
+        <item>Орталық уақыт</item>
+        <item>Индиана</item>
+    </string-array>
+    <string-array name="menu_setup_font_opacity_array">
+        <item>Қою</item>
+        <item>Жеңіл</item>
+        <item>Мөлдір</item>
+    </string-array>
+    <string-array name="menu_audio_pippop_mode_array">
+        <item>Өшіру</item>
+        <item>PIP</item>
+        <item>POP</item>
+    </string-array>
+    <string-array name="menu_factory_fm_saturation_mute_array">
+        <item>Өшіру</item>
+        <item>Қосу</item>
+    </string-array>
+    <string-array name="menu_tv_color_system_array_eu_edit">
+        <item>Aвто</item>
+        <item>NTSC</item>
+        <item>PAL</item>
+        <item>SECAM</item>
+    </string-array>
+    <string-array name="menu_factory_high_deviation_mode_array">
+        <item>Өшіру</item>
+        <item>Қосу</item>
+    </string-array>
+    <string-array name="menu_video_3d_nav_array">
+        <item>Қолмен</item>
+        <item>Жартылай авто</item>
+        <item>Авто</item>
+    </string-array>
+    <string-array name="menu_video_gamma_array">
+        <item>Қараңғы</item>
+        <item>Орташа</item>
+        <item>Жарық</item>
+    </string-array>
+    <string-array name="menu_parental_age_ratings_array_eu">
+        <item>Ешбір</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+    </string-array>
+    <string-array name="menu_factory_setup_eu_uart_mode">
+        <item>Өшіру</item>
+        <item>Қосу</item>
+    </string-array>
+    <string-array name="menu_audio_visually_headphone_array">
+        <item>Өшіру</item>
+        <item>Қосу</item>
+    </string-array>
+    <string-array name="menu_video_vga_mode_array">
+        <item>Графика</item>
+        <item>Бейне</item>
+    </string-array>
+    <string-array name="menu_factory_setup_uart_mode">
+        <item>Өшіру</item>
+        <item>Қосу</item>
+    </string-array>
+    <string-array name="menu_audio_srs_mode_array">
+        <item>Өшіру</item>
+        <item>Қосу</item>
+    </string-array>
+    <string-array name="menu_setup_digital_teletext_language_array">
+        <item>Баск</item>
+        <item>Болгар</item>
+        <item>Кантон диалекті</item>
+        <item>Каталан</item>
+        <item>Хорват</item>
+        <item>Чех</item>
+        <item>Дат</item>
+        <item>Нидерланд</item>
+        <item>Ағылшын</item>
+        <item>Эстон</item>
+        <item>Фин</item>
+        <item>Француз</item>
+        <item>Гойдель</item>
+        <item>Ирланд</item>
+        <item>Гал</item>
+        <item>Неміс</item>
+        <item>Грек</item>
+        <item>Хинди</item>
+        <item>Венгр</item>
+        <item>Италиян</item>
+        <item>Исланд</item>
+        <item>Жапон</item>
+        <item>Kорей</item>
+        <item>Maндарин</item>
+        <item>Maoри</item>
+        <item>Норвег</item>
+        <item>Поляк</item>
+        <item>Португал</item>
+        <item>Румын</item>
+        <item>Орыс</item>
+        <item>Сами</item>
+        <item>Серб</item>
+        <item>Словак</item>
+        <item>Словен</item>
+        <item>Испан</item>
+        <item>Швед</item>
+        <item>Tүрік</item>
+        <item>Уэльс</item>
+        <item>Түпнұсқа аудио</item>
+        <item>Бандау</item>
+        <item>Анықталмаған</item>
+    </string-array>
+    <string-array name="menu_parental_age_ratings_array_eu_ocean_aus">
+        <item>Блоктауға болмайды</item>
+        <item>R және одан жоғарғыны блоктау</item>
+        <item>AV және одан жоғарғыны блоктау</item>
+        <item>MA және одан жоғарғыны блоктау</item>
+        <item>M және одан жоғарғыны блоктау</item>
+        <item>PG және одан жоғарғыны блоктау</item>
+        <item>G және одан жоғарғыны блоктау</item>
+        <item>Бәрін блоктау</item>
+    </string-array>
+    <string-array name="menu_setup_superimpose_setup_array">
+        <item>Өшіру</item>
+        <item>Тіл 1</item>
+        <item>Тіл 2</item>
+    </string-array>
+    <string-array name="menu_factory_audio_dolbybanner_array">
+        <item>Өшіру</item>
+        <item>Қосу</item>
+    </string-array>
+    <string-array name="menu_video_black_bar_detection_array">
+        <item>Өшіру</item>
+        <item>Қосу</item>
+    </string-array>
+    <string-array name="menu_setup_digital_caption_sa_array">
+        <item>Өшіру</item>
+        <item>Тіл 1</item>
+        <item>Тіл 2</item>
+        <item>Тіл 3</item>
+        <item>Тіл 4</item>
+        <item>Тіл 5</item>
+        <item>Тіл 6</item>
+        <item>Тіл 7</item>
+        <item>Тіл 8</item>
+    </string-array>
+    <string-array name="menu_tv_tuner_mode_array_full_eu_sat_only">
+        <item>Aнтенна</item>
+        <item>Кабель</item>
+        <item>Хиймэл Дагуул</item>
+    </string-array>
+    <string-array name="menu_factory_setup_burning_mode">
+        <item>Өшіру</item>
+        <item>Қосу</item>
+    </string-array>
+    <string-array name="menu_audio_bbe_mode_array">
+        <item>Өшіру</item>
+        <item>BBE</item>
+        <item>BBE Viva</item>
+    </string-array>
+    <string-array name="menu_tv_country_region_id_eu">
+        <item>Елдің аймақтық идентификаторы 1</item>
+        <item>Елдің аймақтық идентификаторы 2</item>
+    </string-array>
+    <string-array name="menu_video_dnr_array">
+        <item>Өшіру</item>
+        <item>Төмен</item>
+        <item>Орташа</item>
+        <item>Қатты</item>
+        <item>Авто</item>
+    </string-array>
+    <string-array name="menu_setup_subtitle_type_array">
+        <item>Орташа</item>
+        <item>Есту қабілеті төмен</item>
+    </string-array>
+    <string-array name="menu_tv_fine_tune_array">
+        <item>Өшіру</item>
+        <item>Қосу</item>
+    </string-array>
+    <string-array name="menu_parental_age_ratings_array">
+        <item>Ешбір</item>
+        <item>Төмен 10</item>
+        <item>Төмен 12</item>
+        <item>Төмен 14</item>
+        <item>Төмен 16</item>
+        <item>Төмен 18</item>
+    </string-array>
+    <string-array name="menu_video_3d_lrswitch_array">
+        <item>Өшіру</item>
+        <item>Қосу</item>
+    </string-array>
+    <string-array name="menu_factory_video_local_array">
+        <item>Өшіру</item>
+        <item>Қосу</item>
+    </string-array>
+    <string-array name="menu_setup_power_on_timer_array">
+        <item>Өшіру</item>
+        <item>Қосу</item>
+        <item>Бір рет</item>
+    </string-array>
+    <string-array name="menu_tv_channel_listtype">
+        <item>Трансляция</item>
+        <item>CAM</item>
+    </string-array>
+    <string-array name="screen_mode_array_us_pop">
+        <item>Авто</item>
+        <item>Орташа</item>
+        <item>Ұлғайту</item>
+    </string-array>
+    <string-array name="menu_audio_equalizer_array">
+        <item>Өшіру</item>
+        <item>Рок</item>
+        <item>POP</item>
+        <item>Тікелей эфир</item>
+        <item>Би</item>
+        <item>Техно</item>
+        <item>Классика</item>
+        <item>Жұмсақ</item>
+    </string-array>
+    <string-array name="menu_setup_caption_style_array">
+        <item>Транслятор ретінде</item>
+        <item>Арнаулы</item>
+    </string-array>
+    <string-array name="menu_setup_font_style_array">
+        <item>Стиль1</item>
+        <item>Стиль2</item>
+        <item>Стиль3</item>
+        <item>Стиль4</item>
+        <item>Стиль5</item>
+        <item>Стиль6</item>
+        <item>Стиль7</item>
+    </string-array>
+    <string-array name="menu_tv_rf_signal_quality">
+        <item>Жақсы</item>
+        <item>Орташа</item>
+        <item>Нашар</item>
+    </string-array>
+    <string-array name="menu_tv_sound_system_array">
+        <item>B/G</item>
+        <item>A2 B/G</item>
+        <item>L</item>
+        <item>L\'</item>
+        <item>I</item>
+        <item>D/K</item>
+        <item>A2 D/K</item>
+        <item>A2 D/K1</item>
+        <item>A2 D/K2</item>
+    </string-array>
+    <string-array name="menu_video_luma_array">
+        <item>Өшіру</item>
+        <item>Төмен</item>
+        <item>Орташа</item>
+        <item>Қатты</item>
+    </string-array>
+    <string-array name="menu_factory_video_mirror_array">
+        <item>Өшіру</item>
+        <item>Қосу</item>
+    </string-array>
+    <string-array name="pvr_tshift_repeat_type">
+        <item>Бір рет</item>
+        <item>Апта</item>
+        <item>Күнделікті</item>
+    </string-array>
+    <string-array name="menu_factory_carrier_shift_function_array">
+        <item>Өшіру</item>
+        <item>Қосу</item>
+    </string-array>
+    <string-array name="menu_setup_language_array">
+        <item>Ағылшын</item>
+        <item>Жеңілдетілген қытай тілі</item>
+    </string-array>
+    <string-array name="menu_setup_blue_mute_array">
+        <item>Өшіру</item>
+        <item>Қосу</item>
+    </string-array>
+    <string-array name="menu_setup_background_color_array">
+        <item>Қара</item>
+        <item>Ақ</item>
+        <item>Жасыл</item>
+        <item>Көк</item>
+        <item>Қызыл</item>
+        <item>Көк</item>
+        <item>Сары</item>
+        <item>Қызыл</item>
+    </string-array>
+
+    <integer-array name="menu_setup_us_timezone_values">
+        <item>-5</item>
+        <item>-10</item>
+        <item>-9</item>
+        <item>-8</item>
+        <item>-7</item>
+        <item>-7</item>
+        <item>-6</item>
+        <item>-5</item>
+    </integer-array>
+    <integer-array name="menu_setup_timezone_value_array">
+        <item>-12</item>
+        <item>-11</item>
+        <item>-10</item>
+        <item>-9</item>
+        <item>-8</item>
+        <item>-7</item>
+        <item>-6</item>
+        <item>-5</item>
+        <item>-4</item>
+        <item>-350</item>
+        <item>-3</item>
+        <item>-2</item>
+        <item>-1</item>
+        <item>0</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>350</item>
+        <item>4</item>
+        <item>450</item>
+        <item>5</item>
+        <item>550</item>
+        <item>575</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>950</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>-1125</item>
+        <item>-11</item>
+    </integer-array>
+
+</resources>

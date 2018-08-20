@@ -1,0 +1,1163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string-array name="menu_video_gamma_array">
+        <item>အေမွာင္</item>
+        <item>အလယ္အလတ္</item>
+        <item>ေတာက္ပမႈ</item>
+    </string-array>
+    <string-array name="menu_video_color_temperature2_array">
+        <item>အေအး</item>
+        <item>စံ</item>
+        <item>အေႏြး</item>
+    </string-array>
+    <string-array name="menu_video_dnr_array">
+        <item>ပိတ္</item>
+        <item>နိမ့္</item>
+        <item>အလယ္အလတ္</item>
+        <item>အားေကာင္း</item>
+        <item>အလိုအေလ်ာက္</item>
+    </string-array>
+    <string-array name="menu_video_mpeg_nr_array">
+        <item>ပိတ္</item>
+        <item>နိမ့္</item>
+        <item>အလယ္အလတ္</item>
+        <item>အားေကာင္း</item>
+    </string-array>
+    <string-array name="menu_video_luma_array">
+        <item>ပိတ္</item>
+        <item>နိမ့္</item>
+        <item>အလယ္အလတ္</item>
+        <item>အားေကာင္း</item>
+    </string-array>
+    <string-array name="menu_video_flesh_tone_array">
+        <item>ပိတ္</item>
+        <item>ဖြင့္</item>
+    </string-array>
+    <string-array name="menu_video_flesh_tone_us_array">
+        <item>ပိတ္</item>
+        <item>နိမ့္</item>
+        <item>အလယ္အလတ္</item>
+        <item>ျမင့္</item>
+    </string-array>
+    <string-array name="menu_video_black_bar_detection_array">
+        <item>ပိတ္</item>
+        <item>ဖြင့္</item>
+    </string-array>
+    <string-array name="menu_video_super_resolution_array">
+        <item>ပိတ္</item>
+        <item>ဖြင့္</item>
+    </string-array>
+    <string-array name="menu_video_di_film_mode_array">
+        <item>ပိတ္</item>
+        <item>အလိုအေလ်ာက္</item>
+    </string-array>
+    <string-array name="menu_video_blue_stretch_array">
+        <item>ပိတ္</item>
+        <item>ဖြင့္</item>
+    </string-array>
+    <string-array name="menu_video_game_mode_array">
+        <item>ပိတ္</item>
+        <item>ဖြင့္</item>
+    </string-array>
+    <string-array name="menu_video_pq_split_mode_array">
+        <item>ပိတ္</item>
+        <item>ဖြင့္</item>
+    </string-array>
+    <string-array name="menu_video_mjc_effect_array">
+        <item>ပိတ္</item>
+        <item>နိမ့္</item>
+        <item>အလယ္အလတ္</item>
+        <item>ျမင့္</item>
+    </string-array>
+    <string-array name="menu_video_mjc_demo_partition_array">
+        <item>အားလံုး</item>
+        <item>ညာ</item>
+        <item>ဘယ္</item>
+    </string-array>
+    <string-array name="menu_video_mjc_mode">
+        <item>ပံုမွန္</item>
+        <item>ဖလင္ သာ</item>
+        <item>ဝါးတားတားဖယ္မႈသာ</item>
+    </string-array>
+    <string-array name="menu_video_vga_mode_array">
+        <item>ပံုႏိွပ္ေရးဆြဲျခင္းဒီဇိုင္း</item>
+        <item>ဗီဒီယို</item>
+    </string-array>
+    <string-array name="menu_video_hdmi_mode_array">
+        <item>အလိုအေလ်ာက္</item>
+        <item>ပံုႏိွပ္ေရးဆြဲျခင္းဒီဇိုင္း</item>
+        <item>ဗီဒီယို</item>
+    </string-array>
+    <string-array name="menu_video_3d_mode_array">
+        <item>ပိတ္</item>
+        <item>ေအာ္တိုမုဒ္</item>
+        <item>2D မွ 3D</item>
+        <item>ဖရိန္အစီအစဥ</item>
+        <item>ေဘးတိုက္တစ္ခုခ်င္း</item>
+        <item>ထိပ္ဆံုး ႏွင့္ ေအာက္ေျခ</item>
+        <item>REALD MODE</item>
+        <item>SENSIO</item>
+        <item>လိုင္းလိမ္ယွက္မႈ</item>
+        <item>DOT ALT MODE</item>
+        <item>CHK BOARD</item>
+    </string-array>
+
+    <string-array name="menu_video_3d_nav_array">
+        <item>လူကိုယ္တိုင္</item>
+        <item>ဆီမီးေအာ္တို</item>
+        <item>အလိုအေလ်ာက္</item>
+    </string-array>
+
+    <string-array name="menu_video_3d_image_safety_array">
+        <item>ပိတ္</item>
+        <item>နိမ့္</item>
+        <item>အလယ္အလတ္</item>
+        <item>ျမင့္</item>
+    </string-array>
+
+    <string-array name="menu_video_3d_lrswitch_array">
+        <item>ပိတ္</item>
+        <item>ဖြင့္</item>
+    </string-array>
+    <string-array name="menu_video_3d_3t2switch_array">
+        <item>ပိတ္</item>
+        <item>ဖြင့္</item>
+    </string-array>
+
+    <string-array name="menu_audio_srs_mode_array">
+        <item>ပိတ္</item>
+        <item>ဖြင့္</item>
+    </string-array>
+    <string-array name="menu_audio_equalizer_array">
+        <item>ပိတ္</item>
+        <item>ေရာ့ခ္</item>
+        <item>Pop</item>
+        <item>တိုက္႐ိုက္</item>
+        <item>အက</item>
+        <item>နည္းပညာ</item>
+        <item>ဂႏၳဝင္</item>
+        <item>ေပ်ာ့ေပ်ာင္းေသာ</item>
+    </string-array>
+    <string-array name="menu_audio_equalizer_array_us">
+        <item>ပိတ္</item>
+        <item>ေရာ့ခ္</item>
+        <item>Pop</item>
+        <item>တိုက္႐ိုက္</item>
+        <item>အက</item>
+        <item>နည္းပညာ</item>
+        <item>ဂႏၳဝင္</item>
+        <item>ေပ်ာ့ေပ်ာင္းေသာ</item>
+        <item>Custom1</item>
+        <item>Custom2</item>
+        <item>custom3</item>
+    </string-array>
+    <string-array name="menu_audio_speaker_mode_array">
+        <item>ပိတ္</item>
+        <item>ဖြင့္</item>
+    </string-array>
+    <string-array name="menu_audio_spdif_mode_array">
+        <item>ပိတ္</item>
+        <item>PCM RAW</item>
+        <item>PCM 16</item>
+        <item>PCM 24</item>
+    </string-array>
+    <string-array name="menu_audio_spdif_mode_us_array">
+        <item>ပိတ္</item>
+        <item>Dolby Digital</item>
+        <item>PCM</item>
+
+    </string-array>
+    <string-array name="menu_audio_avc_mode_array">
+        <item>ပိတ္</item>
+        <item>ဖြင့္</item>
+    </string-array>
+    <string-array name="menu_audio_type_array">
+        <item>ပံုမွန္</item>
+        <item>အသံၾကားမႈ ေလ်ာ့က်လာသည္</item>
+        <item>အၾကားအာ႐ံုပ်က္စီးသြားသည့္</item>
+    </string-array>
+    <string-array name="menu_audio_visually_speaker_array">
+        <item>ပိတ္</item>
+        <item>ဖြင့္</item>
+    </string-array>
+    <string-array name="menu_audio_visually_headphone_array">
+        <item>ပိတ္</item>
+        <item>ဖြင့္</item>
+    </string-array>
+    
+    <string-array name="menu_audio_bbe_mode_array">
+        <item>ပိတ္</item>
+        <item>BBE</item>
+        <item>BBE Viva</item>
+    </string-array>
+    
+    <string-array name="menu_audio_pippop_mode_array">
+        <item>ပိတ္</item>
+        <item>PIP</item>
+        <item>Pop</item>
+    </string-array>
+    
+    <string-array name="menu_audio_downmixmode_array">
+        <item>စတီရီယို</item>
+        <item>အလိုအေလ်ာက္ စတီရီယုိ</item>
+        <item>ပတ္ဝန္းက်င္</item>
+    </string-array>
+     <string-array name="menu_audio_downmixmode_eu_array">
+        <item>ပတ္ဝန္းက်င္</item>
+        <item>စတီရီယို</item>
+        <item>အလိုအေလ်ာက္ စတီရီယုိ</item>
+    </string-array>
+    <string-array name="menu_tv_tuner_mode_array">
+        <item>Antenna</item>
+        <item>Cable</item>
+    </string-array>
+    <string-array name="menu_tv_audio_channel_array">
+        <item>မိုႏို</item>
+        <item>စတီရီယို</item>
+        <item>စံုတြဲ 1</item>
+        <item>စံုတြဲ 2</item>
+    </string-array>
+    <string-array name="menu_tv_audio_channel_mts_array">
+        <item>မိုႏို</item>
+        <item>စတီရီယို</item>
+        <item>SAP</item>
+    </string-array>
+    <string-array name="menu_tv_audio_language_array">
+        <item>အဂၤလိပ္</item>
+        <item>စပိန္ဘာသာ</item>
+        <item>ျပင္သစ္ဘာသာ</item>
+    </string-array>
+     <string-array name="menu_tv_subtitle_language_eu_array">
+        <item>ဘက္စ္ခ္ဘာသာ</item>
+        <item>ဘူေဂးရီးယားဘာသာ</item>
+        <item>ကန္တံုတ႐ုတ္</item>
+        <item>ကက္တလန္ဘာသာ</item>
+        <item>ခ႐ိုေအးရွားဘာသာ</item>
+        <item>ခ်က္</item>
+        <item>ဒိန္းမတ္ဘာသာ</item>
+        <item>ဒတ္ခ်္</item>
+         <item>အဂၤလိပ္</item>
+        <item>အက္စတိုးနီးယားဘာသာ</item>
+        <item>ဖင္လန္ဘာသာ</item>
+        <item>ျပင္သစ္</item>
+        <item>ကဲလ္တစ္ဘာသာ</item>
+        <item>အိုင္ယာလန္ဘာသာ</item>
+        <item>အိႏၵိယဥေရာပဘာသာ</item>
+        <item>ဂ်ာမန္ဘာသာ</item>
+        <item>ဂရိဘာသာ</item>
+        <item>ဟင္ဒီ</item>
+        <item>ဟန္ေဂရီဘာသာ</item>
+        <item>အီတလီဘာသာ</item>
+        <item>အုိက္စ္လန္ဒစ္ဘာသာ</item>
+        <item>ဂ်ပန္ဘာသာ</item>
+        <item>ကိုးရီးယားဘာသာ</item>
+        <item>မန္ဒရင္ဘာသာ</item>
+        <item>နယူးဇီလန္ဘာသာ</item>
+        <item>ေနာ္ေဝးဘာသာ</item>
+        <item>ပိုလန္ဘာသာ</item>
+        <item>ေပၚတူဂီ</item>
+        <item>႐ိုေမးနီးယားဘာသာ</item>
+        <item>႐ုရွ</item>
+        <item>ဆမီ</item>
+        <item>ဆားဗီးယားဘာသာ</item>
+        <item>ဆလိုဗက္</item>
+        <item>ဆလိုဗက္ကီးယားဘာသာ</item>
+        <item>စပိန္</item>
+        <item>ဆြီဒင္ဘာသာ</item>
+        <item>တူရကီဘာသာ</item>
+        <item>ေဝလဘာသာ</item>
+        <item>မူရင္း အသံ</item>
+        <item>ေျပာျပမႈ</item>
+        <item>မသတ္မွတ္ရေသးပါ</item>
+        <item>ပိတ္</item>
+    </string-array>
+    <string-array name="menu_tv_audio_language_eu_array">
+        <item>အဂၤလိပ္</item>
+        <item>အက္စတိုးနီးယားဘာသာ</item>
+        <item>ဖင္လန္ဘာသာ</item>
+        <item>ျပင္သစ္</item>
+        <item>ကဲလ္တစ္ဘာသာ</item>
+        <item>အိုင္ယာလန္ဘာသာ</item>
+        <item>အိႏၵိယဥေရာပဘာသာ</item>
+        <item>ဂ်ာမန္ဘာသာ</item>
+        <item>ဂရိဘာသာ</item>
+        <item>ဟင္ဒီ</item>
+        <item>ဟန္ေဂရီဘာသာ</item>
+        <item>အီတလီဘာသာ</item>
+        <item>အုိက္စ္လန္ဒစ္ဘာသာ</item>
+        <item>ဂ်ပန္ဘာသာ</item>
+        <item>ကိုးရီးယားဘာသာ</item>
+        <item>မန္ဒရင္ဘာသာ</item>
+        <item>နယူးဇီလန္ဘာသာ</item>
+        <item>ေနာ္ေဝးဘာသာ</item>
+        <item>ပိုလန္ဘာသာ</item>
+        <item>ေပၚတူဂီ</item>
+        <item>႐ိုေမးနီးယားဘာသာ</item>
+        <item>႐ုရွ</item>
+        <item>ဆမီ</item>
+        <item>ဆားဗီးယားဘာသာ</item>
+        <item>ဆလိုဗက္</item>
+        <item>ဆလိုဗက္ကီးယားဘာသာ</item>
+        <item>စပိန္</item>
+        <item>ဆြီဒင္ဘာသာ</item>
+        <item>တူရကီဘာသာ</item>
+        <item>ေဝလဘာသာ</item>
+        <item>မူရင္း အသံ</item>
+        <item>ေျပာျပမႈ</item>
+        <item>မသတ္မွတ္ရေသးပါ</item>
+        <item>ဘက္စ္ခ္ဘာသာ</item>
+        <item>ဘူေဂးရီးယားဘာသာ</item>
+        <item>ကန္တံုတ႐ုတ္</item>
+        <item>ကက္တလန္ဘာသာ</item>
+        <item>ခ႐ိုေအးရွားဘာသာ</item>
+        <item>ခ်က္</item>
+        <item>ဒိန္းမတ္ဘာသာ</item>
+        <item>ဒတ္ခ်္</item>
+    </string-array>
+    <string-array name="menu_tv_rf_signal_quality">
+        <item>ေကာင္း</item>
+        <item>အလယ္အလတ္</item>
+        <item>ညံ့</item>
+    </string-array>
+    <string-array name="menu_tv_tv_system_array">
+        <item>အလိုအေလ်ာက္ </item>
+        <item> B/G</item>
+        <item> A2 B/G</item>
+        <item> I</item>
+        <item> D/K</item>
+        <item> A2 D/K</item>
+        <item> A2 D/K1</item>
+        <item> A2 D/K2</item>
+        <item> M</item>
+    </string-array>
+    <string-array name="menu_tv_sound_system_array">
+        <item> B/G</item>
+        <item> A2 B/G</item>
+        <item> L</item>
+		<item> L\&#039;</item>
+        <item> I</item>
+        <item> D/K</item>
+        <item> A2 D/K</item>
+        <item> A2 D/K1</item>
+        <item> A2 D/K2</item>
+    </string-array>
+    <string-array name="menu_tv_color_system_array">
+        <item>အလိုအေလ်ာက္ </item>
+        <item> PAL</item>
+        <item> SECAM</item>
+        <item> NTSC</item>
+    </string-array>
+    <string-array name="menu_tv_color_system_array_eu_edit">
+        <item>အလိုအေလ်ာက္ </item>
+        <item> NTSC</item>
+        <item> PAL</item>
+        <item> SECAM</item>
+    </string-array>
+    <string-array name="menu_tv_scan_mode_array">
+        <item>အလိုအေလ်ာက္ </item>
+        <item> 16QAM</item>
+        <item> 32QAM</item>
+        <item> 64QAM</item>
+        <item> 128QAM</item>
+        <item> 256QAM</item>
+    </string-array>
+    <string-array name="menu_tv_mdu_type_array">
+        <item>အမ်ားႏွင့္ဆိုင္ေသာ</item>
+        <item> MDU 1</item>
+        <item> MDU 2</item>
+        <item> MDU 3</item>
+        <item> MDU 4</item>
+        <item> MDU 5</item>
+    </string-array>
+    <string-array name="menu_tv_scan_frequency_plan_array">
+        <item>STD</item>
+        <item>IRC</item>
+        <item>HRC</item>
+    </string-array>
+    <string-array name="menu_tv_scan_modulation_array">
+        <item> QAM64</item>
+        <item> QAM256</item>
+    </string-array>
+    <string-array name="menu_tv_us_scan_mode_array">
+        <item>အန္နာေလာ့ခ္ / ဒစ္ဂ်စ္တယ္</item>
+        <item>အန္နာေလာ့ခ္</item>
+        <item>ဒစ္ဂ်စ္တယ္</item>
+    </string-array>
+    <string-array name="menu_tv_channeledit_array">
+        <item>ခ်န္နယ္ သတင္းအခ်က္အလက္</item>
+        <item>ထပ္ထည့္ပါ</item>
+        <item>ဖ်က္ပါ</item>
+        <item>ဖလွယ္</item>
+    </string-array>
+    <string-array name="menu_tv_freeze_channel_array">
+        <item>ပိတ္</item>
+        <item>ဖြင့္</item>
+    </string-array>
+    <string-array name="menu_tv_fa_dataservice_array">
+        <item>ပိတ္</item>
+        <item>ဖြင့္</item>
+    </string-array>
+    <string-array name="menu_tv_fine_tune_array">
+        <item>ပိတ္</item>
+        <item>ဖြင့္</item>
+    </string-array>
+    <string-array name="menu_tv_skip_ch_array">
+        <item>ပိတ္</item>
+        <item>ဖြင့္</item>
+    </string-array>
+
+    <string-array name="menu_setup_language_array">
+        <item>အဂၤလိပ္</item>
+        <item>简体中文</item>
+    </string-array>
+    <string-array name="menu_setup_dpms_array">
+        <item>ပိတ္</item>
+        <item>ဖြင့္</item>
+    </string-array>
+    <string-array name="menu_setup_ginga_array">
+        <item>ပိတ္</item>
+        <item>ဖြင့္</item>
+    </string-array>
+    <string-array name="menu_setup_blue_mute_array">
+        <item>ပိတ္</item>
+        <item>ဖြင့္</item>
+    </string-array>
+    <string-array name="menu_setup_fast_boot_array">
+        <item>ပိတ္</item>
+        <item>ဖြင့္</item>
+    </string-array>
+    <string-array name="menu_setup_msi_array">
+        <item>ပိတ္</item>
+        <item>ဖြင့္</item>
+    </string-array>
+    <string-array name="menu_setup_poweron_music_array">
+        <item>ပိတ္</item>
+        <item>ဖြင့္</item>
+    </string-array>
+    <string-array name="menu_setup_tv_single_signal_quality">
+        <item>ညံ့</item>
+        <item>ပံုမွန္</item>
+        <item>ေကာင္း</item>
+    </string-array>
+    <string-array name="menu_setup_scart">
+        <item>အလိုအေလ်ာက္</item>
+        <item>ေရာထားသည္</item>
+        <item>RGB</item>
+        <item>CVBS</item>
+        <item>S-ဗီဒီယို</item>
+    </string-array>
+    <string-array name="menu_setup_capturelogo_array">
+        <item>ပံုေသ</item>
+        <item>0</item>
+        <item>1</item>
+        <item>ဘာမွမရွိ</item>
+    </string-array>
+    
+    <string-array name="menu_setup_analog_subtitle_array">
+        <item>ပိတ္</item>
+        <item>ဖြင့္</item>
+        <item>Mute</item>
+    </string-array>
+    <string-array name="menu_setup_subtitle_type_array">
+        <item>ပံုမွန္</item>
+        <item>အသံၾကားမႈ ေလ်ာ့က်လာသည္</item>
+    </string-array>
+    
+    <string-array name="screen_mode_array_sa">
+		<item>အလိုအေလ်ာက္</item>
+		<item>ပံုမွန္</item>
+		<item>မွန္ဘီလူး ခ်ဳံ႕ခ်ဲ႕</item>
+	</string-array>
+	 <string-array name="screen_mode_array_vga">
+		<item>ပံုမွန္</item>
+		<item>စာလံုး ပံုး</item>
+		<item>မွန္ဘီလူး ခ်ဳံ႕ခ်ဲ႕</item>
+	</string-array>
+     <string-array name="screen_mode_array_sa_analog">
+		<item>အလိုအေလ်ာက္</item>
+		<item>ပံုမွန္</item>
+		<item>စာလံုး ပံုး</item>
+		<item>ျမင္ကြင္းက်ယ္</item>
+		<item>မွန္ဘီလူး ခ်ဳံ႕ခ်ဲ႕</item>
+		<item>တစ္စက္ခ်င္း</item>
+	</string-array>
+     <string-array name="screen_mode_array_us_dtv">
+		<item>အလိုအေလ်ာက္</item>
+		<item>ပံုမွန္</item>
+		<item>စာလံုး ပံုး</item>
+		<item>ျမင္ကြင္းက်ယ္</item>
+		<item>မွန္ဘီလူး ခ်ဳံ႕ခ်ဲ႕</item>
+		<item>တစ္စက္ခ်င္း</item>
+	</string-array>
+	<string-array name="screen_mode_array_us_pip_main_analog">
+		<item>အလိုအေလ်ာက္</item>
+		<item>ပံုမွန္</item>
+		<item>စာလံုး ပံုး</item>
+		<item>မွန္ဘီလူး ခ်ဳံ႕ခ်ဲ႕</item>
+		<item>တစ္စက္ခ်င္း</item>
+	</string-array>
+	 <string-array name="screen_mode_array_eu_analog">
+		<item>အလိုအေလ်ာက္</item>
+		<item>ပံုမွန္</item>
+		<item>စာလံုး ပံုး</item>
+		<item>ျမင္ကြင္းက်ယ္</item>
+	</string-array>
+	<string-array name="screen_mode_array_sa_pop">
+		<item>အလိုအေလ်ာက္</item>
+		<item>ပံုမွန္</item>
+		<item>စာလံုး ပံုး</item>
+		<item>မွန္ဘီလူး ခ်ဳံ႕ခ်ဲ႕</item>
+	</string-array>
+	<string-array name="screen_mode_array_us_pip_sub">
+		<item>အလိုအေလ်ာက္</item>
+		<item>ပံုမွန္</item>
+		<item>စာလံုး ပံုး</item>
+	</string-array>
+	 <string-array name="screen_mode_array_us_pop">
+		<item>အလိုအေလ်ာက္</item>
+		<item>ပံုမွန္</item>
+		<item>မွန္ဘီလူး ခ်ဳံ႕ခ်ဲ႕</item>
+	</string-array>
+	 <string-array name="screen_mode_array_sa_pip">
+		<item>အလိုအေလ်ာက္</item>
+		<item>ပံုမွန္</item>
+		<item>စာလံုး ပံုး</item>
+	</string-array>
+	 <string-array name="screen_mode_array_us_pip">
+		<item>အလိုအေလ်ာက္</item>
+		<item>ပံုမွန္</item>
+	</string-array>
+    <string-array name="menu_setup_enable_caption_array">
+        <item>လုပ္မည္</item>
+        <item>မဟုတ္ပါ</item>
+        <item>အသံတိတ္တြင္</item>
+    </string-array>
+    <string-array name="menu_setup_analog_caption_array">
+        <item>ပိတ္</item>
+        <item>CC1</item>
+        <item>CC2</item>
+        <item>CC3</item>
+        <item>CC4</item>
+        <item>TEXT1</item>
+        <item>TEXT2</item>
+        <item>TEXT3</item>
+        <item>TEXT4</item>
+    </string-array>
+    <string-array name="menu_setup_digital_caption_array">
+        <item>ပိတ္</item>
+        <item>Service1</item>
+        <item>Service2</item>
+        <item>Service3</item>
+        <item>Service4</item>
+        <item>Service5</item>
+        <item>Service6</item>
+    </string-array>
+     <string-array name="menu_setup_digital_caption_sa_array">
+        <item>ပိတ္</item>
+        <item>ဘာသာစကား1</item>
+        <item>ဘာသာစကား2</item>
+        <item>ဘာသာစကား3</item>
+        <item>ဘာသာစကား4</item>
+        <item>ဘာသာစကား5</item>
+        <item>ဘာသာစကား6</item>
+         <item>ဘာသာစကား7</item>
+        <item>ဘာသာစကား8</item>
+    </string-array>
+    <string-array name="menu_setup_superimpose_setup_array">
+        <item>ပိတ္</item>
+        <item>ဘာသာစကား1</item>
+        <item>ဘာသာစကား2</item>
+    </string-array>
+    <string-array name="menu_setup_caption_style_array">
+        <item>ထုတ္လႊင့္သူအေနျဖင့္</item>
+        <item>စိတ္ႀကိဳက္</item>
+    </string-array>
+    <string-array name="menu_setup_font_size_array">
+        <item>ေသးငယ္ေသာ</item>
+        <item>အလယ္အလတ္</item>
+        <item>ႀကီးမား</item>
+    </string-array>
+    <string-array name="menu_setup_font_style_array">
+        <item>Style1</item>
+        <item>Style2</item>
+        <item>Style3</item>
+        <item>Style4</item>
+        <item>Style5</item>
+        <item>Style6</item>
+        <item>Style7</item>
+       
+    </string-array>
+    <string-array name="menu_setup_font_color_array">
+        <item>အနက္</item>
+        <item>အျဖဴ</item>
+        <item>အစိမ္းေရာင္</item>
+        <item>အျပာေရာင္</item>
+        <item>အနီေရာင္</item>
+        <item>စိမ္းျပာေရာင္</item>
+        <item>အဝါေရာင္</item>
+        <item>ပန္းခရမ္းေရာင္</item>
+        
+    </string-array>
+    <string-array name="menu_setup_font_opacity_array">
+        <item>အျပည့္အဝ</item>
+        <item>အလင္းေဖာက္</item>
+        <item>ထြင္းေဖာက္ျမင္</item>
+    </string-array>
+    <string-array name="menu_setup_background_color_array">
+        <item>အနက္</item>
+        <item>အျဖဴ</item>
+        <item>အစိမ္းေရာင္</item>
+        <item>အျပာေရာင္</item>
+        <item>အနီေရာင္</item>
+        <item>စိမ္းျပာေရာင္</item>
+        <item>အဝါေရာင္</item>
+        <item>ပန္းခရမ္းေရာင္</item>
+       
+    </string-array>
+    <string-array name="menu_setup_background_opacity_array">
+        <item>အျပည့္အဝ</item>
+        <item>အလင္းေဖာက္</item>
+        <item>ထြင္းေဖာက္ျမင္</item>
+    </string-array>
+    <string-array name="menu_setup_window_color_array">
+        <item>အနက္</item>
+        <item>အျဖဴ</item>
+        <item>အစိမ္းေရာင္</item>
+        <item>အျပာေရာင္</item>
+        <item>အနီေရာင္</item>
+        <item>စိမ္းျပာေရာင္</item>
+        <item>အဝါေရာင္</item>
+        <item>ပန္းခရမ္းေရာင္</item>
+       
+    </string-array>
+    <string-array name="menu_setup_window_opacity_array">
+        <item>အျပည့္အဝ</item>
+        <item>အလင္းေဖာက္</item>
+        <item>ထြင္းေဖာက္ျမင္</item>
+    </string-array>
+    <string-array name="menu_setup_atv_record_mode_array">
+        <item>ပိတ္</item>
+        <item>ဖြင့္</item>
+    </string-array>
+    <string-array name="menu_setup_time_shifting_mode_array">
+        <item>ပိတ္</item>
+        <item>ဖြင့္</item>
+    </string-array>
+    <string-array name="menu_setup_record_quality_array">
+        <item>နိမ့္</item>
+        <item>အလယ္အလတ္</item>
+        <item>ျမင့္</item>
+    </string-array>
+    <string-array name="menu_parental_age_ratings_array">
+        <item>ဘာမွမရွိ</item>
+        <item>Below 10</item>
+        <item>Below 12</item>
+        <item>Below 14</item>
+        <item>Below 16</item>
+        <item>Below 18</item>
+    </string-array>
+    <string-array name="menu_parental_age_ratings_array_eu">
+        <item>ဘာမွမရွိ</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+    </string-array>
+    <string-array name="menu_parental_age_ratings_array_eu_ocean_aus">
+        <item>တားျမစ္မႈမရွိ</item>
+        <item>R ႏွင့္အထက္ကို တားျမစ္ပါ</item>
+        <item>AV ႏွင့္အထက္ကို တားျမစ္ပါ</item>
+        <item>MA ႏွင့္အထက္ကို တားျမစ္ပါ</item>
+        <item>M ႏွင့္အထက္ကို တားျမစ္ပါ</item>
+        <item>PG ႏွင့္အထက္ကို တားျမစ္ပါ</item>
+        <item>G ႏွင့္အထက္ကို တားျမစ္ပါ</item>
+        <item>အားလံုးကို တားျမစ္ပါ</item>
+    </string-array>
+    <string-array name="menu_parental_content_ratings_array">
+        <item>ပိတ္</item>
+        <item>Drugs</item>
+        <item>Violence</item>
+        <item>Sex</item>
+        <item>Violence &amp; Drugs</item>
+        <item>Sex &amp; Drugs</item>
+        <item>Violence &amp;  Sex</item>
+        <item>Violence &amp; Sex &amp; Drugs</item>
+        
+    </string-array>
+    
+    <string-array name="menu_factory_high_deviation_mode_array">
+        <item>ပိတ္</item>
+        <item>ဖြင့္</item>
+    </string-array>
+    <string-array name="menu_factory_carrier_shift_function_array">
+        <item>ပိတ္</item>
+         <item>ဖြင့္</item>
+    </string-array>
+    <string-array name="menu_factory_fm_saturation_mute_array">
+        <item>ပိတ္</item>
+        <item>ဖြင့္</item>
+    </string-array>
+    
+    <string-array name="menu_parental_open_vchip_array">
+        <item>ပိတ္</item>
+        <item>ဖြင့္</item>
+    </string-array>
+    <string-array name="menu_parental_block_unrated_array">
+        <item>ပိတ္</item>
+        <item>ဖြင့္</item>
+    </string-array>
+    <string-array name="menu_parental_rating_enable_array">
+        <item>ပိတ္</item>
+        <item>ဖြင့္</item>
+    </string-array>
+    <string-array name="menu_parental_block_channel_schedule_operation_array">
+        <item>ဘာမွမရွိ</item>
+        <item>ေန႔စဥ္</item>
+        <item>တစ္ႀကိမ္</item>
+    </string-array>
+    <string-array name="menu_setup_digital_teletext_language_array">
+	    <item>ဘက္စ္ခ္ဘာသာ</item>  
+	    <item>ဘူေဂးရီးယားဘာသာ</item>  
+	    <item>ကန္တံုတ႐ုတ္</item>
+	    <item>ကက္တလန္ဘာသာ</item> 
+	    <item>ခ႐ိုေအးရွားဘာသာ</item> 
+	    <item>ခ်က္</item> 
+	    <item>ဒိန္းမတ္ဘာသာ</item>
+	    <item>ဒတ္ခ်္</item>  
+	    <item>အဂၤလိပ္</item>
+	    <item>အက္စတိုးနီးယားဘာသာ</item> 
+	    <item>ဖင္လန္ဘာသာ</item>
+	    <item>ျပင္သစ္</item>
+	    <item>ကဲလ္တစ္ဘာသာ</item>
+	    <item>အိုင္ယာလန္ဘာသာ</item>
+	    <item>အိႏၵိယဥေရာပဘာသာ</item> 
+	    <item>ဂ်ာမန္ဘာသာ</item> 
+	    <item>ဂရိဘာသာ</item>
+	    <item>ဟင္ဒီ</item>
+	    <item>ဟန္ေဂရီဘာသာ</item>
+	    <item>အီတလီဘာသာ</item>
+	    <item>အုိက္စ္လန္ဒစ္ဘာသာ</item>
+	    <item>ဂ်ပန္ဘာသာ</item>
+	    <item>ကိုးရီးယားဘာသာ</item>
+	    <item>မန္ဒရင္ဘာသာ</item>
+	    <item>နယူးဇီလန္ဘာသာ</item>
+	    <item>ေနာ္ေဝးဘာသာ</item>
+	    <item>ပိုလန္ဘာသာ</item>
+	    <item>ေပၚတူဂီ</item>
+	    <item>႐ိုေမးနီးယားဘာသာ</item>
+	    <item>႐ုရွ</item>
+	    <item>ဆမီ</item>
+	    <item>ဆားဗီးယားဘာသာ</item>
+	    <item>ဆလိုဗက္</item>
+	    <item>ဆလိုဗက္ကီးယားဘာသာ</item>
+	    <item>စပိန္</item>
+	    <item>ဆြီဒင္ဘာသာ</item>
+	    <item>တူရကီဘာသာ</item>
+	    <item>ေဝလနယ္သံုးဘာသာစကား</item>
+	    <item>မူရင္း အသံ</item>
+	    <item>ေျပာျပမႈ</item>
+	    <item>မသတ္မွတ္ရေသးပါ</item>
+    </string-array>
+    <string-array name="menu_setup_decoding_page_language_array">
+		<item>WEST EUR</item>
+		<item>EAST EUR</item>
+		<item>႐ုရွ</item>
+		<item>႐ုရွ-2</item>
+		<item>ဂရိဘာသာ</item>
+		<item>တူရကီ</item>
+		<item>Arab/Hbrw</item>
+		<item>ဖာရွန္ဘာသာ</item>
+		<item>အာရပ္</item>
+		<item>ဘိုင္းေလာ္႐ူရွန္ဘာသာ</item>
+    </string-array>
+    <string-array name="menu_setup_ttx_presentation_level_array">
+        <item>Level 1.5</item>
+        <item>Level 2.5</item>
+    </string-array>
+    <string-array name="menu_setup_us_timezone_array">
+        <item>အေရွ႕ပိုင္း အခ်ိန္</item>
+        <item>ဟာဝိုင္အီ</item>
+        <item>အလက္စကား</item>
+        <item>ပစိဖိတ္ အခ်ိန္</item>
+        <item>အရီဇိုးနား</item>
+        <item>ေမာင္းတိန္း အခ်ိန္</item>
+        <item>အလယ္ပိုင္း အခ်ိန္</item>
+        <item>အင္ဒီယာနာ</item>
+    </string-array>
+    <string-array name="menu_setup_us_timezone_str">
+        <item>America/New_York</item>
+        <item>Pacific/Honolulu</item>
+        <item>America/Anchorage</item>
+        <item>America/Los_Angeles</item>
+        <item>America/Phoenix</item>
+        <item>America/Denver</item>
+        <item>America/Chicago</item>
+        <item>America/New_York</item>
+    </string-array>
+
+    <integer-array name="menu_setup_us_timezone_values">
+        <item>-5</item>
+        <item>-10</item>
+        <item>-9</item>
+        <item>-8</item>
+        <item>-7</item>
+        <item>-7</item>
+        <item>-6</item>
+        <item>-5</item>
+    </integer-array>
+
+    <string-array name="menu_setup_timezone_array">
+        <item>GMT-12:00</item>
+        <item>GMT-11:00</item>
+        <item>GMT-10:00</item>
+        <item>GMT-9:00</item>
+        <item>GMT-8:00</item>
+        <item>GMT-7:00</item>
+        <item>GMT-6:00</item>
+        <item>GMT-5:00</item>
+        <item>GMT-4:00</item>
+        <item>GMT-3:30</item>
+        <item>GMT-3:00</item>
+        <item>GMT-2:00</item>
+        <item>GMT-1:00</item>
+        <item>ထုတ္လႊင့္မႈအေနျဖင့္</item>
+        <item>GMT+0:00</item>
+        <item>GMT+1:00</item>
+        <item>GMT+2:00</item>
+        <item>GMT+3:00</item>
+        <item>GMT+3:30</item>
+        <item>GMT+4:00</item>
+        <item>GMT+4:30</item>
+        <item>GMT+5:00</item>
+        <item>GMT+5:30</item>
+        <item>GMT+5:45</item>
+        <item>GMT+6:00</item>
+        <item>GMT+6:30</item>
+        <item>GMT+7:00</item>
+        <item>GMT+8:00</item>
+        <item>GMT+9:00</item>
+        <item>GMT+9:30</item>
+        <item>GMT+10:00</item>
+        <item>GMT+11:00</item>
+        <item>GMT+12:00</item>
+        <item>GMT+12:45</item>
+        <item>GMT+13:00</item>
+    </string-array>
+    
+      <integer-array name="menu_setup_timezone_value_array">
+        <item>-12</item>
+        <item>-11</item>
+        <item>-10</item>
+        <item>-9</item>
+        <item>-8</item>
+        <item>-7</item>
+        <item>-6</item>
+        <item>-5</item>
+        <item>-4</item>
+        <item>-350</item>
+        <item>-3</item>
+        <item>-2</item>
+        <item>-1</item>
+        <item>0</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>350</item>
+        <item>4</item>
+        <item>450</item>
+        <item>5</item>
+        <item>550</item>
+        <item>575</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>950</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>-1125</item>
+        <item>-11</item>
+    </integer-array>
+    
+    <string-array name="menu_setup_timezone_name_array">
+        <item>Asia/Magadan</item>
+        <item>Pacific/Midway</item>
+        <item>Pacific/Honolulu</item>
+        <item>America/Anchorage</item>
+        <item>America/Anchorage</item>
+        <item>America/Los_Angeles</item>
+        <item>America/Chihuahua</item>
+        <item>America/Chicago</item>
+        <item>America/Manaus</item>
+        <item>America/St_Johns</item>
+        <item>America/St_Johns</item>
+        <item>America/Godthab</item>
+        <item>Atlantic/Cape_Verde</item>
+        <item>ထုတ္လႊင့္မႈအေနျဖင့္</item>
+        <item>Africa/Casablanca</item>
+        <item>Europe/London</item>
+        <item>Africa/Harare</item>
+        <item>Asia/Amman</item>
+        <item>Asia/Amman</item>
+        <item>Europe/Moscow</item>
+        <item>Asia/Tehran</item>
+        <item>Asia/Yerevan</item>
+        <item>Asia/Colombo</item>
+        <item>Asia/Katmandu</item>
+        <item>Asia/Almaty</item>
+        <item>Asia/Bangkok</item>
+        <item>Asia/Hong_Kong</item>
+        <item>Asia/Tokyo</item>
+        <item>Australia/Adelaide</item>
+        <item>Asia/Yakutsk</item>
+        <item>Asia/Vladivostok</item>
+        <item>Asia/Vladivostok</item>
+        <item>Pacific/Fiji</item>
+        <item>Pacific/Tongatapu</item>
+    </string-array>
+    <string-array name="menu_setup_auto_synchronization_array">
+        <item>ပိတ္</item>
+        <item>အဆက္မျပတ္ထုတ္လႊင့္မႈႏွင့္ ခ်ိန္ကိုက္ညႇိ</item>
+        <item>ကြန္ရက္ႏွင့္ ခ်ိန္ကိုက္ညႇိ</item>
+    </string-array>
+    <string-array name="menu_setup_power_on_timer_array">
+        <item>ပိတ္</item>
+        <item>ဖြင့္</item>
+        <item>တစ္ႀကိမ္</item>
+    </string-array>
+    <string-array name="menu_setup_sleep_timer_array">
+        <item>ပိတ္</item>
+        <item>10 မိနစ္</item>
+        <item>20 မိနစ္</item>
+        <item>30 မိနစ္</item>
+        <item>40 မိနစ္</item>
+        <item>50 မိနစ္</item>
+        <item>60 မိနစ္</item>
+        <item>90 မိနစ္</item>
+        <item>120 မိနစ္</item>
+    </string-array>
+    <string-array name="menu_setup_power_on_channel_mode_array">
+        <item>ေနာက္ဆံုးအေျခအေန</item>
+        <item>သံုးစြဲသူ ေ႐ြးခ်ယ္မႈ</item>
+    </string-array>
+    <string-array name="menu_setup_power_off_timer_array">
+        <item>ပိတ္</item>
+        <item>ဖြင့္</item>
+        <item>တစ္ႀကိမ္</item>
+    </string-array>
+    <string-array name="menu_setup_auto_sleep_array">
+        <item>ပိတ္</item>
+        <item>1 နာရီ</item>
+        <item>2 နာရီ</item>
+        <item>5 နာရီ</item>
+    </string-array>
+    <string-array name="menu_setup_auto_sleep_eu_array">
+        <item>ပိတ္</item>
+        <item>4 နာရီ</item>
+        <item>6 နာရီ</item>
+        <item>8 နာရီ</item>
+    </string-array>
+    <string-array name="menu_setup_network_connection_array">
+        <item>ပိတ္</item>
+        <item>ဖြင့္</item>
+    </string-array>
+    <string-array name="menu_setup_address_type_array">
+        <item>အလိုအေလ်ာက္</item>
+        <item>လူကိုယ္တိုင္</item>
+    </string-array>
+    <string-array name="menu_setup_dlna_array">
+        <item>ပိတ္</item>
+        <item>ဖြင့္</item>
+    </string-array>
+    <string-array name="menu_setup_my_network_place_array">
+        <item>ပိတ္</item>
+        <item>ဖြင့္</item>
+    </string-array>
+    <string-array name="menu_setup_null_array">
+        <item></item>
+    </string-array>
+    <string-array name="menu_factory_autovedio_array">
+        <item>ပိတ္</item>
+        <item>ဖြင့္</item>
+    </string-array>
+
+    <string-array name="menu_factory_auto_dima_array">
+        <item>အေႏွးပံု</item>
+        <item>လႈပ္႐ွားမႈ ပံု</item>
+    </string-array>
+
+    <string-array name="menu_factory_video_diedge_array">
+        <item>အားနည္း</item>
+        <item>အားေကာင္း</item>
+    </string-array>
+
+    <string-array name="menu_factory_video_xvycc_array">
+        <item>ပိတ္</item>
+        <item>ဖြင့္</item>
+    </string-array>
+    
+    <string-array name="menu_factory_video_wcg_array">
+        <item>ပိတ္</item>
+        <item>ဖြင့္</item>
+    </string-array>
+
+    <string-array name="menu_factory_video_flip_array">
+        <item>ပိတ္</item>
+        <item>ဖြင့္</item>
+    </string-array>
+
+    <string-array name="menu_factory_video_mirror_array">
+        <item>ပိတ္</item>
+        <item>ဖြင့္</item>
+    </string-array>
+    <string-array name="menu_factory_video_local_array">
+        <item>ပိတ္</item>
+        <item>ဖြင့္</item>
+    </string-array>
+    <string-array name="menu_factory_video_colortemperature_array">
+        <item>သံုးစြဲသူ</item>
+        <item>အေအး</item>
+        <item>စံ</item>
+        <item>အေႏြး</item>
+    </string-array>
+
+    <string-array name="menu_factory_audio_dolbybanner_array">
+        <item>ပိတ္</item>
+        <item>ဖြင့္</item>
+    </string-array>
+
+    <string-array name="menu_factory_audio_compression_array">
+        <item>လိုင္း</item>
+        <item>RF</item>
+    </string-array>
+
+    <string-array name="menu_factory_audio_compressionfactor_array">
+        <item>ပိတ္</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>40</item>
+        <item>50</item>
+        <item>60</item>
+        <item>70</item>
+        <item>80</item>
+        <item>90</item>
+        <item>100</item>
+    </string-array>
+    <string-array name="menu_factory_setup_eventform">
+        <item>ပံု ႏွစ္မ်ိဳးစလံုး</item>
+        <item>ပံုစံ အ႐ွည္</item>
+        <item>ပံုစံ အတို</item>
+    </string-array>
+    <string-array name="menu_factory_setup_burning_mode">
+        <item>ပိတ္</item>
+        <item>ဖြင့္</item>
+    </string-array>
+    <string-array name="menu_factory_setup_uart_mode">
+        <item>ပိတ္</item>
+        <item>ဖြင့္</item>
+    </string-array>
+     <string-array name="menu_factory_setup_eu_uart_mode">
+          <item>ပိတ္</item>
+         <item>ဖြင့္</item>
+    </string-array>
+    <string-array name="menu_factory_audio_system_test_array">
+        <item>ပိတ္</item>
+        <item>ဖြင့္</item>
+    </string-array>
+    <string-array name="menu_ci_not_support_channel">
+        <item>没有授权</item>
+    </string-array>
+    <string-array name="pvr_tshift_srctype">
+        <item>တီဗီ</item>
+        <item>ေပါင္းစပ္ထားေသာ</item>
+    </string-array>
+    <string-array name="pvr_tshift_channel_temp_list">
+        <item>CH41</item>
+        <item>CH42</item>
+        <item>CH43</item>
+        <item>CH44</item>
+    </string-array>
+    <string-array name="pvr_tshift_schedule_type">
+        <item>မွတ္တမ္းတင္ပါ</item>
+        <item>သတိေပးခ်က္</item>
+    </string-array>
+    <string-array name="pvr_tshift_repeat_type">
+        <item>တစ္ႀကိမ္</item>
+        <item>ရက္သတၱပတ္</item>
+        <item>ေန႔စဥ္</item>
+    </string-array>
+    <string-array name="menu_tv_tshift_config_array">
+        <item>ပိတ္</item>
+        <item>ဖြင့္</item>
+    </string-array>
+    <string-array name="menu_cec_on_off">
+        <item>ပိတ္</item>
+        <item>ဖြင့္</item>
+    </string-array>
+
+    <string-array name="menu_scan_mode">
+        <item>အဆင့္ျမင့္</item>
+        <item>အျမန္</item>
+        <item>အျပည့္</item>
+    </string-array>
+    <string-array name="menu_tv_tuner_mode_array_full_eu">
+        <item>Antenna</item>
+        <item>Cable</item>
+        <item>@string/dvbs_preferred_satellite</item>
+        <item>@string/dvbs_general_satellite</item>
+    </string-array>
+    <string-array name="menu_setup_oad_auto_download_array">
+        <item>မဟုတ္ပါ</item>
+        <item>လုပ္မည္</item>
+    </string-array>
+    <string-array name="menu_tv_country_region_id_eu">
+        <item>ႏိုင္ငံ နယ္ပယ္ ID 1</item>
+        <item>ႏိုင္ငံ နယ္ပယ္ ID 2</item>
+    </string-array>
+    <string-array name="menu_tv_oceania_country_region">
+        <item>NSW/ACT</item>
+        <item>VIC</item>
+        <item>QLD</item>
+        <item>SA</item>
+        <item>WA</item>
+        <item>TAS</item>
+        <item>NT</item>
+    </string-array>
+    <string-array name="menu_tv_channel_listtype">
+        <item>ထုတ္လႊင့္မႈ </item>
+        <item>CAM</item>
+    </string-array>
+     <string-array name="menu_tv_channel_bl_type">
+        <item>ဘာမွမရွိ</item>
+        <item>ေန႔တိုင္း</item>
+        <item>တနဂၤေႏြ</item>
+        <item>တနလၤာေန႔</item>
+        <item>အဂၤါေန႔</item>
+        <item>ဗုဒၶဟူး</item>
+        <item>ၾကသပေတးေန႔</item>
+        <item>ေသာၾကာေန႔</item>
+        <item>စေနေန႔</item>
+    </string-array>
+    <string-array name="menu_tv_tuner_mode_array_full_eu_sat_only">
+        <item>Antenna</item>
+        <item>Cable</item>
+        <item>Satellite</item>
+    </string-array>
+
+</resources>

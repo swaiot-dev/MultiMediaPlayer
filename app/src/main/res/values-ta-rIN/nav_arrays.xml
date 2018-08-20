@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+    <string-array name="nav_epg_filter_type_AUS">
+        <item>திரைப்படம்</item>
+        <item>செய்திகள்</item>
+        <item>பொழுதுபோக்கு</item>
+        <item>விளையாட்டு</item>
+        <item>குழந்தைகள் நிகழ்ச்சி</item>
+        <item>இசை</item>
+        <item>கலைகள்</item>
+        <item>நடப்பு நிகழ்வுகள்</item>
+        <item>கல்வி</item>
+        <item>இன்போடெயின்மண்ட்</item>
+        <item>சிறப்பு</item>
+        <item>நகைச்சுவை</item>
+        <item>நாடகம்</item>
+        <item>ஆவணப்படம்</item>
+    </string-array>
+    <string-array name="nav_epg_filter_type_UK">
+        <item>திரைப்படம்</item>
+        <item>செய்திகள் மற்றும் உண்மைகள்</item>
+        <item>பொழுதுபோக்கு</item>
+        <item>விளையாட்டு</item>
+        <item>குழந்தைகள் நிகழ்ச்சி</item>
+        <item>கல்வி</item>
+        <item>வாழ்க்கைமுறை</item>
+        <item>நாடகம்</item>
+    </string-array>
+    <string-array name="dvbs_tp_pol_arrays">
+        <item>@string/dvbs_tp_pol_1_HORIZONTAL</item>
+        <item>@string/dvbs_tp_pol_2_VERTICAL</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_RA_TE_SA_PR">
+        <item>குலுக்கல் போட்டிகள்</item>
+        <item>தொலைக்காட்சி விற்பனைகள்</item>
+        <item>பரிசுப்போட்டிகள்</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_information">
+        <item>சமையல்</item>
+        <item>பேஷன்</item>
+        <item>தேசம்</item>
+        <item>உடல்நலம்</item>
+        <item>பயணம்</item>
+    </string-array>
+    <string-array name="dvbs_channel_arrays">
+        <item>@string/dvbs_channel_free</item>
+        <item>@string/dvbs_channel_all</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_special">
+        <item>மூல மொழி</item>
+        <item>கருப்பு வெள்ளை</item>
+        <item>பதிப்பிக்கப்படாதது</item>
+        <item>நேரடி ஒளிபரப்பு</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_children">
+        <item>குழந்தைகள்</item>
+    </string-array>
+    <string-array name="dvbs_tone_22khz_arrays">
+        <item>@string/dvbs_tone_22khz_off</item>
+        <item>@string/dvbs_tone_22khz_on</item>
+        <item>@string/dvbs_tone_22khz_auto</item>
+    </string-array>
+    <string-array name="pvr_tshift_initdisk_step_formatconfirm">
+        <item>வடிவம்</item>
+        <item>ரத்து செயவும்</item>
+    </string-array>
+    <string-array name="nav_twinkle_strings">
+        <item></item>
+        <item>சிக்னல் இல்லை!</item>
+        <item>தயவுசெய்து சேனல்களைத் தேடவும்:</item>
+        <item>தரவை மீட்டெடுக்கிறது...</item>
+        <item>சேனல் பூட்டப்பட்டது!</item>
+        <item>நிகழ்ச்சி பூட்டப்பட்டது!</item>
+        <item>உளளீடு பூட்டப்பட்டது!</item>
+        <item>(நிகழ்ச்சி தலைப்பு இல்லை.)</item>
+        <item>மறைக்கப்பட்ட சேனல்!</item>
+        <item>ஆடியோ நிகழ்ச்சி</item>
+        <item>செல்லாத சேவை</item>
+        <item>(நிகழ்ச்சி விவரங்கள் இல்லை.)</item>
+        <item>(சேனல் விவரங்கள் இல்லை.)</item>
+        <item>♪ ஒலி ஓட்டம் இல்லை ♪</item>
+        <item>காணொளி ஓட்டம் இல்லை</item>
+        <item>தயவுசெய்து காத்திருக்கவும்...</item>
+        <item>காணொளி ஆதரவில்லை</item>
+        <item>HD சேவை</item>
+        <item>ஒளிபரப்பாதவை</item>
+        <item>சேனல் இல்லை</item>
+        <item>இந்த உள்ளடம் உங்கள் சேவை வழங்குநரால் தடுக்கப்பட்டது</item>
+        <item>ஸ்க்ராம்பிள் செய்யப்பட்டது</item>
+    </string-array>
+    <string-array name="dvbs_diseqc_motor_arrays">
+        <item>@string/dvbs_diseqc_input_0</item>
+        <item>@string/dvbs_diseqc_motor_12</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_social">
+        <item>சமூகம்</item>
+        <item>இதழ்கள்</item>
+        <item>பொருளியல்</item>
+        <item>குறிப்பிடத்தக்க மக்கள்</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_comical">
+        <item>வேடிக்கை</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_music">
+        <item>இசை</item>
+        <item>ராக்</item>
+        <item>உணர்ச்சிகராமான</item>
+        <item>நாட்டுப்புறம்</item>
+        <item>ஜாஸ்</item>
+        <item>மியூசிகல்</item>
+        <item>பாலே</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_movie">
+        <item>நாடகம்</item>
+        <item>துப்பறியும்</item>
+        <item>சாகசம்</item>
+        <item>அறிவியல் புனைவு</item>
+        <item>நகைச்சுவை</item>
+        <item>Soap</item>
+        <item>காதல்</item>
+        <item>உணர்ச்சிகராமான</item>
+        <item>வயதுவந்தோர் படம்</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_soap_opera">
+        <item>சோப் ஓபெரா</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_movie">
+        <item>திரைப்படம்</item>
+    </string-array>
+    <string-array name="dvbs_sat_on_off">
+        <item>@string/dvbs_sat_on</item>
+        <item>@string/dvbs_sat_off</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_other">
+        <item>வயதுவந்தோர் கார்டூன்</item>
+        <item>ஊடாடல்</item>
+        <item>கொள்கை</item>
+        <item>மதம்</item>
+    </string-array>
+    <string-array name="nav_epg_filter_sa_type">
+        <item>செய்திகள்</item>
+        <item>விளையாட்டு</item>
+        <item>கல்வி</item>
+        <item>சோப் ஓபெரா</item>
+        <item>குறுந்தொடர்கள்</item>
+        <item>தொடர்கள்</item>
+        <item>பலதரப்பட்டவை</item>
+        <item>பொழுதுபோக்கு நிகழ்ச்சி</item>
+        <item>INFOMATION</item>
+        <item>வேடிக்கை</item>
+        <item>குழந்தைகள்</item>
+        <item>சிற்றின்பம்</item>
+        <item>திரைப்படம்</item>
+        <item>RA_TE_SA_PR</item>
+        <item>விவாத நேர்காணல்</item>
+        <item>பிற</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_education">
+        <item>கல்விசார்ந்தவை</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_show">
+        <item>காண்பிக்கவும்</item>
+        <item>விளையாட்டு நிகழ்ச்சி</item>
+        <item>பல்சுவை நிகழ்ச்சி</item>
+        <item>விவாத நிகழ்ச்சி</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_variety">
+        <item>கலையரங்கம்</item>
+        <item>காண்பிக்கவும்</item>
+        <item>மியூசிகல்</item>
+        <item>உருவாக்கம்</item>
+        <item>பெண்ணியம்</item>
+        <item>விளையாட்டு நிகழ்ச்சி</item>
+    </string-array>
+    <string-array name="dvbs_antenna_type_arrays">
+        <item>@string/dvbs_antenna_type_universal</item>
+        <item>@string/dvbs_antenna_type_singlecable</item>
+    </string-array>
+    <string-array name="pvr_tshift_initdisk_step1">
+        <item>தானியங்கி</item>
+        <item>கைமுறை</item>
+    </string-array>
+    <string-array name="nav_oad_btns_accept_reject">
+        <item>ஏற்கவும்</item>
+        <item>நிராகரிக்கவும்</item>
+    </string-array>
+    <string-array name="dvbs_user_band_arrays">
+        <item>@string/dvbs_user_band_1</item>
+        <item>@string/dvbs_user_band_2</item>
+        <item>@string/dvbs_user_band_3</item>
+        <item>@string/dvbs_user_band_4</item>
+        <item>@string/dvbs_user_band_5</item>
+        <item>@string/dvbs_user_band_6</item>
+        <item>@string/dvbs_user_band_7</item>
+        <item>@string/dvbs_user_band_8</item>
+    </string-array>
+    <string-array name="dvbs_sat_lnbfreq">
+        <item>@string/lnb_universal</item>
+        <item>9750,10700</item>
+        <item>9750,10750</item>
+        <item>5150</item>
+        <item>5750</item>
+        <item>9750</item>
+        <item>10600</item>
+        <item>10750</item>
+        <item>11250</item>
+        <item>11300</item>
+        <item>11475</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_DEBATE_INTERVIEW">
+        <item>கலந்துரையாடல்</item>
+        <item>நேர்காணல்</item>
+    </string-array>
+    <string-array name="nav_zoom_mode">
+        <item>Zoom x 1/2</item>
+        <item>Zoom x 1</item>
+        <item>Zoom x 2</item>
+    </string-array>
+    <string-array name="week_day">
+        <item>ஞாயிற்றுக்கிழமை</item>
+        <item>திங்கள்கிழமை</item>
+        <item>செவ்வாய்க்கிழமை</item>
+        <item>புதன்கிழமை</item>
+        <item>வியாழக்கிழமை</item>
+        <item>வெள்ளிக்கிழமை</item>
+        <item>சனிக்கிழமை</item>
+    </string-array>
+    <string-array name="nav_oad_btns_accept_remind_me_later">
+        <item>ஏற்கவும்</item>
+        <item>பின்னர் நினைவுபடுத்தவும்</item>
+    </string-array>
+    <string-array name="nav_mts_strings">
+        <item>தெரியாதது</item>
+        <item>ஒற்றை</item>
+        <item>ஸ்டீரியோ</item>
+        <item>SUB_LANG</item>
+        <item>டூயல்1</item>
+        <item>டூயல்2</item>
+        <item>NICAM_MONO</item>
+        <item>NICAM_STEREO</item>
+        <item>NICAM_DUAL1</item>
+        <item>NICAM_DUAL2</item>
+        <item>FM_MONO</item>
+        <item>FM_STEREO</item>
+    </string-array>
+    <string-array name="dvbs_position_arrays">
+        <item>@string/dvbs_tp_pol_0_unknown</item>
+        <item>@string/dvbs_position_a</item>
+        <item>@string/dvbs_position_b</item>
+        <item>@string/dvbs_position_c</item>
+        <item>@string/dvbs_position_d</item>
+    </string-array>
+    <string-array name="dvbs_scan_mode2_arrays">
+        <item>@string/dvbs_scan_mode_auto</item>
+        <item>@string/dvbs_scan_mode_preset</item>
+    </string-array>
+    <string-array name="dvbs_diseqc_motor_store_position_arrays">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_series">
+        <item>தொடர்கள்</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_leisure">
+        <item>ஓய்வுநேரப் பொழுதுபோக்குகள்</item>
+        <item>சுற்றுலா</item>
+        <item>கைவினை</item>
+        <item>மோட்டார் வாகனம் சார்ந்தவை</item>
+        <item>உடற்பயிற்சி மற்றும் உடல்நலம்</item>
+        <item>சமையல்</item>
+        <item>விளம்பரம்</item>
+        <item>தோட்டவியல்</item>
+    </string-array>
+    <string-array name="nav_channel_type">
+        <item>அனைத்தும்</item>
+        <item>டிஜிட்டல்</item>
+        <item>வானொலி</item>
+        <item>அனலாக்</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_reality_show">
+        <item>எதார்த்த நிகழ்ச்சி</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_arts">
+        <item>கலைகள்</item>
+        <item>கலை நிகழ்ச்சிகள்</item>
+        <item>நுண் கலைகள்</item>
+        <item>மதம்</item>
+        <item>பிரல்யமான கலாச்சாரம்</item>
+        <item>இலக்கியம்</item>
+        <item>படம்</item>
+        <item>பரிசோதனைமுயற்சி</item>
+        <item>ஒளிபரப்புகள்</item>
+        <item>புதிய ஊடகம்</item>
+        <item>கலை இதழ்கள்</item>
+        <item>பேஷன்</item>
+    </string-array>
+    <string-array name="nav_audio_tvcm_strings">
+        <item>baq</item>
+        <item>eus</item>
+        <item>bul</item>
+        <item>cat</item>
+        <item>scr</item>
+        <item>cze</item>
+        <item>dan</item>
+        <item>dut</item>
+        <item>eng</item>
+        <item>fin</item>
+        <item>fre</item>
+        <item>gla</item>
+        <item>gdh</item>
+        <item>gle</item>
+        <item>glg</item>
+        <item>ger</item>
+        <item>gre</item>
+        <item>hun</item>
+        <item>ita</item>
+        <item>nor</item>
+        <item>pol</item>
+        <item>por</item>
+        <item>rum</item>
+        <item>rus</item>
+        <item>scc</item>
+        <item>slo</item>
+        <item>slv</item>
+        <item>spa</item>
+        <item>swe</item>
+        <item>tur</item>
+        <item>wel</item>
+        <item>ice</item>
+        <item>isl</item>
+        <item>smi</item>
+        <item>tha</item>
+        <item>vie</item>
+        <item>ara</item>
+        <item>zho</item>
+        <item>Chi</item>
+        <item>per</item>
+        <item>kor</item>
+        <item>est</item>
+        <item>mao</item>
+        <item>cmn</item>
+        <item>yue</item>
+        <item>jpn</item>
+        <item>hin</item>
+        <item>nar</item>
+        <item>QAA</item>
+        <item>und</item>
+    </string-array>
+    <string-array name="nav_freeze_strings">
+        <item>உறைதல்: இயக்கத்தில்</item>
+        <item>உறைதல்: முடக்கத்தில்</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_education">
+        <item>கல்வி</item>
+        <item>இயற்கை</item>
+        <item>தொழில்நுட்பம்</item>
+        <item>மருத்துவம்</item>
+        <item>வெளிநாடுகள்</item>
+        <item>சமூக அறிவியல்</item>
+        <item>தொடர் கல்வி</item>
+        <item>மொழிகள்</item>
+    </string-array>
+    <string-array name="nav_receiver_type">
+        <item>கேபிள்</item>
+        <item>உணர்கொம்பு</item>
+    </string-array>
+    <string-array name="dvbs_diseqc_movement_control_arrays">
+        <item>இடைநில்லா</item>
+        <item>படி</item>
+        <item>நேரம் முடிந்தது</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_erotic">
+        <item>சிற்றின்பம்</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_children">
+        <item>குழந்தைகள் நிகழ்ச்சி</item>
+        <item>சிறு குழந்தை நிகழ்ச்சிகள்</item>
+        <item>6 முதல் 14கான பொழுதுபோக்கு</item>
+        <item>10 முதல் 16கான பொழுதுபோக்கு</item>
+        <item>தகவல்கள்</item>
+        <item>கார்டூன்கள்</item>
+    </string-array>
+    <string-array name="nav_bottom_volume">
+        <item>முதன்மை ஒலி</item>
+        <item>முன் இடது ஒலி</item>
+        <item>முன் வலது ஒலி</item>
+        <item>பின் இடது ஒலி</item>
+        <item>பின் வலது ஒலி</item>
+        <item>மைய ஒலி</item>
+        <item>துணை பெருக்கி ஒலி</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_mini_series">
+        <item>குறுந்தொடர்கள்</item>
+    </string-array>
+    <string-array name="nav_s_effect_strings">
+        <item>பயனாளர்</item>
+        <item>தரமானது</item>
+        <item>நேரடி1</item>
+    </string-array>
+    <string-array name="nav_oad_btns_cancel">
+        <item>ரத்து செயவும்</item>
+    </string-array>
+    <string-array name="dvbs_user_band_freq_arrays">
+        <item>"1210"</item>
+        <item>"1400"</item>
+        <item>"1516"</item>
+        <item>"1632"</item>
+        <item>"1748"</item>
+        <item>"1864"</item>
+        <item>"1980"</item>
+        <item>"2096"</item>
+    </string-array>
+    <string-array name="dvbs_diseqc_10port_arrays">
+        <item>@string/dvbs_diseqc_input_1</item>
+        <item>@string/dvbs_diseqc_input_2</item>
+        <item>@string/dvbs_diseqc_input_3</item>
+        <item>@string/dvbs_diseqc_input_4</item>
+        <item>@string/dvbs_tone_burst_a</item>
+        <item>@string/dvbs_tone_burst_b</item>
+        <item>@string/dvbs_diseqc_input_0</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sports">
+        <item>விளையாட்டு</item>
+        <item>சிறப்பு நிகழ்ச்சிகள்</item>
+        <item>விளையாட்டு இதழ்கள்</item>
+        <item>கால்பந்து</item>
+        <item>டென்னிஸ்</item>
+        <item>குழு விளையாட்டுகள்</item>
+        <item>தடகள விளையாட்டுகள்</item>
+        <item>மோட்டார் வாகன விளையாட்டு</item>
+        <item>நீர் விளையாட்டு</item>
+        <item>குளிர்கால விளையாட்டு</item>
+        <item>குதிரையேற்றம்</item>
+        <item>தற்காப்புக்கலை விளையாட்டுகள்</item>
+    </string-array>
+    <string-array name="nav_zoom_strings">
+        <item>zoom X 1</item>
+        <item>zoom X 2</item>
+        <item>zoom X 1/2</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_sports">
+        <item>விளையாட்டு</item>
+    </string-array>
+    <string-array name="nav_audio_strings">
+        <item>பாஸ்க்யூ மொழி</item>
+        <item>பாஸ்க்யூ மொழி</item>
+        <item>புலாரியன் மொழி</item>
+        <item>கடலன் மொழி</item>
+        <item>க்ரோஷிய மொழி</item>
+        <item>செக்</item>
+        <item>டேனிய மொழி</item>
+        <item>டச்சு மொழி</item>
+        <item>ஆங்கில மொழி</item>
+        <item>பின்னிஷ் மொழி</item>
+        <item>பிரெஞ்சு மொழி</item>
+        <item>கேலிக் மொழி</item>
+        <item>கேலிக் மொழி</item>
+        <item>ஐரிஷ் மொழி</item>
+        <item>கேலிகன் மொழி</item>
+        <item>ஜெர்மானிய மொழி</item>
+        <item>க்ரேக்க மொழி</item>
+        <item>ஹங்கேரிய மொழி</item>
+        <item>இத்தாலிய மொழி</item>
+        <item>நார்வே மொழி</item>
+        <item>போலிஷ் மொழி</item>
+        <item>போர்ச்சுக்கீசிய மொழி</item>
+        <item>ரோமானிய மொழி</item>
+        <item>ரஷ்ய மொழி</item>
+        <item>செர்பிய மொழி</item>
+        <item>ஸ்லோவாக் மொழி</item>
+        <item>ஸ்லோவேனிய மொழி</item>
+        <item>ஸ்பானிய மொழி</item>
+        <item>ஸ்வீடிஷ் மொழி</item>
+        <item>துருக்கிய மொழி</item>
+        <item>வெல்ஷ் மொழி</item>
+        <item>ஐஸ்லாந்திய மொழி</item>
+        <item>ஐஸ்லாந்திய மொழி</item>
+        <item>Sami langs</item>
+        <item>தாய் மொழி</item>
+        <item>வியட்நாம் மொழி</item>
+        <item>அரேபிய மொழி</item>
+        <item>பா. சீனமொழி</item>
+        <item>எ. சீனமொழி</item>
+        <item>பாரசீக மொழி</item>
+        <item>கொரிய மொழி</item>
+        <item>எஸ்டோனியா</item>
+        <item>மவோரி மொழி</item>
+        <item>மண்டாரின் மொழி</item>
+        <item>கன்டோனிய மொழி</item>
+        <item>ஜப்பானிய மொழி</item>
+        <item>இந்தி மொழி</item>
+        <item>விரிவுரையாக</item>
+        <item>Original Version for France</item>
+        <item>வரையறுக்கப்படாதது</item>
+    </string-array>
+    <string-array name="pvr_tshift_initdisk_step_format">
+        <item>வடிவம்</item>
+        <item>தவிர்க்கவும்</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_news">
+        <item>செய்திகள்</item>
+        <item>அறிக்கை</item>
+        <item>ஆவணப்படம்</item>
+        <item>வாழ்க்கை வரலாறு</item>
+    </string-array>
+    <string-array name="dvbs_scan_mode_arrays">
+        <item>@string/dvbs_scan_mode_network</item>
+        <item>@string/dvbs_scan_mode_full</item>
+    </string-array>
+    <string-array name="lnb_mdu1_arrays">
+        <item>@string/dvbs_preferred_satellite</item>
+        <item>@string/dvbs_general_satellite</item>
+    </string-array>
+    <string-array name="nav_sleep_strings">
+        <item>தூக்கம்:அணை</item>
+        <item>தூக்கம்:15நிமிடங்கள்</item>
+        <item>தூக்கம்:30நிமிடங்கள்</item>
+        <item>தூக்கம்:45நிமிடங்கள்</item>
+        <item>தூக்கம்:60நிமிடங்கள்</item>
+        <item>தூக்கம்:90நிமிடங்கள்</item>
+        <item>தூக்கம்:120நிமிடங்கள்</item>
+    </string-array>
+    <string-array name="nav_channel_types">
+        <item>அனைத்தும்</item>
+        <item>வானொலி</item>
+    </string-array>
+    <string-array name="dvbs_preferred_satellite_arrays">
+        <item>@string/dvbs_preferred_satellite</item>
+        <item>@string/dvbs_general_satellite</item>
+    </string-array>
+    <string-array name="dvbs_sat_lnb_power">
+        <item>@string/dvbs_sat_off</item>
+        <item>@string/dvbs_sat_TUNER_LNB_POWER_13V_18V</item>
+        <item>@string/dvbs_sat_TUNER_LNB_POWER_14V_19V</item>
+        <item>@string/dvbs_sat_on</item>
+    </string-array>
+    <string-array name="dvbs_diseqc_input_arrays">
+        <item>@string/dvbs_diseqc_input_1</item>
+        <item>@string/dvbs_diseqc_input_2</item>
+        <item>@string/dvbs_diseqc_input_3</item>
+        <item>@string/dvbs_diseqc_input_4</item>
+        <item>@string/dvbs_diseqc_input_0</item>
+    </string-array>
+    <string-array name="nav_oad_btns_yes_no">
+        <item>ஆம்</item>
+        <item>இல்லை</item>
+    </string-array>
+    <string-array name="dvbs_tone_burst_arrays">
+        <item>@string/dvbs_tone_burst_a</item>
+        <item>@string/dvbs_tone_burst_b</item>
+        <item>@string/dvbs_tone_burst_disable</item>
+    </string-array>
+    <string-array name="nav_epg_filter_type">
+        <item>திரைப்படம்</item>
+        <item>செய்திகள்</item>
+        <item>காண்பிக்கவும்</item>
+        <item>விளையாட்டு</item>
+        <item>குழந்தைகள் நிகழ்ச்சி</item>
+        <item>இசை</item>
+        <item>கலைகள்</item>
+        <item>சமூகம்</item>
+        <item>கல்வி</item>
+        <item>பொழுதுபோக்கு</item>
+        <item>சிறப்பு</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_news">
+        <item>நடப்பு நிகழ்வுகள்</item>
+        <item>வானிலை அறிக்கை</item>
+        <item>செய்தி இதழ்</item>
+        <item>ஆவணப்படம்</item>
+        <item>கலந்துரையாடல்</item>
+    </string-array>
+</resources>

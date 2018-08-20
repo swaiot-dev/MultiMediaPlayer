@@ -1,0 +1,45 @@
+<resources>
+
+<string name="disk_not_ready">ዲስኩ ዝግጁ አይደለም!</string>
+<string name="create_tshift_file_fail">ፋይል መፍጠር አልተሳካም</string>
+<string name="create_tshift_file_success">የፋይል ስኬት ፍጠር</string>
+
+
+<string name="feature_not_avaiable">ባህሪው አይገኝም!</string>
+<string name="pvr_save_record">REC መዝገብ ይይዛል.</string>
+<string name="disk_disconnect">ዲስኩ ተላቋል</string>
+<string name="attention_unplug_device">ማሳሰቢያ: መሣሪያን አይንቀሉ ወይም ያልተገለጡ ስህተቶችን ሊያስከትል ይችላል!</string>
+<string name="not_enough_space">በቂ ቦታ የለም. ዲስኩ 1 ጂ ነፃ ቦታ ሊኖረው ይገባል.</string>
+<string name="feature_not_support">ባህሪው አይደገፍም!</string>
+<string name="format_confirm_dialog_line1">ቅርጸት ሁሉንም ውሂብ ይደመስሳል</string>
+<string name="format_confirm_dialog_line2">እርግጠኛ ኖት</string>
+<string name="delete_pvr_file_dialog_confirm1">ይህን ፋይል ይሰርዘዋል!</string>
+<string name="delete_pvr_file_dialog_confirm2">እርግጠኛ ኖት</string>
+<string name="disk_wizard_welcome_summary">USB ዲስን ለማስኬድ የሚያገለግለው timeshift ነው. እባክዎን የማስተካከያ ሞዱን ይምረጡ.</string>
+<string name="disk_wizard_format_summary">የተሻለ ውጤት ለማግኘት የዩኤስቢ ዲስክን ለመቅረጽ እንመክራለን. ሁሉንም ውሂቦች ያጠፋል.</string>
+<string name="disk_wizard_formatconfirm_summary">እርግጠኛኖት USB ዲስኩን ባዶ ይደረግ?</string>
+<string name="disk_wizard_formating_summary">በማጥፋት ላይ</string>
+<string name="disk_wizard_set_tshift_size_summary">እባክዎን የ timeshift የፋይል መጠን ይምረጡ.</string>
+<string name="disk_wizard_speed_testing_summary">የፍጥነት ሙከራ</string>
+<string name="disk_wizard_create_tshift_file_summary">የtimeshift ፋይሎችን በመፍጠር ላይ</string>
+<string name="disk_wizard_speed_slow_disk_result_summary">ፍጥነት: % 3.1f MB/sec
+
+ዲስኩ ለtimeshift ዝግጁ ነው. ሆኖም ግን ዲስኩ ለተሻለ ብቃት  (ከ ፍጥነት
+>  5.0 MB/sec) በላይ እንዲሆን እንመክራለን. እባክዎን ከዚህ ገጽ ለመውጣት  
+ማንኛውንም ቁልፍ ይጫኑ</string>
+<string name="disk_wizard_speed_fast_disk_result_summary">ፍጥነት: % 3.1f MB/sec
+ዲስኩ ለtimeshift ዝግጁ ነው. እባክዎን ከዚህ ገጽ ለመውጣት ማንኛውንም ቁልፍ ይጫኑ.</string>
+<string name="disk_error">የተወሰነ ስህተት ተከስቷል !! እባክዎን ከዚህ ገጽ ለመውጣት ማንኛውንም ቁልፍ ይጫኑ.</string>
+    <string name="disk_setting_formating">ቅርጸት መሳሪያዎችን በመሥራት ላይ.</string>
+    <string name="disk_setting_speedtesting">የፍጥነት ሙከራ በማድረግ ላይ</string>
+    <string name="disk_setting_unplugdevice_warnning">መሳሪያውን አይንቀሉ</string>
+    <string name="disk_setting_format_done">ቅርፀት መሳሪያዎች ተከናውኗል</string>
+    <string name="disk_setting_format_fail">ቅርጸት ዲስክ ተከናውኗል</string>
+    <string name="disk_setting_speedtest_done">የፍጥነት ፍተሻ ተከናውኗል</string>
+    <string name="disk_setting_speedtest_maxspeed">የ MAX ፍጥነት% 3.1f MB/s</string>
+<string name="state_pvr_recording">ቀረጻ!</string>
+    <string name="state_file_pvr_playback">REC መልሶ ማጫወት</string>
+<string name="state_file_pvr_playback_subtitle_off">ጠፋ</string>
+<string name="state_file_pvr_playback_subtitle_on">በራ</string>
+
+</resources>

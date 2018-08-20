@@ -13,6 +13,7 @@ import android.view.View;
 
 import com.mediatek.wwtv.mediaplayer.R;
 import com.mediatek.wwtv.mediaplayer.mmp.util.LogicManager;
+import com.mediatek.wwtv.mediaplayer.mmp.util.TextUtils;
 import com.mediatek.wwtv.mediaplayer.mmpcm.audioimpl.LyricTimeContentInfo;
 import com.mediatek.wwtv.util.MtkLog;
 
@@ -36,6 +37,9 @@ public class LrcView extends View {
     private String noLrc;
     private int noLrcWidth = 0;
 
+    private boolean isSetCurrentLine = false;
+    private int lrcOffset = 10;
+
     public LrcView(Context context, AttributeSet attrs) {
         super(context, attrs);
         noLrc = context.getString(R.string.mmp_info_nolrc);
@@ -51,7 +55,7 @@ public class LrcView extends View {
         mRedPaint.setColor(0xff6eeeff);
     }
 
-
+String tempContent;
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
 
@@ -81,9 +85,17 @@ public class LrcView extends View {
             if (lrcWidth.length > mCurrentLine) {
                 int currLrcWidth = (int) mWhitePaint.measureText(lrcarr.get(mCurrentLine).getLyricContent());
                 if (currLrcWidth > getWidth()) {
-                    if (mAnimator == null || !mAnimator.isStarted()) {
-                        startScrollLrc(currLrcWidth - getWidth(), lrcarr.get(mCurrentLine).getDuration());
+                    if ((mAnimator == null || !mAnimator.isStarted())&& isSetCurrentLine) {
+                        isSetCurrentLine = false;
+                        /*if (!android.text.TextUtils.equals(tempContent, lrcarr.get(mCurrentLine).getLyricContent())) {
+                            stopScrollLrc();
+                        } else {
+
+                        }*/
+                        startScrollLrc(currLrcWidth - getWidth() + lrcOffset, lrcarr.get(mCurrentLine).getDuration());
                     }
+                    Log.d("y.wan", "onDraw: " + lrcarr.get(mCurrentLine).getLyricContent() +
+                            "*********: " + mCurTextXForHighLightLrc);
                     canvas.drawText(lrcarr.get(mCurrentLine).getLyricContent(),
                             mCurTextXForHighLightLrc, 40 + lrcHeight * mCurrentLine,
                             mRedPaint);
@@ -93,6 +105,7 @@ public class LrcView extends View {
                             mRedPaint);
                 }
             }
+            tempContent = lrcarr.get(mCurrentLine).getLyricContent();
         }
     }
 
@@ -106,7 +119,7 @@ public class LrcView extends View {
             mAnimator.setFloatValues(0, endX);
         }
         mAnimator.setDuration(duration);
-//        mAnimator.setStartDelay((long) (duration * 0.3)); //?®Æ3®¥?°‰DD®∫?D??°•?-
+//        mAnimator.setStartDelay((long) (duration * 0.3));
         mAnimator.start();
     }
 
@@ -118,12 +131,12 @@ public class LrcView extends View {
     }
 
     /**
-     * ??®¢®¢?®®°‰®∫¶Ã°¿?°„¶Ã???®∫¶Ãx?®¢????°¡?°¿®∫
+     *
      **/
     private float mCurTextXForHighLightLrc;
     private ValueAnimator mAnimator;
     /***
-     * ?®§®¨y®∫?D??°•?-¶Ã?®∫y?¶Ã?¶Ã¶Ã???°¿?
+     *
      */
     ValueAnimator.AnimatorUpdateListener updateListener = new ValueAnimator.AnimatorUpdateListener() {
 
@@ -199,6 +212,8 @@ public class LrcView extends View {
         if (currentline != mLrcLine || isRefreshImmediately) {
             MtkLog.i(TAG, "--------  mLrcLine  :" + mLrcLine
                     + "    currentline:" + currentline);
+            if (currentline != mLrcLine)
+                isSetCurrentLine = true;
             mLrcLine = currentline;
             int endline;
             if (currentline % Lines == 0) {

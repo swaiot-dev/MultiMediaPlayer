@@ -45,6 +45,10 @@
 	<string name="mmp_menu_artist">Artist</string>
 	<string name="mmp_menu_genre">Genre</string>
 	<string name="mmp_menu_type">Type</string>
+	<string name="mmp_Format">Format：</string>
+	<string name="mmp_Title">Title：</string>
+	<string name="mmp_Resolution">Resolution：</string>
+
 	
 	<string name="mmp_menu_phototext">Photo</string>
 	<string name="mmp_menu_music">Music</string>

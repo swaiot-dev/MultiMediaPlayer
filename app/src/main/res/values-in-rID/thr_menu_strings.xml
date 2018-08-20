@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+              
+    <string name="thr_menu_common_setting">Pengaturan Umum</string>
+    <string name="thr_menu_confim">Konfirmasi</string>
+    <string name="thr_menu_cancal">Keluar </string>
+    <string name="thr_menu">Menu</string>
+    <string name="thr_menu_select">Pilih</string>
+    
+    <string name="thr_menu_picture_mode">Mode Gambar</string>
+    <string name="thr_menu_track">Trek Audio</string> 
+    <string name="thr_menu_Equalizer">Pengatur Nada</string>
+    <string name="thr_menu_volume">Volume</string>
+</resources>

@@ -1,0 +1,1203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+<!-- Video DTV00581215-->
+<string-array name="menu_video_gamma_array">
+<item>검은색</item>
+<item>중간</item>
+<item>밝음</item>
+</string-array>
+<string-array name="menu_video_color_temperature2_array">
+<!-- <item>사용자</item> -->
+<item>차가움</item>
+<item>표준</item>
+<item>따뜻함</item>
+</string-array>
+<string-array name="menu_video_dnr_array">
+<item>끄기</item>
+<item>낮음</item>
+<item>중간</item>
+<item>강함</item>
+        <item>Auto</item>
+</string-array>
+<!-- mpeg nr -->
+<string-array name="menu_video_mpeg_nr_array">
+<item>끄기</item>
+<item>낮음</item>
+<item>중간</item>
+<item>강함</item>
+</string-array>
+<string-array name="menu_video_luma_array">
+<item>끄기</item>
+<item>낮음</item>
+<item>중간</item>
+<item>강함</item>
+</string-array>
+<string-array name="menu_video_flesh_tone_array">
+<item>끄기</item>
+<item>열기</item>
+</string-array>
+<string-array name="menu_video_flesh_tone_us_array">
+<item>끄기</item>
+<item>낮음</item>
+<item>중간</item>
+<item>높음</item>
+</string-array>
+<string-array name="menu_video_black_bar_detection_array">
+<item>끄기</item>
+<item>열기</item>
+</string-array>
+<string-array name="menu_video_super_resolution_array">
+<item>끄기</item>
+<item>열기</item>
+</string-array>
+<!-- di film mode -->
+<string-array name="menu_video_di_film_mode_array">
+<item>끄기</item>
+        <item>Auto</item>
+</string-array>
+<string-array name="menu_video_blue_stretch_array">
+<item>끄기</item>
+<item>열기</item>
+</string-array>
+<string-array name="menu_video_game_mode_array">
+<item>끄기</item>
+<item>열기</item>
+</string-array>
+<string-array name="menu_video_pq_split_mode_array">
+<item>끄기</item>
+<item>열기</item>
+</string-array>
+<!-- mjc effect -->
+<string-array name="menu_video_mjc_effect_array">
+<item>끄기</item>
+<item>낮음</item>
+<item>중간</item>
+<item>높음</item>
+</string-array>
+<!-- mjc demo partition -->
+<string-array name="menu_video_mjc_demo_partition_array">
+<item>전체</item>
+<item>오른 쪽</item>
+<item>왼쪽</item>
+</string-array>
+<!-- mjc mode -->
+<string-array name="menu_video_mjc_mode">
+<item>표준</item>
+<item>영화 전용</item>
+<item>얼룩제거 전용</item>
+</string-array>
+<!-- vga mode -->
+<string-array name="menu_video_vga_mode_array">
+<item>그래픽</item>
+<item>비디오</item>
+</string-array>
+<!-- hdmi mode -->
+<string-array name="menu_video_hdmi_mode_array">
+        <item>Auto</item>
+<item>그래픽</item>
+<item>비디오</item>
+</string-array>
+<!-- 3d mode -->
+<string-array name="menu_video_3d_mode_array">
+        <item>OFF</item>
+<item>자동 모드</item>
+<item>2D-to-3D</item>
+<item>프레임 순서</item>
+<item>나란히</item>
+<item>상단-및-하단</item>
+<item>REALD MODE</item>
+<item>SENSIO</item>
+<item>라인 인터레이스</item>
+<item>DOT ALT MODE</item>
+<item>CHK BOARD</item>
+</string-array>
+
+<!-- 3d_navigation -->
+<string-array name="menu_video_3d_nav_array">
+<item>수동</item>
+<item>반자동</item>
+        <item>Auto</item>
+</string-array>
+
+<!-- 3d_image_safety -->
+<string-array name="menu_video_3d_image_safety_array">
+<item>끄기</item>
+<item>낮음</item>
+<item>중간</item>
+<item>높음</item>
+</string-array>
+
+<!-- left and right exchange switch -->
+<string-array name="menu_video_3d_lrswitch_array">
+<item>끄기</item>
+<item>열기</item>
+</string-array>
+<!-- 3d to 2d switch -->
+<string-array name="menu_video_3d_3t2switch_array">
+<item>끄기</item>
+<item>열기</item>
+</string-array>
+
+<!-- Audio -->
+<string-array name="menu_audio_srs_mode_array">
+<item>끄기</item>
+<item>열기</item>
+</string-array>
+<string-array name="menu_audio_equalizer_array">
+<item>끄기</item>
+<item>록</item>
+<item>팝</item>
+<item>라이브</item>
+<item>댄스</item>
+<item>테크노</item>
+<item>클래식</item>
+<item>소프트</item>
+</string-array>
+<string-array name="menu_audio_equalizer_array_us">
+<item>끄기</item>
+<item>록</item>
+<item>팝</item>
+<item>라이브</item>
+<item>댄스</item>
+<item>테크노</item>
+<item>클래식</item>
+<item>소프트</item>
+<item>사용자 지정1</item>
+<item>사용자 지정2</item>
+        <item>custom3</item>
+</string-array>
+<string-array name="menu_audio_speaker_mode_array">
+<item>끄기</item>
+<item>열기</item>
+</string-array>
+<string-array name="menu_audio_spdif_mode_array">
+<item>끄기</item>
+<item>PCM RAW</item>
+<item>PCM 16</item>
+<item>PCM 24</item>
+</string-array>
+<!-- DTV00580924 -->
+<string-array name="menu_audio_spdif_mode_us_array">
+<item>끄기</item>
+<item>돌비 디지털</item>
+<item>PCM</item>
+
+</string-array>
+<string-array name="menu_audio_avc_mode_array">
+<item>끄기</item>
+<item>열기</item>
+</string-array>
+<!-- type -->
+<string-array name="menu_audio_type_array">
+<item>표준</item>
+<item>청각장애</item>
+<item>시각장애</item>
+</string-array>
+<!-- speaker -->
+<string-array name="menu_audio_visually_speaker_array">
+<item>끄기</item>
+<item>열기</item>
+</string-array>
+<!-- headphone -->
+<string-array name="menu_audio_visually_headphone_array">
+<item>끄기</item>
+<item>열기</item>
+</string-array>
+
+<string-array name="menu_audio_bbe_mode_array">
+<item>끄기</item>
+<item>BBE</item>
+<item>BBE 비바</item>
+</string-array>
+
+<string-array name="menu_audio_pippop_mode_array">
+<item>끄기</item>
+<item>PIP</item>
+<item>POP</item>
+</string-array>
+
+<string-array name="menu_audio_downmixmode_array">
+<item>스테레오</item>
+<item>자동 스테레오</item>
+<item>서라운드</item>
+</string-array>
+<string-array name="menu_audio_downmixmode_eu_array">
+<item>서라운드</item>
+<item>스테레오</item>
+<item>자동 스테레오</item>
+</string-array>
+<!-- TV -->
+<string-array name="menu_tv_tuner_mode_array">
+<item>안테나</item>
+<item>케이블</item>
+</string-array>
+<string-array name="menu_tv_audio_channel_array">
+<item>모노</item>
+<item>스테레오</item>
+<item>듀얼1</item>
+<item>듀얼2</item>
+</string-array>
+<string-array name="menu_tv_audio_channel_mts_array">
+<item>모노</item>
+<item>스테레오</item>
+<item>SAP</item>
+</string-array>
+<!-- fix DTV00581226 -->
+<string-array name="menu_tv_audio_language_array">
+<item>영어</item>
+<item>스페인어</item>
+<item>프랑스어</item>
+</string-array>
+<string-array name="menu_tv_subtitle_language_eu_array">
+<item>바스크어</item>
+<item>불가리아어</item>
+<item>광동어</item>
+<item>카탈로니아어</item>
+<item>크로아티아어</item>
+<item>체코</item>
+<item>덴마크어</item>
+<item>네덜란드어</item>
+<item>영어</item>
+<item>에스토니아어</item>
+<item>핀란드어</item>
+<item>프랑스어</item>
+<item>게일어</item>
+<item>아일랜드어</item>
+<item>갈리시아어</item>
+<item>독일어</item>
+<item>그리스어</item>
+<item>힌디어</item>
+<item>헝가리어</item>
+<item>이탈리아어</item>
+<item>아이슬란드어</item>
+<item>일본어</item>
+<item>한국어</item>
+<item>만다린어</item>
+<item>마오리어</item>
+<item>노르웨이어</item>
+<item>폴란드어</item>
+<item>포르투갈어</item>
+<item>루마니아어</item>
+<item>러시아어</item>
+<item>사미</item>
+<item>세르비아어</item>
+<item>슬로바키아어</item>
+<item>슬로베니아어</item>
+<item>스페인어</item>
+<item>스웨덴어</item>
+<item>터키어</item>
+<item>웨일스어</item>
+<item>오리지널 오디오</item>
+<item>내레이션</item>
+<item>정의되지 않음</item>
+<item>끄기</item>
+</string-array>
+<string-array name="menu_tv_audio_language_eu_array">
+<item>영어</item>
+<item>에스토니아어</item>
+<item>핀란드어</item>
+<item>프랑스어</item>
+<item>게일어</item>
+<item>아일랜드어</item>
+<item>갈리시아어</item>
+<item>독일어</item>
+<item>그리스어</item>
+<item>힌디어</item>
+<item>헝가리어</item>
+<item>이탈리아어</item>
+<item>아이슬란드어</item>
+<item>일본어</item>
+<item>한국어</item>
+<item>만다린어</item>
+<item>마오리어</item>
+<item>노르웨이어</item>
+<item>폴란드어</item>
+<item>포르투갈어</item>
+<item>루마니아어</item>
+<item>러시아어</item>
+<item>사미</item>
+<item>세르비아어</item>
+<item>슬로바키아어</item>
+<item>슬로베니아어</item>
+<item>스페인어</item>
+<item>스웨덴어</item>
+<item>터키어</item>
+<item>웨일스어</item>
+<item>오리지널 오디오</item>
+<item>내레이션</item>
+<item>정의되지 않음</item>
+<item>바스크어</item>
+<item>불가리아어</item>
+<item>광동어</item>
+<item>카탈로니아어</item>
+<item>크로아티아어</item>
+<item>체코</item>
+<item>덴마크어</item>
+<item>네덜란드어</item>
+</string-array>
+<string-array name="menu_tv_rf_signal_quality">
+<item>양호</item>
+<item>중간</item>
+<item>나쁨</item>
+</string-array>
+<string-array name="menu_tv_tv_system_array">
+        <item> Auto</item>
+        <item> B/G</item>
+        <item> A2 B/G</item>
+<item>I</item>
+        <item> D/K</item>
+        <item> A2 D/K</item>
+        <item> A2 D/K1</item>
+        <item> A2 D/K2</item>
+<item>M</item>
+</string-array>
+<string-array name="menu_tv_sound_system_array">
+        <item> B/G</item>
+        <item> A2 B/G</item>
+<item>L</item>
+		<item> L\&#039;</item>
+<item>I</item>
+        <item> D/K</item>
+        <item> A2 D/K</item>
+        <item> A2 D/K1</item>
+        <item> A2 D/K2</item>
+</string-array>
+<string-array name="menu_tv_color_system_array">
+        <item> Auto</item>
+<item>PAL</item>
+<item>SECAM</item>
+<item>NTSC</item>
+</string-array>
+<string-array name="menu_tv_color_system_array_eu_edit">
+        <item> Auto</item>
+<item>NTSC</item>
+<item>PAL</item>
+<item>SECAM</item>
+</string-array>
+<string-array name="menu_tv_scan_mode_array">
+        <item> Auto</item>
+<item>16QAM</item>
+<item>32QAM</item>
+<item>64QAM</item>
+<item>128QAM</item>
+<item>256QAM</item>
+</string-array>
+<string-array name="menu_tv_mdu_type_array">
+<item>유니버설</item>
+        <item> MDU 1</item>
+        <item> MDU 2</item>
+        <item> MDU 3</item>
+        <item> MDU 4</item>
+        <item> MDU 5</item>
+</string-array>
+<string-array name="menu_tv_scan_frequency_plan_array">
+<item>STD</item>
+<item>IRC</item>
+<item>HRC</item>
+</string-array>
+<string-array name="menu_tv_scan_modulation_array">
+<item>QAM64</item>
+<item>QAM256</item>
+</string-array>
+<string-array name="menu_tv_us_scan_mode_array">
+<item>아날로그/디지털</item>
+<item>아날로그</item>
+<item>디지털</item>
+</string-array>
+<string-array name="menu_tv_channeledit_array">
+<item>채널 정보</item>
+<item>삽입</item>
+<item>삭제</item>
+<item>교체</item>
+</string-array>
+<string-array name="menu_tv_freeze_channel_array">
+<item>끄기</item>
+<item>열기</item>
+</string-array>
+<string-array name="menu_tv_fa_dataservice_array">
+<item>끄기</item>
+<item>열기</item>
+</string-array>
+<string-array name="menu_tv_fine_tune_array">
+<item>끄기</item>
+<item>열기</item>
+</string-array>
+<string-array name="menu_tv_skip_ch_array">
+<item>끄기</item>
+<item>열기</item>
+</string-array>
+
+<!-- setup -->
+<string-array name="menu_setup_language_array">
+<item>영어</item>
+<item>간체 중국어</item>
+</string-array>
+<string-array name="menu_setup_dpms_array">
+<item>끄기</item>
+<item>열기</item>
+</string-array>
+<string-array name="menu_setup_ginga_array">
+<item>끄기</item>
+<item>열기</item>
+</string-array>
+<string-array name="menu_setup_blue_mute_array">
+<item>끄기</item>
+<item>열기</item>
+</string-array>
+<string-array name="menu_setup_fast_boot_array">
+<item>끄기</item>
+<item>열기</item>
+</string-array>
+<string-array name="menu_setup_msi_array">
+<item>끄기</item>
+<item>열기</item>
+</string-array>
+<string-array name="menu_setup_poweron_music_array">
+<item>끄기</item>
+<item>열기</item>
+</string-array>
+<string-array name="menu_setup_tv_single_signal_quality">
+        <item>poor</item>
+        <item>normal</item>
+        <item>good</item>
+</string-array>
+<string-array name="menu_setup_scart">
+        <item>Auto</item>
+<item>혼합</item>
+<item>RGB</item>
+<item>CVBS</item>
+<item>S-Video</item>
+</string-array>
+<string-array name="menu_setup_capturelogo_array">
+<item>기본 값</item>
+        <item>0</item>
+        <item>1</item>
+<item>없음</item>
+</string-array>
+
+<string-array name="menu_setup_analog_subtitle_array">
+<item>끄기</item>
+<item>열기</item>
+<item>음소거</item>
+</string-array>
+<string-array name="menu_setup_subtitle_type_array">
+<item>표준</item>
+<item>청각장애</item>
+</string-array>
+
+<string-array name="screen_mode_array_sa">
+		<item>Auto</item>
+<item>표준</item>
+<item>줌</item>
+</string-array>
+<string-array name="screen_mode_array_vga">
+<item>표준</item>
+<item>레터박스</item>
+<item>줌</item>
+</string-array>
+<string-array name="screen_mode_array_sa_analog">
+		<item>Auto</item>
+<item>표준</item>
+<item>레터박스</item>
+<item>파노라마</item>
+<item>줌</item>
+<item>도트 바이 도트</item>
+</string-array>
+<string-array name="screen_mode_array_us_dtv">
+		<item>Auto</item>
+<item>표준</item>
+<item>레터박스</item>
+<item>파노라마</item>
+<item>줌</item>
+<item>도트 바이 도트</item>
+</string-array>
+<string-array name="screen_mode_array_us_pip_main_analog">
+		<item>Auto</item>
+<item>표준</item>
+<item>레터박스</item>
+<item>줌</item>
+<item>도트 바이 도트</item>
+</string-array>
+<string-array name="screen_mode_array_eu_analog">
+		<item>Auto</item>
+<item>표준</item>
+<item>레터박스</item>
+<item>파노라마</item>
+</string-array>
+<string-array name="screen_mode_array_sa_pop">
+		<item>Auto</item>
+<item>표준</item>
+<item>레터박스</item>
+<item>줌</item>
+</string-array>
+<string-array name="screen_mode_array_us_pip_sub">
+		<item>Auto</item>
+<item>표준</item>
+<item>레터박스</item>
+</string-array>
+<string-array name="screen_mode_array_us_pop">
+		<item>Auto</item>
+<item>표준</item>
+<item>줌</item>
+</string-array>
+<string-array name="screen_mode_array_sa_pip">
+		<item>Auto</item>
+<item>표준</item>
+<item>레터박스</item>
+</string-array>
+<string-array name="screen_mode_array_us_pip">
+		<item>Auto</item>
+<item>표준</item>
+</string-array>
+<!--DTV00580325  -->
+<string-array name="menu_setup_enable_caption_array">
+<item>예</item>
+<item>아니오</item>
+<item>음소거 켜기</item>
+</string-array>
+<string-array name="menu_setup_analog_caption_array">
+<item>끄기</item>
+<item>CC1</item>
+<item>CC2</item>
+<item>CC3</item>
+<item>CC4</item>
+<item>TEXT1</item>
+<item>TEXT2</item>
+<item>TEXT3</item>
+<item>TEXT4</item>
+</string-array>
+<string-array name="menu_setup_digital_caption_array">
+<item>끄기</item>
+<item>서비스1</item>
+<item>서비스2</item>
+<item>서비스3</item>
+<item>서비스4</item>
+<item>서비스5</item>
+<item>서비스6</item>
+</string-array>
+<string-array name="menu_setup_digital_caption_sa_array">
+<item>끄기</item>
+<item>언어1</item>
+<item>언어2</item>
+<item>언어3</item>
+<item>언어4</item>
+<item>언어5</item>
+<item>언어6</item>
+<item>언어7</item>
+<item>언어8</item>
+</string-array>
+<string-array name="menu_setup_superimpose_setup_array">
+<item>끄기</item>
+<item>언어1</item>
+<item>언어2</item>
+</string-array>
+<string-array name="menu_setup_caption_style_array">
+<item>방송자로써</item>
+<item>맞춤형</item>
+</string-array>
+<string-array name="menu_setup_font_size_array">
+<item>스몰</item>
+<item>중간</item>
+<item>크게</item>
+</string-array>
+<string-array name="menu_setup_font_style_array">
+<item>스타일1</item>
+<item>스타일2</item>
+<item>스타일3</item>
+<item>스타일4</item>
+<item>스타일5</item>
+<item>스타일6</item>
+<item>스타일7</item>
+
+</string-array>
+<string-array name="menu_setup_font_color_array">
+<item>블랙</item>
+<item>화이트</item>
+<item>그린</item>
+<item>블루</item>
+<item>레드</item>
+<item>청록색</item>
+<item>노란색</item>
+<item>자홍색</item>
+
+</string-array>
+<string-array name="menu_setup_font_opacity_array">
+<item>단색</item>
+<item>반투명</item>
+<item>투명</item>
+</string-array>
+<string-array name="menu_setup_background_color_array">
+<item>블랙</item>
+<item>화이트</item>
+<item>그린</item>
+<item>블루</item>
+<item>레드</item>
+<item>청록색</item>
+<item>노란색</item>
+<item>자홍색</item>
+
+</string-array>
+<string-array name="menu_setup_background_opacity_array">
+<item>단색</item>
+<item>반투명</item>
+<item>투명</item>
+</string-array>
+<string-array name="menu_setup_window_color_array">
+<item>블랙</item>
+<item>화이트</item>
+<item>그린</item>
+<item>블루</item>
+<item>레드</item>
+<item>청록색</item>
+<item>노란색</item>
+<item>자홍색</item>
+
+</string-array>
+<string-array name="menu_setup_window_opacity_array">
+<item>단색</item>
+<item>반투명</item>
+<item>투명</item>
+</string-array>
+<string-array name="menu_setup_atv_record_mode_array">
+<item>끄기</item>
+<item>열기</item>
+</string-array>
+<string-array name="menu_setup_time_shifting_mode_array">
+<item>끄기</item>
+<item>열기</item>
+</string-array>
+<string-array name="menu_setup_record_quality_array">
+<item>낮음</item>
+<item>중간</item>
+<item>높음</item>
+</string-array>
+<string-array name="menu_parental_age_ratings_array">
+<item>없음</item>
+<item>아래 10</item>
+<item>아래 12</item>
+<item>아래 14</item>
+<item>아래 16</item>
+<item>아래 18</item>
+</string-array>
+<string-array name="menu_parental_age_ratings_array_eu">
+<item>없음</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+</string-array>
+<string-array name="menu_parental_age_ratings_array_eu_ocean_aus">
+<item>차단 없음</item>
+<item>R 이상 차단</item>
+<item>AV 이상 차단</item>
+<item>MA 이상 차단</item>
+<item>M 이상 차단</item>
+<item>PG 이상 차단</item>
+<item>G 이상 차단</item>
+<item>모두 차단</item>
+</string-array>
+<!-- fix CR DTV580531 -->
+<string-array name="menu_parental_content_ratings_array">
+<item>끄기</item>
+<item>마약</item>
+<item>폭력</item>
+<item>섹스</item>
+<item>폭력 및 마약</item>
+<item>섹스 및 마약</item>
+        <item>Violence &amp;  Sex</item>
+<item>폭력 및 섹스 및 마약</item>
+
+</string-array>
+
+<string-array name="menu_factory_high_deviation_mode_array">
+<item>끄기</item>
+<item>열기</item>
+</string-array>
+<string-array name="menu_factory_carrier_shift_function_array">
+<item>끄기</item>
+<item>열기</item>
+</string-array>
+<string-array name="menu_factory_fm_saturation_mute_array">
+<item>끄기</item>
+<item>열기</item>
+</string-array>
+
+<string-array name="menu_parental_open_vchip_array">
+<item>끄기</item>
+<item>열기</item>
+</string-array>
+<string-array name="menu_parental_block_unrated_array">
+<item>끄기</item>
+<item>열기</item>
+</string-array>
+<string-array name="menu_parental_rating_enable_array">
+<item>끄기</item>
+<item>열기</item>
+</string-array>
+<string-array name="menu_parental_block_channel_schedule_operation_array">
+<item>없음</item>
+<item>매일</item>
+<item>1회</item>
+</string-array>
+<string-array name="menu_setup_digital_teletext_language_array">
+<item>바스크어</item>
+<item>불가리아어</item>
+<item>광동어</item>
+<item>카탈로니아어</item>
+<item>크로아티아어</item>
+<item>체코</item>
+<item>덴마크어</item>
+<item>네덜란드어</item>
+<item>영어</item>
+<item>에스토니아어</item>
+<item>핀란드어</item>
+<item>프랑스어</item>
+<item>게일어</item>
+<item>아일랜드어</item>
+<item>갈리시아어</item>
+<item>독일어</item>
+<item>그리스어</item>
+<item>힌디어</item>
+<item>헝가리어</item>
+<item>이탈리아어</item>
+<item>아이슬란드어</item>
+<item>일본어</item>
+<item>한국어</item>
+<item>만다린어</item>
+<item>마오리어</item>
+<item>노르웨이어</item>
+<item>폴란드어</item>
+<item>포르투갈어</item>
+<item>루마니아어</item>
+<item>러시아어</item>
+<item>사미</item>
+<item>세르비아어</item>
+<item>슬로바키아어</item>
+<item>슬로베니아어</item>
+<item>스페인어</item>
+<item>스웨덴어</item>
+<item>터키어</item>
+<item>웨일스어</item>
+<item>오리지널 오디오</item>
+<item>내레이션</item>
+<item>정의되지 않음</item>
+</string-array>
+<string-array name="menu_setup_decoding_page_language_array">
+<item>서부 유럽</item>
+<item>동부 유럽</item>
+<item>러시아</item>
+<item>RUSSIA_2</item>
+		<item>GREEK</item>
+<item>터키</item>
+<item>아랍/히브루</item>
+<item>파르시어</item>
+<item>아랍</item>
+<item>벨로루시어</item>
+</string-array>
+<string-array name="menu_setup_ttx_presentation_level_array">
+<item>레벨 1.5</item>
+<item>레벨 2.5</item>
+</string-array>
+<string-array name="menu_setup_us_timezone_array">
+<item>동부 표준시</item>
+<item>하와이</item>
+<item>알래스카</item>
+<item>태평양 표준시</item>
+<item>애리조나</item>
+<item>산지 표준시</item>
+<item>중부 표준시</item>
+<item>인디애나</item>
+</string-array>
+<string-array name="menu_setup_us_timezone_str">
+<item>미국/뉴욕</item>
+<item>태평양/호놀룰루</item>
+<item>미국/앵커리지</item>
+<item>미국/로스앤젤레스</item>
+<item>미국/피닉스</item>
+<item>미국/덴버</item>
+<item>미국/시카고</item>
+<item>미국/뉴욕</item>
+</string-array>
+
+<integer-array name="menu_setup_us_timezone_values">
+        <item>-5</item>
+        <item>-10</item>
+        <item>-9</item>
+        <item>-8</item>
+        <item>-7</item>
+        <item>-7</item>
+        <item>-6</item>
+        <item>-5</item>
+</integer-array>
+
+<string-array name="menu_setup_timezone_array">
+<item>GMT-12:00</item>
+<item>GMT-11:00</item>
+<item>GMT-10:00</item>
+<item>GMT-9:00</item>
+<item>GMT-8:00</item>
+<item>GMT-7:00</item>
+<item>GMT-6:00</item>
+<item>GMT-5:00</item>
+<item>GMT-4:00</item>
+<item>GMT-3:30</item>
+<item>GMT-3:00</item>
+<item>GMT-2:00</item>
+<item>GMT-1:00</item>
+<item>방송자로써</item>
+<item>GMT+0:00</item>
+<item>GMT+1:00</item>
+<item>GMT+2:00</item>
+<item>GMT+3:00</item>
+<item>GMT+3:30</item>
+<item>GMT+4:00</item>
+<item>GMT+4:30</item>
+<item>GMT+5:00</item>
+<item>GMT+5:30</item>
+<item>GMT+5:45</item>
+<item>GMT+6:00</item>
+<item>GMT+6:30</item>
+<item>GMT+7:00</item>
+<item>GMT+8:00</item>
+<item>GMT+9:00</item>
+        <item>GMT+9:30</item>
+<item>GMT+10:00</item>
+<item>GMT+11:00</item>
+<item>GMT+12:00</item>
+<item>GMT+12:45</item>
+<item>GMT+13:00</item>
+</string-array>
+
+<integer-array name="menu_setup_timezone_value_array">
+        <item>-12</item>
+        <item>-11</item>
+        <item>-10</item>
+        <item>-9</item>
+        <item>-8</item>
+        <item>-7</item>
+        <item>-6</item>
+        <item>-5</item>
+        <item>-4</item>
+        <item>-350</item>
+        <item>-3</item>
+        <item>-2</item>
+        <item>-1</item>
+        <item>0</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>350</item>
+        <item>4</item>
+        <item>450</item>
+        <item>5</item>
+        <item>550</item>
+        <item>575</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>950</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>-1125</item>
+        <item>-11</item>
+</integer-array>
+
+<string-array name="menu_setup_timezone_name_array">
+<item>아시아/마가단</item>
+<item>태평양/미드웨이</item>
+<item>태평양/호놀룰루</item>
+<item>미국/앵커리지</item>
+<item>미국/앵커리지</item>
+<item>미국/로스앤젤레스</item>
+<item>미국/치와와</item>
+<item>미국/시카고</item>
+<item>미국/마나우스</item>
+<item>미국/세인트 존스</item>
+<item>미국/세인트 존스</item>
+<item>미국/갓하브</item>
+<item>대서양/카보베르데</item>
+<item>방송자로써</item>
+<item>아프리카/카사블랑카</item>
+<item>유럽/런던</item>
+<item>아프리카/하라레</item>
+<item>아시아/암만</item>
+<item>아시아/암만</item>
+<item>유럽/모스크바</item>
+<item>아시아/테헤란</item>
+<item>아시아/예레반</item>
+<item>아시아/콜롬보</item>
+<item>아시아/카트만두</item>
+<item>아시아/알마티</item>
+<item>아시아/방콕</item>
+<item>아시아/홍콩</item>
+<item>아시아/도쿄</item>
+<item>호주/애들레이드</item>
+<item>아시아/야쿠츠크</item>
+<item>아시아/블라디디보스톡</item>
+<item>아시아/블라디디보스톡</item>
+<item>태평양/피지</item>
+<item>태평양/통가타푸</item>
+</string-array>
+<string-array name="menu_setup_auto_synchronization_array">
+<item>끄기</item>
+<item>스트림으로부터 동기화</item>
+        <item>sync from Network</item>
+</string-array>
+<string-array name="menu_setup_power_on_timer_array">
+<item>끄기</item>
+<item>열기</item>
+<item>1회</item>
+</string-array>
+<string-array name="menu_setup_sleep_timer_array">
+<item>끄기</item>
+<item>10분</item>
+<item>20분</item>
+<item>30분</item>
+<item>40분</item>
+<item>50분</item>
+<item>60분</item>
+<item>90분</item>
+<item>120분</item>
+</string-array>
+<string-array name="menu_setup_power_on_channel_mode_array">
+<item>마지막 상태</item>
+<item>사용자 선택</item>
+</string-array>
+<string-array name="menu_setup_power_off_timer_array">
+<item>끄기</item>
+<item>열기</item>
+<item>1회</item>
+</string-array>
+<string-array name="menu_setup_auto_sleep_array">
+<item>끄기</item>
+<item>1시간</item>
+<item>2시간</item>
+<item>5시간</item>
+</string-array>
+<string-array name="menu_setup_auto_sleep_eu_array">
+<item>끄기</item>
+<item>4시간</item>
+<item>6시간</item>
+<item>8시간</item>
+</string-array>
+<string-array name="menu_setup_network_connection_array">
+<item>끄기</item>
+<item>열기</item>
+</string-array>
+<string-array name="menu_setup_address_type_array">
+        <item>Auto</item>
+<item>수동</item>
+</string-array>
+<string-array name="menu_setup_dlna_array">
+<item>끄기</item>
+<item>열기</item>
+</string-array>
+<string-array name="menu_setup_my_network_place_array">
+<item>끄기</item>
+<item>열기</item>
+</string-array>
+<string-array name="menu_setup_null_array">
+<item>0</item>
+</string-array>
+<!-- factory -->
+<string-array name="menu_factory_autovedio_array">
+<item>끄기</item>
+<item>열기</item>
+</string-array>
+
+<!-- factory_video_dima  fix CR 580473-->
+<string-array name="menu_factory_auto_dima_array">
+<item>슬로우 픽처</item>
+<item>액션 픽처</item>
+</string-array>
+
+<!-- factory_video_deedge -->
+<string-array name="menu_factory_video_diedge_array">
+<item>약함</item>
+<item>강함</item>
+</string-array>
+
+<!-- factory_video_xvycc -->
+<string-array name="menu_factory_video_xvycc_array">
+<item>끄기</item>
+<item>열기</item>
+</string-array>
+
+<!-- factory_video_wcg -->
+<string-array name="menu_factory_video_wcg_array">
+<item>끄기</item>
+<item>열기</item>
+</string-array>
+
+<!-- factory_video_flip -->
+<string-array name="menu_factory_video_flip_array">
+<item>끄기</item>
+<item>열기</item>
+</string-array>
+
+<!-- factory_video_mirror -->
+<string-array name="menu_factory_video_mirror_array">
+<item>끄기</item>
+<item>열기</item>
+</string-array>
+<!-- factory_video_local -->
+<string-array name="menu_factory_video_local_array">
+<item>끄기</item>
+<item>열기</item>
+</string-array>
+<!-- factory_video_color_temperature -->
+<string-array name="menu_factory_video_colortemperature_array">
+<item>사용자</item>
+<item>차가움</item>
+<item>표준</item>
+<item>따뜻함</item>
+</string-array>
+
+<!-- factory_audio_dolby_banner -->
+<string-array name="menu_factory_audio_dolbybanner_array">
+<item>끄기</item>
+<item>열기</item>
+</string-array>
+
+<!-- factory_audio_compression -->
+<string-array name="menu_factory_audio_compression_array">
+<item>라인</item>
+<item>RF</item>
+</string-array>
+
+<!-- factory_audio_compression_factor -->
+<string-array name="menu_factory_audio_compressionfactor_array">
+<item>끄기</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>40</item>
+        <item>50</item>
+        <item>60</item>
+        <item>70</item>
+        <item>80</item>
+        <item>90</item>
+        <item>100</item>
+</string-array>
+<string-array name="menu_factory_setup_eventform">
+<item>두 형식 모두</item>
+<item>긴 형식</item>
+<item>짧은 형식</item>
+</string-array>
+<string-array name="menu_factory_setup_burning_mode">
+<item>끄기</item>
+<item>열기</item>
+</string-array>
+<!-- DTV00580367 -->
+<string-array name="menu_factory_setup_uart_mode">
+<item>끄기</item>
+<item>열기</item>
+</string-array>
+<string-array name="menu_factory_setup_eu_uart_mode">
+<item>끄기</item>
+<item>열기</item>
+</string-array>
+<!-- factory_audio_system_test -->
+<string-array name="menu_factory_audio_system_test_array">
+<item>끄기</item>
+<item>열기</item>
+</string-array>
+<string-array name="menu_ci_not_support_channel">
+<item>인증 안 됨</item>
+</string-array>
+<!-- pvr & tshift -->
+<string-array name="pvr_tshift_srctype">
+<item>TV</item>
+<item>합성</item>
+</string-array>
+<string-array name="pvr_tshift_channel_temp_list">
+<item>CH41</item>
+<item>CH42</item>
+<item>CH43</item>
+<item>CH44</item>
+</string-array>
+<string-array name="pvr_tshift_schedule_type">
+<item>녹화</item>
+<item>알리미</item>
+</string-array>
+<string-array name="pvr_tshift_repeat_type">
+<item>1회</item>
+<item>주</item>
+<item>매일</item>
+</string-array>
+<string-array name="menu_tv_tshift_config_array">
+<item>끄기</item>
+<item>열기</item>
+</string-array>
+<string-array name="menu_cec_on_off">
+<item>끄기</item>
+<item>열기</item>
+</string-array>
+
+<!-- Add for EU DVBC -->
+<string-array name="menu_scan_mode">
+<item>진행</item>
+<item>퀵</item>
+<item>풀</item>
+</string-array>
+<string-array name="menu_tv_tuner_mode_array_full_eu">
+<item>안테나</item>
+<item>케이블</item>
+<item>@string/dvbs_preferred_satellite</item>
+<item>@string/dvbs_general_satellite</item>
+</string-array>
+<string-array name="menu_setup_oad_auto_download_array">
+<item>아니오</item>
+<item>예</item>
+</string-array>
+<string-array name="menu_tv_country_region_id_eu">
+<item>국가 지역 ID 1</item>
+<item>국가 지역 ID 2</item>
+</string-array>
+<string-array name="menu_tv_oceania_country_region">
+        <item>NSW/ACT</item>
+        <item>VIC</item>
+        <item>QLD</item>
+<item>SA</item>
+        <item>WA</item>
+        <item>TAS</item>
+        <item>NT</item>
+</string-array>
+<string-array name="menu_tv_channel_listtype">
+<item>방송</item>
+<item>CAM</item>
+</string-array>
+<string-array name="menu_tv_channel_bl_type">
+<item>없음</item>
+<item>매일</item>
+<item>일요일</item>
+<item>월요일</item>
+<item>화요일</item>
+<item>수요일</item>
+<item>목요일</item>
+<item>금요일</item>
+<item>토요일</item>
+</string-array>
+<string-array name="menu_tv_tuner_mode_array_full_eu_sat_only">
+<item>안테나</item>
+<item>케이블</item>
+<item>위성</item>
+</string-array>
+
+</resources>

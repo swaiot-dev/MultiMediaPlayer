@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <string name="thr_menu_common_setting">பொது அமைப்பு</string>
+    <string name="thr_menu_confim">உறுதிசெய்க</string>
+    <string name="thr_menu_cancal">வெளியேறவும்</string>
+    <string name="thr_menu">பட்டியல்</string>
+    <string name="thr_menu_select">தேர்ந்தெடு</string>
+
+    <string name="thr_menu_picture_mode">பட முறை</string>
+    <string name="thr_menu_track">ஒலித்தடம்</string>
+    <string name="thr_menu_Equalizer">சமனாக்கி</string>
+    <string name="thr_menu_volume">ஒலி</string>
+
+
+</resources>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">پخش کننده چندرسانه‌ای</string>
+    <string name="schedulelist_nofiles">برنامه ضبطی وجود ندارد! لطفاً برای افزودن روی "Add" را فشار دهید.</string>
+    <string name="schedulelist_nofiles_disable_add">برنامه ضبطی وجود ندارد!</string>
+    <string name="exit">خروج </string>
+    <string name="selected">انتخاب‌شده</string>
+    <string name="add_schedule">افزودن برنامه</string>
+    <string name="pvr_schedule_replace">جایگزینی</string>
+    <string name="pvr_schedule_add">اضافه کردن</string>
+    <string name="menu_value_minus">نزول کردن</string>
+    <string name="menu_value_plus">افزایش دادن</string>
+    <string name="pvr_schedule_cancel">کنسل کردن </string>
+    <string name="pvr_schedule_ok">تایید </string>
+    <string name="pvr_schedule_edit">ویرایش</string>
+    <string name="pvr_schedule_delete">حذف</string>
+    <string name="pvr_title_device_info">اطلاعات دستگاه</string>
+    <string name="pvr_deviceinfo_info">اطلاعات</string>
+    <string name="pvr_exit">خروج </string>
+<string name="pvr_deviceinfo_set_timeshift">تنظیم جابجایی زمان</string>
+<string name="pvr_deviceinfo_set_pvr">Set PVR</string>
+    <string name="pvr_deviceinfo_format">قالب</string>
+    <string name="pvr_deviceinfo_speed_test">آزمایش سرعت</string>
+    <string name="pvr_disk_no_name">بدون نام</string>
+    <string name="pvr_disk_size_temp_3_8_3_8gb">3.8/3.8GB</string>
+    <string name="pvr_disk_ispvr_pvr_tshift">PVR/TSHIFT</string>
+    <string name="pvr_disk_na">NA</string>
+    <string name="pvr_nf_info">00:00:00</string>
+     <string name="pvr_play_info">/</string>
+    <string name="pvr_playlist_record_list">لیست ضبط</string>
+    <string name="pvr_playlist_page_up">بالای صفحه</string>
+    <string name="pvr_playlist_delete">حذف</string>
+    <string name="pvr_playlist_page_down">پایین صفحه</string>
+    <string name="pvr_playlist_info">اطلاعات</string>
+    <string name="pvr_playlist_record_detail">جزییات ضبط</string>
+    <string name="pvr_playlist_channel_num">شماره کانال</string>
+    <string name="pvr_playlist_channel_name">نام کانال </string>
+    <string name="pvr_playlist_program_name">نام برنامه</string>
+    <string name="pvr_playlist_date">تاریخ</string>
+    <string name="pvr_playlist_week">هفته</string>
+    <string name="pvr_playlist_fri">جمعه</string>
+    <string name="pvr_playlist_time">زمان</string>
+    <string name="pvr_playlist_duration">مدت</string>
+    <string name="pvr_disksetup_disk_setup">نصب دیسک</string>
+    <string name="pvr_disksetup_page_up">بالای صفحه</string>
+    <string name="pvr_disksetup_select">انتخاب</string>
+    <string name="pvr_disksetup_page_down">پایین صفحه</string>
+    <string name="pvr_disksetup_exit">خروج </string>
+    <string name="pvr_schedulepvr_week">هفته</string>
+    <string name="pvr_schedulepvr_record">ضبط نمائید. </string>
+    <string name="pvr_schedulepvr_schedule_list">فهرست زمان‌بندی</string>
+    <string name="pvr_schedulepvr_add_schedule">افزودن برنامه</string>
+    <string name="pvr_schedulepvr_selected">انتخاب‌شده</string>
+    <string name="pvr_schedulepvr_exit">خروج </string>
+    <string name="pvr_schedulepvr_schedule_list2">فهرست زمان‌بندی</string>
+    <string name="pvr_confirm_yes">بله </string>
+    <string name="pvr_confirm_no">شماره </string>
+    <string name="pvr_dialog_exit">خروج </string>
+    <string name="pvr_schedulelist_wednesday">چهار شنبه</string>
+    <string name="pvr_schedulelist_replace_line1">برنامه همپوشانی دارد!</string>
+    <string name="pvr_schedulelist_replace_line2">آیا قصد دارید این برنامه‌ها را تعویض کنید</string>
+    <string name="pvr_schedulelist_delete_line1">برنامه حذف شد!</string>
+    <string name="pvr_schedulelist_delete_line2">آیا قصد دارید این برنامه‌ها را حذف کنید</string>
+    <string name="hello_world">دنیا سلام!</string>
+    <string name="menu_settings">تنظیمات </string>
+    <string name="title_activity_schedule_pvr">برنامه فعالیتی</string>
+    <string name="fav_list_is_full">لیست محبوب‌ها پر است.</string>
+
+    <string name="partner_row_title">تلویزیون مدیاتک</string>
+    <string name="inputs_row_title">ورودی</string>
+    <string name="apps_row_title">اپلیکیشن ها</string>
+    <string name="games_row_title">بازی‌ها</string>
+    <string name="settings_row_title">تنظیمات </string>
+
+    <string name="power_on_off_time_same">دو زمان‌سنج مشابه نباید باشند،لطفاً مجدد تنظیم کنید</string>
+
+    <string name="sleep_timer_tip_text">برق خاموش خواهد شد.</string>
+    <string name="sleep_timer_btn_text">تایید </string>
+    <string name="menu_dialog_numzero">شماره کانال نباید 0 باشد!</string>
+
+    <string name="menu_delete_biss_key_tip">آیا مطمئن هستید که قصد حذف کلید Biss را دارید؟</string>
+
+    <string name="video_info_dialog_format">فرمت کردن:</string>
+    <string name="video_info_dialog_resolution">قطعنامه:</string>
+    <string name="video_info_dialog_subtitle">زیرنویسها</string>
+</resources>

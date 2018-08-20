@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="menu_pictrue_mode_list">
+<item> ተጠቃሚ </item>
+<item>ሲኒማ</item>
+<item> ስፖርት </item>
+<item>Vivid</item>
+<item>ሃይ-ብራይት</item>
+</string-array>
+<string-array name="menu_track_mode_list">
+<item>አንድ መስመር</item>
+<item>ሁለት መስመር</item>
+</string-array>
+<!--  <string-array name="menu_channel_mode_list">
+        <item>left</item>
+        <item>right</item>
+        <item>stereo</item>
+         <item>left1</item>
+        <item>right1</item>
+        <item>stereo1</item>
+         <item>left2</item>
+        <item>right3</item>
+    </string-array> -->
+
+<string-array name="menu_audio_equalizer_list">
+<item>ጠፋ</item>
+<item>ሮክ</item>
+<item>ፖፕ</item>
+<item>ቀጥታ</item>
+<item>ዳንስ</item>
+<item>ቴክኖ</item>
+<item>ክላሲክ</item>
+<item>ስስ</item>
+</string-array>
+
+<!-- AUDIO -->
+
+
+</resources>

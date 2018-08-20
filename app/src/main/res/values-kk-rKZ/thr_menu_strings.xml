@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <string name="thr_menu_common_setting">Жалпы параметр</string>
+    <string name="thr_menu_confim">Баталгаажуулах</string>
+    <string name="thr_menu_cancal">ГАРЦ</string>
+    <string name="thr_menu">Цэс</string>
+    <string name="thr_menu_select">Сонгох</string>
+
+    <string name="thr_menu_picture_mode">Зурагны Горим</string>
+    <string name="thr_menu_track">Аудир трек</string>
+    <string name="thr_menu_Equalizer">Эквалайзер</string>
+    <string name="thr_menu_volume">Дууны хүч</string>
+
+
+</resources>

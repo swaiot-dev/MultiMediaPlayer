@@ -13,6 +13,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.bumptech.glide.Glide;
 import com.mediatek.wwtv.mediaplayer.R;
 import com.mediatek.wwtv.mediaplayer.mmp.model.FileAdapter;
 import com.mediatek.wwtv.mediaplayer.mmp.util.AsyncLoader;
@@ -22,6 +23,8 @@ import com.mediatek.wwtv.mediaplayer.mmp.util.SkyThumbnailUtils;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.concurrent.ConcurrentHashMap;
+
+import wseemann.media.FFmpegMediaMetadataRetriever;
 
 /**
  * Author SKY205711
@@ -89,7 +92,7 @@ public class PreviewListAdapter extends RecyclerView.Adapter<PreviewListAdapter.
         }
 
         holder.mImageView.setTag(path);
-        bindThumbnail(data, holder.mImageView, path);
+        //bindThumbnail(data, holder.mImageView, path);
 
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -215,13 +218,22 @@ public class PreviewListAdapter extends RecyclerView.Adapter<PreviewListAdapter.
             try {
                 long start = System.currentTimeMillis();
 
-                if(mData.isVideoFile()) {
+                if (mData.isVideoFile()) {
+
+                    FFmpegMediaMetadataRetriever mmr = new FFmpegMediaMetadataRetriever();
+                    mmr.setDataSource(mData.getAbsolutePath());
+                    mmr.extractMetadata(FFmpegMediaMetadataRetriever.METADATA_KEY_ALBUM);
+                    mmr.extractMetadata(FFmpegMediaMetadataRetriever.METADATA_KEY_ARTIST);
+                    bitmap = mmr.getFrameAtTime(-1, FFmpegMediaMetadataRetriever.OPTION_CLOSEST);
+                }
+
+               /* if(mData.isVideoFile()) {
                     bitmap = SkyThumbnailUtils.getVideoThumbnailMINI_KIND(mData.getAbsolutePath(), mImgWidth, mImgHeight);
                 } else if(mData.isAudioFile()) {
                     bitmap = SkyThumbnailUtils.getAudioThmbnail(mData.getAbsolutePath());
                 } else if(mData.isPhotoFile() || mData.isThrdPhotoFile()) {
                     bitmap = SkyThumbnailUtils.getPictureThumbnail(mData.getAbsolutePath(), mImgWidth, mImgHeight);
-                }
+                }*/
 
                 if(bitmap == null) {
                     bitmap = mData.getThumbnail(mImgWidth, mImgHeight, true);

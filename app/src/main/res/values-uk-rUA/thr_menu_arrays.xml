@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+    <string-array name="menu_pictrue_mode_list">
+        <item>Benutzer</item>
+        <item>Kino</item>
+        <item>Спорт</item>
+        <item>Lebhaft</item>
+        <item>Sehr Hell</item>
+    </string-array>
+    <string-array name="menu_track_mode_list">
+        <item>Одна доріжка</item>
+        <item>Дві доріжки</item>
+    </string-array>
+    <string-array name="menu_audio_equalizer_list">
+        <item>Aus</item>
+        <item>Рок</item>
+        <item>POP</item>
+        <item>Трансляція</item>
+        <item>Tanz</item>
+        <item>Техно</item>
+        <item>Klassik</item>
+        <item>weich</item>
+    </string-array>
+</resources>

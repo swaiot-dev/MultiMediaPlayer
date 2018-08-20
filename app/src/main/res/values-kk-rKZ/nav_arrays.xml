@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+    <string-array name="nav_epg_filter_type_AUS">
+        <item>Фильм</item>
+        <item>Жаңалықтар</item>
+        <item>Ойын-сауық</item>
+        <item>Спорт</item>
+        <item>Балалар</item>
+        <item>Mузыка</item>
+        <item>Арт</item>
+        <item>Жаңалықтар</item>
+        <item>Білім</item>
+        <item>Ойын-сауық</item>
+        <item>Арнайы</item>
+        <item>Комедия</item>
+        <item>Драма</item>
+        <item>Деректі фильм</item>
+    </string-array>
+    <string-array name="nav_epg_filter_type_UK">
+        <item>Фильм</item>
+        <item>Жаңалықтар және деректер</item>
+        <item>Ойын-сауық</item>
+        <item>Спорт</item>
+        <item>Балалар</item>
+        <item>Білім</item>
+        <item>Өмір салты</item>
+        <item>Драма</item>
+    </string-array>
+    <string-array name="dvbs_tp_pol_arrays">
+        <item>@string/dvbs_tp_pol_1_HORIZONTAL</item>
+        <item>@string/dvbs_tp_pol_2_VERTICAL</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_RA_TE_SA_PR">
+        <item>Лотерея</item>
+        <item>Теледидар сату</item>
+        <item>Бағалау</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_information">
+        <item>Ас пісіру</item>
+        <item>Сән</item>
+        <item>Ел</item>
+        <item>Денсаулық</item>
+        <item>Саяхат</item>
+    </string-array>
+    <string-array name="dvbs_channel_arrays">
+        <item>@string/dvbs_channel_free</item>
+        <item>@string/dvbs_channel_all</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_special">
+        <item>бастапқы тілі</item>
+        <item>Ақ және қара</item>
+        <item>Жарияланбаған</item>
+        <item>Тікелей эфир</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_children">
+        <item>Балалар</item>
+    </string-array>
+    <string-array name="dvbs_tone_22khz_arrays">
+        <item>@string/dvbs_tone_22khz_off</item>
+        <item>@string/dvbs_tone_22khz_on</item>
+        <item>@string/dvbs_tone_22khz_auto</item>
+    </string-array>
+    <string-array name="pvr_tshift_initdisk_step_formatconfirm">
+        <item>Формат</item>
+        <item>Тоқтату</item>
+    </string-array>
+    <string-array name="nav_twinkle_strings">
+        <item></item>
+        <item>Сигнал жоқ!</item>
+        <item>Арналарды шолыңыз!</item>
+        <item>Дерек алынуда...</item>
+        <item>Арна бекітілген!</item>
+        <item>Бағдарлама бекітілген!</item>
+        <item>Дерек енгізу бекітілген!</item>
+        <item>(Бағдарлама атауы жоқ).</item>
+        <item>Арна жасырын!</item>
+        <item>Аудио бағдарлама</item>
+        <item>Жарамсыз қызмет</item>
+        <item>(Бағдарлама деректері жоқ).</item>
+        <item>(Арна деректері жоқ).</item>
+        <item>♪ Аудио ағыны жоқ ♪</item>
+        <item>Бейне ағыны жоқ</item>
+        <item>Күте тұрыңыз...</item>
+        <item>Бейнеге қолдау көрсетілмеген</item>
+        <item>HD қызметі</item>
+        <item>Трансляция жоқ</item>
+        <item>Арна жоқ</item>
+        <item>Бұл мазмұн провайдер тарапынан бөгелген</item>
+        <item>Бұрмаланған</item>
+    </string-array>
+    <string-array name="dvbs_diseqc_motor_arrays">
+        <item>@string/dvbs_diseqc_input_0</item>
+        <item>@string/dvbs_diseqc_motor_12</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_social">
+        <item>Әлеумет</item>
+        <item>Журналдар</item>
+        <item>Экономика</item>
+        <item>Ерекше адамдар</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_comical">
+        <item>Күлкілі</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_music">
+        <item>Mузыка</item>
+        <item>Рок</item>
+        <item>Шынайы</item>
+        <item>Фолк</item>
+        <item>Джаз</item>
+        <item>Музыкалық</item>
+        <item>Балет</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_movie">
+        <item>Драма</item>
+        <item>Детектив</item>
+        <item>Қызықты оқиғалар</item>
+        <item>Фантастика</item>
+        <item>Комедия</item>
+        <item>Сериал</item>
+        <item>Махаббат</item>
+        <item>Шынайы</item>
+        <item>Ересектерге арналған</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_soap_opera">
+        <item>Сериал</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_movie">
+        <item>Фильм</item>
+    </string-array>
+    <string-array name="dvbs_sat_on_off">
+        <item>@string/dvbs_sat_on</item>
+        <item>@string/dvbs_sat_off</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_other">
+        <item>Ересектерге арналған анимация</item>
+        <item>Интерактивті</item>
+        <item>Саясат</item>
+        <item>Дін</item>
+    </string-array>
+    <string-array name="nav_epg_filter_sa_type">
+        <item>Жаңалықтар</item>
+        <item>Спорт</item>
+        <item>Білім</item>
+        <item>Сериал</item>
+        <item>Мини сериалдар</item>
+        <item>Сериал</item>
+        <item>Әр түрлі</item>
+        <item>REALITY_SHOW</item>
+        <item>INFOMATION</item>
+        <item>Күлкілі</item>
+        <item>Балалар</item>
+        <item>Эротика</item>
+        <item>Фильм</item>
+        <item>RA_TE_SA_PR</item>
+        <item>DEBATE_INTERVIEW</item>
+        <item>Басқа</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_education">
+        <item>Білім беру</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_show">
+        <item>Шоу</item>
+        <item>Ойын шоуы</item>
+        <item>Әр түрлі шоулар</item>
+        <item>Токшоу</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_variety">
+        <item>Аудитория</item>
+        <item>Шоу</item>
+        <item>Музыкалық</item>
+        <item>Жасау</item>
+        <item>Әйелдер</item>
+        <item>Ойын шоуы</item>
+    </string-array>
+    <string-array name="dvbs_antenna_type_arrays">
+        <item>@string/dvbs_antenna_type_universal</item>
+        <item>@string/dvbs_antenna_type_singlecable</item>
+    </string-array>
+    <string-array name="pvr_tshift_initdisk_step1">
+        <item>Авто</item>
+        <item>Қолмен</item>
+    </string-array>
+    <string-array name="nav_oad_btns_accept_reject">
+        <item>Қабылдау</item>
+        <item>Бас тарту</item>
+    </string-array>
+    <string-array name="dvbs_user_band_arrays">
+        <item>@string/dvbs_user_band_1</item>
+        <item>@string/dvbs_user_band_2</item>
+        <item>@string/dvbs_user_band_3</item>
+        <item>@string/dvbs_user_band_4</item>
+        <item>@string/dvbs_user_band_5</item>
+        <item>@string/dvbs_user_band_6</item>
+        <item>@string/dvbs_user_band_7</item>
+        <item>@string/dvbs_user_band_8</item>
+    </string-array>
+    <string-array name="dvbs_sat_lnbfreq">
+        <item>@string/lnb_universal</item>
+        <item>9750,10700</item>
+        <item>9750,10750</item>
+        <item>5150</item>
+        <item>5750</item>
+        <item>9750</item>
+        <item>10600</item>
+        <item>10750</item>
+        <item>11250</item>
+        <item>11300</item>
+        <item>11475</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_DEBATE_INTERVIEW">
+        <item>Талқылау</item>
+        <item>Сұхбат</item>
+    </string-array>
+    <string-array name="nav_zoom_mode">
+        <item>масштаб X 1/2</item>
+        <item>масштаб X 1</item>
+        <item>масштаб X 2</item>
+    </string-array>
+    <string-array name="week_day">
+        <item>Жексенбі</item>
+        <item>Дүйсенбі</item>
+        <item>Сейсенбі</item>
+        <item>Сәрсенбі</item>
+        <item>Бейсенбі</item>
+        <item>Жұма</item>
+        <item>Сенбі</item>
+    </string-array>
+    <string-array name="nav_oad_btns_accept_remind_me_later">
+        <item>Қабылдау</item>
+        <item>Кейінірек еске салу</item>
+    </string-array>
+    <string-array name="nav_mts_strings">
+        <item>Мэдэгдэхгүй</item>
+        <item>Моно</item>
+        <item>Стерео</item>
+        <item>SUB_LANG</item>
+        <item>Dual1</item>
+        <item>Dual2</item>
+        <item>NICAM_MONO</item>
+        <item>NICAM_STEREO</item>
+        <item>NICAM_DUAL1</item>
+        <item>NICAM_DUAL2</item>
+        <item>FM_MONO</item>
+        <item>FM_STEREO</item>
+    </string-array>
+    <string-array name="dvbs_position_arrays">
+        <item>@string/dvbs_tp_pol_0_unknown</item>
+        <item>@string/dvbs_position_a</item>
+        <item>@string/dvbs_position_b</item>
+        <item>@string/dvbs_position_c</item>
+        <item>@string/dvbs_position_d</item>
+    </string-array>
+    <string-array name="dvbs_scan_mode2_arrays">
+        <item>@string/dvbs_scan_mode_auto</item>
+        <item>@string/dvbs_scan_mode_preset</item>
+    </string-array>
+    <string-array name="dvbs_diseqc_motor_store_position_arrays">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_series">
+        <item>Сериал</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_leisure">
+        <item>Бос уақыт және хобби</item>
+        <item>Туризм</item>
+        <item>Қол өнер</item>
+        <item>Мотор</item>
+        <item>Спорт және денсаулық</item>
+        <item>Ас пісіру</item>
+        <item>Жарнама</item>
+        <item>Бау-бақша</item>
+    </string-array>
+    <string-array name="nav_channel_type">
+        <item>Барлық</item>
+        <item>Сандық</item>
+        <item>Радио</item>
+        <item>Аналогтық</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_reality_show">
+        <item>Шынайы шоу</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_arts">
+        <item>Арт</item>
+        <item>Орындау өнері</item>
+        <item>Көркем өнер</item>
+        <item>Дін</item>
+        <item>Поп мәдениет</item>
+        <item>Әдебиет</item>
+        <item>Фильм</item>
+        <item>Эксперименттік</item>
+        <item>Трансляция</item>
+        <item>Жаңа медиа</item>
+        <item>Арт журналдары</item>
+        <item>Сән</item>
+    </string-array>
+    <string-array name="nav_audio_tvcm_strings">
+        <item>baq</item>
+        <item>eus</item>
+        <item>bul</item>
+        <item>cat</item>
+        <item>scr</item>
+        <item>cze</item>
+        <item>dan</item>
+        <item>dut</item>
+        <item>eng</item>
+        <item>fin</item>
+        <item>fre</item>
+        <item>gla</item>
+        <item>gdh</item>
+        <item>gle</item>
+        <item>glg</item>
+        <item>ger</item>
+        <item>gre</item>
+        <item>hun</item>
+        <item>ita</item>
+        <item>nor</item>
+        <item>pol</item>
+        <item>por</item>
+        <item>rum</item>
+        <item>rus</item>
+        <item>scc</item>
+        <item>slo</item>
+        <item>slv</item>
+        <item>spa</item>
+        <item>swe</item>
+        <item>tur</item>
+        <item>wel</item>
+        <item>ice</item>
+        <item>isl</item>
+        <item>smi</item>
+        <item>tha</item>
+        <item>vie</item>
+        <item>ara</item>
+        <item>zho</item>
+        <item>chi</item>
+        <item>per</item>
+        <item>kor</item>
+        <item>est</item>
+        <item>mao</item>
+        <item>cmn</item>
+        <item>yue</item>
+        <item>jpn</item>
+        <item>hin</item>
+        <item>nar</item>
+        <item>КАТАР</item>
+        <item>und</item>
+    </string-array>
+    <string-array name="nav_freeze_strings">
+        <item>Қатыру: Қосулы</item>
+        <item>Қатыру: Өшірулі</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_education">
+        <item>Білім</item>
+        <item>Табиғат</item>
+        <item>Технология</item>
+        <item>Медицина</item>
+        <item>Шет елдер</item>
+        <item>Әлеуметтік ғылымдар</item>
+        <item>Білім дамыту</item>
+        <item>Тілдер</item>
+    </string-array>
+    <string-array name="nav_receiver_type">
+        <item>Кабель</item>
+        <item>Aнтенна</item>
+    </string-array>
+    <string-array name="dvbs_diseqc_movement_control_arrays">
+        <item>Үздіксіз</item>
+        <item>Қадам</item>
+        <item>Таймаут</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_erotic">
+        <item>Эротика</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_children">
+        <item>Балалар</item>
+        <item>Балабақша жасындағы балалар</item>
+        <item>Ойын-сауық 6-14</item>
+        <item>Ойын-сауық 10-16</item>
+        <item>Ақпараттық</item>
+        <item>Анимация</item>
+    </string-array>
+    <string-array name="nav_bottom_volume">
+        <item>Негізгі дыбыс</item>
+        <item>Алдыңғы сол жақ дыбыс</item>
+        <item>Алдыңғы оң жақ дыбыс</item>
+        <item>Артқы сол жақ дыбыс</item>
+        <item>Артқы оң жақ дыбыс</item>
+        <item>Орталық дыбыс</item>
+        <item>Төменгі вуфер дыбысы</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_mini_series">
+        <item>Мини сериялар</item>
+    </string-array>
+    <string-array name="nav_s_effect_strings">
+        <item>Пайдаланушы</item>
+        <item>Стандартты</item>
+        <item>Тікелей эфир1</item>
+    </string-array>
+    <string-array name="nav_oad_btns_cancel">
+        <item>Тоқтату</item>
+    </string-array>
+    <string-array name="dvbs_user_band_freq_arrays">
+        <item>"1210"</item>
+        <item>"1400"</item>
+        <item>"1516"</item>
+        <item>"1632"</item>
+        <item>"1748"</item>
+        <item>"1864"</item>
+        <item>"1980"</item>
+        <item>"2096"</item>
+    </string-array>
+    <string-array name="dvbs_diseqc_10port_arrays">
+        <item>@string/dvbs_diseqc_input_1</item>
+        <item>@string/dvbs_diseqc_input_2</item>
+        <item>@string/dvbs_diseqc_input_3</item>
+        <item>@string/dvbs_diseqc_input_4</item>
+        <item>@string/dvbs_tone_burst_a</item>
+        <item>@string/dvbs_tone_burst_b</item>
+        <item>@string/dvbs_diseqc_input_0</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sports">
+        <item>Спорт</item>
+        <item>Ерекше оқиғалар</item>
+        <item>Спорт журналдары</item>
+        <item>Футбол</item>
+        <item>Тенис</item>
+        <item>Топтық спорттар</item>
+        <item>Спортшылар</item>
+        <item>Мотор спорты</item>
+        <item>Су спорты</item>
+        <item>Қысқы спорт</item>
+        <item>Эквистериан</item>
+        <item>Төбелес өнері</item>
+    </string-array>
+    <string-array name="nav_zoom_strings">
+        <item>масштаб X 1</item>
+        <item>масштаб X 2</item>
+        <item>масштаб X 1/2</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_sports">
+        <item>Спорт</item>
+    </string-array>
+    <string-array name="nav_audio_strings">
+        <item>Баск</item>
+        <item>Баск</item>
+        <item>Болгар</item>
+        <item>Каталан</item>
+        <item>Хорват</item>
+        <item>Чех</item>
+        <item>Дат</item>
+        <item>Нидерланд</item>
+        <item>Ағылшын</item>
+        <item>Фин</item>
+        <item>Француз</item>
+        <item>Гойдель</item>
+        <item>Гойдель</item>
+        <item>Ирланд</item>
+        <item>Гал</item>
+        <item>Неміс</item>
+        <item>Грек</item>
+        <item>Венгр</item>
+        <item>Италиян</item>
+        <item>Норвег</item>
+        <item>Поляк</item>
+        <item>Португал</item>
+        <item>Румын</item>
+        <item>Орыс</item>
+        <item>Серб</item>
+        <item>Словак</item>
+        <item>Словен</item>
+        <item>Испан</item>
+        <item>Швед</item>
+        <item>Tүрік</item>
+        <item>Уэльс</item>
+        <item>Исланд</item>
+        <item>Исланд</item>
+        <item>Sami langs</item>
+        <item>Тай тілі</item>
+        <item>Вьетнам</item>
+        <item>Aраб</item>
+        <item>Дәстүрлі қытай</item>
+        <item>Жеңілдетілген қытай</item>
+        <item>Парсы</item>
+        <item>Kорей</item>
+        <item>Эстония</item>
+        <item>Maoри</item>
+        <item>Maндарин</item>
+        <item>Кантон диалекті</item>
+        <item>Жапон</item>
+        <item>Хинди</item>
+        <item>Бандау</item>
+        <item>Original Version for France</item>
+        <item>Анықталмаған</item>
+    </string-array>
+    <string-array name="pvr_tshift_initdisk_step_format">
+        <item>Формат</item>
+        <item>Аттап өту</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_news">
+        <item>Жаңалықтар</item>
+        <item>Баяндау</item>
+        <item>Деректі фильм</item>
+        <item>Өмірбаян</item>
+    </string-array>
+    <string-array name="dvbs_scan_mode_arrays">
+        <item>@string/dvbs_scan_mode_network</item>
+        <item>@string/dvbs_scan_mode_full</item>
+    </string-array>
+    <string-array name="lnb_mdu1_arrays">
+        <item>@string/dvbs_preferred_satellite</item>
+        <item>@string/dvbs_general_satellite</item>
+    </string-array>
+    <string-array name="nav_sleep_strings">
+        <item>Ұйқы: Өшірулі</item>
+        <item>Ұйқы:15 минут</item>
+        <item>Ұйқы:30 минут</item>
+        <item>Ұйқы:45 минут</item>
+        <item>Ұйқы:60 минут</item>
+        <item>Ұйқы:90 минут</item>
+        <item>Ұйқы:120 минут</item>
+    </string-array>
+    <string-array name="nav_channel_types">
+        <item>Барлық</item>
+        <item>Радио</item>
+    </string-array>
+    <string-array name="dvbs_preferred_satellite_arrays">
+        <item>@string/dvbs_preferred_satellite</item>
+        <item>@string/dvbs_general_satellite</item>
+    </string-array>
+    <string-array name="dvbs_sat_lnb_power">
+        <item>@string/dvbs_sat_off</item>
+        <item>@string/dvbs_sat_TUNER_LNB_POWER_13V_18V</item>
+        <item>@string/dvbs_sat_TUNER_LNB_POWER_14V_19V</item>
+        <item>@string/dvbs_sat_on</item>
+    </string-array>
+    <string-array name="dvbs_diseqc_input_arrays">
+        <item>@string/dvbs_diseqc_input_1</item>
+        <item>@string/dvbs_diseqc_input_2</item>
+        <item>@string/dvbs_diseqc_input_3</item>
+        <item>@string/dvbs_diseqc_input_4</item>
+        <item>@string/dvbs_diseqc_input_0</item>
+    </string-array>
+    <string-array name="nav_oad_btns_yes_no">
+        <item>Иә</item>
+        <item>Жоқ</item>
+    </string-array>
+    <string-array name="dvbs_tone_burst_arrays">
+        <item>@string/dvbs_tone_burst_a</item>
+        <item>@string/dvbs_tone_burst_b</item>
+        <item>@string/dvbs_tone_burst_disable</item>
+    </string-array>
+    <string-array name="nav_epg_filter_type">
+        <item>Фильм</item>
+        <item>Жаңалықтар</item>
+        <item>Шоу</item>
+        <item>Спорт</item>
+        <item>Балалар</item>
+        <item>Mузыка</item>
+        <item>Арт</item>
+        <item>Әлеумет</item>
+        <item>Білім</item>
+        <item>Сауық</item>
+        <item>Арнайы</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_news">
+        <item>Жаңалықтар</item>
+        <item>Ауа райы</item>
+        <item>Жаңалықтар журналы</item>
+        <item>Деректі фильм</item>
+        <item>Талқылау</item>
+    </string-array>
+</resources>

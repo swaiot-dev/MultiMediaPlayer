@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="menu_pictrue_mode_list">
+		<item>کاربر</item>
+		<item>سینما</item>
+		<item>ورزش</item>
+		<item>واضح</item>
+		<item>بسیار روشن</item>
+</string-array>
+<string-array name="menu_track_mode_list">
+        <item>یک ترک</item>
+        <item>دو ترک</item>
+</string-array>
+<string-array name="menu_audio_equalizer_list">
+		<item>حالت خاموش </item>
+		<item>راک</item>
+		<item>پاپ</item>
+		<item>لایو</item>
+		<item>رقص</item>
+		<item>تکنو</item>
+		<item>کلاسیک</item>
+		<item>نرم </item>		
+</string-array>
+
+</resources>

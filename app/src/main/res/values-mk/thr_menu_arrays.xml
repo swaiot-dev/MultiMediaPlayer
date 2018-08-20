@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+    <string-array name="menu_pictrue_mode_list">
+        <item>Корисник</item>
+        <item>Кино</item>
+        <item>Спорт</item>
+        <item>Живописно</item>
+        <item>Hi-Bright</item>
+    </string-array>
+    <string-array name="menu_track_mode_list">
+        <item>еднострано</item>
+        <item>двострано</item>
+    </string-array>
+    <string-array name="menu_audio_equalizer_list">
+        <item>Исклучено</item>
+        <item>Рок</item>
+        <item>POP</item>
+        <item>Во живо</item>
+        <item>Денс</item>
+        <item>Техно</item>
+        <item>Класика</item>
+        <item>Меко</item>
+    </string-array>
+</resources>

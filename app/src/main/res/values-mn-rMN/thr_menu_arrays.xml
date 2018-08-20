@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+    <string-array name="menu_pictrue_mode_list">
+        <item>Хэрэглэгч</item>
+        <item>Кино</item>
+        <item>Спорт</item>
+        <item>Тод</item>
+        <item>Тодотгол</item>
+    </string-array>
+    <string-array name="menu_track_mode_list">
+        <item>Нэг мөр</item>
+        <item>Хоёр мөр</item>
+    </string-array>
+    <string-array name="menu_audio_equalizer_list">
+        <item>Офф</item>
+        <item>Рок</item>
+        <item>Pop</item>
+        <item>Амьд</item>
+        <item>Бүжиг</item>
+        <item>Техно</item>
+        <item>Сонгодог</item>
+        <item>Зөөлөн</item>
+    </string-array>
+</resources>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="hello">Hello World, TurnkeyUiMainActivity!</string>
+    <string name="app_name">Мулти медија плеер</string>
+    <!-- For PVR/tshift -->
+    <string name="schedulelist_nofiles">Нема закажано снимање! Ве молиме притиснете го копчето „Додади“ за да додадете такво.</string>
+    <string name="schedulelist_nofiles_disable_add">Нема закажано снимање!</string>
+    <string name="exit">ИЗЛЕЗИ</string>
+    <string name="selected">Избрано</string>
+    <string name="add_schedule">Додади закажување</string>
+    <string name="pvr_schedule_replace">Замени</string>
+    <string name="pvr_schedule_add">ДОДАЈ</string>
+    <string name="menu_value_minus">Decrease</string>
+    <string name="menu_value_plus">Increase</string>
+    <string name="pvr_schedule_cancel">ОТКАЖИ</string>
+    <string name="pvr_schedule_ok">ОК</string>
+    <string name="pvr_schedule_edit">Уреди</string>
+    <string name="pvr_schedule_delete">Избриши</string>
+    <string name="pvr_title_device_info">Информации за уред</string>
+    <string name="pvr_deviceinfo_info">Информации  </string>
+    <string name="pvr_exit">ИЗЛЕЗИ</string>
+    <string name="pvr_deviceinfo_set_timeshift">Постави одложено снимање</string>
+    <string name="pvr_deviceinfo_set_pvr">Set PVR</string>
+    <string name="pvr_deviceinfo_format">Формат</string>
+    <string name="pvr_deviceinfo_speed_test">Тест на брзина</string>
+    <string name="pvr_disk_no_name">Нема име</string>
+    <string name="pvr_disk_size_temp_3_8_3_8gb">3.8/3.8GB</string>
+    <string name="pvr_disk_ispvr_pvr_tshift">PVR/TSHIFT</string>
+    <string name="pvr_disk_na">NA</string>
+    <string name="pvr_nf_info">00:00:00</string>
+    <string name="pvr_play_info">/</string>
+    <string name="pvr_playlist_record_list">Листа на снимено</string>
+    <string name="pvr_playlist_page_up">Страница нагоре</string>
+    <string name="pvr_playlist_delete">Избриши</string>
+    <string name="pvr_playlist_page_down">Страница надолу</string>
+    <string name="pvr_playlist_info">Информации  </string>
+    <string name="pvr_playlist_record_detail">Детал на снимено</string>
+    <string name="pvr_playlist_channel_num">Бр на канал</string>
+    <string name="pvr_playlist_ch_40">CH 40</string>
+    <string name="pvr_playlist_channel_name">Име на каналот</string>
+    <string name="pvr_playlist_cctv_1">CCTV-1</string>
+    <string name="pvr_playlist_program_name">Име на програмата</string>
+    <string name="pvr_playlist_special_6_1">Посебно 6+1</string>
+    <string name="pvr_playlist_date">Датум</string>
+    <string name="pvr_playlist__2012_11_30">2012/11/30</string>
+    <string name="pvr_playlist_week">Недела</string>
+    <string name="pvr_playlist_fri">Пет</string>
+    <string name="pvr_playlist_time">ВРЕМЕ</string>
+    <string name="pvr_playlist_01_39_16">01:39:16</string>
+    <string name="pvr_playlist_duration">Траење</string>
+    <string name="pvr_playlist_00_00_03">00:00:03</string>
+    <string name="pvr_pvr_working_rec_time">[00:00:03/00:00]</string>
+    <string name="pvr_tshift_working_rec_time">[00:00:03/00:00]</string>
+    <string name="pvr_tshift_working_cur_time">13:02:28</string>
+    <string name="pvr_tshift_offset_time">-00:00:00</string>
+    <string name="pvr_tshift_0">0</string>
+    <string name="pvr_tshift_13_00">13:00</string>
+    <string name="pvr_tshift_13_30">13:30</string>
+    <string name="pvr_disksetup_disk_setup">Поставување диск</string>
+    <string name="pvr_disksetup_page_up">Страница нагоре</string>
+    <string name="pvr_disksetup_select">Избери</string>
+    <string name="pvr_disksetup_page_down">Страница надолу</string>
+    <string name="pvr_disksetup_exit">ИЗЛЕЗИ</string>
+    <string name="pvr_schedulepvr_ch41">CH41</string>
+    <string name="pvr_schedulepvr_date">2013/01/04 13:22 Вторн</string>
+    <string name="pvr_schedulepvr_time">00ч 00мин</string>
+    <string name="pvr_schedulepvr_week">Недела</string>
+    <string name="pvr_schedulepvr_record">Снимање</string>
+    <string name="pvr_schedulepvr_schedule_list">Список на распоредот</string>
+    <string name="pvr_schedulepvr_diskinfo">Нема име: 3.8/3.8 GB</string>
+    <string name="pvr_schedulepvr_add_schedule">Додади закажување</string>
+    <string name="pvr_schedulepvr_selected">Избрано</string>
+    <string name="pvr_schedulepvr_exit">ИЗЛЕЗИ</string>
+    <string name="pvr_schedulepvr_schedule_list2">Список на распоредот</string>
+    <string name="pvr_schedulepvr_disk_info">Нема име: 3.8/3.8 GB</string>
+    <string name="pvr_confirm_yes">Да</string>
+    <string name="pvr_confirm_no">Не</string>
+    <string name="pvr_dialog_exit">ИЗЛЕЗИ</string>
+    <string name="pvr_schedulelist_wednesday">Среда</string>
+    <string name="pvr_schedulelist_replace_line1">Закажувањето е преклопено!</string>
+    <string name="pvr_schedulelist_replace_line2">Сакате да ги замените овие закажувања</string>
+    <string name="pvr_schedulelist_delete_line1">Закажувањето е избришано!</string>
+    <string name="pvr_schedulelist_delete_line2">Сакате да ги избришете овие закажувања</string>
+    <string name="hello_world">Здраво свету!</string>
+    <string name="menu_settings">Поставки</string>
+    <string name="title_activity_schedule_pvr">ЗакажувањеPvrАктивност</string>
+    <string name="fav_list_is_full">Листата со омилени е полна.</string>
+
+    <!-- For Google home Sreen -->
+    <string name="partner_row_title">mediatek tv</string>
+    <string name="inputs_row_title">Влез</string>
+    <string name="apps_row_title">АПЛИКАЦИИ</string>
+    <string name="games_row_title">Игри</string>
+    <string name="settings_row_title">Поставки</string>
+
+    <!-- Power on off time not same -->
+    <string name="power_on_off_time_same">два тајмера не може да се исти, ве молиме ресетирајте</string>
+
+    <string name="sleep_timer_tip_text">Напојувањето ќе биде исклучено.</string>
+    <string name="sleep_timer_btn_text">ОК</string>
+    <string name="menu_dialog_numzero">Бројот на канал не може да е 0!</string>
+
+    <string name="menu_delete_biss_key_tip">Сигурно сакате да го избришете ова копче Biss ?</string>
+
+    <string name="video_info_dialog_format">Форматирање:</string>
+    <string name="video_info_dialog_resolution">Резолуција:</string>
+    <string name="video_info_dialog_subtitle">Превод</string>
+
+    <string name="mmp_photo">Фотографии</string>
+    <string name="mmp_audio">Музика </string>
+    <string name="mmp_video">Филм </string>
+</resources>

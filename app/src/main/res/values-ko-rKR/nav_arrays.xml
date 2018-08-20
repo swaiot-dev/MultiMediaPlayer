@@ -1,0 +1,663 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+<string-array name="nav_channel_types">
+<item>전체</item>
+<!--<item>아날로그</item>
+<item>디지털</item>-->
+<item>라디오</item>
+</string-array>
+<!--
+
+		{ "Auto", "Normal", "LetterBox", "Zoom", "Panorama", "Dot by Dot" }
+-->
+<!--
+<string-array name="nav_aspect_strings"><item>Auto</item>
+<item>표준</item> <item>레터박스</item> <item>Zoom</item>
+<item>파노라마</item> <item>도트 바이 도트</item> </string-array>
+-->
+<!--
+		"Sleep:Off", "Sleep: 10 Minutes", "Sleep:20 Minutes", "Sleep:30
+		Minutes", "Sleep:40 Minutes", "Sleep:50 Minutes", "Sleep:60 Minutes",
+		"Sleep:90 Minutes", "Sleep:120 Minutes" };
+-->
+
+<string-array name="nav_sleep_strings">
+		<item>Sleep:Off</item>
+		<item>Sleep:15 Minutes</item>
+		<item>Sleep:30 Minutes</item>
+		<item>Sleep:45 Minutes</item>
+		<item>Sleep:60 Minutes</item>
+		<item>Sleep:90 Minutes</item>
+		<item>Sleep:120 Minutes</item>
+</string-array>
+<string-array name="nav_zoom_strings">
+<item>줌 X 1</item>
+<item>줌 X 2</item>
+<item>줌 X 1/2</item>
+</string-array>
+
+<!-- OFF, Rock, Pop, Live, Dance, Techno, Classic and Soft -->
+<string-array name="nav_s_effect_strings">
+<item>사용자</item>
+<item>표준</item>
+<item>라이브1</item>
+</string-array>
+
+<string-array name="nav_freeze_strings">
+<item>고정: 켜기</item>
+<item>고정: 끄기</item>
+</string-array>
+
+<string-array name="nav_epg_filter_type">
+<item>영화</item>
+<item>뉴스</item>
+<item>쇼</item>
+<item>스포츠</item>
+<item>어린이용</item>
+		<item>MUSIC</item>
+<item>예술</item>
+<item>소셜</item>
+<item>교육</item>
+<item>레저</item>
+<item>특집</item>
+</string-array>
+
+<string-array name="nav_epg_filter_type_AUS">
+<item>영화</item>
+<item>뉴스</item>
+<item>오락</item>
+<item>스포츠</item>
+<item>어린이용</item>
+		<item>MUSIC</item>
+<item>예술</item>
+<item>시사</item>
+<item>교육</item>
+<item>정보</item>
+<item>특집</item>
+<item>코미디</item>
+<item>드라마</item>
+<item>다큐멘터리</item>
+</string-array>
+
+<string-array name="nav_epg_filter_type_UK">
+<item>영화</item>
+<item>뉴스 및 사실</item>
+<item>오락</item>
+		<item>SPORT</item>
+<item>어린이용</item>
+<item>교육</item>
+<item>라이프스타일</item>
+<item>드라마</item>
+</string-array>
+
+<string-array name="nav_epg_filter_sa_type">
+<item>뉴스</item>
+<item>스포츠</item>
+<item>교육</item>
+<item>SOAP_OPERA</item>
+<item>MINI_SERIES</item>
+<item>연속물</item>
+<item>버라이어티</item>
+<item>REALITY_SHOW</item>
+<item>INFOMATION</item>
+<item>웃기는 것</item>
+<item>어린이</item>
+<item>에로물</item>
+<item>영화</item>
+<item>RA_TE_SA_PR</item>
+<item>DEBATE_INTERVIEW</item>
+<item>기타</item>
+</string-array>
+
+<string-array name="nav_epg_subtype_movie">
+<item>Drama</item>
+<item>탐정</item>
+<item>모험</item>
+<item>SF 공상</item>
+<item>Comedy</item>
+		<item>Soap</item>
+<item>로맨스</item>
+<item>심각한 것</item>
+<item>성인 영화</item>
+</string-array>
+
+<string-array name="nav_epg_subtype_news">
+		<item>Current Affairs</item>
+<item>날씨 예보</item>
+<item>뉴스 매거진</item>
+<item>Documentary</item>
+<item>토론</item>
+</string-array>
+<string-array name="nav_epg_subtype_sa_news">
+<item>News</item>
+<item>보고</item>
+<item>Documentary</item>
+<item>전기</item>
+</string-array>
+<string-array name="nav_epg_subtype_show">
+		<item>Show</item>
+<item>게임 쇼</item>
+<item>버라이어티 쇼</item>
+<item>토크 쇼</item>
+</string-array>
+
+<string-array name="nav_epg_subtype_sports">
+<item>Sports</item>
+<item>특별 이벤트</item>
+<item>스포츠 매거진</item>
+<item>축구</item>
+<item>테니스</item>
+<item>팀 스포츠</item>
+<item>육상 경기</item>
+<item>모터 스포츠</item>
+<item>수상 스포츠</item>
+<item>동계 스포츠</item>
+<item>승마</item>
+<item>무술</item>
+</string-array>
+<string-array name="nav_epg_subtype_sa_sports">
+<item>Sports</item>
+</string-array>
+
+<string-array name="nav_epg_subtype_children">
+		<item>Children\'s</item>
+<item>취학전 아동용</item>
+<item>6 ~ 14세용 오락</item>
+<item>10 ~ 14세용 오락</item>
+<item>정보</item>
+<item>만화</item>
+</string-array>
+
+<string-array name="nav_epg_subtype_music">
+<item>뮤직</item>
+<item>록</item>
+<item>심각한 것</item>
+<item>포크</item>
+<item>재즈</item>
+<item>뮤지컬</item>
+<item>발레</item>
+</string-array>
+
+<string-array name="nav_epg_subtype_arts">
+		<item>Arts</item>
+<item>공연 예술</item>
+<item>미술</item>
+<item>종교</item>
+<item>대중 문화</item>
+<item>문학</item>
+<item>영화</item>
+<item>실험</item>
+<item>방송</item>
+<item>뉴 미디어</item>
+<item>예술 매거진</item>
+<item>패션</item>
+</string-array>
+
+<string-array name="nav_epg_subtype_social">
+		<item>Social</item>
+<item>매거진</item>
+<item>경제</item>
+<item>주목할 만한 사람들</item>
+</string-array>
+
+<string-array name="nav_epg_subtype_education">
+<item>Education</item>
+<item>자연</item>
+<item>기술</item>
+<item>의학</item>
+<item>외국</item>
+<item>사회 과학</item>
+<item>성인 교육</item>
+<item>언어</item>
+</string-array>
+<string-array name="nav_epg_subtype_sa_education">
+<item>교육물</item>
+</string-array>
+<string-array name="nav_epg_subtype_sa_soap_opera">
+<item>Soap opera</item>
+</string-array>
+
+<string-array name="nav_epg_subtype_sa_mini_series">
+<item>미니시리즈</item>
+</string-array>
+
+<string-array name="nav_epg_subtype_sa_series">
+<item>Series</item>
+</string-array>
+<string-array name="nav_epg_subtype_sa_variety">
+<item>강당</item>
+		<item>Show</item>
+<item>뮤지컬</item>
+<item>뒷이야기</item>
+<item>여성</item>
+		<item>Game show</item>
+</string-array>
+<string-array name="nav_epg_subtype_sa_reality_show">
+<item>리얼리티 쇼</item>
+</string-array>
+<string-array name="nav_epg_subtype_sa_information">
+<item>요리</item>
+<item>패션</item>
+<item>국가</item>
+<item>건강</item>
+<item>여행</item>
+</string-array>
+<string-array name="nav_epg_subtype_sa_comical">
+<item>Comical</item>
+</string-array>
+<string-array name="nav_epg_subtype_sa_children">
+<item>Children</item>
+</string-array>
+<string-array name="nav_epg_subtype_sa_erotic">
+<item>Erotic</item>
+</string-array>
+<string-array name="nav_epg_subtype_sa_movie">
+<item>Movie</item>
+</string-array>
+<string-array name="nav_epg_subtype_sa_RA_TE_SA_PR">
+<item>래플</item>
+<item>텔레비전 판매</item>
+<item>프라이징</item>
+</string-array>
+<string-array name="nav_epg_subtype_sa_DEBATE_INTERVIEW">
+<item>토론</item>
+<item>인터뷰</item>
+</string-array>
+<string-array name="nav_epg_subtype_sa_other">
+<item>성인 만화</item>
+<item>인터액티브</item>
+<item>정책</item>
+<item>종교</item>
+</string-array>
+
+<string-array name="nav_epg_subtype_leisure">
+<item>레저 취미</item>
+<item>관광</item>
+<item>수공예</item>
+<item>모터링</item>
+<item>피트니스 및 건강</item>
+<item>요리</item>
+<item>광고</item>
+<item>원예</item>
+</string-array>
+
+<string-array name="nav_epg_subtype_special">
+<item>원본 언어</item>
+<item>흑백</item>
+<item>출시 안 됨</item>
+<item>생방송</item>
+</string-array>
+
+
+<!-- MTS -->
+<string-array name="nav_mts_strings">
+<item>알 수 없음</item>
+		<item>MONO</item>
+		<item>STEREO</item>
+		<item>SUB_LANG</item>
+		<item>DUAL1</item>
+		<item>DUAL2</item>
+		<item>NICAM_MONO</item>
+		<item>NICAM_STEREO</item>
+		<item>NICAM_DUAL1</item>
+		<item>NICAM_DUAL2</item>
+		<item>FM_MONO</item>
+		<item>FM_STEREO</item>
+</string-array>
+
+<!-- AUDIO_TVCM -->
+<string-array name="nav_audio_tvcm_strings">
+		<item>baq</item>
+		<item>eus</item>
+		<item>bul</item>
+		<item>cat</item>
+		<item>scr</item>
+		<item>cze</item>
+		<item>dan</item>
+		<item>dut</item>
+		<item>eng</item>
+		<item>fin</item>
+		<item>fre</item>
+		<item>gla</item>
+		<item>gdh</item>
+		<item>gle</item>
+		<item>glg</item>
+		<item>ger</item>
+		<item>gre</item>
+		<item>hun</item>
+		<item>ita</item>
+		<item>nor</item>
+		<item>pol</item>
+		<item>por</item>
+		<item>rum</item>
+		<item>rus</item>
+		<item>scc</item>
+		<item>slo</item>
+		<item>slv</item>
+		<item>spa</item>
+		<item>swe</item>
+		<item>tur</item>
+		<item>wel</item>
+		<item>ice</item>
+		<item>isl</item>
+		<item>smi</item>
+		<item>tha</item>
+		<item>vie</item>
+		<item>ara</item>
+		<item>zho</item>
+		<item>chi</item>
+		<item>per</item>
+		<item>kor</item>
+		<item>est</item>
+		<item>mao</item>
+		<item>cmn</item>
+		<item>yue</item>
+		<item>jpn</item>
+		<item>hin</item>
+		<item>nar</item>
+		<item>qaa</item>
+		<item>und</item>
+</string-array>
+
+<!-- AUDIO -->
+<string-array name="nav_audio_strings">
+<item>바스크어</item>
+<item>바스크어</item>
+<item>불가리아어</item>
+		<item>catalan</item>
+<item>크로아티아어</item>
+<item>체코</item>
+<item>덴마크어</item>
+<item>네덜란드어</item>
+<item>영어</item>
+<item>핀란드어</item>
+		<item>french</item>
+		<item>gaelic</item>
+		<item>gaelic</item>
+<item>아일랜드어</item>
+<item>갈레어</item>
+		<item>german</item>
+		<item>greek</item>
+		<item>hungarian</item>
+		<item>italian</item>
+		<item>norwegian</item>
+		<item>polish</item>
+		<item>portuguese</item>
+		<item>romanian</item>
+		<item>russian</item>
+		<item>serbian</item>
+		<item>slovak</item>
+		<item>slovenian</item>
+		<item>spanish</item>
+		<item>swedish</item>
+		<item>turkish</item>
+		<item>welsh</item>
+		<item>icelandic</item>
+		<item>icelandic</item>
+<item>사미 언어</item>
+<item>태국어</item>
+<item>베트남어</item>
+<item>아라비아어</item>
+<item>번체 중국어</item>
+<item>간체 중국어</item>
+<item>페르시아어</item>
+<item>한국어</item>
+<item>에스토니아</item>
+<item>마오리어</item>
+<item>만다린어</item>
+<item>광동어</item>
+<item>일본어</item>
+<item>힌디어</item>
+<item>내레이션</item>
+<item>프랑스용 원본</item>
+<item>정의되지 않음</item>
+</string-array>
+
+<string-array name="nav_bottom_volume">
+<item>마스터 볼륨</item>
+<item>전면 왼쪽 볼륨</item>
+<item>전면 오른쪽 볼륨</item>
+<item>후면 왼쪽 볼륨</item>
+<item>후면 오른쪽 볼륨</item>
+<item>가운데 볼륨</item>
+<item>서브 우퍼 볼륨</item>
+</string-array>
+
+<string-array name="nav_zoom_mode">
+		<item>Zoom x 1/2</item>
+		<item>Zoom x 1</item>
+		<item>Zoom x 2</item>
+</string-array>
+
+<string-array name="nav_receiver_type">
+<item>케이블</item>
+<item>안테나</item>
+</string-array>
+<string-array name="pvr_tshift_initdisk_step1">
+		<item>Auto</item>
+<item>수동</item>
+</string-array>
+<string-array name="pvr_tshift_initdisk_step_format">
+<item>포맷</item>
+<item>스킵</item>
+</string-array>
+<string-array name="pvr_tshift_initdisk_step_formatconfirm">
+<item>포맷</item>
+<item>취소</item>
+</string-array>
+
+<string-array name="week_day">
+<item>일요일</item>
+<item>월요일</item>
+<item>화요일</item>
+<item>수요일</item>
+<item>목요일</item>
+<item>금요일</item>
+<item>토요일</item>
+</string-array>
+<string-array name="nav_oad_btns_cancel">
+<item>취소</item>
+</string-array>
+<string-array name="nav_oad_btns_accept_remind_me_later">
+<item>수용</item>
+<item>나중을 위해 기억</item>
+</string-array>
+<string-array name="nav_oad_btns_accept_reject">
+<item>수용</item>
+<item>거부</item>
+</string-array>
+
+<string-array name="nav_oad_btns_yes_no">
+<item>예</item>
+<item>아니오</item>
+</string-array>
+
+
+
+
+
+<!--
+				0:	MSG_STR_ID_EMPTY,						hide screen saver
+     				1:	MSG_STR_ID_NO_SIGNAL,					No Signal!
+     				2:	MSG_STR_ID_SCAN_CH,					Please Scan Channels!
+     				3:	MSG_STR_ID_GETTING_DATA,				Retrieving Data...
+     				4:	MSG_STR_ID_LOCKED_CH,					Channel Locked!
+     				5:	MSG_STR_ID_LOCKED_PROG,				Program Locked!
+     				6:	MSG_STR_ID_LOCKED_INP,					Input Locked!
+     				7:	MSG_STR_ID_NO_EVN_TILE,					(No program title.)
+     				8:	MSG_STR_ID_HIDDEN_CH,					Hidden Channel!
+     				9:	MSG_STR_ID_AUDIO_PROG,					Audio Program
+     				10:	MSG_STR_ID_NO_AUDIO_VIDEO,			No Audio and Video
+     				11:	MSG_STR_ID_NO_EVN_DTIL,				(No program details.)
+     				12:	MSG_STR_ID_NO_CH_DTIL,					(No channel details.)
+     				13:	MSG_STR_ID_NO_AUDIO_STRM,				no audio stream ??
+     				14:	MSG_STR_ID_NO_VIDEO_STRM,				no video stream ??
+     				15:	MSG_STR_ID_PLS_WAIT,					Please Wait...
+     				16:	MSG_STR_ID_VIDEO_NOT_SUPPORT,			video not support ??
+     				17:	MSG_STR_ID_HD_VIDEO_NOT_SUPPORT,		HD Service
+     				18:	MSG_STR_ID_NON_BRDCSTING,				Non-Broadcasting
+     				19:	MSG_STR_ID_NO_CH_IN_LIST,				no channel ??
+     				20:	MSG_STR_ID_TTX_SBTI_X_RATED_BLOCKED,	This content is blocked by your service provider
+     				255:	MSG_STR_ID_LAST_VALID_ENTRY,			only for counting purpose
+-->
+<string-array name="nav_twinkle_strings">
+<item></item>
+<item>신호 없음!</item>
+<item>채널을 스캔하십시오!</item>
+<item>데이터 검색 중...</item>
+<item>채널 잠금!</item>
+<item>프로그램 잠금!</item>
+<item>입력 잠금!</item>
+<item>(프로그램 제목 없음.)</item>
+<item>숨겨진 채널!</item>
+		<item>Audio Program</item>
+<item>무효 서비스</item>
+<item>(프로그램 정보 없음.)</item>
+<item>(채널 정보 없음.)</item>
+<item>♪ 오디오 스트림 없음 ♪</item>
+<item>비디오 스트림 없음</item>
+<item>기다려주십시오 …</item>
+<item>비지오 지원 안 됨</item>
+<item>HD 서비스</item>
+<item>비 방송</item>
+<item>채널 없음</item>
+<item>이 컨텐츠는 서비스 공급업체에 의해 차단되었습니다</item>
+<item>스크램블됨</item>
+</string-array>
+
+
+<string-array name="nav_channel_type">
+<item>전체</item>
+<item>디지털</item>
+<item>라디오</item>
+<item>아날로그</item>
+</string-array>
+<string-array name="dvbs_scan_mode_arrays">
+        <item>@string/dvbs_scan_mode_network</item>
+        <item>@string/dvbs_scan_mode_full</item>
+</string-array>
+<string-array name="dvbs_scan_mode2_arrays">
+        <item>@string/dvbs_scan_mode_auto</item>
+        <item>@string/dvbs_scan_mode_preset</item>
+</string-array>
+<string-array name="dvbs_diseqc_input_arrays">
+        <item>@string/dvbs_diseqc_input_1</item>
+        <item>@string/dvbs_diseqc_input_2</item>
+        <item>@string/dvbs_diseqc_input_3</item>
+        <item>@string/dvbs_diseqc_input_4</item>
+        <item>@string/dvbs_diseqc_input_0</item>
+</string-array>
+<string-array name="dvbs_diseqc_10port_arrays">
+        <item>@string/dvbs_diseqc_input_1</item>
+        <item>@string/dvbs_diseqc_input_2</item>
+        <item>@string/dvbs_diseqc_input_3</item>
+        <item>@string/dvbs_diseqc_input_4</item>
+        <item>@string/dvbs_tone_burst_a</item>
+        <item>@string/dvbs_tone_burst_b</item>
+        <item>@string/dvbs_diseqc_input_0</item>
+</string-array>
+<string-array name="dvbs_diseqc_motor_arrays">
+        <item>@string/dvbs_diseqc_input_0</item>
+        <item>@string/dvbs_diseqc_motor_12</item>
+</string-array>
+<string-array name="dvbs_diseqc_motor_store_position_arrays">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+</string-array>
+<string-array name="dvbs_diseqc_movement_control_arrays">
+<item>논스톱</item>
+<item>스텝</item>
+<item>시간초과</item>
+</string-array>
+<string-array name="dvbs_tone_22khz_arrays">
+        <item>@string/dvbs_tone_22khz_off</item>
+        <item>@string/dvbs_tone_22khz_on</item>
+        <item>@string/dvbs_tone_22khz_auto</item>
+</string-array>
+
+<string-array name="dvbs_tp_pol_arrays">
+        <item>@string/dvbs_tp_pol_1_HORIZONTAL</item>
+        <item>@string/dvbs_tp_pol_2_VERTICAL</item>
+</string-array>
+<string-array name="dvbs_channel_arrays">
+        <item>@string/dvbs_channel_free</item>
+        <item>@string/dvbs_channel_all</item>
+</string-array>
+<string-array name="dvbs_antenna_type_arrays">
+        <item>@string/dvbs_antenna_type_universal</item>
+        <item>@string/dvbs_antenna_type_singlecable</item>
+</string-array>
+<string-array name="dvbs_user_band_arrays">
+        <item>@string/dvbs_user_band_1</item>
+        <item>@string/dvbs_user_band_2</item>
+        <item>@string/dvbs_user_band_3</item>
+        <item>@string/dvbs_user_band_4</item>
+        <item>@string/dvbs_user_band_5</item>
+        <item>@string/dvbs_user_band_6</item>
+        <item>@string/dvbs_user_band_7</item>
+        <item>@string/dvbs_user_band_8</item>
+</string-array>
+<string-array name="dvbs_user_band_freq_arrays">
+        <item>"1210"</item>
+        <item>"1400"</item>
+        <item>"1516"</item>
+        <item>"1632"</item>
+        <item>"1748"</item>
+        <item>"1864"</item>
+        <item>"1980"</item>
+        <item>"2096"</item>
+</string-array>
+<string-array name="dvbs_position_arrays">
+        <item>@string/dvbs_tp_pol_0_unknown</item>
+        <item>@string/dvbs_position_a</item>
+        <item>@string/dvbs_position_b</item>
+        <item>@string/dvbs_position_c</item>
+        <item>@string/dvbs_position_d</item>
+</string-array>
+<string-array name="dvbs_preferred_satellite_arrays">
+<item>@string/dvbs_preferred_satellite</item>
+<item>@string/dvbs_general_satellite</item>
+</string-array>
+<string-array name="lnb_mdu1_arrays">
+<item>@string/dvbs_preferred_satellite</item>
+<item>@string/dvbs_general_satellite</item>
+</string-array>
+
+<string-array name="dvbs_tone_burst_arrays">
+        <item>@string/dvbs_tone_burst_a</item>
+        <item>@string/dvbs_tone_burst_b</item>
+        <item>@string/dvbs_tone_burst_disable</item>
+</string-array>
+
+<string-array name="dvbs_sat_on_off">
+        <item>@string/dvbs_sat_on</item>
+        <item>@string/dvbs_sat_off</item>
+</string-array>
+
+<string-array name="dvbs_sat_lnb_power">
+        <item>@string/dvbs_sat_off</item>
+        <item>@string/dvbs_sat_TUNER_LNB_POWER_13V_18V</item>
+        <item>@string/dvbs_sat_TUNER_LNB_POWER_14V_19V</item>
+        <item>@string/dvbs_sat_on</item>
+</string-array>
+
+<string-array name="dvbs_sat_lnbfreq">
+        <item>@string/lnb_universal</item>
+        <item>9750,10700</item>
+        <item>9750,10750</item>
+        <item>5150</item>
+        <item>5750</item>
+        <item>9750</item>
+        <item>10600</item>
+        <item>10750</item>
+        <item>11250</item>
+        <item>11300</item>
+        <item>11475</item>
+</string-array>
+
+
+</resources>

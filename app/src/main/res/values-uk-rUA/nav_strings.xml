@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="setup_ini">Початкова установка</string>
+    <string name="setup_back">Назад</string>
+    <string name="setup_select">Виберіть</string>
+    <string name="setup_next">Далі</string>
+    <string name="setup_exit">ВИЙТИ</string>
+    <string name="setup_welcome">Ласкаво просимо</string>
+    <string name="setup_welcome_set">Використовуйте Майстер налаштувань для початкової
+        установки!!\nНатисніть [ENTER] для початку роботи з Майстром налаштувань.
+    </string>
+    <string name="setup_language">Мова</string>
+    <string name="setup_select_language">Оберіть мову:</string>
+    <string name="setup_select_one_op">Ви можете обрати тільки одного оператора зі списку:</string>
+    <string name="setup_tunner">Режим тюнера</string>
+    <string name="setup_select_tuner">Оберіть режим тюнера:</string>
+    <string name="setup_channelscan">Сканування каналів</string>
+    <string name="setup_set_setps">Спершу приєднайте антену.\nРозпочати сканування каналів
+        зараз?\nЯкщо ви пропустите цей крок, сканування каналів може бути виконане в
+        Меню.
+    </string>
+    <string name="setup_set_setps_us">Спершу приєднайте кабель або антену.\n\nРозпочати сканування каналів?\n\nЯкщо ви
+        пропустите цей крок, сканування каналів може бути виконане в Меню.
+    </string>
+    <string name="setup_language_english">Англійська </string>
+    <string name="setup_tuner_antenna">Антена</string>
+    <string name="setup_scan">Пошук</string>
+    <string name="setup_skip_scan">Пропустити сканування</string>
+    <string name="setup_complete">Завершено</string>
+    <string name="setup_congratulations">Вітаємо!\nПочаткова установка завершена.\nНатисніть [ENTER] для виходу з
+        Майстра налаштування.
+    </string>
+    <string name="setup_channel_scan_note">Сканування каналів може зайняти деякий час.</string>
+    <string name="setup_channel_scan_status">Статус: сканування</string>
+    <string name="setup_channel_scan_analog">Аналоговий канал:</string>
+    <string name="setup_channel_scan_digital">Цифрові канали:</string>
+    <string name="setup_cancel">Відміна</string>
+    <string name="setup_cancel_scan">Статус: скасувати сканування</string>
+    <string name="setup_scan_error">Статус: Помилка при скануванні</string>
+    <string name="setup_channel_scan_status_complete">Статус: завершити сканування</string>
+    <string name="dvbs_operator_perferred_satellite">основний супутник</string>
+    <string name="dvbs_operator_general_satellite">загальний супутник</string>
+
+    <string name="table">Список сторінок</string>
+    <string name="nav_test_tv">ТВ</string>
+
+    <string name="nav_source_main_title">Основний</string>
+    <string name="nav_source_sub_title">Додатково</string>
+
+    <string name="nav_please_scan_channels">Проскануйте канали!</string>
+    <string name="nav_no_function">Немає функції</string>
+    <string name="nav_select_list">Оберіть список</string>
+    <string name="nav_page_up">На сторінку вверх</string>
+    <string name="nav_page_down">На сторінку вниз</string>
+    <string name="nav_fav_move_up">Підняти</string>
+    <string name="nav_fav_move_down">Опустити</string>
+    <string name="nav_exit">ВИЙТИ</string>
+    <string name="nav_list_satellite">Список супутників</string>
+    <string name="nav_satellite_list">Оберіть супутник</string>
+    <string name="nav_channel_list">Список каналів</string>
+
+    <string name="nav_channel_list_title_str">Список каналів</string>
+    <string name="nav_channel_selection">Вибір списку каналів</string>
+    <string name="nav_channel_details">Деталі каналу</string>
+    <string name="nav_volume_main">Регулятор гучності</string>
+    <string name="nav_parent_psw">пароль</string>
+    <string name="nav_parent_dvbs_hint">Пароль було введено неправильно тричі!\nЗачекайте...</string>
+    <string name="nav_channel_antenna">Антена</string>
+    <string name="nav_favorite_list">FAV</string>
+    <string name="nav_favorite_select">Виберіть</string>
+
+    <string name="nav_channel_infoType">Антена</string>
+    <string name="nav_channel_infoMiddle_special">Отримання даних...</string>
+    <string name="nav_channel_infoTitle">(Немає назви програми.)</string>
+    <string name="nav_channel_infoNextDuration">Фондова біржа</string>
+    <string name="nav_channel_infoFormatField">Стерео</string>
+    <string name="nav_channel_infoNoProgram">(Немає інформації про програму.)</string>
+    <string name="nav_channel_infoNoChannelDetail">(Немає інформації про канал.)</string>
+    <string name="nav_no_signal">Немає сигналу!</string>
+    <string name="nav_no_support">Не підтримується!</string>
+    <string name="nav_channel_has_locked">Канал заблоковано!</string>
+    <string name="nav_input_has_locked">Введення заблоковано!</string>
+    <string name="nav_program_has_locked">Програму заблоковано!</string>
+    <string name="nav_hidden_channel">Прихований канал!</string>
+    <string name="nav_channel_audio_scrambled">Зашифроване аудіо</string>
+    <string name="nav_channel_video_scrambled">Зашифроване відео</string>
+    <string name="nav_sleep_label">Вимкнення:</string>
+    <string name="nav_sleep_off">ВИМК.</string>
+    <string name="nav_sleep_minutes">Хвилин</string>
+    <string name="nav_resolution_null">Немає відео</string>
+    <string name="nav_channel_retrieving">Отримання даних...</string>
+    <string name="nav_unknown_audio">Невідоме аудіо</string>
+    <string name="nav_unknown_stereo">Невідоме стерео</string>
+    <string name="nav_unknown_audio_sundry">Невідома</string>
+    <string name="nav_channel_no_audio">Немає аудіо</string>
+
+    <string name="nav_epg_type">Тип</string>
+    <string name="nav_epg_sub_type">Підтип</string>
+    <string name="nav_epg_zero_tip">Список замовлень</string>
+    <string name="nav_epg_book_list">Список замовлених заходів</string>
+    <string name="nav_epg_book_program_tip">\nЗамовити цю програму?</string>
+    <string name="nav_epg_unbook_program_tip">\nЦя програма вже замовлена, відмінити?</string>
+    <string name="nav_epg_book_program_coming_tip">Розпочинається, перемкнути канал?</string>
+    <string name="nav_epg_not_rated">Без рейтингу</string>
+    <string name="nav_epg_no_program_detail">(Немає інформації про програму.)</string>
+    <string name="nav_epg_no_program_data">(Немає даних програми.)</string>
+    <string name="nav_epg_no_program_title">(Немає назви програми.)</string>
+    <string name="nav_epg_no_title">(Немає назви)</string>
+    <string name="nav_epg_unlock">Розблокувати</string>
+    <string name="nav_epg_unschedule">Заплановану</string>
+    <string name="nav_epg_schedule">Розклад</string>
+    <string name="nav_epg_unclassified">Безсистемний</string>
+    <string name="nav_epg_not_support">Не підтримка</string>
+
+    <string name="cplogo_title">Захопити логотип</string>
+    <string name="cplogo_bt_ok">ОК</string>
+    <string name="cplogo_bt_cancel">Відміна</string>
+    <string name="cplogo_bt_full_screen">На весь екран</string>
+    <string name="cplogo_bt_special_area">Певна зона</string>
+    <string name="cplogo_bt_no">НІ</string>
+    <string name="cplogo_bt_adjust">Регулювати</string>
+    <string name="cplogo_msg_which_screen">Ви хочете зробити знімок всього екрану чи певної зони?</string>
+    <string name="cplogo_msg_this_screen">Ви хочете зробити знімок цього екрану?</string>
+    <string name="cplogo_msg_select_position">Оберіть місце, куди Ви хочете зберегти логотип</string>
+    <string name="cplogo_msg_capturing">Захоплення...</string>
+    <string name="cplogo_msg_adjust_position">Ви хочете настроїти розташування певної зони?</string>
+    <string name="cplogo_msg_res_success">Захоплення відбулося успішно</string>
+    <string name="cplogo_msg_res_fail">Не вдалося захопити, спробуйте знову</string>
+    <string name="cplogo_capture_res_cancel">Операцію відмінено</string>
+
+    <string name="vga_no_sinal_info">Відсутній сигнал. Живлення буде вимкнено.</string>
+
+    <string name="epg_bottom_prev_day">Попередній день</string>
+    <string name="epg_bottom_next_day">Наступний день</string>
+    <string name="epg_bottom_view_detail">Переглянути інформацію</string>
+    <string name="epg_bottom_type_filter">Фільтр за типами</string>
+    <string name="epg_bottom_prev_page">На сторінку вверх</string>
+    <string name="epg_bottom_next_page">На сторінку вниз</string>
+    <string name="epg_bottom_ENTER">Введіть</string>
+    <string name="epg_rating_unclassified">Безсистемний</string>
+
+    <string name="epg_info_program_type">НЕМАЄ</string>
+    <string name="epg_password">пароль</string>
+    <string name="epg_password_message">Неправильний пароль</string>
+    <string name="epg_retrieving_show">Отримання даних...</string>
+
+    <string name="nav_epg_January">Січень</string>
+    <string name="nav_epg_February">Лютий</string>
+    <string name="nav_epg_March">БЕРЕЗНЯ</string>
+    <string name="nav_epg_April">Квітень</string>
+    <string name="nav_epg_May">ТРАВЕНЬ</string>
+    <string name="nav_epg_June">Червень</string>
+    <string name="nav_epg_July">Липень</string>
+    <string name="nav_epg_August">Серпень</string>
+    <string name="nav_epg_September">Вересень</string>
+    <string name="nav_epg_October">Жовтень</string>
+    <string name="nav_epg_November">Листопад</string>
+    <string name="nav_epg_December">Грудень</string>
+
+    <string name="nav_epg_Jan">Січ.</string>
+    <string name="nav_epg_Feb">Лют.</string>
+    <string name="nav_epg_Mar">Бер.</string>
+    <string name="nav_epg_Apr">Квіт.</string>
+    <string name="nav_epg_may">ТРАВЕНЬ</string>
+    <string name="nav_epg_Jun">Черв.</string>
+    <string name="nav_epg_Jul">Лип.</string>
+    <string name="nav_epg_Aug">Серп.</string>
+    <string name="nav_epg_Sep">Вер.</string>
+    <string name="nav_epg_Oct">Жовт.</string>
+    <string name="nav_epg_Nov">Лист.</string>
+    <string name="nav_epg_Dec">Груд.</string>
+
+    <string name="nav_epg_Sunday">Неділя</string>
+    <string name="nav_epg_Monday">Понеділок</string>
+    <string name="nav_epg_Tuesday">Вівторок</string>
+    <string name="nav_epg_Wednesday">Середа</string>
+    <string name="nav_epg_Thursday">Четвер</string>
+    <string name="nav_epg_Friday">П’ятниця</string>
+    <string name="nav_epg_Saturday">Субота</string>
+
+    <string name="nav_epg_Sun">Неділя</string>
+    <string name="nav_epg_Mon">Понеділок</string>
+    <string name="nav_epg_Tue">Вівторок</string>
+    <string name="nav_epg_Wed">Середовища</string>
+    <string name="nav_epg_Thur">Чт</string>
+    <string name="nav_epg_Fri">П\'ятниця</string>
+    <string name="nav_epg_Sat">Сб</string>
+
+    <string name="nav_ginga_tv_title">Список додатків</string>
+    <string name="nav_select">Виберіть</string>
+    <string name="nav_ginga_tv_message">Немає додатків!</string>
+    <string name="nav_ginga_tv_for_infobar">Ginga завантажується...</string>
+    <string name="nav_ginga_tv_for_tips">Ви хочете зупинити CC і запустити Ginga?</string>
+
+    <string name="nav_upgrader_title">Завантаження Майстра налаштувань</string>
+    <string name="nav_upgrader_MoreInfo">Більше інформації</string>
+    <string name="nav_upgrader_invalid">Неправильний файл прошивки!!</string>
+    <string name="nav_upgrader_updating">Оновлення...</string>
+    <string name="nav_upgrader_warnning">НЕ від\'єднуйте USB і НЕ вимикайте телевізор під час оновлення прошивки!!
+    </string>
+    <string name="nav_upgrader_validate">Перевірка прошивки…</string>
+    <string name="nav_upgrader_confirm">Ви впевнені, що хочете оновити прошивку?</string>
+    <string name="nav_upgrader_completed">Прошивка успішно оновлена.\nПерезапустіть телевізор, щоб активувати нову
+        прошивку.
+    </string>
+    <string name="nav_upgrader_failed">Не вдалося оновити.\nПерезапустіть телевізор та завантажте прошивку знову.
+    </string>
+    <string name="nav_upgrader_retry">Не вдалося оновити.\nПовторити спробу?</string>
+    <string name="nav_upgrader_retry2">Не вдалося оновити, вставте USB.\nПовторити спробу?</string>
+    <string name="nav_upgrader_usb_space_not_enough">Недостатньо місця на USB модемі.</string>
+    <string name="nav_upgrader_usb_not_ready">USB модем не готовий, вставте і повторіть спробу.</string>
+    <string name="nav_upgrader_internal_err">Внутрішня помилка.</string>
+    <string name="nav_upgrader_not_avail_firmware">Немає доступних версій прошивки.</string>
+    <string name="nav_upgrader_decry_fail">Не вдалося розшифрувати.</string>
+    <string name="nav_upgrader_firmware_invalid">Неправильна прошивка.</string>
+    <string name="nav_upgrader_no_update">Немає доступних оновлень прошивки.</string>
+    <string name="nav_upgrader_check_fail">Не вдалося перевірити наявність прошивок.</string>
+    <string name="nav_upgrader_download_fail">Не вдається завантажити прошивку з мережі.</string>
+    <string name="nav_upgrader_usb_problem">Виникли деякі проблеми з USB модемом.</string>
+    <string name="nav_upgrader_power">Живлення</string>
+    <string name="nav_upgrader_yes">та</string>
+    <string name="nav_upgrader_no">НІ</string>
+    <string name="nav_upgrader_network_tip">Почати завантажувати нову прошивку з сервера.</string>
+    <string name="nav_mheg5_tips">Закрийте СУБТИТРИ перед увімкненням цифрового телетексту. Продовжити?</string>
+
+    <string name="common_dialog_msg_yes">та</string>
+    <string name="common_dialog_msg_no">НІ</string>
+    <string name="common_dialog_ews_service_content">Ви хочете перемкнути послуги EWS?</string>
+    <string name="common_dialog_special_service_content">Ви хочете перемкнути спеціальні послуги?</string>
+    <string name="commmon_dialog_book_reminder_content">доступне, перемкнути на нього?</string>
+    <string name="common_dialog_start_cc_stop_ginga">Ви хочете зупинити Ginga і відкрити СС?</string>
+
+    <string name="nav_ttx_top_block">Блок </string>
+    <string name="nav_ttx_top_group">Група</string>
+    <string name="nav_ttx_top_page">Сторінка</string>
+    <string name="nav_ttx_no_top">Без верху</string>
+
+    <string name="nav_banner_not_rating">Без рейтингу</string>
+    <string name="cam_scan_warning">CI Plus Network змінено, Ви можете знайти оновлення мережі!</string>
+    <string name="cam_scan_urgent">CI Plus Network оновлено, Ви повинні знайти оновлення мережі!</string>
+    <string name="cam_scan_not_init">CI Plus Network не ініціалізовано, Ви повинні знайти оновлення мережі!</string>
+    <string name="cam_scan_schedule">CI Plus Network настав запланований час пошуку, розпочніть пошук оновлень мережі!
+    </string>
+
+    <string name="setup_select_country">Оберіть країну:</string>
+    <string name="setup_country">Країна </string>
+    <string name="setup_dvbc_setting">Налаштуйте інформацію про кабель</string>
+    <string name="setup_timezone">Часовий пояс</string>
+    <string name="setup_language_Catalan">Каталонський</string>
+    <string name="setup_language_Gaelic">Гаельська</string>
+    <string name="setup_language_Welsh">Валлійська</string>
+    <string name="setup_language_english_eu">Англійська </string>
+    <string name="setup_language_Catalan_eu">Каталонський</string>
+    <string name="setup_language_Gaelic_eu">Гаельська</string>
+    <string name="setup_language_Welsh_eu">Валлійська</string>
+    <string name="setup_dvbc_config_scanmode">Режим пошуку</string>
+    <string name="setup_dvbc_config_frequency">Частота (кГц)</string>
+    <string name="setup_dvbc_config_modulation">Модуляція</string>
+    <string name="setup_dvbc_config_symbolrate">Символьна швидкість (ксим/с)</string>
+    <string name="setup_dvbc_config_networkid">Мережевий ID</string>
+
+    <string name="setup_set_password_titile1">Новий пароль</string>
+    <string name="setup_set_password_titile2">Підтвердити пароль</string>
+    <string name="setup_dvbs_satellite_list">Оберіть супутник</string>
+    <string name="setup_dvbs_satellite_config">Встановлення антени</string>
+    <string name="setup_select_set">встановити</string>
+    <string name="nav_oad_dialog_title">Бездротове завантаження</string>
+    <string name="nav_oad_scanning">Сканування</string>
+    <string name="nav_oad_scanning_result_fail">Неможливо знайти нове програмне забезпечення</string>
+
+    <string name="nav_oad_programming">Виконання програми</string>
+    <string name="nav_oad_downloading">Завантажується</string>
+    <string name="nav_oad_downloading_info">Процес може зайняти до 25 хвилин.</string>
+    <string name="nav_oad_flash_confirm">Завантаження відбулося успішно. Бажаєте активувати?</string>
+    <string name="nav_oad_flash_fail">Не вдалося виконати програму. Спробувати знову?\n\nЗверніться до Центру
+        обслуговування клієнтів.
+    </string>
+    <string name="nav_oad_restart_confirm">Програмне забезпечення завантажено вдало! Перезапустити телевізор?</string>
+
+    <string name="nav_oad_warning_msg_str">Попередження: Під час процесу. Не від\'єднуйте кабель живлення, оскільки це
+        може призвести до некоректної роботи телевізора.
+    </string>
+
+    <string name="nav_oad_manual_download_confirm">Оновлення програмного забезпечення. Доступне нове рекомендоване
+        програмне забезпечення. Оновлення може тривати деякий час і екран може погаснути. Не вимикайте ресивер під час
+        оновлення. Хочете оновити зараз?
+    </string>
+    <string name="nav_oad_manual_download_fail">Неможливо завантажити програмне забезпечення. Ви хочете повторити
+        спробу?
+    </string>
+
+    <string name="nav_oad_auto_download_confirm">Оновлення програмного забезпечення. Доступне нове рекомендоване
+        програмне забезпечення. Оновлення може тривати деякий час і екран може погаснути. Не вимикайте приймач під час
+        оновлення. Хочете оновити зараз? Оновлення розпочнеться автоматично через %s секунд
+    </string>
+
+    <string name="nav_oad_schedule_oad_accept_schedule_confirm">Оновлення програмного забезпечення. Нове рекомендоване
+        програмне забезпечення буде доступне%s. Оновлення може тривати деякий час і екран може погаснути. Не вимикайте
+        приймач під час оновлення. Якщо Ви приймаєте це оновлення, залиште ресивер включеним або в режимі очікування в
+        призначений час. Ви хочете отримати це оновлення?
+    </string>
+    <string name="nav_oad_schedule_oad_change_channel_confirm">Оновлення програмного забезпечення. Нове рекомендоване
+        оновлення програмного забезпечення може знаходитися на іншому каналі. Якщо Ви погоджуєтесь на його завантаження,
+        канал може перемкнутися автоматично. Ви хочете зробити це зараз? Процес розпочнеться автоматично через %s секунд
+    </string>
+    <string name="nav_oad_atuo_download_with_bgm">Виявлено нове програмне забезпечення!\nДозволити автоматичне
+        завантаження програмного забезпечення після переходу телевізора в режим очікування?
+    </string>
+
+    <string name="setup_language_english_value">Виконання програми</string>
+    <string name="setup_language_chinese_value">Виконання програми</string>
+    <string name="setup_language_spanish_value">Виконання програми</string>
+    <string name="setup_language_french_value">Виконання програми</string>
+    <string name="setup_language_portuguese_value">Виконання програми</string>
+
+    <string name="setup_country_cty_1">Австрія</string>
+    <string name="setup_country_cty_2">Бельгія</string>
+    <string name="setup_country_cty_3">Швейцарія</string>
+    <string name="setup_country_cty_4">Чеська Республіка</string>
+    <string name="setup_country_cty_5">Німеччина </string>
+    <string name="setup_country_cty_6">Данія </string>
+    <string name="setup_country_cty_7">Іспанія </string>
+    <string name="setup_country_cty_8">Фінляндія </string>
+    <string name="setup_country_cty_9">Франція </string>
+    <string name="setup_country_cty_10">Велика Британія</string>
+    <string name="setup_country_cty_11">Італія </string>
+    <string name="setup_country_cty_12">Люксембург</string>
+    <string name="setup_country_cty_13">Нідерланди</string>
+    <string name="setup_country_cty_14">Норвегія </string>
+    <string name="setup_country_cty_15">Швеція </string>
+    <string name="setup_country_cty_16">Болгарія</string>
+    <string name="setup_country_cty_17">Хорватія</string>
+    <string name="setup_country_cty_18">Греція</string>
+    <string name="setup_country_cty_19">Угорщина </string>
+    <string name="setup_country_cty_20">Ірландія</string>
+    <string name="setup_country_cty_21">Польща </string>
+    <string name="setup_country_cty_22">Португалія </string>
+    <string name="setup_country_cty_23">Румунія</string>
+    <string name="setup_country_cty_24">Росія </string>
+    <string name="setup_country_cty_25">Сербія</string>
+    <string name="setup_country_cty_26">Словаччина</string>
+    <string name="setup_country_cty_27">Словенія</string>
+    <string name="setup_country_cty_28">Туреччина</string>
+    <string name="setup_country_cty_29">Естонія</string>
+    <string name="setup_country_cty_30">Австралія</string>
+    <string name="setup_country_cty_31">М.-Гросу</string>
+    <string name="setup_country_cty_32">Індонезія</string>
+    <string name="setup_set_timezone">Оберіть Ваш часовий пояс:</string>
+    <string name="setup_set_password_title">Встановіть пароль. «0000» неправильний пароль</string>
+    <string name="setup_set_postalcode">Введіть поштовий індекс.</string>
+    <string name="setup_set_password_success_msg">Пароль успішно встановлено!</string>
+
+    <string name="dvbc_operator_others">Інші</string>
+    <string name="dvbt_inactivechannel_nw_chg">Деякі канали стали неактивними через зміну мережі. Видалити їх зараз?
+    </string>
+    <string name="tnt_hd_nw_chg">Дані мережі змінено. Ви хочете виконати сканування оновлень?</string>
+    <string name="dvbs_operator_others">Інші</string>
+    <string name="dvbs_antenna_type_name_universal">Універсальний</string>
+    <string name="dvbs_antenna_type_name_singlecable">Одножильний кабель</string>
+    <string name="dvbs_antenna_setup">Встановлення антени</string>
+    <string name="dvbs_satellite_name">Ім’я супутника</string>
+    <string name="dvbs_satellite_orbit">Розташування орбіти</string>
+    <string name="dvbs_lnb_freq">Частота LNB</string>
+    <string name="dvbs_diseqc12_motor_storeposition">Зберегти положення</string>
+    <string name="dvbs_diseqc12_motor_gotoposition">Перейти до позиції</string>
+    <string name="dvbs_diseqc12_motor_gotoreference">Позиція "0"</string>
+    <string name="dvbs_diseqc12_movement_stepsize">Розмір кроку</string>
+    <string name="dvbs_diseqc12_movement_timeout">Затримка(и)</string>
+    <string name="dvbs_diseqc12_movement_moveeast">Переміститися на схід</string>
+    <string name="dvbs_diseqc12_movement_movewest">Переміститися на захід</string>
+    <string name="dvbs_diseqc12_movement_stopmovement">Зупинити переміщення</string>
+    <string name="dvbs_tone_22khz_off">ВИМК.</string>
+    <string name="dvbs_tone_22khz_on">УВІМК.</string>
+    <string name="dvbs_tone_22khz_auto">Авто</string>
+    <string name="dvbs_trasponder">Транспондер</string>
+    <string name="dvbs_tp_fre">Частота </string>
+    <string name="dvbs_tp_sys_rate">Символьна швидкість (ксим/с)</string>
+    <string name="dvbs_tp_pol">Поляризація</string>
+
+    <string name="dvbs_tp_pol_0_unknown">Невідома</string>
+    <string name="dvbs_tp_pol_1_HORIZONTAL">Горизонтальний</string>
+    <string name="dvbs_tp_pol_2_VERTICAL">Вертикально</string>
+    <string name="dvbs_tp_pol_3_LEFT">Лівий</string>
+    <string name="dvbs_tp_pol_4_RIGHT"> Право </string>
+
+    <string name="dvbs_add_new_satl">Додати новий супутник</string>
+    <string name="dvbs_add_new_tp">Додати новий транспондер</string>
+    <string name="dvbs_satellite_tuning">Налаштування супутника</string>
+    <string name="dvbs_satellite_channel">Канали</string>
+    <string name="dvbs_scan_mode">Режим пошуку</string>
+    <string name="dvbs_network_search">Мережевий пошук</string>
+    <string name="dvbs_satellite_search">Пошук</string>
+    <string name="dvbs_scan_mode_auto">Авто</string>
+    <string name="dvbs_scan_mode_preset">Заздалегідь установлений</string>
+    <string name="dvbs_channel_free">Відкриті</string>
+    <string name="dvbs_channel_all">Все</string>
+    <string name="dvbs_scan_mode_network">Мережа</string>
+    <string name="dvbs_scan_mode_full">Повноекранний</string>
+    <string name="dvbs_scan_positon">Положення</string>
+    <string name="dvbs_lnb_power">Живлення LNB</string>
+    <string name="dvbs_antenna_type">Тип антени</string>
+    <string name="dvbs_antenna_type_universal">Універсальний</string>
+    <string name="dvbs_antenna_type_singlecable">Одножильний кабель</string>
+    <string name="dvbs_user_band">Тюнер</string>
+    <string name="dvbs_band_freq">Діапазон частот</string>
+    <string name="dvbs_band_freq_user_define">Визначається користувачем</string>
+    <string name="dvbs_position">Положення</string>
+    <string name="dvbs_air">Антена</string>
+    <string name="dvbs_preferred_satellite">Основний супутник</string>
+    <string name="dvbs_general_satellite">загальний супутник</string>
+    <string name="lnb_universal">Універсальний</string>
+    <string name="dvbs_sat_on">УВІМК.</string>
+    <string name="dvbs_sat_off">ВИМК.</string>
+    <string name="setup_tuner_satellite">Супутник</string>
+    <string name="dvbs_satellite_setting">Супутник</string>
+    <string name="setup_tuner_cable">Кабельне</string>
+    <string name="satellites">Супутники</string>
+    <string name="nav_channel_infoName">Jade</string>
+    <string name="nav_channel_infoAudioLanguage">1/2 Китайська</string>
+    <string name="setup_language_hrvatski">Естонія</string>
+    <string name="setup_language_Dansk">Німецький </string>
+    <string name="setup_language_Nederlands">Нідерланди</string>
+    <string name="setup_language_Suomi">Suomi </string>
+    <string name="setup_language_Deutsch">Данія </string>
+    <string name="setup_language_Svenska">Svenska</string>
+    <string name="setup_language_Dansk_eu">Німецький </string>
+    <string name="setup_language_Nederlands_eu">Нідерланди</string>
+    <string name="setup_language_Suomi_eu">Suomi </string>
+    <string name="setup_language_Deutsch_eu">Данія </string>
+    <string name="setup_language_Svenska_eu">Svenska</string>
+    <string name="setup_set_postal_code_editview">Поштовий індекс</string>
+    <string name="setup_cable_select_operation">Орати оператора</string>
+    <string name="setup_dvbs_statellite_type">Тип супутника</string>
+    <string name="setup_dvbs_statellite_type_title">Оберіть тип супутника</string>
+    <string name="setup_dvbs_statellite_select_operator">Орати оператора</string>
+    <string name="setup_dvbs_statellite_select_operator_title">Ви можете обрати тільки одного оператора зі списку.
+    </string>
+    <string name="setup_cable_setting_title">Налаштуйте інформацію про кабель.</string>
+    <string name="setup_dvbs_config_info_title">Налаштуйте інформацію про сканування.</string>
+    <string name="setup_dvbs_satellite_list_title">Виберіть супутники для сканування або відредагуйте обраний
+        супутник.
+    </string>
+    <string name="setup_dvbs_config_setting_title">Встановіть конфігурацію типу антени.</string>
+    <string name="setup_dvbs_satellite_config_title">Встановіть параметри супутника(-ів)</string>
+    <string name="setup_dvbs_satellite_config_tp_title">Встановіть параметри транспондера(-ів)</string>
+    <string name="setup_dvbs_satellite_config_diseqc_title">Встановіть параметри DiSEqC.</string>
+    <string name="setup_dvbs_satellite_config_diseqc12_motor_title">Встановіть параметри двигуна DiSEqC 1.2.</string>
+    <string name="setup_dvbs_satellite_config_diseqc12_movementcontrol_title">Встановіть параметри керування рухом
+        DiSEqC 1.2.
+    </string>
+    <string name="dvbc_operator_comhem">Comhem</string>
+    <string name="dvbc_operator_canal_digital">Canal Digital</string>
+    <string name="dvbc_operator_tele2">Tele2</string>
+    <string name="dvbc_operator_stofa">Stofa</string>
+    <string name="dvbc_operator_yousee">Yousee</string>
+    <string name="dvbc_operator_ziggo">Ziggo</string>
+    <string name="dvbc_operator_unitymedia">Unitymedia</string>
+    <string name="dvbc_operator_numericable">Numericable</string>
+    <string name="dvbc_operator_volia">Volia</string>
+    <string name="dvbc_operator_telemach">Telemach</string>
+    <string name="dvbc_operator_onlime">Onlime</string>
+    <string name="dvbc_operator_akado">Akado</string>
+    <string name="dvbc_operator_telent">Telent</string>
+    <string name="dvbc_operator_telent_eu">Telenet</string>
+    <string name="dvbc_operator_glenten">Glenten</string>
+    <string name="dvbc_operator_tele_columbus">Tele Columbus</string>
+    <string name="dvbs_operator_astra_hd_plus">Astra HD+</string>
+    <string name="dvbs_operator_sky_deutschland">Sky Deutschland</string>
+    <string name="dvbs_operator_austriasat">AustriaSat</string>
+    <string name="dvbs_operator_cannal_digital">AustriaSat</string>
+    <string name="dvbs_operator_tv_vlaanderen_hd">TV VLAANDEREN HD</string>
+    <string name="dvbs_operator_tv_vlaanderen_sd">TV VLAANDEREN SD</string>
+    <string name="dvbs_operator_telesat_belgium">Telesat Бельгія</string>
+    <string name="dvbs_operator_telesat_luxembourg">Telesat Люксембург</string>
+    <string name="dvbs_operator_seznam_kanalu_pro_cesko">Seznam kanalu pro Cesko</string>
+    <string name="dvbs_operator_seznam_kanalu_pro_slovensko">Seznam kanalu pro Slovensko</string>
+    <string name="dvbs_operator_cannaldigitaal_hd">CannalDigitaal HD</string>
+    <string name="dvbs_operator_cannaldigitaal_sd">CannalDigitaal SD</string>
+    <string name="dvbs_operator_n_na_karte">n na karte</string>
+    <string name="dvbs_operator_digiturk_eutelsat">Digiturk Eutelsat</string>
+    <string name="dvbs_operator_digiturk_turksat">Digiturk Turksat</string>
+    <string name="dvbs_operator_fransat">Fransatll</string>
+    <string name="dvbs_operator_cyfraplus">Cyfra+</string>
+    <string name="dvbs_operator_cyfrowy_polsat">Cyfrowy Polsat</string>
+    <string name="dvbs_operator_dsmart">D-Smart</string>
+    <string name="dvbs_operator_ntvplus">NTV+</string>
+    <string name="dvbs_operator_name_nc_plus">nc+/nc+ MIX</string>
+    <string name="dvbs_operator_name_smart_hd_plus">smart HD+</string>
+    <string name="dvbs_operator_name_tivusat">tivùsat</string>
+    <string name="dvbs_diseqc_set">Встановити DiSEqC</string>
+    <string name="dvbs_diseqc12_motor_movementcontrol">Контроль руху</string>
+    <string name="dvbs_diseqc12_motor_disablelimits">Вимкнути обмеження</string>
+    <string name="dvbs_diseqc12_motor_limiteast">Limit east</string>
+    <string name="dvbs_diseqc12_motor_limitwest">Limit west</string>
+    <string name="dvbs_diseqc10_port">Порт DiSEqC 1.0</string>
+    <string name="dvbs_diseqc11_port">Порт DiSEqC 1.1</string>
+    <string name="dvbs_diseqc_motor">Двигуна DiSEqC</string>
+    <string name="dvbs_diseqc_motor_12">DiSEqC 1.2</string>
+    <string name="dvbs_diseqc_input">Вхід Diseqc</string>
+    <string name="dvbs_diseqc_input_0">Відключити</string>
+    <string name="dvbs_diseqc_input_1">Diseqc A</string>
+    <string name="dvbs_diseqc_input_2">Diseqc B</string>
+    <string name="dvbs_diseqc_input_3">Diseqc C</string>
+    <string name="dvbs_diseqc_input_4">Diseqc D</string>
+    <string name="dvbs_tone_22khz">Тон 22 кГц</string>
+    <string name="dvbs_sat_no_satl">(Немає супутника.)</string>
+    <string name="dvbs_manual_tuning">Ручне налаштування супутника</string>
+    <string name="dvbs_sat_no_tp">(Немає транспондера.)</string>
+    <string name="dvbs_sat_name_empty_alarm">Поле назви супутника порожнє.\nВведіть назву!</string>
+    <string name="dvbs_satellite_rescan">Повторне сканування супутників</string>
+    <string name="dvbs_satellite_add">Додати супутник</string>
+    <string name="dvbs_satellite_update">Оновити супутник</string>
+    <string name="dvbs_satellite_status">Статус супутника</string>
+    <string name="dvbs_scan_satellites">Супутники</string>
+    <string name="dvbs_user_band_1">Група користувачів 1</string>
+    <string name="dvbs_user_band_2">Група користувачів 2</string>
+    <string name="dvbs_user_band_3">Група користувачів 3</string>
+    <string name="dvbs_user_band_4">Група користувачів 4</string>
+    <string name="dvbs_user_band_5">Група користувачів 5</string>
+    <string name="dvbs_user_band_6">Група користувачів 6</string>
+    <string name="dvbs_user_band_7">Група користувачів 7</string>
+    <string name="dvbs_user_band_8">Група користувачів 8</string>
+    <string name="dvbs_position_c">C</string>
+    <string name="dvbs_position_d">D</string>
+    <string name="dvbs_cable">Кабельне</string>
+    <string name="sys_info_lnb">LNB</string>
+    <string name="dvbs_tone_burst">Tone Burst</string>
+    <string name="dvbs_tone_burst_disable">Відключити</string>
+    <string name="dvbs_tone_burst_b">Tone Burst B</string>
+    <string name="setup_language_chinese">Спрощена китайська</string>
+    <string name="dvbc_operator_upc">Upc</string>
+</resources>

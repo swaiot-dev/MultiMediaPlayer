@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">பல்லூடக இயக்கி</string>
+    <string name="schedulelist_nofiles">பதிவுசெய்ய எந்தத் திட்டமிடலுமில்லை! ஒன்றைச் சேர்ப்பதற்குத் தயவுசெய்து "சேர்" பொத்தானை அழுத்தவும்</string>
+    <string name="schedulelist_nofiles_disable_add">பதிவுசெய்ய எந்தத் திட்டமிடலுமில்லை!</string>
+    <string name="exit">வெளியேறவும்</string>
+    <string name="selected">தேர்ந்தெடுக்கப்பட்டது</string>
+    <string name="add_schedule">திட்டமிடலைச் சேர்</string>
+    <string name="pvr_schedule_replace">மாற்றவும்</string>
+    <string name="pvr_schedule_add">சேர்க்கவும்</string>
+    <string name="menu_value_minus">குறைவு</string>
+    <string name="menu_value_plus">அதிகரி</string>
+    <string name="pvr_schedule_cancel">ரத்து செயவும்</string>
+    <string name="pvr_schedule_ok">சரி</string>
+    <string name="pvr_schedule_edit">திருத்துக</string>
+    <string name="pvr_schedule_delete">அழிக்கவும்</string>
+    <string name="pvr_title_device_info">சாதன விவரம்</string>
+    <string name="pvr_deviceinfo_info">விவரம்</string>
+    <string name="pvr_exit">வெளியேறவும்</string>
+    <string name="pvr_deviceinfo_format">வடிவம்</string>
+    <string name="pvr_deviceinfo_speed_test">வேகச் சோதனை</string>
+    <string name="pvr_disk_no_name">பெயர் இல்லை</string>
+    <string name="pvr_playlist_record_list">பதிவுப் பட்டியல்</string>
+    <string name="pvr_playlist_page_up">பக்கத்தில் மேலே செல்லவும்</string>
+    <string name="pvr_playlist_delete">அழிக்கவும்</string>
+    <string name="pvr_playlist_page_down">பக்கத்தில் மேழே செல்லவும்</string>
+    <string name="pvr_playlist_info">விவரம்</string>
+    <string name="pvr_playlist_record_detail">பதிவு விவரம்</string>
+    <string name="pvr_playlist_channel_num">சேனல் எண்</string>
+    <string name="pvr_playlist_channel_name">சானல் பெயர்</string>
+    <string name="pvr_playlist_program_name">நிகழ்ச்சியின் பெயர்</string>
+    <string name="pvr_playlist_date">நாள்</string>
+    <string name="pvr_playlist_week">வாரம்</string>
+    <string name="pvr_playlist_fri">வெள்</string>
+    <string name="pvr_playlist_time">நேரம்</string>
+    <string name="pvr_playlist_duration">கால அளவு</string>
+    <string name="pvr_disksetup_disk_setup">வட்டு அமைவு</string>
+    <string name="pvr_disksetup_page_up">பக்கத்தில் மேலே செல்லவும்</string>
+    <string name="pvr_disksetup_select">தேர்ந்தெடு </string>
+    <string name="pvr_disksetup_page_down">பக்கத்தில் மேழே செல்லவும்</string>
+    <string name="pvr_disksetup_exit">வெளியேறவும்</string>
+    <string name="pvr_schedulepvr_week">வாரம்</string>
+    <string name="pvr_schedulepvr_record">பதிவு செய்யவும்</string>
+    <string name="pvr_schedulepvr_schedule_list">கால அட்டவணைப் பட்டியல்</string>
+    <string name="pvr_schedulepvr_add_schedule">திட்டமிடலைச் சேர்</string>
+    <string name="pvr_schedulepvr_selected">தேர்ந்தெடுக்கப்பட்டது</string>
+    <string name="pvr_schedulepvr_exit">வெளியேறவும்</string>
+    <string name="pvr_schedulepvr_schedule_list2">கால அட்டவணைப் பட்டியல்</string>
+    <string name="pvr_confirm_yes">ஆம்</string>
+    <string name="pvr_confirm_no">இல்லை</string>
+    <string name="pvr_dialog_exit">வெளியேறவும்</string>
+    <string name="pvr_schedulelist_wednesday">புதன்கிழமை</string>
+    <string name="pvr_schedulelist_replace_line1">திட்டம் குழம்பியது!</string>
+    <string name="pvr_schedulelist_replace_line2">இத்திட்டங்களை மாற்ற விரும்புகிறீர்களா</string>
+    <string name="pvr_schedulelist_delete_line1">திட்டம் அழித்தல்!</string>
+    <string name="pvr_schedulelist_delete_line2">இத்திட்டங்களை அழிக்க விரும்புகிறீர்களா</string>
+    <string name="hello_world">வணக்கம்!</string>
+    <string name="menu_settings">அமைப்புகள்</string>
+    <string name="title_activity_schedule_pvr">Pvrசெயலைத் திட்டமிடு</string>
+    <string name="fav_list_is_full">விருப்பப்பட்டியல் நிரம்பியது.</string>
+
+    <string name="partner_row_title">மீடியாடெக் தொலைக்காட்சி</string>
+    <string name="inputs_row_title">உள்ளீடு</string>
+    <string name="apps_row_title">பயன்பாடுகள்</string>
+    <string name="games_row_title">விளையாட்டுகள்</string>
+    <string name="settings_row_title">அமைப்புகள்</string>
+    
+    <string name="power_on_off_time_same">இரு நேரங்காட்டிகள் ஒன்றுபோல் இருக்க முடியாது, தயவுசெய்து மறுஅமைக்கவும்</string>
+    
+    <string name="sleep_timer_tip_text">மின்சாரம் அணைக்கப்படும்.</string>
+    <string name="sleep_timer_btn_text">சரி</string>
+    <string name="menu_dialog_numzero">சேனல் எண் 0 ஆக இருக்க முடியாது!</string>
+    
+    <string name="menu_delete_biss_key_tip">இந்தப் பிஸ் விசையை நீக்குவதில் உறுதியாக உள்ளீர்களா？</string>
+<string name="pvr_deviceinfo_set_timeshift">நேர மாற்றத்தை அமைக்கவும்</string><string name="pvr_playlist_special_6_1">சிறப்பு 6+1</string><string name="pvr_schedulepvr_date">2013/01/04 13:22 செவ்</string><string name="pvr_schedulepvr_time">00hr 00min</string><string name="pvr_schedulepvr_diskinfo">பெயர் இல்லை: 3.8/3.8 GB</string><string name="pvr_schedulepvr_disk_info">பெயர் இல்லை: 3.8/3.8 GB</string>
+
+    <string name="video_info_dialog_format">வடிவம்:</string>
+    <string name="video_info_dialog_resolution">தீர்மானம்:</string>
+    <string name="video_info_dialog_subtitle">வசன</string>
+
+</resources>

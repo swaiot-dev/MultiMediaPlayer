@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="mmp_test">Ова се податоци за тестирање\n име на датотека \n img\n тест</string>
+    <string name="mmp_menu">МЕНИ</string>
+    <string name="mmp_menu_sort">Сортирање</string>
+    <string name="mmp_menu_mediatype">Тип медиум</string>
+    <string name="mmp_menu_thumb">Големина на сликичка</string>
+    <string name="mmp_menu_copy">Копирај</string>
+    <string name="mmp_menu_paste">Залепи</string>
+    <string name="mmp_menu_delete">Избриши</string>
+    <string name="mmp_menu_recur">Рекурзивен разделувач</string>
+    <string name="mmp_menu_not_recur">Нормален разделувач</string>
+    <string name="mmp_menu_photoframe">Фото рамка</string>
+    <string name="mmp_menu_photo_frame">Сликата за фото рамка е поставена ОК</string>
+
+    <string name="mmp_menu_play">Репродуцирај</string>
+    <string name="mmp_menu_pause">Пауза</string>
+    <string name="mmp_menu_repeat">Повтори</string>
+    <string name="mmp_menu_shuffle">По случаен избор</string>
+    <string name="mmp_menu_duration">Траење</string>
+    <string name="mmp_menu_effect">Ефект</string>
+    <string name="mmp_menu_showinfo">Информации за програма</string>
+    <string name="mmp_menu_frame">Слика за фото рамка</string>
+    <string name="mmp_menu_rotate">Ротирај</string>
+    <string name="mmp_menu_3d_photo">3D Фотографија</string>
+
+    <string name="mmp_menu_display">Линија на прикажување</string>
+    <string name="mmp_menu_timeoffset">Временски офсет</string>
+    <string name="mmp_menu_encoding">Шифрирање</string>
+
+    <string name="mmp_menu_picturemode">Режим на слика</string>
+    <string name="mmp_menu_screenmode">Режим на екран</string>
+
+    <string name="mmp_menu_font">Фонт</string>
+
+    <string name="mmp_menu_size">Големина :</string>
+    <string name="mmp_menu_style">Стил</string>
+    <string name="mmp_menu_color">Боја</string>
+    <!-- child menu -->
+
+    <string name="mmp_menu_date">Датум</string>
+    <string name="mmp_menu_name">Име</string>
+    <string name="mmp_menu_album">Албум</string>
+    <string name="mmp_menu_artist">Изведувач</string>
+    <string name="mmp_menu_genre">Жанр</string>
+    <string name="mmp_menu_type">Тип</string>
+
+    <string name="mmp_menu_phototext">Фотографии</string>
+    <string name="mmp_menu_music">Аудио</string>
+    <string name="mmp_menu_video">Видео</string>
+    <string name="mmp_menu_text">ТЕКСТ</string>
+    <string name="mmp_menu_dmr">Dmr</string>
+    <string name="mmp_menu_small">Мало</string>
+    <string name="mmp_menu_medium">Средно</string>
+    <string name="mmp_menu_large">Голема</string>
+    <string name="mmp_menu_onephotomode">Фото режим Еден </string>
+    <string name="mmp_menu_datafraveler">DataTraveler G2</string>
+    <string name="mmp_menu_none">НИШТО</string>
+    <string name="mmp_menu_repeatone">Повтори едно</string>
+    <string name="mmp_menu_repeatall">Повтори се</string>
+    <string name="mmp_menu_shuffleoff">Исклучено По случаен избор</string>
+    <string name="mmp_menu_shuffleon">Вклучено По случаен избор</string>
+    <string name="mmp_menu_short">Кратко</string>
+    <string name="mmp_menu_long">Долго</string>
+    <string name="mmp_menu_1x">1 X</string>
+    <string name="mmp_menu_2x">2 X</string>
+    <string name="mmp_menu_4x">4 X</string>
+    <string name="mmp_menu_dissolve">Разреши</string>
+    <string name="mmp_menu_wiperight">Избриши десно</string>
+    <string name="mmp_menu_wipeleft">Избриши лево</string>
+    <string name="mmp_menu_wipeup">Избриши нагоре</string>
+    <string name="mmp_menu_wipedown">Избриши надолу</string>
+    <string name="mmp_menu_boxin">Қорап ішінде</string>
+    <string name="mmp_menu_boxout">Надвор од рамка</string>
+
+    <string name="mmp_menu_random">Случајно</string>
+
+
+    <string name="mmp_menu_off">Исклучено</string>
+    <string name="mmp_menu_singleline">Единечна линија</string>
+    <string name="mmp_menu_multiline">Повеќе линии</string>
+    <string name="mmp_menu_auto">Автоматски</string>
+    <string name="mmp_menu_userdefine">Кориснички дефинирано</string>
+    <string name="mmp_menu_gb">GB</string>
+    <string name="mmp_menu_big5">Big5</string>
+    <string name="mmp_menu_utf8">Utf8</string>
+    <string name="mmp_menu_utf16">Utf16</string>
+    <string name="mmp_menu_user">Корисник</string>
+    <string name="mmp_menu_cinema">Кино</string>
+    <string name="mmp_menu_sport">Спорт </string>
+    <string name="mmp_menu_vivid">Живописно</string>
+    <string name="mmp_menu_hibright">Hi-Bright</string>
+    <string name="mmp_menu_normal">Нормално</string>
+    <string name="mmp_menu_letterbox">Поштенско сандаче</string>
+    <string name="mmp_menu_scan">Скенирање</string>
+    <string name="mmp_menu_zoom">Зум</string>
+    <string name="mmp_menu_dotbydot">Точка по точка</string>
+
+    <string name="mmp_menu_regular">Регуларно</string>
+    <string name="mmp_menu_italic">Италик</string>
+    <string name="mmp_menu_bold">Задебелено</string>
+    <string name="mmp_menu_outline">Задебелено италик</string>
+    <string name="mmp_menu_white">Бела</string>
+    <string name="mmp_menu_blue">Сина</string>
+    <string name="mmp_menu_red">Црвена</string>
+    <string name="mmp_menu_green">Зелена</string>
+    <string name="mmp_menu_black">Црна</string>
+    <string name="mmp_menu_lyricoptions">Опции на текст на музика</string>
+
+    <string name="mmp_menu_showscore">Покажи спектар</string>
+    <string name="mmp_menu_hidescore">Сокри спектар</string>
+    <string name="mmp_menu_onlyaudio">Само аудио</string>
+
+
+    <string name="mmp_text">ТЕКСТ</string>
+    <string name="mmp_select">Избери</string>
+    <string name="mmp_input">Внеси</string>
+    <string name="mmp_exit">ИЗЛЕЗИ</string>
+    <string name="mmp_emptyfile">Тековната папка е празна!</string>
+    <string name="mmp_reutip">Оваа папка се разделува, ве молиме почекајте...</string>
+    <string name="mmp_filepath">\</string>
+    <string name="mmp_pop_repeat_tvrepeat">Повтори се</string>
+    <string name="mmp_pop_repeat_tvsingle">Повтори едно</string>
+    <string name="mmp_pop_repeat_tvnone"> </string>
+    <string name="mmp_pop_time_tv">Кратко</string>
+    <string name="mmp_pop_view_tv">НИШТО</string>
+    <string name="mmp_pop_menu">МЕНИ</string>
+    <string name="mmp_pop_enter">Внеси</string>
+    <string name="mmp_pop_zoomscale">X</string>
+    <string name="mmp_pop_starttime">00:00:00</string>
+    <string name="mmp_pop_pagesize">01\//01</string>
+    <string name="mmp_tip_play">  Play</string>
+    <string name="mmp_tip_exit">  Exit</string>
+    <string name="mmp_tip_enter">  Enter </string>
+    <string name="mmp_tip_select">  Select</string>
+
+
+    <string name="mmp_info_album">Албум:</string>
+    <string name="mmp_info_orientation">Ориентација:</string>
+    <string name="mmp_info_artist">Уметник:   </string>
+    <string name="mmp_info_name">Име:</string>
+    <string name="mmp_info_date">Датум:</string>
+    <string name="mmp_info_size">Големина:</string>
+    <string name="mmp_info_next">Следно:</string>
+    <string name="mmp_info_audio">Аудио:</string>
+    <string name="mmp_info_exposure">ВРЕМЕ НА ЕКСПОЗИЦИЈА:</string>
+    <string name="mmp_info_fnumber">FБРОЈ:</string>
+    <string name="mmp_info_program">ПРОГРАМА НА ЕКСПОЗИЦИЈА:</string>
+    <string name="mmp_info_colorspace">ПРОСТРАНСТВО НА БОИ:</string>
+    <string name="mmp_info_title">Наслов:</string>
+    <string name="mmp_info_genre">Жанр:</string>
+    <string name="mmp_info_year">Година:</string>
+    <string name="mmp_info_duration">Траење:</string>
+    <string name="mmp_info_director">Режисер:</string>
+    <string name="mmp_info_copyrght">Авторско право:</string>
+
+    <string name="mmp_info_lastline">Последна линија</string>
+    <string name="mmp_info_nextline">Следна линија</string>
+    <string name="mmp_info_lastpage">Последна страница</string>
+    <string name="mmp_info_nextpage">Следна страница</string>
+
+    <string name="mmp_info_nolrc">Нема lrc </string>
+    <string name="mmp_time_separator">:</string>
+    <string name="mmp_time_inti">00</string>
+
+    <!-- Network -->
+    <string name="mmp_loading_tip">Оваа папка се разделува, ве молиме почекајте...</string>
+    <string name="mmp_user_name">Корисничко име</string>
+    <string name="mmp_password">Лозинка</string>
+    <string name="mmp_confirm">Потврди</string>
+    <string name="mmp_vkb">Vkb</string>
+    <string name="mmp_ok">ОК</string>
+    <string name="mmp_cancel">ОТКАЖИ</string>
+
+    <string name="mmp_login_failed_tip">Корисничкото име или лозинката се погрешни!</string>
+    <string name="mmp_dlnaserver_disconnected">DLNA серверот исчезна, ве молиме проверете статус на мрежа и сервер!</string>
+    <!-- Network -->
+
+    <string name="mmp_title_copy">Копирање</string>
+    <string name="mmp_title_confirm_replace">Потврди смена на датотека</string>
+    <string name="mmp_title_confirm_delete">Потврди бришење на датотека(и)</string>
+    <string name="mmp_message_copy">%1$s\nОд %2$s\nДо %3$s</string>
+    <string name="mmp_message_confirm_replace">Оваа папка веќе содржи датотека со име\n%s</string>
+    <string name="mmp_message_confirm_delete">Сигурно да се избрише избрана датотека(и)?</string>
+
+    <string name="mmp_yes">Да</string>
+    <string name="mmp_yes_to_all">Да за Се</string>
+    <string name="mmp_no">Не</string>
+
+    <string name="mmp_capture_title">Сликај лого</string>
+    <string name="mmp_capture_confirm">Сакате да го сликате овој екран?</string>
+    <string name="mmp_toast_no_photoframe">Нема слика во фото рамка да се репродуцира</string>
+
+    <string name="mmp_video_notsupport">Видеокодек не е поддржан</string>
+    <string name="mmp_audio_notsupport">Аудиоформатот не е поддржан</string>
+    <string name="mmp_video_only">Само видео</string>
+    <string name="mmp_frame_photo_sleeptime">Време на спиење</string>
+    <string name="mmp_sleeptime_lable">Време на спиење:</string>
+    <string name="mmp_video_stopresume">Запри Продолжување</string>
+    <string name="mmp_can_notpause">Не може да паузира</string>
+
+    <string name="mmp_photo_type_notsupport">Датотеката не е поддржана</string>
+
+    <string name="mmp_lable_rorate">Ротирај</string>
+    <string name="mmp_lable_degree">°</string>
+    <string name="mmp_lable_subtitle_off">Исклучено</string>
+
+    <string name="mmp_info_whitebalance">Баланс на бела:</string>
+    <string name="mmp_info_make">Производител:</string>
+    <string name="mmp_info_model">Модел:</string>
+    <string name="mmp_info_flash">Светилка:</string>
+    <string name="mmp_info_focallength">Фокусна должина:</string>
+    <string name="mmp_menu_pic_setting">Поставка на слика</string>
+    <string name="mmp_menu_audio_setting">Аудио поставка</string>
+
+    <string name="mmp_file_notsupport">Датотеката не е поддржана</string>
+    <string name="mmp_notsupport">Не е поддржано</string>
+    <string name="mmp_seek_notsupport">Пребарување не е поддржано</string>
+    <string name="mmp_step_notsupport">Чекорот не е поддржан</string>
+    <string name="mmp_featue_notsupport">Функцијата не е достапна</string>
+    <string name="mmp_buffer_not_enough">Буферот не е доволен</string>
+    <string name="mmp_nodevice">Нема поврзан уред!</string>
+    <string name="mmp_time_out">Временската шифра што ја внесовте е погрешна!\nВе молиме осигурете дека е помалку од вкупното време</string>
+    <string name="mmp_file_corrupt">Датотеката е корумпирана</string>
+    <string name="mmp_menu_mount_iso">Постави тековна iso датотека</string>
+    <string name="mmp_menu_unmount_iso">Отстрани тековен уред</string>
+
+    <string name="mmp_media_info_scrambled_audio_video_service">Кодиреј видео и аудио</string>
+    <string name="mmp_media_info_scrambled_audio_clear_video_service">Кодирај аудио</string>
+    <string name="mmp_media_info_scrambled_audio_no_video_service">Кодирај аудио, Само аудио</string>
+    <string name="mmp_media_info_scrambled_video_clear_audio_service">Кодирај видео</string>
+    <string name="mmp_media_info_scrambled_video_no_audio_service">Кодирај видео, Само видео</string>
+
+
+    <string name="txture_0">"defaultVideo1.PNG"</string>
+    <string name="txture_1">"defaultVideo2.PNG"</string>
+    <string name="txture_2">"defaultVideo3.PNG"</string>
+    <string name="txture_3">"defaultVideo4.PNG"</string>
+    <string name="txture_4">"defaultVideo5.PNG"</string>
+    <string name="txture_5">"defaultVideo6.PNG"</string>
+    <string name="txture_6">"defaultVideo7.PNG"</string>
+    <string name="txture_7">"defaultVideo8.PNG"</string>
+    <string name="txture_8">"defaultVideo9.PNG"</string>
+
+    <string name="mmp_txt_const_font">Не</string>
+
+    <string name="mmp_drm_register">Вашиот уред не е овластен да \n го репродуцира ова Divx@ заштитено видео</string>
+    <string name="mmp_drm_register_expired">Divx@ изнајмувањето истече</string>
+    <string name="mmp_drm_register_used">Divx@ изнајмувањето се искористи \n %1$s од  %2$s прегледи</string>
+    <string name="mmp_drm_register_continue">Продолжи?</string>
+
+    <string name="mmp_divx_title">Наслов </string>
+    <string name="mmp_divx_edition">Издание</string>
+    <string name="mmp_divx_chapter">Поглавје</string>
+
+
+    <string name="mmp_divx_titleName">Наслов:</string>
+    <string name="mmp_divx_chapterName">Поглавје:</string>
+    <string name="mmp_divx_rateName">Стапка:</string>
+    <string name="mmp_divx_audioName">Аудио:</string>
+    <string name="mmp_divx_subtitleName">Титл:</string>
+    <string name="mmp_dmr_starting">DMR активирање</string>
+    <string name="mmp_dmr_started">DMR е активирано, Ве молиме користете</string>
+    <string name="mmp_dmr_network_failed">DMR активирањето не успеа, нема достапна мрежа</string>
+    <string name="mmp_dmr_url_failed">Неважечки URL</string>
+
+    <string name="mmp_wrong_psw">Password incorrect. Total %1$s Tries,%2$s Tried,Try again! </string>
+    <string name="mmp_subtitle_encoding">Шифрирање титл</string>
+    <string name="mmp_last_memory">Последна меморија</string>
+    <string name="mmp_last_memory_off">Исклучено</string>
+    <!--delete position item and change tittle 'on' by yangxiong for mmp lastmemory
+    <string name="menu_video_mjc_demo_on">On</string>-->
+    <string name="mmp_last_memory_position">Позиција</string>
+
+    <!-- CI PIN -->
+    <string name="ci_menu_pin_correct">Точно!</string>
+    <string name="ci_menu_pin_outoftry">Неуспешно три пати по ред</string>
+
+    <string name="mmp_video_seektime_title">Време за Goto</string>
+    <string name="mmp_video_seektime_colon"> : </string>
+    <string name="mmp_video_seektime_warn_inputnothing">Warning : You input nothing!</string>
+    <string name="mmp_video_seektime_warn_timetoobigger">Warning : The input time must be less than the duration of the video!</string>
+    <string name="mmp_video_not_seekable">Warning : This video isn\'t seekable!</string>
+</resources>

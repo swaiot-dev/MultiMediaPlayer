@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+    <string-array name="screen_mode_array_us">
+        <item>უცნობი</item>
+        <item>ნორმალური</item>
+        <item>საფოსტო ყუთი</item>
+        <item>ზუმი</item>
+        <item>მომხმარებლის მიერ განსაზღვრული</item>
+        <item>პანორამა</item>
+        <item>წერტილ-წერტილით</item>
+        <item>ავტო</item>
+        <item>ინდივიდუალური პარამეტრები 1</item>
+        <item>ინდივიდუალური პარამეტრები 2</item>
+        <item>ინდივიდუალური პარამეტრები 3</item>
+        <item>ინდივიდუალური პარამეტრები 4</item>
+        <item>ინდივიდუალური პარამეტრები 5</item>
+        <item>ინდივიდუალური პარამეტრები 6</item>
+        <item>ინდივიდუალური პარამეტრები 7</item>
+        <item>NLZ ინდივიდუალური პარამეტრები 0</item>
+        <item>NLZ ინდივიდუალური პარამეტრები 1</item>
+        <item>NLZ ინდივიდუალური პარამეტრები 2</item>
+        <item>NLZ ინდივიდუალური პარამეტრები 3</item>
+    </string-array>
+    <string-array name="picture_effect_array">
+        <item>მომხმარებელი</item>
+        <item>ფილმი</item>
+        <item>სპორტი</item>
+        <item>ცხადი</item>
+        <item>მაღალი განათება</item>
+    </string-array>
+</resources>

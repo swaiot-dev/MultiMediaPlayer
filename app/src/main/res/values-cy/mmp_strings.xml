@@ -114,7 +114,7 @@
 
 
 	<string name="mmp_photo">Photo</string>
-	<string name="mmp_audio">Music</string>
+	<string name="mmp_audio">Audio</string>
 	<string name="mmp_video">Video</string>
 	<string name="mmp_text">Text</string>
 	<string name="mmp_select">Select</string>

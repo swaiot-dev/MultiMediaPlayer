@@ -112,7 +112,7 @@
 	<string name="mmp_menu_hidescore">隐藏频谱</string>
 	<string name="mmp_menu_onlyaudio">仅音频</string>
 
-
+	<string name="mmp_audios">音频</string>
 	<string name="mmp_photo">图片</string>
 	<string name="mmp_audio">音乐</string>
 	<string name="mmp_video">视频</string>
@@ -202,7 +202,7 @@
 	<string name="mmp_lable_rorate">旋转</string>
 	<string name="mmp_lable_degree">度</string>
 
-	<string name="mmp_lable_subtitle_off">Off</string>
+	<string name="mmp_lable_subtitle_off">关</string>
 
 	<string name="mmp_menu_pic_setting">Picture Setting</string>
 	<string name="mmp_file_notsupport">文件不支持</string>
@@ -210,17 +210,21 @@
 	<string name="mmp_seek_notsupport">拖动不支持</string>
 	<string name="mmp_step_notsupport">单步不支持</string>
 	<string name="mmp_featue_notsupport">功能不可用</string>
-	<string name="mmp_nodevice">没有设备连接到电视!</string>
+	<string name="mmp_nodevice">没有设备连接到显示器!</string>
 	<string name="mmp_time_out">The time code you input is wrong!\nPlease assure it\'s less than total time</string>
   <string name="mmp_file_corrupt">文件已损坏</string>
   	<string name="mmp_menu_mount_iso">挂载当前ISO文件</string>
 	<string name="mmp_menu_unmount_iso">卸载当前设备</string>
+	<string name="mmp_Title">图片名：</string>
+	<string name="mmp_Resolution">分辨率：</string>
 
 	<string name="mmp_txt_const_font">无</string>
 
 	<string name="video_info_dialog_format">格式:</string>
 	<string name="video_info_dialog_resolution">分辨率:</string>
 	<string name="video_info_dialog_subtitle">字幕</string>
+
+	<string name="file_list_initialization">正在加载…</string>
 
   <!-- Network -->
 </resources>

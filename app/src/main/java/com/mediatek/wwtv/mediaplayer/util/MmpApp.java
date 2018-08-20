@@ -21,6 +21,7 @@ import android.os.SystemProperties;
 //to cancel
 //import com.mediatek.wwtv.mediaplayer.nav.util.InputSourceManager;
 
+import com.mediatek.wwtv.mediaplayer.jni.PhotoRender;
 import com.mediatek.wwtv.mediaplayer.mmp.MediaMainActivity;
 import com.mediatek.wwtv.mediaplayer.mmp.model.FileAdapter;
 import com.mediatek.wwtv.mediaplayer.mmp.multimedia.MediaPlayActivity;
@@ -29,6 +30,7 @@ import com.mediatek.wwtv.mediaplayer.mmp.util.LogicManager;
 import com.mediatek.wwtv.mediaplayer.mmp.util.iRootMenuListener;
 import com.mediatek.wwtv.mediaplayer.mmpcm.videoimpl.Thumbnail;
 import com.mediatek.wwtv.mediaplayer.netcm.dlna.DLNAManager;
+import com.mediatek.wwtv.util.AppUncaughtExceptionHandler;
 import com.mediatek.wwtv.util.MtkLog;
 
 import android.app.Activity;
@@ -46,6 +48,10 @@ public class MmpApp extends Application {
   private static List<Activity> mainActivities = new ArrayList<Activity>();
   private static boolean isTopTask = false;
   private final int UNREGISTER = 1;
+  public static boolean fileNull = true;
+  public static int path = 0; 
+  public static String MainPath = ""; 
+  public static int Screen  = 2;  
   private boolean mHasEnterMMP;
   private final MtkTvVolCtrlBase mVol = new MtkTvVolCtrlBase();
   public static int deleter = 500;
@@ -350,6 +356,14 @@ public class MmpApp extends Application {
           .build());
     }
 
+    AppUncaughtExceptionHandler.getInstance().init(this);
+
+    //add by y.wan for reset 4K photo when some exception happen,but not reset display start 2018/8/15
+    PhotoRender photoRender = new PhotoRender(0);
+    photoRender.initPhotoPlay();
+    photoRender.deinitPhotoPlay();
+    //add by y.wan for  end 2018/8/15
+
     mApp = this;
     this.registerActivityLifecycleCallbacks(new ActivityLifecycleCallbacks() {
       @Override
@@ -427,7 +441,7 @@ public class MmpApp extends Application {
     mMovieCache.clear();
     this.mMovieCache.addAll(movieCache);
     if(mCacheUSBRootPath == null || "".equals(mCacheUSBRootPath)) {
-      setCacheUSBRootPath(movieCache.get(0).getPath());
+      setCacheUSBRootPath(movieCache.get(MmpApp.path).getPath());
     }
   }
 
@@ -448,7 +462,7 @@ public class MmpApp extends Application {
     mPictureCache.clear();
     this.mPictureCache.addAll(pictureCache);
     if(mCacheUSBRootPath == null || "".equals(mCacheUSBRootPath)) {
-      setCacheUSBRootPath(pictureCache.get(0).getPath());
+      setCacheUSBRootPath(pictureCache.get(MmpApp.path).getPath());
     }
   }
 
@@ -469,7 +483,7 @@ public class MmpApp extends Application {
     mMusicCache.clear();
     this.mMusicCache.addAll(musicCache);
     if(mCacheUSBRootPath == null || "".equals(mCacheUSBRootPath)) {
-      setCacheUSBRootPath(musicCache.get(0).getPath());
+      setCacheUSBRootPath(musicCache.get(MmpApp.path).getPath());
     }
   }
 
@@ -493,6 +507,14 @@ public class MmpApp extends Application {
 
   public String getCacheUSBRootPath() {
     return mCacheUSBRootPath;
+  }
+
+  public void clearCache() {
+    if (mMovieCache.size() != 0 || mPictureCache.size() != 0 || mMusicCache.size() != 0) {
+      mMovieCache.clear();
+      mPictureCache.clear();
+      mMusicCache.clear();
+    }
   }
   // SKY luojie add 20171223 for add choose menu end
 }

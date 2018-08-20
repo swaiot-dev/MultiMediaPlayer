@@ -44,11 +44,13 @@ import android.widget.PopupWindow;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.mediatek.wwtv.mediaplayer.mmp.util.TextUtils;
 import com.mediatek.wwtv.mediaplayer.mmpcm.CommonSet;
 import com.mediatek.wwtv.mediaplayer.mmpcm.audioimpl.AudioConst;
 import com.mediatek.wwtv.mediaplayer.mmpcm.audioimpl.PlaybackService;
 import com.mediatek.wwtv.mediaplayer.mmpcm.device.DevManager;
 import com.mediatek.wwtv.mediaplayer.mmpcm.fileimpl.MtkFile;
+import com.mediatek.wwtv.mediaplayer.mmpcm.fileimpl.FileConst;
 import com.mediatek.wwtv.mediaplayer.mmpcm.fileimpl.UsbFileOperater;
 import com.mediatek.wwtv.mediaplayer.mmpcm.fileimpl.UsbFileOperater.OnUsbCopyProgressListener;
 import com.mediatek.wwtv.mediaplayer.mmpcm.mmcimpl.Const;
@@ -124,6 +126,7 @@ public class MtkFilesBaseListActivity extends FilesListActivity<FileAdapter> {
   public static final String INTENT_NAME_COPYED_FILES = "CopyedFiles";
   public static final String INTENT_NAME_SELECTED_FILES = "SelectedFiles";
   public static final String USBDISK = "/mnt/usbdisk";
+  public static final String USB_SRC = "media_src";
 
   public int tempPostion = -1;
   
@@ -1927,7 +1930,12 @@ public class MtkFilesBaseListActivity extends FilesListActivity<FileAdapter> {
   protected void onStop() {
     super.onStop();
     unregisterReceiver(mReceiver);
-    // unregisterReceiver(mRootReceiver);
+    if (!Util.isMMpActivity(getApplicationContext())
+            && !Util.mIsEnterPip) {
+      Util.LogLife(TAG, "top is not mmp, go to finish.");
+      handleRootMenuEvent();
+      // unregisterReceiver(mRootReceiver);
+    }
   }
 
   protected void stopVideoListMode() {
@@ -2264,7 +2272,12 @@ public class MtkFilesBaseListActivity extends FilesListActivity<FileAdapter> {
     refreshListView(null);
     int sourceType = MultiFilesManager.getInstance(this)
         .getCurrentSourceType();
-    if (mMode == MODE_RECURSIVE && !"/".equals(getListCurrentPath())
+
+    boolean isRootPath = "/".equals(getListCurrentPath());
+
+    ((MmpApp) getApplication()).clearCache();
+
+    if (mMode == MODE_RECURSIVE && !isRootPath
         && sourceType == MultiFilesManager.SOURCE_LOCAL) {
       cancelLoadFiles();
       recursive();
@@ -2367,6 +2380,12 @@ public class MtkFilesBaseListActivity extends FilesListActivity<FileAdapter> {
       } else {
         mFilesManager.setRefresh(false);
       }
+
+      int UsbSrcType = intent.getIntExtra(USB_SRC, FileConst.SRC_ALL);
+      if(0 != UsbSrcType){
+          MultiFilesManager.getInstance(this.getApplicationContext()).setCurrentSourceType(FileConst.SRC_USB);
+      }
+
       setListCurrentPath(path);
 
       int contentType = intent.getIntExtra(MultiMediaConstant.MEDIAKEY,
@@ -2552,7 +2571,7 @@ public class MtkFilesBaseListActivity extends FilesListActivity<FileAdapter> {
     super.playFile(path);
     Intent intent = new Intent();
     Bundle bundle = new Bundle();
-
+    checkRootPath(path);
     // SKY luojie add 20171219 for add choose menu begin
     intent.putExtra(SkyMediaPlayActivity.KEY_EXTRA_FILE_PATH, path);
     intent.putExtra(SkyMediaPlayActivity.KEY_EXTRA_HIDE_CHOOSE_MENU, true);
@@ -2611,6 +2630,26 @@ public class MtkFilesBaseListActivity extends FilesListActivity<FileAdapter> {
     intent.putExtras(bundle);
     startActivity(intent);
   }
+
+  private void checkRootPath(String path) {
+    MultiFilesManager multiFilesManager = MultiFilesManager.getInstance(this);
+    String[] strings = path.split("/");
+    Log.d("y.wan", "rootPath: " + path);
+    if (multiFilesManager.getRootPath() == null) {
+      if (strings.length > 2) {
+        String rootPath = "/" + strings[1] + "/" + strings[2];
+        Log.d("y.wan", "checkRootPath: " + rootPath);
+        multiFilesManager.setLocalManagerRootPath(rootPath);
+      }
+    } else {
+      if (strings.length > 2) {
+        String rootPath = "/" + strings[1] + "/" + strings[2];
+        if (!android.text.TextUtils.equals(rootPath, multiFilesManager.getRootPath())) {
+          multiFilesManager.setLocalManagerRootPath(rootPath);
+        }
+      }
+    }
+    }
 
   /**
    * {@inheritDoc}

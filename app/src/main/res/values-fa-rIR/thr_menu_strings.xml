@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="thr_menu_common_setting">تنظیمات مشترک</string>
+    <string name="thr_menu_confim">تایید</string>
+    <string name="thr_menu_cancal">خروج </string>
+    <string name="thr_menu">منو </string>
+    <string name="thr_menu_select">انتخاب</string>
+
+    <string name="thr_menu_picture_mode">حالت تصویر</string>
+    <string name="thr_menu_track">ترک صوتی</string> 
+    <string name="thr_menu_Equalizer">اكولايزر</string>
+    <string name="thr_menu_volume"> میزان صدا</string>
+
+
+
+</resources>

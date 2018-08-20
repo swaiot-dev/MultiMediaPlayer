@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+    <string-array name="nav_epg_filter_type_AUS">
+        <item>Фільм </item>
+        <item>Nachrichten</item>
+        <item>Unterhaltung</item>
+        <item>Sport</item>
+        <item>Програма для дітей</item>
+        <item>Musik</item>
+        <item>Мистецтво</item>
+        <item>Актуальна проблематика</item>
+        <item>Erziehung</item>
+        <item>Infotainment</item>
+        <item>СПЕЦІАЛЬНИЙ</item>
+        <item>COMEDY</item>
+        <item>Драма</item>
+        <item>DOCUMENTARY</item>
+    </string-array>
+    <string-array name="nav_epg_filter_type_UK">
+        <item>Фільм </item>
+        <item>Nachrichten und Fakten</item>
+        <item>Unterhaltung</item>
+        <item>Sport</item>
+        <item>Програма для дітей</item>
+        <item>Erziehung</item>
+        <item>Lifestyle</item>
+        <item>Драма</item>
+    </string-array>
+    <string-array name="dvbs_tp_pol_arrays">
+        <item>@string/dvbs_tp_pol_1_HORIZONTAL</item>
+        <item>@string/dvbs_tp_pol_2_VERTICAL</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_RA_TE_SA_PR">
+        <item>Лотерея</item>
+        <item>Телепродажі</item>
+        <item>Нагородження</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_information">
+        <item>COOKING</item>
+        <item>FASHION</item>
+        <item>Land</item>
+        <item>Здоров\'я</item>
+        <item>Подорожі</item>
+    </string-array>
+    <string-array name="dvbs_channel_arrays">
+        <item>@string/dvbs_channel_free</item>
+        <item>@string/dvbs_channel_all</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_special">
+        <item>Originalsprache</item>
+        <item>BLACK AND WHITE</item>
+        <item>UNPUBLISHED</item>
+        <item>LIVE BROADCAST</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_children">
+        <item>Kinder</item>
+    </string-array>
+    <string-array name="dvbs_tone_22khz_arrays">
+        <item>@string/dvbs_tone_22khz_off</item>
+        <item>@string/dvbs_tone_22khz_on</item>
+        <item>@string/dvbs_tone_22khz_auto</item>
+    </string-array>
+    <string-array name="pvr_tshift_initdisk_step_formatconfirm">
+        <item>Формат </item>
+        <item>Abbrechen</item>
+    </string-array>
+    <string-array name="nav_twinkle_strings">
+        <item></item>
+        <item>Kein Signal!</item>
+        <item>Führen sie einen kanalsuchlauf durch!</item>
+        <item>Daten werden empfangen...</item>
+        <item>Kanal gesperrt!</item>
+        <item>Programm gesperrt!</item>
+        <item>Eingabe gesperrt!</item>
+        <item>(Kein Programmtitel.)</item>
+        <item>Versteckter Kanal!</item>
+        <item>Аудіо програма</item>
+        <item>Ungültiger Dienst</item>
+        <item>(Keine Programmdetails.)</item>
+        <item>(Keine Kanaldetails.)</item>
+        <item>♪ Kein Audio-Stream ♪</item>
+        <item>Kein Video-Stream</item>
+        <item>Будь ласка, зачекайте ...</item>
+        <item>Video nicht unterstützt</item>
+        <item>HD-Dienst</item>
+        <item>Keine Sendung</item>
+        <item>Kein Kanal</item>
+        <item>Diese Inhalte sind durch Ihren Dienstanbieter gesperrt</item>
+        <item>Verschlüsselt</item>
+    </string-array>
+    <string-array name="dvbs_diseqc_motor_arrays">
+        <item>@string/dvbs_diseqc_input_0</item>
+        <item>@string/dvbs_diseqc_motor_12</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_social">
+        <item>Соціальні</item>
+        <item>Журнали</item>
+        <item>Економіка</item>
+        <item>чудові люди</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_comical">
+        <item>Komödie</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_music">
+        <item>Musik</item>
+        <item>Рок</item>
+        <item>Важливе</item>
+        <item>Folklore</item>
+        <item>Jazz</item>
+        <item>Musical</item>
+        <item>BALLET</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_movie">
+        <item>Драма</item>
+        <item>Детектив</item>
+        <item>Пригоди</item>
+        <item>Наукова фантастика</item>
+        <item>COMEDY</item>
+        <item>Soap</item>
+        <item>ROMANCE</item>
+        <item>Важливе</item>
+        <item>Фільм для дорослих</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_soap_opera">
+        <item>Seifenoper</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_movie">
+        <item>Фільм </item>
+    </string-array>
+    <string-array name="dvbs_sat_on_off">
+        <item>@string/dvbs_sat_on</item>
+        <item>@string/dvbs_sat_off</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_other">
+        <item>Мультфільм для дорослих</item>
+        <item>Інтерактивний</item>
+        <item>Політика</item>
+        <item>RELIGION</item>
+    </string-array>
+    <string-array name="nav_epg_filter_sa_type">
+        <item>Nachrichten</item>
+        <item>Sport</item>
+        <item>Erziehung</item>
+        <item>Багатосерійна телепостановка</item>
+        <item>Мінісеріал</item>
+        <item>Serie</item>
+        <item>Varieté</item>
+        <item>Reality-Show</item>
+        <item>INFOMATION</item>
+        <item>Komödie</item>
+        <item>Kinder</item>
+        <item>Erotik</item>
+        <item>Фільм </item>
+        <item>RA_TE_SA_PR</item>
+        <item>DEBATE_INTERVIEW</item>
+        <item>Sonstiges</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_education">
+        <item>Освітній</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_show">
+        <item>ANZEIGEN</item>
+        <item>Телевікторина</item>
+        <item>Естрадне шоу</item>
+        <item>Ток-шоу</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_variety">
+        <item>Auditorium</item>
+        <item>ANZEIGEN</item>
+        <item>Musical</item>
+        <item>За кадром</item>
+        <item>Жіночий</item>
+        <item>Телевікторина</item>
+    </string-array>
+    <string-array name="dvbs_antenna_type_arrays">
+        <item>@string/dvbs_antenna_type_universal</item>
+        <item>@string/dvbs_antenna_type_singlecable</item>
+    </string-array>
+    <string-array name="pvr_tshift_initdisk_step1">
+        <item>Авто</item>
+        <item>manuell</item>
+    </string-array>
+    <string-array name="nav_oad_btns_accept_reject">
+        <item>Akzeptieren</item>
+        <item>Відхилити</item>
+    </string-array>
+    <string-array name="dvbs_user_band_arrays">
+        <item>@string/dvbs_user_band_1</item>
+        <item>@string/dvbs_user_band_2</item>
+        <item>@string/dvbs_user_band_3</item>
+        <item>@string/dvbs_user_band_4</item>
+        <item>@string/dvbs_user_band_5</item>
+        <item>@string/dvbs_user_band_6</item>
+        <item>@string/dvbs_user_band_7</item>
+        <item>@string/dvbs_user_band_8</item>
+    </string-array>
+    <string-array name="dvbs_sat_lnbfreq">
+        <item>@string/lnb_universal</item>
+        <item>9750,10700</item>
+        <item>9750,10750</item>
+        <item>5150</item>
+        <item>5750</item>
+        <item>9750</item>
+        <item>10600</item>
+        <item>10750</item>
+        <item>11250</item>
+        <item>11300</item>
+        <item>11475</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_DEBATE_INTERVIEW">
+        <item>Дискусія</item>
+        <item>Інтерв\'ю</item>
+    </string-array>
+    <string-array name="nav_zoom_mode">
+        <item>Zoom x 1/2</item>
+        <item>Zoom x 1</item>
+        <item>Zoom x 2</item>
+    </string-array>
+    <string-array name="week_day">
+        <item>Sonntag</item>
+        <item>Montag</item>
+        <item>Dienstag</item>
+        <item>Mittwoch</item>
+        <item>Donnerstag</item>
+        <item>Freitag</item>
+        <item>Samstag</item>
+    </string-array>
+    <string-array name="nav_oad_btns_accept_remind_me_later">
+        <item>Akzeptieren</item>
+        <item>Нагадати пізніше</item>
+    </string-array>
+    <string-array name="nav_mts_strings">
+        <item>Unbekannt</item>
+        <item>Mono</item>
+        <item>Stereo</item>
+        <item>SUB_LANG</item>
+        <item>Dual1</item>
+        <item>Подвійний2</item>
+        <item>NICAM_MONO</item>
+        <item>NICAM_STEREO</item>
+        <item>NICAM_DUAL1</item>
+        <item>NICAM_DUAL2</item>
+        <item>FM_MONO</item>
+        <item>FM_STEREO</item>
+    </string-array>
+    <string-array name="dvbs_position_arrays">
+        <item>@string/dvbs_tp_pol_0_unknown</item>
+        <item>@string/dvbs_position_a</item>
+        <item>@string/dvbs_position_b</item>
+        <item>@string/dvbs_position_c</item>
+        <item>@string/dvbs_position_d</item>
+    </string-array>
+    <string-array name="dvbs_scan_mode2_arrays">
+        <item>@string/dvbs_scan_mode_auto</item>
+        <item>@string/dvbs_scan_mode_preset</item>
+    </string-array>
+    <string-array name="dvbs_diseqc_motor_store_position_arrays">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_series">
+        <item>Serie</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_leisure">
+        <item>Freizeit Hobbys</item>
+        <item>Туризм</item>
+        <item>HANDICRAFT</item>
+        <item>MOTORING</item>
+        <item>Фітнес і здоров\'я</item>
+        <item>COOKING</item>
+        <item>Реклама</item>
+        <item>GARDENING</item>
+    </string-array>
+    <string-array name="nav_channel_type">
+        <item>Alle</item>
+        <item>Digital</item>
+        <item>Радіо</item>
+        <item>Аналог</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_reality_show">
+        <item>Reality-Show</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_arts">
+        <item>Мистецтво</item>
+        <item>Театральне мистецтво</item>
+        <item>Образотворче мистецтво</item>
+        <item>RELIGION</item>
+        <item>Масова культура</item>
+        <item>LITERATURE</item>
+        <item>Фільм </item>
+        <item>Експериментальний</item>
+        <item>Трансляція</item>
+        <item>Нові медіа-технології</item>
+        <item>Мистецтво</item>
+        <item>FASHION</item>
+    </string-array>
+    <string-array name="nav_audio_tvcm_strings">
+        <item>baq</item>
+        <item>eus</item>
+        <item>bul</item>
+        <item>cat</item>
+        <item>scr</item>
+        <item>cze</item>
+        <item>dan</item>
+        <item>dut</item>
+        <item>eng</item>
+        <item>fin</item>
+        <item>fre</item>
+        <item>gla</item>
+        <item>gdh</item>
+        <item>gle</item>
+        <item>glg</item>
+        <item>ger</item>
+        <item>gre</item>
+        <item>hun</item>
+        <item>ita</item>
+        <item>nor</item>
+        <item>pol</item>
+        <item>por</item>
+        <item>rum</item>
+        <item>rus</item>
+        <item>scc</item>
+        <item>slo</item>
+        <item>slv</item>
+        <item>spa</item>
+        <item>swe</item>
+        <item>tur</item>
+        <item>wel</item>
+        <item>ice</item>
+        <item>isl</item>
+        <item>smi</item>
+        <item>tha</item>
+        <item>vie</item>
+        <item>ara</item>
+        <item>zho</item>
+        <item>Chi</item>
+        <item>per</item>
+        <item>kor</item>
+        <item>est</item>
+        <item>mao</item>
+        <item>cmn</item>
+        <item>yue</item>
+        <item>jpn</item>
+        <item>hin</item>
+        <item>nar</item>
+        <item>QAA</item>
+        <item>Und</item>
+    </string-array>
+    <string-array name="nav_freeze_strings">
+        <item>Закріпити: Увімк.</item>
+        <item>Закріпити: Вимк.</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_education">
+        <item>Erziehung</item>
+        <item>Natur</item>
+        <item>Технології</item>
+        <item>Медицина</item>
+        <item>Зарубіжні країни</item>
+        <item>Суспільні науки</item>
+        <item>Післядипломна освіта</item>
+        <item>LANGUAGES</item>
+    </string-array>
+    <string-array name="nav_receiver_type">
+        <item>Kabel</item>
+        <item>Antenne</item>
+    </string-array>
+    <string-array name="dvbs_diseqc_movement_control_arrays">
+        <item>Nonstop</item>
+        <item>Крок</item>
+        <item>Затримка</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_erotic">
+        <item>Erotik</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_children">
+        <item>Програма для дітей</item>
+        <item>Програма для дошкільнят</item>
+        <item>Розваги від 6 до 14 років</item>
+        <item>Розваги від 10 до 16 років</item>
+        <item>Інформаційний</item>
+        <item>Мультики</item>
+    </string-array>
+    <string-array name="nav_bottom_volume">
+        <item>Регулятор гучності</item>
+        <item>Гучність фронтальна ліворуч</item>
+        <item>Гучність фронтальна праворуч</item>
+        <item>Гучність тильна ліворуч</item>
+        <item>Гучність тильна праворуч</item>
+        <item>Гучність по центру</item>
+        <item>Гучність сабвуфера</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_mini_series">
+        <item>Miniserie</item>
+    </string-array>
+    <string-array name="nav_s_effect_strings">
+        <item>Benutzer</item>
+        <item>Стандартний </item>
+        <item>Трансляція1</item>
+    </string-array>
+    <string-array name="nav_oad_btns_cancel">
+        <item>Abbrechen</item>
+    </string-array>
+    <string-array name="dvbs_user_band_freq_arrays">
+        <item>"1210"</item>
+        <item>"1400"</item>
+        <item>"1516"</item>
+        <item>"1632"</item>
+        <item>"1748"</item>
+        <item>"1864"</item>
+        <item>"1980"</item>
+        <item>"2096"</item>
+    </string-array>
+    <string-array name="dvbs_diseqc_10port_arrays">
+        <item>@string/dvbs_diseqc_input_1</item>
+        <item>@string/dvbs_diseqc_input_2</item>
+        <item>@string/dvbs_diseqc_input_3</item>
+        <item>@string/dvbs_diseqc_input_4</item>
+        <item>@string/dvbs_tone_burst_a</item>
+        <item>@string/dvbs_tone_burst_b</item>
+        <item>@string/dvbs_diseqc_input_0</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sports">
+        <item>Sport</item>
+        <item>Особливий захід</item>
+        <item>Спортивна програма</item>
+        <item>Футбол</item>
+        <item>Tennis</item>
+        <item>Командний спорт</item>
+        <item>ATHLETICS</item>
+        <item>Motorsport</item>
+        <item>Водні види спорту</item>
+        <item>Зимові види спорту</item>
+        <item>EQUESTRIAN</item>
+        <item>Єдиноборства</item>
+    </string-array>
+    <string-array name="nav_zoom_strings">
+        <item>zoom X 1</item>
+        <item>zoom X 2</item>
+        <item>zoom X 1/2</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_sports">
+        <item>Sport</item>
+    </string-array>
+    <string-array name="nav_audio_strings">
+        <item>Baskisch</item>
+        <item>Baskisch</item>
+        <item>Болгарська</item>
+        <item>Katalanisch</item>
+        <item>Kroatisch</item>
+        <item>Tschechien</item>
+        <item>Dänisch</item>
+        <item>Niederländisch</item>
+        <item>Englisch</item>
+        <item>Finnisch</item>
+        <item>Französisch</item>
+        <item>Gälisch</item>
+        <item>Gälisch</item>
+        <item>Irisch</item>
+        <item>Gallegan</item>
+        <item>DEUTSCH</item>
+        <item>Griechisch</item>
+        <item>Ungarisch</item>
+        <item>Italienisch</item>
+        <item>Norwegisch</item>
+        <item>Polnisch</item>
+        <item>Portugiesisch</item>
+        <item>Rumänisch</item>
+        <item>Russisch</item>
+        <item>Serbisch</item>
+        <item>Slowakisch</item>
+        <item>Slowenisch</item>
+        <item>Spanisch</item>
+        <item>Schwedisch</item>
+        <item>Türkisch</item>
+        <item>Walisisch</item>
+        <item>Isländisch</item>
+        <item>Isländisch</item>
+        <item>Sami langs</item>
+        <item>Тайська </item>
+        <item>Vietnamesisch</item>
+        <item>Arabisch</item>
+        <item>Традиційна китайська</item>
+        <item>Спрощена китайська</item>
+        <item>PERSISCH</item>
+        <item>Koreanisch</item>
+        <item>Estland</item>
+        <item>Майорка</item>
+        <item>Мандарин</item>
+        <item>Kantonesisch</item>
+        <item>Japanisch</item>
+        <item>Хінді</item>
+        <item>Розповідь</item>
+        <item>Originalversion</item>
+        <item>Nicht definiert</item>
+    </string-array>
+    <string-array name="pvr_tshift_initdisk_step_format">
+        <item>Формат </item>
+        <item>Überspringen</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_news">
+        <item>Nachrichten</item>
+        <item>Репортаж</item>
+        <item>DOCUMENTARY</item>
+        <item>Біографія</item>
+    </string-array>
+    <string-array name="dvbs_scan_mode_arrays">
+        <item>@string/dvbs_scan_mode_network</item>
+        <item>@string/dvbs_scan_mode_full</item>
+    </string-array>
+    <string-array name="lnb_mdu1_arrays">
+        <item>@string/dvbs_preferred_satellite</item>
+        <item>@string/dvbs_general_satellite</item>
+    </string-array>
+    <string-array name="nav_sleep_strings">
+        <item>Автоматичне вимкнення: Вимк.</item>
+        <item>Автоматичне вимкнення: 15 хв.</item>
+        <item>Автоматичне вимкнення: 30 хв.</item>
+        <item>Автоматичне вимкнення: 45 хв.</item>
+        <item>Автоматичне вимкнення: 60 хв.</item>
+        <item>Автоматичне вимкнення: 90 хв.</item>
+        <item>Автоматичне вимкнення: 120 хв.</item>
+    </string-array>
+    <string-array name="nav_channel_types">
+        <item>Alle</item>
+        <item>Радіо</item>
+    </string-array>
+    <string-array name="dvbs_preferred_satellite_arrays">
+        <item>@string/dvbs_preferred_satellite</item>
+        <item>@string/dvbs_general_satellite</item>
+    </string-array>
+    <string-array name="dvbs_sat_lnb_power">
+        <item>@string/dvbs_sat_off</item>
+        <item>@string/dvbs_sat_TUNER_LNB_POWER_13V_18V</item>
+        <item>@string/dvbs_sat_TUNER_LNB_POWER_14V_19V</item>
+        <item>@string/dvbs_sat_on</item>
+    </string-array>
+    <string-array name="dvbs_diseqc_input_arrays">
+        <item>@string/dvbs_diseqc_input_1</item>
+        <item>@string/dvbs_diseqc_input_2</item>
+        <item>@string/dvbs_diseqc_input_3</item>
+        <item>@string/dvbs_diseqc_input_4</item>
+        <item>@string/dvbs_diseqc_input_0</item>
+    </string-array>
+    <string-array name="nav_oad_btns_yes_no">
+        <item>Ja</item>
+        <item>Nein</item>
+    </string-array>
+    <string-array name="dvbs_tone_burst_arrays">
+        <item>@string/dvbs_tone_burst_a</item>
+        <item>@string/dvbs_tone_burst_b</item>
+        <item>@string/dvbs_tone_burst_disable</item>
+    </string-array>
+    <string-array name="nav_epg_filter_type">
+        <item>Фільм </item>
+        <item>Nachrichten</item>
+        <item>ANZEIGEN</item>
+        <item>Sport</item>
+        <item>Програма для дітей</item>
+        <item>Musik</item>
+        <item>Мистецтво</item>
+        <item>Соціальні</item>
+        <item>Erziehung</item>
+        <item>Дозвілля</item>
+        <item>СПЕЦІАЛЬНИЙ</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_news">
+        <item>Актуальна проблематика</item>
+        <item>Прогноз погоди</item>
+        <item>Інформаційно-аналітична програма</item>
+        <item>DOCUMENTARY</item>
+        <item>Дискусія</item>
+    </string-array>
+</resources>

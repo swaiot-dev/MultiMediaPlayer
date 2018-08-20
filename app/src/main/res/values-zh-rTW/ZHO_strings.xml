@@ -10,7 +10,7 @@
     <string name="add_schedule">新增排程</string>
     <string name="pvr_schedule_replace">取代</string>
     <string name="pvr_schedule_add">新增</string>
-    <string name="pvr_schedule_cancel">取銷</string>
+    <string name="pvr_schedule_cancel">取消</string>
     <string name="pvr_schedule_edit">編輯</string>
     <string name="pvr_schedule_delete">刪除</string>
     <string name="pvr_title_device_info">Device Info</string>
@@ -86,5 +86,6 @@
     <string name="video_info_dialog_format">格式:</string>
     <string name="video_info_dialog_resolution">分辨率:</string>
     <string name="video_info_dialog_subtitle">字幕</string>
+    <string name="video_audio_current_status_tv">關</string>
 </resources>
 

@@ -1,0 +1,15 @@
+<resources>
+
+    <string name="feature_not_avaiable">功能不可用</string>
+    <string name="attention_unplug_device">注意：請勿拔下設備，否則可能導致未知錯誤。</string>
+    <string name="feature_not_support">功能不支持</string>
+    <string name="format_confirm_dialog_line1">格式化將刪除所有數據</string>
+    <string name="format_confirm_dialog_line2">是否確定?</string>
+    <string name="delete_pvr_file_dialog_confirm2">是否確定?</string>
+    <string name="disk_wizard_formatconfirm_summary">您確定要格式化 USB 磁碟嗎？</string>
+    <string name="disk_wizard_formating_summary">格式化中</string>
+    <string name="disk_wizard_set_tshift_size_summary">請選取時光平移的檔案大小。</string>
+    <string name="state_file_pvr_playback_subtitle_off">關閉</string>
+    <string name="state_file_pvr_playback_subtitle_on">開啟</string>
+
+</resources>

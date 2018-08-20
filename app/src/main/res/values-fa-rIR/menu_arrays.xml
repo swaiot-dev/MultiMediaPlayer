@@ -1,0 +1,1163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+<string-array name="menu_video_gamma_array">
+        <item>تاریک</item>
+        <item>متوسط </item>
+        <item>روشن </item>
+</string-array>
+<string-array name="menu_video_color_temperature2_array">
+        <item>خنک</item>
+        <item>استاندارد </item>
+        <item>گرم </item>
+</string-array>
+<string-array name="menu_video_dnr_array">
+        <item>حالت خاموش </item>
+        <item>پایین </item>
+        <item>متوسط</item>
+        <item>قوی</item>
+        <item>خودکار</item>
+</string-array>
+<string-array name="menu_video_mpeg_nr_array">
+        <item>حالت خاموش </item>
+        <item>پایین </item>
+        <item>متوسط</item>
+        <item>قوی</item>
+</string-array>
+<string-array name="menu_video_luma_array">
+        <item>حالت خاموش </item>
+        <item>پایین </item>
+        <item>متوسط</item>
+        <item>قوی</item>
+</string-array>
+<string-array name="menu_video_flesh_tone_array">
+        <item>حالت خاموش </item>
+        <item>حالت روشن </item>
+</string-array>
+<string-array name="menu_video_flesh_tone_us_array">
+        <item>حالت خاموش </item>
+        <item>پایین </item>
+        <item>متوسط</item>
+        <item>بالا </item>
+</string-array>
+<string-array name="menu_video_black_bar_detection_array">
+        <item>حالت خاموش </item>
+        <item>حالت روشن </item>
+</string-array>
+<string-array name="menu_video_super_resolution_array">
+        <item>حالت خاموش </item>
+        <item>حالت روشن </item>
+</string-array>
+<string-array name="menu_video_di_film_mode_array">
+        <item>حالت خاموش </item>
+        <item>خودکار</item>
+</string-array>
+<string-array name="menu_video_blue_stretch_array">
+        <item>حالت خاموش </item>
+        <item>حالت روشن </item>
+</string-array>
+<string-array name="menu_video_game_mode_array">
+        <item>حالت خاموش </item>
+        <item>حالت روشن </item>
+</string-array>
+<string-array name="menu_video_pq_split_mode_array">
+        <item>حالت خاموش </item>
+        <item>حالت روشن </item>
+</string-array>
+<string-array name="menu_video_mjc_effect_array">
+        <item>حالت خاموش </item>
+        <item>پایین </item>
+        <item>متوسط </item>
+        <item>بالا </item>
+</string-array>
+<string-array name="menu_video_mjc_demo_partition_array">
+        <item>همه</item>
+        <item>راست</item>
+        <item>چپ</item>
+</string-array>
+<string-array name="menu_video_mjc_mode">
+        <item>نرمال </item>
+        <item>تنها فیلم</item>
+        <item>تنها لکه زدایی</item>
+</string-array>
+<string-array name="menu_video_vga_mode_array">
+        <item>گرافیک</item>
+        <item>ویدیو</item>
+</string-array>
+<string-array name="menu_video_hdmi_mode_array">
+        <item>خودکار</item>
+        <item>گرافیک</item>
+        <item>ویدیو</item>
+</string-array>
+<string-array name="menu_video_3d_mode_array">
+        <item>حالت خاموش </item>
+<item>حالت خودکار</item>
+<item>دو بعدی به سه بعدی</item>
+<item>ترتیب فریم</item>
+        <item>Side-by-Side</item>
+<item>بالا و پایین</item>
+<item>REALD MODE</item>
+<item>SENSIO</item>
+<item>خط مشبک</item>
+<item>DOT ALT MODE</item>
+<item>CHK BOARD</item>
+</string-array>
+
+<string-array name="menu_video_3d_nav_array">
+        <item>دستی</item>
+<item>نیمه خودکار</item>
+        <item>خودکار</item>
+</string-array>
+
+<string-array name="menu_video_3d_image_safety_array">
+        <item>حالت خاموش </item>
+        <item>پایین </item>
+        <item>متوسط </item>
+        <item>بالا </item>
+</string-array>
+
+<string-array name="menu_video_3d_lrswitch_array">
+        <item>حالت خاموش </item>
+        <item>حالت روشن </item>
+</string-array>
+<string-array name="menu_video_3d_3t2switch_array">
+        <item>حالت خاموش </item>
+        <item>حالت روشن </item>
+</string-array>
+
+<string-array name="menu_audio_srs_mode_array">
+        <item>حالت خاموش </item>
+        <item>حالت روشن </item>
+</string-array>
+<string-array name="menu_audio_equalizer_array">
+        <item>حالت خاموش </item>
+        <item>راک</item>
+        <item>پاپ</item>
+        <item>لایو</item>
+        <item>رقص</item>
+        <item>تکنو</item>
+        <item>کلاسیک</item>
+        <item>نرم </item>
+</string-array>
+<string-array name="menu_audio_equalizer_array_us">
+        <item>حالت خاموش </item>
+        <item>راک</item>
+        <item>پاپ</item>
+        <item>لایو</item>
+        <item>رقص</item>
+        <item>تکنو</item>
+        <item>کلاسیک</item>
+        <item>نرم </item>
+        <item>Custom1</item>
+        <item>Custom2</item>
+        <item>custom3</item>
+</string-array>
+<string-array name="menu_audio_speaker_mode_array">
+        <item>حالت خاموش </item>
+        <item>حالت روشن </item>
+</string-array>
+<string-array name="menu_audio_spdif_mode_array">
+        <item>حالت خاموش </item>
+        <item>PCM RAW</item>
+        <item>PCM 16</item>
+        <item>PCM 24</item>
+</string-array>
+<string-array name="menu_audio_spdif_mode_us_array">
+        <item>حالت خاموش </item>
+        <item>دالبی دیجیتال</item>
+<item>PCM</item>
+
+</string-array>
+<string-array name="menu_audio_avc_mode_array">
+        <item>حالت خاموش </item>
+        <item>حالت روشن </item>
+</string-array>
+<string-array name="menu_audio_type_array">
+        <item>نرمال </item>
+        <item>دچار اختلال شنوایی</item>
+        <item>نقص در تصویر</item>
+</string-array>
+<string-array name="menu_audio_visually_speaker_array">
+        <item>حالت خاموش </item>
+        <item>حالت روشن </item>
+</string-array>
+<string-array name="menu_audio_visually_headphone_array">
+        <item>حالت خاموش </item>
+        <item>حالت روشن </item>
+</string-array>
+
+<string-array name="menu_audio_bbe_mode_array">
+        <item>حالت خاموش </item>
+        <item>BBE</item>
+        <item>BBE Viva</item>
+</string-array>
+
+<string-array name="menu_audio_pippop_mode_array">
+        <item>حالت خاموش </item>
+<item>PIP</item>
+        <item>پاپ</item>
+</string-array>
+
+<string-array name="menu_audio_downmixmode_array">
+        <item>استریو </item>
+        <item>استریو خودکار</item>
+        <item>احاطه </item>
+</string-array>
+<string-array name="menu_audio_downmixmode_eu_array">
+        <item>احاطه </item>
+        <item>استریو </item>
+        <item>استریو خودکار</item>
+</string-array>
+<string-array name="menu_tv_tuner_mode_array">
+        <item>آنتن</item>
+        <item>کابل</item>
+</string-array>
+<string-array name="menu_tv_audio_channel_array">
+        <item>مونو</item>
+        <item>استریو </item>
+<item>Dual1</item>
+        <item>Dual2</item>
+</string-array>
+<string-array name="menu_tv_audio_channel_mts_array">
+        <item>مونو</item>
+        <item>استریو </item>
+<item>SAP</item>
+</string-array>
+<string-array name="menu_tv_audio_language_array">
+        <item>انگلیسی </item>
+        <item>اسپانیایی</item>
+        <item>فرانسوی</item>
+</string-array>
+<string-array name="menu_tv_subtitle_language_eu_array">
+        <item>باسک </item>
+        <item>بلغاری </item>
+        <item>کانتونی </item>
+        <item>کاتالان </item>
+        <item>کروات </item>
+        <item>جمهوری چک </item>
+        <item>دانمارکی </item>
+        <item>هلندی </item>
+         <item>انگلیسی </item>
+        <item>استونیایی </item>
+        <item>فنلاندی </item>
+        <item>فرانسوی </item>
+        <item>گی لیک </item>
+        <item>ایرلندی </item>
+        <item>گاليسيايى‌</item>
+        <item>آلمانی </item>
+        <item>یونانی </item>
+        <item>هندی</item>
+        <item>مجاری </item>
+        <item>ایتالیایی </item>
+        <item>ایسلندی </item>
+        <item>ژاپنی </item>
+        <item>کره ای </item>
+        <item>ماندارین</item>
+        <item>مائوری</item>
+        <item>نروژی </item>
+        <item>لهستانی </item>
+        <item>پرتغالی </item>
+        <item>رومانیایی </item>
+        <item>روسی </item>
+        <item>سامی</item>
+        <item>صربی </item>
+        <item>اسلواک </item>
+        <item>اسلونیایی </item>
+        <item>اسپانیایی </item>
+        <item>سوئدی </item>
+        <item>ترکی </item>
+        <item>ولزی </item>
+        <item>صدای اصلی</item>
+        <item>روایت</item>
+        <item>تعریف نشده </item>
+        <item>حالت خاموش </item>
+</string-array>
+<string-array name="menu_tv_audio_language_eu_array">
+        <item>انگلیسی </item>
+        <item>استونیایی </item>
+        <item>فنلاندی </item>
+        <item>فرانسوی </item>
+        <item>گی لیک </item>
+        <item>ایرلندی </item>
+        <item>گاليسيايى‌</item>
+        <item>آلمانی </item>
+        <item>یونانی </item>
+        <item>هندی</item>
+        <item>مجاری </item>
+        <item>ایتالیایی </item>
+        <item>ایسلندی </item>
+        <item>ژاپنی </item>
+        <item>کره ای </item>
+        <item>ماندارین</item>
+        <item>مائوری</item>
+        <item>نروژی </item>
+        <item>لهستانی </item>
+        <item>پرتغالی </item>
+        <item>رومانیایی </item>
+        <item>روسی </item>
+        <item>سامی</item>
+        <item>صربی </item>
+        <item>اسلواک </item>
+        <item>اسلونیایی </item>
+        <item>اسپانیایی </item>
+        <item>سوئدی </item>
+        <item>ترکی </item>
+        <item>ولزی </item>
+        <item>صدای اصلی</item>
+        <item>روایت</item>
+        <item>تعریف نشده </item>
+        <item>باسک </item>
+        <item>بلغاری </item>
+        <item>کانتونی </item>
+        <item>کاتالان </item>
+        <item>کروات </item>
+        <item>جمهوری چک </item>
+        <item>دانمارکی </item>
+        <item>هلندی </item>
+</string-array>
+<string-array name="menu_tv_rf_signal_quality">
+        <item>خوب</item>
+        <item>متوسط</item>
+        <item>ضعیف </item>
+</string-array>
+<string-array name="menu_tv_tv_system_array">
+        <item> خودکار</item>
+        <item> B/G</item>
+        <item> A2 B/G</item>
+<item>I</item>
+        <item> D/K</item>
+        <item> A2 D/K</item>
+        <item> A2 D/K1</item>
+        <item> A2 D/K2</item>
+<item>M</item>
+</string-array>
+<string-array name="menu_tv_sound_system_array">
+        <item> B/G</item>
+        <item> A2 B/G</item>
+<item>L</item>
+		<item> L\&#039;</item>
+<item>I</item>
+        <item> D/K</item>
+        <item> A2 D/K</item>
+        <item> A2 D/K1</item>
+        <item> A2 D/K2</item>
+</string-array>
+<string-array name="menu_tv_color_system_array">
+        <item> خودکار</item>
+<item>PAL</item>
+<item>SECAM</item>
+<item>NTSC</item>
+</string-array>
+<string-array name="menu_tv_color_system_array_eu_edit">
+        <item> خودکار</item>
+<item>NTSC</item>
+<item>PAL</item>
+<item>SECAM</item>
+</string-array>
+<string-array name="menu_tv_scan_mode_array">
+        <item> خودکار</item>
+<item>16QAM</item>
+<item>32QAM</item>
+<item>64QAM</item>
+<item>128QAM</item>
+<item>256QAM</item>
+</string-array>
+<string-array name="menu_tv_mdu_type_array">
+        <item> يونيورسال</item>
+        <item> MDU 1</item>
+        <item> MDU 2</item>
+        <item> MDU 3</item>
+        <item> MDU 4</item>
+        <item> MDU 5</item>
+</string-array>
+<string-array name="menu_tv_scan_frequency_plan_array">
+        <item>STD</item>
+        <item>IRC</item>
+        <item>HRC</item>
+</string-array>
+<string-array name="menu_tv_scan_modulation_array">
+        <item> QAM64</item>
+        <item> QAM256</item>
+</string-array>
+<string-array name="menu_tv_us_scan_mode_array">
+        <item> آنالوگ/دیجیتال</item>
+        <item> آنالوگ</item>
+        <item> دیجیتال</item>
+</string-array>
+<string-array name="menu_tv_channeledit_array">
+        <item>اطلاعات کانال</item>
+        <item>وارد كردن</item>
+        <item>حذف</item>
+        <item>تعويض</item>
+</string-array>
+<string-array name="menu_tv_freeze_channel_array">
+        <item>حالت خاموش </item>
+        <item>حالت روشن </item>
+</string-array>
+<string-array name="menu_tv_fa_dataservice_array">
+        <item>حالت خاموش </item>
+        <item>حالت روشن </item>
+</string-array>
+<string-array name="menu_tv_fine_tune_array">
+        <item>حالت خاموش </item>
+        <item>حالت روشن </item>
+</string-array>
+<string-array name="menu_tv_skip_ch_array">
+        <item>حالت خاموش </item>
+        <item>حالت روشن </item>
+</string-array>
+
+<string-array name="menu_setup_language_array">
+        <item>انگلیسی </item>
+<item>چینی ساده</item>
+</string-array>
+<string-array name="menu_setup_dpms_array">
+        <item>حالت خاموش </item>
+        <item>حالت روشن </item>
+</string-array>
+<string-array name="menu_setup_ginga_array">
+        <item>حالت خاموش </item>
+        <item>حالت روشن </item>
+</string-array>
+<string-array name="menu_setup_blue_mute_array">
+        <item>حالت خاموش </item>
+        <item>حالت روشن </item>
+</string-array>
+<string-array name="menu_setup_fast_boot_array">
+        <item>حالت خاموش </item>
+        <item>حالت روشن </item>
+</string-array>
+<string-array name="menu_setup_msi_array">
+        <item>حالت خاموش </item>
+        <item>حالت روشن </item>
+</string-array>
+<string-array name="menu_setup_poweron_music_array">
+        <item>حالت خاموش </item>
+        <item>حالت روشن </item>
+</string-array>
+<string-array name="menu_setup_tv_single_signal_quality">
+        <item>ضعیف </item>
+        <item>نرمال </item>
+        <item>خوب</item>
+</string-array>
+<string-array name="menu_setup_scart">
+        <item>خودکار</item>
+        <item>ترکیبی</item>
+<item>RGB</item>
+        <item>CVBS</item>
+<item>S-Video</item>
+</string-array>
+<string-array name="menu_setup_capturelogo_array">
+        <item>حالت پیش فرض </item>
+        <item>0</item>
+        <item>1</item>
+        <item>هیچ </item>
+</string-array>
+
+<string-array name="menu_setup_analog_subtitle_array">
+        <item>حالت خاموش </item>
+        <item>حالت روشن </item>
+        <item>صدا را قطع نمائید. </item>
+</string-array>
+<string-array name="menu_setup_subtitle_type_array">
+        <item>نرمال </item>
+        <item>دچار اختلال شنوایی</item>
+</string-array>
+
+<string-array name="screen_mode_array_sa">
+		<item>خودکار</item>
+		<item>نرمال </item>
+		<item>زوم </item>
+</string-array>
+<string-array name="screen_mode_array_vga">
+		<item>نرمال </item>
+		<item>جعبه نامه</item>
+		<item>زوم </item>
+</string-array>
+<string-array name="screen_mode_array_sa_analog">
+		<item>خودکار</item>
+		<item>نرمال </item>
+		<item>جعبه نامه</item>
+		<item>پانوراما</item>
+		<item>زوم </item>
+		<item>نقطه به نقطه</item>
+</string-array>
+<string-array name="screen_mode_array_us_dtv">
+		<item>خودکار</item>
+		<item>نرمال </item>
+		<item>جعبه نامه</item>
+		<item>پانوراما</item>
+		<item>زوم </item>
+		<item>نقطه به نقطه</item>
+</string-array>
+<string-array name="screen_mode_array_us_pip_main_analog">
+		<item>خودکار</item>
+		<item>نرمال </item>
+		<item>جعبه نامه</item>
+		<item>زوم </item>
+		<item>نقطه به نقطه</item>
+</string-array>
+<string-array name="screen_mode_array_eu_analog">
+		<item>خودکار</item>
+		<item>نرمال </item>
+		<item>جعبه نامه</item>
+		<item>پانوراما</item>
+</string-array>
+<string-array name="screen_mode_array_sa_pop">
+		<item>خودکار</item>
+		<item>نرمال </item>
+		<item>جعبه نامه</item>
+		<item>زوم </item>
+</string-array>
+<string-array name="screen_mode_array_us_pip_sub">
+		<item>خودکار</item>
+		<item>نرمال </item>
+		<item>جعبه نامه</item>
+</string-array>
+<string-array name="screen_mode_array_us_pop">
+		<item>خودکار</item>
+		<item>نرمال </item>
+		<item>زوم </item>
+</string-array>
+<string-array name="screen_mode_array_sa_pip">
+		<item>خودکار</item>
+		<item>نرمال </item>
+		<item>جعبه نامه</item>
+</string-array>
+<string-array name="screen_mode_array_us_pip">
+		<item>خودکار</item>
+		<item>نرمال </item>
+</string-array>
+<string-array name="menu_setup_enable_caption_array">
+        <item>بله </item>
+        <item>شماره </item>
+        <item>بی‌صدا</item>
+</string-array>
+<string-array name="menu_setup_analog_caption_array">
+        <item>حالت خاموش </item>
+<item>CC1</item>
+<item>CC2</item>
+<item>CC3</item>
+<item>CC4</item>
+<item>Text1</item>
+<item>TEXT2</item>
+<item>TEXT3</item>
+<item>TEXT4</item>
+</string-array>
+<string-array name="menu_setup_digital_caption_array">
+        <item>حالت خاموش </item>
+<item>Service1</item>
+<item>Service2</item>
+<item>Service3</item>
+<item>Service4</item>
+<item>Service5</item>
+<item>Service6</item>
+</string-array>
+<string-array name="menu_setup_digital_caption_sa_array">
+        <item>حالت خاموش </item>
+        <item>زبان 1</item>
+        <item>زبان 2</item>
+        <item>زبان 3</item>
+        <item>زبان 4</item>
+        <item>زبان 5</item>
+        <item>زبان 6</item>
+         <item>زبان 7</item>
+        <item>زبان 8</item>
+</string-array>
+<string-array name="menu_setup_superimpose_setup_array">
+        <item>حالت خاموش </item>
+        <item>زبان 1</item>
+        <item>زبان 2</item>
+</string-array>
+<string-array name="menu_setup_caption_style_array">
+        <item>بعنوان پخش‌کننده</item>
+        <item>سفارشی</item>
+</string-array>
+<string-array name="menu_setup_font_size_array">
+        <item>کوچک</item>
+        <item>متوسط</item>
+        <item>بزرگ</item>
+</string-array>
+<string-array name="menu_setup_font_style_array">
+<item>شیوه1</item>
+<item>Style2</item>
+<item>Style3</item>
+<item>Style4</item>
+<item>Style5</item>
+<item>Style6</item>
+<item>Style7</item>
+
+</string-array>
+<string-array name="menu_setup_font_color_array">
+        <item>سیاه</item>
+        <item>سفید</item>
+        <item>سبز</item>
+        <item>آبی</item>
+        <item>قرمز</item>
+        <item>یشمی</item>
+        <item>زرد</item>
+        <item>سرخ</item>
+
+</string-array>
+<string-array name="menu_setup_font_opacity_array">
+        <item>جامد</item>
+        <item>مات</item>
+        <item>شفاف</item>
+</string-array>
+<string-array name="menu_setup_background_color_array">
+        <item>سیاه</item>
+        <item>سفید</item>
+        <item>سبز</item>
+        <item>آبی</item>
+        <item>قرمز</item>
+        <item>یشمی</item>
+        <item>زرد</item>
+        <item>سرخ</item>
+
+</string-array>
+<string-array name="menu_setup_background_opacity_array">
+        <item>جامد</item>
+        <item>مات</item>
+        <item>شفاف</item>
+</string-array>
+<string-array name="menu_setup_window_color_array">
+        <item>سیاه</item>
+        <item>سفید</item>
+        <item>سبز</item>
+        <item>آبی</item>
+        <item>قرمز</item>
+        <item>یشمی</item>
+        <item>زرد</item>
+        <item>سرخ</item>
+
+</string-array>
+<string-array name="menu_setup_window_opacity_array">
+        <item>جامد</item>
+        <item>مات</item>
+        <item>شفاف</item>
+</string-array>
+<string-array name="menu_setup_atv_record_mode_array">
+        <item>حالت خاموش </item>
+        <item>حالت روشن </item>
+</string-array>
+<string-array name="menu_setup_time_shifting_mode_array">
+        <item>حالت خاموش </item>
+        <item>حالت روشن </item>
+</string-array>
+<string-array name="menu_setup_record_quality_array">
+        <item>پایین </item>
+        <item>متوسط </item>
+        <item>بالا </item>
+</string-array>
+<string-array name="menu_parental_age_ratings_array">
+        <item>هیچ </item>
+<item>زیر 10</item>
+        <item>Below 12</item>
+        <item>Below 14</item>
+        <item>Below 16</item>
+        <item>Below 18</item>
+</string-array>
+<string-array name="menu_parental_age_ratings_array_eu">
+        <item>هیچ </item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+</string-array>
+<string-array name="menu_parental_age_ratings_array_eu_ocean_aus">
+        <item>عدم بلوک شدن </item>
+        <item>بلاک نمودن  R و بالاتر </item>
+        <item>بلاک نمودن  AV و بالاتر </item>
+        <item>بلاک نمودن  MA و بالاتر </item>
+        <item>بلاک نمودن  M و بالاتر </item>
+        <item>بلاک نمودن  PG و بالاتر </item>
+        <item>بلاک نمودن G و بالاتر </item>
+        <item>بلاک نمودن تمام کانالها </item>
+</string-array>
+<string-array name="menu_parental_content_ratings_array">
+        <item>حالت خاموش </item>
+<item>مواد مخدر</item>
+<item>خشونت</item>
+<item>سکس</item>
+<item>خشونتو مواد مخدر</item>
+<item>سکسو مواد مخدر</item>
+        <item>Violence  Sex</item>
+        <item>Violence Sex  Drugs</item>
+
+</string-array>
+
+<string-array name="menu_factory_high_deviation_mode_array">
+        <item>حالت خاموش </item>
+        <item>حالت روشن </item>
+</string-array>
+<string-array name="menu_factory_carrier_shift_function_array">
+        <item>حالت خاموش </item>
+         <item>حالت روشن </item>
+</string-array>
+<string-array name="menu_factory_fm_saturation_mute_array">
+        <item>حالت خاموش </item>
+        <item>حالت روشن </item>
+</string-array>
+
+<string-array name="menu_parental_open_vchip_array">
+        <item>حالت خاموش </item>
+        <item>حالت روشن </item>
+</string-array>
+<string-array name="menu_parental_block_unrated_array">
+        <item>حالت خاموش </item>
+        <item>حالت روشن </item>
+</string-array>
+<string-array name="menu_parental_rating_enable_array">
+        <item>حالت خاموش </item>
+        <item>حالت روشن </item>
+</string-array>
+<string-array name="menu_parental_block_channel_schedule_operation_array">
+        <item>هیچ </item>
+        <item>روزانه</item>
+        <item>یک بار</item>
+</string-array>
+<string-array name="menu_setup_digital_teletext_language_array">
+	    <item>باسک </item>  
+	    <item>بلغاری </item>  
+	    <item>کانتونی </item>
+	    <item>کاتالان </item> 
+	    <item>کروات </item> 
+	    <item>جمهوری چک </item> 
+	    <item>دانمارکی </item>
+	    <item>هلندی </item>  
+	    <item>انگلیسی </item>
+	    <item>استونیایی </item> 
+	    <item>فنلاندی </item>
+	    <item>فرانسوی </item>
+	    <item>گی لیک </item>
+	    <item>ایرلندی </item>
+	    <item>گاليسيايى‌</item> 
+	    <item>آلمانی </item> 
+	    <item>یونانی </item>
+	    <item>هندی</item>
+	    <item>مجاری </item>
+	    <item>ایتالیایی </item>
+	    <item>ایسلندی </item>
+	    <item>ژاپنی </item>
+	    <item>کره ای </item>
+	    <item>ماندارین</item>
+	    <item>مائوری</item>
+	    <item>نروژی </item>
+	    <item>لهستانی </item>
+	    <item>پرتغالی </item>
+	    <item>رومانیایی </item>
+	    <item>روسی </item>
+	    <item>سامی</item>
+	    <item>صربی </item>
+	    <item>اسلواک </item>
+	    <item>اسلونیایی </item>
+	    <item>اسپانیایی </item>
+	    <item>سوئدی </item>
+	    <item>ترکی </item>
+	    <item>ولزی </item>
+	    <item>صدای اصلی</item>
+	    <item>روایت</item>
+	    <item>تعریف نشده </item>
+</string-array>
+<string-array name="menu_setup_decoding_page_language_array">
+		<item>WEST EUR</item>
+		<item>EAST EUR</item>
+		<item>روسیه </item>
+		<item>روسیه -2</item>
+		<item>یونانی </item>
+		<item>ترکیه</item>
+		<item>Arab/Hbrw</item>
+		<item>فارسی</item>
+		<item>عرب </item>
+		<item>روسیه سفید </item>
+</string-array>
+<string-array name="menu_setup_ttx_presentation_level_array">
+        <item>Level 1.5</item>
+        <item>Level 2.5</item>
+</string-array>
+<string-array name="menu_setup_us_timezone_array">
+        <item>منطقه زمانی شرقی</item>
+        <item>هاوایی</item>
+        <item>آلاسکا</item>
+        <item>منطقه زمانی اقیانوس آرام</item>
+        <item>آریزونا</item>
+        <item>منطقه زمانی کوهستانی</item>
+        <item>منطقه زمانی مرکزی</item>
+        <item>ایندیانا</item>
+</string-array>
+<string-array name="menu_setup_us_timezone_str">
+<item>آمریکا/نیویورک</item>
+<item>اقیانوس آرام/هونولولو</item>
+<item>آمریکا/انکوریج</item>
+<item>آمریکا/لوس آنجلس</item>
+<item>آمریکا/فینیکس</item>
+<item>آمریکا/دنور</item>
+<item>آمریکا/شیکاگو</item>
+<item>آمریکا/نیویورک</item>
+</string-array>
+
+<integer-array name="menu_setup_us_timezone_values">
+        <item>-5</item>
+        <item>-10</item>
+        <item>-9</item>
+        <item>-8</item>
+        <item>-7</item>
+        <item>-7</item>
+        <item>-6</item>
+        <item>-5</item>
+</integer-array>
+
+<string-array name="menu_setup_timezone_array">
+        <item>GMT-12:00</item>
+        <item>GMT-11:00</item>
+        <item>GMT-10:00</item>
+        <item>GMT-9:00</item>
+        <item>GMT-8:00</item>
+        <item>GMT-7:00</item>
+        <item>GMT-6:00</item>
+        <item>GMT-5:00</item>
+        <item>GMT-4:00</item>
+        <item>GMT-3:30</item>
+        <item>GMT-3:00</item>
+        <item>GMT-2:00</item>
+        <item>GMT-1:00</item>
+        <item>بعنوان پخش</item>
+        <item>GMT+0:00</item>
+        <item>GMT+1:00</item>
+        <item>GMT+2:00</item>
+        <item>GMT+3:00</item>
+        <item>GMT+3:30</item>
+        <item>GMT+4:00</item>
+        <item>GMT+4:30</item>
+        <item>GMT+5:00</item>
+        <item>GMT+5:30</item>
+        <item>GMT+5:45</item>
+        <item>GMT+6:00</item>
+        <item>GMT+6:30</item>
+        <item>GMT+7:00</item>
+        <item>GMT+8:00</item>
+        <item>GMT+9:00</item>
+        <item>GMT+9:30</item>
+        <item>GMT+10:00</item>
+        <item>GMT+11:00</item>
+        <item>GMT+12:00</item>
+        <item>GMT+12:45</item>
+        <item>GMT+13:00</item>
+</string-array>
+
+<integer-array name="menu_setup_timezone_value_array">
+        <item>-12</item>
+        <item>-11</item>
+        <item>-10</item>
+        <item>-9</item>
+        <item>-8</item>
+        <item>-7</item>
+        <item>-6</item>
+        <item>-5</item>
+        <item>-4</item>
+        <item>-350</item>
+        <item>-3</item>
+        <item>-2</item>
+        <item>-1</item>
+        <item>0</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>350</item>
+        <item>4</item>
+        <item>450</item>
+        <item>5</item>
+        <item>550</item>
+        <item>575</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>950</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>-1125</item>
+        <item>-11</item>
+</integer-array>
+
+<string-array name="menu_setup_timezone_name_array">
+<item>آسیا/ماگادان</item>
+<item>اقیانوس آرام/میدوی</item>
+<item>اقیانوس آرام/هونولولو</item>
+<item>آمریکا/انکوریج</item>
+<item>آمریکا/انکوریج</item>
+<item>آمریکا/لوس آنجلس</item>
+<item>آمریکا/چیهواهوا</item>
+<item>آمریکا/شیکاگو</item>
+<item>آمریکا/مانواس</item>
+<item>آمریکا/سنت جان</item>
+<item>آمریکا/سنت جان</item>
+<item>آمریکا/گادتاب</item>
+<item>آتلانتیک/کیپ ورد</item>
+        <item>بعنوان پخش</item>
+<item>آفریقا/کازابلانکا</item>
+<item>اروپا/لندن</item>
+<item>آفریقا/هراره</item>
+<item>آسیا/امان</item>
+<item>آسیا/امان</item>
+<item>اروپا/مسکو</item>
+<item>آسیا/تهران</item>
+<item>آسیا/ایروان</item>
+<item>آسیا/کلمبو</item>
+<item>آسیا/کاتماندو</item>
+<item>آسیا/آلماتی</item>
+<item>آسیا/بانکوک</item>
+<item>آسیا/هنگ‌کنگ</item>
+<item>آسیا/توکیو</item>
+<item>استرالیا/آدلاید</item>
+<item>آسیا/یاکوتسک</item>
+<item>آسیا/ولادیوستک</item>
+<item>آسیا/ولادیوستک</item>
+<item>اقیانوس آرام/فیجی</item>
+<item>اقیانوس آرام/تونگاتاپو</item>
+</string-array>
+<string-array name="menu_setup_auto_synchronization_array">
+        <item>حالت خاموش </item>
+        <item>همزمان‌سازی از استریم</item>
+        <item>همزمان‌سازی از شبکه</item>
+</string-array>
+<string-array name="menu_setup_power_on_timer_array">
+        <item>حالت خاموش </item>
+        <item>حالت روشن </item>
+        <item>یک بار</item>
+</string-array>
+<string-array name="menu_setup_sleep_timer_array">
+        <item>حالت خاموش </item>
+        <item>10 دقیقه </item>
+        <item>20 دقیقه</item>
+        <item>30 دقیقه </item>
+        <item>40 دقیقه</item>
+        <item>50 دقیقه</item>
+        <item>60 دقیقه</item>
+        <item>90 دقیقه</item>
+        <item>120 دقیقه</item>
+</string-array>
+<string-array name="menu_setup_power_on_channel_mode_array">
+        <item>آخرین وضعیت</item>
+        <item>انتخاب کاربر</item>
+</string-array>
+<string-array name="menu_setup_power_off_timer_array">
+        <item>حالت خاموش </item>
+        <item>حالت روشن </item>
+        <item>یک بار</item>
+</string-array>
+<string-array name="menu_setup_auto_sleep_array">
+        <item>حالت خاموش </item>
+        <item>1 ساعت</item>
+        <item>2 ساعت </item>
+        <item>5 ساعت</item>
+</string-array>
+<string-array name="menu_setup_auto_sleep_eu_array">
+        <item>حالت خاموش </item>
+        <item>4 ساعت</item>
+        <item>6 ساعت</item>
+        <item>8 ساعت</item>
+</string-array>
+<string-array name="menu_setup_network_connection_array">
+        <item>حالت خاموش </item>
+        <item>حالت روشن </item>
+</string-array>
+<string-array name="menu_setup_address_type_array">
+        <item>خودکار</item>
+        <item>دستی</item>
+</string-array>
+<string-array name="menu_setup_dlna_array">
+        <item>حالت خاموش </item>
+        <item>حالت روشن </item>
+</string-array>
+<string-array name="menu_setup_my_network_place_array">
+        <item>حالت خاموش </item>
+        <item>حالت روشن </item>
+</string-array>
+<string-array name="menu_setup_null_array">
+<item>لطفا کلید WEP را وارد کنید.</item>
+</string-array>
+<string-array name="menu_factory_autovedio_array">
+        <item>حالت خاموش </item>
+        <item>حالت روشن </item>
+</string-array>
+
+<string-array name="menu_factory_auto_dima_array">
+        <item>تصویر آهسته</item>
+        <item>تصویر متحرک</item>
+</string-array>
+
+<string-array name="menu_factory_video_diedge_array">
+        <item>ضعیف </item>
+        <item>قوی</item>
+</string-array>
+
+<string-array name="menu_factory_video_xvycc_array">
+        <item>حالت خاموش </item>
+        <item>حالت روشن </item>
+</string-array>
+
+<string-array name="menu_factory_video_wcg_array">
+        <item>حالت خاموش </item>
+        <item>حالت روشن </item>
+</string-array>
+
+<string-array name="menu_factory_video_flip_array">
+        <item>حالت خاموش </item>
+        <item>حالت روشن </item>
+</string-array>
+
+<string-array name="menu_factory_video_mirror_array">
+        <item>حالت خاموش </item>
+        <item>حالت روشن </item>
+</string-array>
+<string-array name="menu_factory_video_local_array">
+        <item>حالت خاموش </item>
+        <item>حالت روشن </item>
+</string-array>
+<string-array name="menu_factory_video_colortemperature_array">
+        <item>کاربر</item>
+        <item>خنک</item>
+        <item>استاندارد </item>
+        <item>گرم </item>
+</string-array>
+
+<string-array name="menu_factory_audio_dolbybanner_array">
+        <item>حالت خاموش </item>
+        <item>حالت روشن </item>
+</string-array>
+
+<string-array name="menu_factory_audio_compression_array">
+        <item>خط</item>
+        <item>RF</item>
+</string-array>
+
+<string-array name="menu_factory_audio_compressionfactor_array">
+        <item>حالت خاموش </item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>40</item>
+        <item>50</item>
+        <item>60</item>
+        <item>70</item>
+        <item>80</item>
+        <item>90</item>
+        <item>100</item>
+</string-array>
+<string-array name="menu_factory_setup_eventform">
+        <item>دو فرم</item>
+        <item>فرم طولانی</item>
+        <item>فرم کوتاه</item>
+</string-array>
+<string-array name="menu_factory_setup_burning_mode">
+        <item>حالت خاموش </item>
+        <item>حالت روشن </item>
+</string-array>
+<string-array name="menu_factory_setup_uart_mode">
+        <item>حالت خاموش </item>
+        <item>حالت روشن </item>
+</string-array>
+<string-array name="menu_factory_setup_eu_uart_mode">
+          <item>حالت خاموش </item>
+         <item>حالت روشن </item>
+</string-array>
+<string-array name="menu_factory_audio_system_test_array">
+        <item>حالت خاموش </item>
+        <item>حالت روشن </item>
+</string-array>
+<string-array name="menu_ci_not_support_channel">
+<item>بدون مجوز</item>
+</string-array>
+<string-array name="pvr_tshift_srctype">
+        <item>تلویزیون</item>
+        <item>مرکب </item>
+</string-array>
+<string-array name="pvr_tshift_channel_temp_list">
+        <item>CH41</item>
+        <item>CH42</item>
+        <item>CH43</item>
+        <item>CH44</item>
+</string-array>
+<string-array name="pvr_tshift_schedule_type">
+        <item>ضبط نمائید. </item>
+        <item>تذکر</item>
+</string-array>
+<string-array name="pvr_tshift_repeat_type">
+        <item>یک بار</item>
+        <item>هفته</item>
+        <item>روزانه</item>
+</string-array>
+<string-array name="menu_tv_tshift_config_array">
+        <item>حالت خاموش </item>
+        <item>حالت روشن </item>
+</string-array>
+<string-array name="menu_cec_on_off">
+        <item>حالت خاموش </item>
+        <item>حالت روشن </item>
+</string-array>
+
+<string-array name="menu_scan_mode">
+        <item>پیشرفته</item>
+        <item>سریع</item>
+        <item>کامل </item>
+</string-array>
+<string-array name="menu_tv_tuner_mode_array_full_eu">
+        <item>آنتن</item>
+        <item>کابل</item>
+        <item>@string/dvbs_preferred_satellite</item>
+        <item>@string/dvbs_general_satellite</item>
+</string-array>
+<string-array name="menu_setup_oad_auto_download_array">
+        <item>شماره </item>
+        <item>بله </item>
+</string-array>
+<string-array name="menu_tv_country_region_id_eu">
+        <item>منطقه کشور شناسه 1</item>
+        <item>منطقه کشور شناسه 2</item>
+</string-array>
+<string-array name="menu_tv_oceania_country_region">
+        <item>NSW/ACT</item>
+        <item>VIC</item>
+        <item>QLD</item>
+<item>SA</item>
+        <item>WA</item>
+        <item>TAS</item>
+        <item>NT</item>
+</string-array>
+<string-array name="menu_tv_channel_listtype">
+        <item>پخش</item>
+        <item>CAM</item>
+</string-array>
+<string-array name="menu_tv_channel_bl_type">
+        <item>هیچ </item>
+        <item>هر روز</item>
+        <item>یکشنبه</item>
+        <item>دوشنبه</item>
+        <item>سه شنبه</item>
+        <item>چهار شنبه</item>
+        <item>پنج شنبه</item>
+        <item>جمعه</item>
+        <item>روز شنبه</item>
+</string-array>
+<string-array name="menu_tv_tuner_mode_array_full_eu_sat_only">
+        <item>آنتن</item>
+        <item>کابل</item>
+<item>ماهواره</item>
+</string-array>
+
+</resources>

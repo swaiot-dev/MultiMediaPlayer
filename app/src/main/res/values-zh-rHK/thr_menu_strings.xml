@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+              
+    <string name="thr_menu_common_setting">常用設置</string>
+    <string name="thr_menu_confim">確認</string>
+    <string name="thr_menu_cancal">退出</string>
+    <string name="thr_menu">選單</string>
+    <string name="thr_menu_select">選擇</string>
+    
+    <string name="thr_menu_picture_mode">影像模式</string>
+    <string name="thr_menu_track">音軌</string> 
+    <string name="thr_menu_Equalizer">均衡器</string>
+    <string name="thr_menu_volume">音量</string>
+    
+    
+    
+</resources>

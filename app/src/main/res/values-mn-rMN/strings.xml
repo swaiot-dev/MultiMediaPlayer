@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Мультимедиа Тоглуулагч</string>
+    <string name="schedulelist_nofiles">Бичлэгт хуваарь байхгүй байна! "Нэмэх" товчлуурыг нэгийг нэмэхээр дарна уу.
+    </string>
+    <string name="schedulelist_nofiles_disable_add">Бичлэгт хуваарь байхгүй байна!</string>
+    <string name="exit">ГАРЦ</string>
+    <string name="selected">Сонгосон</string>
+    <string name="add_schedule">Хуваарь нэм</string>
+    <string name="pvr_schedule_replace">Орлуул</string>
+    <string name="menu_value_minus">бууралт</string>
+    <string name="menu_value_plus">нэмэгдүүлэх</string>
+    <string name="pvr_schedule_cancel">ХҮЧИНГҮЙ БОЛГО</string>
+    <string name="pvr_schedule_ok">ОК</string>
+    <string name="pvr_schedule_edit">Засварлах</string>
+    <string name="pvr_schedule_delete">Устга</string>
+    <string name="pvr_title_device_info">Төхөөрөмжийн мэдээлэл</string>
+    <string name="pvr_deviceinfo_info">Мэдээлэл</string>
+    <string name="pvr_exit">ГАРЦ</string>
+    <string name="pvr_deviceinfo_format">Формат</string>
+    <string name="pvr_deviceinfo_speed_test">Хурд шалгуур</string>
+    <string name="pvr_disk_no_name">Нэргүй</string>
+    <string name="pvr_playlist_record_list">Бичлэгийн шалгуур</string>
+    <string name="pvr_playlist_page_up">Хуудас дээшээ</string>
+    <string name="pvr_playlist_delete">Устга</string>
+    <string name="pvr_playlist_page_down">Хуудас доошоо</string>
+    <string name="pvr_playlist_info">Мэдээлэл</string>
+    <string name="pvr_playlist_record_detail">Нарийвчлалыг хуулан бич</string>
+    <string name="pvr_playlist_channel_num">Сувгийн дугар</string>
+    <string name="pvr_playlist_channel_name">Сувгийн Нэр</string>
+    <string name="pvr_playlist_program_name">Програмын Нэр</string>
+    <string name="pvr_playlist_date">Огноо</string>
+    <string name="pvr_playlist_week">Долоо хоног</string>
+    <string name="pvr_playlist_fri">Баасан</string>
+    <string name="pvr_playlist_time">ХУГАЦАА</string>
+    <string name="pvr_playlist_duration">Хугацаа</string>
+    <string name="pvr_disksetup_disk_setup">Диск тохируулга</string>
+    <string name="pvr_disksetup_page_up">Хуудас дээшээ</string>
+    <string name="pvr_disksetup_select">Сонгох</string>
+    <string name="pvr_disksetup_page_down">Хуудас доошоо</string>
+    <string name="pvr_disksetup_exit">ГАРЦ</string>
+    <string name="pvr_schedulepvr_week">Долоо хоног</string>
+    <string name="pvr_schedulepvr_record">БИЧЛЭГ ХИЙХ</string>
+    <string name="pvr_schedulepvr_schedule_list">Хуваарийн жагсаалт</string>
+    <string name="pvr_schedulepvr_add_schedule">Хуваарь нэм</string>
+    <string name="pvr_schedulepvr_selected">Сонгосон</string>
+    <string name="pvr_schedulepvr_exit">ГАРЦ</string>
+    <string name="pvr_schedulepvr_schedule_list2">Хуваарийн жагсаалт</string>
+    <string name="pvr_confirm_yes">Тийм</string>
+    <string name="pvr_confirm_no">ҮГҮЙ</string>
+    <string name="pvr_dialog_exit">ГАРЦ</string>
+    <string name="pvr_schedulelist_wednesday">Лхагва</string>
+    <string name="pvr_schedulelist_replace_line1">Хуваарь давхардсан!</string>
+    <string name="pvr_schedulelist_replace_line2">Та энэ хуваариудыг орлуулмаар байна уу</string>
+    <string name="pvr_schedulelist_delete_line1">Хуваарь устга!</string>
+    <string name="pvr_schedulelist_delete_line2">Та энэ хуваариудыг устгамаар байна уу</string>
+    <string name="hello_world">Дэлхий сайн уу!</string>
+    <string name="menu_settings">Тохируулга</string>
+    <string name="title_activity_schedule_pvr">Хуваарийн Идэвхижүүлэлт</string>
+    <string name="fav_list_is_full">Дуртайн жагсаалт дүүрсэн байна</string>
+
+    <string name="partner_row_title">медиатек ТВ</string>
+    <string name="inputs_row_title">Орц</string>
+    <string name="apps_row_title">Аппууд</string>
+    <string name="games_row_title">Тоглоомууд</string>
+    <string name="settings_row_title">Тохируулга</string>
+
+    <string name="power_on_off_time_same">хоёр цаг заагч адилхан байх ёсгүй, анхны байдалд оруулна уу</string>
+
+    <string name="sleep_timer_tip_text">Унтрах болно.</string>
+    <string name="sleep_timer_btn_text">ОК</string>
+    <string name="menu_dialog_numzero">Сувгийн дугаар 0 байх ёсгүй!</string>
+
+    <string name="menu_delete_biss_key_tip">Та энэ Бисс түлхүүрийг устгамаар байна уу?</string>
+    <string name="pvr_schedule_add">ADD</string>
+    <string name="pvr_deviceinfo_set_timeshift">Таймшифтийн Тохироо</string>
+    <string name="pvr_playlist_special_6_1">Тусгай 6+1</string>
+    <string name="pvr_schedulepvr_date">2013/01/04 13:22 Мягмар</string>
+    <string name="pvr_schedulepvr_time">00hr 00min</string>
+    <string name="pvr_schedulepvr_diskinfo">Нэргүй 3.8/3.8 GB</string>
+    <string name="pvr_schedulepvr_disk_info">Нэргүй 3.8/3.8 GB</string>
+
+    <string name="video_info_dialog_format">Форматлах:</string>
+    <string name="video_info_dialog_resolution">Шийдвэр:</string>
+    <string name="video_info_dialog_subtitle">Хадмал</string>
+
+</resources>

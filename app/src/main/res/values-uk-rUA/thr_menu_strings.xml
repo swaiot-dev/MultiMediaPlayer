@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <string name="thr_menu_common_setting">Загальні налаштування</string>
+    <string name="thr_menu_confim">підтвердити</string>
+    <string name="thr_menu_cancal">ВИЙТИ</string>
+    <string name="thr_menu">МЕНЮ</string>
+    <string name="thr_menu_select">Виберіть</string>
+
+    <string name="thr_menu_picture_mode">Режим зображення </string>
+    <string name="thr_menu_track">Звукова доріжка</string>
+    <string name="thr_menu_Equalizer">Еквалайзер </string>
+    <string name="thr_menu_volume">Гучність</string>
+
+
+</resources>

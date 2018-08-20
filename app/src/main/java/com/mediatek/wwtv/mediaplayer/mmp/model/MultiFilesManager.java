@@ -930,7 +930,8 @@ public class MultiFilesManager extends FilesManager<FileAdapter> implements
     mCurrentPath = path;
 
     if (mCurrentPath == null || ROOT_PATH.equals(mCurrentPath)) {
-      mCurrentPath = mRootPath;
+      // mCurrentPath = mRootPath;
+      mCurrentPath = ROOT_PATH;
       mParentPath = null;
     } else {
       switch (mSourceType) {

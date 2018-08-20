@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">多媒體播放器</string>
+    <string name="schedulelist_nofiles">沒有錄影計劃！請按“添加”鍵添加</string>
+    <string name="schedulelist_nofiles_disable_add">沒有錄影計劃！</string>
+    <string name="exit">退出</string>
+    <string name="selected">已選擇</string>
+    <string name="add_schedule">添加計劃</string>
+    <string name="pvr_schedule_replace">替換</string>
+    <string name="pvr_schedule_add">增加</string>
+    <string name="menu_value_minus">減少</string>
+    <string name="menu_value_plus">增加</string>
+    <string name="pvr_schedule_cancel">取消</string>
+    <string name="pvr_schedule_ok">確定</string>
+    <string name="pvr_schedule_edit">編輯</string>
+    <string name="pvr_schedule_delete">刪除</string>
+    <string name="pvr_title_device_info">設備信息</string>
+    <string name="pvr_deviceinfo_info">資訊</string>
+    <string name="pvr_exit">退出</string>
+    <string name="pvr_deviceinfo_format">格式化</string>
+    <string name="pvr_deviceinfo_speed_test">速度測試</string>
+    <string name="pvr_disk_no_name">無名稱</string>
+    <string name="pvr_playlist_record_list">錄像列表</string>
+    <string name="pvr_playlist_page_up">向上翻頁</string>
+    <string name="pvr_playlist_delete">刪除</string>
+    <string name="pvr_playlist_page_down">向下翻頁</string>
+    <string name="pvr_playlist_info">資訊</string>
+    <string name="pvr_playlist_record_detail">錄影詳細信息</string>
+    <string name="pvr_playlist_channel_num">頻道編號</string>
+    <string name="pvr_playlist_channel_name">頻道名稱</string>
+    <string name="pvr_playlist_program_name">節目名稱</string>
+    <string name="pvr_playlist_date">日期</string>
+    <string name="pvr_playlist_week">週</string>
+    <string name="pvr_playlist_fri">週五</string>
+    <string name="pvr_playlist_time">時間</string>
+    <string name="pvr_playlist_duration">長度</string>
+    <string name="pvr_disksetup_disk_setup">磁碟設定</string>
+    <string name="pvr_disksetup_page_up">向上翻頁</string>
+    <string name="pvr_disksetup_select">選擇</string>
+    <string name="pvr_disksetup_page_down">向下翻頁</string>
+    <string name="pvr_disksetup_exit">退出</string>
+    <string name="pvr_schedulepvr_week">週</string>
+    <string name="pvr_schedulepvr_record">錄影</string>
+    <string name="pvr_schedulepvr_schedule_list">排程列表</string>
+    <string name="pvr_schedulepvr_add_schedule">添加計劃</string>
+    <string name="pvr_schedulepvr_selected">已選擇</string>
+    <string name="pvr_schedulepvr_exit">退出</string>
+    <string name="pvr_schedulepvr_schedule_list2">排程列表</string>
+    <string name="pvr_confirm_yes">是</string>
+    <string name="pvr_confirm_no">否</string>
+    <string name="pvr_dialog_exit">退出</string>
+    <string name="pvr_schedulelist_wednesday">週三</string>
+    <string name="pvr_schedulelist_replace_line1">計劃重疊</string>
+    <string name="pvr_schedulelist_replace_line2">您要替換這些計劃嗎</string>
+    <string name="pvr_schedulelist_delete_line1">刪除計劃</string>
+    <string name="pvr_schedulelist_delete_line2">您要刪除這些計劃嗎</string>
+    <string name="menu_settings">設置</string>
+    <string name="fav_list_is_full">最愛列表已滿。</string>
+
+    <string name="inputs_row_title">輸入</string>
+    <string name="apps_row_title">應用程序</string>
+    <string name="games_row_title">遊戲</string>
+    <string name="settings_row_title">設置</string>
+    
+    <string name="power_on_off_time_same">兩個計時器不能相同，請重新設置</string>
+    
+    <string name="sleep_timer_tip_text">電源將被關閉</string>
+    <string name="sleep_timer_btn_text">確定</string>
+    <string name="menu_dialog_numzero">頻道編號不能為0！</string>
+    
+    <string name="menu_delete_biss_key_tip">確定要刪除此Biss鍵嗎</string>
+</resources>

@@ -7,8 +7,10 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.mediatek.wwtv.mediaplayer.R;
+import com.mediatek.wwtv.mediaplayer.mmp.multimedia.Photo4K2KPlayActivity;
 import com.mediatek.wwtv.mediaplayer.mmp.multimedia.PhotoPlayActivity;
 import com.mediatek.wwtv.mediaplayer.mmp.util.LogicManager;
+import com.mediatek.wwtv.mediaplayer.util.Util;
 
 
 /**
@@ -78,27 +80,42 @@ public class PhotoInfoDialog extends InfoDialog implements View.OnClickListener 
     }
 
     @Override
-	public void onClick(View view) {
-		switch (view.getId()) {
-			case R.id.photo_rorate_image_view:
-				RorateModeDialog rorateModeDialog = new RorateModeDialog();
-				rorateModeDialog.show(getFragmentManager(), "rorate_mode");
-				((PhotoPlayActivity) getActivity()).rotate();
-                ((PhotoPlayActivity) getActivity()).pausePhoto();
-				dismiss();
-				break;
-			case R.id.photo_zoom_in_image_view:
-				mZoomChangeListener.zoomChange(PhotoPlayActivity.ZOOMIN);
-                ((PhotoPlayActivity) getActivity()).pausePhoto();
-				dismiss();
-				break;
-			case R.id.photo_zoom_out_image_view:
-				mZoomChangeListener.zoomChange(PhotoPlayActivity.ZOOMOUT);
-                ((PhotoPlayActivity) getActivity()).pausePhoto();
-				dismiss();
-				break;
-		}
-	}
+    public void onClick(View view) {
+        switch (view.getId()) {
+            case R.id.photo_rorate_image_view:
+                RorateModeDialog rorateModeDialog = new RorateModeDialog();
+                rorateModeDialog.show(getFragmentManager(), "rorate_mode");
+                if (Util.PHOTO_4K2K_ON) {
+                    ((Photo4K2KPlayActivity) getActivity()).rotate();
+                    ((Photo4K2KPlayActivity) getActivity()).pausePhoto();
+                } else {
+                    ((PhotoPlayActivity) getActivity()).rotate();
+                    ((PhotoPlayActivity) getActivity()).pausePhoto();
+                }
+//				dismiss();
+                break;
+            case R.id.photo_zoom_in_image_view:
+                if (Util.PHOTO_4K2K_ON) {
+                    mZoomChangeListener.zoomChange(Photo4K2KPlayActivity.ZOOMIN);
+                    ((Photo4K2KPlayActivity) getActivity()).pausePhoto();
+                } else {
+                    mZoomChangeListener.zoomChange(PhotoPlayActivity.ZOOMIN);
+                    ((PhotoPlayActivity) getActivity()).pausePhoto();
+                }
+//				dismiss();
+                break;
+            case R.id.photo_zoom_out_image_view:
+                if (Util.PHOTO_4K2K_ON) {
+                    mZoomChangeListener.zoomChange(Photo4K2KPlayActivity.ZOOMOUT);
+                    ((Photo4K2KPlayActivity) getActivity()).pausePhoto();
+                } else {
+                    mZoomChangeListener.zoomChange(PhotoPlayActivity.ZOOMOUT);
+                    ((PhotoPlayActivity) getActivity()).pausePhoto();
+                }
+//				dismiss();
+                break;
+        }
+    }
 
     private View.OnFocusChangeListener mOnFocusChangeListener = new View.OnFocusChangeListener() {
         @Override

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+    <string-array name="menu_pictrue_mode_list">
+        <item>பயனாளர்</item>
+        <item>சினிமா</item>
+        <item>விளையாட்டு</item>
+        <item>தெளிவான</item>
+        <item>ஹை-பிரைட்</item>
+    </string-array>
+    <string-array name="menu_track_mode_list">
+        <item>ஒரு தடம்</item>
+        <item>இரு தடம்</item>
+    </string-array>
+    <string-array name="menu_audio_equalizer_list">
+        <item>அணைக்கவும்</item>
+        <item>ராக்</item>
+        <item>பாப்</item>
+        <item>லைவ்</item>
+        <item>டான்ஸ்</item>
+        <item>டெக்னோ</item>
+        <item>கிளாசிக்</item>
+        <item>மென்மை</item>
+    </string-array>
+</resources>

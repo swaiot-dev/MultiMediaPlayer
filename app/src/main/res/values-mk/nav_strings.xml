@@ -1,0 +1,628 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="setup_ini">ПОЧЕТНО ПОСТАВУВАЊЕ</string>
+    <string name="setup_back">НАЗАД</string>
+    <string name="setup_select">Избери</string>
+    <string name="setup_next">Следно</string>
+    <string name="setup_exit">ИЗЛЕЗИ</string>
+    <string name="setup_welcome">Добредојде</string>
+    <string name="setup_welcome_set">Welcome to use the Wizard for Initial
+		Setup!!\nPlease press [ENTER] to start the wizard.</string>
+    <string name="setup_language">Јазик</string>
+    <string name="setup_select_language">Ве молиме изберете го вашиот јазик:</string>
+    <string name="setup_select_one_op">Може да изберете само еден оператор од следната листа:</string>
+    <string name="setup_tunner">Режим на подесувач</string>
+    <string name="setup_select_tuner">Ве молиме изберете го режимот на вашиот подесувач:</string>
+    <string name="setup_channelscan">Скенирање канали</string>
+    <string name="setup_set_setps">First,please connect antenna.\nStart channel scan
+		now?\nIf you skip this step,the channel scan could be performed in
+		Menu.</string>
+    <string name="setup_set_setps_us">Прво, поврзете кабел или антена.\n\nДа започне скенирање канали сега ?\n\nАко го прескокнете овој чекор, скенирањето канали може да се изврши од Мени.</string>
+    <string name="setup_language_english">англиски</string>
+    <string name="setup_language_chinese">Едноставен Кинески</string>
+    <string name="setup_tuner_antenna">Антена</string>
+    <string name="setup_tuner_cable">Кабел</string>
+    <string name="setup_tuner_satellite">Сателит</string>
+    <string name="satellites">Сателити</string>
+    <string name="setup_scan">Скенирање</string>
+    <string name="setup_skip_scan">Прескокни скенирање</string>
+    <string name="setup_complete">Завршено</string>
+    <string name="setup_congratulations">Congratulations!\nCompleted Initial Setup.\nPlease
+		press [ENTER] to exit this wizard.</string>
+    <string name="setup_channel_scan_note">Скенирањето канали може да потрае.</string>
+    <string name="setup_channel_scan_status">Статус:Скенирање</string>
+    <string name="setup_channel_scan_analog">Аналогни канали:</string>
+    <string name="setup_channel_scan_digital">Дигитални канали:</string>
+    <string name="setup_cancel">ОТКАЖИ</string>
+    <string name="setup_cancel_scan">Статус:Скенирањето е откажано</string>
+    <string name="setup_scan_error">Статус: Грешка при скенирање</string>
+    <string name="setup_channel_scan_status_complete">Статус: Скенирањето е завршено</string>
+    <string name="dvbs_operator_perferred_satellite">префериран сателит</string>
+    <string name="dvbs_operator_general_satellite">општ сателит</string>
+
+    <string name="table">Табела на страници</string>
+    <!-- char of simulation main view -->
+    <string name="nav_test_user_help">
+		[0-9]\t(0-9) To change channel.\n
+		[SOURCE]\t(A) To
+		display the input source list.\n
+		[TIMER]\t(B) To display the time.\n
+		[SLEEP]\t(C) To set the sleep time.\n
+		[ZOOM]\t(D) To select the zoom.\n
+		[PEFFECT]\t(E) To select the screen effect.\n
+		[SEFFECT]\t(F) To select
+		the sound effect.\n
+		[ASPECT]\t(G) To change the aspect ratio.\n
+		[CHUP]\t(O) To turn up the channel.\n
+		[CHDN]\t(Q) To turn down the
+		channel.\n
+		[MUTE]\t(R) To mute or un-mute the sound.\n
+		[VOLUME_UP]\t(M)
+		To turn up the volume.\n
+		[VOLUME_DOWN]\t(N) To turn down the volume.\n
+		[DPAD_CENTER]\t (ENTER) To display the channel list.\n
+		[INFO]\t(S) To
+		display the channel info.\n
+		[EJECT]\t(U) To display the channel info.\n
+		[PLAYPAUSE]\t(V) To display the favorite list.\n
+		[YELLOW]\t(K) To
+		select the type of the channel list.\n
+	</string>
+    <string name="nav_test_tv">ТВ</string>
+
+    <!-- +++++++++++++++++++++++++++++++++++++++++++++ -->
+    <!-- ++++++++++ char of input source view++++++ -->
+    <!-- +++++++++++++++++++++++++++++++++++++++++++++ -->
+    <string name="nav_source_main_title">Главно</string>
+    <string name="nav_source_sub_title">Под</string>
+
+    <!-- +++++++++++++++++++++++++++++++++++++++++++++ -->
+    <!-- ++++++++++ char of channel list view ++++++ -->
+    <!-- +++++++++++++++++++++++++++++++++++++++++++++ -->
+    <string name="nav_please_scan_channels">Ве молиме скенирајте канали!</string>
+    <string name="nav_no_function">Нема функција</string>
+    <string name="nav_select_list">Избери листа</string>
+    <string name="nav_page_up">Страница нагоре</string>
+    <string name="nav_page_down">Страница надолу</string>
+    <string name="nav_fav_move_up">Оди нагоре</string>
+    <string name="nav_fav_move_down">Оди надолу</string>
+    <string name="nav_exit">ИЗЛЕЗИ</string>
+    <string name="nav_list_satellite">Наведи сателит</string>
+    <string name="nav_satellite_list">Избери сателит</string>
+    <!-- <string name="nav_channel_list">Channel List - All</string> -->
+    <string name="nav_channel_list">Список на канали</string>
+
+    <string name="nav_channel_list_title_str">Channel List - </string>
+    <string name="nav_channel_selection">Избор на листа на канали</string>
+    <string name="nav_channel_details">Детали за канал</string>
+    <string name="nav_volume_main">Главна јачина на звук</string>
+    <string name="nav_parent_psw">Лозинка</string>
+    <string name="nav_parent_dvbs_hint">Password had been mistaken three times!\nPlease wait...</string>
+    <string name="nav_parent_wrong_psw">Password incorrect Please enter again! </string>
+
+    <string name="nav_channel_antenna">Антена</string>
+    <!-- +++++++++++++++++++++++++++++++++++++++++++++ -->
+    <!-- ++++++++++ char of favorite list view ++++++ -->
+    <!-- +++++++++++++++++++++++++++++++++++++++++++++ -->
+    <string name="nav_favorite_list">Список на омилени</string>
+    <string name="nav_favorite_select">Избери</string>
+
+    <string name="nav_channel_infoNum">815</string>
+    <string name="nav_channel_infoName">Жад</string>
+    <string name="nav_channel_infoFormat">640X480@60Hz</string>
+    <string name="nav_channel_infoType">Антена</string>
+    <string name="nav_channel_infoTime">19:19</string>
+    <string name="nav_channel_infoMiddle_special">Враќање податоци...</string>
+    <string name="nav_channel_infoTitle">(Нема наслов на програма.)</string>
+    <string name="nav_channel_infoDuration">3:35 - 3:40</string>
+    <string name="nav_channel_infoNextDuration">На берза</string>
+    <string name="nav_channel_infoAudioLanguage">1/2 кинески</string>
+    <string name="nav_channel_infoFormatField">Стерео</string>
+    <string name="nav_channel_infoNoProgram">(Нема детали за програма.)</string>
+    <string name="nav_channel_infoNoChannelDetail">(Нема детали за канал.)</string>
+    <string name="nav_channel_infoSubtitle">Chi</string>
+    <string name="nav_channel_infoInfoField">576i SD</string>
+
+    <string name="nav_no_signal">Нема сигнал!</string>
+    <string name="nav_no_support">Не е поддржано!</string>
+    <string name="nav_channel_has_locked">Каналот е заклучен!</string>
+    <string name="nav_input_has_locked">Внесот е заклучен!</string>
+    <string name="nav_program_has_locked">Програмот е заклучен!</string>
+    <string name="nav_hidden_channel">Скриен канал!</string>
+    <string name="nav_channel_audio_scrambled">Кодирано аудио</string>
+    <string name="nav_channel_video_scrambled">Кодирано видео</string>
+    <string name="nav_sleep_label">Sleep:</string>
+    <string name="nav_sleep_off">Исклучено</string>
+    <string name="nav_sleep_minutes">минути</string>
+    <string name="nav_resolution_null">Нема видео  </string>
+    <string name="nav_channel_retrieving">Враќање податоци...</string>
+    <string name="nav_unknown_audio">непознато аудио</string>
+    <string name="nav_unknown_stereo">непознато стерео</string>
+    <string name="nav_unknown_audio_sundry">Непознато</string>
+    <string name="nav_channel_no_audio">Нема Аудио</string>
+
+    <!--  for epg -->
+    <string name="nav_epg_type">Тип</string>
+    <string name="nav_epg_sub_type">Под тип</string>
+    <string name="nav_epg_zero_tip">Листа на резервирани</string>
+    <string name="nav_epg_book_list">Листа на резервирани настани</string>
+    <string name="nav_epg_book_program_tip">\nДа се резервира програмата?</string>
+    <string name="nav_epg_unbook_program_tip">\nОваа програма е веќе резервирана, да се откаже?</string>
+    <string name="nav_epg_book_program_coming_tip">следува, да се смени каналот?</string>
+    <string name="nav_epg_not_rated">Нема рејтинг</string>
+    <string name="nav_epg_no_program_detail">(Нема детали за програма.)</string>
+    <string name="nav_epg_no_program_data">(Нема податоци за програма.)</string>
+    <string name="nav_epg_no_program_title">(Нема наслов на програма.)</string>
+    <string name="nav_epg_no_title">(Нема наслов)</string>
+    <string name="nav_epg_unlock">ОТКЛУЧИ</string>
+    <string name="nav_epg_unschedule">Откажи</string>
+    <string name="nav_epg_schedule">РАСПОРЕД</string>
+    <string name="nav_epg_unclassified">Некласифицирано</string>
+    <string name="nav_epg_not_support">Не е поддржано</string>
+
+    <!-- for capture logo (YELLOW KEY) -->
+    <string name="cplogo_title">Сликај лого</string>
+    <string name="cplogo_bt_ok">ОК</string>
+    <string name="cplogo_bt_cancel">ОТКАЖИ</string>
+    <string name="cplogo_bt_full_screen">Целосно скенирање</string>
+    <string name="cplogo_bt_special_area">Посебна област</string>
+    <string name="cplogo_bt_no">Не</string>
+    <string name="cplogo_bt_adjust">Прилагоди</string>
+    <string name="cplogo_msg_which_screen">Сакате да сликате цел екран или посебна област?</string>
+    <string name="cplogo_msg_this_screen">Сакате да го сликате овој екран?</string>
+    <string name="cplogo_msg_select_position">Ве молиме изберете положба за да го зачувате логото</string>
+    <string name="cplogo_msg_capturing">Сликање...</string>
+    <string name="cplogo_msg_adjust_position">Do you want to adjust the position of the special
+		area?</string>
+    <string name="cplogo_msg_res_success">Сликањето е успешно</string>
+    <string name="cplogo_msg_res_fail">Сликањето не успеа, ве молиме обидете се повторно</string>
+    <string name="cplogo_capture_res_cancel">Оваа операција е откажана</string>
+
+    <string name="vga_no_sinal_info">Нема сигнал. Напојувањето ќе се исклучи.</string>
+
+    <!-- for epg -->
+    <string name="epg_bottom_prev_day">Претходен ден</string>
+    <string name="epg_bottom_next_day">Следен ден</string>
+    <string name="epg_bottom_view_detail">Прегледајте ги деталите</string>
+    <string name="epg_bottom_type_filter">Тип филтер</string>
+    <string name="epg_bottom_prev_page">Страница нагоре</string>
+    <string name="epg_bottom_next_page">Страница надолу</string>
+    <string name="epg_bottom_ENTER">Внеси</string>
+    <string name="epg_bottom_0">0</string>
+    <string name="epg_rating_unclassified">Некласифицирано</string>
+
+    <string name="epg_info_program_type">НИШТО</string>
+    <string name="epg_password">Лозинка</string>
+    <string name="epg_password_message">лозинката е погрешна</string>
+    <string name="epg_retrieving_show">Враќање податоци...</string>
+
+    <string name="nav_epg_January">Јануари</string>
+    <string name="nav_epg_February">Февруари</string>
+    <string name="nav_epg_March">Март</string>
+    <string name="nav_epg_April">Април</string>
+    <string name="nav_epg_May">Мај</string>
+    <string name="nav_epg_June">Јуни</string>
+    <string name="nav_epg_July">Јули</string>
+    <string name="nav_epg_August">Август</string>
+    <string name="nav_epg_September">Септември</string>
+    <string name="nav_epg_October">Октомври</string>
+    <string name="nav_epg_November">Ноември</string>
+    <string name="nav_epg_December">Декември</string>
+
+    <string name="nav_epg_Jan">Јан </string>
+    <string name="nav_epg_Feb">Фев </string>
+    <string name="nav_epg_Mar">Мар </string>
+    <string name="nav_epg_Apr">Апр </string>
+    <string name="nav_epg_may">Мај</string>
+    <string name="nav_epg_Jun">Јун </string>
+    <string name="nav_epg_Jul">Јул </string>
+    <string name="nav_epg_Aug">Авг </string>
+    <string name="nav_epg_Sep">Септ </string>
+    <string name="nav_epg_Oct">Окт </string>
+    <string name="nav_epg_Nov">Ное</string>
+    <string name="nav_epg_Dec">Дек </string>
+
+    <string name="nav_epg_Sunday">Недела </string>
+    <string name="nav_epg_Monday">Понеделник</string>
+    <string name="nav_epg_Tuesday">Вторник</string>
+    <string name="nav_epg_Wednesday">Среда</string>
+    <string name="nav_epg_Thursday">Четврток</string>
+    <string name="nav_epg_Friday">Петок</string>
+    <string name="nav_epg_Saturday">Сабота</string>
+
+    <string name="nav_epg_Sun">Нед</string>
+    <string name="nav_epg_Mon">Пон</string>
+    <string name="nav_epg_Tue">Втор</string>
+    <string name="nav_epg_Wed">Сре</string>
+    <string name="nav_epg_Thur">Чет</string>
+    <string name="nav_epg_Fri">Пет</string>
+    <string name="nav_epg_Sat">Сат </string>
+
+    <!-- for ginga tv -->
+    <string name="nav_ginga_tv_title">Application list</string>
+    <string name="nav_select">Избери</string>
+    <string name="nav_ginga_tv_message">Нема апликации!</string>
+    <string name="nav_ginga_tv_for_infobar">Вчитување Ginga апликации...</string>
+    <string name="nav_ginga_tv_for_tips">Сакате да запрете СС и да активирате Ginga апликација?</string>
+
+    <!-- for upgrader -->
+    <string name="nav_upgrader_title">Ажурирање Волшебник</string>
+    <string name="nav_upgrader_MoreInfo">Повеќе информации</string>
+    <string name="nav_upgrader_invalid">Неважечка датотека на слика на фирмвер!!</string>
+    <string name="nav_upgrader_updating">Ажурирање...</string>
+    <string name="nav_upgrader_warnning">Ве молиме НЕ исклучувајте го УСБ уредот и исклучете го ТВ при ажурирање на фирмвер!!</string>
+    <string name="nav_upgrader_validate">Валидирање фирмвер...</string>
+    <string name="nav_upgrader_confirm">Сигурно сакате да ажурирате фирмвер?</string>
+    <string name="nav_upgrader_completed">Фирмверот е успешно ажуриран.\nВе молиме рестартирајте го ТВ за да го активирате новиот фирмвер.</string>
+    <string name="nav_upgrader_failed">Не успеа да ажурира.\nВе молиме рестартирајте го ТВ за повторно да го преземете фирмверот.</string>
+    <string name="nav_upgrader_retry">Не успеа да ажурира.\nСакате да се обидете повторно?</string>
+    <string name="nav_upgrader_retry2">Не успеа да ажурира, ве молиме ставете УСБ.\nСакате да се обидете повторно?</string>
+    <string name="nav_upgrader_usb_space_not_enough">Слободниот простор на вашиот УСБ уред не е доволен.</string>
+    <string name="nav_upgrader_usb_not_ready">УСБ уредот не е подготвен, ве молиме вклучете го и обидете се повторно.</string>
+    <string name="nav_upgrader_internal_err">Внатрешна грешка.</string>
+    <string name="nav_upgrader_not_avail_firmware">Нема достапна верзија на фирмвер.</string>
+    <string name="nav_upgrader_decry_fail">Дешифрирањето не успеа.</string>
+    <string name="nav_upgrader_firmware_invalid">Фирмверот е неважечки.</string>
+    <string name="nav_upgrader_no_update">Нема достапен фирмвер за ажурирање.</string>
+    <string name="nav_upgrader_check_fail">Проверката за нов фирмвер не успеа.</string>
+    <string name="nav_upgrader_download_fail">Не може да се преземе фирмвер од мрежа.</string>
+    <string name="nav_upgrader_usb_problem">Има некој проблем на УСБ уредот.</string>
+    <string name="nav_upgrader_power">Напојување</string>
+    <string name="nav_upgrader_yes">Да</string>
+    <string name="nav_upgrader_no">Не</string>
+    <string name="nav_upgrader_network_tip">Започни со преземање нов фирмвер од сервер</string>
+    <string name="nav_mheg5_tips">ТИТЛОТ мора да биде затворен пред активирање дигитален ТЕКСТ. ВО РЕД да продолжи?</string>
+
+    <string name="common_dialog_msg_yes">Да</string>
+    <string name="common_dialog_msg_no">Не</string>
+    <string name="common_dialog_ews_service_content">Сакате да префрлите на EWS услуга?</string>
+    <string name="common_dialog_special_service_content">Сакате да префрлите на посебна услуга?</string>
+    <string name="commmon_dialog_book_reminder_content">следува, сакате да се префрлите на тоа?</string>
+    <string name="common_dialog_start_cc_stop_ginga">Сакате да запрете Ginga апликација и да отворите СС?</string>
+
+    <string name="nav_ttx_top_block">Блокирај</string>
+    <string name="nav_ttx_top_group">ГРУПА</string>
+    <string name="nav_ttx_top_page">Страница</string>
+    <string name="nav_ttx_no_top">Нема ТОР</string>
+
+    <string name="nav_banner_not_rating">нема рејтинг</string>
+    <!-- For Nav CI -->
+    <string name="cam_scan_warning">CI Plus Network change,you may search to update network!</string>
+    <string name="cam_scan_urgent">CI Plus Network unavailable,you must search to update network!</string>
+    <string name="cam_scan_not_init">CI Plus Network not init,you must search to update network!</string>
+    <string name="cam_scan_schedule">CI Plus Network search schedule time reached,you may search to update network!</string>
+
+    <string name="setup_select_country">Ве молиме изберете ја вашата земја:</string>
+    <string name="setup_country">Земја</string>
+    <string name="setup_dvbc_setting">Ве молиме конфигурирајте ги кабелските информации</string>
+    <string name="setup_timezone">Временска зона</string>
+    <string name="setup_language_spanish">Español</string>
+    <string name="setup_language_french">Français</string>
+    <string name="setup_language_portuguese">Português</string>
+
+    <string name="setup_language_Vasco">Vasco</string>
+    <string name="setup_language_Catalan">Каталонски</string>
+    <string name="setup_language_hrvatski">Hrvatski</string>
+    <string name="setup_language_Cesky">Cesky</string>
+    <string name="setup_language_Dansk">Dansk</string>
+    <string name="setup_language_Nederlands">Холандија</string>
+    <string name="setup_language_Suomi">Suomi</string>
+    <string name="setup_language_Gaelic">Gaelic</string>
+    <string name="setup_language_Gallego">Gallego</string>
+    <string name="setup_language_Deutsch">Deutsch</string>
+    <string name="setup_language_Magyar">Magyar</string>
+    <string name="setup_language_Italiano">Italiano</string>
+    <string name="setup_language_Norsk">Norsk</string>
+    <string name="setup_language_Polski">Polski</string>
+    <string name="setup_language_Romana">Romana</string>
+    <string name="setup_language_Srpski">Srpski</string>
+    <string name="setup_language_Slovensky">Slovensky</string>
+    <string name="setup_language_Slovenscina">Slovenscina</string>
+    <string name="setup_language_Svenska">Svenska</string>
+    <string name="setup_language_Turkce">Turkce</string>
+    <string name="setup_language_Welsh">ВЕЛШКИ</string>
+    <string name="setup_language_Eesti">Eesti</string>
+    <string name="setup_language_Pyccknn">Pyccknn</string>
+
+    <!-- for eu -->
+    <string name="setup_language_spanish_eu">Español</string>
+    <string name="setup_language_french_eu">Français</string>
+    <string name="setup_language_portuguese_eu">Português</string>
+    <string name="setup_language_english_eu">англиски</string>
+    <string name="setup_language_Vasco_eu">Vasco</string>
+    <string name="setup_language_Catalan_eu">Каталонски</string>
+    <string name="setup_language_hrvatski_eu">Hrvatska</string>
+    <string name="setup_language_Cesky_eu">Čeština</string>
+    <string name="setup_language_Dansk_eu">Dansk</string>
+    <string name="setup_language_Nederlands_eu">Холандија</string>
+    <string name="setup_language_Suomi_eu">Suomi</string>
+    <string name="setup_language_Gaelic_eu">Gaelic</string>
+    <string name="setup_language_Gallego_eu">Gallego</string>
+    <string name="setup_language_Deutsch_eu">Deutsch</string>
+    <string name="setup_language_Magyar_eu">Magyar</string>
+    <string name="setup_language_Italiano_eu">Italiano</string>
+    <string name="setup_language_Norsk_eu">Norsk</string>
+    <string name="setup_language_Polski_eu">Polski</string>
+    <string name="setup_language_Romana_eu">Română</string>
+    <string name="setup_language_Srpski_eu">Srpski</string>
+    <string name="setup_language_Slovensky_eu">Slovenčina</string>
+    <string name="setup_language_Slovenscina_eu">Slovenščina</string>
+    <string name="setup_language_Svenska_eu">Svenska</string>
+    <string name="setup_language_Turkce_eu">Türkçe</string>
+    <string name="setup_language_Welsh_eu">ВЕЛШКИ</string>
+    <string name="setup_language_Eesti_eu">Eesti</string>
+    <string name="setup_language_Pyccknn_eu">Русский</string>
+
+    <string name="setup_dvbc_config_scanmode">Режим на скенирање</string>
+    <string name="setup_dvbc_config_frequency">Фреквенција (KHZ)</string>
+    <string name="setup_dvbc_config_modulation">Модулација</string>
+    <string name="setup_dvbc_config_symbolrate">Стапка на симбол(Ksym/s)</string>
+    <string name="setup_dvbc_config_networkid">ИД на мрежата</string>
+
+    <string name="setup_default_postal_code">00000</string>
+    <string name="setup_set_postal_code_editview">Поштенски број</string>
+
+    <string name="setup_set_password" />
+    <string name="setup_set_password_titile1">Нова лозинка</string>
+    <string name="setup_set_password_titile2">Потврди лозинка</string>
+    <string name="setup_set_password_default_pwd">0000</string>
+
+    <string name="setup_cable_select_operation">Избери оператор</string>
+
+    <string name="setup_dvbs_statellite_type">Тип сателит</string>
+    <string name="setup_dvbs_statellite_type_title">Ве молиме изберете тип сателит.</string>
+
+    <string name="setup_dvbs_statellite_select_operator">Избери оператор</string>
+    <string name="setup_dvbs_statellite_select_operator_title">Може да изберете само еден оператор пд следната листа.</string>
+
+    <string name="setup_cable_setting" />
+    <string name="setup_cable_setting_title">Ве молиме конфигурирајте информации за кабловска.</string>
+
+    <string name="setup_dvbs_config_info" />
+    <string name="setup_dvbs_config_info_title">Ве молиме конфигурирајте информации за скенирање.</string>
+
+    <string name="setup_dvbs_satellite_list">Избери сателит</string>
+    <string name="setup_dvbs_satellite_list_title">Ве молиме изберете сателити за да се скенира или уреди избраниот сателит.</string>
+
+    <string name="setup_dvbs_config_setting" />
+    <string name="setup_dvbs_config_setting_title">Ве молиме поставете конфигурација на тип антена.</string>
+
+    <string name="setup_dvbs_satellite_config">Поставување антена</string>
+    <string name="setup_dvbs_satellite_config_title">Ве молиме поставете ги параметрите на сателитот.</string>
+    <string name="setup_dvbs_satellite_config_tp_title">Ве молиме поставете ги параметрите на транспондерот.</string>
+    <string name="setup_dvbs_satellite_config_diseqc_title">Ве молиме поставете ги параметрите DiSEqC\'s. </string>
+    <string name="setup_dvbs_satellite_config_diseqc12_motor_title">Ве молиме поставете параметри на мотор DiSEqC 1.2.</string>
+    <string name="setup_dvbs_satellite_config_diseqc12_movementcontrol_title">Ве молиме поставете параметри на контрола на движење DiSEqC 1.2.</string>
+    <string name="setup_select_set">Постави</string>
+    <string name="nav_oad_dialog_title">Преземање преку воздух</string>
+    <string name="nav_oad_scanning">Скенирање</string>
+    <string name="nav_oad_scanning_result_fail">Can not find new software on the air</string>
+
+    <string name="nav_oad_programming">Програмирање </string>
+    <string name="nav_oad_downloading">Се презема</string>
+    <string name="nav_oad_downloading_info">За овој процес може да се потребни до 25 минути</string>
+    <string name="nav_oad_flash_confirm">Успешно преземање софтвер. Сакате да започне да трепка?</string>
+    <string name="nav_oad_flash_fail">Програмирањето не успеа. Обиди се повторно?\n\nВе молиме повикајте го сервисниот центар.</string>
+    <string name="nav_oad_restart_confirm">Преземањето софтвер е успешно! Да се рестартира ТВ сега?</string>
+
+    <string name="nav_oad_warning_msg_str">Предупредување: во текот на постапката, ве молиме не исклучувајте ја шифрата за напојување на ТВ бидејќи тоа ќе доведе до дефект на ТВ.</string>
+
+    <string name="nav_oad_manual_download_confirm">Software update.A new recommended software update is avaiable.The update might take some time and the screen might go black.Do not turn of the receiver off during
+	    the update.Do you want to update now?</string>
+    <string name="nav_oad_manual_download_fail">Софтверот не може да се преземе. Сакате да се обидете повторно?</string>
+
+    <string name="nav_oad_auto_download_confirm">Software update.A new recommended software update is avaiable.The update might take some time and the screen might go black.Do not turn of the receiver off during
+	    the update.Do you want to update now?It will start automatically in %s second(s)</string>
+
+    <string name="nav_oad_schedule_oad_accept_schedule_confirm">Software update. A new recommended software will be available at %s. The update might take some time and the screen might go black. Do not turn of the receiver during the update. If accepting this update, please leave the receiver on or in standby mode at the scheduled time. Do you want to receive this update?</string>
+    <string name="nav_oad_schedule_oad_change_channel_confirm">Ажурирање софтвер. Ново препорачано ажурирање на софтвер може да постои на друг канал. Ако прифаќате да го преземете, тој може автоматски да го смени каналот. Сакате да го направите тоа токму сега? Ќе започне автоматски за %s секунди</string>
+    <string name="nav_oad_atuo_download_with_bgm">Откриен е нов софтвер!\nПрифаќате автоматски да се преземе софтверот кога ТВ е во подготвеност?</string>
+
+    <string name="setup_language_english_value">Програмирање </string>
+    <string name="setup_language_chinese_value">Програмирање </string>
+    <string name="setup_language_spanish_value">Програмирање </string>
+    <string name="setup_language_french_value">Програмирање </string>
+    <string name="setup_language_portuguese_value">Програмирање </string>
+
+    <string name="setup_country_cty_1">Австрија</string>
+    <string name="setup_country_cty_2">Белгија</string>
+    <string name="setup_country_cty_3">Швајцарија</string>
+    <string name="setup_country_cty_4">Чешка Република</string>
+    <string name="setup_country_cty_5">Германија</string>
+    <string name="setup_country_cty_6">Данска</string>
+    <string name="setup_country_cty_7">Шпанија</string>
+    <string name="setup_country_cty_8">Финска</string>
+    <string name="setup_country_cty_9">Франција</string>
+    <string name="setup_country_cty_10">Обединето Кралство</string>
+    <string name="setup_country_cty_11">Италија</string>
+    <string name="setup_country_cty_12">Луксембург </string>
+    <string name="setup_country_cty_13">Холандија</string>
+    <string name="setup_country_cty_14">Норвешка</string>
+    <string name="setup_country_cty_15">Шведска</string>
+    <string name="setup_country_cty_16">Бугарија</string>
+    <string name="setup_country_cty_17">Хрватска</string>
+    <string name="setup_country_cty_18">Грција</string>
+    <string name="setup_country_cty_19">Унгарија</string>
+    <string name="setup_country_cty_20">Ирска</string>
+    <string name="setup_country_cty_21">Полска</string>
+    <string name="setup_country_cty_22">Португалија</string>
+    <string name="setup_country_cty_23">Романија</string>
+    <string name="setup_country_cty_24">Русија</string>
+    <string name="setup_country_cty_25">Србија</string>
+    <string name="setup_country_cty_26">Словачка</string>
+    <string name="setup_country_cty_27">Словенија</string>
+    <string name="setup_country_cty_28">Турција</string>
+    <string name="setup_country_cty_29">Естонија</string>
+    <string name="setup_country_cty_30">Австралија</string>
+    <string name="setup_country_cty_31">Нов Зеланд</string>
+    <string name="setup_country_cty_32">Индонезија</string>
+    <string name="setup_set_timezone">Ве молиме изберете ја вашата временска зона:</string>
+    <string name="setup_set_password_title">Ве молиме поставете лозинка."0000" не е важечка лозинка</string>
+    <string name="setup_set_postalcode">Ве молиме внесете поштенски број.</string>
+    <string name="setup_set_password_success_msg">Лозинката е успешно поставена!</string>
+
+    <string name="dvbc_operator_others">Други</string>
+    <string name="dvbc_operator_upc">Upc</string>
+    <string name="dvbc_operator_comhem">Comhem</string>
+    <string name="dvbc_operator_canal_digital">Canal Digital</string>
+    <string name="dvbc_operator_tele2">Tele2</string>
+    <string name="dvbc_operator_stofa">Stofa</string>
+    <string name="dvbc_operator_yousee">Yousee</string>
+    <string name="dvbc_operator_ziggo">Ziggo</string>
+    <string name="dvbc_operator_unitymedia">Unitymedia</string>
+    <string name="dvbc_operator_numericable">Numericable</string>
+    <string name="dvbc_operator_volia">Volia</string>
+    <string name="dvbc_operator_telemach">Telemach</string>
+    <string name="dvbc_operator_onlime">Onlime</string>
+    <string name="dvbc_operator_akado">Akado</string>
+    <string name="dvbc_operator_tkt">TKT</string>
+    <string name="dvbc_operator_divan_tv">DIVAN TV</string>
+    <string name="dvbc_operator_net1">NET1</string>
+    <string name="dvbc_operator_kdg">KDG</string>
+    <string name="dvbc_operator_kbw">KBW</string>
+    <string name="dvbc_operator_blizoo">BLIZOO</string>
+    <string name="dvbc_operator_telent">Telent</string>
+    <string name="dvbc_operator_telent_eu">Telenet</string>
+
+    <string name="dvbc_operator_glenten">Glenten</string>
+    <string name="dvbc_operator_tele_columbus">Tele Columbus</string>
+    <string name="dvbc_operator_rcs_rds">RCS RDS</string>
+
+    <string name="dvbt_inactivechannel_nw_chg">Некои канали стануваат неактивни поради промена на мрежа. Сакате да ги отстраните сега?</string>
+    <string name="tnt_hd_nw_chg">Сменети се податоците на мрежата. Сакате да се изврши скенирање за ажурирање?</string>
+    <!-- DVBS operators -->
+    <string name="dvbs_operator_astra_hd_plus">Astra HD+</string>
+    <string name="dvbs_operator_sky_deutschland">Sky Deutschland</string>
+    <string name="dvbs_operator_ors">ORS</string>
+    <string name="dvbs_operator_austriasat">AustriaSat</string>
+    <string name="dvbs_operator_cannal_digital">Cannal Digital</string>
+    <string name="dvbs_operator_tv_vlaanderen_hd">TV VLAANDEREN HD</string>
+    <string name="dvbs_operator_tv_vlaanderen_sd">TV VLAANDEREN SD</string>
+    <string name="dvbs_operator_telesat_belgium">TELESAT Belgium</string>
+    <string name="dvbs_operator_telesat_luxembourg">TELESAT Luxembourg</string>
+    <string name="dvbs_operator_seznam_kanalu_pro_cesko">Seznam kanalu pro Cesko</string>
+    <string name="dvbs_operator_seznam_kanalu_pro_slovensko">Seznam kanalu pro Slovensko</string>
+    <string name="dvbs_operator_cannaldigitaal_hd">CannalDigitaal HD</string>
+    <string name="dvbs_operator_cannaldigitaal_sd">CannalDigitaal SD</string>
+    <string name="dvbs_operator_n_na_karte">n na karte</string>
+    <string name="dvbs_operator_digiturk_eutelsat">Digiturk Eutelsat</string>
+    <string name="dvbs_operator_digiturk_turksat">Digiturk Turksat</string>
+    <string name="dvbs_operator_fransat">Fransat</string>
+    <string name="dvbs_operator_cyfraplus">Cyfra+</string>
+    <string name="dvbs_operator_cyfrowy_polsat">Cyfrowy Polsat</string>
+    <string name="dvbs_operator_dsmart">D-Smart</string>
+    <string name="dvbs_operator_ntvplus">NTV+</string>
+    <string name="dvbs_operator_others">Други</string>
+    <string name="dvbs_operator_name_nc_plus">nc+/nc+ MIX</string>
+    <string name="dvbs_operator_name_smart_hd_plus">smart HD+</string>
+    <string name="dvbs_operator_name_tivusat">tivùsat</string>
+
+    <string name="dvbs_antenna_type_name_universal">Универзално</string>
+    <string name="dvbs_antenna_type_name_singlecable">Единечен кабел</string>
+    <string name="dvbs_antenna_setup">Поставување антена</string>
+    <string name="dvbs_satellite_setting">Сателит</string>
+    <string name="dvbs_satellite_name">Име на сателит</string>
+    <string name="dvbs_satellite_orbit">Положба во орбита</string>
+    <string name="dvbs_lnb_freq">Фреквенција на LNB</string>
+    <string name="dvbs_diseqc_set">DiSEqC прибор</string>
+    <string name="dvbs_diseqc12_motor_movementcontrol">Контрола на движење</string>
+    <string name="dvbs_diseqc12_motor_disablelimits">Исклучи ограничување</string>
+    <string name="dvbs_diseqc12_motor_limiteast">Limit east</string>
+    <string name="dvbs_diseqc12_motor_limitwest">Limit west</string>
+    <string name="dvbs_diseqc12_motor_storeposition">Складирај позиција</string>
+    <string name="dvbs_diseqc12_motor_gotoposition">Оди на позиција</string>
+    <string name="dvbs_diseqc12_motor_gotoreference">Оди на референца</string>
+    <string name="dvbs_diseqc12_movement_stepsize">Големина на чекор</string>
+    <string name="dvbs_diseqc12_movement_timeout">Одложување(а)</string>
+    <string name="dvbs_diseqc12_movement_moveeast">Придвижи исток</string>
+    <string name="dvbs_diseqc12_movement_movewest">Придвижи запад</string>
+    <string name="dvbs_diseqc12_movement_stopmovement">Запри движење</string>
+    <string name="dvbs_diseqc10_port">DiSEqC 1.0 порта</string>
+    <string name="dvbs_diseqc11_port">DiSEqC 1.1 порта</string>
+    <string name="dvbs_diseqc_motor">DiSEqC мотор</string>
+    <string name="dvbs_diseqc_motor_12">DiSEqC 1.2</string>
+    <string name="dvbs_diseqc_input">Diseqc внесување</string>
+    <string name="dvbs_diseqc_input_0">Исклучи  </string>
+    <string name="dvbs_diseqc_input_1">Diseqc A</string>
+    <string name="dvbs_diseqc_input_2">Diseqc B</string>
+    <string name="dvbs_diseqc_input_3">Diseqc C</string>
+    <string name="dvbs_diseqc_input_4">Diseqc D</string>
+    <string name="dvbs_tone_22khz">Тон 22KHz</string>
+    <string name="dvbs_tone_22khz_off">Исклучено</string>
+    <string name="dvbs_tone_22khz_on">Вклучено</string>
+    <string name="dvbs_tone_22khz_auto">Автоматски</string>
+    <string name="dvbs_trasponder">Транспондер</string>
+    <string name="dvbs_tp_fre">Фреквенција</string>
+    <string name="dvbs_tp_sys_rate">Стапка на симбол (Ksym/s)</string>
+    <string name="dvbs_tp_pol">Поларизација</string>
+
+    <string name="dvbs_tp_pol_0_unknown">Непознато</string>
+    <string name="dvbs_tp_pol_1_HORIZONTAL">Хоризонтална</string>
+    <string name="dvbs_tp_pol_2_VERTICAL">Вертикално</string>
+    <string name="dvbs_tp_pol_3_LEFT">Лево</string>
+    <string name="dvbs_tp_pol_4_RIGHT">ДЕСНО</string>
+
+    <string name="dvbs_add_new_satl">Додади нов сателит</string>
+    <string name="dvbs_add_new_tp">Додади нов транспондер</string>
+    <string name="dvbs_satellite_tuning">Подесување сателит</string>
+    <string name="dvbs_satellite_channel">Канали</string>
+    <string name="dvbs_scan_mode">Режим на скенирање</string>
+    <string name="dvbs_network_search">Мрежно пребарување</string>
+    <string name="dvbs_satellite_search">Пребарување</string>
+    <string name="dvbs_scan_mode_auto">Автоматски</string>
+    <string name="dvbs_scan_mode_preset">Предодредено</string>
+    <string name="dvbs_channel_free">Бесплатно</string>
+    <string name="dvbs_channel_all">Сите</string>
+    <string name="dvbs_sat_no_satl">(Нема сателит.)</string>
+    <string name="dvbs_manual_tuning">Рачно подесување сателит</string>
+    <string name="dvbs_sat_no_tp">(Нема транспондер.)</string>
+    <string name="dvbs_sat_name_empty_alarm">Името на сателит е празно.\nВе молиме внесете го!</string>
+    <string name="dvbs_satellite_rescan">Повторно скенирање сателит</string>
+    <string name="dvbs_satellite_add">Додади сателит</string>
+    <string name="dvbs_satellite_update">Ажурирање сателит</string>
+    <string name="dvbs_satellite_status">Статус на сателит</string>
+    <string name="dvbs_scan_mode_network">Мрежа</string>
+    <string name="dvbs_scan_mode_full">Полно</string>
+    <string name="dvbs_scan_satellites">Сателити</string>
+    <string name="dvbs_scan_positon">Позиција</string>
+    <string name="dvbs_lnb_power">LNB напојување</string>
+    <string name="dvbs_antenna_type">Тип антена</string>
+    <string name="dvbs_antenna_type_universal">Универзално</string>
+    <string name="dvbs_antenna_type_singlecable">Единечен кабел</string>
+    <string name="dvbs_user_band">Подесувач </string>
+    <string name="dvbs_user_band_1">Кориснички опсег 1</string>
+    <string name="dvbs_user_band_2">Кориснички опсег 2</string>
+    <string name="dvbs_user_band_3">Кориснички опсег 3</string>
+    <string name="dvbs_user_band_4">Кориснички опсег 4</string>
+    <string name="dvbs_user_band_5">Кориснички опсег 5</string>
+    <string name="dvbs_user_band_6">Кориснички опсег 6</string>
+    <string name="dvbs_user_band_7">Кориснички опсег 7</string>
+    <string name="dvbs_user_band_8">Кориснички опсег 8</string>
+    <string name="dvbs_band_freq">Фреквенција на опсег</string>
+    <string name="dvbs_band_freq_user_define">Кориснички дефинирано</string>
+    <string name="dvbs_position">Позиција</string>
+    <string name="dvbs_position_a">A</string>
+    <string name="dvbs_position_b">B</string>
+    <string name="dvbs_position_c">C</string>
+    <string name="dvbs_position_d">D</string>
+    <string name="dvbs_air">Антена</string>
+    <string name="dvbs_cable">Кабел</string>
+    <string name="dvbs_preferred_satellite">Претпочитан сателит</string>
+    <string name="dvbs_general_satellite">општ сателит</string>
+    <string name="sys_info_lnb">LNB</string>
+    <string name="lnb_universal">Универзално</string>
+    <string name="lnb_mdu1">MDU1</string>
+    <string name="lnb_mdu2">MDU2</string>
+    <string name="lnb_mdu3">MDU3</string>
+    <string name="lnb_mdu4">MDU4</string>
+    <string name="lnb_mdu5">MDU5</string>
+    <string name="dvbs_tone_burst">Изделување тон</string>
+    <string name="dvbs_tone_burst_disable">Исклучи  </string>
+    <string name="dvbs_tone_burst_a">Tone Burst A </string>
+    <string name="dvbs_tone_burst_b">Изделување тон Б</string>
+
+    <string name="dvbs_sat_on">Вклучено</string>
+    <string name="dvbs_sat_off">Исклучено</string>
+    <string name="dvbs_sat_TUNER_LNB_POWER_13V_18V">13V_18V</string>
+    <string name="dvbs_sat_TUNER_LNB_POWER_14V_19V">14V_19V</string>
+</resources>

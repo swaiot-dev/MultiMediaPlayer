@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<string name="app_name">მულტი მედია პლეიერი</string>
+	<string name="schedulelist_nofiles">განრიგთა ჩანაწერები არ მოიძებნა! გთხოვთ დააჭიროთ
+		"Add"-ს მათ დასამატებლად</string>
+	<string name="schedulelist_nofiles_disable_add">განრიგთა ჩანაწერები არ მოიძებნა! </string>
+	<string name="exit">გასასვლელი</string>
+	<string name="selected">შერჩეული</string>
+	<string name="add_schedule">განრიგის დამატება</string>
+	<string name="pvr_schedule_replace">ადგილმდებარეობის შეცვლა</string>
+	<string name="pvr_schedule_add">დამატება</string>
+	<string name="pvr_schedule_cancel">გაუქმება</string>
+	<string name="pvr_schedule_ok">ოქეი (თანხმობა)</string>
+	<string name="pvr_schedule_edit">რედაქტირება</string>
+	<string name="pvr_schedule_delete">წაშლა</string>
+	<string name="pvr_title_device_info">ინფორმაცია მოწყობილობაზე</string>
+	<string name="pvr_deviceinfo_info">ინფორმაცია</string>
+	<string name="pvr_exit">გასასვლელი</string>
+	<string name="pvr_deviceinfo_set_timeshift">დროის მონაკვეთთა შეცვლა</string>
+	<string name="pvr_deviceinfo_format">ფორმატი</string>
+	<string name="pvr_deviceinfo_speed_test">სისწრაფის ტესტი</string>
+	<string name="pvr_disk_no_name">უსახელო</string>
+	<string name="pvr_playlist_record_list">ჩანაწერთა სია</string>
+	<string name="pvr_playlist_page_up">გვერდი ზემოთ </string>
+	<string name="pvr_playlist_delete">წაშლა</string>
+	<string name="pvr_playlist_page_down">გვერდი ქვემოთ </string>
+	<string name="pvr_playlist_info">ინფორმაცია</string>
+	<string name="pvr_playlist_record_detail">ჩანაწერთა დეტალები</string>
+	<string name="pvr_playlist_channel_num">არხის ნომერი</string>
+	<string name="pvr_playlist_channel_name">არხის სახელი</string>
+	<string name="pvr_playlist_program_name">პროგრამის სახელი</string>
+	<string name="pvr_playlist_special_6_1">სპეციალური 6+1</string>
+	<string name="pvr_playlist_date">თარიღი</string>
+	<string name="pvr_playlist_week">კვირა</string>
+	<string name="pvr_playlist_fri">პარ</string>
+	<string name="pvr_playlist_time">დრო</string>
+	<string name="pvr_playlist_duration">ხანგრძლივობა</string>
+	<string name="pvr_disksetup_disk_setup">დისკის დაყენება</string>
+	<string name="pvr_disksetup_page_up">გვერდი ზემოთ </string>
+	<string name="pvr_disksetup_select">შერჩევა</string>
+	<string name="pvr_disksetup_page_down">გვერდი ქვემოთ </string>
+	<string name="pvr_disksetup_exit">გასასვლელი</string>
+	<string name="pvr_schedulepvr_ch41">CH41</string>
+	<string name="pvr_schedulepvr_date">2013/01/04 13:22 სამშაბათი</string>
+	<string name="pvr_schedulepvr_time">00სთ 00წთ</string>
+	<string name="pvr_schedulepvr_week">კვირა</string>
+	<string name="pvr_schedulepvr_record">ჩანაწერი</string>
+	<string name="pvr_schedulepvr_schedule_list">განრიგი სია</string>
+	<string name="pvr_schedulepvr_diskinfo">უსახელო 3.8/3.8 გეგაბაიტი</string>
+	<string name="pvr_schedulepvr_add_schedule">განრიგის დამატება</string>
+	<string name="pvr_schedulepvr_selected">შერჩეული</string>
+	<string name="pvr_schedulepvr_exit">გასასვლელი</string>
+	<string name="pvr_schedulepvr_schedule_list2">განრიგი სია</string>
+	<string name="pvr_schedulepvr_disk_info">უსახელო 3.8/3.8 გეგაბაიტი</string>
+	<string name="pvr_confirm_yes">დიახ</string>
+	<string name="pvr_confirm_no">არა</string>
+	<string name="pvr_dialog_exit">გასასვლელი</string>
+	<string name="pvr_schedulelist_wednesday">ოთხშაბათი</string>
+	<string name="pvr_schedulelist_replace_line1">განრიგი გადაფარვა</string>
+	<string name="pvr_schedulelist_replace_line2">გსურთ შეცვალოთ განრიგი?</string>
+	<string name="pvr_schedulelist_delete_line1">განრიგის წაშლა!</string>
+	<string name="pvr_schedulelist_delete_line2">გსურთ განრიგის წაშლა?</string>
+	<string name="hello_world">გამარჯობა მსოფლიო.</string>
+	<string name="menu_settings">პარამეტრები</string>
+	<string name="title_activity_schedule_pvr">SchedulePvrActivity</string>
+	<string name="fav_list_is_full">ფავორიტთა სია სავსეა</string>
+	<string name="partner_row_title">mediatek tv</string>
+	<string name="inputs_row_title">შეყვანა</string>
+	<string name="apps_row_title">აპლიკაციები</string>
+	<string name="games_row_title">თამაშები</string>
+	<string name="settings_row_title">პარამეტრები</string>
+	<string name="power_on_off_time_same">ერთდროულად ორი ტაიმერის გამოყენება არ არის
+		შესაძლებელი</string>
+	<string name="sleep_timer_tip_text">კვება მალე გამოირთვება</string>
+	<string name="sleep_timer_btn_text">ოქეი (თანხმობა)</string>
+	<string name="menu_dialog_numzero">არხის ნომერი არ შეიძლება იყოს 0</string>
+	<string name="menu_delete_biss_key_tip">დარწმუნებული ხართ რომ გსურთ წაშალოთ ეს Biss
+		გასაღები?</string>
+
+	<string name="video_info_dialog_format">ფორმატი:</string>
+	<string name="video_info_dialog_resolution">რეზოლუცია:</string>
+	<string name="video_info_dialog_subtitle">სუბტიტრი</string>
+</resources>

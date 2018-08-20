@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<string name="thr_menu_common_setting">የተለመደ ቅንብር</string>
+    <string name="thr_menu_confim">አረጋግጥ</string>
+<string name="thr_menu_cancal">ይውጣ</string>
+    <string name="thr_menu">ዝርዝር</string>
+<string name="thr_menu_select">መምረጥ</string>
+
+<string name="thr_menu_picture_mode"> የስእል መንገድ</string>
+<string name="thr_menu_track">ድምጽ ትራክ</string>
+<string name="thr_menu_Equalizer">እኩል</string>
+<string name="thr_menu_volume">ድምጽ</string>
+
+
+
+</resources>

@@ -229,7 +229,11 @@ public class LocalFileAdapter extends FileAdapter {
 
         info = assemblyInfos(getName(), "", "", getSize());
       } else {
-        String title = data.getTitle();
+        //add by y.wan for bug 93597 start 2018/8/10
+        //String title = data.getTitle();
+        String title = getName();
+        //add by y.wan for  end 2018/8/10
+
         if (title == null || title.length() <= 0) {
           title = getName();
         }

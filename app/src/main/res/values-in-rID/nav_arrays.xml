@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+
+	<string-array name="nav_channel_types">
+		<item>Semua</item>
+		<item>Radio</item>
+	</string-array>
+	<string-array name="nav_sleep_strings">
+		<item>Tidur:Off</item>
+		<item>Tidur:15 Menit</item>
+		<item>Tidur:30 Menit</item>
+		<item>Tidur:45 Menit</item>
+		<item>Tidur:60 Menit</item>
+		<item>Tidur:90 Menit</item>
+		<item>Tidur:120 Menit</item>
+	</string-array>
+	<string-array name="nav_zoom_strings">
+		<item>zoom X 1</item>
+		<item>zoom X 2</item>
+		<item>zoom X 1/2</item>
+	</string-array>
+	
+	<string-array name="nav_s_effect_strings">
+        <item>Pengguna</item>
+		<item>Standar</item>
+		<item>Langsung1</item>
+	</string-array>
+
+	<string-array name="nav_freeze_strings">
+		<item>Pembekuan: Nyala</item>
+		<item>Pembekuan: Mati</item>
+	</string-array>
+
+	<string-array name="nav_epg_filter_type">
+		<item>Film</item>
+		<item>Berita</item>
+		<item>Acara</item>
+		<item>Olahraga</item>
+		<item>Program anak-anak</item>
+		<item>Musik</item>
+		<item>Seni</item>
+		<item>Sosial</item>
+		<item>Pendidikan  </item>
+		<item>Waktu luang</item>
+		<item>Khusus</item>
+	</string-array>
+	
+	<string-array name="nav_epg_filter_type_AUS">
+		<item>Film</item>
+		<item>Berita</item>
+		<item>Hiburan</item>
+		<item>Olahraga</item>
+		<item>Program anak-anak</item>
+		<item>Musik</item>
+		<item>Seni</item>
+		<item>Masalah saat ini</item>
+		<item>Pendidikan  </item>
+		<item>Berita hiburan</item>
+		<item>Khusus</item>
+		<item>Komedi</item>
+		<item>DRAMA</item>
+		<item>Dokumenter</item>
+	</string-array>
+	
+	<string-array name="nav_epg_filter_type_UK">
+		<item>Film</item>
+		<item>Berita dan faktual</item>
+		<item>Hiburan</item>
+		<item>Olahraga</item>
+		<item>Program anak-anak</item>
+		<item>Pendidikan  </item>
+		<item>Gaya hidup</item>
+		<item>DRAMA</item>
+	</string-array>
+	
+	<string-array name="nav_epg_filter_sa_type">
+		<item>Berita</item>
+		<item>Olahraga</item>
+		<item>Pendidikan  </item>
+		<item>Opera Sabun</item>
+		<item>Mini-seri</item>
+		<item>Seri</item>
+		<item>Ragam</item>
+		<item>REALITY_SHOW</item>
+		<item>INFOMATION</item>
+		<item>Lucu</item>
+		<item>Anak-anak</item>
+		<item>Erotis</item>
+		<item>Film</item>
+		<item>RA_TE_SA_PR</item>
+		<item>DEBATE_INTERVIEW</item>
+		<item>Lainnya</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_movie">
+		<item>DRAMA</item>
+		<item>Detektif</item>
+		<item>Petualangan</item>
+		<item>Fiksi Ilmiah</item>
+		<item>Komedi</item>
+		<item>Soap</item>
+		<item>Roman</item>
+		<item>Serius</item>
+		<item>Film Dewasa</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_news">
+		<item>Masalah saat ini</item>
+		<item>Laporan Cuaca</item>
+		<item>Majalah Berita</item>
+		<item>Dokumenter</item>
+		<item>Diskusi</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_news">
+		<item>Berita</item>
+		<item>Laporan</item>
+		<item>Dokumenter</item>
+		<item>Biografi</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_show">
+		<item>Acara</item>
+		<item>Acara Game</item>
+		<item>Acara Varietas</item>
+		<item>Gelar Wicara</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_sports">
+		<item>Olahraga</item>
+		<item>Acara Khusus</item>
+		<item>Majalah Olahraga</item>
+		<item>Sepak Bola</item>
+		<item>Tenis</item>
+		<item>Olahraga Tim</item>
+		<item>Atletik</item>
+		<item>Olahraga Motor</item>
+		<item>Olahraga Air</item>
+		<item>Olahraga Musim Dingin</item>
+		<item>Olahraga Berkuda</item>
+		<item>Olahraga Bela Diri</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_sports">
+		<item>Olahraga</item>
+	</string-array>
+	
+	<string-array name="nav_epg_subtype_children">
+		<item>Program anak-anak</item>
+		<item>Program Anak-Anak Prasekolah</item>
+		<item>Hiburan untuk usia 6 sampai 14</item>
+		<item>Hiburan untuk usia 10 sampai 16</item>
+		<item>Informatif</item>
+		<item>Kartun</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_music">
+		<item>Musik</item>
+		<item>Rok</item>
+		<item>Serius</item>
+		<item>Rakyat</item>
+		<item>Jaz</item>
+		<item>Musikal</item>
+		<item>Balet</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_arts">
+		<item>Seni</item>
+		<item>Seni Pertunjukan</item>
+		<item>Seni Murni</item>
+		<item>Agama</item>
+		<item>Budaya populer</item>
+		<item>Literatur</item>
+		<item>Film</item>
+		<item>Eksperimental</item>
+		<item>Penyiaran</item>
+		<item>Media Baru</item>
+		<item>Majalah Seni</item>
+		<item>Fashion</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_social">
+		<item>Sosial</item>
+		<item>Majalah</item>
+		<item>Ilmu Ekonomi</item>
+		<item>orang luar biasa</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_education">
+		<item>Pendidikan  </item>
+		<item>Sifat</item>
+		<item>Teknologi</item>
+		<item>Kedokteran</item>
+		<item>Negara Asing</item>
+		<item>Ilmu Sosial</item>
+		<item>Pendidikan Lanjutan</item>
+		<item>Bahasa</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_education">
+		<item>Edukatif</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_soap_opera">
+		<item>Operasi sabun</item>
+	</string-array>
+	
+	<string-array name="nav_epg_subtype_sa_mini_series">
+		<item>Mini-seri</item>
+	</string-array>
+	
+	<string-array name="nav_epg_subtype_sa_series">
+		<item>Seri</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_variety">
+		<item>Auditorium</item>
+		<item>Acara</item>
+		<item>Musikal</item>
+		<item>Pembuatan</item>
+		<item>Feminin</item>
+		<item>Acara Game</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_reality_show">
+		<item>Acara realitas</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_information">
+		<item>Masakan</item>
+		<item>Fashion</item>
+		<item>Negara</item>
+		<item>Kesehatan</item>
+		<item>Perjalanan</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_comical">
+		<item>Lucu</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_children">
+		<item>Anak-anak</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_erotic">
+		<item>Erotis</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_movie">
+		<item>Film</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_RA_TE_SA_PR">
+		<item>Undian</item>
+		<item>Penjualan Televisi</item>
+		<item>Hadiah</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_DEBATE_INTERVIEW">
+		<item>Diskusi</item>
+		<item>Wawancara</item>
+	</string-array>
+	<string-array name="nav_epg_subtype_sa_other">
+		<item>Kartun Dewasa</item>
+		<item>Interaktif</item>
+		<item>Kebijakan</item>
+		<item>Agama</item>
+	</string-array>
+	
+	<string-array name="nav_epg_subtype_leisure">
+		<item>Hobi waktu luang</item>
+		<item>Turisme</item>
+		<item>Kerajinan Tangan</item>
+		<item>Penggunaan Mobil</item>
+		<item>Fitnes dan Kesehatan</item>
+		<item>Masakan</item>
+		<item>Iklan</item>
+		<item>Perkebunan</item>
+	</string-array>
+
+	<string-array name="nav_epg_subtype_special">
+		<item>Bahasa asli</item>
+		<item>Hitam dan Putih</item>
+		<item>Tak Diterbitkan</item>
+		<item>Siaran Langsung</item>
+	</string-array>
+
+
+	<string-array name="nav_mts_strings">
+		<item>UNKNOW</item>
+		<item>Mono</item>
+		<item>Stereo</item>
+		<item>SUB_LANG</item>
+		<item>Dual1</item>
+		<item>Dual2</item>
+		<item>NICAM_MONO</item>
+		<item>NICAM_STEREO</item>
+		<item>NICAM_DUAL1</item>
+		<item>NICAM_DUAL2</item>
+		<item>FM_MONO</item>
+		<item>FM_STEREO</item>
+	</string-array>
+
+	<string-array name="nav_audio_tvcm_strings">
+		<item>baq</item>
+		<item>eus</item>
+		<item>bul</item>
+		<item>cat</item>
+		<item>scr</item>
+		<item>cze</item>
+		<item>dan</item>
+		<item>dut</item>
+		<item>eng</item>
+		<item>fin</item>
+		<item>fre</item>
+		<item>gla</item>
+		<item>gdh</item>
+		<item>gle</item>
+		<item>glg</item>
+		<item>ger</item>
+		<item>gre</item>
+		<item>hun</item>
+		<item>ita</item>
+		<item>nor</item>
+		<item>pol</item>
+		<item>por</item>
+		<item>rum</item>
+		<item>rus</item>
+		<item>scc</item>
+		<item>slo</item>
+		<item>slv</item>
+		<item>spa</item>
+		<item>swe</item>
+		<item>tur</item>
+		<item>wel</item>
+		<item>ice</item>
+		<item>isl</item>
+		<item>smi</item>
+		<item>tha</item>
+		<item>vie</item>
+		<item>ara</item>
+		<item>zho</item>
+		<item>Chi</item>
+		<item>per</item>
+		<item>kor</item>
+		<item>est</item>
+		<item>mao</item>
+		<item>cmn</item>
+		<item>yue</item>
+		<item>jpn</item>
+		<item>hin</item>
+		<item>nar</item>
+		<item>QAA</item>
+		<item>und</item>
+	</string-array>
+
+	<string-array name="nav_audio_strings">
+		<item>Basque</item>
+		<item>Basque</item>
+		<item>Bulgaria</item>
+		<item>Katalan</item>
+		<item>Kroasia</item>
+		<item>Ceko</item>
+		<item>Denmark</item>
+		<item>Belanda</item>
+		<item>INGGRIS</item>
+		<item>Finlandia</item>
+		<item>Prancis</item>
+		<item>Gaelik</item>
+		<item>Gaelik</item>
+		<item>Irlandia</item>
+		<item>gallegan</item>
+		<item>Jerman</item>
+		<item>Yunani</item>
+		<item>Hongaria</item>
+		<item>Italia</item>
+		<item>Norwegia</item>
+		<item>Polandia</item>
+		<item>Portugis</item>
+		<item>Rumania</item>
+		<item>Rusia</item>
+		<item>Serbia</item>
+		<item>Slowakia</item>
+		<item>Slovenia</item>
+		<item>Spanyol</item>
+		<item>Swedia</item>
+		<item>Turki</item>
+		<item>Wales</item>
+		<item>Islandia</item>
+		<item>Islandia</item>
+		<item>Sami langs</item>
+		<item>Thailand</item>
+		<item>Vietnam</item>
+		<item>Arab</item>
+		<item>Bhs. Cina Tradisional</item>
+		<item>Bhs. Cina Sederhana</item>
+		<item>Persia</item>
+		<item>Korea</item>
+		<item>Estonia</item>
+		<item>Maori</item>
+		<item>Mandarin</item>
+		<item>Kanton</item>
+		<item>Jepang</item>
+		<item>Hindi</item>
+		<item>Naratif</item>
+		<item>Original Version for France</item>
+		<item>tidak terdefinisi</item>
+	</string-array>
+
+	<string-array name="nav_bottom_volume">
+		<item>Volume Master</item>
+		<item>Volume Kiri Depan</item>
+		<item>Volume Kanan Depan</item>
+		<item>Volume Kiri Belakang</item>
+		<item>Volume Kanan Belakang</item>
+		<item>Volume Tengah</item>
+		<item>Volume Sub Woofer</item>
+	</string-array>
+
+    <string-array name="nav_zoom_mode">
+		<item>Zoom x 1/2</item>
+		<item>Zoom x 1</item>
+		<item>Zoom x 2</item>
+	</string-array>
+
+	<string-array name="nav_receiver_type">
+		<item>Cable</item>
+		<item>Antena</item>
+	</string-array>
+	<string-array name="pvr_tshift_initdisk_step1">
+		<item>Otomatis</item>
+		<item>Manual</item>
+	</string-array>
+	<string-array name="pvr_tshift_initdisk_step_format">
+		<item>Menghapus</item>
+		<item>Lompati</item>
+	</string-array>
+	<string-array name="pvr_tshift_initdisk_step_formatconfirm">
+		<item>Menghapus</item>
+		<item>Membatalkan</item>
+	</string-array>
+	
+	<string-array name="week_day">
+	    <item>Minggu</item>
+		<item>Senin</item>
+		<item>Selasa</item>
+		<item>Rabu</item>
+		<item>Kamis</item>
+		<item>Jumat</item>
+		<item>Sabtu</item>
+	</string-array>
+    <string-array name="nav_oad_btns_cancel">
+        <item>Membatalkan</item>
+    </string-array>
+    <string-array name="nav_oad_btns_accept_remind_me_later">
+        <item>Terima</item>
+        <item>Ingatkan Saya Nanti</item>
+    </string-array>
+    <string-array name="nav_oad_btns_accept_reject">
+        <item>Terima</item>
+        <item>Tolak</item>
+    </string-array>
+    
+    <string-array name="nav_oad_btns_yes_no">
+        <item>Ya</item>
+        <item>Tidak</item>
+    </string-array>
+
+
+
+
+
+	<string-array name="nav_twinkle_strings">
+		<item/>
+		<item>Tak Ada Sinyal!</item>
+		<item>Harap Memindai Saluran!</item>
+		<item>Mengambil Data...</item>
+		<item>Saluran Dikunci!</item>
+		<item>Program Dikunci!</item>
+		<item>Input Dikunci!</item>
+		<item>(Tak ada Judul program.)</item>
+		<item>Saluran Disembunyikan!</item>
+		<item>Program Audio</item>
+		<item>Layanan Tidak Valid</item>
+		<item>(Tak Ada Detail Program.)</item>
+		<item>(Tak Ada Detail Saluran.)</item>
+		<item>♪ Tak Ada Stream Audio ♪</item>
+		<item>Tak Ada Stream Video</item>
+		<item>Silahkan Tunggu</item>
+		<item>Video Tak Didukung</item>
+		<item>Layanan HD</item>
+		<item>Bukan Penyiaran</item>
+		<item>Tak Ada Saluran</item>
+		<item>Konten ini diblokir oleh penyedia layanan Anda</item>
+		<item>Acak</item>
+	</string-array>
+
+
+	<string-array name="nav_channel_type">
+		<item>Semua</item>
+		<item>Digital</item>
+		<item>Radio</item>
+		<item>Analog</item>
+	</string-array>
+    <string-array name="dvbs_scan_mode_arrays">
+        <item>@string/dvbs_scan_mode_network</item>
+        <item>@string/dvbs_scan_mode_full</item>
+    </string-array>
+    <string-array name="dvbs_scan_mode2_arrays">
+        <item>@string/dvbs_scan_mode_auto</item>
+        <item>@string/dvbs_scan_mode_preset</item>
+    </string-array>
+    <string-array name="dvbs_diseqc_input_arrays">
+        <item>@string/dvbs_diseqc_input_1</item>
+        <item>@string/dvbs_diseqc_input_2</item>
+        <item>@string/dvbs_diseqc_input_3</item>
+        <item>@string/dvbs_diseqc_input_4</item>
+        <item>@string/dvbs_diseqc_input_0</item>
+    </string-array>
+    <string-array name="dvbs_diseqc_10port_arrays">
+        <item>@string/dvbs_diseqc_input_1</item>
+        <item>@string/dvbs_diseqc_input_2</item>
+        <item>@string/dvbs_diseqc_input_3</item>
+        <item>@string/dvbs_diseqc_input_4</item>
+        <item>@string/dvbs_tone_burst_a</item>
+        <item>@string/dvbs_tone_burst_b</item>
+        <item>@string/dvbs_diseqc_input_0</item>
+    </string-array>
+    <string-array name="dvbs_diseqc_motor_arrays">
+        <item>@string/dvbs_diseqc_input_0</item>
+        <item>@string/dvbs_diseqc_motor_12</item>
+    </string-array>
+    <string-array name="dvbs_diseqc_motor_store_position_arrays">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="dvbs_diseqc_movement_control_arrays">
+        <item>Nonstop</item>
+        <item>Langkah</item>
+        <item>Waktu Habis</item>
+    </string-array>
+    <string-array name="dvbs_tone_22khz_arrays">
+        <item>@string/dvbs_tone_22khz_off</item>
+        <item>@string/dvbs_tone_22khz_on</item>
+        <item>@string/dvbs_tone_22khz_auto</item>
+    </string-array>
+    
+    <string-array name="dvbs_tp_pol_arrays">
+        <item>@string/dvbs_tp_pol_1_HORIZONTAL</item>
+        <item>@string/dvbs_tp_pol_2_VERTICAL</item>
+    </string-array>
+    <string-array name="dvbs_channel_arrays">
+        <item>@string/dvbs_channel_free</item>
+        <item>@string/dvbs_channel_all</item>
+    </string-array>
+    <string-array name="dvbs_antenna_type_arrays">
+        <item>@string/dvbs_antenna_type_universal</item>
+        <item>@string/dvbs_antenna_type_singlecable</item>
+    </string-array>
+    <string-array name="dvbs_user_band_arrays">
+        <item>@string/dvbs_user_band_1</item>
+        <item>@string/dvbs_user_band_2</item>
+        <item>@string/dvbs_user_band_3</item>
+        <item>@string/dvbs_user_band_4</item>
+        <item>@string/dvbs_user_band_5</item>
+        <item>@string/dvbs_user_band_6</item>
+        <item>@string/dvbs_user_band_7</item>
+        <item>@string/dvbs_user_band_8</item>
+    </string-array>
+    <string-array name="dvbs_user_band_freq_arrays">
+        <item>"1210"</item>
+        <item>"1400"</item>
+        <item>"1516"</item>
+        <item>"1632"</item>
+        <item>"1748"</item>
+        <item>"1864"</item>
+        <item>"1980"</item>
+        <item>"2096"</item>
+    </string-array>
+    <string-array name="dvbs_position_arrays">
+        <item>@string/dvbs_tp_pol_0_unknown</item>
+        <item>@string/dvbs_position_a</item>
+        <item>@string/dvbs_position_b</item>
+        <item>@string/dvbs_position_c</item>
+        <item>@string/dvbs_position_d</item>
+    </string-array>
+    <string-array name="dvbs_preferred_satellite_arrays">
+        <item>@string/dvbs_preferred_satellite</item>
+        <item>@string/dvbs_general_satellite</item>
+    </string-array>
+    <string-array name="lnb_mdu1_arrays">
+        <item>@string/dvbs_preferred_satellite</item>
+        <item>@string/dvbs_general_satellite</item>
+    </string-array>
+   
+    <string-array name="dvbs_tone_burst_arrays">
+        <item>@string/dvbs_tone_burst_a</item>
+        <item>@string/dvbs_tone_burst_b</item>
+        <item>@string/dvbs_tone_burst_disable</item>
+    </string-array>
+	
+	<string-array name="dvbs_sat_on_off">
+        <item>@string/dvbs_sat_on</item>
+        <item>@string/dvbs_sat_off</item>
+    </string-array>
+    
+	<string-array name="dvbs_sat_lnb_power">
+        <item>@string/dvbs_sat_off</item>
+        <item>@string/dvbs_sat_TUNER_LNB_POWER_13V_18V</item>
+        <item>@string/dvbs_sat_TUNER_LNB_POWER_14V_19V</item>
+        <item>@string/dvbs_sat_on</item>
+    </string-array>
+				
+	<string-array name="dvbs_sat_lnbfreq">
+        <item>@string/lnb_universal</item>
+        <item>9750,10700</item>
+        <item>9750,10750</item>
+        <item>5150</item>
+        <item>5750</item>
+        <item>9750</item>
+        <item>10600</item>
+        <item>10750</item>
+        <item>11250</item>
+        <item>11300</item>
+        <item>11475</item>
+    </string-array>
+
+    
+</resources>

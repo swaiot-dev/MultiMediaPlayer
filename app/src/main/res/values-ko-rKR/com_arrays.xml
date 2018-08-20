@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--Screen mode-->
+<string-array name="screen_mode_array">
+<item>알 수 없음</item>
+<item>표준</item>
+<item>레터박스</item>
+<item>팬 스캔</item>
+<item>사용자 정의됨</item> 
+<item>비 선형</item>
+<item>도트 바이 도트</item>
+		<item>Auto</item>
+<item>사용자 지정 1</item>
+<item>사용자 지정 2</item>
+<item>사용자 지정 3</item>
+<item>사용자 지정 4</item>
+<item>사용자 지정 5</item>
+<item>사용자 지정 6</item>
+<item>사용자 지정 7</item>
+<item>NLZ 사용자 지정 0</item>
+<item>NLZ 사용자 지정 1</item>
+<item>NLZ 사용자 지정 2</item>
+<item>NLZ 사용자 지정 3</item>
+</string-array>
+
+<string-array name="screen_mode_array_us">
+<item>알 수 없음</item>
+<item>표준</item>
+<item>레터박스</item>
+<item>줌</item>
+<item>사용자 정의됨</item>
+<item>파노라마</item>
+<item>도트 바이 도트</item>
+		<item>Auto</item>
+<item>사용자 지정 1</item>
+<item>사용자 지정 2</item>
+<item>사용자 지정 3</item>
+<item>사용자 지정 4</item>
+<item>사용자 지정 5</item>
+<item>사용자 지정 6</item>
+<item>사용자 지정 7</item>
+<item>NLZ 사용자 지정 0</item>
+<item>NLZ 사용자 지정 1</item>
+<item>NLZ 사용자 지정 2</item>
+<item>NLZ 사용자 지정 3</item>
+</string-array>
+
+<!--Picture effect-->
+<string-array name="picture_effect_array">
+<item>사용자</item>
+		<item>Cinema</item>
+<item>스포츠</item>
+<item>선명</item>
+<item>매우 밝음</item>
+</string-array>
+
+<string-array name="picture_effect_array_us">
+<item>사용자</item>
+		<item>Cinema</item>
+<item>스포츠</item>
+<item>선명</item>
+<item>매우 밝음</item>
+<item>사용자 지정1</item>
+<item>사용자 지정2</item>
+<item>사용자 지정3</item>
+</string-array>
+
+<string-array name="setup_default_language_array">
+        <item>@string/setup_language_english</item>
+        <item>@string/setup_language_chinese</item>
+</string-array>
+
+<string-array name="setup_us_language_array">
+        <item>@string/setup_language_english</item>
+        <item>@string/setup_language_spanish</item>
+        <item>@string/setup_language_french</item>
+</string-array>
+
+<string-array name="setup_sa_language_array">
+        <item>@string/setup_language_english</item>
+        <item>@string/setup_language_portuguese</item>
+        <item>@string/setup_language_spanish</item>
+</string-array>
+
+<string-array name="setup_eu_language_array">
+        <item>@string/setup_language_english</item>
+        <item>@string/setup_language_Vasco</item>
+        <item>@string/setup_language_Catalan</item>
+        <item>@string/setup_language_hrvatski</item>
+        <item>@string/setup_language_Cesky</item>
+        <item>@string/setup_language_Dansk</item>
+        <item>@string/setup_language_Nederlands</item>
+        <item>@string/setup_language_Suomi</item>
+        <item>@string/setup_language_french</item>
+        <item>@string/setup_language_Gaelic</item>
+        <item>@string/setup_language_Gallego</item>
+        <item>@string/setup_language_Deutsch</item>
+        <item>@string/setup_language_Magyar</item>
+        <item>@string/setup_language_Italiano</item>
+        <item>@string/setup_language_Norsk</item>
+        <item>@string/setup_language_Polski</item>
+        <item>@string/setup_language_portuguese</item>
+        <item>@string/setup_language_Romana</item>
+        <item>@string/setup_language_Srpski</item>
+        <item>@string/setup_language_Slovensky</item>
+        <item>@string/setup_language_Slovenscina</item>
+        <item>@string/setup_language_spanish</item>
+        <item>@string/setup_language_Svenska</item>
+        <item>@string/setup_language_Turkce</item>
+        <item>@string/setup_language_Welsh</item>
+        <item>@string/setup_language_Eesti</item>
+        <item>@string/setup_language_Pyccknn</item>
+</string-array>
+
+<string-array name="setup_eu_language_array_eu">
+        <item>@string/setup_language_english_eu</item>
+        <item>@string/setup_language_Vasco_eu</item>
+        <item>@string/setup_language_Catalan_eu</item>
+        <item>@string/setup_language_hrvatski_eu</item>
+        <item>@string/setup_language_Cesky_eu</item>
+        <item>@string/setup_language_Dansk_eu</item>
+        <item>@string/setup_language_Nederlands_eu</item>
+        <item>@string/setup_language_Suomi_eu</item>
+        <item>@string/setup_language_french_eu</item>
+        <item>@string/setup_language_Gaelic_eu</item>
+        <item>@string/setup_language_Gallego_eu</item>
+        <item>@string/setup_language_Deutsch_eu</item>
+        <item>@string/setup_language_Magyar_eu</item>
+        <item>@string/setup_language_Italiano_eu</item>
+        <item>@string/setup_language_Norsk_eu</item>
+        <item>@string/setup_language_Polski_eu</item>
+        <item>@string/setup_language_portuguese_eu</item>
+        <item>@string/setup_language_Romana_eu</item>
+        <item>@string/setup_language_Srpski_eu</item>
+        <item>@string/setup_language_Slovensky_eu</item>
+        <item>@string/setup_language_Slovenscina_eu</item>
+        <item>@string/setup_language_spanish_eu</item>
+        <item>@string/setup_language_Svenska_eu</item>
+        <item>@string/setup_language_Turkce_eu</item>
+        <item>@string/setup_language_Welsh_eu</item>
+        <item>@string/setup_language_Eesti_eu</item>
+        <item>@string/setup_language_Pyccknn_eu</item>
+</string-array>
+
+<string-array name="setup_eu_country_array">
+        <item>@string/setup_country_cty_1</item>
+        <item>@string/setup_country_cty_2</item>
+        <item>@string/setup_country_cty_3</item>
+        <item>@string/setup_country_cty_4</item>
+        <item>@string/setup_country_cty_5</item>
+        <item>@string/setup_country_cty_6</item>
+        <item>@string/setup_country_cty_7</item>
+        <item>@string/setup_country_cty_8</item>
+        <item>@string/setup_country_cty_9</item>
+        <item>@string/setup_country_cty_10</item>
+        <item>@string/setup_country_cty_11</item>
+        <item>@string/setup_country_cty_12</item>
+        <item>@string/setup_country_cty_13</item>
+        <item>@string/setup_country_cty_14</item>
+        <item>@string/setup_country_cty_15</item>
+        <item>@string/setup_country_cty_16</item>
+        <item>@string/setup_country_cty_17</item>
+        <item>@string/setup_country_cty_18</item>
+        <item>@string/setup_country_cty_19</item>
+        <item>@string/setup_country_cty_20</item>
+        <item>@string/setup_country_cty_21</item>
+        <item>@string/setup_country_cty_22</item>
+        <item>@string/setup_country_cty_23</item>
+        <item>@string/setup_country_cty_24</item>
+        <item>@string/setup_country_cty_25</item>
+        <item>@string/setup_country_cty_26</item>
+        <item>@string/setup_country_cty_27</item>
+        <item>@string/setup_country_cty_28</item>
+        <item>@string/setup_country_cty_29</item>
+</string-array>
+
+<string-array name="setup_eu_oceania_country_array">
+        <item>@string/setup_country_cty_30</item>
+        <item>@string/setup_country_cty_31</item>
+        <item>@string/setup_country_cty_32</item>
+</string-array>
+
+<string-array name="setup_us_timezone_region">
+<item>동부 표준시</item>
+<item>인디애나</item>
+<item>중부 표준시</item>
+<item>산지 표준시</item>
+<item>애리조나</item>
+<item>태평양 표준시</item>
+<item>알래스카</item>
+<item>하와이</item>
+</string-array>
+
+<string-array name="setup_us_timezone_str">
+<item>미국/뉴욕</item>
+<item>미국/뉴욕</item>
+<item>미국/시카고</item>
+<item>미국/덴버</item>
+<item>미국/피닉스</item>
+<item>미국/로스앤젤레스</item>
+<item>미국/앵커리지</item>
+<item>태평양/호놀룰루</item>
+</string-array>
+<integer-array name="setup_us_timezone_values">
+        <item>-5</item>
+        <item>-5</item>
+        <item>-6</item>
+        <item>-7</item>
+        <item>-7</item>
+        <item>-8</item>
+        <item>-9</item>
+        <item>-10</item>
+</integer-array>
+<string-array name="dvbc_operators_eu">
+        <item>@string/dvbc_operator_others</item>
+        <item>@string/dvbc_operator_upc</item>
+        <item>@string/dvbc_operator_comhem</item>
+        <item>@string/dvbc_operator_canal_digital</item>
+        <item>@string/dvbc_operator_tele2</item>
+        <item>@string/dvbc_operator_stofa</item>
+        <item>@string/dvbc_operator_yousee</item>
+        <item>@string/dvbc_operator_ziggo</item>
+        <item>@string/dvbc_operator_unitymedia</item>
+        <item>@string/dvbc_operator_numericable</item>
+        <item>@string/dvbc_operator_volia</item>
+        <item>@string/dvbc_operator_telemach</item>
+        <item>@string/dvbc_operator_onlime</item>
+        <item>@string/dvbc_operator_akado</item>
+        <item>@string/dvbc_operator_tkt</item>
+        <item>@string/dvbc_operator_divan_tv</item>
+        <item>@string/dvbc_operator_net1</item>
+        <item>@string/dvbc_operator_kdg</item>
+        <item>@string/dvbc_operator_kbw</item>
+        <item>@string/dvbc_operator_blizoo</item>
+        <item>@string/dvbc_operator_telent_eu</item>
+        <item>@string/dvbc_operator_glenten</item>
+        <item>@string/dvbc_operator_tele_columbus</item>
+        <item>@string/dvbc_operator_rcs_rds</item>
+</string-array>
+
+<string-array name="dvbs_operators">
+        <item>@string/dvbs_operator_astra_hd_plus</item>
+        <item>@string/dvbs_operator_sky_deutschland</item>
+        <item>@string/dvbs_operator_ors</item>
+        <item>@string/dvbs_operator_austriasat</item>
+        <item>@string/dvbs_operator_cannal_digital</item>
+        <item>@string/dvbs_operator_tv_vlaanderen_hd</item>
+        <item>@string/dvbs_operator_tv_vlaanderen_sd</item>
+        <item>@string/dvbs_operator_telesat_belgium</item>
+        <item>@string/dvbs_operator_telesat_luxembourg</item>
+        <item>@string/dvbs_operator_seznam_kanalu_pro_cesko</item>
+        <item>@string/dvbs_operator_seznam_kanalu_pro_slovensko</item>
+        <item>@string/dvbs_operator_cannaldigitaal_hd</item>
+        <item>@string/dvbs_operator_cannaldigitaal_sd</item>
+        <item>@string/dvbs_operator_n_na_karte</item>
+        <item>@string/dvbs_operator_digiturk_eutelsat</item>
+        <item>@string/dvbs_operator_digiturk_turksat</item>
+        <item>@string/dvbs_operator_fransat</item>
+        <item>@string/dvbs_operator_cyfraplus</item>
+        <item>@string/dvbs_operator_cyfrowy_polsat</item>
+        <item>@string/dvbs_operator_dsmart</item>
+        <item>@string/dvbs_operator_ntvplus</item>
+        <item>@string/dvbs_operator_others</item>
+        <item>@string/dvbs_operator_name_nc_plus</item>
+        <item>@string/dvbs_operator_name_smart_hd_plus</item>
+        <item>@string/dvbs_operator_name_tivusat</item>
+</string-array>
+</resources>

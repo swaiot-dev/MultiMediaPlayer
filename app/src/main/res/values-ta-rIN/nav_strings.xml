@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="setup_ini">தொடக்க அமைப்பு</string>
+    <string name="setup_back">பின்னே</string>
+    <string name="setup_select">தேர்ந்தெடு</string>
+    <string name="setup_next">அடுத்து</string>
+    <string name="setup_exit">வெளியேறவும்</string>
+    <string name="setup_welcome">வருக</string>
+    <string name="setup_welcome_set">தொடக்க அமைப்புக்கான வழிகாட்டியைப் பயன்படுத்த வரவேற்கிறோம்!!\nவழிகாட்டியைத் தொடங்க
+        தயவுசெய்து [ENTER]ஐத் தட்டவும்.
+    </string>
+    <string name="setup_language">மொழி</string>
+    <string name="setup_select_language">தயவுசெய்து உங்கள் மொழியைத் தேர்ந்தெடுக்கவும்:</string>
+    <string name="setup_select_one_op">நீங்கள் பின்வரும் பட்டியலிலிருந்து ஒரே ஒரு செயற்பாட்டினை மட்டுமே தேர்ந்தெடுக்க
+        முடியும்:
+    </string>
+    <string name="setup_tunner">டியூனர் முறைமை</string>
+    <string name="setup_select_tuner">தயவுசெய்து உங்கள் டியூனர் முறைமையைத் தேர்ந்தெடுக்கவும்:</string>
+    <string name="setup_channelscan">சேனல் தேடல்</string>
+    <string name="setup_set_setps">முதலில், அலைவாங்கியை இணைக்கவும்.\nஇப்போது சேனல் தேடலைத் தொடங்குங்கள்?\nநீங்கள் இந்தப்
+        படியைத் தவிர்த்தால்,சேனல் தேடலைப் பட்டியலில் செய்ய முடியும்.
+    </string>
+    <string name="setup_set_setps_us">முதலில், கம்பிவடம் அல்லது அலைவாங்கியை இணைக்கவும்.\nஇப்போது சேனல் தேடலைத்
+        தொடங்குங்கள்?\nநீங்கள் இந்தப் படியைத் தவிர்த்தால்,சேனல் தேடலைப் பட்டியலில் செய்ய முடியும்.
+    </string>
+    <string name="setup_language_english">ஆங்கில மொழி</string>
+    <string name="setup_scan">ஸ்கான் செய்யவும்</string>
+    <string name="setup_skip_scan">தேடலைத் தவிர்</string>
+    <string name="setup_complete">முடிந்தது</string>
+    <string name="setup_congratulations">வாழ்த்துக்கள்!\nதொடக்க அமைப்பை முடித்துவிட்டீர்கள்.\nவழிகாட்டியிலிருந்து
+        வெளியேற [ENTER]ஐத் தட்டவும்.
+    </string>
+    <string name="setup_channel_scan_note">சேனல் தேடல் முடிவதற்குச் சிறிது நேரமாகலாம்.</string>
+    <string name="setup_channel_scan_status">நிலை: தேடுகின்றது</string>
+    <string name="setup_channel_scan_analog">அனலாக் சேனல்கள்:</string>
+    <string name="setup_channel_scan_digital">டிஜிட்டல் சேனல்கள்:</string>
+    <string name="setup_cancel">ரத்து செயவும்</string>
+    <string name="setup_cancel_scan">நிலை: தேடல் இரத்தானது</string>
+    <string name="setup_scan_error">நிலை: தேடல் பிழையானது</string>
+    <string name="setup_channel_scan_status_complete">நிலை: தேடல் முடிந்தது</string>
+    <string name="dvbs_operator_perferred_satellite">முன்னுரிமை செயற்கைக்கோள்</string>
+    <string name="dvbs_operator_general_satellite">பொது செயற்கைக்கோள்</string>
+
+    <string name="table">பக்கத்தின் அட்டவணை</string>
+    <string name="nav_test_tv">TV</string>
+
+    <string name="nav_source_main_title">முக்கியம்</string>
+    <string name="nav_source_sub_title">துணை</string>
+
+    <string name="nav_please_scan_channels">தயவுசெய்து சேனல்களைத் தேடவும்:</string>
+    <string name="nav_no_function">செயல்பாடு இல்லை</string>
+    <string name="nav_select_list">பட்டியலைத் தேர்ந்தெடுக்கவும்</string>
+    <string name="nav_page_up">பக்கத்தில் மேலே செல்லவும்</string>
+    <string name="nav_page_down">பக்கத்தில் மேழே செல்லவும்</string>
+    <string name="nav_fav_move_up">மேலே செல்லவும்</string>
+    <string name="nav_fav_move_down">கீழே செல்லவும்</string>
+    <string name="nav_exit">வெளியேறவும்</string>
+    <string name="nav_list_satellite">செயற்கைக்கோளைப் பட்டியலிடவும்</string>
+    <string name="nav_satellite_list">செயற்கைக்கோளைத் தேர்ந்தெடுக்கவும்</string>
+    <string name="nav_channel_list">சானல் பட்டியல்</string>
+
+    <string name="nav_channel_list_title_str">சேனல் பட்டியல் -</string>
+    <string name="nav_channel_selection">சேனல் பட்டியல் தேர்வு</string>
+    <string name="nav_channel_details">சேனல் விவரங்கள்</string>
+    <string name="nav_volume_main">முதன்மை ஒலி</string>
+    <string name="nav_parent_psw">கடவுச்சொல்</string>
+    <string name="nav_parent_dvbs_hint">கடவுச்சொல் மூன்றுமுறை தவறானது!\nதயவுசெய்து காத்திருக்கவும்...</string>
+    <string name="nav_favorite_list">பிடித்த பட்டியல்</string>
+    <string name="nav_favorite_select">தேர்ந்தெடு</string>
+
+    <string name="nav_channel_infoName">ஜேட்</string>
+    <string name="nav_channel_infoMiddle_special">தரவை மீட்டெடுக்கிறது...</string>
+    <string name="nav_channel_infoTitle">(நிகழ்ச்சி தலைப்பு இல்லை.)</string>
+    <string name="nav_channel_infoNextDuration">பங்குச்சந்தையினுள்ளே</string>
+    <string name="nav_channel_infoFormatField">ஸ்டீரியோ</string>
+    <string name="nav_channel_infoNoProgram">(நிகழ்ச்சி விவரங்கள் இல்லை.)</string>
+    <string name="nav_channel_infoNoChannelDetail">(சேனல் விவரங்கள் இல்லை.)</string>
+    <string name="nav_no_signal">சிக்னல் இல்லை!</string>
+    <string name="nav_no_support">ஆதரிக்கவில்லை!</string>
+    <string name="nav_channel_has_locked">சேனல் பூட்டப்பட்டது!</string>
+    <string name="nav_input_has_locked">உளளீடு பூட்டப்பட்டது!</string>
+    <string name="nav_program_has_locked">நிகழ்ச்சி பூட்டப்பட்டது!</string>
+    <string name="nav_hidden_channel">மறைக்கப்பட்ட சேனல்!</string>
+    <string name="nav_channel_audio_scrambled">கலக்கபட்ட ஒலி</string>
+    <string name="nav_channel_video_scrambled">கலக்கபட்ட ஒளி</string>
+    <string name="nav_sleep_label">தூங்கு:</string>
+    <string name="nav_sleep_off">அணைக்கவும்</string>
+    <string name="nav_sleep_minutes">நிமிடங்கள்</string>
+    <string name="nav_resolution_null">ஒளி இல்லை</string>
+    <string name="nav_channel_retrieving">தரவை மீட்டெடுக்கிறது...</string>
+    <string name="nav_unknown_audio">அறியப்படாத ஒலி</string>
+    <string name="nav_unknown_stereo">அறியப்படாத ஸ்டீரியோ</string>
+    <string name="nav_unknown_audio_sundry">தெரியாதது</string>
+    <string name="nav_channel_no_audio">ஒலி இல்லை</string>
+
+    <string name="nav_epg_type">வகை</string>
+    <string name="nav_epg_sub_type">துணை வகை</string>
+    <string name="nav_epg_zero_tip">முன்பதிவுப் பட்டியல்</string>
+    <string name="nav_epg_book_list">முன்பதிவு நிகழ்வுப் பட்டியல்</string>
+    <string name="nav_epg_book_program_tip">\nஇந்த நிகழ்ச்சியை முன்பதிவு செய்யவா?</string>
+    <string name="nav_epg_unbook_program_tip">\nஏற்கனவே முன்பதிவு செய்துள்ளீர்கள், அதனை நீக்கவா?</string>
+    <string name="nav_epg_book_program_coming_tip">வருகின்றது, அச்சேனலுக்கு மாற்றவா?</string>
+    <string name="nav_epg_not_rated">மதிப்பிடப்படவில்லை</string>
+    <string name="nav_epg_no_program_detail">(நிகழ்ச்சி விவரம் இல்லை.)</string>
+    <string name="nav_epg_no_program_data">( நிகழ்ச்சி தரவு இல்லை.)</string>
+    <string name="nav_epg_no_program_title">(நிகழ்ச்சி தலைப்பு இல்லை.)</string>
+    <string name="nav_epg_no_title">(தலைப்பில்லை)</string>
+    <string name="nav_epg_unlock">பூட்டைத் திறத்தல்</string>
+    <string name="nav_epg_unschedule">திட்டத்திலிருந்து நீக்கு</string>
+    <string name="nav_epg_schedule">கால அட்டவணைப்படுத்தவும்</string>
+    <string name="nav_epg_unclassified">வகைப்படுத்தப்படாதது</string>
+    <string name="nav_epg_not_support">ஆதரிக்கவில்லை</string>
+
+    <string name="cplogo_title">சின்னத்தைப் பிடிப்பெடுக்கவும்</string>
+    <string name="cplogo_bt_ok">சரி</string>
+    <string name="cplogo_bt_cancel">ரத்து செயவும்</string>
+    <string name="cplogo_bt_full_screen">முழுத்திரை</string>
+    <string name="cplogo_bt_special_area">சிறப்புப் பகுதி</string>
+    <string name="cplogo_bt_no">இல்லை</string>
+    <string name="cplogo_bt_adjust">சரிசெய்</string>
+    <string name="cplogo_msg_which_screen">நீங்கள் முழுத்திரையை அல்லது சிறப்புப் பகுதியை பிடிக்க விரும்புகிறீர்களா?
+    </string>
+    <string name="cplogo_msg_this_screen">நீங்கள் இத்திரையைப் பிடிக்க விரும்புகிறீர்களா?</string>
+    <string name="cplogo_msg_select_position">சின்னத்தைச் சேமிப்பதற்குத் தயவுசெய்து ஒரு நிலையைத் தேர்ந்தெடுக்கவும்
+    </string>
+    <string name="cplogo_msg_capturing">பிடிக்கிறது...</string>
+    <string name="cplogo_msg_adjust_position">நீங்கள் சிறப்புப் பகுதியின் நிலையைச் சரிசெய்ய விரும்புகிறீர்களா?</string>
+    <string name="cplogo_msg_res_success">வெற்றிகரமாகப் பிடித்தது</string>
+    <string name="cplogo_msg_res_fail">பிடித்தல் தோல்வி, தயவுசெய்து மீண்டும் முயற்சிக்கவும்</string>
+    <string name="cplogo_capture_res_cancel">இச்செயல்பாடு இரத்து செய்யப்பட்டது</string>
+
+    <string name="vga_no_sinal_info">சிக்னல் இல்லை. மின்சாரம் துண்டிக்கப்படும்.</string>
+
+    <string name="epg_bottom_prev_day">முந்தைய நாள்</string>
+    <string name="epg_bottom_next_day">அடுத்த நாள்</string>
+    <string name="epg_bottom_view_detail">விவரத்தைக் காணவும்</string>
+    <string name="epg_bottom_type_filter">வகை வடிகட்டி</string>
+    <string name="epg_bottom_prev_page">பக்கத்தில் மேலே செல்லவும்</string>
+    <string name="epg_bottom_next_page">பக்கத்தில் மேழே செல்லவும்</string>
+    <string name="epg_bottom_ENTER">உள்ளிடு</string>
+    <string name="epg_rating_unclassified">வகைப்படுத்தப்படாதது</string>
+
+    <string name="epg_info_program_type">எதுவுமில்லை</string>
+    <string name="epg_password">கடவுச்சொல்</string>
+    <string name="epg_password_message">கடவுச்சொல் தவறு</string>
+    <string name="epg_retrieving_show">தரவை மீட்டெடுக்கிறது...</string>
+
+    <string name="nav_epg_January">ஜனவரி</string>
+    <string name="nav_epg_February">பிப்ரவரி</string>
+    <string name="nav_epg_March">மார்ச்</string>
+    <string name="nav_epg_April">ஏப்ரல்</string>
+    <string name="nav_epg_May">மே</string>
+    <string name="nav_epg_June">ஜூன்</string>
+    <string name="nav_epg_July">ஜூலை</string>
+    <string name="nav_epg_August">ஆகஸ்ட்</string>
+    <string name="nav_epg_September">செப்டம்பர்</string>
+    <string name="nav_epg_October">அக்டோபர்</string>
+    <string name="nav_epg_November">நவம்பர்</string>
+    <string name="nav_epg_December">டிசம்பர்</string>
+
+    <string name="nav_epg_Jan">ஜன</string>
+    <string name="nav_epg_Feb">பிப்</string>
+    <string name="nav_epg_Mar">மார்</string>
+    <string name="nav_epg_Apr">ஏப்</string>
+    <string name="nav_epg_may">மே</string>
+    <string name="nav_epg_Jun">ஜூன்</string>
+    <string name="nav_epg_Jul">ஜூலை</string>
+    <string name="nav_epg_Aug">ஆக</string>
+    <string name="nav_epg_Sep">செப்</string>
+    <string name="nav_epg_Oct">அக்</string>
+    <string name="nav_epg_Nov">நவ</string>
+    <string name="nav_epg_Dec">டிச</string>
+
+    <string name="nav_epg_Sunday">ஞாயிற்றுக்கிழமை</string>
+    <string name="nav_epg_Monday">திங்கள்கிழமை</string>
+    <string name="nav_epg_Tuesday">செவ்வாய்க்கிழமை</string>
+    <string name="nav_epg_Wednesday">புதன்கிழமை</string>
+    <string name="nav_epg_Thursday">வியாழக்கிழமை</string>
+    <string name="nav_epg_Friday">வெள்ளிக்கிழமை</string>
+    <string name="nav_epg_Saturday">சனிக்கிழமை</string>
+
+    <string name="nav_epg_Sun">ஞா</string>
+    <string name="nav_epg_Mon">தி</string>
+    <string name="nav_epg_Tue">செ</string>
+    <string name="nav_epg_Wed">பு</string>
+    <string name="nav_epg_Thur">வி</string>
+    <string name="nav_epg_Fri">வெள்</string>
+    <string name="nav_epg_Sat">சனி</string>
+
+    <string name="nav_ginga_tv_title">பயன்பாடு பட்டியல்</string>
+    <string name="nav_select">தேர்ந்தெடு</string>
+    <string name="nav_ginga_tv_message">எந்தப் பயன்பாடுமில்லை!</string>
+    <string name="nav_ginga_tv_for_infobar">ஜிங்கா பயன்பாடு ஏற்றுகிறது…</string>
+    <string name="nav_ginga_tv_for_tips">நீங்கள் CCஐ நிறுத்தி ஜிங்கா பயன்பாட்டைத் தொடங்க விரும்புகிறீர்களா?</string>
+
+    <string name="nav_upgrader_title">புதுப்பித்தல் வழிகாட்டி</string>
+    <string name="nav_upgrader_MoreInfo">மேலும் விவரங்கள்</string>
+    <string name="nav_upgrader_invalid">தவறான நிலைபொருள் படக்கோப்பு !!</string>
+    <string name="nav_upgrader_updating">புதுப்பிக்கிறது...</string>
+    <string name="nav_upgrader_warnning">தயவுசெய்து நிலைபொருள் புதுப்பித்தலின்போது, USB வன்பூட்டை பிரிக்காதீர்கள்
+        மற்றும் தொலைக்காட்சியை அணைக்காதீர்கள்!!
+    </string>
+    <string name="nav_upgrader_validate">நிலைபொருளை உறுதிப்படுத்துகிறது…</string>
+    <string name="nav_upgrader_confirm">நிலைபொருளைப் புதுப்பிப்பதற்கு உறுதியாக உள்ளீர்களா?</string>
+    <string name="nav_upgrader_completed">நிலைபொருள் வெற்றிகரமாகப் புதுப்பிக்கப்பட்டது.\nபுதிய நிலைபொருளைச் செயல்படுத்த
+        தொலைக்காட்சியை மறுதுவக்கவும்.
+    </string>
+    <string name="nav_upgrader_failed">புதுப்பித்தல் தோல்வி.\nநிலைபொருளை மீண்டும் பதிவிறக்க தொலைக்காட்சியை
+        மறுதுவக்கவும்.
+    </string>
+    <string name="nav_upgrader_retry">புதுப்பித்தல் தோல்வி.\nமீண்டும் முயற்சிக்க விரும்புகிறீர்களா?</string>
+    <string name="nav_upgrader_retry2">புதுப்பித்தல் தோல்வி, தயவுசெய்து USB உள்நுழைக்கவும்.\nமீண்டும் முயற்சிக்க
+        விரும்புகிறீர்களா?
+    </string>
+    <string name="nav_upgrader_usb_space_not_enough">உங்கள் USB வன்பூட்டிலுள்ள இடம் போதுமானதாக இல்லை.</string>
+    <string name="nav_upgrader_usb_not_ready">USB வன்பூட்டு தயாராகவில்லை, தயவுசெய்து செருகி மீண்டும் முயற்சிக்கவும்.
+    </string>
+    <string name="nav_upgrader_internal_err">உள்ளார்ந்த பிழை.</string>
+    <string name="nav_upgrader_not_avail_firmware">எந்த நிலைபொருள் பதிப்பும் கிடைக்கவில்லை</string>
+    <string name="nav_upgrader_decry_fail">குறிமுறைநீக்கம் தோல்வியடைந்தது.</string>
+    <string name="nav_upgrader_firmware_invalid">நிலைபொருள் செல்லாதது.</string>
+    <string name="nav_upgrader_no_update">புதுப்பிப்பதற்கு எந்த நிலைபொருளுமில்லை</string>
+    <string name="nav_upgrader_check_fail">புதிய நிலைபொருள் சோதனை தோல்வியடைந்தது.</string>
+    <string name="nav_upgrader_download_fail">இணையத்திலிருந்து நிலைபொருளைப் பதிவிறக்க முடியவில்லை.</string>
+    <string name="nav_upgrader_usb_problem">USB வன்பூட்டில் பிரச்சினை உள்ளது.</string>
+    <string name="nav_upgrader_power">ஆற்றல்</string>
+    <string name="nav_upgrader_yes">ஆம்</string>
+    <string name="nav_upgrader_no">இல்லை</string>
+    <string name="nav_upgrader_network_tip">வழங்கியிலிருந்து புதிய நிலைபொருளைப் பதிவிறக்கத் தொடங்கவும்</string>
+    <string name="nav_mheg5_tips">டிஜிட்டல் உரையைச் செயல்படுத்தும் முன் துணைத்தலைப்புகள் மூடப்பட்டிருக்க வேண்டும்.
+        தொடர்வதற்கு ஒகேவா?
+    </string>
+
+    <string name="common_dialog_msg_yes">ஆம்</string>
+    <string name="common_dialog_msg_no">இல்லை</string>
+    <string name="common_dialog_ews_service_content">EWS சேவைக்கு மாற விரும்புகிறீரகளா?</string>
+    <string name="common_dialog_special_service_content">சிறப்புச் சேவைக்கு மாற விரும்புகிறீர்களா?</string>
+    <string name="commmon_dialog_book_reminder_content">வருகிறது, அதற்கு மாற விரும்புகிறீர்களா?</string>
+    <string name="common_dialog_start_cc_stop_ginga">ஜிங்கா பயன்பாட்டை நிறுத்திவிட்டு CCஐத் திறக்க விரும்புகிறீர்களா?
+    </string>
+
+    <string name="nav_ttx_top_block">முடக்கு</string>
+    <string name="nav_ttx_top_group">குழு</string>
+    <string name="nav_ttx_top_page">பக்கம்</string>
+    <string name="nav_ttx_no_top">சிறப்பானது இல்லை</string>
+
+    <string name="nav_banner_not_rating">மதிப்பிடவில்லை</string>
+    <string name="cam_scan_warning">CI பிளஸ் இணைப்பு மாற்றம்,நீங்கள் இணைப்பைப் புதுப்பிப்பதற்குத் தேடலாம்!</string>
+    <string name="cam_scan_urgent">CI பிளஸ் இணைப்பு கிடைக்கவில்லை,நீங்கள் இணைப்பைப் புதுப்பிப்பதற்குத் தேட வேண்டும்!
+    </string>
+    <string name="cam_scan_not_init">CI பிளஸ் இணைப்பு அதில் இல்லை,நீங்கள் இணைப்பைப் புதுப்பிப்பதற்குத் தேட வேண்டும்!
+    </string>
+    <string name="cam_scan_schedule">CI பிளஸ் இணைப்பைத் தேடுவதற்குத் திட்டமிட்ட நேரமானது,நீங்கள் இணைப்பைப்
+        புதுப்பிப்பதற்குத் தேடலாம்!
+    </string>
+
+    <string name="setup_select_country">தயவுசெய்து உங்கள் நாட்டைத் தேர்ந்தெடுக்கவும்:</string>
+    <string name="setup_country">தேசம்</string>
+    <string name="setup_dvbc_setting">தயவுசெய்து கம்பிவட விவரங்களைக் கட்டமைக்கவும்</string>
+    <string name="setup_timezone">நேர மண்டலம்</string>
+    <string name="setup_language_Catalan">Catalan</string>
+    <string name="setup_language_Gaelic">கேலிக் மொழி</string>
+    <string name="setup_language_Welsh">Welsh</string>
+    <string name="setup_language_english_eu">ஆங்கில மொழி</string>
+    <string name="setup_language_Catalan_eu">Catalan</string>
+    <string name="setup_language_Gaelic_eu">கேலிக் மொழி</string>
+    <string name="setup_language_Welsh_eu">Welsh</string>
+    <string name="setup_dvbc_config_scanmode">ஸ்கான் முறை</string>
+    <string name="setup_dvbc_config_frequency">அதிர்வெண் (KHZ)</string>
+    <string name="setup_dvbc_config_modulation">பண்பேற்றம்</string>
+    <string name="setup_dvbc_config_symbolrate">குறியீட்டு விகிதம்(Ksym/s)</string>
+    <string name="setup_dvbc_config_networkid">வலைப்பின்னல் அடையாளம்</string>
+
+    <string name="setup_set_password_titile1">புதிய கடவுச்சொல்</string>
+    <string name="setup_set_password_titile2">கடவுச்சொல்லை உறுதிசெய்க</string>
+    <string name="setup_dvbs_satellite_list">செயற்கைக்கோளைத் தேர்ந்தெடுக்கவும்</string>
+    <string name="setup_dvbs_satellite_config">அலைவாங்கி அமைப்பு</string>
+    <string name="setup_select_set">அமைக்கவும்</string>
+    <string name="nav_oad_dialog_title">இணைய வழிப் பதிவிறக்கம்</string>
+    <string name="nav_oad_scanning">தேடுகிறது</string>
+    <string name="nav_oad_scanning_result_fail">இணையத்தில் புதிய மென்பொருளைக் கண்டறிய முடியவில்லை</string>
+
+    <string name="nav_oad_programming">நிரலாக்குகிறது</string>
+    <string name="nav_oad_downloading">தரவிறக்குகிறது</string>
+    <string name="nav_oad_downloading_info">இச்செயல்முறைக்கு 25 நிமிடங்கள் ஆகலாம்</string>
+    <string name="nav_oad_flash_confirm">மென்பொருள் வெற்றிகரமாகத் தரவிறக்கப்பட்டது. பிளாஷிங்கைத் தொடங்கவும்?</string>
+    <string name="nav_oad_flash_fail">நிரலாக்கம் தோல்வி. மீண்டும் முயற்சிக்கவும்?\n\nதயவுசெய்து சேவைமையத்தை
+        அழைக்கவும்.
+    </string>
+    <string name="nav_oad_restart_confirm">மென்பொருள் வெற்றிகரமாகத் தரவிறக்கப்பட்டது. தொலைக்காட்சியை இப்போதே
+        மறுதுவக்கவா?
+    </string>
+
+    <string name="nav_oad_warning_msg_str">எச்சரிக்கை: செயல்முறையின் போது, தயவுசெய்து தொலைக்காட்சியின் மின்சார இணைப்பைப்
+        பிரிக்க வேண்டாம், ஏனெனில் இது தொலைக்காட்சியைச் செயலிழக்கச் செய்யலாம்
+    </string>
+
+    <string name="nav_oad_manual_download_confirm">மென்பொருள் புதுப்பித்தல். ஒரு புதிய பரிந்துரைக்கப்பட்ட மென்பொருள்
+        கிடைக்கின்றது. இப்புதுப்பித்தலுக்கு சிறிது நேரமாகலாம் மேலும் திரை கருப்பாகலாம். புதுப்பித்தலின் போது ரிசீவரை
+        அணைக்காதீர்கள். இப்போது புதுப்பித்தலைத் தொடங்கவா?
+    </string>
+    <string name="nav_oad_manual_download_fail">மென்பொருளைத் பதிவிறக்க முடியவில்லை. மீண்டும் முயற்சிக்க
+        விரும்புகிறீர்களா?
+    </string>
+
+    <string name="nav_oad_auto_download_confirm">மென்பொருள் புதுப்பித்தல். ஒரு புதிய பரிந்துரைக்கப்பட்ட மென்பொருள்
+        கிடைக்கின்றது. இப்புதுப்பித்தலுக்கு சிறிது நேரமாகலாம் மேலும் திரை கருப்பாகலாம். புதுப்பித்தலின் போது ரிசீவரை
+        அணைக்காதீர்கள். இப்போது புதுப்பித்தலைத் தொடங்கவா? இன்னும் %s நொடி(களி)ல் தானாகத் தொடங்கும்.
+    </string>
+
+    <string name="nav_oad_schedule_oad_accept_schedule_confirm">மென்பொருள் புதுப்பித்தல். ஒரு புதிய பரிந்துரைக்கப்பட்ட
+        மென்பொருள் %s இல் கிடைக்கின்றது. இப்புதுப்பித்தலுக்கு சிறிது நேரமாகலாம் மேலும் திரை கருப்பாகலாம்.
+        புதுப்பித்தலின் போது ரிசீவரை அணைக்காதீர்கள். இப்புதுப்பிப்பை ஏற்றால், தயவுசெய்து குறிப்பிட்ட நேரத்தில் ரிசீவரை
+        இயக்கத்தில் அல்லது காத்திருப்பு முறையில் வைக்கவும். இந்தப் புதுப்பிப்பைப் பெற விரும்புகிறீர்களா?
+    </string>
+    <string name="nav_oad_schedule_oad_change_channel_confirm">மென்பொருள் புதுப்பித்தல். ஒரு புதிய பரிந்துரைக்கப்பட்ட
+        மென்பொருள் புதுப்பிப்பு மற்றொரு சேனலில் இருக்கலாம். நீங்கள் அதனைப் பதிவிறக்குதற்கு ஏற்றால், அச்சேனலுக்குத் தானாக
+        மாறலாம். இப்போது செய்ய விரும்புகிறீர்களா? இன்னும் %s நொடி(களி)ல் தானாகத் தொடங்கும்.
+    </string>
+    <string name="nav_oad_atuo_download_with_bgm">புதிய மென்பொருள் கண்டறியப்பட்டது!\nWதொலைக்காட்சி காத்திருப்பு நிலையில்
+        இருக்கும்போது தானியங்கு மென்பொருள் பதிவிறக்கத்தை ஏற்கிறீர்களா?
+    </string>
+
+    <string name="setup_language_english_value">நிரலாக்குகிறது</string>
+    <string name="setup_language_chinese_value">நிரலாக்குகிறது</string>
+    <string name="setup_language_spanish_value">நிரலாக்குகிறது</string>
+    <string name="setup_language_french_value">நிரலாக்குகிறது</string>
+    <string name="setup_language_portuguese_value">நிரலாக்குகிறது</string>
+
+    <string name="setup_country_cty_1">ஆஸ்திரியா</string>
+    <string name="setup_country_cty_2">பெல்ஜியம்</string>
+    <string name="setup_country_cty_3">ஸ்விட்ஸர்லாந்து</string>
+    <string name="setup_country_cty_4">செக் குடியரசு</string>
+    <string name="setup_country_cty_5">ஜெர்மனி</string>
+    <string name="setup_country_cty_6">டென்மார்க்</string>
+    <string name="setup_country_cty_7">ஸ்பெயின்</string>
+    <string name="setup_country_cty_8">பின்லாந்து</string>
+    <string name="setup_country_cty_9">பிரான்ஸ்</string>
+    <string name="setup_country_cty_10">ஜக்கிய இராஜ்ஜியம்</string>
+    <string name="setup_country_cty_11">இத்தாலி</string>
+    <string name="setup_country_cty_12">லக்ஸெம்பெர்க்</string>
+    <string name="setup_country_cty_13">நெதர்லாந்து</string>
+    <string name="setup_country_cty_14">நார்வே</string>
+    <string name="setup_country_cty_15">ஸ்வீடன்</string>
+    <string name="setup_country_cty_16">பல்கேரியா</string>
+    <string name="setup_country_cty_17">க்ரோஷியா</string>
+    <string name="setup_country_cty_18">கிரேக்கம்</string>
+    <string name="setup_country_cty_19">ஹங்கேரி</string>
+    <string name="setup_country_cty_20">அயர்லாந்து</string>
+    <string name="setup_country_cty_21">போலந்து</string>
+    <string name="setup_country_cty_22">போர்ச்சுக்கல்</string>
+    <string name="setup_country_cty_23">ரோமானியா</string>
+    <string name="setup_country_cty_24">ரஷ்யா</string>
+    <string name="setup_country_cty_25">செர்பியா</string>
+    <string name="setup_country_cty_26">ஸ்லோவேக்கியா</string>
+    <string name="setup_country_cty_27">ஸ்லோவேனியா</string>
+    <string name="setup_country_cty_28">துருக்கி</string>
+    <string name="setup_country_cty_29">எஸ்டோனியா</string>
+    <string name="setup_country_cty_30">ஆஸ்திரேலியா</string>
+    <string name="setup_country_cty_31">நியூசிலாந்து</string>
+    <string name="setup_country_cty_32">Indonesia</string>
+    <string name="setup_set_timezone">தயவுசெய்து உங்கள் நேரமண்டலத்தைத் தேர்ந்தெடுக்கவும்:</string>
+    <string name="setup_set_password_title">தயவுசெய்து கடவுச்சொலை அமைக்கவும். "0000" ஒரு பொருத்தமான கடவுச்சொல் இல்லை
+    </string>
+    <string name="setup_set_postalcode">தயவுசெய்து அஞ்சல் குறியீட்டை உள்ளிடவும்.</string>
+    <string name="setup_set_password_success_msg">கடவுச்சொல் வெற்றிகரமாக அமைக்கப்பட்டது!</string>
+
+    <string name="dvbc_operator_others">பிற</string>
+    <string name="dvbt_inactivechannel_nw_chg">இணைப்பு மாற்றம் காரணமாக சில சேனல்கள் செயல்பாட்டில் இல்லாமல் ஆகலாம்.
+        அவற்றை இப்போதே நீக்க விரும்புகிறீர்களா?
+    </string>
+    <string name="tnt_hd_nw_chg">இணைப்பின் தரவு மாற்றப்பட்டது. புதுப்பிப்பு தேடலை இப்போதே நிகழ்த்த விரும்புகிறீர்களா?
+    </string>
+    <string name="dvbs_operator_others">பிற</string>
+    <string name="dvbs_antenna_type_name_universal">அனைத்துக்கும் பொருந்துவது</string>
+    <string name="dvbs_antenna_type_name_singlecable">சிக்னல் கம்பிவடம்</string>
+    <string name="dvbs_antenna_setup">அலைவாங்கி அமைப்பு</string>
+    <string name="dvbs_satellite_name">செயற்கைக்கோளின் பெயர்</string>
+    <string name="dvbs_satellite_orbit">சுற்றுப்பாதை நிலை</string>
+    <string name="dvbs_lnb_freq">LNB அதிர்வெண்</string>
+    <string name="dvbs_diseqc12_motor_storeposition">கடை நிலை</string>
+    <string name="dvbs_diseqc12_motor_gotoposition">இந்த நிலைக்குச் செல்லவும்</string>
+    <string name="dvbs_diseqc12_motor_gotoreference">குறிப்பிடப்பட்ட இடத்துக்குச் செல்லவும்</string>
+    <string name="dvbs_diseqc12_movement_stepsize">படி அளவு</string>
+    <string name="dvbs_diseqc12_movement_timeout">நேரம் முடிந்தது</string>
+    <string name="dvbs_diseqc12_movement_moveeast">கிழக்கே நகர்த்தவும்</string>
+    <string name="dvbs_diseqc12_movement_movewest">மேற்கே நகர்த்தவும்</string>
+    <string name="dvbs_diseqc12_movement_stopmovement">நகர்வை நிறுத்தவும்</string>
+    <string name="dvbs_tone_22khz_off">அணைக்கவும்</string>
+    <string name="dvbs_tone_22khz_on">இயக்கவும்</string>
+    <string name="dvbs_tone_22khz_auto">தானியங்கி</string>
+    <string name="dvbs_trasponder">அலைவாங்கி</string>
+    <string name="dvbs_tp_fre">அதிர்வெண்</string>
+    <string name="dvbs_tp_sys_rate">குறியீட்டு விகிதம்(Ksym/s)</string>
+    <string name="dvbs_tp_pol">துருவமாக்கல்</string>
+
+    <string name="dvbs_tp_pol_0_unknown">தெரியாதது</string>
+    <string name="dvbs_tp_pol_1_HORIZONTAL">கிடைவாக்கில்</string>
+    <string name="dvbs_tp_pol_2_VERTICAL">நிலைக்குத்துவாக்கில்</string>
+    <string name="dvbs_tp_pol_3_LEFT">இடப்பக்கம்</string>
+    <string name="dvbs_tp_pol_4_RIGHT">வலது</string>
+
+    <string name="dvbs_add_new_satl">புதிய செயற்கைக்கோளைச் சேர்க்கவும்</string>
+    <string name="dvbs_add_new_tp">புதிய டிராண்ஸ்பாண்டரைச் சேர்க்கவும்</string>
+    <string name="dvbs_satellite_tuning">செயற்கைக்கோள் இசைப்பு</string>
+    <string name="dvbs_satellite_channel">சானல்கள்</string>
+    <string name="dvbs_scan_mode">ஸ்கான் முறை</string>
+    <string name="dvbs_network_search">வலைப்பின்னல் தேடல்</string>
+    <string name="dvbs_satellite_search">தேடவும்</string>
+    <string name="dvbs_scan_mode_auto">தானியங்கி</string>
+    <string name="dvbs_scan_mode_preset">முன்னமைவு</string>
+    <string name="dvbs_channel_free">இலவசம்</string>
+    <string name="dvbs_channel_all">அனைத்தும்</string>
+    <string name="dvbs_scan_mode_network">வலைப்பின்னல்</string>
+    <string name="dvbs_scan_mode_full">முழு</string>
+    <string name="dvbs_scan_positon">நிலை</string>
+    <string name="dvbs_lnb_power">எல்என்பி மின்சாரம்</string>
+    <string name="dvbs_antenna_type">உணர்கொம்பு வகை</string>
+    <string name="dvbs_antenna_type_universal">அனைத்துக்கும் பொருந்துவது</string>
+    <string name="dvbs_antenna_type_singlecable">சிக்னல் கம்பிவடம்</string>
+    <string name="dvbs_user_band">இசைவாக்கி</string>
+    <string name="dvbs_band_freq">பட்டை அதிர்வெண்</string>
+    <string name="dvbs_band_freq_user_define">பயனர் வரையறுத்தது</string>
+    <string name="dvbs_position">நிலை</string>
+    <string name="dvbs_preferred_satellite">விருப்பமான செயற்கைக்கோள்</string>
+    <string name="dvbs_general_satellite">பொது செயற்கைக்கோள்</string>
+    <string name="lnb_universal">அனைத்துக்கும் பொருந்துவது</string>
+    <string name="dvbs_sat_on">இயக்கவும்</string>
+    <string name="dvbs_sat_off">அணைக்கவும்</string>
+    <string name="setup_tuner_satellite">செயற்கைக்கோள்</string>
+    <string name="dvbs_satellite_setting">செயற்கைக்கோள்</string>
+    <string name="setup_language_chinese">எளிய சீனமொழி</string>
+    <string name="setup_tuner_antenna">உணர்கொம்பு</string>
+    <string name="setup_tuner_cable">கேபிள்</string>
+    <string name="satellites">செயற்கைக்கோள்கள்</string>
+    <string name="nav_channel_antenna">உணர்கொம்பு</string>
+    <string name="nav_channel_infoType">உணர்கொம்பு</string>
+    <string name="nav_channel_infoAudioLanguage">1/2 சீனம்</string>
+    <string name="setup_language_Dansk">Dansk</string>
+    <string name="setup_language_Nederlands">Nederlands</string>
+    <string name="setup_language_Suomi">Suomi</string>
+    <string name="setup_language_Deutsch">Deutsch</string>
+    <string name="setup_language_Polski">Polski</string>
+    <string name="setup_language_Srpski">Srpski</string>
+    <string name="setup_language_Svenska">Svenska</string>
+    <string name="setup_language_Dansk_eu">Dansk</string>
+    <string name="setup_language_Nederlands_eu">Nederlands</string>
+    <string name="setup_language_Suomi_eu">Suomi</string>
+    <string name="setup_language_Deutsch_eu">Deutsch</string>
+    <string name="setup_language_Polski_eu">Polski</string>
+    <string name="setup_language_Srpski_eu">Srpski</string>
+    <string name="setup_language_Svenska_eu">Svenska</string>
+    <string name="setup_set_postal_code_editview">அஞ்சல் குறியீடு</string>
+    <string name="setup_cable_select_operation">ஆபரேட்டரைத் தேர்ந்தெடுக்கவும்</string>
+    <string name="setup_dvbs_statellite_type">செயற்கைகோள் வகை</string>
+    <string name="setup_dvbs_statellite_type_title">தயவுசெய்து செயற்கைகோள் வகையைத் தேர்ந்தெடுக்கவும்.</string>
+    <string name="setup_dvbs_statellite_select_operator">ஆபரேட்டரைத் தேர்ந்தெடுக்கவும்</string>
+    <string name="setup_dvbs_statellite_select_operator_title">நீங்கள் பின்வரும் பட்டியலிலிருந்து ஒரே ஒரு ஆபரேட்டரை
+        மட்டுமே தேர்ந்தெடுக்க முடியும்.
+    </string>
+    <string name="setup_cable_setting_title">தயவுசெய்து கேபிள் தகவலைக் கட்டமைக்கவும்.</string>
+    <string name="setup_dvbs_config_info_title">தயவுசெய்து ஸ்கேன் தகவலை கட்டமைக்கவும்.</string>
+    <string name="setup_dvbs_satellite_list_title">தயவுசெய்து ஸ்கேன் செய்வதற்கு செயற்கைகோளைத் தேர்ந்தெடுக்கவும் அல்லது
+        தேர்ந்தெடுத்த செயற்கைகோளைத் திருத்தவும்.
+    </string>
+    <string name="setup_dvbs_config_setting_title">தயவுசெய்து ஆண்டனா வகை config. ஐ அமைக்கவும்</string>
+    <string name="setup_dvbs_satellite_config_title">தயவுசெய்து செயற்கைகோளின் \ பண்புக்கூறுகளை அமைக்கவும்.</string>
+    <string name="setup_dvbs_satellite_config_tp_title">தயவுசெய்து டிரான்ஸ்பாண்டரின்\ பண்புக்கூறுகளை அமைக்கவும்</string>
+    <string name="setup_dvbs_satellite_config_diseqc_title">தயவுசெய்து DiSEqC\ன் பண்புக்கூறுகளை அமைக்கவும்.</string>
+    <string name="setup_dvbs_satellite_config_diseqc12_motor_title">தயவுசெய்து DiSEqC 1.2 மோட்டாரின்\ பண்புக்கூறுகளை
+        அமைக்கவும்.
+    </string>
+    <string name="setup_dvbs_satellite_config_diseqc12_movementcontrol_title">தயவுசெய்து DiSEqC 1.2 இயக்க
+        கட்டுப்பாட்டின்\ பண்புக்கூறுகளை அமைக்கவும்.
+    </string>
+    <string name="dvbc_operator_upc">Upc</string>
+    <string name="dvbc_operator_comhem">Comhem</string>
+    <string name="dvbc_operator_canal_digital">Canal Digital</string>
+    <string name="dvbc_operator_tele2">Tele2</string>
+    <string name="dvbc_operator_stofa">Stofa</string>
+    <string name="dvbc_operator_yousee">Yousee</string>
+    <string name="dvbc_operator_ziggo">Ziggo</string>
+    <string name="dvbc_operator_unitymedia">Unitymedia</string>
+    <string name="dvbc_operator_numericable">நியூமரிக்கேபிள்</string>
+    <string name="dvbc_operator_volia">வோலியா</string>
+    <string name="dvbc_operator_telemach">டெலிமாக்</string>
+    <string name="dvbc_operator_onlime">ஒன்லிம்</string>
+    <string name="dvbc_operator_akado">அகாடோ</string>
+    <string name="dvbc_operator_telent">டெலண்ட்</string>
+    <string name="dvbc_operator_telent_eu">டெலிநெட்</string>
+    <string name="dvbc_operator_glenten">கிளண்டன்</string>
+    <string name="dvbc_operator_tele_columbus">டெலி கொலம்பஸ்</string>
+    <string name="dvbs_operator_astra_hd_plus">அஸ்த்ரா HD+</string>
+    <string name="dvbs_operator_sky_deutschland">ஸ்கை டச்லாந்து</string>
+    <string name="dvbs_operator_austriasat">ஆஸ்திரியாசாட்</string>
+    <string name="dvbs_operator_cannal_digital">Cannal Digital</string>
+    <string name="dvbs_operator_tv_vlaanderen_hd">TV VLAANDEREN HD</string>
+    <string name="dvbs_operator_tv_vlaanderen_sd">TV VLAANDEREN SD</string>
+    <string name="dvbs_operator_telesat_belgium">TELESAT பெல்ஜியம்</string>
+    <string name="dvbs_operator_telesat_luxembourg">TELESAT லக்சம்பெர்க்</string>
+    <string name="dvbs_operator_seznam_kanalu_pro_cesko">Seznam kanalu pro Cesko</string>
+    <string name="dvbs_operator_seznam_kanalu_pro_slovensko">Seznam kanalu pro Slovensko</string>
+    <string name="dvbs_operator_cannaldigitaal_hd">CannalDigitaal HD</string>
+    <string name="dvbs_operator_cannaldigitaal_sd">CannalDigitaal SD</string>
+    <string name="dvbs_operator_n_na_karte">n na karte</string>
+    <string name="dvbs_operator_digiturk_eutelsat">Digiturk Eutelsat</string>
+    <string name="dvbs_operator_digiturk_turksat">Digiturk Turksat</string>
+    <string name="dvbs_operator_fransat">பிரான்சாட்</string>
+    <string name="dvbs_operator_cyfraplus">Cyfra+</string>
+    <string name="dvbs_operator_cyfrowy_polsat">சைஃப்ரோவி போல்சாட்</string>
+    <string name="dvbs_operator_dsmart">D-ஸ்மார்ட்</string>
+    <string name="dvbs_operator_ntvplus">NTV+</string>
+    <string name="dvbs_operator_name_nc_plus">nc+/nc+ MIX</string>
+    <string name="dvbs_operator_name_smart_hd_plus">ஸ்மார்ட் HD+</string>
+    <string name="dvbs_operator_name_tivusat">tivùsat</string>
+    <string name="dvbs_diseqc_set">DiSEqC அமைப்பு</string>
+    <string name="dvbs_diseqc12_motor_movementcontrol">இயக்க கட்டுப்பாடு</string>
+    <string name="dvbs_diseqc12_motor_disablelimits">வரம்புகளை முடக்கவும்</string>
+    <string name="dvbs_diseqc12_motor_limiteast">Limit east</string>
+    <string name="dvbs_diseqc12_motor_limitwest">Limit west</string>
+    <string name="dvbs_diseqc10_port">DiSEqC 1.0 போர்ட்</string>
+    <string name="dvbs_diseqc11_port">DiSEqC 1.1 போர்ட்</string>
+    <string name="dvbs_diseqc_motor">DiSEqC மோட்டார்</string>
+    <string name="dvbs_diseqc_motor_12">DiSEqC 1.2</string>
+    <string name="dvbs_diseqc_input">Diseqc உள்ளீடு</string>
+    <string name="dvbs_diseqc_input_0">முடக்கவும்</string>
+    <string name="dvbs_diseqc_input_1">Diseqc A</string>
+    <string name="dvbs_diseqc_input_2">Diseqc B</string>
+    <string name="dvbs_diseqc_input_3">Diseqc C</string>
+    <string name="dvbs_diseqc_input_4">Diseqc D</string>
+    <string name="dvbs_tone_22khz">டோன் 22KHz</string>
+    <string name="dvbs_sat_no_satl">(செயற்கைகோள் இல்லை.)</string>
+    <string name="dvbs_manual_tuning">செயற்கைகோள் கைமுறை டியூனிங்</string>
+    <string name="dvbs_sat_no_tp">(டிரான்ஸ்பாண்டர் இல்லை.)</string>
+    <string name="dvbs_sat_name_empty_alarm">செயற்கைகோள் பெயர் காலியாக உள்ளது.\nதயவுசெய்து அதனை உள்ளிடவும்!</string>
+    <string name="dvbs_satellite_rescan">செயற்கைகோள் மறு-ஸ்கேன்</string>
+    <string name="dvbs_satellite_add">செயற்கைக்கோள் சேர்ப்பு</string>
+    <string name="dvbs_satellite_update">செயற்கைக்கோள் புதுப்பிப்பு</string>
+    <string name="dvbs_satellite_status">செயற்கைகோள் நிலை</string>
+    <string name="dvbs_scan_satellites">செயற்கைக்கோள்கள்</string>
+    <string name="dvbs_user_band_1">பயனர் பேண்ட் 1</string>
+    <string name="dvbs_user_band_2">பயனர் பேண்ட் 2</string>
+    <string name="dvbs_user_band_3">பயனர் பேண்ட் 3</string>
+    <string name="dvbs_user_band_4">பயனர் பேண்ட் 4</string>
+    <string name="dvbs_user_band_5">பயனர் பேண்ட் 5</string>
+    <string name="dvbs_user_band_6">பயனர் பேண்ட் 6</string>
+    <string name="dvbs_user_band_7">பயனர் பேண்ட் 7</string>
+    <string name="dvbs_user_band_8">பயனர் பேண்ட் 8</string>
+    <string name="dvbs_position_c">C</string>
+    <string name="dvbs_air">உணர்கொம்பு</string>
+    <string name="dvbs_cable">கேபிள்</string>
+    <string name="sys_info_lnb">LNB</string>
+    <string name="dvbs_tone_burst">Tone Burst</string>
+    <string name="dvbs_tone_burst_disable">முடக்கவும்</string>
+    <string name="dvbs_tone_burst_b">Tone Burst B</string>
+</resources>

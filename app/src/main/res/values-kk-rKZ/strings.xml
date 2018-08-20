@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Мультимедиалық ойнатқыш</string>
+    <string name="schedulelist_nofiles">Жазу жоспарланбаған! Қосу үшін "Қосу" пернесін басыңыз</string>
+    <string name="schedulelist_nofiles_disable_add">Жазу жоспарланбаған!</string>
+    <string name="exit">ГАРЦ</string>
+    <string name="selected">Таңдалған</string>
+    <string name="add_schedule">Уақыт қосу</string>
+    <string name="pvr_schedule_replace">Ауыстыру</string>
+    <string name="pvr_schedule_add">ADD</string>
+    <string name="menu_value_minus">Азайту</string>
+    <string name="menu_value_plus">Ұлғайту</string>
+    <string name="pvr_schedule_cancel">ХҮЧИНГҮЙ БОЛГО</string>
+    <string name="pvr_schedule_ok">ОК</string>
+    <string name="pvr_schedule_edit">Засварлах</string>
+    <string name="pvr_schedule_delete">Устга</string>
+    <string name="pvr_title_device_info">Құрылғы туралы</string>
+    <string name="pvr_deviceinfo_info">Мэдээлэл</string>
+    <string name="pvr_exit">ГАРЦ</string>
+    <string name="pvr_deviceinfo_format">Формат</string>
+    <string name="pvr_deviceinfo_speed_test">Жылдамдық тексеру</string>
+    <string name="pvr_disk_no_name">Атауы жоқ</string>
+    <string name="pvr_playlist_record_list">Жазбалар тізімі</string>
+    <string name="pvr_playlist_page_up">Бетті жоғары жылжыту</string>
+    <string name="pvr_playlist_delete">Устга</string>
+    <string name="pvr_playlist_page_down">Бетті төмен жылжыту</string>
+    <string name="pvr_playlist_info">Мэдээлэл</string>
+    <string name="pvr_playlist_record_detail">Жазу деректері</string>
+    <string name="pvr_playlist_channel_num">Арна нөмірі</string>
+    <string name="pvr_playlist_channel_name">Сувгийн Нэр</string>
+    <string name="pvr_playlist_program_name">Програмын Нэр</string>
+    <string name="pvr_playlist_date">Огноо</string>
+    <string name="pvr_playlist_week">Апта</string>
+    <string name="pvr_playlist_fri">Жұма</string>
+    <string name="pvr_playlist_time">ХУГАЦАА</string>
+    <string name="pvr_playlist_duration">Ұзақтығы</string>
+    <string name="pvr_disksetup_disk_setup">Диск орнату</string>
+    <string name="pvr_disksetup_page_up">Бетті жоғары жылжыту</string>
+    <string name="pvr_disksetup_select">Сонгох</string>
+    <string name="pvr_disksetup_page_down">Бетті төмен жылжыту</string>
+    <string name="pvr_disksetup_exit">ГАРЦ</string>
+    <string name="pvr_schedulepvr_week">Апта</string>
+    <string name="pvr_schedulepvr_record">БИЧЛЭГ ХИЙХ</string>
+    <string name="pvr_schedulepvr_schedule_list">Хуваарийн жагсаалт</string>
+    <string name="pvr_schedulepvr_add_schedule">Уақыт қосу</string>
+    <string name="pvr_schedulepvr_selected">Таңдалған</string>
+    <string name="pvr_schedulepvr_exit">ГАРЦ</string>
+    <string name="pvr_schedulepvr_schedule_list2">Хуваарийн жагсаалт</string>
+    <string name="pvr_confirm_yes">Тийм</string>
+    <string name="pvr_confirm_no">ҮГҮЙ</string>
+    <string name="pvr_dialog_exit">ГАРЦ</string>
+    <string name="pvr_schedulelist_wednesday">Лхагва</string>
+    <string name="pvr_schedulelist_replace_line1">Бұл уақыт бар!</string>
+    <string name="pvr_schedulelist_replace_line2">Кестені өзгерту қажет пе?</string>
+    <string name="pvr_schedulelist_delete_line1">Кесте жойылды!</string>
+    <string name="pvr_schedulelist_delete_line2">Кестені жою қажет пе?</string>
+    <string name="hello_world">Сәлем!</string>
+    <string name="menu_settings">Тохируулга</string>
+    <string name="title_activity_schedule_pvr">Жоспарлау</string>
+    <string name="fav_list_is_full">Тізім толы</string>
+
+    <string name="inputs_row_title">Орц</string>
+    <string name="apps_row_title">Қолданбалар</string>
+    <string name="games_row_title">Ойындар</string>
+    <string name="settings_row_title">Тохируулга</string>
+
+    <string name="power_on_off_time_same">бір нәрсеге екі таймер қолданылмайды, қайта реттеңіз</string>
+
+    <string name="sleep_timer_tip_text">"Қосу" түймесі өшірулі.</string>
+    <string name="sleep_timer_btn_text">ОК</string>
+    <string name="menu_dialog_numzero">Арна нөмірі 0 болмауы тиіс!</string>
+
+    <string name="menu_delete_biss_key_tip">Осы бис пернесін жою қажет пе?</string>
+    <string name="pvr_deviceinfo_set_timeshift">Уақыт жылжыту параметрін орнату</string>
+    <string name="pvr_nf_info">0</string>
+    <string name="pvr_playlist_special_6_1">Арнайы 6 +1.</string>
+    <string name="pvr_schedulepvr_date">2013/01/04 13:22 Сейс.</string>
+    <string name="pvr_schedulepvr_time">00hr 00min</string>
+    <string name="pvr_schedulepvr_diskinfo">Атау жоқ: 3,8/3,8 ГБ</string>
+    <string name="pvr_schedulepvr_disk_info">Атау жоқ: 3,8/3,8 ГБ</string>
+    <string name="partner_row_title">медиатек ТД</string>
+</resources>

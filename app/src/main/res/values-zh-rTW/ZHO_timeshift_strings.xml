@@ -24,6 +24,8 @@ will erase all the data.</string>
     <string name="disk_wizard_speed_testing_summary">Speed Testing</string>
     <string name="disk_wizard_create_tshift_file_summary">Creating timeshift files</string>
     <string name="disk_wizard_speed_slow_disk_result_summary">Speed: %3.1f MB/sec
+        <string name="mmp_video_seektime_title">轉到時間</string>
+
 
 The disk is ready for timeshift.But we recommend to change a disk(of 
 speed >5.0 MB/sec) for better performance. Please press any key to 

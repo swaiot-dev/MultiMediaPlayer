@@ -72,7 +72,7 @@ public class TvCallbackConst {
     public static final int MSG_CB_MHP_MSG              = MSG_CB_BASE_FLAG + 2 * 10 + 2;
 
     //notifyCIMessage
-    public static final int MSG_CB_CI_MSG               = MSG_CB_BASE_FLAG + 2 * 10 + 3;
+    public static final int     MSG_CB_CI_MSG               = MSG_CB_BASE_FLAG + 2 * 10 + 3;
 
     //notifyOADMessage
     public static final int MSG_CB_OAD_MSG              = MSG_CB_BASE_FLAG + 2 * 10 + 4;

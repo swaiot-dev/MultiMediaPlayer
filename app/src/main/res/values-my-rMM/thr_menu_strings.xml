@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+              
+    <string name="thr_menu_common_setting">ဘံု ဆက္တင္</string>
+    <string name="thr_menu_confim">အတည္ျပဳပါ</string>
+    <string name="thr_menu_cancal">ထြက္ပါ</string>
+    <string name="thr_menu">မီႏူး</string>
+    <string name="thr_menu_select">ေရြးပါ</string>
+    
+    <string name="thr_menu_picture_mode">႐ုပ္ပံုမုဒ္</string>
+    <string name="thr_menu_track">အသံ အပိုင္း</string> 
+    <string name="thr_menu_Equalizer">ညႇိသည့္အရာ</string>
+    <string name="thr_menu_volume">အသံအတိုးအက်ယ္</string>
+    
+    
+    
+</resources>

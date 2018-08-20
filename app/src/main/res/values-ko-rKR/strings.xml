@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, TurnkeyUiMainActivity!</string>
+<string name="app_name">멀티 미디어 플레이어</string>
+<!-- For PVR/tshift -->
+<string name="schedulelist_nofiles">녹화 예약이 없습니다! 하나 추가하려면 "추가(Add)" 키를 누르십시오!</string>
+<string name="schedulelist_nofiles_disable_add">녹화 예약이 없습니다!</string>
+<string name="exit">종료</string>
+<string name="selected">선택됨</string>
+<string name="add_schedule">예약 추가</string>
+<string name="pvr_schedule_replace">교체</string>
+<string name="pvr_schedule_add">주소</string>
+    <string name="menu_value_minus">Decrease</string>
+    <string name="menu_value_plus">Increase</string>
+<string name="pvr_schedule_cancel">취소</string>
+<string name="pvr_schedule_ok">OK</string>
+<string name="pvr_schedule_edit">편집</string>
+<string name="pvr_schedule_delete">삭제</string>
+<string name="pvr_title_device_info">기기 정보</string>
+<string name="pvr_deviceinfo_info">Info</string>
+<string name="pvr_exit">종료</string>
+<string name="pvr_deviceinfo_set_timeshift">TimeShift 설정</string>
+<string name="pvr_deviceinfo_set_pvr">Set PVR</string>
+<string name="pvr_deviceinfo_format">포맷</string>
+<string name="pvr_deviceinfo_speed_test">속도 테스트</string>
+<string name="pvr_disk_no_name">이름 없음</string>
+    <string name="pvr_disk_size_temp_3_8_3_8gb">3.8/3.8GB</string>
+    <string name="pvr_disk_ispvr_pvr_tshift">PVR/TSHIFT</string>
+    <string name="pvr_disk_na">NA</string>
+    <string name="pvr_nf_info">00:00:00</string>
+     <string name="pvr_play_info">/</string>
+<string name="pvr_playlist_record_list">녹화 목록</string>
+<string name="pvr_playlist_page_up">페이지 업</string>
+<string name="pvr_playlist_delete">삭제</string>
+<string name="pvr_playlist_page_down">페이지 다운</string>
+<string name="pvr_playlist_info">Info</string>
+<string name="pvr_playlist_record_detail">녹화 상세 정보</string>
+<string name="pvr_playlist_channel_num">채널 번호</string>
+    <string name="pvr_playlist_ch_40">CH 40</string>
+<string name="pvr_playlist_channel_name">채널 이름</string>
+    <string name="pvr_playlist_cctv_1">CCTV-1</string>
+<string name="pvr_playlist_program_name">프로그램 이름</string>
+<string name="pvr_playlist_special_6_1">특수 6+1</string>
+<string name="pvr_playlist_date">날짜</string>
+    <string name="pvr_playlist__2012_11_30">2012/11/30</string>
+<string name="pvr_playlist_week">주</string>
+<string name="pvr_playlist_fri">금요일</string>
+<string name="pvr_playlist_time">시간</string>
+    <string name="pvr_playlist_01_39_16">01:39:16</string>
+<string name="pvr_playlist_duration">기간</string>
+    <string name="pvr_playlist_00_00_03">00:00:03</string>
+    <string name="pvr_pvr_working_rec_time">[00:00:03/00:00]</string>
+    <string name="pvr_tshift_working_rec_time">[00:00:03/00:00]</string>
+    <string name="pvr_tshift_working_cur_time">13:02:28</string>
+    <string name="pvr_tshift_offset_time">-00:00:00</string>
+    <string name="pvr_tshift_0">0</string>
+    <string name="pvr_tshift_13_00">13:00</string>
+    <string name="pvr_tshift_13_30">13:30</string>
+<string name="pvr_disksetup_disk_setup">디스크 설정</string>
+<string name="pvr_disksetup_page_up">페이지 업</string>
+<string name="pvr_disksetup_select">선택</string>
+<string name="pvr_disksetup_page_down">페이지 다운</string>
+<string name="pvr_disksetup_exit">종료</string>
+<string name="pvr_schedulepvr_ch41">CH41</string>
+<string name="pvr_schedulepvr_date">2013/01/04 13:22 Tue</string>
+<string name="pvr_schedulepvr_time">00hr 00min</string>
+<string name="pvr_schedulepvr_week">주</string>
+<string name="pvr_schedulepvr_record">녹화</string>
+<string name="pvr_schedulepvr_schedule_list">예약 목록</string>
+<string name="pvr_schedulepvr_diskinfo">이름 없음: 3.8/3.8 GB</string>
+<string name="pvr_schedulepvr_add_schedule">예약 추가</string>
+<string name="pvr_schedulepvr_selected">선택됨</string>
+<string name="pvr_schedulepvr_exit">종료</string>
+<string name="pvr_schedulepvr_schedule_list2">예약 목록</string>
+<string name="pvr_schedulepvr_disk_info">이름 없음: 3.8/3.8 GB</string>
+<string name="pvr_confirm_yes">예</string>
+<string name="pvr_confirm_no">아니오</string>
+<string name="pvr_dialog_exit">종료</string>
+<string name="pvr_schedulelist_wednesday">수요일</string>
+<string name="pvr_schedulelist_replace_line1">예약이 겹칩니다!</string>
+<string name="pvr_schedulelist_replace_line2">이런 예약들을 교체하시겠습니까</string>
+<string name="pvr_schedulelist_delete_line1">예약 삭제!</string>
+<string name="pvr_schedulelist_delete_line2">이런 예약들을 삭제하시겠습니까</string>
+<string name="hello_world">Hello world!</string>
+<string name="menu_settings">설정</string>
+<string name="title_activity_schedule_pvr">SchedulePvrActivity</string>
+<string name="fav_list_is_full">즐겨찾기 목록이 가득 찾습니다.</string>
+
+<!-- For Google home Sreen -->
+<string name="partner_row_title">mediatek tv</string>
+<string name="inputs_row_title">입력</string>
+<string name="apps_row_title">앱</string>
+<string name="games_row_title">게임</string>
+<string name="settings_row_title">설정</string>
+
+<!-- Power on off time not same -->
+<string name="power_on_off_time_same">2개의 타이머가 동일할 수 없습니다. 다시 실정하십시오.</string>
+
+<string name="sleep_timer_tip_text">전원이 꺼질 것입니다.</string>
+<string name="sleep_timer_btn_text">OK</string>
+<string name="menu_dialog_numzero">채널 번호는 0이 될 수 없습니다!</string>
+
+<string name="menu_delete_biss_key_tip">이 Biss 키를 삭제하시겠습니까?</string>
+</resources>

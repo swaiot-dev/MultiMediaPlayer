@@ -113,8 +113,8 @@ public class MenuConfigManager {
 	    }
 
         /** dobly vision */
-        public static final String NOTIFY_SWITCH = MtkTvConfigTypeBase.CFG_VIDEO_DOVI_USER_SWITCH;// MtkTvConfigType.CFG_MISC_DOVI_NOTIFY_SWITCH;
-        public static final String RESET_SETTING = MtkTvConfigTypeBase.CFG_VIDEO_DOVI_RESET_PIC_SETTING;// MtkTvConfigType.CFG_MISC_DOVI_RESET_PIC_SETTING;
+        public static final String NOTIFY_SWITCH = "NOTIFY_SWITCH";//MtkTvConfigTypeBase.CFG_VIDEO_DOVI_USER_SWITCH;// MtkTvConfigType.CFG_MISC_DOVI_NOTIFY_SWITCH;
+        public static final String RESET_SETTING = "RESET_SETTING";//MtkTvConfigTypeBase.CFG_VIDEO_DOVI_RESET_PIC_SETTING;// MtkTvConfigType.CFG_MISC_DOVI_RESET_PIC_SETTING;
 
 	    /** Video */
 	    public static final String PICTURE_MODE = MtkTvConfigType.CFG_VIDEO_PIC_MODE;
@@ -503,7 +503,7 @@ public class MenuConfigManager {
 	    public static final String NETWORK = "Network";
 	    public static final String MY_NET_PLACE = "SETUP_net_place_mmp";
 	    public static final String EXO_PLAYER_SWITCHER = "SETUP_exo_player_switch";
-        public static final String EXO_PLAYER_SWITCH_NATIVE = MtkTvConfigType.CFG_VIDEO_VID_EXO_PLAYER_SWITCH;
+        public static final String EXO_PLAYER_SWITCH_NATIVE = "g_video__vid_exo_player_switch";//MtkTvConfigType.CFG_VIDEO_VID_EXO_PLAYER_SWITCH;
 
 	    public static final String CAPTION = "SETUP_caption_setup";
 	    public static final String DIVX_REG = "SETUP_divx_reg";

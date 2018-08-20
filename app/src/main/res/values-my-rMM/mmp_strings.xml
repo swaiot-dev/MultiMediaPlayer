@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<string name="mmp_test">ဤသည္မွာ စမ္းသပ္ ေဒတာျဖစ္သည္ \n ဖိုင္အမည္ \n ႐ုပ္ပံု \n စမ္းသပ္မႈ</string>
+	<string name="mmp_menu">မီႏူး</string>
+	<string name="mmp_menu_sort">စီပါ</string>
+	<string name="mmp_menu_mediatype">႐ုပ္/သံ အမ်ိဳးအစား</string>
+	<string name="mmp_menu_thumb">လက္သည္းခံြခန္႔ အ႐ြယ္အစား</string>
+	<string name="mmp_menu_copy">မိတၱဴကူးပါ</string>
+	<string name="mmp_menu_paste">ကပ္ပါ</string>
+	<string name="mmp_menu_delete">ဖ်က္ပါ</string>
+	<string name="mmp_menu_recur">အဖန္တလဲလဲ ခြဲျခမ္းစိတ္ျဖာမႈ</string>
+	<string name="mmp_menu_not_recur">ပံုမွန္ ခြဲျခမ္းစိတ္ျဖာမႈ</string>
+	<string name="mmp_menu_photoframe">ဓာတ္ပံု ဖရိန္</string>
+	<string name="mmp_menu_photo_frame">ဓာတ္ပံု ဖရိန္ ႐ုပ္ပံုသတ္မွတ္မႈ အိုေက</string>
+
+	<string name="mmp_menu_play">ဖြင့္ပါ</string>
+	<string name="mmp_menu_pause">ေခတၱရပ္ပါ</string>
+	<string name="mmp_menu_repeat">ထပ္ေၾကာ့ပါ</string>
+	<string name="mmp_menu_shuffle">ဖလွယ္</string>
+	<string name="mmp_menu_duration">ၾကာခ်ိန္</string>
+	<string name="mmp_menu_effect">အထူးျပဳလုပ္ခ်က္</string>
+	<string name="mmp_menu_showinfo">သတင္းအခ်က္အလက္ျပပါ</string>
+	<string name="mmp_menu_frame">ဓာတ္ပံု ဖရိန္ ႐ုပ္ပံု </string>
+	<string name="mmp_menu_rotate">လွည့္ပါ</string>
+	<string name="mmp_menu_3d_photo">3D ဓာတ္ပံု</string>
+	
+	<string name="mmp_menu_display">လိုင္းျပသမႈ</string>
+	<string name="mmp_menu_timeoffset">အခ်ိန္ ေအာ့ဖ္ဆက္</string>
+	<string name="mmp_menu_encoding">ကုဒ္ဝွက္ျခင္း</string>
+
+	<string name="mmp_menu_picturemode">႐ုပ္ပံုမုဒ္</string>
+	<string name="mmp_menu_screenmode">စခရင္ မုဒ္</string>
+
+	<string name="mmp_menu_font">စာလံုး</string>
+
+	<string name="mmp_menu_size">အရြယ္အစား</string>
+	<string name="mmp_menu_style">စတိုင္</string>
+	<string name="mmp_menu_color">အေရာင္</string>
+	<string name="mmp_menu_date">ရက္စြဲ</string>
+	<string name="mmp_menu_name">အမည္</string>
+	<string name="mmp_menu_album">အယ္လ္ဘမ္</string>
+	<string name="mmp_menu_artist">အႏုပညာ႐ွင္</string>
+	<string name="mmp_menu_genre">အႏုပညာအမ်ိဳးအစား</string>
+	<string name="mmp_menu_type">အမ်ဳိးအစား</string>
+	
+	<string name="mmp_menu_phototext">ဓာတ္ပံု</string>
+	<string name="mmp_menu_music">အသံ</string>
+	<string name="mmp_menu_video">ဗီဒီယို</string>
+	<string name="mmp_menu_text">စာသား</string>
+	<string name="mmp_menu_small">ေသးငယ္ေသာ</string>
+	<string name="mmp_menu_medium">အလယ္အလတ္</string>
+	<string name="mmp_menu_large">ႀကီးမား</string>
+	<string name="mmp_menu_onephotomode">ဓာတ္ပံုမုဒ္ တစ္ခု</string>
+	<string name="mmp_menu_none">ဘာမွမရွိ</string>
+	<string name="mmp_menu_repeatone">တစ္ခုကို ထပ္ေၾကာ့ပါ</string>
+	<string name="mmp_menu_repeatall">အားလံုး ထပ္ေၾကာ့ပါ</string>
+	<string name="mmp_menu_shuffleoff">ဖလွယ္မႈ ပိတ္</string>
+	<string name="mmp_menu_shuffleon">ဖလွယ္မႈ ဖြင့္</string>
+	<string name="mmp_menu_short">အတို</string>
+	<string name="mmp_menu_long">အရွည္</string>
+	<string name="mmp_menu_dissolve">ေပ်ာ္ဝင္</string>
+	<string name="mmp_menu_wiperight">ညာဖက္ ပြတ္ဆြဲပါ</string>
+	<string name="mmp_menu_wipeleft">ဘယ္ဖက္ ပြတ္ဆြဲပါ</string>
+	<string name="mmp_menu_wipeup">အေပၚသို႔ ပြတ္ဆြဲတင္ပါ</string>
+	<string name="mmp_menu_wipedown">ေအာက္သို႔ ပြတ္ဆြဲခ်ပါ</string>
+	<string name="mmp_menu_boxin">စုဝင္သည္</string>
+	<string name="mmp_menu_boxout">ကား၍ေပၚထြက္လာသည္</string>
+
+	<string name="mmp_menu_random">က်ပန္း</string>
+
+
+	<string name="mmp_menu_off">ပိတ္</string>
+	<string name="mmp_menu_singleline">မ်ဥ္းေၾကာင္းတစ္ခု</string>
+	<string name="mmp_menu_multiline">မ်ဥ္းေၾကာင္းမ်ား</string>
+	<string name="mmp_menu_auto">အလိုအေလ်ာက္</string>
+	<string name="mmp_menu_userdefine">သံုးစြဲသူက သတ္မွတ္သည္</string>
+	<string name="mmp_menu_user">သံုးစြဲသူ</string>
+	<string name="mmp_menu_cinema">႐ုပ္ရွင္႐ံု</string>
+	<string name="mmp_menu_sport">အားကစား</string>
+	<string name="mmp_menu_vivid">ႂကြႂကြရြရြ</string>
+	<string name="mmp_menu_hibright">ဟုိင္း</string>
+	<string name="mmp_menu_normal">ပံုမွန္</string>
+	<string name="mmp_menu_letterbox">စာပံုး</string>
+	<string name="mmp_menu_scan">ရွာေဖြပါ</string>
+	<string name="mmp_menu_zoom">မွန္ဘီလူး ခ်ဳံ႕ခ်ဲ႕</string>
+	<string name="mmp_menu_dotbydot">တစ္စက္ခ်င္း</string>
+
+	<string name="mmp_menu_regular">ပံုမွန္ </string>
+	<string name="mmp_menu_italic">အေစာင္း</string>
+	<string name="mmp_menu_bold">အထူ</string>
+	<string name="mmp_menu_outline">အထူ အေစာင္း</string>
+	<string name="mmp_menu_white">အျဖဴ</string>
+	<string name="mmp_menu_blue">အျပာေရာင္</string>
+	<string name="mmp_menu_red">အနီေရာင္</string>
+	<string name="mmp_menu_green">အစိမ္းေရာင္</string>
+	<string name="mmp_menu_black">အနက္</string>
+	<string name="mmp_menu_lyricoptions">စာသား ေ႐ြးခ်ယ္စရာမ်ား</string>
+
+	<string name="mmp_menu_showscore">အသံလိႈင္းစဥ္ ျပပါ</string>
+	<string name="mmp_menu_hidescore">အသံလိႈင္းစဥ္ ဝွက္ပါ</string>
+	<string name="mmp_menu_onlyaudio">အသံ သာ</string>
+
+
+	<string name="mmp_text">စာသား</string>
+	<string name="mmp_select">ေရြးပါ</string>
+	<string name="mmp_input">ထည့္ပါ</string>
+	<string name="mmp_exit">ထြက္ပါ</string>
+	<string name="mmp_emptyfile">လက္႐ွိ ဖိုဒါသည္ အလြတ္ျဖစ္သည္!</string>
+	<string name="mmp_reutip">ဤဖိုဒါကို ခြဲျခမ္းစိတ္ျဖာေနသည္၊ ေက်းဇူးျပဳ၍ ေစာင့္ပါ …</string>
+	<string name="mmp_pop_repeat_tvrepeat">အားလံုး ထပ္ေၾကာ့ပါ</string>
+	<string name="mmp_pop_repeat_tvsingle">တစ္ခုကို ထပ္ေၾကာ့ပါ</string>
+	<string name="mmp_pop_time_tv">အတို</string>
+	<string name="mmp_pop_view_tv">ဘာမွမရွိ</string>
+	<string name="mmp_pop_menu">မီႏူး</string>
+	<string name="mmp_pop_enter">ထည့္ပါ</string>
+	<string name="mmp_tip_play">&#160;&#160;ဖြင့္ပါ</string>
+	<string name="mmp_tip_exit">&#160;&#160;ထြက္ပါ</string>
+	<string name="mmp_tip_enter">&#160;&#160;ထည့္ပါ </string>
+	<string name="mmp_tip_select">&#160;&#160;ေရြးပါ</string>
+
+	<string name="mmp_info_album">အယ္လ္ဘမ္-</string>
+	<string name="mmp_info_orientation">အေနအထား - </string>
+	<string name="mmp_info_artist">အႏုပညာရွင္-</string>
+	<string name="mmp_info_name">အမည္ -</string>
+	<string name="mmp_info_date">ရက္စြဲ -</string>
+	<string name="mmp_info_size">အရြယ္အစား-</string>
+	<string name="mmp_info_next">ေနာက္ထပ္ -</string>
+	<string name="mmp_info_audio">အသံ - </string>
+	<string name="mmp_info_exposure">ဓာတ္ပံု႐ိုက္သည့္အခ်ိန္-</string>
+	<string name="mmp_info_fnumber">F နံပါတ္ - </string>
+	<string name="mmp_info_program">ဓာတ္ပံု႐ိုက္သည့္ အစီအစဥ္-</string>
+	<string name="mmp_info_colorspace">အေရာင္ ေနရာ - </string>
+	<string name="mmp_info_title">ေခါင္းစဥ္-</string>
+	<string name="mmp_info_genre">အႏုပညာအမ်ိဳးအစား - </string>
+	<string name="mmp_info_year">ႏွစ္-</string>
+	<string name="mmp_info_duration">ၾကာခ်ိန္ - </string>
+	<string name="mmp_info_director">ဒါ႐ိုက္တာ - </string>
+	<string name="mmp_info_copyrght">မူပိုင္ခြင့္ - </string>
+
+	<string name="mmp_info_lastline">ေနာက္ဆံုးလိုင္း</string>
+	<string name="mmp_info_nextline">ေနာက္တစ္လိုင္း</string>
+	<string name="mmp_info_lastpage">ေနာက္ဆံုးစာမ်က္ႏွာ</string>
+	<string name="mmp_info_nextpage">ေနာက္ထပ္စာမ်က္ႏွာ</string>
+
+	<string name="mmp_info_nolrc">lrc မ႐ွိ</string>
+	<string name="mmp_loading_tip">ဤဖိုဒါကို ခြဲျခမ္းစိတ္ျဖာေနသည္၊ ေက်းဇူးျပဳ၍ ေစာင့္ပါ …</string>
+	<string name="mmp_user_name">သံုးစြဲသူအမည္</string>
+	<string name="mmp_password">စကားဝွက္</string>
+	<string name="mmp_confirm">အတည္ျပဳပါ</string>
+	<string name="mmp_ok">အိုေက</string>
+	<string name="mmp_cancel">ပယ္ဖ်က္ပါ</string>
+
+	<string name="mmp_login_failed_tip">သံုးစြဲသူအမည္ သို႔မဟုတ္ စကားဝွက္ မွားေနသည္။</string>
+	<string name="mmp_dlnaserver_disconnected">DLNA ဆာဗာမျမင္ရေတာ့ပါ၊ ကြန္ရက္ႏွင့္ ဆာဗာအေျခအေနကို စစ္ေဆးပါ!</string>
+	<string name="mmp_title_copy">ကူးေနသည္</string>
+	<string name="mmp_title_confirm_replace">ဖိုင္ အစားထိုးမႈ အတည္ျပဳပါ</string>
+	<string name="mmp_title_confirm_delete">ဖိုင္(မ်ား) ဖ်က္ရန္အတည္ျပဳပါ</string>
+	<string name="mmp_message_copy">%1$s\n %2$s မွ\n %3$s သို႔</string>
+	<string name="mmp_message_confirm_replace">ဤဖိုဒါတြင္ ဖိုင္အမည္ \n%s မွာ ပါဝင္ေနၿပီးသားျဖစ္သည္။</string>
+	<string name="mmp_message_confirm_delete">ဤေရြးခ်ယ္ထားသည့္ ဖုိင္(မ်ား) ကို ဖ်က္မွာေသခ်ာပါသလား။</string>
+
+	<string name="mmp_yes">လုပ္မည္</string>
+	<string name="mmp_yes_to_all">ဟုတ္ကဲ့ အားလံုးကို ဖ်က္မည္</string>
+	<string name="mmp_no">မဟုတ္ပါ</string>
+
+	<string name="mmp_capture_title">လိုဂို ရယူပါ</string>
+	<string name="mmp_capture_confirm">ဤစခရင္ကို ပံုဖမ္းယူခ်င္ပါသလား။</string>
+	<string name="mmp_toast_no_photoframe">ဖြင့္ရန္ ဓာတ္ပံုဖရိန္ ႐ုပ္ပံုမ႐ွိပါ</string>
+
+	<string name="mmp_video_notsupport">ဗီဒီယို ကိုဒက္ မေထာက္ပံ့ပါ။</string>
+	<string name="mmp_audio_notsupport">အသံ ပံုစံကို မေထာက္ပံ့ထားပါ</string>
+	<string name="mmp_video_only">ဗီဒီယို သာ</string>
+	<string name="mmp_frame_photo_sleeptime">နားခ်ိန္</string>
+	<string name="mmp_sleeptime_lable">နားခ်ိန္ - </string>
+	<string name="mmp_video_stopresume">ေရာက္သည့္ေနရာမွ ျပသျခင္း ရပ္ပါ</string>
+	<string name="mmp_can_notpause">ေခတၱရပ္မႈ မလုပ္ႏုိင္ပါ</string>
+	
+	<string name="mmp_photo_type_notsupport">ဖုိင္ မေထာက္ပံ့ပါ</string>
+
+	<string name="mmp_lable_rorate">လွည့္ပါ</string>
+	<string name="mmp_lable_subtitle_off">ပိတ္</string>
+
+	<string name="mmp_info_whitebalance">အဖြူ ချိန်ခွင်လျှာ:</string>
+	<string name="mmp_info_make">ထုတ်လုပ်သူ:</string>
+	<string name="mmp_info_model">မော်ဒယ်:</string>
+	<string name="mmp_info_flash">ရှပ်တာ:</string>
+	<string name="mmp_info_focallength">အာရုံ အရှည်:</string>
+	<string name="mmp_menu_pic_setting">႐ုပ္ပံု ဆက္တင္</string>
+	<string name="mmp_menu_audio_setting">အသံဆက္တင္</string>
+
+	<string name="mmp_file_notsupport">ဖုိင္ မေထာက္ပံ့ပါ</string>
+	<string name="mmp_notsupport">မေထာက္ပံ့ထားပါ</string>
+	<string name="mmp_seek_notsupport">လိုခ်င္သည့္ေနရာ႐ွာေဖြမႈ မေထာက္ပ့ံပါ</string>
+	<string name="mmp_step_notsupport">အဆင့္ဆင့္ မေထာက္ပံ့ပါ</string>
+	<string name="mmp_featue_notsupport">အဂၤါရပ္မရႏုိင္ပါ</string>
+	<string name="mmp_buffer_not_enough">ယာယီေနရာ မလံုေလာက္ပါ</string>
+	<string name="mmp_nodevice">အချည်းနှီးသောဖိုင်တွဲ!</string>
+	<string name="mmp_time_out">သင္ထည့္သြင္းလိုက္သည့္ အခ်ိန္ကုဒ္ မွားေနသည္ ! \n ေက်းဇူးျပဳ၍ ၎သည္ စုစုေပါင္းအခ်ိန္ထက္ နည္းေၾကာင္း ေသခ်ာပါေစ</string>
+    <string name="mmp_file_corrupt">ဖိုင္ ဖ်က္ဆီးခံထားရသည္</string>
+    <string name="mmp_menu_mount_iso">လက္႐ွိ iso ဖိုင္ကို တပ္ပါ</string>
+	<string name="mmp_menu_unmount_iso">လက္႐ွိကိရိယာ တပ္ထားမႈ ျဖဳတ္ပါ</string>
+
+	<string name="mmp_media_info_scrambled_audio_video_service">ဗီဒီယို ႏွင့္ အသံကို ေရာေမႊပါ</string>
+	<string name="mmp_media_info_scrambled_audio_clear_video_service">အသံ ေရာေမႊပါ</string>
+	<string name="mmp_media_info_scrambled_audio_no_video_service">အသံ အခ်င္းခ်င္းသာ ေရာပါ</string>
+	<string name="mmp_media_info_scrambled_video_clear_audio_service">ဗီဒီယို ေရာေမႊပါ</string>
+	<string name="mmp_media_info_scrambled_video_no_audio_service">ဗီဒီယို အခ်င္းခ်င္းသာ ေရာပါ</string>
+	
+	
+	
+    <string name="mmp_txt_const_font">မဟုတ္ပါ</string>
+    
+    <string name="mmp_drm_register">Divx@ တားျမစ္ထားေသာ ဗီဒီယိုကို ဖြင့္ရန္\n သင့္ကိရိယာသည္ ခြင့္ျပဳခ်က္မရွိပါ</string>
+    <string name="mmp_drm_register_expired">Divx@ ငွားရမ္းျခင္း သက္တမ္းကုန္ၿပီ</string>
+    <string name="mmp_drm_register_used">Divx@ ငွားရမ္းျခင္းသည္ \n %2$s ၾကည့္ျခင္းတြင္ %1$s ကို အသံုးျပဳထားသည္</string>
+    <string name="mmp_drm_register_continue">ဆက္လုပ္မွာလား။</string>
+    
+    <string name="mmp_divx_title">ေခါင္းစဥ္</string>
+    <string name="mmp_divx_edition">တည္းျဖတ္မႈ</string>
+    <string name="mmp_divx_chapter">အခန္း</string>
+    
+    
+    <string name="mmp_divx_titleName">ေခါင္းစဥ္-</string>
+    <string name="mmp_divx_chapterName">အခန္း-</string>
+    <string name="mmp_divx_rateName">ႏႈန္း - </string>
+    <string name="mmp_divx_audioName">အသံ - </string>
+    <string name="mmp_divx_subtitleName">စာတမ္းထုိး -</string>
+    <string name="mmp_dmr_starting">DMR စတင္ျခင္း </string>
+    <string name="mmp_dmr_started">DMR စတင္ၿပီးၿပီ၊ ေက်းဇူးျပဳ၍ အသံုးျပဳပါ</string>
+    <string name="mmp_dmr_network_failed">DMR စတင္မႈမေအာင္ျမင္ပါ၊ ကြန္ရက္ မရႏိုင္ပါ</string>
+    <string name="mmp_dmr_url_failed">မမွန္ကန္ေသာ URL</string>
+    
+    <string name="mmp_wrong_psw">စကားဝွက္မမွန္ပါ။ စုစုေပါင္းႀကိဳးစားခြင့္ %1$s ႀကိမ္ %2$s ႀကိမ္ႀကိဳးစားၿပီးျပီ။ ထပ္ႀကိဳးစားပါ! </string>
+	<string name="mmp_subtitle_encoding">စာတန်းထိုး ကုဒ္ဝွက္ျခင္း</string>
+	<string name="mmp_last_memory">ေနာက္ဆံုး မန္မိုရီ</string>
+	<string name="mmp_last_memory_off">ပိတ္</string>
+	<string name="mmp_last_memory_time">အခ်ိန္</string>
+	<string name="mmp_last_memory_position">အေနအထား</string>
+
+	<string name="ci_menu_pin_correct">မွန္ၿပီ!</string>
+	<string name="ci_menu_pin_outoftry">မမွန္ကန္သည္မွာ သံုးႀကိမ္ရွိၿပီ</string>
+    <string name="mmp_video_seektime_title">အခ်ိန္သို႔ သြားပါ</string>
+    <string name="mmp_video_seektime_warn_inputnothing">သတိေပးခ်က္- သင္ဘာမွ မထည့္သြင္းထားပါ။</string>
+    <string name="mmp_video_seektime_warn_timetoobigger">သတိေပးခ်က္- ထည့္သြင္းေသာ အခ်ိန္သည္ ဗီဒီယို ျပသမႈကာလထက္ နည္းရပါမည္။</string>
+    <string name="mmp_video_not_seekable">သတိေပးခ်က္- ဤဗီဒီယိုသည္ ၾကည့္မရပါ။</string>
+</resources>

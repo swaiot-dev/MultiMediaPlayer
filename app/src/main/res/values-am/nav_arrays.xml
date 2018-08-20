@@ -1,0 +1,663 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+<string-array name="nav_channel_types">
+<item>ሁሉ</item>
+<!--<item>አናሎግ</item>
+<item>ዲጂታል</item>-->
+<item>ራዲዮ</item>
+</string-array>
+<!--
+
+		{ "Auto", "Normal", "LetterBox", "Zoom", "Panorama", "Dot by Dot" }
+-->
+<!--
+<string-array name="nav_aspect_strings"> <item>Auto</item>
+<item> የተለመደ </item> <item>LetterBox</item> <item>Zoom</item>
+<item>ፓኖራማ</item> <item>Dot by Dot</item> </string-array>
+-->
+<!--
+		"Sleep:Off", "Sleep: 10 Minutes", "Sleep:20 Minutes", "Sleep:30
+		Minutes", "Sleep:40 Minutes", "Sleep:50 Minutes", "Sleep:60 Minutes",
+		"Sleep:90 Minutes", "Sleep:120 Minutes" };
+-->
+
+<string-array name="nav_sleep_strings">
+		<item>Sleep:Off</item>
+		<item>Sleep:15 Minutes</item>
+		<item>Sleep:30 Minutes</item>
+		<item>Sleep:45 Minutes</item>
+		<item>Sleep:60 Minutes</item>
+		<item>Sleep:90 Minutes</item>
+		<item>Sleep:120 Minutes</item>
+</string-array>
+<string-array name="nav_zoom_strings">
+<item>X 1 አጉላ</item>
+<item>X 2 አጉላ</item>
+<item>X 1/2 አጉላ</item>
+</string-array>
+
+<!-- OFF, Rock, Pop, Live, Dance, Techno, Classic and Soft -->
+<string-array name="nav_s_effect_strings">
+<item> ተጠቃሚ </item>
+<item> ደረጃ </item>
+<item>ቀጥታ 1</item>
+</string-array>
+
+<string-array name="nav_freeze_strings">
+<item>ቁም: በርቷል</item>
+<item>ቁም: ጠፍቷል</item>
+</string-array>
+
+<string-array name="nav_epg_filter_type">
+<item>ማንቀሳቀስ</item>
+<item>ዜና</item>
+<item>አሳይ</item>
+<item>ስፖርቶች</item>
+<item>ልጅ/ጆች</item>
+		<item>ሙዚቃ</item>
+<item>ጥበባት</item>
+<item>ማህበራዊ</item>
+<item>ትምህርት</item>
+<item>የትርፍ ግዜ</item>
+<item>ልዩ</item>
+</string-array>
+
+<string-array name="nav_epg_filter_type_AUS">
+<item>ማንቀሳቀስ</item>
+<item>ዜና</item>
+<item>መዝናኛ</item>
+<item>ስፖርቶች</item>
+<item>ልጅ/ጆች</item>
+		<item>ሙዚቃ</item>
+<item>ጥበባት</item>
+<item>ወቅታዊ ጉዳዮች</item>
+<item>ትምህርት</item>
+<item>መረጃ</item>
+<item>ልዩ</item>
+<item>አስቂኝ</item>
+<item>ድራማ</item>
+<item>ጥናታዊ</item>
+</string-array>
+
+<string-array name="nav_epg_filter_type_UK">
+<item>ማንቀሳቀስ</item>
+<item>ዜናዎች እና እውነታዎች</item>
+<item>መዝናኛ</item>
+		<item>SPORT</item>
+<item>ልጅ/ጆች</item>
+<item>ትምህርት</item>
+<item>የአኗኗር ሁኔታ</item>
+<item>ድራማ</item>
+</string-array>
+
+<string-array name="nav_epg_filter_sa_type">
+<item>ዜና</item>
+<item>ስፖርቶች</item>
+<item>ትምህርት</item>
+<item>SOAP_OPERA</item>
+<item>MINI_SERIES</item>
+<item>ተከታታይ</item>
+<item>የተለያየ</item>
+<item>REALITY_SHOW</item>
+<item>መረጃ</item>
+<item>ኮሜዲ</item>
+<item>ለልጆች</item>
+<item>የፍቅር</item>
+<item>ማንቀሳቀስ</item>
+<item>RA_TE_SA_PR</item>
+<item>DEBATE_INTERVIEW</item>
+<item>ሌላ</item>
+</string-array>
+
+<string-array name="nav_epg_subtype_movie">
+<item>ድራማ</item>
+<item>መርማሪ</item>
+<item>ጀብድ</item>
+<item>የሳይንስ ልብወለድ</item>
+<item>አስቂኝ</item>
+		<item>Soap</item>
+<item>የፍቅር</item>
+<item>ተከታታይ</item>
+<item>የአዋቂዎች ፊልም</item>
+</string-array>
+
+<string-array name="nav_epg_subtype_news">
+		<item>Current Affairs</item>
+<item>የአየር ሁኔታ ዘገባ</item>
+<item>የዜና መጽሄት</item>
+<item>ጥናታዊ</item>
+<item>ውይይት</item>
+</string-array>
+<string-array name="nav_epg_subtype_sa_news">
+<item> ዜና </item>
+<item>ሪፖርት</item>
+<item>ጥናታዊ</item>
+<item>የህይወት ታሪክ</item>
+</string-array>
+<string-array name="nav_epg_subtype_show">
+		<item>Show</item>
+<item>የጨዋታ ማሳያ</item>
+<item>የተለያዩ ትዕይንቶች</item>
+<item>ቶክ ሾው</item>
+</string-array>
+
+<string-array name="nav_epg_subtype_sports">
+<item>ስፖርቶች</item>
+<item>ልዩ ክስተቶች</item>
+<item>የስፖርት መጽሔቶች</item>
+<item>እግር ኳስ</item>
+<item>ቴኒስ</item>
+<item>የቡድን ስፖርት</item>
+<item>አትሌቲክስ</item>
+<item>የሞተር ስፖርት</item>
+<item>የውሃ ስፖርት</item>
+<item>የክረምት ስፖርት</item>
+<item>ፈረሰኛ</item>
+<item>ማርሻል ስፖርት</item>
+</string-array>
+<string-array name="nav_epg_subtype_sa_sports">
+<item>ስፖርቶች</item>
+</string-array>
+
+<string-array name="nav_epg_subtype_children">
+		<item>Children\'s</item>
+<item>ቅድመ ትምህርት ቤት ልጅ/ጆች</item>
+<item>መዝናኛ ከ 6 እስከ 14 ለሆኑ</item>
+<item>መዝናኛ ከ 10 እስከ 16 ለሆኑ</item>
+<item>መረጃዊ</item>
+<item>ካርቱኖች</item>
+</string-array>
+
+<string-array name="nav_epg_subtype_music">
+<item> ሙዚቃ </item>
+<item>ሮክ</item>
+<item>ተከታታይ</item>
+<item>ፎልክ</item>
+<item>ጃዝ</item>
+<item>የሙዚቃ</item>
+<item>ባሌት</item>
+</string-array>
+
+<string-array name="nav_epg_subtype_arts">
+		<item>Arts</item>
+<item>ጠባባት ማሳየት</item>
+<item>ረቂቅ ስነ-ጥበብ</item>
+<item>ሀይማኖት</item>
+<item>ታዋቂ ባህል</item>
+<item>ስነጽሁፍ</item>
+<item> ፊልም </item>
+<item>የሙከራ</item>
+<item>ብሮድካስት</item>
+<item>አዲስ ሚዲያ</item>
+<item>የጥበብ መጽሔቶች</item>
+<item>ፋሽን</item>
+</string-array>
+
+<string-array name="nav_epg_subtype_social">
+		<item>Social</item>
+<item>መጽሔቶች</item>
+<item>ኢኮኖሚክስ</item>
+<item>አስደናቂ ሰዎች</item>
+</string-array>
+
+<string-array name="nav_epg_subtype_education">
+<item>ትምህርት</item>
+<item>ተፈጥሮ</item>
+<item>ቴክኖሎጂ</item>
+<item>ሕክምና</item>
+<item>የውጭ ሀገራት</item>
+<item>ማኅበራዊ ሳይንስ</item>
+<item>ተጨማሪ ትምህርት</item>
+<item>ቋንቋዎች</item>
+</string-array>
+<string-array name="nav_epg_subtype_sa_education">
+<item>ትምህርታዊ</item>
+</string-array>
+<string-array name="nav_epg_subtype_sa_soap_opera">
+<item>ሶፕ ኦፕራ</item>
+</string-array>
+
+<string-array name="nav_epg_subtype_sa_mini_series">
+<item>አጫጭር-ተከታታይ</item>
+</string-array>
+
+<string-array name="nav_epg_subtype_sa_series">
+<item>ተከታታይ</item>
+</string-array>
+<string-array name="nav_epg_subtype_sa_variety">
+<item>አዳራሽ</item>
+		<item>Show</item>
+<item>የሙዚቃ</item>
+<item>አሰራር</item>
+<item>አነስታይ</item>
+		<item>Game show</item>
+</string-array>
+<string-array name="nav_epg_subtype_sa_reality_show">
+<item>እውነታዊ ትእይንት</item>
+</string-array>
+<string-array name="nav_epg_subtype_sa_information">
+<item>ማብሰል</item>
+<item>ፋሽን</item>
+<item>ሀገር</item>
+<item>ጤና</item>
+<item>ጉዞ</item>
+</string-array>
+<string-array name="nav_epg_subtype_sa_comical">
+<item>ኮሜዲ</item>
+</string-array>
+<string-array name="nav_epg_subtype_sa_children">
+<item>ለልጆች</item>
+</string-array>
+<string-array name="nav_epg_subtype_sa_erotic">
+<item>የፍቅር</item>
+</string-array>
+<string-array name="nav_epg_subtype_sa_movie">
+<item>ማንቀሳቀስ</item>
+</string-array>
+<string-array name="nav_epg_subtype_sa_RA_TE_SA_PR">
+<item>እጣ</item>
+<item>የቴሌቪዥን ሽያጭ</item>
+<item>ሽልማት</item>
+</string-array>
+<string-array name="nav_epg_subtype_sa_DEBATE_INTERVIEW">
+<item>ውይይት</item>
+<item>ቃለ መጠይቅ</item>
+</string-array>
+<string-array name="nav_epg_subtype_sa_other">
+<item>የአዋቂ ካርቱን</item>
+<item>በይነግንኙነት</item>
+<item>መምሪያ</item>
+<item>ሀይማኖት</item>
+</string-array>
+
+<string-array name="nav_epg_subtype_leisure">
+<item>የመዝናኛ ልማዶች</item>
+<item>ቱሪዝም</item>
+<item>የእጅ ጥበብ</item>
+<item>ሞተር</item>
+<item>የአካል ብቃት እና ጤና</item>
+<item>ማብሰል</item>
+<item>ማስታወቂያ</item>
+<item>አትክልት ልማት</item>
+</string-array>
+
+<string-array name="nav_epg_subtype_special">
+<item>የመጀመሪያ ቋንቋ</item>
+<item>ጥቁርና ነጭ</item>
+<item>የልታተመ</item>
+<item>የቀጥታ ስርጭት</item>
+</string-array>
+
+
+<!-- MTS -->
+<string-array name="nav_mts_strings">
+<item>አይታወቅም</item>
+		<item>MONO</item>
+		<item>STEREO</item>
+		<item>SUB_LANG</item>
+		<item>DUAL1</item>
+		<item>DUAL2</item>
+		<item>NICAM_MONO</item>
+		<item>NICAM_STEREO</item>
+		<item>NICAM_DUAL1</item>
+		<item>NICAM_DUAL2</item>
+		<item>FM_MONO</item>
+		<item>FM_STEREO</item>
+</string-array>
+
+<!-- AUDIO_TVCM -->
+<string-array name="nav_audio_tvcm_strings">
+		<item>baq</item>
+		<item>eus</item>
+		<item>bul</item>
+		<item>cat</item>
+		<item>scr</item>
+		<item>cze</item>
+		<item>dan</item>
+		<item>dut</item>
+		<item>eng</item>
+		<item>fin</item>
+		<item>fre</item>
+		<item>gla</item>
+		<item>gdh</item>
+		<item>gle</item>
+		<item>glg</item>
+		<item>ger</item>
+		<item>gre</item>
+		<item>hun</item>
+		<item>ita</item>
+		<item>nor</item>
+		<item>pol</item>
+		<item>por</item>
+		<item>rum</item>
+		<item>rus</item>
+		<item>scc</item>
+		<item>slo</item>
+		<item>slv</item>
+		<item>spa</item>
+		<item>swe</item>
+		<item>tur</item>
+		<item>wel</item>
+		<item>ice</item>
+		<item>isl</item>
+		<item>smi</item>
+		<item>tha</item>
+		<item>vie</item>
+		<item>ara</item>
+		<item>zho</item>
+		<item>chi</item>
+		<item>per</item>
+		<item>kor</item>
+		<item>est</item>
+		<item>mao</item>
+		<item>cmn</item>
+		<item>yue</item>
+		<item>jpn</item>
+		<item>hin</item>
+		<item>nar</item>
+		<item>qaa</item>
+		<item>und</item>
+</string-array>
+
+<!-- AUDIO -->
+<string-array name="nav_audio_strings">
+<item>ያልታወቀ</item>
+<item>ያልታወቀ</item>
+<item>ቡላሪአን</item>
+		<item>catalan</item>
+<item>ክሮሺያዊ</item>
+<item>ቼክ</item>
+<item>ዴንማርካዊ</item>
+<item>ደች</item>
+<item>እንግሊዘኛ</item>
+<item>ፊንላንድኛ</item>
+		<item>french</item>
+		<item>gaelic</item>
+		<item>gaelic</item>
+<item>አየርላንዳዊ</item>
+<item>ጌለንጋን</item>
+		<item>german</item>
+		<item>greek</item>
+		<item>hungarian</item>
+		<item>italian</item>
+		<item>norwegian</item>
+		<item>polish</item>
+		<item>portuguese</item>
+		<item>romanian</item>
+		<item>russian</item>
+		<item>serbian</item>
+		<item>slovak</item>
+		<item>slovenian</item>
+		<item>spanish</item>
+		<item>swedish</item>
+		<item>turkish</item>
+		<item>welsh</item>
+		<item>icelandic</item>
+		<item>icelandic</item>
+<item>ሳሚ</item>
+<item>ታይ</item>
+<item>ቬቲናማዊ</item>
+<item>አረብኛ</item>
+<item>ቲ. ቻይንኛ</item>
+<item>ኤስ. ቻይና</item>
+<item>ፐርሺያ</item>
+<item>ኮሪያኛ</item>
+<item>ኢስቶኒያ</item>
+<item>ማሪኦ</item>
+<item>ማንዳሪን</item>
+<item>ካንቶኒስ</item>
+<item>ጃፓንኛ</item>
+<item>ሂንዲ</item>
+<item>ትረካ</item>
+<item>ኦሪጅናል ስሪት ለፈረንሳይ</item>
+<item>ያልተወሰነ</item>
+</string-array>
+
+<string-array name="nav_bottom_volume">
+<item>ዋና ድምጽ</item>
+<item>ከግራ ፊለፊት ድምጽ</item>
+<item>ከቀኝ ፊለፊት ድምጽ</item>
+<item>ከግራ የኋላ ድምጽ</item>
+<item>ከቀኝ የኋላ ድምጽ</item>
+<item>የመሀል ድምጽ</item>
+<item>የንዑስ ጉርሻ ድምጽ</item>
+</string-array>
+
+<string-array name="nav_zoom_mode">
+		<item>Zoom x 1/2</item>
+		<item>Zoom x 1</item>
+		<item>Zoom x 2</item>
+</string-array>
+
+<string-array name="nav_receiver_type">
+<item>ገመድ</item>
+<item>አነቴና</item>
+</string-array>
+<string-array name="pvr_tshift_initdisk_step1">
+<item>ራስ</item>
+<item>በእጅ</item>
+</string-array>
+<string-array name="pvr_tshift_initdisk_step_format">
+<item>ቅርጸት</item>
+<item>ዝለል</item>
+</string-array>
+<string-array name="pvr_tshift_initdisk_step_formatconfirm">
+<item>ቅርጸት</item>
+<item>ይቁም</item>
+</string-array>
+
+<string-array name="week_day">
+<item>እሁን</item>
+<item>ሰኞ</item>
+<item>ማክሰኞ</item>
+<item>ረቡዕ</item>
+<item>ሀሙስ</item>
+<item>አርብ</item>
+<item>ቅዳሜ</item>
+</string-array>
+<string-array name="nav_oad_btns_cancel">
+<item>ይቁም</item>
+</string-array>
+<string-array name="nav_oad_btns_accept_remind_me_later">
+<item>ተቀበል</item>
+<item>መኋላ አስታውሰኝ</item>
+</string-array>
+<string-array name="nav_oad_btns_accept_reject">
+<item>ተቀበል</item>
+<item>አትቀበል</item>
+</string-array>
+
+<string-array name="nav_oad_btns_yes_no">
+<item>አዎ</item>
+<item>አይደለም</item>
+</string-array>
+
+
+
+
+
+<!--
+				0:	MSG_STR_ID_EMPTY,						hide screen saver
+     				1:	MSG_STR_ID_NO_SIGNAL,					No Signal!
+     				2:	MSG_STR_ID_SCAN_CH,					Please Scan Channels!
+     				3:	MSG_STR_ID_GETTING_DATA,				Retrieving Data...
+     				4:	MSG_STR_ID_LOCKED_CH,					Channel Locked!
+     				5:	MSG_STR_ID_LOCKED_PROG,				Program Locked!
+     				6:	MSG_STR_ID_LOCKED_INP,					Input Locked!
+     				7:	MSG_STR_ID_NO_EVN_TILE,					(No program title.)
+     				8:	MSG_STR_ID_HIDDEN_CH,					Hidden Channel!
+     				9:	MSG_STR_ID_AUDIO_PROG,					Audio Program
+     				10:	MSG_STR_ID_NO_AUDIO_VIDEO,			No Audio and Video
+     				11:	MSG_STR_ID_NO_EVN_DTIL,				(No program details.)
+     				12:	MSG_STR_ID_NO_CH_DTIL,					(No channel details.)
+     				13:	MSG_STR_ID_NO_AUDIO_STRM,				no audio stream ??
+     				14:	MSG_STR_ID_NO_VIDEO_STRM,				no video stream ??
+     				15:	MSG_STR_ID_PLS_WAIT,					Please Wait...
+     				16:	MSG_STR_ID_VIDEO_NOT_SUPPORT,			video not support ??
+     				17:	MSG_STR_ID_HD_VIDEO_NOT_SUPPORT,		HD Service
+     				18:	MSG_STR_ID_NON_BRDCSTING,				Non-Broadcasting
+     				19:	MSG_STR_ID_NO_CH_IN_LIST,				no channel ??
+     				20:	MSG_STR_ID_TTX_SBTI_X_RATED_BLOCKED,	This content is blocked by your service provider
+     				255:	MSG_STR_ID_LAST_VALID_ENTRY,			only for counting purpose
+-->
+<string-array name="nav_twinkle_strings">
+<item></item>
+<item>ሲግናል የለም!</item>
+<item>እባክዎን ቻናችን ይቃኙ!</item>
+<item>ውሂብ በማውጣት ላይ ...</item>
+<item>የተዘጋ ቻናል!</item>
+<item>ፕሮግራሙ ተቆልፏል!</item>
+<item>የሚገባው ተቆልፏል!</item>
+<item>(የፕሮግራም ርእስ የለም.)</item>
+<item>የተደበቀ ቻናል!</item>
+		<item>Audio Program</item>
+<item>ዋጋ የሌለው</item>
+<item>(ምንም የፕሮግራም ዝርዝሮች የሉም.)</item>
+<item>(ምንም የቻናል  ዝርዝሮች የሉም)</item>
+<item>♪ ምንም የድምጽ ዥረት የለም ♪</item>
+<item>ምንም የቪዲዮ ዥረት የለም</item>
+<item>እባክዎን ይጠብቁ ...</item>
+<item>ቪዲዮው አይደገፍም</item>
+<item>HD አገልግሎት</item>
+<item>ብሮድካስቲንግ ያልሆነ</item>
+<item>ቻናል የለም</item>
+<item>ይህ ይዘት በአገልግሎት ሰጪዎ ታግዷል</item>
+<item>መደባለቅ</item>
+</string-array>
+
+
+<string-array name="nav_channel_type">
+<item>ሁሉ</item>
+<item>ዲጂታል</item>
+<item>ራዲዮ</item>
+<item>አናሎግ</item>
+</string-array>
+<string-array name="dvbs_scan_mode_arrays">
+        <item>@string/dvbs_scan_mode_network</item>
+        <item>@string/dvbs_scan_mode_full</item>
+</string-array>
+<string-array name="dvbs_scan_mode2_arrays">
+        <item>@string/dvbs_scan_mode_auto</item>
+        <item>@string/dvbs_scan_mode_preset</item>
+</string-array>
+<string-array name="dvbs_diseqc_input_arrays">
+        <item>@string/dvbs_diseqc_input_1</item>
+        <item>@string/dvbs_diseqc_input_2</item>
+        <item>@string/dvbs_diseqc_input_3</item>
+        <item>@string/dvbs_diseqc_input_4</item>
+        <item>@string/dvbs_diseqc_input_0</item>
+</string-array>
+<string-array name="dvbs_diseqc_10port_arrays">
+        <item>@string/dvbs_diseqc_input_1</item>
+        <item>@string/dvbs_diseqc_input_2</item>
+        <item>@string/dvbs_diseqc_input_3</item>
+        <item>@string/dvbs_diseqc_input_4</item>
+        <item>@string/dvbs_tone_burst_a</item>
+        <item>@string/dvbs_tone_burst_b</item>
+        <item>@string/dvbs_diseqc_input_0</item>
+</string-array>
+<string-array name="dvbs_diseqc_motor_arrays">
+        <item>@string/dvbs_diseqc_input_0</item>
+        <item>@string/dvbs_diseqc_motor_12</item>
+</string-array>
+<string-array name="dvbs_diseqc_motor_store_position_arrays">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+</string-array>
+<string-array name="dvbs_diseqc_movement_control_arrays">
+<item>ያለማቋረጥ</item>
+<item>ደረጃ</item>
+<item>ጊዜው አልቋል</item>
+</string-array>
+<string-array name="dvbs_tone_22khz_arrays">
+        <item>@string/dvbs_tone_22khz_off</item>
+        <item>@string/dvbs_tone_22khz_on</item>
+        <item>@string/dvbs_tone_22khz_auto</item>
+</string-array>
+
+<string-array name="dvbs_tp_pol_arrays">
+        <item>@string/dvbs_tp_pol_1_HORIZONTAL</item>
+        <item>@string/dvbs_tp_pol_2_VERTICAL</item>
+</string-array>
+<string-array name="dvbs_channel_arrays">
+        <item>@string/dvbs_channel_free</item>
+        <item>@string/dvbs_channel_all</item>
+</string-array>
+<string-array name="dvbs_antenna_type_arrays">
+        <item>@string/dvbs_antenna_type_universal</item>
+        <item>@string/dvbs_antenna_type_singlecable</item>
+</string-array>
+<string-array name="dvbs_user_band_arrays">
+        <item>@string/dvbs_user_band_1</item>
+        <item>@string/dvbs_user_band_2</item>
+        <item>@string/dvbs_user_band_3</item>
+        <item>@string/dvbs_user_band_4</item>
+        <item>@string/dvbs_user_band_5</item>
+        <item>@string/dvbs_user_band_6</item>
+        <item>@string/dvbs_user_band_7</item>
+        <item>@string/dvbs_user_band_8</item>
+</string-array>
+<string-array name="dvbs_user_band_freq_arrays">
+        <item>"1210"</item>
+        <item>"1400"</item>
+        <item>"1516"</item>
+        <item>"1632"</item>
+        <item>"1748"</item>
+        <item>"1864"</item>
+        <item>"1980"</item>
+        <item>"2096"</item>
+</string-array>
+<string-array name="dvbs_position_arrays">
+        <item>@string/dvbs_tp_pol_0_unknown</item>
+        <item>@string/dvbs_position_a</item>
+        <item>@string/dvbs_position_b</item>
+        <item>@string/dvbs_position_c</item>
+        <item>@string/dvbs_position_d</item>
+</string-array>
+<string-array name="dvbs_preferred_satellite_arrays">
+<item>@string/dvbs_preferred_satellite</item>
+<item>@string/dvbs_general_satellite</item>
+</string-array>
+<string-array name="lnb_mdu1_arrays">
+<item>@string/dvbs_preferred_satellite</item>
+<item>@string/dvbs_general_satellite</item>
+</string-array>
+
+<string-array name="dvbs_tone_burst_arrays">
+        <item>@string/dvbs_tone_burst_a</item>
+        <item>@string/dvbs_tone_burst_b</item>
+        <item>@string/dvbs_tone_burst_disable</item>
+</string-array>
+
+<string-array name="dvbs_sat_on_off">
+        <item>@string/dvbs_sat_on</item>
+        <item>@string/dvbs_sat_off</item>
+</string-array>
+
+<string-array name="dvbs_sat_lnb_power">
+        <item>@string/dvbs_sat_off</item>
+        <item>@string/dvbs_sat_TUNER_LNB_POWER_13V_18V</item>
+        <item>@string/dvbs_sat_TUNER_LNB_POWER_14V_19V</item>
+        <item>@string/dvbs_sat_on</item>
+</string-array>
+
+<string-array name="dvbs_sat_lnbfreq">
+        <item>@string/lnb_universal</item>
+        <item>9750,10700</item>
+        <item>9750,10750</item>
+        <item>5150</item>
+        <item>5750</item>
+        <item>9750</item>
+        <item>10600</item>
+        <item>10750</item>
+        <item>11250</item>
+        <item>11300</item>
+        <item>11475</item>
+</string-array>
+
+
+</resources>

@@ -29,7 +29,7 @@
 	<string name="setup_channel_scan_status">狀態： 掃描中</string>
 	<string name="setup_channel_scan_analog">類比頻道： </string>
 	<string name="setup_channel_scan_digital">數位頻道： </string>
-	<string name="setup_cancel">取銷</string>
+	<string name="setup_cancel">取消</string>
 	<string name="setup_cancel_scan">The channel scan may take a while to
 		complete.\nStatus:Scan Cancel</string>
 	<string name="setup_channel_scan_status_complete">Status:Scan Complete</string>
@@ -197,7 +197,7 @@
 	<!-- for capture logo (YELLOW KEY) -->
 	<string name="cplogo_title">Capture Logo</string>
 	<string name="cplogo_bt_ok">確定</string>
-	<string name="cplogo_bt_cancel">取銷</string>
+	<string name="cplogo_bt_cancel">取消</string>
 	<string name="cplogo_bt_full_screen">Full Screen</string>
 	<string name="cplogo_bt_special_area">Special Area</string>
 	<string name="cplogo_bt_no">否</string>

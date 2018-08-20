@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="mmp_test">This is test data\n file name \n img\n test
+</string>
+	<string name="mmp_menu">ዝርዝር</string>
+<string name="mmp_menu_sort">መደርደር</string>
+<string name="mmp_menu_mediatype">የሚዲያ ዓይነት</string>
+<string name="mmp_menu_thumb">ማጠቃለያ መጠን</string>
+<string name="mmp_menu_copy">መቅዳት</string>
+<string name="mmp_menu_paste">ለጥፍ</string>
+<string name="mmp_menu_delete">አጥፋ</string>
+<string name="mmp_menu_recur">ድጋሚ ፓርሰር</string>
+<string name="mmp_menu_not_recur">መደበኛ ፓርሰር</string>
+<string name="mmp_menu_photoframe">የፎቶ ማቀፊያ</string>
+<string name="mmp_menu_photo_frame">የፎቶ ክፈፍ ምስል ተዘጋጅቷል</string>
+
+<string name="mmp_menu_play">ማጫወት</string>
+<string name="mmp_menu_pause">ማቆም</string>
+<string name="mmp_menu_repeat">መድገም</string>
+<string name="mmp_menu_shuffle">በውዝ</string>
+<string name="mmp_menu_duration">ቆይታ</string>
+<string name="mmp_menu_effect">ውጤት</string>
+<string name="mmp_menu_showinfo">መረጃ አሳይ</string>
+<string name="mmp_menu_frame">የፎቶግራፍ ማቀፊያ ምስል</string>
+<string name="mmp_menu_rotate">ማዞር</string>
+<string name="mmp_menu_3d_photo">3ዲ ፎቶ</string>
+
+<string name="mmp_menu_display">የማሳያ መስመር</string>
+<string name="mmp_menu_timeoffset">የጊዜ ማካካሻ</string>
+<string name="mmp_menu_encoding">መቀየር</string>
+
+<string name="mmp_menu_picturemode"> የስእል መንገድ</string>
+<string name="mmp_menu_screenmode">የመመልከቻ ሞድ</string>
+
+<string name="mmp_menu_font">ቅርጸ ቁምፊ</string>
+
+<string name="mmp_menu_size">መጠን:</string>
+<string name="mmp_menu_style">ቅጥ</string>
+<string name="mmp_menu_color">ቀለም</string>
+<!-- child menu -->
+
+<string name="mmp_menu_date">ቀን</string>
+<string name="mmp_menu_name">ስም</string>
+<string name="mmp_menu_album">አልበም</string>
+<string name="mmp_menu_artist">አርቲስት</string>
+<string name="mmp_menu_genre">ዘውግ</string>
+<string name="mmp_menu_type">ይተይቡ</string>
+
+<string name="mmp_menu_phototext">ፎቶ</string>
+<string name="mmp_menu_music">ዲምጽ</string>
+<string name="mmp_menu_video">ቪዲዮ</string>
+<string name="mmp_menu_text">ጽሑፍ</string>
+<string name="mmp_menu_dmr">Dmr</string>
+<string name="mmp_menu_small">ትንሽ</string>
+<string name="mmp_menu_medium">መሀከለኛ</string>
+<string name="mmp_menu_large">ትልቅ</string>
+<string name="mmp_menu_onephotomode">አንድ ፎቶሞድ</string>
+	<string name="mmp_menu_datafraveler">DataTraveler G2</string>
+<string name="mmp_menu_none">የለም</string>
+<string name="mmp_menu_repeatone">አንድ መድገም</string>
+<string name="mmp_menu_repeatall">ሁሉንም ድገም</string>
+<string name="mmp_menu_shuffleoff">በውዙን አጥፋ</string>
+<string name="mmp_menu_shuffleon">በውዙን አብራ</string>
+<string name="mmp_menu_short">አጭር</string>
+<string name="mmp_menu_long">ረዥም</string>
+	<string name="mmp_menu_1x">1 X</string>
+	<string name="mmp_menu_2x">2 X</string>
+	<string name="mmp_menu_4x">4 X</string>
+<string name="mmp_menu_dissolve">ይሟሟ</string>
+<string name="mmp_menu_wiperight">ወደ ቀኝ ጥረግ</string>
+<string name="mmp_menu_wipeleft">ወደ ግራ ጥረግ</string>
+<string name="mmp_menu_wipeup">ወደላይ አጥፋ</string>
+<string name="mmp_menu_wipedown">ወደታች አጥፋ</string>
+<string name="mmp_menu_boxin">ሣጥን ውስጥ</string>
+<string name="mmp_menu_boxout">ሳጥን ውጣ</string>
+
+<string name="mmp_menu_random">በዘፈቀደ</string>
+
+
+<string name="mmp_menu_off">ጠፋ</string>
+<string name="mmp_menu_singleline">ነጠላ መስመር</string>
+<string name="mmp_menu_multiline">ባለ ብዙ መስመር</string>
+<string name="mmp_menu_auto">ራስ</string>
+<string name="mmp_menu_userdefine">ተጠቃሚ የሚፈታው</string>
+<string name="mmp_menu_gb">GB</string>
+	<string name="mmp_menu_big5">Big5</string>
+	<string name="mmp_menu_utf8">Utf8</string>
+	<string name="mmp_menu_utf16">Utf16</string>
+<string name="mmp_menu_user"> ተጠቃሚ </string>
+<string name="mmp_menu_cinema">ሲኒማ</string>
+<string name="mmp_menu_sport"> ስፖርት </string>
+<string name="mmp_menu_vivid">Vivid</string>
+<string name="mmp_menu_hibright">ሃይ-ብራይት</string>
+<string name="mmp_menu_normal"> የተለመደ </string>
+<string name="mmp_menu_letterbox">ደብዳቤ ሳጥን</string>
+<string name="mmp_menu_scan">ቃኝ</string>
+<string name="mmp_menu_zoom">ማጉላት</string>
+<string name="mmp_menu_dotbydot">ነጥብ በነጥብ</string>
+
+<string name="mmp_menu_regular">መደበኛ</string>
+<string name="mmp_menu_italic">ሰያፍ</string>
+<string name="mmp_menu_bold">ደማቅ</string>
+<string name="mmp_menu_outline">ደማቅ ሰያፍ</string>
+<string name="mmp_menu_white">ነጭ</string>
+<string name="mmp_menu_blue">ሰማያዊ</string>
+<string name="mmp_menu_red">ቀይ</string>
+<string name="mmp_menu_green">አረንጓዴ</string>
+<string name="mmp_menu_black">ጥቁር</string>
+<string name="mmp_menu_lyricoptions">የግጥም አማራጮች</string>
+
+<string name="mmp_menu_showscore">ስፔክትረም አሳይ</string>
+<string name="mmp_menu_hidescore">ስፔክትረም ደብቅ</string>
+<string name="mmp_menu_onlyaudio">ድምፅ ብቻ</string>
+
+
+
+<string name="mmp_photo">ፎቶ</string>
+<string name="mmp_audio">ዲምጽ</string>
+<string name="mmp_video">ቪዲዮ</string>
+<string name="mmp_text">ጽሑፍ</string>
+<string name="mmp_select">መምረጥ</string>
+<string name="mmp_input">አስገባ</string>
+<string name="mmp_exit">ይውጣ</string>
+<string name="mmp_emptyfile">የአሁኑ አቃፊ ባዶ ነው!</string>
+<string name="mmp_reutip">ይህንን አቃፊ በመተንተን ላይ ነው፣ እባክዎ ይጠብቁ ...</string>
+	<string name="mmp_filepath">\</string>
+<string name="mmp_pop_repeat_tvrepeat">ሁሉንም ድገም</string>
+<string name="mmp_pop_repeat_tvsingle">አንድ መድገም</string>
+<string name="mmp_pop_repeat_tvnone"> </string>
+<string name="mmp_pop_time_tv">አጭር</string>
+<string name="mmp_pop_view_tv">የለም</string>
+	<string name="mmp_pop_menu">ዝርዝር</string>
+<string name="mmp_pop_enter">አስገባ</string>
+<string name="mmp_pop_zoomscale">X</string>
+	<string name="mmp_pop_starttime">00:00:00</string>
+	<string name="mmp_pop_pagesize">01\//01</string>
+	<string name="mmp_tip_play">&#160;&#160;Play</string>
+	<string name="mmp_tip_exit">&#160;&#160;Exit</string>
+	<string name="mmp_tip_enter">&#160;&#160;Enter </string>
+	<string name="mmp_tip_select">&#160;&#160;Select</string>
+
+
+
+<string name="mmp_info_album">አልበም:</string>
+<string name="mmp_info_orientation">አቀማመጥ:</string>
+<string name="mmp_info_artist">አርቲስት</string>
+<string name="mmp_info_name">ስም:</string>
+<string name="mmp_info_date">ቀን:</string>
+<string name="mmp_info_size">መጠን:</string>
+<string name="mmp_info_next">ቀጣይ:</string>
+<string name="mmp_info_audio">ድምጽ:</string>
+<string name="mmp_info_exposure">የሚታይበት ጊዜ:</string>
+<string name="mmp_info_fnumber">FNUMBER:</string>
+<string name="mmp_info_program">የሚታይ ፕሮግራም:</string>
+<string name="mmp_info_colorspace">የቀለም ቦታ:</string>
+<string name="mmp_info_title">ርእስ፡</string>
+<string name="mmp_info_genre">ዘውግ:</string>
+<string name="mmp_info_year">አመት:</string>
+<string name="mmp_info_duration">የጊዜ ርዝመት:</string>
+<string name="mmp_info_director">ዳይሬክተር:</string>
+<string name="mmp_info_copyrght">የቅጂ መብት:</string>
+
+<string name="mmp_info_lastline">የመጨረሻ መስመር</string>
+<string name="mmp_info_nextline">ቀጣይ መስመር</string>
+<string name="mmp_info_lastpage">የመጨረሻ ገጽ</string>
+<string name="mmp_info_nextpage">ቀጣይ ገጽ</string>
+
+<string name="mmp_info_nolrc">lrc የለም</string>
+	<string name="mmp_time_separator">:</string>
+	<string name="mmp_time_inti">00</string>
+
+<!-- Network -->
+<string name="mmp_loading_tip">ይህንን አቃፊ በመተንተን ላይ ነው፣ እባክዎ ይጠብቁ ...</string>
+<string name="mmp_user_name">የተጠቃሚ ስም</string>
+<string name="mmp_password">ይለፍ ቃል</string>
+<string name="mmp_confirm">አረጋግጥ</string>
+	<string name="mmp_vkb">Vkb</string>
+<string name="mmp_ok">እሺ</string>
+<string name="mmp_cancel">ይቁም</string>
+
+<string name="mmp_login_failed_tip">የተጠቃሚ ስሙ ወይም ይለፍ ቃሉ ስህተት ነው!</string>
+<string name="mmp_dlnaserver_disconnected">DLNA ሰርቨሩ ጠፍቷል. እባክዎ የአውታረ መረብ እና የሰርቨሩን ሁኔታን ይመልከቱ!</string>
+<!-- Network -->
+
+<string name="mmp_title_copy">መቅዳት</string>
+<string name="mmp_title_confirm_replace">የፋይል መቀየሩን ያረጋግጡ</string>
+<string name="mmp_title_confirm_delete">ፋይል (ሎቹ) ለመሰረዝ ያረጋግጡ </string>
+<string name="mmp_message_copy">%1$s\nከ %2$s\nእስከ %3$s</string>
+	<string name="mmp_message_confirm_replace"> This folder already contains a file named\n%s
+</string>
+	<string name="mmp_message_confirm_delete"> Are you sure to delete the select file(s)?
+</string>
+
+<string name="mmp_yes">አዎ</string>
+<string name="mmp_yes_to_all">አዎ ሁሉም ነው</string>
+<string name="mmp_no">አይደለም</string>
+
+<string name="mmp_capture_title">አርማው ይነሳ</string>
+<string name="mmp_capture_confirm">ይህን ማያ ገጽ ለማንሳት ይፈልጋሉ?</string>
+<string name="mmp_toast_no_photoframe">የሚጫወት የፎቶ ማቀፊያ ምስል የለም</string>
+
+<string name="mmp_video_notsupport">የቪዲዮው ኮዴክ አይደገፍም</string>
+<string name="mmp_audio_notsupport">የድምጹ ቅርጸት አይደገፍም</string>
+<string name="mmp_video_only">ቪድዮ ብቻ</string>
+<string name="mmp_frame_photo_sleeptime">የማስተኛ ጊዜ</string>
+<string name="mmp_sleeptime_lable">የማስተኛ ጊዜ:</string>
+<string name="mmp_video_stopresume">ማስቀጠሉን ማቆም</string>
+<string name="mmp_can_notpause">ማቆም አይቻልም</string>
+
+<string name="mmp_photo_type_notsupport">ፋይል አይደገፍም</string>
+
+<string name="mmp_lable_rorate">ማዞር</string>
+	<string name="mmp_lable_degree">°</string>
+<string name="mmp_lable_subtitle_off">ጠፋ</string>
+
+<string name="mmp_info_whitebalance">ቀለም ማመጣጠኛ:</string>
+<string name="mmp_info_make">ፍጠር:</string>
+<string name="mmp_info_model">ሞዴል:</string>
+<string name="mmp_info_flash">ብልጭታ:</string>
+<string name="mmp_info_focallength">የሌንስ ርቀት:</string>
+<string name="mmp_menu_pic_setting">ስእል ማስተካከያ</string>
+<string name="mmp_menu_audio_setting">የድምጽ ቅንብር</string>
+
+<string name="mmp_file_notsupport">ፋይል አይደገፍም</string>
+	<string name="mmp_notsupport">Not support</string>
+<string name="mmp_seek_notsupport">መሻት አይደገፍም</string>
+<string name="mmp_step_notsupport">ደረጃ አይደገፍም</string>
+<string name="mmp_featue_notsupport">ባህሪው አይገኝም</string>
+<string name="mmp_buffer_not_enough">ማጠራቀሚያ በቂ አይደለም</string>
+<string name="mmp_nodevice">ምንም መሣሪያ አልተገናኘም!</string>
+<string name="mmp_time_out">ያስገቡት የጊዜ ኮድ የተሳሳተ ነው! \n እባክዎን ከአጠቃላይ ጊዜ ያነሰ መሆኑን ያረጋግጡ</string>
+<string name="mmp_file_corrupt">ፋይሉ ተበላሽቷል</string>
+<string name="mmp_menu_mount_iso">የአሁኑን iso ፋይል ይጫኑ</string>
+<string name="mmp_menu_unmount_iso">የአሁኑን መሳሪያ ማንቃት</string>
+
+<string name="mmp_media_info_scrambled_audio_video_service">የተደባለቀ ቪዲዮ እና ኦዲዮ</string>
+<string name="mmp_media_info_scrambled_audio_clear_video_service">የተደባለቀ ድምጽ</string>
+<string name="mmp_media_info_scrambled_audio_no_video_service">የተደባለቀ ድምጽ፣ ድምጽ ብቻ</string>
+<string name="mmp_media_info_scrambled_video_clear_audio_service">የተደባለቀ ቪዲዮ</string>
+<string name="mmp_media_info_scrambled_video_no_audio_service">የተደባለቀ ቪዲዮ፣ ቪዲዮ ብቻ</string>
+
+
+
+	<string name="txture_0">"defaultVideo1.PNG"</string>
+    <string name="txture_1">"defaultVideo2.PNG"</string>
+    <string name="txture_2">"defaultVideo3.PNG"</string>
+    <string name="txture_3">"defaultVideo4.PNG"</string>
+    <string name="txture_4">"defaultVideo5.PNG"</string>
+    <string name="txture_5">"defaultVideo6.PNG"</string>
+    <string name="txture_6">"defaultVideo7.PNG"</string>
+    <string name="txture_7">"defaultVideo8.PNG"</string>
+    <string name="txture_8">"defaultVideo9.PNG"</string>
+
+<string name="mmp_txt_const_font">አይደለም</string>
+
+<string name="mmp_drm_register">መሳሪያዎ ይህን በ Divx @ የተጠበቀ ቪዲዮ ለማጫወት አይፈቀድለትም</string>
+<string name="mmp_drm_register_expired">Divx@ ኪራይ ጊዜው አልፎበታል</string>
+<string name="mmp_drm_register_used">የ Divx@ ኪራዩ  ከ%2$s የ \n %1$s ያህል እይታዎችን ተጠቅሟል</string>
+<string name="mmp_drm_register_continue">ይቀጥል?</string>
+
+<string name="mmp_divx_title">ርእስ</string>
+<string name="mmp_divx_edition">እትም</string>
+<string name="mmp_divx_chapter">ምዕራፍ</string>
+
+
+<string name="mmp_divx_titleName">ርእስ፡</string>
+<string name="mmp_divx_chapterName">ምዕራፍ:</string>
+<string name="mmp_divx_rateName">ደረጃ:</string>
+<string name="mmp_divx_audioName">ድምጽ:</string>
+<string name="mmp_divx_subtitleName">ግርጌ ርእስ </string>
+<string name="mmp_dmr_starting">DMR ማስጀመር</string>
+<string name="mmp_dmr_started">DMR ተጀምሯል፣ እባክዎ ይጠቀሙ</string>
+<string name="mmp_dmr_network_failed">DMR ማስጀመሩ አልተሳካም፣ አውታረ መረብ አልተገኘም</string>
+<string name="mmp_dmr_url_failed">URL ማንሳት</string>
+
+    <string name="mmp_wrong_psw">Password incorrect. Total %1$s Tries,%2$s Tried,Try again! </string>
+<string name="mmp_subtitle_encoding">ንዑስ ርዕስ ቅየራ</string>
+<string name="mmp_last_memory">የመጨረሻው ማህደረ ትውስታ</string>
+<string name="mmp_last_memory_off">ጠፋ</string>
+<!--delete position item and change tittle 'on' by yangxiong for mmp lastmemory
+<string name="menu_video_mjc_demo_on">በራ</string>-->
+<string name="mmp_last_memory_position">ቦታ</string>
+
+<!-- CI PIN -->
+<string name="ci_menu_pin_correct">ትክክል!</string>
+	<string name="ci_menu_pin_outoftry">Three times fail</string>
+
+<string name="mmp_video_seektime_title">ወደ ሰአቱ ሂድ</string>
+    <string name="mmp_video_seektime_colon"> : </string>
+    <string name="mmp_video_seektime_warn_inputnothing">Warning : You input nothing!</string>
+    <string name="mmp_video_seektime_warn_timetoobigger">Warning : The input time must be less than the duration of the video!</string>
+    <string name="mmp_video_not_seekable">Warning : This video isn\'t seekable!</string>
+</resources>

@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<string name="mmp_test">Hii ni data ya kutahini\n jina la faili \n img\n utahini</string>
+	<string name="mmp_menu">Menyu</string>
+	<string name="mmp_menu_sort">Panga</string>
+	<string name="mmp_menu_mediatype">Aina ya Vyombo</string>
+	<string name="mmp_menu_thumb">Ukubwa wa Taswira</string>
+	<string name="mmp_menu_copy">Nakili</string>
+	<string name="mmp_menu_paste">Weka</string>
+	<string name="mmp_menu_delete">Futa</string>
+	<string name="mmp_menu_recur">Uchambuzi wa Kujirudia</string>
+	<string name="mmp_menu_not_recur">Uchambuzi wa Kawaida</string>
+	<string name="mmp_menu_photoframe">Fremu ya Picha</string>
+	<string name="mmp_menu_photo_frame">Sura ya Fremu ya Picha imewekwa SAWA</string>
+
+	<string name="mmp_menu_play">Cheza</string>
+	<string name="mmp_menu_pause">Sitisha</string>
+	<string name="mmp_menu_repeat">Rudia</string>
+	<string name="mmp_menu_shuffle">Changanya</string>
+	<string name="mmp_menu_duration">Muda</string>
+	<string name="mmp_menu_effect">Athari</string>
+	<string name="mmp_menu_showinfo">Onyesha Maelezo</string>
+	<string name="mmp_menu_frame">Sura ya Fremu ya Picha</string>
+	<string name="mmp_menu_rotate">Zungusha</string>
+	<string name="mmp_menu_display">Onyesha Mstari</string>
+	<string name="mmp_menu_timeoffset">Wakati kukubaliana</string>
+	<string name="mmp_menu_encoding">Ufichaji</string>
+
+	<string name="mmp_menu_picturemode">Modi ya Picha</string>
+	<string name="mmp_menu_screenmode">Mbinu Kiwambo</string>
+
+	<string name="mmp_menu_font">Fonti</string>
+
+	<string name="mmp_menu_size">Ukubwa</string>
+	<string name="mmp_menu_style">Mtindo</string>
+	<string name="mmp_menu_color">Rangi</string>
+	<string name="mmp_menu_date">Tarehe</string>
+	<string name="mmp_menu_name">Jina</string>
+	<string name="mmp_menu_album">Albamu</string>
+	<string name="mmp_menu_artist">Msanii</string>
+	<string name="mmp_menu_genre">Jamii</string>
+	<string name="mmp_menu_type">Aina</string>
+	
+	<string name="mmp_menu_phototext">Picha</string>
+	<string name="mmp_menu_music">Sauti</string>
+	<string name="mmp_menu_video">VIDEO</string>
+	<string name="mmp_menu_text">Maandishi</string>
+	<string name="mmp_menu_small">Dogo</string>
+	<string name="mmp_menu_medium">Kati</string>
+	<string name="mmp_menu_large">Kubwa</string>
+	<string name="mmp_menu_onephotomode">Mbinu ya Picha Moja</string>
+	<string name="mmp_menu_none">Hakuna</string>
+	<string name="mmp_menu_repeatone">Rudia Moja</string>
+	<string name="mmp_menu_repeatall">Rudia Zote</string>
+	<string name="mmp_menu_shuffleoff">Uchanganyaji Umezimwa</string>
+	<string name="mmp_menu_shuffleon">Uchanganyaji Umewashwa</string>
+	<string name="mmp_menu_short">Fupi</string>
+	<string name="mmp_menu_long">Refu</string>
+	<string name="mmp_menu_dissolve">Yeyusha</string>
+	<string name="mmp_menu_wiperight">Pangusa kulia</string>
+	<string name="mmp_menu_wipeleft">Pangusa kushoto</string>
+	<string name="mmp_menu_wipeup">Pangusa juu</string>
+	<string name="mmp_menu_wipedown">Pangusa chini</string>
+	<string name="mmp_menu_boxin">Boksi ndani</string>
+	<string name="mmp_menu_boxout">Boksi Nje</string>
+
+	<string name="mmp_menu_random">Ovyo</string>
+
+
+	<string name="mmp_menu_off">Umezimwa</string>
+	<string name="mmp_menu_singleline">Mstari Mmoja</string>
+	<string name="mmp_menu_multiline">Mistari Kadhaa</string>
+	<string name="mmp_menu_auto">Kujiendesha</string>
+	<string name="mmp_menu_userdefine">Mtumiaji kufafanua</string>
+	<string name="mmp_menu_user"> Mtumiaji </string>
+	<string name="mmp_menu_cinema">Sinema</string>
+	<string name="mmp_menu_sport">Mchezo</string>
+	<string name="mmp_menu_vivid">Ng\'avu</string>
+	<string name="mmp_menu_hibright">Juu-Mwanga</string>
+	<string name="mmp_menu_normal">Kawaida</string>
+	<string name="mmp_menu_letterbox">Boksi la barua</string>
+	<string name="mmp_menu_scan">Skani</string>
+	<string name="mmp_menu_zoom">Kuza</string>
+	<string name="mmp_menu_dotbydot">Doa kwa Doa</string>
+
+	<string name="mmp_menu_regular">Kawaida</string>
+	<string name="mmp_menu_italic">Mlazo</string>
+	<string name="mmp_menu_bold">Mkazo</string>
+	<string name="mmp_menu_outline">Mkazo Mlazo</string>
+	<string name="mmp_menu_white">Nyeupe</string>
+	<string name="mmp_menu_blue">Samawati</string>
+	<string name="mmp_menu_red">Nyekundu</string>
+	<string name="mmp_menu_green">Kijani</string>
+	<string name="mmp_menu_black">Nyeusi</string>
+	<string name="mmp_menu_lyricoptions">Chaguo za Mistari</string>
+
+	<string name="mmp_menu_showscore">Onyesho Wigo</string>
+	<string name="mmp_menu_hidescore">Ficha Wigo</string>
+	<string name="mmp_menu_onlyaudio">Sauti Peke Yake</string>
+
+
+
+	<string name="mmp_photo">Picha</string>
+	<string name="mmp_audio">Sauti</string>
+	<string name="mmp_video">VIDEO</string>
+	<string name="mmp_text">Maandishi</string>
+	<string name="mmp_select">Chagua</string>
+	<string name="mmp_input">INGIZA</string>
+	<string name="mmp_exit">TOKA</string>
+	<string name="mmp_emptyfile">Sanduku la sasa halina kitu!</string>
+	<string name="mmp_reutip">Inachambua sanduku hili, tafadhali subiri...</string>
+	<string name="mmp_pop_repeat_tvrepeat">Rudia Zote</string>
+	<string name="mmp_pop_repeat_tvsingle">Rudia Moja</string>
+	<string name="mmp_pop_time_tv">Fupi</string>
+	<string name="mmp_pop_view_tv">Hakuna</string>
+	<string name="mmp_pop_menu">Menyu</string>
+	<string name="mmp_pop_enter">INGIZA</string>
+	<string name="mmp_info_album">Albamu:</string>
+	<string name="mmp_info_orientation">Mwelekeo:</string>
+	<string name="mmp_info_artist">Msanii</string>
+	<string name="mmp_info_name">Jina:</string>
+	<string name="mmp_info_date">Tarehe:</string>
+	<string name="mmp_info_size">Ukubwa:</string>
+	<string name="mmp_info_next">Ijao:</string>
+	<string name="mmp_info_audio">Sauti</string>
+	<string name="mmp_info_exposure">Wakati tokeza:</string>
+	<string name="mmp_info_fnumber">Fnambari:</string>
+	<string name="mmp_info_program">Programu tokeza:</string>
+	<string name="mmp_info_colorspace">Nafasi rangi:</string>
+	<string name="mmp_info_title">Kichwa:</string>
+	<string name="mmp_info_genre">Jamii:</string>
+	<string name="mmp_info_year">Mwaka:</string>
+	<string name="mmp_info_duration">Muda:</string>
+	<string name="mmp_info_director">Mkurugenzi:</string>
+	<string name="mmp_info_copyrght">Hati miliki</string>
+
+	<string name="mmp_info_lastline">Mstari Iliyopita</string>
+	<string name="mmp_info_nextline">Mstari Ujao</string>
+	<string name="mmp_info_lastpage">Kurasa Iliyopita</string>
+	<string name="mmp_info_nextpage">Kurasa Ijayo</string>
+
+	<string name="mmp_info_nolrc">Hakuna lrc </string>
+	<string name="mmp_loading_tip">Inachambua sanduku hili, tafadhali subiri...</string>
+	<string name="mmp_user_name">Jina la mtumiaji</string>
+	<string name="mmp_password">Nywila</string>
+	<string name="mmp_confirm">Kubali</string>
+	<string name="mmp_ok">Sawa</string>
+	<string name="mmp_cancel">Ghairi</string>
+
+	<string name="mmp_login_failed_tip">Jinamtumiaji au nywila ni makosa!</string>
+	<string name="mmp_dlnaserver_disconnected">Sava DLNA imepotea, tafadhali cheki hali za sava na mtandao! </string>
+	<string name="mmp_title_copy">Inanakili</string>
+	<string name="mmp_title_confirm_replace">Hakikisha Kuchukua Nafasi kwa Faili</string>
+	<string name="mmp_title_confirm_delete">Hakikisha Ufutaji Faili</string>
+	<string name="mmp_message_confirm_replace">Sanduku hili tayari lina faili inayoitwa\n%s</string>
+	<string name="mmp_message_confirm_delete">Una uhakika kufuta faili chaguliwa?</string>
+
+	<string name="mmp_yes">Ndiyo</string>
+	<string name="mmp_yes_to_all">Ndio kwa Zote</string>
+	<string name="mmp_no">Hapana</string>
+
+	<string name="mmp_capture_title">Nasa Ishara</string>
+	<string name="mmp_capture_confirm">Unataka kunasa skrini hii ?</string>
+	<string name="mmp_toast_no_photoframe">Hakuna umbo la fremu picha kucheza</string>
+
+	<string name="mmp_video_notsupport">Kodeki Filamu haikubaliki</string>
+	<string name="mmp_audio_notsupport">Muundo wa sauti haukubaliki</string>
+	<string name="mmp_video_only">Filamu pekee</string>
+	<string name="mmp_frame_photo_sleeptime">Wakati lala</string>
+	<string name="mmp_sleeptime_lable">Wakati lala:</string>
+	<string name="mmp_video_stopresume">Sitisha Kurejea</string>
+	<string name="mmp_can_notpause">Haiwezi kusitishwa</string>
+	
+	<string name="mmp_photo_type_notsupport">Faili haikubaliki</string>
+
+	<string name="mmp_lable_rorate">Zungusha</string>
+	<string name="mmp_lable_subtitle_off">Umezimwa</string>
+
+	<string name="mmp_info_whitebalance">Nyeupe Mizani:</string>
+	<string name="mmp_info_make">Mtengenezaji:</string>
+	<string name="mmp_info_model">mfano:</string>
+	<string name="mmp_info_flash">shutter:</string>
+	<string name="mmp_info_focallength">Focal Length:</string>
+	<string name="mmp_menu_pic_setting">mpangilio wa picha</string>
+	<string name="mmp_menu_audio_setting">Muundo Sauti</string>
+
+	<string name="mmp_file_notsupport">Faili haikubaliki</string>
+	<string name="mmp_notsupport">Haikubaliki</string>
+	<string name="mmp_seek_notsupport">Utafutaji haukubaliki</string>
+	<string name="mmp_step_notsupport">Hatua haikubaliki</string>
+	<string name="mmp_featue_notsupport">Kipengele hakipatikani</string>
+	<string name="mmp_buffer_not_enough">Bafari haitoshi</string>
+	<string name="mmp_nodevice">Hakuna Kifaa Kilichounganishwa!</string>
+	<string name="mmp_time_out">Kodi wakati uliyoingiza si sawa!\nTafadhali hakikisha ni chini ya wakati wote</string>
+    <string name="mmp_file_corrupt">Faili imeharibika</string>
+    <string name="mmp_menu_mount_iso">Pandisha faili iso ya sasa</string>
+	<string name="mmp_menu_unmount_iso">Shukisha kifaa cha sasa</string>
+
+	<string name="mmp_media_info_scrambled_audio_video_service">Haribu Filamu na Sauti</string>
+	<string name="mmp_media_info_scrambled_audio_clear_video_service">Haribu Sauti</string>
+	<string name="mmp_media_info_scrambled_audio_no_video_service">Haribu Sauti, Sauti pekee</string>
+	<string name="mmp_media_info_scrambled_video_clear_audio_service">Haribu Filamu</string>
+	<string name="mmp_media_info_scrambled_video_no_audio_service">Haribu Filamu, Filamu Pekee</string>
+	
+	
+	
+    <string name="mmp_txt_const_font">Hapana</string>
+    
+    <string name="mmp_drm_register_continue">Endelea ?</string>
+    
+    <string name="mmp_divx_title">Kichwa</string>
+    <string name="mmp_divx_edition">Toleo</string>
+    <string name="mmp_divx_chapter">Sura</string>
+    
+    
+    <string name="mmp_divx_titleName">Kichwa:</string>
+    <string name="mmp_divx_chapterName">Sura:</string>
+    <string name="mmp_divx_rateName">Kiwango:</string>
+    <string name="mmp_divx_audioName">Sauti</string>
+    <string name="mmp_divx_subtitleName">Tafsiri za Filamu:</string>
+    <string name="mmp_dmr_starting">DMR inafunguliwa</string>
+    <string name="mmp_dmr_started">DMR imefunguliwa,Tafadhali tumia</string>
+    <string name="mmp_dmr_network_failed">DMR imeshindwa kufunguka,Mtandao haupatikani</string>
+    <string name="mmp_dmr_url_failed">URL Haifai</string>
+    
+    <string name="mmp_wrong_psw">Nywila si sawa. Jumla%1$s Majaribio,%2$s Umejaribu, Jaribu tena!</string>
+	<string name="mmp_subtitle_encoding">Sabtaitoli Imegeuzwa</string>
+	<string name="mmp_last_memory">Kumbukumbu Mwisho</string>
+	<string name="mmp_last_memory_off">Umezimwa</string>
+	<string name="mmp_last_memory_time">Wakati</string>
+	<string name="mmp_last_memory_position">Nafasi</string>
+
+	<string name="ci_menu_pin_correct">Sawa!</string>
+	<string name="ci_menu_pin_outoftry">Imeshindwa mara tatu</string>
+	<string name="mmp_menu_3d_photo">Picha 3D</string>
+	<string name="mmp_menu_dmr">Dmr</string>
+	<string name="mmp_pop_zoomscale">X</string>
+	<string name="mmp_tip_play">Cheza</string>
+	<string name="mmp_tip_exit">Toka</string>
+	<string name="mmp_tip_select">Chagua</string>
+	<string name="mmp_drm_register">Kifaa chako hakiruhusiwi \n kucheza filamu hii iliyolindwa na Divx@</string>
+	<string name="mmp_drm_register_expired">Divx@ iliyokodishwa imeisha</string>
+	<string name="mmp_drm_register_used">Divx@ iliyokodishwa imetumia mitazamo %1$s ya %2$s</string>
+	<string name="mmp_video_seektime_title">Nendakwa Wakati</string>
+</resources>

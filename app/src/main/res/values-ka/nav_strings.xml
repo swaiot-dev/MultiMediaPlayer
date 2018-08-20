@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<string name="nav_parent_psw">პაროლი</string>
+	<string name="setup_ini">საწყისი დაყენება </string>
+	<string name="setup_back">უკან</string>
+	<string name="setup_select">შერჩევა</string>
+	<string name="setup_next">შემდეგი</string>
+	<string name="setup_exit">გასასვლელი</string>
+	<string name="setup_welcome">კეთილი იყოს თქვენი მობრძანება </string>
+	<string name="setup_language">ენა </string>
+	<string name="setup_select_language">გთხოვთ აირჩიეთ თქვენი ენა:</string>
+	<string name="setup_select_one_op">თქვენ შეგიძლიათ ამოირჩიოთ მხოლოდ ერთი ოპერატორი
+		შემდეგი სიიდან: </string>
+	<string name="setup_tunner">ძიების რეჟიმი</string>
+	<string name="setup_select_tuner">გთხოვთ ამოირჩიოთ თქვენი ამწყობის რეჟიმი: </string>
+	<string name="setup_channelscan">არხის სკანირება</string>
+	<string name="setup_set_setps_us">ჯერ, შეაერთეთ კაბელი ან ანტენა. \nდაწყება არხის
+		სკანირების ახლა? \nთუ გამოტოვებთ ამ საფეხურს, მაშინ არხის სკანირება
+		შესაძლებელი იქნება მენიუდან.</string>
+	<string name="setup_language_english">ინგლისური</string>
+	<string name="setup_language_chinese">გამარტივებული ჩინური</string>
+	<string name="setup_tuner_antenna">ანტენა</string>
+	<string name="setup_tuner_cable">კაბელი</string>
+	<string name="setup_tuner_satellite">სატელიტი</string>
+	<string name="satellites">სატელიტები </string>
+	<string name="setup_scan">სკანირება</string>
+	<string name="setup_skip_scan">სკანირების გამოტოვება</string>
+	<string name="setup_complete">დასრულება</string>
+	<string name="setup_channel_scan_note">არხის სკანირების დასრულებას შესაძლოა გარკვეული დრო
+		დასჭირდეს.</string>
+	<string name="setup_channel_scan_status">სტატუსი: მიმდინარეობს სკანირება</string>
+	<string name="setup_channel_scan_analog">ანალოგი არხები:</string>
+	<string name="setup_channel_scan_digital">ციფრული არხები:</string>
+	<string name="setup_cancel">გაუქმება</string>
+	<string name="setup_cancel_scan">სტატუსი: სკანირების გაუქმება</string>
+	<string name="setup_scan_error">სტატუსი: სკანირების შეცდომა </string>
+	<string name="setup_channel_scan_status_complete">სტატუსი: სკანირება დასრულებულია </string>
+	<string name="dvbs_operator_perferred_satellite">რჩეული სატელიტი </string>
+	<string name="dvbs_operator_general_satellite">საერთო სატელიტი </string>
+	<string name="table">გვერდი ცხრილი </string>
+	<string name="nav_test_tv">ტელევიზია</string>
+	<string name="nav_source_sub_title">ქვე</string>
+	<string name="nav_please_scan_channels">გთხოვთ დაასკანიროთ არხები! </string>
+	<string name="nav_no_function">არ არის ფუნქცია </string>
+	<string name="nav_select_list">სიის ამორჩევა </string>
+	<string name="nav_page_up">გვერდი ზემოთ </string>
+	<string name="nav_page_down">გვერდი ქვემოთ </string>
+	<string name="nav_fav_move_up">ზემოთ აწევა</string>
+	<string name="nav_fav_move_down">ქვემოთ ჩამოწევა</string>
+	<string name="nav_exit">გასასვლელი</string>
+	<string name="nav_list_satellite">სატელიტის სია </string>
+	<string name="nav_satellite_list">სატელიტის არჩევა </string>
+	<string name="nav_channel_list">არხების სია</string>
+	<string name="nav_channel_selection">არხების სიის არჩევანი  </string>
+	<string name="nav_channel_details">არხების მონაცემები</string>
+	<string name="nav_volume_main">მთავარი ხმა </string>
+	<string name="nav_channel_antenna">ანტენა</string>
+	<string name="nav_favorite_list">ფავორიტი სია</string>
+	<string name="nav_favorite_select">შერჩევა</string>
+	<string name="nav_channel_infoName">Jade</string>
+	<string name="nav_channel_infoType">ანტენა</string>
+	<string name="nav_channel_infoMiddle_special">მონაცემთა მოპოვება...</string>
+	<string name="nav_channel_infoTitle">(არ არის პროგრამის სახელწოდება.)</string>
+	<string name="nav_channel_infoNextDuration">საფონდო ბირჟის შიგნით</string>
+	<string name="nav_channel_infoAudioLanguage">1/2 ჩინური</string>
+	<string name="nav_channel_infoFormatField">სტერეო</string>
+	<string name="nav_channel_infoNoProgram">(არ არის პროგრამის მონაცემები.)</string>
+	<string name="nav_channel_infoNoChannelDetail">(არ არის არხის მონაცემები.)</string>
+	<string name="nav_no_signal">არ არის სიგნალი! </string>
+	<string name="nav_no_support">არ არის მხარდაჭერა! </string>
+	<string name="nav_channel_has_locked">არხი დაბლოკილია!</string>
+	<string name="nav_input_has_locked">შეყვანა დაბლოკილია! </string>
+	<string name="nav_program_has_locked">პროგრამა დაბლოკილია! </string>
+	<string name="nav_hidden_channel">დამალული არხი!</string>
+	<string name="nav_channel_audio_scrambled">არეული აუდიო</string>
+	<string name="nav_channel_video_scrambled">არეული ვიდეო </string>
+	<string name="nav_sleep_off">გამორთვა</string>
+	<string name="nav_sleep_minutes">წუთები</string>
+	<string name="nav_resolution_null">არ არის ვიდეო </string>
+	<string name="nav_channel_retrieving">მონაცემთა მოპოვება...</string>
+	<string name="nav_unknown_audio">უცნობი აუდიო </string>
+	<string name="nav_unknown_stereo">უცნობი სტერეო </string>
+	<string name="nav_unknown_audio_sundry">უცნობი</string>
+	<string name="nav_channel_no_audio">არ არის აუდიო </string>
+	<string name="nav_epg_type">ტიპი</string>
+	<string name="nav_epg_sub_type">ქვე ტიპი </string>
+	<string name="nav_epg_zero_tip">შეკვეთილი სია </string>
+	<string name="nav_epg_book_list">შეკვეთილი ღონისძიების სია </string>
+	<string name="nav_epg_book_program_tip">\nამ პროგრამის შეკვეთა? </string>
+	<string name="nav_epg_unbook_program_tip">ეს პროგრამა უკვე \nშეკვეტილია, გსურთ მოხსნათ ეს
+		შეკვეთა? </string>
+	<string name="nav_epg_book_program_coming_tip">მოდის, გსურთ არხზე შეცვალოთ? </string>
+	<string name="nav_epg_not_rated">არ არის შეფასებული </string>
+	<string name="nav_epg_no_program_detail">(არ არის პროგრამის მონაცემი.) </string>
+	<string name="nav_epg_no_program_data">( არ არის პროგრამის მონაცემი.) </string>
+	<string name="nav_epg_no_program_title">(არ არის პროგრამის სახელწოდება.)</string>
+	<string name="nav_epg_no_title">(არ არის სათაური )</string>
+	<string name="nav_epg_unlock">განბლოკვა</string>
+	<string name="nav_epg_unschedule">განრიგიდან ამოღება </string>
+	<string name="nav_epg_schedule">განრიგი</string>
+	<string name="nav_epg_unclassified">არაკლასიფიცირებული</string>
+	<string name="nav_epg_not_support">არ აქვს მხარდაჭერა</string>
+	<string name="cplogo_title">ლოგოს დაფიქსირება </string>
+	<string name="cplogo_bt_ok">ოქეი (თანხმობა)</string>
+	<string name="cplogo_bt_cancel">გაუქმება</string>
+	<string name="cplogo_bt_full_screen">მთლიანი ეკრანი</string>
+	<string name="cplogo_bt_special_area">სპეციალური სივრცე </string>
+	<string name="cplogo_bt_no">არა</string>
+	<string name="cplogo_bt_adjust">მორგება</string>
+	<string name="cplogo_msg_which_screen">გსურთ დააფიქსიროთ სრული ეკრანი თუ განსაზღვრული
+		ადგილი? </string>
+	<string name="cplogo_msg_this_screen">გსურთ დააფიქსიროთ ამ ეკრანის გამოსახულება? </string>
+	<string name="cplogo_msg_select_position">გთხოვთ მონიშნოთ პოზიცია ლოგოს შესანახად </string>
+	<string name="cplogo_msg_capturing">დაჭერა...</string>
+	<string name="cplogo_msg_res_success">დაფიქსირება წარმატებულია</string>
+	<string name="cplogo_msg_res_fail">ვერ დაფისქრიდა, გთხოვთ თავიდან სცადოთ</string>
+	<string name="cplogo_capture_res_cancel">ეს ოპერაცია გაუქმდა </string>
+	<string name="vga_no_sinal_info">არ არის სიგნალი. კვება გაითიშება. </string>
+	<string name="epg_bottom_prev_day">წინა დღე </string>
+	<string name="epg_bottom_next_day">შემდეგი დღე</string>
+	<string name="epg_bottom_view_detail">იხილეთ დეტალურად</string>
+	<string name="epg_bottom_type_filter">აკრიფეთ ფილტრი </string>
+	<string name="epg_bottom_prev_page">გვერდი ზემოთ </string>
+	<string name="epg_bottom_next_page">გვერდი ქვემოთ </string>
+	<string name="epg_bottom_ENTER">შესვლა</string>
+	<string name="epg_rating_unclassified">არაკლასიფიცირებული</string>
+	<string name="epg_info_program_type">არცერთი</string>
+	<string name="epg_password">პაროლი</string>
+	<string name="epg_password_message">პაროლი არ არის სწორი </string>
+	<string name="epg_retrieving_show">მონაცემთა მოპოვება...</string>
+	<string name="nav_epg_January">იანვარი </string>
+	<string name="nav_epg_February">თებერვალი</string>
+	<string name="nav_epg_March">მარტი</string>
+	<string name="nav_epg_April">აპრილი </string>
+	<string name="nav_epg_May">მაისი.</string>
+	<string name="nav_epg_June">ივნისი</string>
+	<string name="nav_epg_July">ივლისი</string>
+	<string name="nav_epg_August">აგვისტო</string>
+	<string name="nav_epg_September">სექტემბერი </string>
+	<string name="nav_epg_October">ოქტომბერი </string>
+	<string name="nav_epg_November">ნოემბერი </string>
+	<string name="nav_epg_December">დეკემბერი </string>
+	<string name="nav_epg_Jan">იანვარი</string>
+	<string name="nav_epg_Feb">თებერვალი</string>
+	<string name="nav_epg_Mar">მარტი</string>
+	<string name="nav_epg_Apr">აპრ</string>
+	<string name="nav_epg_may">მაისი.</string>
+	<string name="nav_epg_Jun">ივნისი</string>
+	<string name="nav_epg_Jul">ივლისი</string>
+	<string name="nav_epg_Aug">აგვისტო</string>
+	<string name="nav_epg_Sep">სექტემბერი</string>
+	<string name="nav_epg_Oct">ოქტომბერი</string>
+	<string name="nav_epg_Nov">ნოემბერი</string>
+	<string name="nav_epg_Dec">დეკემბერი</string>
+	<string name="nav_epg_Sunday">კვირა</string>
+	<string name="nav_epg_Monday">ორშაბათი</string>
+	<string name="nav_epg_Tuesday">სამშაბათი</string>
+	<string name="nav_epg_Wednesday">ოთხშაბათი</string>
+	<string name="nav_epg_Thursday">ხუთშაბათი</string>
+	<string name="nav_epg_Friday">პარასკევი</string>
+	<string name="nav_epg_Saturday">შაბათი</string>
+	<string name="nav_epg_Sun">კვი</string>
+	<string name="nav_epg_Mon">ორშ</string>
+	<string name="nav_epg_Tue">სამ</string>
+	<string name="nav_epg_Wed">ოთხ</string>
+	<string name="nav_epg_Thur">ხუთშაბათი </string>
+	<string name="nav_epg_Fri">პარ</string>
+	<string name="nav_epg_Sat">Sat</string>
+	<string name="nav_select">შერჩევა</string>
+	<string name="nav_ginga_tv_message">არ არის აპლიკაცია!</string>
+	<string name="nav_ginga_tv_for_infobar">Ginga აპლიკაცია იტვირთება...</string>
+	<string name="nav_ginga_tv_for_tips">გსურთ დაასრულოთ CC და დაიწყოთ Ginga აპლიაკცია?
+	</string>
+	<string name="nav_upgrader_title"> Wizard-ის განახლება</string>
+	<string name="nav_upgrader_MoreInfo">მეტი ინფორმაცია </string>
+	<string name="nav_upgrader_invalid">არასწორი პროგრამის გამოსახულების ფაილი!!</string>
+	<string name="nav_upgrader_updating">განახლება...</string>
+	<string name="nav_upgrader_warnning">გთხოვთ არ გათიშოთ USB-ის წვდომის გასაღები და არ
+		გამორთოთ ტელევიზორის მიმღები როდესაც მიმდინარეობს განახლება!</string>
+	<string name="nav_upgrader_validate">პროგრამის დადასტურება...</string>
+	<string name="nav_upgrader_confirm">დარწმუნებული ხართ რომ გსურთ განაახლოთ პროგრამა ?
+	</string>
+	<string name="nav_upgrader_completed">პროგრამა წარმატებით განახლდა. \nგთხოვთ გადატვირთოთ
+		ტელევიზორის მიმღები რომ გააქტიუროთ ახალი პროგრამა. </string>
+	<string name="nav_upgrader_failed">ვერ განახლდა. \nგთხოვთ გადატვირთოთ ტელევიზორის
+		მიმღები რომ გადმოქაჩოთ პროგრამა ხელახლა. </string>
+	<string name="nav_upgrader_retry">ვერ განახლდა. \nგსურთ სცადოთ ხელახლა? </string>
+	<string name="nav_upgrader_retry2">ვერ განახლადა, გთხოთ შეიყვანოთ USB. \nგსურთ სცადოთ
+		თავიდან?  </string>
+	<string name="nav_upgrader_usb_space_not_enough">თქვენი USB წვდომის გასაღების ხელმისაწვდომი
+		მეხსიერება არ არის საკმარისი. </string>
+	<string name="nav_upgrader_usb_not_ready">USB წვდომის გასაღები მზადყოფნაში არ არის, გთხოვთ
+		შეაერთოთ და სცადოთ თავიდან.</string>
+	<string name="nav_upgrader_internal_err">შიდა შეცდომა. </string>
+	<string name="nav_upgrader_not_avail_firmware">არ არის ხელმისაწვდომი პროგრამის ვერსია. </string>
+	<string name="nav_upgrader_decry_fail">დეშიფრაცია წარუმატებელია. </string>
+	<string name="nav_upgrader_firmware_invalid">პროგრამა არ არის გამართული.</string>
+	<string name="nav_upgrader_no_update">გასანაახლებლად არ არის ხელმისაწვდომი პროგრამები.
+	</string>
+	<string name="nav_upgrader_check_fail">ახალი პროგრამის შემოწმება ვერ მოხერხდა. </string>
+	<string name="nav_upgrader_download_fail">შეუძლებელია პროგრამის ჩამოტვირთვა ქსელიდან.
+	</string>
+	<string name="nav_upgrader_usb_problem">არის USB მიმღების გასაღების რაღაცა პრობლემა.
+	</string>
+	<string name="nav_upgrader_power">სიმძლავრე</string>
+	<string name="nav_upgrader_yes">დიახ</string>
+	<string name="nav_upgrader_no">არა</string>
+	<string name="nav_upgrader_network_tip">სერვერიდან დაიწყეთ ახალი პროგრამის გადმოწერა.
+	</string>
+	<string name="nav_mheg5_tips">სანამ გააქტიურებთ სიფრულს ტექსტს სუბტიტრი უნდა იყოს
+		დახურული. გსურთ გაგრძელება? </string>
+	<string name="common_dialog_msg_yes">დიახ</string>
+	<string name="common_dialog_msg_no">არა</string>
+	<string name="common_dialog_ews_service_content">გსურთ გადახვიდეთ EWS სერვისზე? </string>
+	<string name="common_dialog_special_service_content">გსურთ გადახვიდეთ სპეციალურ სერვისზე? </string>
+	<string name="commmon_dialog_book_reminder_content">მალე იქნება მზად, გსურთ გადახვიდეთ მასზე?</string>
+	<string name="common_dialog_start_cc_stop_ginga">გსურთ გათიშოთ აპლიკაცია Ginga და გახსნათ CC?
+	</string>
+	<string name="nav_ttx_top_block">ბლოკირება</string>
+	<string name="nav_ttx_top_group">ჯგუფი</string>
+	<string name="nav_ttx_top_page">გვერდი</string>
+	<string name="nav_ttx_no_top">არ არის ზემოფენა </string>
+	<string name="nav_banner_not_rating">არ არის შეფასებული</string>
+	<string name="setup_select_country">გთხოვთ აირჩიეთ თქვენი ქვეყანა:</string>
+	<string name="setup_country">ქვეყანა</string>
+	<string name="setup_dvbc_setting">გთხოვთ განსაზღვროთ კაბელის ინფორმაცია</string>
+	<string name="setup_timezone">დროის ზონა</string>
+	<string name="setup_language_Catalan">კატალონიური</string>
+	<string name="setup_language_Gaelic">გალური</string>
+	<string name="setup_language_Welsh">უელსური</string>
+	<string name="setup_language_english_eu">ინგლისური</string>
+	<string name="setup_language_Catalan_eu">კატალონიური</string>
+	<string name="setup_language_Gaelic_eu">გალური</string>
+	<string name="setup_language_Welsh_eu">უელსური</string>
+	<string name="setup_dvbc_config_scanmode">სკანირების რეჟიმი</string>
+	<string name="setup_dvbc_config_frequency">სიხშირე (KHZ)</string>
+	<string name="setup_dvbc_config_modulation">მოდულაცია</string>
+	<string name="setup_dvbc_config_symbolrate">სიმბოლის განაკვეთი(Ksym/s)</string>
+	<string name="setup_dvbc_config_networkid">ქსელის ID</string>
+	<string name="setup_set_postal_code_editview">საფოსტო კოდი</string>
+	<string name="setup_set_password_titile1">ახალი პაროლი</string>
+	<string name="setup_set_password_titile2">პაროლის დადასტურება</string>
+	<string name="setup_cable_select_operation">შეარჩიეთ ოპერატორი</string>
+	<string name="setup_dvbs_statellite_type">სატელიტის ტიპი</string>
+	<string name="setup_dvbs_statellite_type_title">გთხოვთ შეარჩიოთ სატელიტის ტიპი</string>
+	<string name="setup_dvbs_statellite_select_operator">შეარჩიეთ ოპერატორი</string>
+	<string name="setup_dvbs_statellite_select_operator_title">თქვენ შეგიძლიათ შეარჩიოთ მხოლოდ ერთი ოპერატორი
+		მოცემული სიიდან:</string>
+	<string name="setup_cable_setting_title">გთხოვთ შეცვალოთ კაბელის ინფორმაცია</string>
+	<string name="setup_dvbs_config_info_title">გთხოვთ შეცვალოთ სკანირების ინფორმაცია</string>
+	<string name="setup_dvbs_satellite_list">სატელიტის არჩევა </string>
+	<string name="setup_dvbs_satellite_list_title">გთხოვთ შეარჩიოთ სატელიტები, რათა დაასკანეროთ ან
+		შეცვალოთ არსებული სატელიტი.</string>
+	<string name="setup_dvbs_config_setting_title">გთხოვთ მიუთითოთ ანტენის ტიპის კონფიგურაცია</string>
+	<string name="setup_dvbs_satellite_config">ანტენის დაყენება</string>
+	<string name="setup_dvbs_satellite_config_title">გთხოვთ დააყენოთ სატელიტის/სატელიტების პარამეტრები
+	</string>
+	<string name="setup_dvbs_satellite_config_tp_title">გთხოვთ დააყენოთ ტრანსპონდერი\ს პარამეტრები</string>
+	<string name="setup_dvbs_satellite_config_diseqc_title">გთხოვთ დააყენოთ DiSEqC 1.2 (გამანაწილებელი)-ის
+		პარამეტრები</string>
+	<string name="setup_dvbs_satellite_config_diseqc12_motor_title">გთხოვთ დააყენოთ DiSEqC 1.2 (გამანაწილებელი) -ის
+		ძრავის პარამეტრები</string>
+	<string name="setup_dvbs_satellite_config_diseqc12_movementcontrol_title">გთხოვთ დააყენოთ DiSEqC 1.2 (გამანაწილებელი) -ის
+		სამოძრაო პარამეტრები</string>
+	<string name="setup_select_set">დაყენება</string>
+	<string name="nav_oad_dialog_title">OAD(უკაბელო ჩამოტვირთვა)</string>
+	<string name="nav_oad_scanning">სკანირება</string>
+	<string name="nav_oad_programming">პროგრამირება.</string>
+	<string name="nav_oad_downloading">იტვირთება</string>
+	<string name="nav_oad_downloading_info">ამ პროცესმა შესაძლოა წაიღოს თქვენი დრო 25 წუთამდე
+	</string>
+	<string name="nav_oad_flash_confirm">პროგრამული სისტემა წარმატებით ჩაიტვირთა. გსურთ
+		გამოსცადოთ ახლავე?</string>
+	<string name="nav_oad_flash_fail">პროგრამული ვერ მოხერხდა. გსურთ სცადოთ ხელახლა?
+		\n\nგთხოვთ დაუკავშირდეთ სერვის ცენტრს</string>
+	<string name="nav_oad_restart_confirm">პროგრამული სისტემის გადმოწერა წარმატებით
+		განხორციელდა! გსურთ გადატვირთოთ ტელევიზორი ?</string>
+	<string name="nav_oad_warning_msg_str">გაფრთხილება: პროცესის განმავლობაში, გთხოვათ არ
+		გამოაერთოთ ტელევიზორი ელექტრო ენერგიის წყაროსგან, რათა მან ხელი არ
+		შეუშალოს დაყენების პროცესის გამართულობას.</string>
+	<string name="nav_oad_manual_download_fail">პროგრა,ული სისტემის განახლება ვერ მოხერხდა. გსურთ
+		სცადოთ ხელახლა?</string>
+	<string name="nav_oad_schedule_oad_change_channel_confirm">სისტემური განახლება. თუ რომელიმე არხი საჭიროებს
+		განახლებას მოცემულ მომენტში და თქვენ გსურთ განახორციელოთ ეს პროცესი,
+		გაითვალისწინეთ რომ არხი შესაძლოა შეიცვალოს ავტომატურად. გსურთ დაიწყოთ
+		განახლება ახლავე? იგი დაიწყება % წამში.</string>
+	<string name="nav_oad_atuo_download_with_bgm">ახალი პროგრამული სისტემა ნაპოვნია. გსურთ პროგრამის
+		ავტომატური გადმოწერა როცა ტელევიზორი იქნება მოლოდინის რეჟიმში?
+	</string>
+	<string name="setup_language_english_value">პროგრამირება.</string>
+	<string name="setup_language_chinese_value">პროგრამირება.</string>
+	<string name="setup_language_spanish_value">პროგრამირება.</string>
+	<string name="setup_language_french_value">პროგრამირება.</string>
+	<string name="setup_language_portuguese_value">პროგრამირება.</string>
+	<string name="setup_country_cty_1">ავტრია</string>
+	<string name="setup_country_cty_2">ბელგია</string>
+	<string name="setup_country_cty_3">შვეიცარია</string>
+	<string name="setup_country_cty_4">ჩეხეთი</string>
+	<string name="setup_country_cty_5">გერმარნია</string>
+	<string name="setup_country_cty_6">დანია</string>
+	<string name="setup_country_cty_7">ესპანეთი</string>
+	<string name="setup_country_cty_8">ფინეთი</string>
+	<string name="setup_country_cty_9">საფრანგეთი</string>
+	<string name="setup_country_cty_10">დიდი ბრიტანეთი</string>
+	<string name="setup_country_cty_11">იტალია</string>
+	<string name="setup_country_cty_12">ლუქსემბურგი</string>
+	<string name="setup_country_cty_13">ნიდერლანდები</string>
+	<string name="setup_country_cty_14">ნორვეგია</string>
+	<string name="setup_country_cty_15">შვედეთი</string>
+	<string name="setup_country_cty_16">ბულგარეთი</string>
+	<string name="setup_country_cty_17">ხორვატია</string>
+	<string name="setup_country_cty_18">საბერძნეთი</string>
+	<string name="setup_country_cty_19">უნგრეთი</string>
+	<string name="setup_country_cty_20">ირლანდია</string>
+	<string name="setup_country_cty_21">პოლონეთი</string>
+	<string name="setup_country_cty_22">პორტუგალია</string>
+	<string name="setup_country_cty_23">რუმინეთი</string>
+	<string name="setup_country_cty_24">რუსეთი</string>
+	<string name="setup_country_cty_25">სერბეთი</string>
+	<string name="setup_country_cty_26">სლოვაკეთი</string>
+	<string name="setup_country_cty_27">სლოვენია</string>
+	<string name="setup_country_cty_28">თურქეთი</string>
+	<string name="setup_country_cty_29">ესტონეთი</string>
+	<string name="setup_country_cty_30">ავტსრალია</string>
+	<string name="setup_country_cty_31">ახალი ზელანდია</string>
+	<string name="setup_country_cty_32">ინდონეზია</string>
+	<string name="setup_set_timezone">გთხოვთ აირჩიოთ თქვენი დროის არეალი:</string>
+	<string name="setup_set_password_title">გთხოვთ შეარჩიოთ პაროლი. "0000" არ არის მისაწვდომი
+		პაროლი.</string>
+	<string name="setup_set_postalcode">გთხოვთ მიუთითოთ თქვენი საფოსტო მისამართი</string>
+	<string name="setup_set_password_success_msg">პაროლი დაყენდა წარმატებით .</string>
+	<string name="dvbc_operator_others">სხვა</string>
+	<string name="dvbc_operator_comhem">[წყარო]\t(A) შეყვანილი წყაროს სიის ჩვენება.
+		\n[ტაიმერი\t(B) დროის ჩვენება.\n</string>
+	<string name="dvbc_operator_canal_digital">[ძილი]\t(C) ძილის დრო.\n</string>
+	<string name="dvbc_operator_tele2">[გადიდება]\t(D) გადიდების არჩევა.\n</string>
+	<string name="dvbc_operator_stofa">[Pეფექტი]\t(E) ეკრანის ეფექტის არჩევა.\n</string>
+	<string name="dvbc_operator_yousee">[Sეფექტი]\t(F) ხმის ეფექტის არჩევა.\n</string>
+	<string name="dvbc_operator_ziggo">[გამოსახულება]\t(G) გამოსახულების ფორმატის
+		შეცვლა.\n</string>
+	<string name="dvbc_operator_unitymedia">[CHზემოთ\t(O) არხის ზემოთ გადართვა.\n</string>
+	<string name="dvbc_operator_numericable">[CHქვემოთ]\t(Q) არხის ქვემოთ გადართვა.\n</string>
+	<string name="dvbc_operator_volia">[უხმო]\t(R) ხმის ჩახშობა ან ჩართვა.\n</string>
+	<string name="dvbc_operator_telemach">[ხმა_აწევა]\t(M)</string>
+	<string name="dvbc_operator_onlime">ხმის აწევა.\n</string>
+	<string name="dvbc_operator_akado">[ხმა_დაწევა\t(N) ხმის დაწევა.\n</string>
+	<string name="dvbc_operator_telent">[DPAD _ცენტრი]\t (შეყვანა) არხების სიის ჩვენება.\n
+	</string>
+	<string name="dvbc_operator_telent_eu">[ინფო]\t(S) არხების შესახებ ინფორმაციის ნახვა.\n
+	</string>
+	<string name="dvbc_operator_glenten">[ამოგდება]\t(U) არხის შესახებ ინფორმაციის
+		ჩვენება.\n</string>
+	<string name="dvbc_operator_tele_columbus">[ჩართვაპაუზა]\t(V) რჩეულთა სიის ჩვენება.\n</string>
+	<string name="dvbt_inactivechannel_nw_chg">სისტემის ცვლილების პერიოდში, მოხდა რამდენიმე არხის
+		დეაქტივაცია. გსურთ მათი წაშლა?</string>
+	<string name="tnt_hd_nw_chg">ქსელის მონაცემები შეცვლილია. გსურთ მოახდინოთ
+		ცვლილებათა შემოწმება?</string>
+	<string name="dvbs_operator_astra_hd_plus">[ყვითელი]\t(K) არხთა სიის ტიპის არჩევა.\n</string>
+	<string name="dvbs_operator_sky_deutschland">Sky Deutschland</string>
+	<string name="dvbs_operator_austriasat">AustriaSat</string>
+	<string name="dvbs_operator_cannal_digital">Cannal Digital</string>
+	<string name="dvbs_operator_tv_vlaanderen_hd">TV VLAANDEREN HD</string>
+	<string name="dvbs_operator_tv_vlaanderen_sd">TV VLAANDEREN SD</string>
+	<string name="dvbs_operator_telesat_belgium">Telesat Belgium</string>
+	<string name="dvbs_operator_telesat_luxembourg">Telesat Luxembourg</string>
+	<string name="dvbs_operator_seznam_kanalu_pro_cesko">Seznam kanalu pro Cesko</string>
+	<string name="dvbs_operator_seznam_kanalu_pro_slovensko">Seznam kanalu pro Slovensko</string>
+	<string name="dvbs_operator_cannaldigitaal_hd">CannalDigitaal HD</string>
+	<string name="dvbs_operator_cannaldigitaal_sd">CannalDigitaal SD</string>
+	<string name="dvbs_operator_n_na_karte">n na karte</string>
+	<string name="dvbs_operator_digiturk_eutelsat">Digiturk Eutelsat</string>
+	<string name="dvbs_operator_digiturk_turksat">Digiturk Turksat</string>
+	<string name="dvbs_operator_fransat">Fransat</string>
+	<string name="dvbs_operator_cyfraplus">Cyfra+</string>
+	<string name="dvbs_operator_cyfrowy_polsat">Cyfrowy Polsat</string>
+	<string name="dvbs_operator_dsmart">D-Smart</string>
+	<string name="dvbs_operator_ntvplus">NTV+</string>
+	<string name="dvbs_operator_others">სხვა</string>
+	<string name="dvbs_operator_name_nc_plus">nc+/nc+ MIX</string>
+	<string name="dvbs_operator_name_smart_hd_plus">smart HD+</string>
+	<string name="dvbs_operator_name_tivusat">tivùsat</string>
+	<string name="dvbs_antenna_type_name_universal">უნივერსლური</string>
+	<string name="dvbs_antenna_type_name_singlecable">ცაკლეული კაბელი</string>
+	<string name="dvbs_antenna_setup">ანტენის დაყენება</string>
+	<string name="dvbs_satellite_setting">სატელიტი</string>
+	<string name="dvbs_satellite_name">სატელიტის სახელი</string>
+	<string name="dvbs_satellite_orbit">ორბიტის პოზიცია </string>
+	<string name="dvbs_lnb_freq">LNB სიხშირე</string>
+	<string name="dvbs_diseqc_set">DiSEqC დაყენება</string>
+	<string name="dvbs_diseqc12_motor_movementcontrol">მოძრაობის კონტროლი</string>
+	<string name="dvbs_diseqc12_motor_disablelimits">გათიშვის ლიმიტები</string>
+	<string name="dvbs_diseqc12_motor_limiteast">Limit east</string>
+	<string name="dvbs_diseqc12_motor_limitwest">Limit west</string>
+	<string name="dvbs_diseqc12_motor_storeposition">შენახვის პოზიცია</string>
+	<string name="dvbs_diseqc12_motor_gotoposition">გადადით პოზიციაზე</string>
+	<string name="dvbs_diseqc12_motor_gotoreference">გადადით შენიშვნა/რეკომენდაციაზე</string>
+	<string name="dvbs_diseqc12_movement_stepsize">ნაბიჯის ზომა</string>
+	<string name="dvbs_diseqc12_movement_timeout">ტაიმაუტი(ები)</string>
+	<string name="dvbs_diseqc12_movement_moveeast">მოძრაობა აღმოსავლეთით</string>
+	<string name="dvbs_diseqc12_movement_movewest">მოძრაობა დასავლეთით</string>
+	<string name="dvbs_diseqc12_movement_stopmovement">შეწყვიტეთ მოძრაობა</string>
+	<string name="dvbs_diseqc10_port">Diseqc 1.0 პორტი</string>
+	<string name="dvbs_diseqc11_port">Diseqc 1.1 პორტი</string>
+	<string name="dvbs_diseqc_motor">Diseqc ძრავა</string>
+	<string name="dvbs_diseqc_motor_12">Diseqc 1.2</string>
+	<string name="dvbs_diseqc_input">Diseqc შესაერთებელი</string>
+	<string name="dvbs_diseqc_input_0">გამორთვა</string>
+	<string name="dvbs_diseqc_input_1">Diseqc A</string>
+	<string name="dvbs_diseqc_input_2">Diseqc B</string>
+	<string name="dvbs_diseqc_input_3">Diseqc C</string>
+	<string name="dvbs_diseqc_input_4">Diseqc D</string>
+	<string name="dvbs_tone_22khz">Tone 22KHz</string>
+	<string name="dvbs_tone_22khz_off">გამორთვა</string>
+	<string name="dvbs_tone_22khz_on">ჩართული</string>
+	<string name="dvbs_tone_22khz_auto">ავტო</string>
+	<string name="dvbs_trasponder">ტრანსპონდერი</string>
+	<string name="dvbs_tp_fre">სიხშირე</string>
+	<string name="dvbs_tp_sys_rate">მონაცემთა სიხშირე (Ksym/s)</string>
+	<string name="dvbs_tp_pol">პოლარიზაცია</string>
+	<string name="dvbs_tp_pol_0_unknown">უცნობი</string>
+	<string name="dvbs_tp_pol_1_HORIZONTAL">ჰორიზონტალური</string>
+	<string name="dvbs_tp_pol_2_VERTICAL">ვერტიკალური</string>
+	<string name="dvbs_tp_pol_3_LEFT">მარცხენა</string>
+	<string name="dvbs_tp_pol_4_RIGHT">მარჯვნივ</string>
+	<string name="dvbs_add_new_satl">ახალი სატელიტის დამატება</string>
+	<string name="dvbs_add_new_tp">ახალი ტრანსპონდერის დამატება</string>
+	<string name="dvbs_satellite_tuning">Satellite Tuning</string>
+	<string name="dvbs_satellite_channel">არხები</string>
+	<string name="dvbs_scan_mode">სკანირების რეჟიმი</string>
+	<string name="dvbs_network_search">ქსელის ძებნა</string>
+	<string name="dvbs_satellite_search">ძიება</string>
+	<string name="dvbs_scan_mode_auto">ავტო</string>
+	<string name="dvbs_scan_mode_preset">გადაწყობა</string>
+	<string name="dvbs_channel_free">უფასო</string>
+	<string name="dvbs_channel_all">ყველა</string>
+	<string name="dvbs_sat_no_satl">სატელიტი არ მოიძებნა</string>
+	<string name="dvbs_manual_tuning">სატელისიტის მანუალური აწყობა</string>
+	<string name="dvbs_sat_no_tp">ტრანსპონდერი არ მოიძებნა</string>
+	<string name="dvbs_sat_name_empty_alarm">სატელიტის დასახელება არ არსებობს, გთხოვთ მიუთითოთ
+		იგი!</string>
+	<string name="dvbs_satellite_rescan">სატელიტის ხელახალი სკანირება</string>
+	<string name="dvbs_satellite_add">სატელიტის დამატება </string>
+	<string name="dvbs_satellite_update">სატელისი განახლება </string>
+	<string name="dvbs_satellite_status">სატელიტის სტატუსი</string>
+	<string name="dvbs_scan_mode_network">ქსელი</string>
+	<string name="dvbs_scan_mode_full">სრული</string>
+	<string name="dvbs_scan_satellites">სატელიტები </string>
+	<string name="dvbs_scan_positon">პოზიცია</string>
+	<string name="dvbs_lnb_power">LNB სიმძლავრე</string>
+	<string name="dvbs_antenna_type">ანტენის ტიპი</string>
+	<string name="dvbs_antenna_type_universal">უნივერსლური</string>
+	<string name="dvbs_antenna_type_singlecable">ცაკლეული კაბელი</string>
+	<string name="dvbs_user_band">ტუნერი</string>
+	<string name="dvbs_user_band_1">მომხმარებლის ჯგუფი 1</string>
+	<string name="dvbs_user_band_2">მომხმარებლის ჯგუფი 2</string>
+	<string name="dvbs_user_band_3">მომხმარებლის ჯგუფი 3</string>
+	<string name="dvbs_user_band_4">მომხმარებლის ჯგუფი 4</string>
+	<string name="dvbs_user_band_5">მომხმარებლის ჯგუფი 5</string>
+	<string name="dvbs_user_band_6">მომხმარებლის ჯგუფი 6</string>
+	<string name="dvbs_user_band_7">მომხმარებლის ჯგუფი 7</string>
+	<string name="dvbs_user_band_8">მომხმარებლის ჯგუფი 8</string>
+	<string name="dvbs_band_freq">ჯგუფის სიხშირე</string>
+	<string name="dvbs_band_freq_user_define">მომხმარებლის განსაზღვრა </string>
+	<string name="dvbs_position">პოზიცია</string>
+	<string name="dvbs_air">ანტენა</string>
+	<string name="dvbs_cable">კაბელი</string>
+	<string name="dvbs_preferred_satellite">ფავორიტი სატელიტი</string>
+	<string name="dvbs_general_satellite">საერთო სატელიტი </string>
+	<string name="sys_info_lnb">LNB</string>
+	<string name="lnb_universal">უნივერსლური</string>
+	<string name="dvbs_tone_burst">Tone Burst</string>
+	<string name="dvbs_tone_burst_disable">გამორთვა</string>
+	<string name="dvbs_tone_burst_b">Tone Burst B</string>
+	<string name="dvbs_sat_on">ჩართული</string>
+	<string name="dvbs_sat_off">გამორთვა</string>
+</resources>

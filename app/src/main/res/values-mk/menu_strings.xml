@@ -1,0 +1,742 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <!-- parameter configuration module Navigation bar -->
+    <string name="mmp_main_playback">Репродуцирање</string>
+    <string name="mmp_main_settings">Поставки</string>
+    <string name="mmp_main_menuvideo">Мени Видео</string>
+    <string name="mmp_main_menuaudio">Мени Аудио</string>
+    <string name="mmp_main_menu">МЕНИ</string>
+    <string name="menu_header_name">ММР поставки</string>
+    <string name="menu_interface_name">МЕНИ</string>
+    <string name="menu_show_menu_item">Видео</string>
+    <string name="menu_tab_video">Видео</string>
+    <string name="menu_tab_audio">Аудио</string>
+    <string name="menu_tab_tv">ТВ</string>
+    <string name="menu_tab_setup">ПОСТАВУВАЊЕ  </string>
+    <string name="menu_tab_parent">Родителски</string>
+
+    <!-- parameter configuration module function prompt-->
+    <string name="menu_tab_inactive_channels">Неактивни канали</string>
+    <string name="menu_remove_all">Отстрани се</string>
+    <string name="menu_remove">Отстрани</string>
+    <string name="menu_enter">Внеси</string>
+    <string name="menu_select">Избери</string>
+    <string name="menu_exit">ИЗЛЕЗИ</string>
+    <string name="menu_adjust">Прилагоди</string>
+    <string name="menu_back">НАЗАД</string>
+    <string name="menu_set">Постави</string>
+    <string name="menu_ok">ОК</string>
+    <string name="menu_cancel">ОТКАЖИ</string>
+    <string name="menu_ci_close">Затвори CI</string>
+    <string name="menu_scan">Скенирање</string>
+
+    <!-- the parameter of Video,item display interface strings to be defined -->
+    <string name="menu_video_picture_mode">Режим на слика</string>
+    <string name="menu_video_auto_view">Активно позадинско осветлување</string>
+    <string name="menu_video_backlight">Заднинско светло</string>
+    <string name="menu_video_brighttness">Осветленост</string>
+    <string name="menu_video_contrast">Контраст</string>
+    <string name="menu_video_saturation">Заситеност</string>
+    <string name="menu_video_hue">Нијанса</string>
+    <string name="menu_video_sharpness">Острина</string>
+    <string name="menu_video_gamma">Гама</string>
+    <string name="menu_video_color_temperature">Температура на боја</string>
+    <string name="menu_video_color_g_red">R појачување</string>
+    <string name="menu_video_color_g_green">G појачување</string>
+    <string name="menu_video_color_g_blue">B појачување</string>
+    <string name="menu_video_advancedvideo">Напредно видео</string>
+    <string name="menu_video_3d">3D</string>
+    <string name="menu_video_3d_mode">3D Режим</string>
+    <string name="menu_video_3d_nav">3D Навигација</string>
+    <string name="menu_video_3d_3t2">3D-до-2D</string>
+    <string name="menu_video_3d_depth_field">Длабочина на поле</string>
+    <string name="menu_video_3d_protrude">Избива</string>
+    <string name="menu_video_3d_distance">Оддалеченост до ТВ</string>
+    <string name="menu_video_3d_image_safety">Безбедност на слика</string>
+    <string name="menu_video_3d_leftright">Прекинувач Л-Д</string>
+    <string name="menu_video_3d_osd">OSD длабочина</string>
+    <string name="menu_video_3d_wear_glass">Ве молиме носете 3D очила!</string>
+    <string name="menu_video_vga_mode">VGA Режим</string>
+    <string name="menu_video_dnr">DNR</string>
+    <string name="menu_video_mpeg_nr">MPEG NR</string>
+    <string name="menu_video_luma">Контрола на прилагодлив динамичен контраст</string>
+    <string name="menu_video_flesh_tone">Нијанса на месо</string>
+    <string name="menu_video_di_film_mode">DI режим на филм</string>
+    <string name="menu_video_blue_stretch">Растегање на сина</string>
+    <string name="menu_video_wme_mode">Режим за игри</string>
+    <string name="menu_video_pq_split_mode">Демо на поделен екран PQ</string>
+    <string name="menu_video_mjc">MJC</string>
+    <string name="menu_video_mjc_effect">Ефект</string>
+    <string name="menu_video_mjc_demo_partition">Дел за демо</string>
+    <string name="menu_video_mjc_mode">Режим</string>
+    <string name="menu_video_mjc_demo">Демо</string>
+    <string name="menu_video_hdmi_mode">Режим Hdmi</string>
+    <string name="menu_video_vga">VGA</string>
+    <string name="menu_video_auto_adjust">Автоматско приспособување</string>
+    <string name="menu_video_hposition">Х. Положба</string>
+    <string name="menu_video_vposition">В. положба</string>
+    <string name="menu_video_phase">Фаза</string>
+    <string name="menu_video_clock">Часовник</string>
+    <string name="menu_video_3d_leftright_str">Лево/Десно</string>
+    <string name="menu_video_3d_updown_str">Горе/Долу</string>
+    <string name="menu_video_mjc_demo_off">Исклучено</string>
+    <string name="menu_video_mjc_demo_on">Вклучено</string>
+    <string name="menu_video_black_bar">Откривање црна лента</string>
+    <string name="menu_video_super_resolution">Супер резолуција</string>
+    <string name="menu_video_xvycc">xvYCC</string>
+    <!-- the parameter of Audio,item display interface strings to be defined -->
+    <string name="menu_audio_balance">Баланс</string>
+    <string name="menu_audio_bass">Бас </string>
+    <string name="menu_audio_treble">Високи тонови</string>
+    <string name="menu_audio_srs_mode">DTS TruSurround</string>
+    <string name="menu_audio_equalize">Еквилајзер</string>
+    <string name="menu_audio_speaker_mode">Звучник</string>
+    <string name="menu_audio_spdif_mode">SPDIF тип</string>
+    <string name="menu_audio_spdif_delay">Одложување SPDIF</string>
+    <string name="menu_audio_avc_mode">Автоматска контрола на јачина на звук</string>
+    <string name="menu_audio_type">Тип</string>
+    <string name="menu_audio_visually_impaired">Со нарушен вид</string>
+    <string name="menu_audio_visually_speaker">Звучник</string>
+    <string name="menu_audio_visually_headphone">Слушалка</string>
+    <string name="menu_audio_visually_volume">Јачина на звукот</string>
+    <string name="menu_audio_visually_pan_and_fade">Панорамски приказ и обезбојување</string>
+    <string name="menu_audio_visually_impaired_audio">Аудио за нарушен вид</string>
+    <string name="menu_audio_downmix_mode">Режим на мешање музика</string>
+    <string name="menu_audio_sound_tracks">Нумери</string>
+    <string name="menu_audio_bbe_mode">BBE режим</string>
+    <!-- the parameter of TV item display interface strings to be defined-->
+    <string name="menu_tv_tuner_mode">Режим на подесувач</string>
+    <string name="menu_tv_channel_list_type">Тип на листа на канали</string>
+    <string name="menu_tv_country_region_id">ИД на регион на земја</string>
+    <string name="menu_tv_oceania_country_region">Регион на земја</string>
+    <string name="menu_tv_mts">Аудио канал</string>
+    <string name="menu_tv_mts_us">MTS</string>
+    <string name="menu_tv_audio_language">Аудио јазици</string>
+    <string name="menu_tv_audio_language2nd">Втор аудио јазик</string>
+    <string name="menu_tv_channels">Канали</string>
+    <string name="menu_tv_channel_scan">Скенирање канали</string>
+    <string name="menu_tv_tv_system">ТВ-систем</string>
+    <string name="menu_tv_color_system">Систем од бои</string>
+    <string name="menu_tv_update_scan">Скенирање за ажурирање </string>
+    <string name="menu_tv_analog_manual_scan">Аналогно рачно скенирање</string>
+    <string name="menu_tv_single_rf_scan">Единечно RF скенирање</string>
+    <string name="menu_tv_channel_edit">Уреди канал</string>
+    <string name="menu_tv_channel_skip">Прескокни канал</string>
+    <string name="menu_tv_channel_setup">Постави канал</string>
+    <string name="menu_tv_clear_channel_list">Исчисти листа на канали</string>
+    <string name="menu_tv_freeze_channel">Замрзни канал</string>
+    <string name="menu_tv_status">Статус</string>
+    <string name="menu_tv_status_value">Скенирање</string>
+    <string name="menu_tv_analog_channels">Аналогни канали</string>
+    <string name="menu_tv_digital_channels">Дигитални канали</string>
+    <string name="menu_tv_start_frequency">Почетна фреквенција(MHz)</string>
+    <string name="menu_tv_end_frequency">Завршна фреквенција(MHz)</string>
+    <string name="menu_tv_rf_scan_frequency">Фреквенција на скенирање(MHz)</string>
+    <string name="menu_tv_rf_scan_frequency_mhz">MHz</string>
+    <string name="menu_tv_rf_scan_mode">QAM стил</string>
+    <string name="menu_tv_rf_sym_rate">Стапка на симбол</string>
+    <string name="menu_tv_rf_signal_level">Ниво на сигнал:</string>
+    <string name="menu_tv_sigle_frequency_plan">План на фреквенција</string>
+    <string name="menu_tv_sigle_modulation">Модулација</string>
+
+    <string name="menu_tv_sigle_scan_mode">Режим на скенирање</string>
+    <string name="menu_tv_sigle_from_channel">Од канал</string>
+    <string name="menu_tv_sigle_to_channcel">До канал</string>
+
+    <string name="menu_tv_insert">Стави</string>
+    <string name="menu_tv_delete">Избриши</string>
+    <string name="menu_tv_swap">Замена</string>
+    <string name="menu_tv_number">Бр.</string>
+    <string name="menu_tv_type">Тип</string>
+    <string name="menu_tv_frequency">Фрек.</string>
+    <string name="menu_tv_system">Систем  </string>
+    <string name="menu_tv_name">Име</string>
+    <string name="menu_tv_skip">Прескокни</string>
+    <string name="menu_tv_scann_allchannels">Скенирај ги сите канали.</string>
+
+    <!-- DTMB Single RF Channel -->
+    <string name="menu_tv_single_rf_channel">RF канал</string>
+    <string name="menu_tv_single_signal_level">Ниво на сигнал:</string>
+    <string name="menu_tv_single_signal_quality">Квалитет на сигнал</string>
+    <!-- channel edit-->
+    <string name="menu_tv_channel_tsname">TS име :</string>
+    <string name="menu_tv_channel_no">Број на канал :</string>
+    <string name="menu_tv_channel_name">Име на канал :</string>
+    <string name="menu_tv_network_name">Име на мрежа :</string>
+    <string name="menu_tv_freq">Frequency ： </string>
+    <string name="menu_tv_freq_scan_no_channel">Каналот не е најден.</string>
+    <string name="menu_tv_sound_system">Звучен систем</string>
+    <string name="menu_tv_auto_finetune">AFT</string>
+    <string name="menu_tv_finetune">Фино подесување</string>
+    <string name="menu_tv_enter">Внеси</string>
+    <string name="menu_tv_exit">ИЗЛЕЗИ</string>
+    <string name="menu_tv_store">Продавница</string>
+    <string name="menu_tv_clear_channel_info">Дали сте сигурни?</string>
+    <string name="menu_dialog_confirm">ОК</string>
+    <string name="menu_dialog_cancel">ОТКАЖИ</string>
+    <string name="menu_dialog_numrepeat">Дупликат на број на канал</string>
+    <string name="menu_tv_channelfine_tune">Фино подесување на аналоген канал</string>
+    <string name="menu_tv_remove_inactive_channel">Дали сигурно да се отстрани овој канал?</string>
+    <string name="menu_tv_remove_all_inactive_channels">Дали сигурно да се отстранат сите канали?</string>
+    <!-- the parameter of Setup,item display interface strings to be defined -->
+    <!-- first level -->
+    <string name="menu_setup_language">OSD јазик</string>
+    <string name="menu_setup_screenmode">Режим на екран</string>
+    <string name="menu_setup_dpms">DPMS</string>
+    <string name="menu_setup_bluemute">Нечујно сино</string>
+    <string name="menu_setup_modes_list_style">Стил на листа на режими</string>
+    <string name="menu_setup_modes_dmr_control">Dmr функција</string>
+    <string name="menu_setup_interaction_channel">Интеракциски канал</string>
+    <string name="menu_setup_MHEG_PIN_Protection">Заштита со MHEG PIN </string>
+    <string name="menu_setup_oceania_freeview">freeview</string>
+    <string name="menu_setup_HBBTV_Support">HBBTV поддршка</string>
+    <string name="menu_setup_ginga_setup">Поставување Ginga</string>
+    <string name="menu_setup_divx_reg_setup">DivX(R) регистрација</string>
+    <string name="menu_setup_divx_deac_setup">DivX(R) деактивација</string>
+    <string name="menu_setup_scart_setup">SCART</string>
+    <string name="menu_setup_scart1_setup">SCART</string>
+    <string name="menu_setup_scart2_setup">SCART2</string>
+    <string name="menu_setup_caption_setup">Поставување натпис</string>
+    <string name="menu_setup_fastboot">Топло рестартирање</string>
+    <string name="menu_setup_poweron_music">Вклучи музика</string>
+    <string name="menu_setup_poweroff_music">Исклучи музика</string>
+    <string name="menu_setup_capturelogo_select">Избери Направи лого</string>
+    <string name="menu_setup_time_setup">Поставување време</string>
+    <string name="menu_setup_teletext">Телетекст</string>
+    <string name="menu_setup_subtitle">Превод</string>
+    <string name="menu_setup_analog_subtitle">Аналоген титл</string>
+    <string name="menu_setup_digital_subtitle_lang">Јазик на дигитален титл</string>
+    <string name="menu_setup_digital_subtitle_lang_2nd">Втор јазик на дигитален титл</string>
+    <string name="menu_setup_subtitle_type">Тип на титл</string>
+    <string name="menu_setup_network">Мрежа</string>
+    <string name="menu_setup_version_info">Информации за верзија</string>
+    <string name="menu_setup_msi">MSI</string>
+    <string name="menu_setup_reset_default">Ресетирај на стандардно</string>
+    <string name="menu_setup_download_firmware">Преземи фирмвер</string>
+    <string name="menu_setup_common_interface">Заеднички интерфејс</string>
+    <string name="menu_setup_record_setting">Поставка за снимање</string>
+    <string name="menu_setup_oad_setting">OAD</string>
+    <string name="menu_setup_atv_record_mode">ATV режим на снимање</string>
+    <string name="menu_setup_device_info">Информации за уред</string>
+    <string name="menu_setup_time_shifting_mode">Режим за одложено снимање</string>
+    <string name="menu_setup_record_quality">Квалитет на снимање</string>
+    <!-- CECFUN-->
+    <string name="menu_setup_cec_function">CEC функција</string>
+    <string name="menu_setup_cec_auto_turn">Автоматско исклучување</string>
+    <string name="menu_setup_cec_device_discovery">Откривање на уред</string>
+    <string name="menu_setup_cec_standby">Мирување</string>
+    <string name="menu_setup_cec_poweron">Вклучено</string>
+    <string name="menu_setup_cec_enablesys">Активирај  Sys. Aud. Ctrl</string>
+    <string name="menu_setup_cec_disablesys">Деактивирај  Sys. Aud. Ctrl</string>
+    <string name="menu_setup_cec_noresponese">Уредот не одговара</string>
+
+    <!-- CI -->
+    <string name="menu_setup_ci_no_card">Нема презентирано CI картичка.</string>
+    <string name="menu_setup_ci_cam_menu">Мени на камера</string>
+    <string name="menu_setup_ci_pin_code">Ве молиме внесете пин код на камера</string>
+    <string name="menu_setup_ci_pin_code_input_tip">Ве молиме внесете пин код </string>
+    <string name="menu_setup_ci_pin_code_incorrect_tip">Неточно, внесете повторно!</string>
+
+    <!-- second level -->
+    <string name="menu_setup_timezone">Временска зона</string>
+    <string name="menu_setup_time">ВРЕМЕ</string>
+    <string name="menu_setup_sleep_timer">Тајмер за исклучување</string>
+    <string name="menu_setup_auto_sleep">Автоматско штедење</string>
+    <string name="menu_setup_configuration">Конфигурација</string>
+    <string name="menu_setup_auto_network_upgrade">Мрежна надградба</string>
+    <string name="menu_setup_application">Апликации</string>
+    <string name="menu_setup_version_name">Готов производ</string>
+    <string name="menu_setup_version_ver">1.0</string>
+    <string name="menu_setup_version_number">0001</string>
+    <string name="menu_setup_ginga_enable">Активирај Ginga</string>
+    <string name="menu_setup_ginga_auto_start_app">Апликација Автоматско стартување</string>
+
+    <string name="menu_setup_caption_enable">Активирај натпис</string>
+    <string name="menu_setup_analog_closed_caption">Аналоген затворен натпис</string>
+    <string name="menu_setup_digital_caption">Дигитален затворен натпис</string>
+    <string name="menu_setup_digital_style">Стил на дигитален натпис</string>
+    <string name="menu_setup_superimpose_setup">Поставување едно врз друго</string>
+
+    <string name="menu_setup_caption_style">Стил на натпис</string>
+    <string name="menu_setup_font_size">Големина на фонт</string>
+    <string name="menu_setup_font_style">Стил на фонт</string>
+    <string name="menu_setup_font_color">Боја на фонт</string>
+    <string name="menu_setup_font_opacity">Непроѕирност на фонт</string>
+    <string name="menu_setup_background_color">Боја на позадина</string>
+    <string name="menu_setup_background_opacity">Непроѕирност на позадина</string>
+    <string name="menu_setup_window_color">Боја на Прозорец</string>
+    <string name="menu_setup_window_opacity">Непроѕирност на Прозорец</string>
+
+    <string name="menu_setup_digital_teletext_language">Јазик на дигитален телетекст</string>
+    <string name="menu_setup_decoding_page_language">Јазик на декодирана страница</string>
+    <string name="menu_setup_ttx_presentation_level">Ниво на презентација на ТТХ</string>
+    <!-- third level -->
+    <string name="menu_setup_auto_synchronization">Автоматска синхронизација</string>
+    <string name="menu_setup_date">Датум</string>
+    <string name="menu_setup_power_on_timer">Вклучен тајмер</string>
+    <string name="menu_setup_timer">Тајмер</string>
+    <string name="menu_setup_power_on_channel">Вклучен канал</string>
+    <string name="menu_setup_power_off_timer">Исклучен тајмер</string>
+    <string name="menu_setup_internet_connection">Интернет врска</string>
+    <string name="menu_setup_wireless_setting">Безжични поставки</string>
+    <string name="menu_setup_information">ИНФОРМАЦИИ</string>
+    <string name="menu_setup_ip_setting">IP поставка</string>
+    <string name="menu_setup_connection_test">Тест за поврзување</string>
+    <string name="menu_setup_interface">Интерфејс</string>
+    <string name="menu_setup_dlna">DLNA</string>
+    <string name="menu_setup_my_net_place">Места на моја мрежа</string>
+    <string name="menu_setup_wow">WOW</string>
+    <string name="menu_setup_wol">WOL</string>
+    <string name="menu_setup_pip_pop">PIP/POP</string>
+    <string name="menu_setup_pip_pop_mode">Режим</string>
+    <string name="menu_setup_pip_pop_source">Извор</string>
+    <string name="menu_setup_pip_pop_position">Позиција</string>
+    <string name="menu_setup_pip_pop_size">Големина :</string>
+    <!-- forth level -->
+    <string name="menu_setup_power_on_channel_mode">Избери режим</string>
+    <string name="menu_setup_power_on_no_channel">(Нема канал.)</string>
+    <string name="menu_setup_address_type">Тип на адреса</string>
+    <string name="menu_setup_ip_address">ИП-адреса</string>
+    <string name="menu_setup_subnetwork_mask">Маска на подмрежата</string>
+    <string name="menu_setup_default_gateway">Стандардна порта</string>
+    <string name="menu_setup_first_dns">Примарен DNS</string>
+    <string name="menu_setup_standby_dns">Секундарен DNS</string>
+    <string name="menu_setup_ethernet_mac">MAC Етернет </string>
+
+    <!-- wifi setting -->
+    <string name="wifi_setup_title">Безжични поставки</string>
+
+
+    <!-- pop-up dialog or window  -->
+    <string name="menu_setup_connetion_info1">Започни со тестирање на мрежната врска.</string>
+    <string name="menu_setup_connetion_info2">Тестот за мрежна врска успеа!</string>
+    <string name="menu_setup_connetion_info3">Тестот за мрежна врска не успеа!</string>
+    <string name="menu_setup_connetion_wait">ве молиме почекајте</string>
+    <string name="menu_setup_upgrade_info1">Започни со преземање на нов фирмвер од сервер.</string>
+    <string name="menu_setup_upgrade_info2_title">Ажурирање Волшебник</string>
+    <string name="menu_setup_upgrade_info2">Проверката за нов фирмвер не успеа.</string>
+    <string name="menu_setup_reset_info1">Дали сте сигурни?</string>
+
+    <!-- part of factory -->
+    <string name="menu_factory_name">Фабрика</string>
+    <string name="menu_factory_video">Видео</string>
+    <string name="menu_factory_audio">Аудио</string>
+    <string name="menu_factory_TV">ТВ</string>
+    <string name="menu_factory_setup">ПОСТАВУВАЊЕ  </string>
+    <string name="menu_factory_preset">Предодреден Ch</string>
+    <!-- part of factory_video -->
+    <string name="menu_factory_video_auto_color">Автоматска боја</string>
+    <string name="menu_factory_video_color_temperature">Температура на боја</string>
+    <string name="menu_factory_video_auto_phase">Автоматска фаза</string>
+    <string name="menu_factory_video_phase">Фаза</string>
+    <string name="menu_factory_video_h_position">Х. Положба</string>
+    <string name="menu_factory_video_v_position">В. положба</string>
+    <string name="menu_factory_video_di_ma">DI MA</string>
+    <string name="menu_factory_video_di_edge">DI Edge</string>
+    <string name="menu_factory_video_wcg">WCG</string>
+    <string name="menu_factory_video_flip">Преврти</string>
+    <string name="menu_factory_video_mirror">Огледало</string>
+    <string name="menu_factory_video_local_dimming">Локално замрачување</string>
+    <!--factory_video_color_temperature  -->
+    <string name="menu_factory_video_color_rgain">R појачување</string>
+    <string name="menu_factory_video_color_ggain">G појачување</string>
+    <string name="menu_factory_video_color_bgain">B појачување</string>
+    <string name="menu_factory_video_color_roffset">R Offset</string>
+    <string name="menu_factory_video_color_goffset">G Offset</string>
+    <string name="menu_factory_video_color_boffset">B Offset</string>
+
+    <!-- part of factory_audio -->
+    <string name="menu_factory_audio_dolby_banner">Dolby банер</string>
+    <string name="menu_factory_audio_compression">Компресија</string>
+    <string name="menu_factory_audio_compression_factor">Фактор на компресија</string>
+    <string name="menu_factory_audio_mts_system">MTS систем</string>
+    <string name="menu_factory_audio_a2_system">А2 систем</string>
+    <string name="menu_factory_audio_pal_system">PAL систем</string>
+    <string name="menu_factory_audio_eu_system">ЕУ систем</string>
+    <string name="menu_factory_audio_latency">Латентност</string>
+    <!-- part of factory_audio_mts_system -->
+    <string name="menu_factory_audio_mts_numbersofcheck">Броеви на проверка</string>
+    <string name="menu_factory_audio_mts_numbersofpilot">Numbers Of Pilot</string>
+    <string name="menu_factory_audio_mts_pilot_threshold_high">Pilot Threshold Висок</string>
+    <string name="menu_factory_audio_mts_pilot_threshold_low">Pilot Threshold Низок</string>
+    <string name="menu_factory_audio_mts_number_of_sap">Броеви на SAP</string>
+    <string name="menu_factory_audio_mts_sap_threshold_high">SAP Праг Висок</string>
+    <string name="menu_factory_audio_mts_sap_threshold_low">SAP Праг Низок</string>
+    <string name="menu_factory_audio_mts_high_deviation_mode">Режим на Висока девијација</string>
+    <string name="menu_factory_audio_mts_carriershiftfunction">Функција за смена на оператор</string>
+    <string name="menu_factory_audio_mts_fmstaurationmute">Нечујна заситеност на FM</string>
+    <string name="menu_factory_audio_mts_fmcarriermutemode">FM Carrier Mute Mode</string>
+    <string name="menu_factory_audio_mts_fmcarriermutethreshold_high">FM Carrier Mute Threshold Висок</string>
+    <string name="menu_factory_audio_mts_fmcarriermutethreshold_low">FM Carrier Mute Threshold Низок</string>
+    <string name="menu_factory_audio_mts_mono_stero_finetunevolume">Јачина на звук за Фино подесување Моно Стерео</string>
+    <string name="menu_factory_audio_mts_sap_finetunevolume">Јачина на звук за Фино подесување ЅАР</string>
+    <!-- part of factory_audio_a2_system -->
+    <string name="menu_factory_audio_a2_numbersofcheck">Броеви на проверка</string>
+    <string name="menu_factory_audio_a2_numbersofdouble">Numbers Of Double</string>
+    <string name="menu_factory_audio_a2_monoweight">Моно тежина</string>
+    <string name="menu_factory_audio_a2_stereoweight">Стерео тежина</string>
+    <string name="menu_factory_audio_a2_dualweight">Dual Weight</string>
+    <string name="menu_factory_audio_a2_highdeviationmode">Режим на Висока девијација</string>
+    <string name="menu_factory_audio_a2_carriershiftfunction">Функција за смена на оператор</string>
+    <string name="menu_factory_audio_a2_fmcarriermutemode">FM Carrier Mute Mode</string>
+    <string name="menu_factory_audio_a2_fmcarriermutethreshold_high">FM Carrier Mute Threshold Висок</string>
+    <string name="menu_factory_audio_a2_fmcarriermutethreshold_low">FM Carrier Mute Threshold Низок</string>
+    <string name="menu_factory_audio_a2_finetunevolume">Фино подесување на јачина на звук</string>
+
+    <!-- part of factory_audio_pal_system -->
+    <string name="menu_factory_audio_pal_correctthreshold">Точен праг</string>
+    <string name="menu_factory_audio_pal_totalsyncloop">Јамка на Вкупна синх</string>
+    <string name="menu_factory_audio_pal_errorthreshold">Грешка на праг</string>
+    <string name="menu_factory_audio_pal_parityerrorthreshold">Parity Error Threshold</string>
+    <string name="menu_factory_audio_pal_everynumberframes">Every Number Frames</string>
+    <string name="menu_factory_audio_pal_highdeviationmode">Режим на Висока девијација</string>
+    <string name="menu_factory_audio_pal_amcarriermutemode">AM Carrier Mute Mode</string>
+    <string name="menu_factory_audio_pal_amcarriermutethresholdhigh">AM Carrier Mute Threshold Висок</string>
+    <string name="menu_factory_audio_pal_amcarriermutethresholdlow">AM Carrier Mute Threshold Низок</string>
+    <string name="menu_factory_audio_pal_carriershiftfunction">Функција за смена на оператор</string>
+    <string name="menu_factory_audio_pal_fmcarriermutemode">FM Carrier Mute Mode</string>
+    <string name="menu_factory_audio_pal_fmcarriermutethresholdhigh">FM Carrier Mute Threshold Висок</string>
+    <string name="menu_factory_audio_pal_fmcarriermutethresholdlow">FM Carrier Mute Threshold Низок</string>
+    <string name="menu_factory_audio_pal_palfinetunevolume">PAL Фино подесување Јачина на звук</string>
+    <string name="menu_factory_audio_pal_amfinetunevolume">АМ Фино подесување на јачина на звук</string>
+    <string name="menu_factory_audio_pal_nicamfinetunevolume">NICAM Фино подесување на јачина на звук</string>
+    <!-- part of factory_audio_eu_system -->
+    <string name="menu_factory_audio_eu_fmsaturationmute">FM Saturation Mute</string>
+    <string name="menu_factory_audio_eu_eunoneusystem">EU Non-EU System</string>
+
+
+    <string name="menu_factory_TV_digital_channel_scan">Скенирање опсег на дигитални канали</string>
+    <string name="menu_factory_TV_analog_channel_scan">Скенирање опсег на аналогни канали</string>
+
+    <string name="menu_factory_TV_range_scan">Опсег на скенирање</string>
+    <string name="menu_factory_TV_single_rf_scan">Единечно RF скенирање</string>
+    <string name="menu_factory_TV_factory_scan">Factory Scan</string>
+    <string name="menu_factory_TV_tunerdiag">Дијагностика на подесувач</string>
+    <string name="menu_factory_TV_tunerdiag_noinfo">Нема Diag.Info</string>
+    <string name="menu_factory_TV_tunerdiag_version">Верзија:</string>
+    <string name="menu_factory_TV_tunerdiag_freq">RF Фрек(KHz):</string>
+    <string name="menu_factory_TV_tunerdiag_lockstate">Статус на заклучување:</string>
+    <string name="menu_factory_setup_eventform">Образец за настан</string>
+    <string name="menu_factory_setup_burningmode">Burning Mode</string>
+    <string name="menu_factory_setup_uart_factory_mode">УАП фабрички режим</string>
+    <string name="menu_factory_setup_cleanstorage">Чиста меморија</string>
+
+    <string name="menu_factory_setup_data_service_support">Поддршка за податочна услуга</string>
+    <string name="menu_factory_setup_caption">Поставување натпис</string>
+    <string name="menu_factory_setup_extern_size">Надворешна големина</string>
+    <string name="menu_factory_setup_equal_width">Еднаква широчина</string>
+    <string name="menu_factory_setup_auto_line">Auto line</string>
+    <string name="menu_factory_setup_roll_up">Затвори</string>
+
+    <string name="menu_factory_setup_clean_dialog">Дали сте сигурни?</string>
+    <string name="menu_factory_preset_dump">Dump Ch</string>
+    <string name="menu_factory_preset_print">Отпечати Ch</string>
+    <string name="menu_factory_preset_restore">Обнови Ch</string>
+    <string name="menu_factory_setup_ci_update">Ажурирај CI+ Акредитив од УСБ</string>
+    <string name="menu_factory_setup_ci_erase">Erase CI+ Credential</string>
+    <string name="menu_factory_setup_ci_query">Query CI+ Credential</string>
+    <string name="menu_factory_setup_ci_update_false">Датотеката не е најдена</string>
+    <string name="menu_factory_setup_ci_update_success">Ажурирањето успеа</string>
+    <string name="menu_factory_setup_ci_key_false">Не е најдено копче</string>
+    <string name="menu_factory_setup_ci_erase_success">Бришењето успеа!</string>
+    <string name="menu_factory_setup_ci_erase_false">Бришењето не успеа!</string>
+    <string name="menu_factory_setup_ci_query_false">Важечко:N шифра на клиент</string>
+
+    <!-- pop-up dialog or window  -->
+    <string name="menu_tv_analog_manual_scan_init">Пребарај за аналогни канали</string>
+    <string name="menu_tv_single_rf_scan_init">Скенирај единечен RF канал. (Само дигитално)</string>
+    <string name="menu_tv_us_range_scan">Скенирај со лепеза на канали</string>
+    <string name="menu_tv_analog_manual_scan_cancel">Статус:Скенирањето е откажано</string>
+    <string name="menu_setup_channel_scan">Статус:Скенирање</string>
+    <string name="menu_setup_satellite_name">Satellite name: </string>
+    <string name="menu_setup_channel_scan_ana">Аналогни канали:</string>
+    <string name="menu_setup_channel_scan_dig">Дигитални канали:</string>
+    <string name="menu_tv_store_data">Сигурно да се зачува?</string>
+    <string name="menu_tv_reset_all">Сигурно да се ресетираат сите поставки?</string>
+    <string name="menu_setup_channel_scan_cancel">Статус:Скенирањето е откажано</string>
+    <string name="menu_setup_channel_scan_error">Статус:Грешка на скенирање</string>
+    <string name="menu_setup_channel_scan_done">Статус:Скенирањето е завршено</string>
+    <string name="menu_setup_network_upgrade">надградување мрежа...</string>
+    <string name="menu_setup_network_wireless">Безжични поставки</string>
+    <string name="menu_setup_network_no_net">Нема безжичен уред поврзан со ТВ!</string>
+    <string name="menu_setup_tvchaneledit_hint">Тест</string>
+    <string name="menu_setup_divx_sure">ОК</string>
+    <string name="menu_setup_divx_cancel">ОТКАЖИ</string>
+    <string name="menu_setup_tvchaneledit_sure">ОК</string>
+    <string name="menu_setup_tvchaneledit_cancel">ОТКАЖИ</string>
+    <string name="menu_setup_button_yes">Да</string>
+    <string name="menu_setup_button_no">Не</string>
+    <string name="menu_setup_ip_edittext_hint">000</string>
+    <string name="menu_setup_ip_error_warning1">please enter values between 1 and 233 </string>
+    <string name="menu_setup_ip_error_warning2">ве молиме внесете вредности помеѓу 0 и 255</string>
+    <string name="menu_setup_ip_error_warning3">Повеќе од една од подмрежна маска на IP адреса и Стандардна капија е неважечка. Ве молиме внесете повторно!</string>
+    <string name="menu_setup_ip_null_warning">исклучено или земање...</string>
+    <string name="menu_address_auto">Автоматски</string>
+    <string name="menu_address_ethernet">Етернет</string>
+    <string name="menu_address_wireless">Безжично</string>
+    <string name="menu_versioninfo_name">Име на модел</string>
+    <string name="menu_versioninfo_version">Верзија</string>
+    <string name="menu_versioninfo_number">Сериски број</string>
+    <string name="menu_video_auto_adjust_info">Автоматско прилагодување</string>
+    <string name="menu_video_auto_color_info">ве молиме почекајте</string>
+    <string name="menu_setup_divxreg">Мора да го регистрирате уредот за да репродуцирате DivX® заштитени видеа.\nШифра за регистрација:BX9ASIKQEI\n Регистрирајте се на http://vod.divx.com</string>
+    <string name="menu_setup_divxdea">Шифра за дерегистрација:\n Дерегистрирај се на http://vod.divx.com\n Продолжи со регистрација?</string>
+
+    <!--Part of Parental  -->
+    <string name="menu_parental_password">Лозинка</string>
+    <string name="menu_parental_channel_block">Блокиран канал</string>
+    <string name="menu_parental_time_interval_block">Заклучен Временски интервал</string>
+    <string name="menu_parental_program_block">Блокирана програма</string>
+    <string name="menu_parental_channel_schedule_block">Блокиран распоред на канали</string>
+    <string name="menu_parental_channel_schedule_block_operation_mode">Режим на работење</string>
+    <string name="menu_parental_input_block">Блокиран влез</string>
+    <string name="menu_parental_change_password">Промени лозинка</string>
+    <string name="menu_parental_clean_all">Исчисти се</string>
+    <string name="menu_parental_password_incorrect">Неточна лозинка.\nВе молиме внесете повторно!</string>
+    <string name="menu_parental_password_new">Нова лозинка</string>
+    <string name="menu_parental_password_new_re">Потврди лозинка</string>
+    <string name="menu_parental_password_matchinfo">Лозинката не се совпаѓа.\nВе молиме внесете повторно!</string>
+    <string name="menu_parental_password_default">1234</string>
+    <string name="menu_parental_tvsource_tv0">tv0</string>
+
+    <string name="menu_parental_channel_schedule_start_date">Датум на почеток</string>
+    <string name="menu_parental_channel_schedule_start_time">Време на почеток</string>
+    <string name="menu_parental_channel_schedule_end_date">Датум на завршување</string>
+    <string name="menu_parental_channel_schedule_end_time">Време на завршување</string>
+
+    <string name="menu_parental_time_interval_start_time">Време на почнување</string>
+    <string name="menu_parental_time_interval_end_time">Време на завршување</string>
+
+
+    <string name="menu_allowed_rating">Допуштен рејтинг</string>
+    <string name="menu_blocked_rating">Блокиран рејтинг</string>
+    <string name="menu_us_tv_ratings">Рејтинзи на САД ТВ</string>
+    <string name="menu_us_movie_ratings">Рејтинзи на САД филмови</string>
+    <string name="menu_canadian_english_ratings">Рејтинзи на канадски англиски</string>
+    <string name="menu_canadian_french_ratings">Рејтинзи на канадски француски</string>
+    <string name="menu_age_ratings">Рејтинг на возраст</string>
+    <string name="menu_oceania_aus_ratings">Ограничување на пристап</string>
+    <string name="menu_content_ratings">Рејтинг на содржина</string>
+    <string name="menu_open_vchip">Отвори V-чип</string>
+    <string name="menu_block_unrated">Блокирај без рејтинг</string>
+    <string name="menu_rating_enable">Овозможи рејтинг</string>
+    <!-- Part of wifi -->
+    <string name="menu_wifi_exit">ИЗЛЕЗИ</string>
+    <string name="menu_wifi_cancel">ОТКАЖИ</string>
+    <string name="menu_wifi_next">Следно</string>
+    <string name="menu_wifi_select">Избери</string>
+    <string name="menu_wifi_input">Влез</string>
+    <string name="menu_wifi_set">Постави</string>
+    <string name="menu_wifi_prev">Претходно</string>
+    <string name="menu_wifi_main_scan">Скенирање</string>
+    <string name="menu_wifi_main_manual">рачно</string>
+    <string name="menu_wifi_main_auto">Автоматски</string>
+    <string name="menu_wifi_connected">Ќе ја прекине поврзаната врска за безжична мрежа.\nПритиснете го Десното копче за да продолжите.</string>
+    <string name="menu_wifi_nodongle">Нема безжичен уред поврзан со ТВ!</string>
+    <string name="menu_wifi_connect_fail">Поврзувањето не успеа!</string>
+    <string name="menu_wifi_connect_success">Поврзувањето успеа и добиена е  IP!</string>
+    <string name="menu_wifi_invalid_wpa_key">Неважечки WPA клуч,ве молиме проверете.</string>
+    <string name="menu_wifi_invalid_wep_key">Неважечки WPA клуч,ве молиме проверете.</string>
+    <string name="menu_wifi_no_match">Не е најдена Точка на пристап што се совпаѓа.\nВе молиме обидете се повторно.</string>
+    <string name="menu_wifi_pass_err">Лозинката можеби е неточна. Ве молиме проверете го поставувањето на точката на пристап.</string>
+    <string name="menu_wifi_time_out">Поврзувањето не успеа поради прекин.\nВе молиме обидете се повторно.</string>
+    <string name="menu_wifi_input_key_nosupport">Please input Not Support key.</string>
+    <string name="menu_wifi_input_key_wpa">Ве молиме внесете WPA клуч.</string>
+    <string name="menu_wifi_input_key_wep">Ве молиме внесете WEP клуч.</string>
+    <string name="menu_wifi_input_ssid">Ве молиме внесете SSID.</string>
+    <string name="menu_wifi_input_ssid_error">The valid length of SSID is 1~32 words.Please check the SSID.</string>
+    <string name="menu_wifi_select_auth_mode">Ве молиме изберете го Режимот за безбедност</string>
+    <string name="menu_wifi_auth_mode_none">НИШТО</string>
+    <string name="menu_wifi_auth_mode_wep">WEP</string>
+    <string name="menu_wifi_auth_mode_wpa_tkip">WPA-PSK(TKIP)</string>
+    <string name="menu_wifi_auth_mode_wpa_aes">WPA-PSK(AES)</string>
+    <string name="menu_wifi_auth_mode_wpa2_tkip">WPA2-PSK(TKIP)</string>
+    <string name="menu_wifi_auth_mode_wpa2_aes">WPA2-PSK(AES)</string>
+    <string name="menu_wifi_auth_mode_auto">WPA/WPA2-PSK(AUTO)</string>
+    <string name="menu_wifi_ap_security_none">НИШТО</string>
+    <string name="menu_wifi_ap_security_notsupport">Не е поддржано</string>
+    <string name="menu_wifi_ap_security_auto">WPA/WPA2-PSK</string>
+    <string name="menu_wifi_ap_security_wpa">WPA-PSK</string>
+    <string name="menu_wifi_ap_security_wpa2">WPA2-PSK</string>
+    <string name="menu_wifi_ap_security_wep">WEP</string>
+    <string name="menu_wifi_ap_head_ssid">SSID</string>
+    <string name="menu_wifi_ap_head_bssid">BSSID</string>
+    <string name="menu_wifi_ap_head_security">Безбедност</string>
+    <string name="menu_wifi_ap_head_signal">Сигнал</string>
+    <string name="menu_wifi_wps_header1">WPS(Поставување заштитено Wifi)</string>
+    <string name="menu_wifi_wps_header2">-PIN(Број за лична идентификација)</string>
+    <string name="menu_wifi_wps_header3">-PBC(Конфигурација на притисно копче)</string>
+    <string name="menu_wifi_wps_main_pin">PIN</string>
+    <string name="menu_wifi_wps_main_pbc">PBC</string>
+    <string name="menu_wifi_wps_pbc_hint">Ве молиме притиснете го Притисното копче на АР во рок од 120 секунди откако ќе кликнете на подолното копче \'Next\'.</string>
+    <string name="menu_wifi_wps_pin_hint">Ве молиме осигурете се дека следниот PIN код е инсталиран на АР пред да кликнете на подолното копче \'Следно\'.</string>
+    <string name="menu_wifi_wps_pin_textcode">PIN код:</string>
+    <string name="menu_wifi_wps_pin_inittextcode">[111111]</string>
+    <string name="menu_wifi_wps_pin_refresh">Освежи PIN</string>
+    <string name="menu_wifi_connecting">ТВ се поврзува со АР</string>
+    <string name="menu_wifi_scaning">ТВ скенира АР</string>
+    <string name="menu_wifi_wait">ве молиме почекајте</string>
+    <string name="menu_wifi_no_ap">Нема достапна АР</string>
+    <string name="menu_wifi_what">Што ли правите?</string>
+
+    <string name="menu_wifi_need_special">Сакате да изберете посебна АР?</string>
+    <string name="menu_teletext_notsupport_tip">Нема телетекст</string>
+    <string name="menu_teletext_no_top_tip">Нема ТОР</string>
+    <string name="schedule_pvr_srctype">Тип Src</string>
+    <string name="schedule_pvr_channel_num">Информации за канал</string>
+    <string name="schedule_pvr_reminder_type">Тип на распоред</string>
+    <string name="schedule_pvr_repeat_type">Тип на повторување</string>
+
+    <string name="schedule_pvr_start_date">Датум на почеток</string>
+    <string name="schedule_pvr_start_time">Време на почнување</string>
+    <string name="schedule_pvr_stop_time">Време на запирање</string>
+
+    <string name="menu_tv_tshift_config">Режим за одложено снимање</string>
+    <string name="menu_tv_device_info">Информации за уред</string>
+    <string name="menu_setup_schedule_list">Список на распоредот</string>
+    <string name="menu_setup_license_info">Информации за лиценца</string>
+    <string name="menu_setup_system_info">Системски информации</string>
+
+    <string name="menu_setup_oad_detect">Рачно OAD преземање</string>
+    <string name="menu_setup_oad_set_auto_dl">Автоматско преземање</string>
+    <string name="menu_rating_a">A</string>
+    <string name="menu_rating_d">D</string>
+    <string name="menu_rating_l">L</string>
+    <string name="menu_rating_s">S</string>
+    <string name="menu_rating_v">V</string>
+    <string name="menu_rating_fv">FV</string>
+    <string name="menu_rating_tvy">TV-Y</string>
+    <string name="menu_rating_tvy7">TV-Y7</string>
+    <string name="menu_rating_tvg">TV-G</string>
+    <string name="menu_rating_tvpg">TV-PG</string>
+    <string name="menu_rating_tv14">TV-14</string>
+    <string name="menu_rating_tvma">TV-MA</string>
+
+    <string name="menu_rating_movie_g">G</string>
+    <string name="menu_rating_movie_pg">PG</string>
+    <string name="menu_rating_movie_pg13">PG-13</string>
+    <string name="menu_rating_movie_r">R</string>
+    <string name="menu_rating_movie_nc17">NC-17</string>
+    <string name="menu_rating_movie_x">X</string>
+
+    <string name="menu_rating_english_c">C</string>
+    <string name="menu_rating_english_c8">C8+</string>
+    <string name="menu_rating_english_g">G</string>
+    <string name="menu_rating_english_pg">PG</string>
+    <string name="menu_rating_english_14">14+</string>
+    <string name="menu_rating_english_18">18+</string>
+
+    <string name="menu_rating_french_g">G</string>
+    <string name="menu_rating_french_8ans">8ANS+</string>
+    <string name="menu_rating_french_13ans">13ANS+</string>
+    <string name="menu_rating_french_16ans">16ANS+</string>
+    <string name="menu_rating_french_18ans">18ANS+</string>
+
+    <!-- Add for DVBC on EU -->
+    <string name="menu_c_channel_scan">Скенирање канали</string>
+    <string name="menu_c_analog_manual_scan">Аналогно рачно скенирање</string>
+    <string name="menu_c_rf_scan">Единечно RF скенирање</string>
+
+    <string name="menu_c_favorite_net">Избери Омилена мрежа</string>
+    <string name="menu_c_chanel_skip">Прескокни канал</string>
+    <string name="menu_c_chanel_sor">Сортирање канал</string>
+    <string name="menu_c_chanel_edit">Уреди канал</string>
+    <string name="menu_c_chanel_decode">Декодирање канал</string>
+    <string name="menu_c_analog_tune">Фино подесување на аналоген канал</string>
+    <string name="menu_c_channelscan_utc">Upc</string>
+    <string name="menu_c_channelscan_oth">Други</string>
+    <string name="menu_c_analogscan_scanup">Скенирање нагоре</string>
+    <string name="menu_c_analogscan_scandown">Скенирање надолу</string>
+    <string name="menu_c_analogscan_frequency">Почетна фреквенција </string>
+
+    <string name="menu_c_scan_mode">Режим на скенирање</string>
+    <string name="menu_c_scan_mode_advance">Напредно</string>
+    <string name="menu_c_scan_mode_full">Полно</string>
+    <string name="menu_c_scan_mode_quick">Брзо</string>
+
+    <string name="menu_dvbs_scan_mode_network">Мрежа</string>
+    <string name="menu_dvbs_scan_mode_full">Полно</string>
+    <string name="menu_c_net">ИД на мрежата</string>
+    <string name="menu_c_scan">Скенирање</string>
+
+    <string name="menu_c_rfscan_frequency">Фреквенција(KHz)</string>
+    <string name="menu_c_rfscan_modulation">Модулација</string>
+    <string name="menu_c_rfscan_symbol_rate">Стапка на симбол(Ksym/s)</string>
+    <string name="menu_c_rfscan_signal_level">Ниво на сигнал:</string>
+    <string name="menu_c_rfscan_signal_quality">Квалитет на сигнал</string>
+
+    <string name="menu_eu_audio_channel">Аудио канал</string>
+
+    <!-- add for DVBS EU -->
+    <string name="menu_s_sate_rescan">Повторно скенирање сателит</string>
+    <string name="menu_s_sate_add">Додади сателит</string>
+    <string name="menu_s_sate_update">Ажурирање сателит</string>
+    <string name="menu_s_sate_tuning">Рачно подесување сателит</string>
+    <string name="menu_s_favorite_network">Избери Омилена мрежа</string>
+    <string name="menu_s_channel_skip">Прескокни канал</string>
+    <string name="menu_s_channel_sort">Сортирање канал</string>
+    <string name="menu_s_channel_edit">Уреди канал</string>
+    <string name="menu_s_channel_decode">Декодирање канал</string>
+    <string name="menu_config_value_auto">Автоматски</string>
+
+    <string name="menu_system_info_channel">КАНАЛ</string>
+    <string name="menu_system_info_pre">Pre RS</string>
+    <string name="menu_system_info_fre">Фреквенција</string>
+    <string name="menu_system_info_prog">Prog</string>
+    <string name="menu_system_info_cn">C/N</string>
+    <string name="menu_system_info_uec">UEC</string>
+    <string name="menu_system_info_service_id">ИД на услуга</string>
+    <string name="menu_system_info_symbol_rate">Стапка на симболот</string>
+    <string name="menu_system_info_symbol_tsid">TS ID</string>
+    <string name="menu_system_info_symbol_onid">ON ID</string>
+    <string name="menu_system_info_symbol_networkid">ИД на мрежата</string>
+    <string name="menu_system_info_symbol_agc">AGC</string>
+    <string name="menu_system_info_symbol_lnb">LNB</string>
+
+    <string name="menu_system_info_symbol_pre_viterbi">Pre Viterbi</string>
+    <string name="menu_system_info_symbol_post_viterbi">Post Viterbi</string>
+    <string name="menu_system_info_symbol_5s">5S</string>
+
+    <string name="menu_config_bl_type">Тип на заклучување</string>
+    <string name="scan_trd_fav_network_title">Мрежа</string>
+    <string name="scan_trd_fav_network">Ве молиме изберете ја вашата омилена мрежа:</string>
+    <string name="scan_trd_pt_save_channel">Сакате да го зачувате пребараниот резултат?</string>
+    <string name="scan_trd_uk_reg_title">Одбери регион</string>
+    <string name="scan_trd_uk_reg_reg_1">Регион 1</string>
+    <string name="scan_trd_uk_reg_reg_2">Регион 2</string>
+    <string name="scan_trd_uk_reg_reg_3">Регион 3</string>
+    <string name="scan_trd_uk_reg_reg_nodefine">Ниедно наведено</string>
+
+    <string name="scan_trd_lcn_CONFLICT_INDEX">Индекс на конфликтна група:</string>
+    <string name="scan_trd_lcn_CONFLICT_CHANL_NUM">Број на конфликтен канал:</string>
+    <string name="scan_trd_lcn_CONFLICT_USE_DEFAULT">Користи стандардна поставка за сите</string>
+
+    <string name="scan_trd_lcnv2">Избери листа на канали</string>
+    <string name="scan_trd_lcnv2_title">Ве молиме изберете листа на канали:</string>
+
+    <string name="download_firmware_start_button_text">Започни</string>
+    <string name="download_firmware_exit_button_text">ОТКАЖИ</string>
+    <string name="download_firmware_reboot_button_text">Рестартирај</string>
+    <string name="download_firmware_progress_textview_text">Напредок</string>
+    <string name="download_firmware_status_textview_text">Статус:</string>
+    <string name="download_firmware_toast_textview_validating_text">Валидирање...</string>
+    <string name="download_firmware_toast_textview_upgrade_text">Фирмверот е подготвен. Сигурно сакате да \nго рестартирате системот сега?</string>
+    <string name="download_firmware_toast_textview_to_start_text">Ве молиме притиснете го копчето Старт за да преземете фирмвер!</string>
+    <string name="download_firmware_status_value_start">Преземањето започна</string>
+    <string name="download_firmware_status_value_downloading">Се презема</string>
+    <string name="download_firmware_status_value_complete">Завршено</string>
+    <string name="download_firmware_status_value_cancel_down">Откажи</string>
+    <string name="download_firmware_toast_textview_download_exit_none">Излез од преземање! Датотеката за преземање не постои!</string>
+    <string name="download_firmware_toast_textview_validate_complete">Валидирањето е комплетирано</string>
+    <string name="download_firmware_toast_textview_download_exit_network_error">Излез од преземање! Мрежна грешка!</string>
+    <string name="download_firmware_toast_textview_download_exit_validate_error">Излез од преземање! Грешка на валидирање!</string>
+    <string name="download_firmware_toast_textview_download_exit_fail">Излез од преземање! Преземањето не успеа!</string>
+    <string name="download_firmware_not_upgrade">Системот нема да го надгради фирмверот!</string>
+    <string name="download_firmware_upgrade_successfully">Системот успешно го надгради фирмверот!</string>
+    <string name="download_firmware_upgrade_unsuccessfully">Системот неуспешно го надгради фирмверот!</string>
+
+    <!-- CI string -->
+    <string name="menu_ci_cam_scan">Скенирање на камера</string>
+    <string name="ci_title">CI информации</string>
+</resources>

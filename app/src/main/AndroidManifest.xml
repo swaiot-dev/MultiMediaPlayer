@@ -3,7 +3,7 @@
     package="com.mediatek.wwtv.mediaplayer"
     android:sharedUserId="android.uid.system"
     android:versionCode="10305"
-    android:versionName="1.2.5"
+    android:versionName="1.0.0.180816"
      >
 
     <uses-sdk
@@ -450,6 +450,13 @@
         </receiver>
 
         <service android:name="com.mediatek.wwtv.mediaplayer.mmpcm.audioimpl.PlaybackService" />
+
+        <service android:name=".service.MediaOperateService"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="com.mediatek.wwtv.mediaplayer.service.MediaOperateService" />
+            </intent-filter>
+        </service>
 
         <uses-library
             android:name="mtkexoplayerlib"

@@ -795,10 +795,12 @@ public class MusicPlayInfoView extends LinearLayout {
     }
 
     public void changeVisualizer() {
-        if (!mShowMusicStatus_vv.isDraw()) {
-            mShowMusicStatus_vv.start();
-        } else {
-            mShowMusicStatus_vv.stop();
+        if (mShowMusicStatus_vv != null) {
+            if (!mShowMusicStatus_vv.isDraw()) {
+                mShowMusicStatus_vv.start();
+            } else {
+                mShowMusicStatus_vv.stop();
+            }
         }
     }
 

@@ -1,5 +1,7 @@
 package com.mediatek.wwtv.mediaplayer.mmpcm.audioimpl;
 
+import android.text.format.DateUtils;
+
 import java.io.BufferedInputStream;
 import java.io.File;
 import java.io.FileInputStream;
@@ -9,6 +11,8 @@ import java.io.InputStreamReader;
 import java.io.UnsupportedEncodingException;
 import java.util.Collections;
 import java.util.Vector;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import com.mediatek.wwtv.mediaplayer.mmpcm.audio.ILyric;
 import com.mediatek.wwtv.util.MtkLog;
@@ -135,6 +139,29 @@ public class Lyric implements ILyric {
 
 			}
 		}
+
+		long time = 0;
+		long min = 0;
+		long sec = 0;
+		long msec = 0;
+		int pos = 0;
+
+		/*Matcher lineMatcher = Pattern.compile("((\\[\\d\\d:\\d\\d\\.\\d\\d\\])+)(.+)").matcher(str);
+		if (!lineMatcher.matches()) {
+			return -1;
+		}*/
+
+		/*String times = lineMatcher.group(1);
+		String text = lineMatcher.group(3);
+		Matcher timeMatcher = Pattern.compile("\\[(\\d\\d):(\\d\\d)\\.(\\d\\d)\\]").matcher(times);
+		while (timeMatcher.find()) {
+			min = Long.parseLong(timeMatcher.group(1));
+			sec = Long.parseLong(timeMatcher.group(2));
+			msec = Long.parseLong(timeMatcher.group(3));
+			time = min * DateUtils.MINUTE_IN_MILLIS + sec * DateUtils.SECOND_IN_MILLIS + msec * 10;
+		}
+		lyricTime.addElement(time);
+		lyricContent.addElement(text);*/
 
 		if (count > 0) {
 			if (str.length() > step) {

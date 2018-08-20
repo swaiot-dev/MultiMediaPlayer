@@ -1,0 +1,16 @@
+<resources>
+
+    <string name="feature_not_avaiable">အဂၤါရပ္ မရႏိုင္ပါ။</string>
+    <string name="attention_unplug_device">သတိျပဳရန္ - ကိရိယာကို ပလပ္မျဖဳတ္ပါႏွင့္ သို႔မဟုတ္ပါက မေမွ်ာ္လင့္ထားေသာ အမွားမ်ားျဖစ္ႏုိင္သည္</string>
+    <string name="feature_not_support">အဂၤါရပ္ မေထာက္ပံ့ပါ။</string>
+    <string name="format_confirm_dialog_line1">ပံုစံခ်ျခင္းက ေဒတာအားလံုးကို ဖ်က္ပစ္လိမ့္မည္။</string>
+    <string name="format_confirm_dialog_line2">ေသခ်ာပါသလား။</string>
+    <string name="delete_pvr_file_dialog_confirm2">ေသခ်ာပါသလား။</string>
+    <string name="disk_wizard_formatconfirm_summary">USB ဒစ္ကို ေဖာမက္ခ်လိုသည္မွာ ေသခ်ာပါသလား။</string>
+    <string name="disk_wizard_formating_summary">ပံုစံခ်ေနသည္</string>
+    <string name="disk_wizard_set_tshift_size_summary">ေက်းဇူးျပဳ၍ အစီအစဥ္ကို ဖမ္းယူရန္အတြက္ ဖိုင္အရြယ္အစားေရြးပါ။</string>
+    <string name="disk_setting_format_fail">"ခ်စ္လွစြာေသာ အရည္အေသြး စစ္ေဆးသူ၊ ဒစ္ပံုစံသည္ ပံုစံအသစ္ျဖစ္၍ အလုပ္လုပ္သည္မွာ..."</string>
+    <string name="state_file_pvr_playback_subtitle_off">ပိတ္</string>
+    <string name="state_file_pvr_playback_subtitle_on">ဖြင့္</string>
+
+</resources>

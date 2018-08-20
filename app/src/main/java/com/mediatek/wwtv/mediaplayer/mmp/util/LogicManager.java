@@ -1887,6 +1887,10 @@ public class LogicManager {
     return mImageManager.rightRotate(bitmap);
   }
 
+  public Bitmap resetRotate(Bitmap bitmap) {
+    return mImageManager.resetRotate(bitmap, 360 - (mRotateCount%4) * 90);
+  }
+
   int mRotateCount = 0;
 
   public void incRotate() {
@@ -1904,6 +1908,7 @@ public class LogicManager {
 
   public int getRotate() {
     MtkLog.i(TAG, "getRotate mRotation:" + mRotation + "--mRotateCount:" + mRotateCount);
+    Log.d("aaaa", "getRotate mRotation:" + mRotation + "--mRotateCount:" + mRotateCount);
     return (mRotation + mRotateCount * 90) % 360;
   }
 

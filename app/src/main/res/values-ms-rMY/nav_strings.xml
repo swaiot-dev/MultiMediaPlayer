@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="setup_ini">Pemasangan Awal</string>
+    <string name="setup_back">KEMBALI</string>
+    <string name="setup_select">Pilih</string>
+    <string name="setup_next">Seterusnya</string>
+    <string name="setup_exit">KELUAR</string>
+    <string name="setup_welcome">Selamat Datang</string>
+    <string name="setup_welcome_set">Anda dialukan menggunaan Wizard Pemasangan Awal!! \nSila tekan [ENTER] mulakan
+        wizard.
+    </string>
+    <string name="setup_language">Bahasa</string>
+    <string name="setup_select_language">Sila pilih bahasa anda:</string>
+    <string name="setup_select_one_op">Anda boleh pilih satu operator dari senarai berikut:</string>
+    <string name="setup_tunner">Mod Penalaan</string>
+    <string name="setup_select_tuner">Sila pilih mod penalaan anda :</string>
+    <string name="setup_channelscan">Imbasan Saluran</string>
+    <string name="setup_set_setps">Mula-mula,sila sambungkan antena.\nMulakan imbasan saluran sekarang? \nJika anda
+        langkau langkah ini,imbasan saluran boleh dilakukan dalam Menu.
+    </string>
+    <string name="setup_set_setps_us">Mula-mula, sila sambungkan kabel atau antena.\n\nMulakan imbasan saluran sekarang
+        ?\n\nJika anda langkau langkah ini,imbasan saluran boleh dilakukan dalam Menu.
+    </string>
+    <string name="setup_language_english">Inggeris</string>
+    <string name="setup_scan">Imbas</string>
+    <string name="setup_skip_scan">Langkau Imbasan</string>
+    <string name="setup_complete">Lengkap</string>
+    <string name="setup_congratulations">Tahniah!\nPemasangan Awal Selesai.\nSila tekan [ENTER] untuk keluar wizard.
+    </string>
+    <string name="setup_channel_scan_note">Imbasan saluran mungkin mengambil masa untuk selesai.</string>
+    <string name="setup_channel_scan_status">Status:Mengimbas</string>
+    <string name="setup_channel_scan_analog">Saluran Analog:</string>
+    <string name="setup_channel_scan_digital">Saluran Digital:</string>
+    <string name="setup_cancel">BATAL</string>
+    <string name="setup_cancel_scan">Status:Batalkan Imbasan</string>
+    <string name="setup_scan_error">Status: Ralat Imbasan</string>
+    <string name="setup_channel_scan_status_complete">Status: Selesai Imbasan</string>
+    <string name="dvbs_operator_perferred_satellite">Satelit pilihan</string>
+    <string name="dvbs_operator_general_satellite">Satelit umum</string>
+
+    <string name="table">Jadual halaman</string>
+    <string name="nav_source_main_title">Utama</string>
+    <string name="nav_please_scan_channels">Sila Imbas Saluran!</string>
+    <string name="nav_no_function">Tiada Fungsi</string>
+    <string name="nav_select_list">Pilih Senarai</string>
+    <string name="nav_page_up">Laman Naik</string>
+    <string name="nav_page_down">Laman Turun</string>
+    <string name="nav_fav_move_up">Gerak ke Atas</string>
+    <string name="nav_fav_move_down">Gerak ke Bawah</string>
+    <string name="nav_exit">KELUAR</string>
+    <string name="nav_list_satellite">Senarai Satelit</string>
+    <string name="nav_satellite_list">Pilih Satelit</string>
+    <string name="nav_channel_list">Senarai Saluran</string>
+
+    <string name="nav_channel_list_title_str">Senarai Saluran -</string>
+    <string name="nav_channel_selection">Pilihan Senarai Saluran</string>
+    <string name="nav_channel_details">Butiran Saluran</string>
+    <string name="nav_volume_main">Kelantangan Utama</string>
+    <string name="nav_parent_psw">Kata Laluan</string>
+    <string name="nav_parent_dvbs_hint">Kata laluan telah salah tiga kali!\nSila tunggu...</string>
+    <string name="nav_favorite_list">Senarai Kegemaran</string>
+    <string name="nav_favorite_select">Pilih</string>
+
+    <string name="nav_channel_infoName">Jed</string>
+    <string name="nav_channel_infoMiddle_special">Mendapatkan Data…</string>
+    <string name="nav_channel_infoTitle">(Tiada Tajuk program.)</string>
+    <string name="nav_channel_infoNextDuration">Pandangan Pertukaran Saham</string>
+    <string name="nav_channel_infoNoProgram">(Tiada Butiran Program.)</string>
+    <string name="nav_channel_infoNoChannelDetail">(Tiada Butiran Saluran.)</string>
+    <string name="nav_no_signal">Tiada Isyarat!</string>
+    <string name="nav_no_support">Tiada Sokongan!</string>
+    <string name="nav_channel_has_locked">Saluran Dikunci!</string>
+    <string name="nav_input_has_locked">Input Dikunci!</string>
+    <string name="nav_program_has_locked">Program Dikunci!</string>
+    <string name="nav_hidden_channel">Saluran Tersembunyi!</string>
+    <string name="nav_channel_audio_scrambled">Audio Terkarau</string>
+    <string name="nav_channel_video_scrambled">Video Terkarau</string>
+    <string name="nav_sleep_label">Tidur:</string>
+    <string name="nav_sleep_off">Matikan</string>
+    <string name="nav_sleep_minutes">minit</string>
+    <string name="nav_resolution_null">Tiada Video</string>
+    <string name="nav_channel_retrieving">Mendapatkan Data…</string>
+    <string name="nav_unknown_audio">Audio tidak diketahui</string>
+    <string name="nav_unknown_stereo">Stereo tidak diketahui</string>
+    <string name="nav_channel_no_audio">Tiada Audio</string>
+
+    <string name="nav_epg_type">Jenis</string>
+    <string name="nav_epg_sub_type">Jenis Sub</string>
+    <string name="nav_epg_zero_tip">Senarai ditempah</string>
+    <string name="nav_epg_book_list">Senarai Acara Ditempah</string>
+    <string name="nav_epg_book_program_tip">\nTempah program ini?</string>
+    <string name="nav_epg_unbook_program_tip">\nTelah tempah program ini, tidak ingin menempah?</string>
+    <string name="nav_epg_book_program_coming_tip">ia datang, tukar kepada saluran tersebut?</string>
+    <string name="nav_epg_not_rated">Tidak Dinilai</string>
+    <string name="nav_epg_no_program_detail">(Tiada Butiran Program.)</string>
+    <string name="nav_epg_no_program_data">( Tiada data program.)</string>
+    <string name="nav_epg_no_program_title">(Tiada Tajuk program.)</string>
+    <string name="nav_epg_no_title">(Tiada tajuk)</string>
+    <string name="nav_epg_unlock">Dinyahkunci</string>
+    <string name="nav_epg_unschedule">Dinyahjadual</string>
+    <string name="nav_epg_schedule">Jadual</string>
+    <string name="nav_epg_unclassified">Tidak dikelaskan</string>
+    <string name="nav_epg_not_support">Tidak disokong</string>
+
+    <string name="cplogo_title">Tangkap Logo</string>
+    <string name="cplogo_bt_ok">OK</string>
+    <string name="cplogo_bt_cancel">BATAL</string>
+    <string name="cplogo_bt_full_screen">Skrin Penuh</string>
+    <string name="cplogo_bt_special_area">Bahagian Istimewa</string>
+    <string name="cplogo_bt_no">TIDAK</string>
+    <string name="cplogo_bt_adjust">Laras</string>
+    <string name="cplogo_msg_which_screen">Anda ingin menangkap skrin penuh atau bahagian istimewa?</string>
+    <string name="cplogo_msg_this_screen">Anda ingin menangkap skrin ini?</string>
+    <string name="cplogo_msg_select_position">Sila pilih satu posisi untuk simpan logo</string>
+    <string name="cplogo_msg_capturing">Tangkapan …</string>
+    <string name="cplogo_msg_adjust_position">Anda ingin laraskan posisi bahagian istimewa?</string>
+    <string name="cplogo_msg_res_success">Tangkapan berjaya</string>
+    <string name="cplogo_msg_res_fail">Tangkapan gagal, sila cuba lagi</string>
+    <string name="cplogo_capture_res_cancel">Operasi ini boleh dibatalkan</string>
+
+    <string name="vga_no_sinal_info">Tiada isyarat. Kuasa akan dimatikan</string>
+
+    <string name="epg_bottom_prev_day">Hari Sebelumnya</string>
+    <string name="epg_bottom_next_day">Hari Seterusnya</string>
+    <string name="epg_bottom_view_detail">Lihat Perincian</string>
+    <string name="epg_bottom_type_filter">Jenis saringan</string>
+    <string name="epg_bottom_prev_page">Laman Naik</string>
+    <string name="epg_bottom_next_page">Laman Turun</string>
+    <string name="epg_bottom_ENTER">Masuk</string>
+    <string name="epg_rating_unclassified">Tidak dikelaskan</string>
+
+    <string name="epg_info_program_type">Tiada</string>
+    <string name="epg_password">Kata Laluan</string>
+    <string name="epg_password_message">Kata laluan salah</string>
+    <string name="epg_retrieving_show">Mendapatkan Data…</string>
+
+    <string name="nav_epg_January">Januari</string>
+    <string name="nav_epg_February">Februari</string>
+    <string name="nav_epg_March">Mac</string>
+    <string name="nav_epg_May">Mei</string>
+    <string name="nav_epg_June">Jun</string>
+    <string name="nav_epg_July">Julai</string>
+    <string name="nav_epg_August">Ogos</string>
+    <string name="nav_epg_October">Oktober</string>
+    <string name="nav_epg_December">Disember</string>
+
+    <string name="nav_epg_may">Mei</string>
+    <string name="nav_epg_Aug">Ogo</string>
+    <string name="nav_epg_Oct">Okt</string>
+    <string name="nav_epg_Dec">Dis</string>
+
+    <string name="nav_epg_Sunday">Ahad</string>
+    <string name="nav_epg_Monday">Isnin</string>
+    <string name="nav_epg_Tuesday">Selasa</string>
+    <string name="nav_epg_Wednesday">Rabu</string>
+    <string name="nav_epg_Thursday">Khamis</string>
+    <string name="nav_epg_Friday">Jumaat</string>
+    <string name="nav_epg_Saturday">Sabtu</string>
+
+    <string name="nav_epg_Sun">Aha</string>
+    <string name="nav_epg_Mon">Isn</string>
+    <string name="nav_epg_Tue">Sel</string>
+    <string name="nav_epg_Wed">Rab</string>
+    <string name="nav_epg_Thur">Kha</string>
+    <string name="nav_epg_Fri">Jumaat</string>
+    <string name="nav_epg_Sat">Sab</string>
+
+    <string name="nav_ginga_tv_title">Senarai Aplikasi</string>
+    <string name="nav_select">Pilih</string>
+    <string name="nav_ginga_tv_message">Tiada aplikasi!</string>
+    <string name="nav_ginga_tv_for_infobar">Aplikasi Ginga dimuatkan…</string>
+    <string name="nav_ginga_tv_for_tips">Adakah anda ingin hentikan CC dan mulakan aplikasi Ginga?</string>
+
+    <string name="nav_upgrader_title">Mengemas kini Wizard</string>
+    <string name="nav_upgrader_MoreInfo">Maklumat Selanjutnya</string>
+    <string name="nav_upgrader_invalid">Fail Imej Firmware Tidak sah!!</string>
+    <string name="nav_upgrader_updating">Mengemas kini…</string>
+    <string name="nav_upgrader_warnning">Sila JANGAN cabut palam dongle USB dan matikan TV semasa kemas kini
+        firmware!!
+    </string>
+    <string name="nav_upgrader_validate">Mengesahkan firmware…</string>
+    <string name="nav_upgrader_confirm">Adakah anda pasti untuk mengemas kini firmware ?</string>
+    <string name="nav_upgrader_completed">Firmware telah berjaya dikemas kini.\nSila mula semula set TV untuk aktifkan
+        firmware baru.
+    </string>
+    <string name="nav_upgrader_failed">Gagal dikemas kini.\nSila mula semula set TV untuk muat turun firmware semula.
+    </string>
+    <string name="nav_upgrader_retry">Gagal dikemas kini.\nAnda ingin cuba semula?</string>
+    <string name="nav_upgrader_retry2">Gagal dikemas kini, sila masukkan USB.\nAnda ingin cuba semula?</string>
+    <string name="nav_upgrader_usb_space_not_enough">Ruang tersedia pada dongle USB anda tidak mencukupi.</string>
+    <string name="nav_upgrader_usb_not_ready">Dongle USB tidak bersedia, sila palamkan dan cuba lagi.</string>
+    <string name="nav_upgrader_internal_err">Ralat dalaman.</string>
+    <string name="nav_upgrader_not_avail_firmware">Tiada versi firmware tersedia.</string>
+    <string name="nav_upgrader_decry_fail">Penyahsulitan gagal.</string>
+    <string name="nav_upgrader_firmware_invalid">Firmware tidak sah.</string>
+    <string name="nav_upgrader_no_update">Tiada firmware untuk dikemas kini.</string>
+    <string name="nav_upgrader_check_fail">Semakan firmware baru gagal.</string>
+    <string name="nav_upgrader_download_fail">Tidak dapat muat turun firmware dari rangkaian.</string>
+    <string name="nav_upgrader_usb_problem">Terdapat masalah pada dongle USB.</string>
+    <string name="nav_upgrader_power">Kuasa</string>
+    <string name="nav_upgrader_yes">Ya</string>
+    <string name="nav_upgrader_no">TIDAK</string>
+    <string name="nav_upgrader_network_tip">Mula muat turun firmware baru dari pelayan</string>
+    <string name="nav_mheg5_tips">SARI KATA mesti ditutup sebeum benarkan TEKS digital. OK untuk teruskan?</string>
+
+    <string name="common_dialog_msg_yes">Ya</string>
+    <string name="common_dialog_msg_no">TIDAK</string>
+    <string name="common_dialog_ews_service_content">Anda ingin bertukar ke khidmat EWS?</string>
+    <string name="common_dialog_special_service_content">Anda ingin bertukar ke khidmat istimewa?</string>
+    <string name="commmon_dialog_book_reminder_content">ia datang, Anda ingin tukarkan?</string>
+    <string name="common_dialog_start_cc_stop_ginga">Anda ingin hentikan aplikasi Ginga dan buka CC?</string>
+
+    <string name="nav_ttx_top_block">Sekat</string>
+    <string name="nav_ttx_top_group">Kumpulan</string>
+    <string name="nav_ttx_top_page">Halaman</string>
+    <string name="nav_ttx_no_top">Tiada Teratas</string>
+
+    <string name="nav_banner_not_rating">tidak dinilai</string>
+    <string name="cam_scan_warning">Rangkaian CI Plus tukar,anda boleh cari untuk kemas kini rangkaian!</string>
+    <string name="cam_scan_urgent">Rangkaian CI Plus tidak tersedia,anda mesti cari untuk kemas kini rangkaian!</string>
+    <string name="cam_scan_not_init">Rangkaian CI Plus tidak diaktifkan,anda mesti cari untuk kemas kini rangkaian!
+    </string>
+    <string name="cam_scan_schedule">Rangkaian CI Plus capai carian jadual masa,anda boleh cari untuk kemas kini
+        rangkaian!
+    </string>
+
+    <string name="setup_select_country">Sila pilih negara anda:</string>
+    <string name="setup_country">Negara</string>
+    <string name="setup_dvbc_setting">Sila konfigurasi maklumat kabel</string>
+    <string name="setup_timezone">Zon masa</string>
+    <string name="setup_language_Catalan">Catalan</string>
+    <string name="setup_language_Gaelic">gaelic</string>
+    <string name="setup_language_Welsh">Welsh</string>
+    <string name="setup_language_english_eu">Inggeris</string>
+    <string name="setup_language_Catalan_eu">Catalan</string>
+    <string name="setup_language_Gaelic_eu">gaelic</string>
+    <string name="setup_language_Welsh_eu">Welsh</string>
+    <string name="setup_dvbc_config_scanmode">Mod Imbasan</string>
+    <string name="setup_dvbc_config_frequency">Frekuensi (KHZ)</string>
+    <string name="setup_dvbc_config_modulation">Modulasi</string>
+    <string name="setup_dvbc_config_symbolrate">Nilai Simbol(Ksym/s)</string>
+    <string name="setup_dvbc_config_networkid">ID Rangkaian</string>
+
+    <string name="setup_set_password_titile1">Kata Laluan Baharu</string>
+    <string name="setup_set_password_titile2">Sahkan Kata Laluan</string>
+    <string name="setup_dvbs_satellite_list">Pilih Satelit</string>
+    <string name="setup_dvbs_satellite_config">Pemasangan Antena</string>
+    <string name="setup_select_set">Tetapkan</string>
+    <string name="nav_oad_dialog_title">Muat turun atas talian</string>
+    <string name="nav_oad_scanning">Mengimbas</string>
+    <string name="nav_oad_scanning_result_fail">Tidak dapat jumpa perisian baru di atas talian</string>
+
+    <string name="nav_oad_programming">Pengaturcaraan</string>
+    <string name="nav_oad_downloading">Muat turun</string>
+    <string name="nav_oad_downloading_info">Proses ini boleh mengambil masa sehingga 25 minit</string>
+    <string name="nav_oad_flash_confirm">Muat turun perisian berjaya.Anda ingin mula pancarkan?</string>
+    <string name="nav_oad_flash_fail">Pengaturcaraan gagal. Cuba lagi?\n\nSila Hubungi Pusat Perkidmatan.</string>
+    <string name="nav_oad_restart_confirm">Perisian berjaya dimuat turun! Mulakan semula TV sekarang?</string>
+
+    <string name="nav_oad_warning_msg_str">Amaran: Semasa proses. Sila jangan cabut palam label kuasa TV ia akan
+        menyebabkan TV rosak.
+    </string>
+
+    <string name="nav_oad_manual_download_confirm">Kemas kini perisian. Satu cadangan pengemaskinian perisian tersedia.
+        Pengemaskinian mungkin ambil masa dan skrin mungkin menjadi hitam. Jangan matikan penerima semasa
+        pengemaskinian. Anda ingin kemas kini sekarang?
+    </string>
+    <string name="nav_oad_manual_download_fail">Tidak boleh muat turun perisian. Anda ingin cuba lagi?</string>
+
+    <string name="nav_oad_auto_download_confirm">Kemas kini perisian. Satu cadangan pengemaskinian perisian tersedia.
+        Pengemaskinian mungkin ambil masa dan skrin mungkin menjadi hitam. Jangan matikan penerima semasa
+        pengemaskinian. Anda ingin kemas kini sekarang? Ia akan mulakan automatik dalam %s saat
+    </string>
+
+    <string name="nav_oad_schedule_oad_accept_schedule_confirm">Kemas kini perisian. Satu cadangan pengemaskinian
+        perisian tersedia pada %s. Pengemaskinian mungkin ambil masa dan skrin mungkin menjadi hitam. Jangan matikan
+        penerima semasa pengemaskinian. Jika menerima kemas kini ini, sila biarkan penerima hidup atau mod siap sedia
+        pada masa dijadualkan. Anda ingin menerima kemas kini ini?
+    </string>
+    <string name="nav_oad_schedule_oad_change_channel_confirm">Kemas kini perisian. Satu cadangan pengemaskinian
+        perisian terdapat di saluran lain. Jika anda menerima untuk muat turun, ia akan tukar saluran secara automatik.
+        Anda ingin lakukan sekarang? Ia akan mulakan automatik dalam %s saat
+    </string>
+    <string name="nav_oad_atuo_download_with_bgm">Perisian baru dikesan!\nAnda ingin menerima muat turun autmatik
+        perisian apabila TV dalam keadaan siap sedia?
+    </string>
+
+    <string name="setup_language_english_value">Pengaturcaraan</string>
+    <string name="setup_language_chinese_value">Pengaturcaraan</string>
+    <string name="setup_language_spanish_value">Pengaturcaraan</string>
+    <string name="setup_language_french_value">Pengaturcaraan</string>
+    <string name="setup_language_portuguese_value">Pengaturcaraan</string>
+
+    <string name="setup_country_cty_4">Republik Czech</string>
+    <string name="setup_country_cty_5">Jerman</string>
+    <string name="setup_country_cty_7">Sepanyol</string>
+    <string name="setup_country_cty_9">Perancis</string>
+    <string name="setup_country_cty_11">Itali</string>
+    <string name="setup_country_cty_13">Belanda</string>
+    <string name="setup_country_cty_24">Rusia</string>
+    <string name="setup_country_cty_28">Turki</string>
+    <string name="setup_set_timezone">Sila pilih zon masa anda:</string>
+    <string name="setup_set_password_title">Sila tetapkan kata laluan. "0000" bukan kata laluan yang sah</string>
+    <string name="setup_set_postalcode">Sila masukkan poskod</string>
+    <string name="setup_set_password_success_msg">Kata laluan telah berjaya ditetapkan!</string>
+
+    <string name="dvbc_operator_others">Lain-lain</string>
+    <string name="dvbt_inactivechannel_nw_chg">Sesetengah saluran jadi tidak aktif kerana pertukaran rangkaian. Adakah
+        anda ingin padam saluran tersebut sekarang?
+    </string>
+    <string name="tnt_hd_nw_chg">Data rangkaian bertukar. Anda ingin lakukan imbasan kemas kini?</string>
+    <string name="dvbs_operator_others">Lain-lain</string>
+    <string name="dvbs_antenna_type_name_singlecable">Kabel Tunggal</string>
+    <string name="dvbs_antenna_setup">Pemasangan Antena</string>
+    <string name="dvbs_satellite_name">Nama Satelit</string>
+    <string name="dvbs_satellite_orbit">Posisi orbit</string>
+    <string name="dvbs_lnb_freq">Frekuensi LNB</string>
+    <string name="dvbs_diseqc12_motor_storeposition">Posisi Simpan</string>
+    <string name="dvbs_diseqc12_motor_gotoposition">Pergi ke Posisi</string>
+    <string name="dvbs_diseqc12_motor_gotoreference">Pergi ke Rujukan</string>
+    <string name="dvbs_diseqc12_movement_stepsize">Saiz langkah</string>
+    <string name="dvbs_diseqc12_movement_timeout">Masa tamat</string>
+    <string name="dvbs_diseqc12_movement_moveeast">Gerak timur</string>
+    <string name="dvbs_diseqc12_movement_movewest">Gerak barat</string>
+    <string name="dvbs_diseqc12_movement_stopmovement">Hentikan pergerakkan</string>
+    <string name="dvbs_tone_22khz_off">Matikan</string>
+    <string name="dvbs_tone_22khz_on">Hidupkan</string>
+    <string name="dvbs_tp_fre">Frekuensi</string>
+    <string name="dvbs_tp_sys_rate">Nilai Simbol(Ksym/s)</string>
+    <string name="dvbs_tp_pol">Polarisasi</string>
+
+    <string name="dvbs_tp_pol_1_HORIZONTAL">Mendatar</string>
+    <string name="dvbs_tp_pol_2_VERTICAL">Menegak</string>
+    <string name="dvbs_tp_pol_3_LEFT">Kiri</string>
+    <string name="dvbs_tp_pol_4_RIGHT">Kanan</string>
+
+    <string name="dvbs_add_new_satl">Tambahkan satelit baru</string>
+    <string name="dvbs_add_new_tp">Tambahkan transponder baru</string>
+    <string name="dvbs_satellite_tuning">Penalaan Satelit</string>
+    <string name="dvbs_satellite_channel">Saluran</string>
+    <string name="dvbs_scan_mode">Mod Imbasan</string>
+    <string name="dvbs_network_search">Carian Rangkaian</string>
+    <string name="dvbs_satellite_search">Carian</string>
+    <string name="dvbs_scan_mode_preset">Pratetapan</string>
+    <string name="dvbs_channel_free">Bebas</string>
+    <string name="dvbs_channel_all">Semua</string>
+    <string name="dvbs_scan_mode_network">Rangkaian</string>
+    <string name="dvbs_scan_mode_full">Penuh</string>
+    <string name="dvbs_scan_positon">Posisi</string>
+    <string name="dvbs_lnb_power">Kuasa LNB</string>
+    <string name="dvbs_antenna_type">Jenis Antena</string>
+    <string name="dvbs_antenna_type_singlecable">Kabel Tunggal</string>
+    <string name="dvbs_user_band">Penala</string>
+    <string name="dvbs_band_freq">Band frekuensi</string>
+    <string name="dvbs_band_freq_user_define">Takrifan pengguna</string>
+    <string name="dvbs_position">Posisi</string>
+    <string name="dvbs_preferred_satellite">Satelit Pilihan</string>
+    <string name="dvbs_general_satellite">Satelit umum</string>
+    <string name="dvbs_sat_on">Hidupkan</string>
+    <string name="dvbs_sat_off">Matikan</string>
+    <string name="setup_tuner_satellite">Satelit</string>
+    <string name="dvbs_satellite_setting">Satelit</string>
+    <string name="setup_language_chinese">Cina Dipermudahkan</string>
+    <string name="setup_tuner_antenna">Antena</string>
+    <string name="setup_tuner_cable">Kabel</string>
+    <string name="satellites">Satelit</string>
+    <string name="nav_test_tv">TV</string>
+    <string name="nav_source_sub_title">Sub</string>
+    <string name="nav_channel_antenna">Antena</string>
+    <string name="nav_channel_infoType">Antena</string>
+    <string name="nav_channel_infoAudioLanguage">1/2 Cina</string>
+    <string name="nav_channel_infoFormatField">Stereo</string>
+    <string name="nav_unknown_audio_sundry">Unknown</string>
+    <string name="nav_epg_April">April</string>
+    <string name="nav_epg_September">September</string>
+    <string name="nav_epg_November">November</string>
+    <string name="nav_epg_Jan">Jan</string>
+    <string name="nav_epg_Feb">Feb</string>
+    <string name="nav_epg_Mar">Mar</string>
+    <string name="nav_epg_Apr">Apr</string>
+    <string name="nav_epg_Jun">Jun</string>
+    <string name="nav_epg_Jul">Jul</string>
+    <string name="nav_epg_Sep">Sep</string>
+    <string name="nav_epg_Nov">Nov</string>
+    <string name="setup_language_Dansk">Dansk</string>
+    <string name="setup_language_Nederlands">Nederlands</string>
+    <string name="setup_language_Suomi">Suomi</string>
+    <string name="setup_language_Deutsch">Deutsch</string>
+    <string name="setup_language_Polski">Polski</string>
+    <string name="setup_language_Srpski">Srpski</string>
+    <string name="setup_language_Svenska">Svenska</string>
+    <string name="setup_language_Dansk_eu">Dansk</string>
+    <string name="setup_language_Nederlands_eu">Nederlands</string>
+    <string name="setup_language_Suomi_eu">Suomi</string>
+    <string name="setup_language_Deutsch_eu">Deutsch</string>
+    <string name="setup_language_Polski_eu">Polski</string>
+    <string name="setup_language_Srpski_eu">Srpski</string>
+    <string name="setup_language_Svenska_eu">Svenska</string>
+    <string name="setup_set_postal_code_editview">Poskod</string>
+    <string name="setup_cable_select_operation">Pilih Operator</string>
+    <string name="setup_dvbs_statellite_type">Jenis Satelit</string>
+    <string name="setup_dvbs_statellite_type_title">Sila pilih jenis satelit.</string>
+    <string name="setup_dvbs_statellite_select_operator">Pilih Operator</string>
+    <string name="setup_dvbs_statellite_select_operator_title">Anda boleh memilih hanya satu pengendali dari senarai
+        berikut.
+    </string>
+    <string name="setup_cable_setting_title">Sila konfigurasikan maklumat kabel.</string>
+    <string name="setup_dvbs_config_info_title">Sila konfigurasikan maklumat imbasan.</string>
+    <string name="setup_dvbs_satellite_list_title">Sila pilih satelit untuk mengimbas atau mengedit satelit yang
+        dipilih.
+    </string>
+    <string name="setup_dvbs_config_setting_title">Sila tetapkan konfigurasi jenis antena.</string>
+    <string name="setup_dvbs_satellite_config_title">Sila tetapkan parameter satelit.</string>
+    <string name="setup_dvbs_satellite_config_tp_title">Sila tetapkan parameter transponder.</string>
+    <string name="setup_dvbs_satellite_config_diseqc_title">Sila tetapkan parameter DiSEqC\'s.</string>
+    <string name="setup_dvbs_satellite_config_diseqc12_motor_title">Sila tetapkan parameter motor DiSEqC 1.2.</string>
+    <string name="setup_dvbs_satellite_config_diseqc12_movementcontrol_title">Sila tetapkan parameter pergerakan kawalan
+        DiSEqC 1.2.
+    </string>
+    <string name="setup_country_cty_1">Austria</string>
+    <string name="setup_country_cty_2">Belgium</string>
+    <string name="setup_country_cty_3">Switzerland</string>
+    <string name="setup_country_cty_6">Denmark</string>
+    <string name="setup_country_cty_8">Finland</string>
+    <string name="setup_country_cty_10">United Kingdom</string>
+    <string name="setup_country_cty_12">Luxembourg</string>
+    <string name="setup_country_cty_14">Norway</string>
+    <string name="setup_country_cty_15">Sweden</string>
+    <string name="setup_country_cty_16">Bulgaria</string>
+    <string name="setup_country_cty_17">Croatia</string>
+    <string name="setup_country_cty_18">Greece</string>
+    <string name="setup_country_cty_19">Hungary</string>
+    <string name="setup_country_cty_20">Ireland</string>
+    <string name="setup_country_cty_21">Poland</string>
+    <string name="setup_country_cty_22">Portugal</string>
+    <string name="setup_country_cty_23">Romania</string>
+    <string name="setup_country_cty_25">Serbia</string>
+    <string name="setup_country_cty_26">Slovakia</string>
+    <string name="setup_country_cty_27">Slovenia</string>
+    <string name="setup_country_cty_29">Estonia</string>
+    <string name="setup_country_cty_30">Australia</string>
+    <string name="setup_country_cty_31">New Zealand</string>
+    <string name="setup_country_cty_32">Indonesia</string>
+    <string name="dvbc_operator_upc">Upc</string>
+    <string name="dvbc_operator_comhem">Comhem</string>
+    <string name="dvbc_operator_canal_digital">[SOURCE]\t(A) Untuk memaparkan senarai sumber input.\n</string>
+    <string name="dvbc_operator_tele2">[TIMER]\t(B) Untuk memaparkan masa.\n</string>
+    <string name="dvbc_operator_stofa">Stofa</string>
+    <string name="dvbc_operator_yousee">Yousee</string>
+    <string name="dvbc_operator_ziggo">Ziggo</string>
+    <string name="dvbc_operator_unitymedia">Unitymedia</string>
+    <string name="dvbc_operator_numericable">[SLEEP]\t(C) Untuk menetapkan masa tidur.\n</string>
+    <string name="dvbc_operator_volia">[ZOOM]\t(D) Untuk memilih zum.\n</string>
+    <string name="dvbc_operator_telemach">[PEFFECT]\t(E) Untuk memilih kesan skrin.\n</string>
+    <string name="dvbc_operator_onlime">[SEFFECT]\t(F) Untuk memilih kesan bunyi.\n</string>
+    <string name="dvbc_operator_akado">[ASPECT]\t(G) Untuk menukar nisbah aspek.\n</string>
+    <string name="dvbc_operator_telent">[CHUP]\t(O) Untuk menukar saluran ke atas.\n</string>
+    <string name="dvbc_operator_telent_eu">[CHDN]\t(Q) Untuk menukar saluran ke bawah.\n</string>
+    <string name="dvbc_operator_glenten">[MUTE]\t(R) Untuk senyapkan atau aktifkan bunyi.\n</string>
+    <string name="dvbc_operator_tele_columbus">[VOLUME_UP]\t(M)</string>
+    <string name="dvbs_operator_astra_hd_plus">Untuk tinggikan kelantangan.\n</string>
+    <string name="dvbs_operator_sky_deutschland">[VOLUME_DOWN]\t(N) Untuk rendahkan kelantangan.\n</string>
+    <string name="dvbs_operator_austriasat">[DPAD_CENTER]\t (ENTER) Untuk memaparkan senarai saluran.\n</string>
+    <string name="dvbs_operator_cannal_digital">[INFO]\t(S) Untuk memaparkan maklumat saluran.\n</string>
+    <string name="dvbs_operator_tv_vlaanderen_hd">TV VLAANDEREN HD</string>
+    <string name="dvbs_operator_tv_vlaanderen_sd">TV VLAANDEREN SD</string>
+    <string name="dvbs_operator_telesat_belgium">Telesat Belgium</string>
+    <string name="dvbs_operator_telesat_luxembourg">Telesat Luxembourg</string>
+    <string name="dvbs_operator_seznam_kanalu_pro_cesko">[EJECT]\t(U) Untuk memaparkan maklumat saluran.\n</string>
+    <string name="dvbs_operator_seznam_kanalu_pro_slovensko">[PLAYPAUSE]\t(V) Untuk memaparkan senarai kegemaran.\n
+    </string>
+    <string name="dvbs_operator_cannaldigitaal_hd">[YELLOW]\t(K) Untuk memilih jenis senarai saluran.\n</string>
+    <string name="dvbs_operator_cannaldigitaal_sd">CannalDigitaal SD</string>
+    <string name="dvbs_operator_n_na_karte">n na karte</string>
+    <string name="dvbs_operator_digiturk_eutelsat">Digiturk Eutelsat</string>
+    <string name="dvbs_operator_digiturk_turksat">Digiturk Turksat</string>
+    <string name="dvbs_operator_fransat">Fransat</string>
+    <string name="dvbs_operator_cyfraplus">Cyfra+</string>
+    <string name="dvbs_operator_cyfrowy_polsat">Cyfrowy Polsat</string>
+    <string name="dvbs_operator_dsmart">D-Smart</string>
+    <string name="dvbs_operator_ntvplus">NTV+</string>
+    <string name="dvbs_operator_name_nc_plus">nc+/nc+ MIX</string>
+    <string name="dvbs_operator_name_smart_hd_plus">smart HD+</string>
+    <string name="dvbs_operator_name_tivusat">tivùsat</string>
+    <string name="dvbs_antenna_type_name_universal">Universal</string>
+    <string name="dvbs_diseqc_set">Tetapkan DiSEqC</string>
+    <string name="dvbs_diseqc12_motor_movementcontrol">Kawalan Pergerakan</string>
+    <string name="dvbs_diseqc12_motor_disablelimits">Nyahaktifkan had</string>
+    <string name="dvbs_diseqc12_motor_limiteast">Hadkan timur</string>
+    <string name="dvbs_diseqc12_motor_limitwest">Hadkan barat</string>
+    <string name="dvbs_diseqc10_port">Port DiSEqC 1.0</string>
+    <string name="dvbs_diseqc11_port">Port DiSEqC 1.1</string>
+    <string name="dvbs_diseqc_motor">Motor DiSEqC</string>
+    <string name="dvbs_diseqc_motor_12">DiSEqC 1.2</string>
+    <string name="dvbs_diseqc_input">Input Diseqc</string>
+    <string name="dvbs_diseqc_input_0">Nyahaktifkan</string>
+    <string name="dvbs_diseqc_input_1">Diseqc A</string>
+    <string name="dvbs_diseqc_input_2">Diseqc B</string>
+    <string name="dvbs_diseqc_input_3">Diseqc C</string>
+    <string name="dvbs_diseqc_input_4">Diseqc D</string>
+    <string name="dvbs_tone_22khz">Ton 22KHz</string>
+    <string name="dvbs_tone_22khz_auto">Auto</string>
+    <string name="dvbs_trasponder">Transponder</string>
+    <string name="dvbs_tp_pol_0_unknown">Unknown</string>
+    <string name="dvbs_scan_mode_auto">Auto</string>
+    <string name="dvbs_sat_no_satl">(Tiada Satelit.)</string>
+    <string name="dvbs_manual_tuning">Penala Manual Satelit</string>
+    <string name="dvbs_sat_no_tp">(Tiada Transponder.)</string>
+    <string name="dvbs_sat_name_empty_alarm">Nama satelit kosong.\nSila masukkan!</string>
+    <string name="dvbs_satellite_rescan">Imbas semula Satelit</string>
+    <string name="dvbs_satellite_add">Tambah Satelit</string>
+    <string name="dvbs_satellite_update">Kemas kini Satelit</string>
+    <string name="dvbs_satellite_status">Status satelit</string>
+    <string name="dvbs_scan_satellites">Satelit</string>
+    <string name="dvbs_antenna_type_universal">Universal</string>
+    <string name="dvbs_user_band_1">Band pengguna 1</string>
+    <string name="dvbs_user_band_2">Band pengguna 2</string>
+    <string name="dvbs_user_band_3">Band pengguna 3</string>
+    <string name="dvbs_user_band_4">Band pengguna 4</string>
+    <string name="dvbs_user_band_5">Band pengguna 5</string>
+    <string name="dvbs_user_band_6">Band pengguna 6</string>
+    <string name="dvbs_user_band_7">Band pengguna 7</string>
+    <string name="dvbs_user_band_8">Band pengguna 8</string>
+    <string name="dvbs_position_c">C</string>
+    <string name="dvbs_air">Antena</string>
+    <string name="dvbs_cable">Kabel</string>
+    <string name="sys_info_lnb">LNB</string>
+    <string name="lnb_universal">Universal</string>
+    <string name="dvbs_tone_burst">Tone Burst</string>
+    <string name="dvbs_tone_burst_disable">Nyahaktifkan</string>
+    <string name="dvbs_tone_burst_b">Tone Burst B</string>
+</resources>

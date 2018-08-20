@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+    <string-array name="nav_epg_filter_type_AUS">
+        <item>Кино</item>
+        <item>Мэдээ</item>
+        <item>Үзвэр</item>
+        <item>Спорт</item>
+        <item>Хүүхдийн хөтөлбөр</item>
+        <item>Хөгжим</item>
+        <item>Соёл урлаг</item>
+        <item>Одоогийн үйл явдал</item>
+        <item>Боловсрол</item>
+        <item>Мэдээллийн нэвтрүүлэг</item>
+        <item>Онцгой</item>
+        <item>Инээдмийн кино</item>
+        <item>Драм</item>
+        <item>Баримтат кино</item>
+    </string-array>
+    <string-array name="nav_epg_filter_type_UK">
+        <item>Кино</item>
+        <item>Мэдээ ба бодит явдлууд</item>
+        <item>Үзвэр</item>
+        <item>Спорт</item>
+        <item>Хүүхдийн хөтөлбөр</item>
+        <item>Боловсрол</item>
+        <item>Амьдралын хэв маяг</item>
+        <item>Драм</item>
+    </string-array>
+    <string-array name="dvbs_tp_pol_arrays">
+        <item>@string/dvbs_tp_pol_1_HORIZONTAL</item>
+        <item>@string/dvbs_tp_pol_2_VERTICAL</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_RA_TE_SA_PR">
+        <item>Сугалаа</item>
+        <item>Зурагт худалдаа</item>
+        <item>Үнэ</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_information">
+        <item>Хоол хийх</item>
+        <item>Хувцас гоёл</item>
+        <item>Улс</item>
+        <item>Эрүүл мэнд</item>
+        <item>Аялал</item>
+    </string-array>
+    <string-array name="dvbs_channel_arrays">
+        <item>@string/dvbs_channel_free</item>
+        <item>@string/dvbs_channel_all</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_special">
+        <item>эх хэл</item>
+        <item>Хар ба Цагаан</item>
+        <item>Хэвлэгдээгүй</item>
+        <item>Шууд Нэвтрүүлэг</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_children">
+        <item>Хүүхэд</item>
+    </string-array>
+    <string-array name="dvbs_tone_22khz_arrays">
+        <item>@string/dvbs_tone_22khz_off</item>
+        <item>@string/dvbs_tone_22khz_on</item>
+        <item>@string/dvbs_tone_22khz_auto</item>
+    </string-array>
+    <string-array name="pvr_tshift_initdisk_step_formatconfirm">
+        <item>Формат</item>
+        <item>Хүчингүй Болго</item>
+    </string-array>
+    <string-array name="nav_twinkle_strings">
+        <item></item>
+        <item>Дохиогүй!</item>
+        <item>Сувгуудын скан үйлдэнэ үү!</item>
+        <item>Өгөгдөлийг олж байна...</item>
+        <item>Суваг түгжигдсэн!</item>
+        <item>Програм түгжигдсэн!</item>
+        <item>Орц түгжигдсэн!</item>
+        <item>(Хөтөлбөрийн гарчиг байхгүй)</item>
+        <item>Нууц суваг!</item>
+        <item>Аудио Хөтөлбөр</item>
+        <item>Хүчингүй Үйлчилгээ</item>
+        <item>(Програмын нарийвчлал байхгүй)</item>
+        <item>(Сувгийн нарийвчлал байхгүй)</item>
+        <item>♪ Аудио урсгал байхгүй ♪</item>
+        <item>Дүрс бичлэгийн урсгал байхгүй</item>
+        <item>Хүлээнэ үү...</item>
+        <item>Дүрст бичлэг дэмжлэггүй</item>
+        <item>HD Үйлчилгээ</item>
+        <item>Нэвтрүүлэг үгүй</item>
+        <item>Суваг үгүй</item>
+        <item>Агуулга таны үйлчилгээ нийлүүлэгчээр хаагдсан</item>
+        <item>Холилдуулсан</item>
+    </string-array>
+    <string-array name="dvbs_diseqc_motor_arrays">
+        <item>@string/dvbs_diseqc_input_0</item>
+        <item>@string/dvbs_diseqc_motor_12</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_social">
+        <item>Нийтийн сүлжээ</item>
+        <item>Сэтгүүлүүд</item>
+        <item>Эдийн засгийн</item>
+        <item>гайхалтай хүмүүс</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_comical">
+        <item>Инээдмийн</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_music">
+        <item>Хөгжим</item>
+        <item>Рок</item>
+        <item>Ноцтой</item>
+        <item>Ардын урлаг</item>
+        <item>Джаз</item>
+        <item>Хөгжмийн</item>
+        <item>Балет</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_movie">
+        <item>Драм</item>
+        <item>Детектив</item>
+        <item>Адал явдал</item>
+        <item>Уран зөгнөл</item>
+        <item>Инээдмийн кино</item>
+        <item>Soap</item>
+        <item>Роман</item>
+        <item>Ноцтой</item>
+        <item>Насанд хүрэгсдийн кино</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_soap_opera">
+        <item>Саван Опер</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_movie">
+        <item>Кино</item>
+    </string-array>
+    <string-array name="dvbs_sat_on_off">
+        <item>@string/dvbs_sat_on</item>
+        <item>@string/dvbs_sat_off</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_other">
+        <item>Насанд хүрэгсдийн хүүхэлдэйн кино</item>
+        <item>Интерактив</item>
+        <item>Бодлого</item>
+        <item>Шашин</item>
+    </string-array>
+    <string-array name="nav_epg_filter_sa_type">
+        <item>Мэдээ</item>
+        <item>Спорт</item>
+        <item>Боловсрол</item>
+        <item>Олон ангит кино</item>
+        <item>Жижиг сериуд</item>
+        <item>Олон ангит кинонууд</item>
+        <item>Олон зүйл</item>
+        <item>REALITY_SHOW</item>
+        <item>INFOMATION</item>
+        <item>Инээдмийн</item>
+        <item>Хүүхэд</item>
+        <item>Эротик</item>
+        <item>Кино</item>
+        <item>RA_TE_SA_PR</item>
+        <item>DEBATE_INTERVIEW</item>
+        <item>Бусад</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_education">
+        <item>Боловсрол</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_show">
+        <item>Үзүүлбэр</item>
+        <item>Тоглоомны Шоу</item>
+        <item>Варьете Шоу</item>
+        <item>Яриат Шоу</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_variety">
+        <item>Аудитори</item>
+        <item>Үзүүлбэр</item>
+        <item>Хөгжмийн</item>
+        <item>Хийх</item>
+        <item>Эмэгтэйчүүдийн</item>
+        <item>Тоглоомны Шоу</item>
+    </string-array>
+    <string-array name="dvbs_antenna_type_arrays">
+        <item>@string/dvbs_antenna_type_universal</item>
+        <item>@string/dvbs_antenna_type_singlecable</item>
+    </string-array>
+    <string-array name="pvr_tshift_initdisk_step1">
+        <item>Авто</item>
+        <item>Гараар</item>
+    </string-array>
+    <string-array name="nav_oad_btns_accept_reject">
+        <item>Хүлээн ав</item>
+        <item>Татгалз</item>
+    </string-array>
+    <string-array name="dvbs_user_band_arrays">
+        <item>@string/dvbs_user_band_1</item>
+        <item>@string/dvbs_user_band_2</item>
+        <item>@string/dvbs_user_band_3</item>
+        <item>@string/dvbs_user_band_4</item>
+        <item>@string/dvbs_user_band_5</item>
+        <item>@string/dvbs_user_band_6</item>
+        <item>@string/dvbs_user_band_7</item>
+        <item>@string/dvbs_user_band_8</item>
+    </string-array>
+    <string-array name="dvbs_sat_lnbfreq">
+        <item>@string/lnb_universal</item>
+        <item>9750,10700</item>
+        <item>9750,10750</item>
+        <item>5150</item>
+        <item>5750</item>
+        <item>9750</item>
+        <item>10600</item>
+        <item>10750</item>
+        <item>11250</item>
+        <item>11300</item>
+        <item>11475</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_DEBATE_INTERVIEW">
+        <item>Хэлэлцүүлэг</item>
+        <item>Ярилцлага</item>
+    </string-array>
+    <string-array name="nav_zoom_mode">
+        <item>Zoom x 1/2</item>
+        <item>Zoom x 1</item>
+        <item>Zoom x 2</item>
+    </string-array>
+    <string-array name="week_day">
+        <item>Ням</item>
+        <item>Даваа</item>
+        <item>Мягмар</item>
+        <item>Лхагва</item>
+        <item>Пүрэв</item>
+        <item>Баасан</item>
+        <item>Бямба</item>
+    </string-array>
+    <string-array name="nav_oad_btns_accept_remind_me_later">
+        <item>Хүлээн ав</item>
+        <item>Дараа сануул</item>
+    </string-array>
+    <string-array name="nav_mts_strings">
+        <item>UNKNOW</item>
+        <item>Моно</item>
+        <item>Стерео</item>
+        <item>SUB_LANG</item>
+        <item>Хос 1</item>
+        <item>Хос 2</item>
+        <item>NICAM_MONO</item>
+        <item>NICAM_STEREO</item>
+        <item>NICAM_DUAL1</item>
+        <item>NICAM_DUAL2</item>
+        <item>FM_MONO</item>
+        <item>FM_STEREO</item>
+    </string-array>
+    <string-array name="dvbs_position_arrays">
+        <item>@string/dvbs_tp_pol_0_unknown</item>
+        <item>@string/dvbs_position_a</item>
+        <item>@string/dvbs_position_b</item>
+        <item>@string/dvbs_position_c</item>
+        <item>@string/dvbs_position_d</item>
+    </string-array>
+    <string-array name="dvbs_scan_mode2_arrays">
+        <item>@string/dvbs_scan_mode_auto</item>
+        <item>@string/dvbs_scan_mode_preset</item>
+    </string-array>
+    <string-array name="dvbs_diseqc_motor_store_position_arrays">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_series">
+        <item>Олон ангит кинонууд</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_leisure">
+        <item>Амралт Хобби</item>
+        <item>Аялал жуулчлал</item>
+        <item>Гар урлал</item>
+        <item>Автоклубууд</item>
+        <item>Бие бялдаржуулалт ба эрүүл мэнд</item>
+        <item>Хоол хийх</item>
+        <item>Сурталчилгаа</item>
+        <item>Цэцэрлэгжилт</item>
+    </string-array>
+    <string-array name="nav_channel_type">
+        <item>Бүгд</item>
+        <item>Дижитал</item>
+        <item>Радио</item>
+        <item>Аналог</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_reality_show">
+        <item>Реалити Шоу</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_arts">
+        <item>Соёл урлаг</item>
+        <item>Гүйцэтгэх урлаг</item>
+        <item>Дүрслэх урлаг</item>
+        <item>Шашин</item>
+        <item>Соёл</item>
+        <item>Уран зохиол</item>
+        <item>Кино</item>
+        <item>Туршлагын</item>
+        <item>Нэвтрүүлгийн</item>
+        <item>Шинэ медиа</item>
+        <item>Урлагийн сэтгүүлүүд</item>
+        <item>Хувцас гоёл</item>
+    </string-array>
+    <string-array name="nav_audio_tvcm_strings">
+        <item>baq</item>
+        <item>eus</item>
+        <item>bul</item>
+        <item>cat</item>
+        <item>scr</item>
+        <item>cze</item>
+        <item>dan</item>
+        <item>dut</item>
+        <item>eng</item>
+        <item>fin</item>
+        <item>fre</item>
+        <item>gla</item>
+        <item>gdh</item>
+        <item>gle</item>
+        <item>glg</item>
+        <item>ger</item>
+        <item>gre</item>
+        <item>hun</item>
+        <item>ita</item>
+        <item>nor</item>
+        <item>pol</item>
+        <item>por</item>
+        <item>rum</item>
+        <item>rus</item>
+        <item>scc</item>
+        <item>slo</item>
+        <item>slv</item>
+        <item>spa</item>
+        <item>swe</item>
+        <item>tur</item>
+        <item>wel</item>
+        <item>ice</item>
+        <item>isl</item>
+        <item>smi</item>
+        <item>tha</item>
+        <item>vie</item>
+        <item>ara</item>
+        <item>zho</item>
+        <item>Ши</item>
+        <item>per</item>
+        <item>kor</item>
+        <item>est</item>
+        <item>mao</item>
+        <item>cmn</item>
+        <item>yue</item>
+        <item>jpn</item>
+        <item>hin</item>
+        <item>nar</item>
+        <item>QAA</item>
+        <item>und</item>
+    </string-array>
+    <string-array name="nav_freeze_strings">
+        <item>Зогсонги: Он</item>
+        <item>Зогсонги: Офф</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_education">
+        <item>Боловсрол</item>
+        <item>Байгаль</item>
+        <item>Технологи</item>
+        <item>Анагаах ухаан</item>
+        <item>Гаднын улсууд</item>
+        <item>Нийгмийн ухаан</item>
+        <item>Цаашдын боловсрол</item>
+        <item>Хэл</item>
+    </string-array>
+    <string-array name="nav_receiver_type">
+        <item>Cable</item>
+        <item>Antenna</item>
+    </string-array>
+    <string-array name="dvbs_diseqc_movement_control_arrays">
+        <item>Зогсолтгүй</item>
+        <item>Алхам</item>
+        <item>Хугацаа</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_erotic">
+        <item>Эротик</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_children">
+        <item>Хүүхдийн хөтөлбөр</item>
+        <item>Сургуулийн өмнөх насныхны хөтөлбөр</item>
+        <item>6-аас 14 насны зугаацах хөтөлбөр</item>
+        <item>10-аас 16 насны зугаацах хөтөлбөр</item>
+        <item>Мэдээллийн</item>
+        <item>Хүүхэлдэйн кино</item>
+    </string-array>
+    <string-array name="nav_bottom_volume">
+        <item>Мастер дууны хүч</item>
+        <item>Урд Зүүн дуу</item>
+        <item>Урд Баруун Дуу</item>
+        <item>Арын Зүүн дуу</item>
+        <item>Арын Баруун Дуу</item>
+        <item>Төвийн Дуу</item>
+        <item>Басс Дуу</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_mini_series">
+        <item>Жижиг сериуд</item>
+    </string-array>
+    <string-array name="nav_s_effect_strings">
+        <item>Хэрэглэгч</item>
+        <item>Стандарт</item>
+        <item>Амьд1</item>
+    </string-array>
+    <string-array name="nav_oad_btns_cancel">
+        <item>Хүчингүй Болго</item>
+    </string-array>
+    <string-array name="dvbs_user_band_freq_arrays">
+        <item>"1210"</item>
+        <item>"1400"</item>
+        <item>"1516"</item>
+        <item>"1632"</item>
+        <item>"1748"</item>
+        <item>"1864"</item>
+        <item>"1980"</item>
+        <item>"2096"</item>
+    </string-array>
+    <string-array name="dvbs_diseqc_10port_arrays">
+        <item>@string/dvbs_diseqc_input_1</item>
+        <item>@string/dvbs_diseqc_input_2</item>
+        <item>@string/dvbs_diseqc_input_3</item>
+        <item>@string/dvbs_diseqc_input_4</item>
+        <item>@string/dvbs_tone_burst_a</item>
+        <item>@string/dvbs_tone_burst_b</item>
+        <item>@string/dvbs_diseqc_input_0</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sports">
+        <item>Спорт</item>
+        <item>Онцгой Явдлууд</item>
+        <item>Спорт</item>
+        <item>Хөл бөмбөг</item>
+        <item>Теннис</item>
+        <item>Багийн спортууд</item>
+        <item>Хөнгөн атлетик</item>
+        <item>Моторт спорт</item>
+        <item>Усан спорт</item>
+        <item>Өвлийн спорт</item>
+        <item>Морин спорт</item>
+        <item>Тулааны спортууд</item>
+    </string-array>
+    <string-array name="nav_zoom_strings">
+        <item>zoom X 1</item>
+        <item>zoom X 2</item>
+        <item>zoom X 1/2</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_sports">
+        <item>Спорт</item>
+    </string-array>
+    <string-array name="nav_audio_strings">
+        <item>Баск</item>
+        <item>Баск</item>
+        <item>Болгар</item>
+        <item>Каталан</item>
+        <item>Хорват</item>
+        <item>Чех</item>
+        <item>Дани</item>
+        <item>Голланд</item>
+        <item>АНГЛИ</item>
+        <item>Финланд</item>
+        <item>Франц</item>
+        <item>Кельт</item>
+        <item>Кельт</item>
+        <item>Ирланд</item>
+        <item>Галеган</item>
+        <item>Герман</item>
+        <item>Грек</item>
+        <item>Унгар</item>
+        <item>Итали</item>
+        <item>Норвеги</item>
+        <item>Польш</item>
+        <item>Португал</item>
+        <item>Румын</item>
+        <item>Орос</item>
+        <item>Серби</item>
+        <item>Словак</item>
+        <item>Словени</item>
+        <item>Испани</item>
+        <item>Швед</item>
+        <item>Турк</item>
+        <item>Уэльс</item>
+        <item>Исланд</item>
+        <item>Исланд</item>
+        <item>Sami langs</item>
+        <item>Тай</item>
+        <item>Вьетнам</item>
+        <item>Араб</item>
+        <item>Т. Хятад</item>
+        <item>S. Хятад</item>
+        <item>Перси</item>
+        <item>Солонгос</item>
+        <item>Эстони</item>
+        <item>Маори</item>
+        <item>Мандарин</item>
+        <item>Кантон</item>
+        <item>Япон</item>
+        <item>Хинди</item>
+        <item>Ярианы</item>
+        <item>Original Version for France</item>
+        <item>Тодорхойлоогүй</item>
+    </string-array>
+    <string-array name="pvr_tshift_initdisk_step_format">
+        <item>Формат</item>
+        <item>Алгасах</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_sa_news">
+        <item>Мэдээ</item>
+        <item>Тайлан</item>
+        <item>Баримтат кино</item>
+        <item>Намтар</item>
+    </string-array>
+    <string-array name="dvbs_scan_mode_arrays">
+        <item>@string/dvbs_scan_mode_network</item>
+        <item>@string/dvbs_scan_mode_full</item>
+    </string-array>
+    <string-array name="lnb_mdu1_arrays">
+        <item>@string/dvbs_preferred_satellite</item>
+        <item>@string/dvbs_general_satellite</item>
+    </string-array>
+    <string-array name="nav_sleep_strings">
+        <item>Унтах: офф</item>
+        <item>Унтах: 15 минут</item>
+        <item>Унтах: 30 минут</item>
+        <item>Унтах: 45 минут</item>
+        <item>Унтах: 60 минут</item>
+        <item>Унтах: 90 минут</item>
+        <item>Унтах: 120 минут</item>
+    </string-array>
+    <string-array name="nav_channel_types">
+        <item>Бүгд</item>
+        <item>Радио</item>
+    </string-array>
+    <string-array name="dvbs_preferred_satellite_arrays">
+        <item>@string/dvbs_preferred_satellite</item>
+        <item>@string/dvbs_general_satellite</item>
+    </string-array>
+    <string-array name="dvbs_sat_lnb_power">
+        <item>@string/dvbs_sat_off</item>
+        <item>@string/dvbs_sat_TUNER_LNB_POWER_13V_18V</item>
+        <item>@string/dvbs_sat_TUNER_LNB_POWER_14V_19V</item>
+        <item>@string/dvbs_sat_on</item>
+    </string-array>
+    <string-array name="dvbs_diseqc_input_arrays">
+        <item>@string/dvbs_diseqc_input_1</item>
+        <item>@string/dvbs_diseqc_input_2</item>
+        <item>@string/dvbs_diseqc_input_3</item>
+        <item>@string/dvbs_diseqc_input_4</item>
+        <item>@string/dvbs_diseqc_input_0</item>
+    </string-array>
+    <string-array name="nav_oad_btns_yes_no">
+        <item>Тийм</item>
+        <item>Үгүй</item>
+    </string-array>
+    <string-array name="dvbs_tone_burst_arrays">
+        <item>@string/dvbs_tone_burst_a</item>
+        <item>@string/dvbs_tone_burst_b</item>
+        <item>@string/dvbs_tone_burst_disable</item>
+    </string-array>
+    <string-array name="nav_epg_filter_type">
+        <item>Кино</item>
+        <item>Мэдээ</item>
+        <item>Үзүүлбэр</item>
+        <item>Спорт</item>
+        <item>Хүүхдийн хөтөлбөр</item>
+        <item>Хөгжим</item>
+        <item>Соёл урлаг</item>
+        <item>Нийтийн сүлжээ</item>
+        <item>Боловсрол</item>
+        <item>Чөлөөт цаг</item>
+        <item>Онцгой</item>
+    </string-array>
+    <string-array name="nav_epg_subtype_news">
+        <item>Одоогийн үйл явдал</item>
+        <item>Цаг агаар</item>
+        <item>Мэдээллийн сэтгүүл</item>
+        <item>Баримтат кино</item>
+        <item>Хэлэлцүүлэг</item>
+    </string-array>
+</resources>

@@ -1,0 +1,1132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+    <string-array name="menu_setup_network_connection_array">
+        <item>Umezimwa</item>
+        <item>Umewashwa</item>
+    </string-array>
+    <string-array name="menu_tv_scan_mode_array">
+        <item>Kujiendesha</item>
+        <item>16QAM</item>
+        <item>32QAM</item>
+        <item>64QAM</item>
+        <item>128QAM</item>
+        <item>256QAM</item>
+    </string-array>
+    <string-array name="menu_setup_capturelogo_array">
+        <item>Awali</item>
+        <item>0</item>
+        <item>1</item>
+        <item>Hakuna</item>
+    </string-array>
+    <string-array name="menu_ci_not_support_channel">
+        <item>Hairuhusiwi</item>
+    </string-array>
+    <string-array name="menu_video_mpeg_nr_array">
+        <item>Umezimwa</item>
+        <item>Chini</item>
+        <item>Kati</item>
+        <item>Nguvu</item>
+    </string-array>
+    <string-array name="menu_audio_spdif_mode_array">
+        <item>Umezimwa</item>
+        <item>PCM RAW</item>
+        <item>PCM 16</item>
+        <item>PCM 24</item>
+    </string-array>
+    <string-array name="menu_setup_auto_synchronization_array">
+        <item>Umezimwa</item>
+        <item>Sinki kutoka Mkondo</item>
+        <item>Sinki kutoka Mtandao</item>
+    </string-array>
+    <string-array name="menu_factory_setup_eventform">
+        <item>Umbo Zote</item>
+        <item>Umbo Refu</item>
+        <item>Umbo Fupi</item>
+    </string-array>
+    <string-array name="menu_tv_tv_system_array">
+        <item>Kujiendesha</item>
+        <item>B/G</item>
+        <item>A2 B/G</item>
+        <item>I</item>
+        <item>D/K</item>
+        <item>A2 D/K</item>
+        <item>A2 D/K1</item>
+        <item>A2 D/K2</item>
+        <item>M</item>
+    </string-array>
+    <string-array name="menu_setup_null_array">
+        <item></item>
+    </string-array>
+    <string-array name="menu_parental_block_channel_schedule_operation_array">
+        <item>Hakuna</item>
+        <item>Kila Siku</item>
+        <item>Mara moja</item>
+    </string-array>
+    <string-array name="menu_audio_downmixmode_eu_array">
+        <item>Mzunguko</item>
+        <item>Stirio</item>
+        <item>Stirio ya Kujiendesha</item>
+    </string-array>
+    <string-array name="menu_setup_time_shifting_mode_array">
+        <item>Umezimwa</item>
+        <item>Umewashwa</item>
+    </string-array>
+    <string-array name="screen_mode_array_us_pip_main_analog">
+        <item>Kujiendesha</item>
+        <item>Kawaida</item>
+        <item>Boksibarua</item>
+        <item>Kuza</item>
+        <item>Doa kwa Doa</item>
+    </string-array>
+    <string-array name="screen_mode_array_us_pip">
+        <item>Kujiendesha</item>
+        <item>Kawaida</item>
+    </string-array>
+    <string-array name="menu_factory_audio_compressionfactor_array">
+        <item>Umezimwa</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>40</item>
+        <item>50</item>
+        <item>60</item>
+        <item>70</item>
+        <item>80</item>
+        <item>90</item>
+        <item>100</item>
+    </string-array>
+    <string-array name="menu_video_3d_image_safety_array">
+        <item>Umezimwa</item>
+        <item>Chini</item>
+        <item>Katikati</item>
+        <item>Juu</item>
+    </string-array>
+    <string-array name="menu_setup_record_quality_array">
+        <item>Chini</item>
+        <item>Katikati</item>
+        <item>Juu</item>
+    </string-array>
+    <string-array name="menu_tv_oceania_country_region">
+        <item>NSW/ACT</item>
+        <item>VIC</item>
+        <item>QLD</item>
+        <item>SA</item>
+        <item>WA</item>
+        <item>TAS</item>
+        <item>NT</item>
+    </string-array>
+    <string-array name="menu_setup_ginga_array">
+        <item>Umezimwa</item>
+        <item>Umewashwa</item>
+    </string-array>
+    <string-array name="menu_setup_dlna_array">
+        <item>Umezimwa</item>
+        <item>Umewashwa</item>
+    </string-array>
+    <string-array name="screen_mode_array_sa_pip">
+        <item>Kujiendesha</item>
+        <item>Kawaida</item>
+        <item>Boksibarua</item>
+    </string-array>
+    <string-array name="menu_video_flesh_tone_array">
+        <item>Umezimwa</item>
+        <item>Umewashwa</item>
+    </string-array>
+    <string-array name="screen_mode_array_eu_analog">
+        <item>Kujiendesha</item>
+        <item>Kawaida</item>
+        <item>Boksibarua</item>
+        <item>Panorama</item>
+    </string-array>
+    <string-array name="menu_parental_rating_enable_array">
+        <item>Umezimwa</item>
+        <item>Umewashwa</item>
+    </string-array>
+    <string-array name="menu_factory_video_diedge_array">
+        <item>Dhaifu</item>
+        <item>Nguvu</item>
+    </string-array>
+    <string-array name="menu_video_hdmi_mode_array">
+        <item>Kujiendesha</item>
+        <item>Grafiki</item>
+        <item>Filamu</item>
+    </string-array>
+    <string-array name="menu_factory_video_xvycc_array">
+        <item>Umezimwa</item>
+        <item>Umewashwa</item>
+    </string-array>
+    <string-array name="menu_audio_spdif_mode_us_array">
+        <item>Umezimwa</item>
+        <item>Dolby Digital</item>
+        <item>PCM</item>
+    </string-array>
+    <string-array name="menu_tv_channeledit_array">
+        <item>Maelezo Idhaa</item>
+        <item>Ingiza</item>
+        <item>Futa</item>
+        <item>Badilishana</item>
+    </string-array>
+    <string-array name="menu_setup_window_opacity_array">
+        <item>Imara</item>
+        <item>Uwazi Wastani</item>
+        <item>Wazi</item>
+    </string-array>
+    <string-array name="menu_scan_mode">
+        <item>Endelea</item>
+        <item>Haraka</item>
+        <item>Imejaa</item>
+    </string-array>
+    <string-array name="menu_tv_audio_channel_array">
+        <item>Mono</item>
+        <item>Stirio</item>
+        <item>Pacha1</item>
+        <item>Pacha2</item>
+    </string-array>
+    <string-array name="menu_setup_scart">
+        <item>Kujiendesha</item>
+        <item>Changanywa</item>
+        <item>RGB</item>
+        <item>CVBS</item>
+        <item>Filamu-S</item>
+    </string-array>
+    <string-array name="menu_video_di_film_mode_array">
+        <item>Umezimwa</item>
+        <item>Kujiendesha</item>
+    </string-array>
+    <string-array name="menu_factory_video_colortemperature_array">
+        <item>Mtumiaji</item>
+        <item>Nzuri</item>
+        <item>Kawaida</item>
+        <item>Vuguvugu</item>
+    </string-array>
+    <string-array name="menu_tv_scan_frequency_plan_array">
+        <item>STD</item>
+        <item>IRC</item>
+        <item>HRC</item>
+    </string-array>
+    <string-array name="menu_setup_timezone_name_array">
+        <item>Asia/Magadan</item>
+        <item>Pasifiki/Midway</item>
+        <item>Pasifiki/Honolulu</item>
+        <item>Amerika/Anchorage</item>
+        <item>Amerika/Anchorage</item>
+        <item>Amerika/Los_Angeles</item>
+        <item>Amerika/Chihuahua</item>
+        <item>Amerika/Chicago</item>
+        <item>Amerika/Manaus</item>
+        <item>Amerika/St_Johns</item>
+        <item>Amerika/St_Johns</item>
+        <item>Amerika/Godthab</item>
+        <item>Atlantiki/Cape_Verde</item>
+        <item>Kama Tangazo</item>
+        <item>Afrika/Kasablanka</item>
+        <item>Uropa/London</item>
+        <item>Afrika/Harare</item>
+        <item>Asia/Amman</item>
+        <item>Asia/Amman</item>
+        <item>Uropa/Moscow</item>
+        <item>Asia/Tehran</item>
+        <item>Asia/Yerevan</item>
+        <item>Asia/Kolombo</item>
+        <item>Asia/Katmandu</item>
+        <item>Asia/Almaty</item>
+        <item>Asia/Bangkok</item>
+        <item>Asia/Hong_Kong</item>
+        <item>Asia/Tokyo</item>
+        <item>Australia/Adelaide</item>
+        <item>Asia/Yakutsk</item>
+        <item>Asia/Vladivostok</item>
+        <item>Asia/Vladivostok</item>
+        <item>Pasifiki/Fiji</item>
+        <item>Pasifiki/Tongatapu</item>
+    </string-array>
+    <string-array name="menu_tv_channel_bl_type">
+        <item>Hakuna</item>
+        <item>Kila Siku</item>
+        <item>Jumapili</item>
+        <item>Jumatatu</item>
+        <item>Jumanne</item>
+        <item>Jumatano</item>
+        <item>Alhamisi</item>
+        <item>Ijumaa</item>
+        <item>Jumamosi</item>
+    </string-array>
+    <string-array name="menu_setup_timezone_array">
+        <item>GMT-12:00</item>
+        <item>GMT-11:00</item>
+        <item>GMT-10:00</item>
+        <item>GMT-9:00</item>
+        <item>GMT-8:00</item>
+        <item>GMT-7:00</item>
+        <item>GMT-6:00</item>
+        <item>GMT-5:00</item>
+        <item>GMT-4:00</item>
+        <item>GMT-3:30</item>
+        <item>GMT-3:00</item>
+        <item>GMT-2:00</item>
+        <item>GMT-1:00</item>
+        <item>Kama Tangazo</item>
+        <item>GMT+0:00</item>
+        <item>GMT+1:00</item>
+        <item>GMT+2:00</item>
+        <item>GMT+3:00</item>
+        <item>GMT+3:30</item>
+        <item>GMT+4:00</item>
+        <item>GMT+4:30</item>
+        <item>GMT+5:00</item>
+        <item>GMT+5:30</item>
+        <item>GMT+5:45</item>
+        <item>GMT+6:00</item>
+        <item>GMT+6:30</item>
+        <item>GMT+7:00</item>
+        <item>GMT+8:00</item>
+        <item>GMT+9:00</item>
+        <item>GMT+9:30</item>
+        <item>GMT+10:00</item>
+        <item>GMT+11:00</item>
+        <item>GMT+12:00</item>
+        <item>GMT+12:45</item>
+        <item>GMT+13:00</item>
+    </string-array>
+    <string-array name="menu_tv_tuner_mode_array">
+        <item>Antena</item>
+        <item>Kebo</item>
+    </string-array>
+    <string-array name="menu_audio_equalizer_array_us">
+        <item>Umezimwa</item>
+        <item>Roki</item>
+        <item>Popu</item>
+        <item>Hai</item>
+        <item>Dansi</item>
+        <item>Tekno</item>
+        <item>Klasiki</item>
+        <item>Laini</item>
+        <item>Custom1</item>
+        <item>Custom2</item>
+        <item>custom3</item>
+    </string-array>
+    <string-array name="menu_setup_sleep_timer_array">
+        <item>Umezimwa</item>
+        <item>Dakika 10</item>
+        <item>Dakika 20</item>
+        <item>Dakika 30</item>
+        <item>Dakika 40</item>
+        <item>Dakika 50</item>
+        <item>Dakika 60</item>
+        <item>Dakika 90</item>
+        <item>Dakika 120</item>
+    </string-array>
+    <string-array name="menu_tv_us_scan_mode_array">
+        <item>Analogi/Dijitali</item>
+        <item>Analogi</item>
+        <item>Dijitali</item>
+    </string-array>
+    <string-array name="screen_mode_array_sa_pop">
+        <item>Kujiendesha</item>
+        <item>Kawaida</item>
+        <item>Boksibarua</item>
+        <item>Kuza</item>
+    </string-array>
+    <string-array name="screen_mode_array_us_dtv">
+        <item>Kujiendesha</item>
+        <item>Kawaida</item>
+        <item>Boksibarua</item>
+        <item>Panorama</item>
+        <item>Kuza</item>
+        <item>Doa kwa Doa</item>
+    </string-array>
+    <string-array name="menu_tv_audio_language_eu_array">
+        <item>KIZUNGU</item>
+        <item>Kiestonia</item>
+        <item>Kifinnish</item>
+        <item>Kifaransa</item>
+        <item>Kigaelik</item>
+        <item>Kiirish</item>
+        <item>Kigalician</item>
+        <item>Kijerumani</item>
+        <item>Kigiriki</item>
+        <item>Kihindi</item>
+        <item>Kihungarian</item>
+        <item>Kiitalia</item>
+        <item>Kiicelandic</item>
+        <item>Kijapani</item>
+        <item>Kikorea</item>
+        <item>Kimandarin</item>
+        <item>Kimaori</item>
+        <item>Kinorway</item>
+        <item>Kipolish</item>
+        <item>Kiportuguese</item>
+        <item>Kiromania</item>
+        <item>Kirusi</item>
+        <item>Kisami</item>
+        <item>Kisabia</item>
+        <item>Kislovak</item>
+        <item>Kislovenia</item>
+        <item>Kihispani</item>
+        <item>Kiswedish</item>
+        <item>Kituruki</item>
+        <item>Kiwelsh</item>
+        <item>Sauti Asili</item>
+        <item>Simulizi</item>
+        <item>Haikufafanuliwa</item>
+        <item>Kibasque</item>
+        <item>Kibulgaria</item>
+        <item>Kicantonese</item>
+        <item>Kikatalan</item>
+        <item>Kicroatia</item>
+        <item>Kiczech</item>
+        <item>Kidanish</item>
+        <item>Kidachi</item>
+    </string-array>
+    <string-array name="menu_setup_atv_record_mode_array">
+        <item>Umezimwa</item>
+        <item>Umewashwa</item>
+    </string-array>
+    <string-array name="screen_mode_array_us_pip_sub">
+        <item>Kujiendesha</item>
+        <item>Kawaida</item>
+        <item>Boksibarua</item>
+    </string-array>
+    <string-array name="menu_parental_content_ratings_array">
+        <item>Umezimwa</item>
+        <item>Vya Kulevya</item>
+        <item>Vurugu</item>
+        <item>Jinsia</item>
+        <item>Vurugu &amp; Vya Kulevya</item>
+        <item>Ngono &amp; Vya Kulevya</item>
+        <item>Vurugu &amp; Ngono</item>
+        <item>Vurugu &amp; Ngono &amp; Vya Kulevya</item>
+    </string-array>
+    <string-array name="menu_video_3d_3t2switch_array">
+        <item>Umezimwa</item>
+        <item>Umewashwa</item>
+    </string-array>
+    <string-array name="menu_setup_oad_auto_download_array">
+        <item>La</item>
+        <item>Ndio</item>
+    </string-array>
+    <string-array name="menu_setup_digital_caption_array">
+        <item>Umezimwa</item>
+        <item>Huduma1</item>
+        <item>Service2</item>
+        <item>Service3</item>
+        <item>Service4</item>
+        <item>Service5</item>
+        <item>Service6</item>
+    </string-array>
+    <string-array name="menu_video_game_mode_array">
+        <item>Umezimwa</item>
+        <item>Umewashwa</item>
+    </string-array>
+    <string-array name="screen_mode_array_sa">
+        <item>Kujiendesha</item>
+        <item>Kawaida</item>
+        <item>Kuza</item>
+    </string-array>
+    <string-array name="menu_parental_open_vchip_array">
+        <item>Umezimwa</item>
+        <item>Umewashwa</item>
+    </string-array>
+    <string-array name="menu_setup_us_timezone_str">
+        <item>Amerika/New_York</item>
+        <item>Pasifiki/Honolulu</item>
+        <item>Amerika/Anchorage</item>
+        <item>Amerika/Los_Angeles</item>
+        <item>Amerika/Phoenix</item>
+        <item>Amerika/Denver</item>
+        <item>Amerika/Chicago</item>
+        <item>Amerika/New_York</item>
+    </string-array>
+    <string-array name="menu_setup_power_off_timer_array">
+        <item>Umezimwa</item>
+        <item>Umewashwa</item>
+        <item>Mara moja</item>
+    </string-array>
+    <string-array name="menu_video_color_temperature2_array">
+        <item>Nzuri</item>
+        <item>Kawaida</item>
+        <item>Vuguvugu</item>
+    </string-array>
+    <string-array name="menu_video_pq_split_mode_array">
+        <item>Umezimwa</item>
+        <item>Umewashwa</item>
+    </string-array>
+    <string-array name="menu_setup_dpms_array">
+        <item>Umezimwa</item>
+        <item>Umewashwa</item>
+    </string-array>
+    <string-array name="menu_parental_block_unrated_array">
+        <item>Umezimwa</item>
+        <item>Umewashwa</item>
+    </string-array>
+    <string-array name="menu_audio_speaker_mode_array">
+        <item>Umezimwa</item>
+        <item>Umewashwa</item>
+    </string-array>
+    <string-array name="menu_setup_ttx_presentation_level_array">
+        <item>Kiwango 1.5</item>
+        <item>Level 2.5</item>
+    </string-array>
+    <string-array name="menu_setup_font_size_array">
+        <item>Ndogo</item>
+        <item>Kati</item>
+        <item>Kubwa</item>
+    </string-array>
+    <string-array name="menu_setup_fast_boot_array">
+        <item>Umezimwa</item>
+        <item>Umewashwa</item>
+    </string-array>
+    <string-array name="menu_tv_tshift_config_array">
+        <item>Umezimwa</item>
+        <item>Umewashwa</item>
+    </string-array>
+    <string-array name="menu_tv_subtitle_language_eu_array">
+        <item>Kibasque</item>
+        <item>Kibulgaria</item>
+        <item>Kicantonese</item>
+        <item>Kikatalan</item>
+        <item>Kicroatia</item>
+        <item>Kiczech</item>
+        <item>Kidanish</item>
+        <item>Kidachi</item>
+        <item>KIZUNGU</item>
+        <item>Kiestonia</item>
+        <item>Kifinnish</item>
+        <item>Kifaransa</item>
+        <item>Kigaelik</item>
+        <item>Kiirish</item>
+        <item>Kigalician</item>
+        <item>Kijerumani</item>
+        <item>Kigiriki</item>
+        <item>Kihindi</item>
+        <item>Kihungarian</item>
+        <item>Kiitalia</item>
+        <item>Kiicelandic</item>
+        <item>Kijapani</item>
+        <item>Kikorea</item>
+        <item>Kimandarin</item>
+        <item>Kimaori</item>
+        <item>Kinorway</item>
+        <item>Kipolish</item>
+        <item>Kiportuguese</item>
+        <item>Kiromania</item>
+        <item>Kirusi</item>
+        <item>Kisami</item>
+        <item>Kisabia</item>
+        <item>Kislovak</item>
+        <item>Kislovenia</item>
+        <item>Kihispani</item>
+        <item>Kiswedish</item>
+        <item>Kituruki</item>
+        <item>Kiwelsh</item>
+        <item>Sauti Asili</item>
+        <item>Simulizi</item>
+        <item>Haikufafanuliwa</item>
+        <item>Umezimwa</item>
+    </string-array>
+    <string-array name="menu_tv_fa_dataservice_array">
+        <item>Umezimwa</item>
+        <item>Umewashwa</item>
+    </string-array>
+    <string-array name="menu_tv_tuner_mode_array_full_eu">
+        <item>Antena</item>
+        <item>Kebo</item>
+        <item>@string/dvbs_preferred_satellite</item>
+        <item>@string/dvbs_general_satellite</item>
+    </string-array>
+    <string-array name="menu_video_super_resolution_array">
+        <item>Umezimwa</item>
+        <item>Umewashwa</item>
+    </string-array>
+    <string-array name="menu_cec_on_off">
+        <item>Umezimwa</item>
+        <item>Umewashwa</item>
+    </string-array>
+    <string-array name="menu_tv_mdu_type_array">
+        <item>Mambo Yote</item>
+        <item>MDU 1</item>
+        <item>MDU 2</item>
+        <item>MDU 3</item>
+        <item>MDU 4</item>
+        <item>MDU 5</item>
+    </string-array>
+    <string-array name="menu_factory_video_wcg_array">
+        <item>Umezimwa</item>
+        <item>Umewashwa</item>
+    </string-array>
+    <string-array name="menu_tv_audio_language_array">
+        <item>KIZUNGU</item>
+        <item>Kihispani</item>
+        <item>Kifaransa</item>
+    </string-array>
+    <string-array name="menu_setup_tv_single_signal_quality">
+        <item>Mbaya</item>
+        <item>Kawaida</item>
+        <item>Nzuri</item>
+    </string-array>
+    <string-array name="menu_tv_freeze_channel_array">
+        <item>Umezimwa</item>
+        <item>Umewashwa</item>
+    </string-array>
+    <string-array name="menu_setup_address_type_array">
+        <item>Kujiendesha</item>
+        <item>Mwongozo</item>
+    </string-array>
+    <string-array name="menu_setup_analog_caption_array">
+        <item>Umezimwa</item>
+        <item>CC1</item>
+        <item>CC2</item>
+        <item>CC3</item>
+        <item>CC4</item>
+        <item>TEXT1</item>
+        <item>TEXT2</item>
+        <item>TEXT3</item>
+        <item>TEXT4</item>
+    </string-array>
+    <string-array name="menu_setup_power_on_channel_mode_array">
+        <item>Hali Mwisho</item>
+        <item>Chagua Mtumiaji</item>
+    </string-array>
+    <string-array name="pvr_tshift_channel_temp_list">
+        <item>CH41</item>
+        <item>CH42</item>
+        <item>CH43</item>
+        <item>CH44</item>
+    </string-array>
+    <string-array name="menu_audio_avc_mode_array">
+        <item>Umezimwa</item>
+        <item>Umewashwa</item>
+    </string-array>
+    <string-array name="menu_factory_autovedio_array">
+        <item>Umezimwa</item>
+        <item>Umewashwa</item>
+    </string-array>
+    <string-array name="menu_tv_scan_modulation_array">
+        <item>QAM64</item>
+        <item>QAM256</item>
+    </string-array>
+    <string-array name="menu_setup_enable_caption_array">
+        <item>Ndio</item>
+        <item>La</item>
+        <item>Ikiwa bubu</item>
+    </string-array>
+    <string-array name="menu_video_blue_stretch_array">
+        <item>Umezimwa</item>
+        <item>Umewashwa</item>
+    </string-array>
+    <string-array name="menu_tv_skip_ch_array">
+        <item>Umezimwa</item>
+        <item>Umewashwa</item>
+    </string-array>
+    <string-array name="screen_mode_array_sa_analog">
+        <item>Kujiendesha</item>
+        <item>Kawaida</item>
+        <item>Boksibarua</item>
+        <item>Panorama</item>
+        <item>Kuza</item>
+        <item>Doa kwa Doa</item>
+    </string-array>
+    <string-array name="screen_mode_array_vga">
+        <item>Kawaida</item>
+        <item>Boksibarua</item>
+        <item>Kuza</item>
+    </string-array>
+    <string-array name="menu_factory_audio_system_test_array">
+        <item>Umezimwa</item>
+        <item>Umewashwa</item>
+    </string-array>
+    <string-array name="menu_setup_poweron_music_array">
+        <item>Umezimwa</item>
+        <item>Umewashwa</item>
+    </string-array>
+    <string-array name="menu_factory_auto_dima_array">
+        <item>Picha Polepole</item>
+        <item>Picha Kitendo</item>
+    </string-array>
+    <string-array name="menu_tv_audio_channel_mts_array">
+        <item>Mono</item>
+        <item>Stirio</item>
+        <item>SAP</item>
+    </string-array>
+    <string-array name="menu_video_mjc_mode">
+        <item>Kawaida</item>
+        <item>Filamu Pekee</item>
+        <item>Fanya Wazi Pekee</item>
+    </string-array>
+    <string-array name="menu_setup_auto_sleep_array">
+        <item>Umezimwa</item>
+        <item>Saa 1</item>
+        <item>Masaa 2</item>
+        <item>Masaa 5</item>
+    </string-array>
+    <string-array name="menu_video_mjc_effect_array">
+        <item>Umezimwa</item>
+        <item>Chini</item>
+        <item>Katikati</item>
+        <item>Juu</item>
+    </string-array>
+    <string-array name="menu_audio_downmixmode_array">
+        <item>Stirio</item>
+        <item>Stirio ya Kujiendesha</item>
+        <item>Mzunguko</item>
+    </string-array>
+    <string-array name="menu_factory_audio_compression_array">
+        <item>Mstari</item>
+        <item>RF</item>
+    </string-array>
+    <string-array name="menu_video_mjc_demo_partition_array">
+        <item>Zote</item>
+        <item>Kulia</item>
+        <item>Kushoto</item>
+    </string-array>
+    <string-array name="menu_tv_color_system_array">
+        <item>Kujiendesha</item>
+        <item>PAL</item>
+        <item>SECAM</item>
+        <item>NTSC</item>
+    </string-array>
+    <string-array name="menu_video_flesh_tone_us_array">
+        <item>Umezimwa</item>
+        <item>Chini</item>
+        <item>Kati</item>
+        <item>Juu</item>
+    </string-array>
+    <string-array name="menu_setup_msi_array">
+        <item>Umezimwa</item>
+        <item>Umewashwa</item>
+    </string-array>
+    <string-array name="menu_factory_video_flip_array">
+        <item>Umezimwa</item>
+        <item>Umewashwa</item>
+    </string-array>
+    <string-array name="menu_setup_analog_subtitle_array">
+        <item>Umezimwa</item>
+        <item>Umewashwa</item>
+        <item>Kimya</item>
+    </string-array>
+    <string-array name="menu_setup_font_color_array">
+        <item>Nyeusi</item>
+        <item>Nyeupe</item>
+        <item>Kijani</item>
+        <item>Samawati</item>
+        <item>Nyekundu</item>
+        <item>Sian</item>
+        <item>Manjano</item>
+        <item>Majenta</item>
+    </string-array>
+    <string-array name="menu_setup_decoding_page_language_array">
+        <item>WEST EUR</item>
+        <item>EAST EUR</item>
+        <item>Urusi</item>
+        <item>Urusi-2</item>
+        <item>Kigiriki</item>
+        <item>Uturuki</item>
+        <item>Arab/Hbrw</item>
+        <item>Kifarsi</item>
+        <item>Kiarabu</item>
+        <item>Kibelorussia</item>
+    </string-array>
+    <string-array name="pvr_tshift_schedule_type">
+        <item>Rekodi</item>
+        <item>Kumbusho</item>
+    </string-array>
+    <string-array name="menu_setup_background_opacity_array">
+        <item>Imara</item>
+        <item>Uwazi Wastani</item>
+        <item>Wazi</item>
+    </string-array>
+    <string-array name="menu_audio_type_array">
+        <item>Kawaida</item>
+        <item>Kusikia Kumeharibika</item>
+        <item>Kuona Kumeharibika</item>
+    </string-array>
+    <string-array name="menu_setup_window_color_array">
+        <item>Nyeusi</item>
+        <item>Nyeupe</item>
+        <item>Kijani</item>
+        <item>Samawati</item>
+        <item>Nyekundu</item>
+        <item>Sian</item>
+        <item>Manjano</item>
+        <item>Majenta</item>
+    </string-array>
+    <string-array name="menu_video_3d_mode_array">
+        <item>Umezimwa</item>
+        <item>Mtindo Otomatiki</item>
+        <item>2D-hadi-3D</item>
+        <item>Mpango Fremu</item>
+        <item>Kando-kwa-Kando</item>
+        <item>Juu-na-Chini</item>
+        <item>REALD MODE</item>
+        <item>SENSIO</item>
+        <item>Laini Kuingiliana</item>
+        <item>DOT ALT MODE</item>
+        <item>CHK BOARD</item>
+    </string-array>
+    <string-array name="menu_audio_visually_speaker_array">
+        <item>Umezimwa</item>
+        <item>Umewashwa</item>
+    </string-array>
+    <string-array name="menu_setup_auto_sleep_eu_array">
+        <item>Umezimwa</item>
+        <item>Saa 4</item>
+        <item>Masaa 6</item>
+        <item>Masaa 8</item>
+    </string-array>
+    <string-array name="menu_setup_my_network_place_array">
+        <item>Umezimwa</item>
+        <item>Umewashwa</item>
+    </string-array>
+    <string-array name="pvr_tshift_srctype">
+        <item>TV</item>
+        <item>Mchanganyo</item>
+    </string-array>
+    <string-array name="menu_setup_us_timezone_array">
+        <item>Wakati Mashariki</item>
+        <item>Hawaii</item>
+        <item>Alaska</item>
+        <item>Wakati Pacific</item>
+        <item>Arizona</item>
+        <item>Wakati Jabali</item>
+        <item>Wakati Kati</item>
+        <item>Indiana</item>
+    </string-array>
+    <string-array name="menu_setup_font_opacity_array">
+        <item>Imara</item>
+        <item>Uwazi Wastani</item>
+        <item>Wazi</item>
+    </string-array>
+    <string-array name="menu_audio_pippop_mode_array">
+        <item>Umezimwa</item>
+        <item>PIP</item>
+        <item>Popu</item>
+    </string-array>
+    <string-array name="menu_factory_fm_saturation_mute_array">
+        <item>Umezimwa</item>
+        <item>Umewashwa</item>
+    </string-array>
+    <string-array name="menu_tv_color_system_array_eu_edit">
+        <item>Kujiendesha</item>
+        <item>NTSC</item>
+        <item>PAL</item>
+        <item>SECAM</item>
+    </string-array>
+    <string-array name="menu_factory_high_deviation_mode_array">
+        <item>Umezimwa</item>
+        <item>Umewashwa</item>
+    </string-array>
+    <string-array name="menu_video_3d_nav_array">
+        <item>Mwongozo</item>
+        <item>Otomatiki-Nusu</item>
+        <item>Kujiendesha</item>
+    </string-array>
+    <string-array name="menu_video_gamma_array">
+        <item>Giza</item>
+        <item>Katikati</item>
+        <item>Mwangaza</item>
+    </string-array>
+    <string-array name="menu_parental_age_ratings_array_eu">
+        <item>Hakuna</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+    </string-array>
+    <string-array name="menu_factory_setup_eu_uart_mode">
+        <item>Umezimwa</item>
+        <item>Umewashwa</item>
+    </string-array>
+    <string-array name="menu_audio_visually_headphone_array">
+        <item>Umezimwa</item>
+        <item>Umewashwa</item>
+    </string-array>
+    <string-array name="menu_video_vga_mode_array">
+        <item>Grafiki</item>
+        <item>Filamu</item>
+    </string-array>
+    <string-array name="menu_factory_setup_uart_mode">
+        <item>Umezimwa</item>
+        <item>Umewashwa</item>
+    </string-array>
+    <string-array name="menu_audio_srs_mode_array">
+        <item>Umezimwa</item>
+        <item>Umewashwa</item>
+    </string-array>
+    <string-array name="menu_setup_digital_teletext_language_array">
+        <item>Kibasque</item>
+        <item>Kibulgaria</item>
+        <item>Kicantonese</item>
+        <item>Kikatalan</item>
+        <item>Kicroatia</item>
+        <item>Kiczech</item>
+        <item>Kidanish</item>
+        <item>Kidachi</item>
+        <item>KIZUNGU</item>
+        <item>Kiestonia</item>
+        <item>Kifinnish</item>
+        <item>Kifaransa</item>
+        <item>Kigaelik</item>
+        <item>Kiirish</item>
+        <item>Kigalician</item>
+        <item>Kijerumani</item>
+        <item>Kigiriki</item>
+        <item>Kihindi</item>
+        <item>Kihungarian</item>
+        <item>Kiitalia</item>
+        <item>Kiicelandic</item>
+        <item>Kijapani</item>
+        <item>Kikorea</item>
+        <item>Kimandarin</item>
+        <item>Kimaori</item>
+        <item>Kinorway</item>
+        <item>Kipolish</item>
+        <item>Kiportuguese</item>
+        <item>Kiromania</item>
+        <item>Kirusi</item>
+        <item>Kisami</item>
+        <item>Kisabia</item>
+        <item>Kislovak</item>
+        <item>Kislovenia</item>
+        <item>Kihispani</item>
+        <item>Kiswedish</item>
+        <item>Kituruki</item>
+        <item>Kiwelsh</item>
+        <item>Sauti Asili</item>
+        <item>Simulizi</item>
+        <item>Haikufafanuliwa</item>
+    </string-array>
+    <string-array name="menu_parental_age_ratings_array_eu_ocean_aus">
+        <item>Hakuna Pande</item>
+        <item>Pande R na juu</item>
+        <item>Pande AV na juu</item>
+        <item>Pande MA na juu</item>
+        <item>Pande M na juu</item>
+        <item>Pande PG na juu</item>
+        <item>Pande G na juu</item>
+        <item>Pande Zote</item>
+    </string-array>
+    <string-array name="menu_setup_superimpose_setup_array">
+        <item>Umezimwa</item>
+        <item>Lugha1</item>
+        <item>Lugha2</item>
+    </string-array>
+    <string-array name="menu_factory_audio_dolbybanner_array">
+        <item>Umezimwa</item>
+        <item>Umewashwa</item>
+    </string-array>
+    <string-array name="menu_video_black_bar_detection_array">
+        <item>Umezimwa</item>
+        <item>Umewashwa</item>
+    </string-array>
+    <string-array name="menu_setup_digital_caption_sa_array">
+        <item>Umezimwa</item>
+        <item>Lugha1</item>
+        <item>Lugha2</item>
+        <item>Lugha3</item>
+        <item>Lugha4</item>
+        <item>Lugha5</item>
+        <item>Lugha6</item>
+        <item>Lugha7</item>
+        <item>Lugha8</item>
+    </string-array>
+    <string-array name="menu_tv_tuner_mode_array_full_eu_sat_only">
+        <item>Antena</item>
+        <item>Kebo</item>
+        <item>Setilaiti</item>
+    </string-array>
+    <string-array name="menu_factory_setup_burning_mode">
+        <item>Umezimwa</item>
+        <item>Umewashwa</item>
+    </string-array>
+    <string-array name="menu_audio_bbe_mode_array">
+        <item>Umezimwa</item>
+        <item>BBE</item>
+        <item>BBE Viva</item>
+    </string-array>
+    <string-array name="menu_tv_country_region_id_eu">
+        <item>Nchi Eneo ID 1</item>
+        <item>Nchi Eneo ID 2</item>
+    </string-array>
+    <string-array name="menu_video_dnr_array">
+        <item>Umezimwa</item>
+        <item>Chini</item>
+        <item>Kati</item>
+        <item>Nguvu</item>
+        <item>Kujiendesha</item>
+    </string-array>
+    <string-array name="menu_setup_subtitle_type_array">
+        <item>Kawaida</item>
+        <item>Kusikia Kumeharibika</item>
+    </string-array>
+    <string-array name="menu_tv_fine_tune_array">
+        <item>Umezimwa</item>
+        <item>Umewashwa</item>
+    </string-array>
+    <string-array name="menu_parental_age_ratings_array">
+        <item>Hakuna</item>
+        <item>Below 10</item>
+        <item>Below 12</item>
+        <item>Below 14</item>
+        <item>Below 16</item>
+        <item>Below 18</item>
+    </string-array>
+    <string-array name="menu_video_3d_lrswitch_array">
+        <item>Umezimwa</item>
+        <item>Umewashwa</item>
+    </string-array>
+    <string-array name="menu_factory_video_local_array">
+        <item>Umezimwa</item>
+        <item>Umewashwa</item>
+    </string-array>
+    <string-array name="menu_setup_power_on_timer_array">
+        <item>Umezimwa</item>
+        <item>Umewashwa</item>
+        <item>Mara moja</item>
+    </string-array>
+    <string-array name="menu_tv_channel_listtype">
+        <item>Tangazo</item>
+        <item>CAM</item>
+    </string-array>
+    <string-array name="screen_mode_array_us_pop">
+        <item>Kujiendesha</item>
+        <item>Kawaida</item>
+        <item>Kuza</item>
+    </string-array>
+    <string-array name="menu_audio_equalizer_array">
+        <item>Umezimwa</item>
+        <item>Roki</item>
+        <item>Popu</item>
+        <item>Hai</item>
+        <item>Dansi</item>
+        <item>Tekno</item>
+        <item>Klasiki</item>
+        <item>Laini</item>
+    </string-array>
+    <string-array name="menu_setup_caption_style_array">
+        <item>Kama Mtangazaji</item>
+        <item>Kienyeji</item>
+    </string-array>
+    <string-array name="menu_setup_font_style_array">
+        <item>Mtindo1</item>
+        <item>Style2</item>
+        <item>Style3</item>
+        <item>Style4</item>
+        <item>Style5</item>
+        <item>Style6</item>
+        <item>Style7</item>
+    </string-array>
+    <string-array name="menu_tv_rf_signal_quality">
+        <item>Nzuri</item>
+        <item>Kati</item>
+        <item>Mbaya</item>
+    </string-array>
+    <string-array name="menu_tv_sound_system_array">
+        <item>B/G</item>
+        <item>A2 B/G</item>
+        <item>L</item>
+        <item>L\'</item>
+        <item>I</item>
+        <item>D/K</item>
+        <item>A2 D/K</item>
+        <item>A2 D/K1</item>
+        <item>A2 D/K2</item>
+    </string-array>
+    <string-array name="menu_video_luma_array">
+        <item>Umezimwa</item>
+        <item>Chini</item>
+        <item>Kati</item>
+        <item>Nguvu</item>
+    </string-array>
+    <string-array name="menu_factory_video_mirror_array">
+        <item>Umezimwa</item>
+        <item>Umewashwa</item>
+    </string-array>
+    <string-array name="pvr_tshift_repeat_type">
+        <item>Mara moja</item>
+        <item>Wiki</item>
+        <item>Kila Siku</item>
+    </string-array>
+    <string-array name="menu_factory_carrier_shift_function_array">
+        <item>Umezimwa</item>
+        <item>Umewashwa</item>
+    </string-array>
+    <string-array name="menu_setup_language_array">
+        <item>KIZUNGU</item>
+        <item>Kichina Rahisishwa</item>
+    </string-array>
+    <string-array name="menu_setup_blue_mute_array">
+        <item>Umezimwa</item>
+        <item>Umewashwa</item>
+    </string-array>
+    <string-array name="menu_setup_background_color_array">
+        <item>Nyeusi</item>
+        <item>Nyeupe</item>
+        <item>Kijani</item>
+        <item>Samawati</item>
+        <item>Nyekundu</item>
+        <item>Sian</item>
+        <item>Manjano</item>
+        <item>Majenta</item>
+    </string-array>
+
+ <integer-array name="menu_setup_us_timezone_values">
+        <item>-5</item>
+        <item>-10</item>
+        <item>-9</item>
+        <item>-8</item>
+        <item>-7</item>
+        <item>-7</item>
+        <item>-6</item>
+        <item>-5</item>
+    </integer-array>
+    
+      <integer-array name="menu_setup_timezone_value_array">
+        <item>-12</item>
+        <item>-11</item>
+        <item>-10</item>
+        <item>-9</item>
+        <item>-8</item>
+        <item>-7</item>
+        <item>-6</item>
+        <item>-5</item>
+        <item>-4</item>
+        <item>-350</item>
+        <item>-3</item>
+        <item>-2</item>
+        <item>-1</item>
+        <item>0</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>350</item>
+        <item>4</item>
+        <item>450</item>
+        <item>5</item>
+        <item>550</item>
+        <item>575</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>950</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>-1125</item>
+        <item>-11</item>
+    </integer-array>
+</resources>

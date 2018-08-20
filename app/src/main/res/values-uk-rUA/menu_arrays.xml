@@ -1,0 +1,1131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+    <string-array name="menu_setup_network_connection_array">
+        <item>Aus</item>
+        <item>Ein</item>
+    </string-array>
+    <string-array name="menu_tv_scan_mode_array">
+        <item>Авто</item>
+        <item>16QAM</item>
+        <item>32QAM</item>
+        <item>64QAM</item>
+        <item>128QAM</item>
+        <item>256QAM</item>
+    </string-array>
+    <string-array name="menu_setup_capturelogo_array">
+        <item>Стандартний </item>
+        <item>0</item>
+        <item>1</item>
+        <item>Keine</item>
+    </string-array>
+    <string-array name="menu_ci_not_support_channel">
+        <item>Keine Lizenz</item>
+    </string-array>
+    <string-array name="menu_video_mpeg_nr_array">
+        <item>Aus</item>
+        <item>Niedrig</item>
+        <item>Mittel </item>
+        <item>Stark</item>
+    </string-array>
+    <string-array name="menu_audio_spdif_mode_array">
+        <item>Aus</item>
+        <item>PCM RAW</item>
+        <item>PCM 16</item>
+        <item>PCM 24</item>
+    </string-array>
+    <string-array name="menu_setup_auto_synchronization_array">
+        <item>Aus</item>
+        <item>Синхронізація з потоку</item>
+        <item>Синхронізація з мережі</item>
+    </string-array>
+    <string-array name="menu_factory_setup_eventform">
+        <item>Обидві форми</item>
+        <item>Довга форма</item>
+        <item>Коротка форма</item>
+    </string-array>
+    <string-array name="menu_tv_tv_system_array">
+        <item>Авто</item>
+        <item>B/G</item>
+        <item>A2 B/G</item>
+        <item>Я </item>
+        <item>D/K</item>
+        <item>A2 D/K</item>
+        <item>A2 D/K1</item>
+        <item>A2 D/K2</item>
+        <item>М </item>
+    </string-array>
+    <string-array name="menu_setup_null_array">
+        <item></item>
+    </string-array>
+    <string-array name="menu_parental_block_channel_schedule_operation_array">
+        <item>Keine</item>
+        <item>Täglich</item>
+        <item>Einmal</item>
+    </string-array>
+    <string-array name="menu_audio_downmixmode_eu_array">
+        <item>Об\'ємний</item>
+        <item>Стерео</item>
+        <item>Автостерео</item>
+    </string-array>
+    <string-array name="menu_setup_time_shifting_mode_array">
+        <item>Aus</item>
+        <item>Ein</item>
+    </string-array>
+    <string-array name="screen_mode_array_us_pip_main_analog">
+        <item>Авто</item>
+        <item>Нормальний </item>
+        <item>Поштова скринька</item>
+        <item>Збільшити</item>
+        <item>Punkt für Punkt</item>
+    </string-array>
+    <string-array name="screen_mode_array_us_pip">
+        <item>Авто</item>
+        <item>Нормальний </item>
+    </string-array>
+    <string-array name="menu_factory_audio_compressionfactor_array">
+        <item>Aus</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>40</item>
+        <item>50</item>
+        <item>60</item>
+        <item>70</item>
+        <item>80</item>
+        <item>90</item>
+        <item>100</item>
+    </string-array>
+    <string-array name="menu_video_3d_image_safety_array">
+        <item>Aus</item>
+        <item>Niedrig</item>
+        <item>Mittel</item>
+        <item>Hoch</item>
+    </string-array>
+    <string-array name="menu_setup_record_quality_array">
+        <item>Niedrig</item>
+        <item>Mittel</item>
+        <item>Hoch</item>
+    </string-array>
+    <string-array name="menu_tv_oceania_country_region">
+        <item>NSW/ACT</item>
+        <item>VIC</item>
+        <item>QLD</item>
+        <item>SA</item>
+        <item>WA</item>
+        <item>TAS</item>
+        <item>NT</item>
+    </string-array>
+    <string-array name="menu_setup_ginga_array">
+        <item>Aus</item>
+        <item>Ein</item>
+    </string-array>
+    <string-array name="menu_setup_dlna_array">
+        <item>Aus</item>
+        <item>Ein</item>
+    </string-array>
+    <string-array name="screen_mode_array_sa_pip">
+        <item>Авто</item>
+        <item>Нормальний </item>
+        <item>Поштова скринька</item>
+    </string-array>
+    <string-array name="menu_video_flesh_tone_array">
+        <item>Aus</item>
+        <item>Ein</item>
+    </string-array>
+    <string-array name="screen_mode_array_eu_analog">
+        <item>Авто</item>
+        <item>Нормальний </item>
+        <item>Поштова скринька</item>
+        <item>Панорама </item>
+    </string-array>
+    <string-array name="menu_parental_rating_enable_array">
+        <item>Aus</item>
+        <item>Ein</item>
+    </string-array>
+    <string-array name="menu_factory_video_diedge_array">
+        <item>Schwach</item>
+        <item>Stark</item>
+    </string-array>
+    <string-array name="menu_video_hdmi_mode_array">
+        <item>Авто</item>
+        <item>Grafik</item>
+        <item>VIDEO</item>
+    </string-array>
+    <string-array name="menu_factory_video_xvycc_array">
+        <item>Aus</item>
+        <item>Ein</item>
+    </string-array>
+    <string-array name="menu_audio_spdif_mode_us_array">
+        <item>Aus</item>
+        <item>Dolby Digital</item>
+        <item>PCM </item>
+    </string-array>
+    <string-array name="menu_tv_channeledit_array">
+        <item>Інформація про канал</item>
+        <item>Вставити</item>
+        <item>Löschen</item>
+        <item>Tausch</item>
+    </string-array>
+    <string-array name="menu_setup_window_opacity_array">
+        <item>Твердого</item>
+        <item>Напівпрозорий</item>
+        <item>Прозорий</item>
+    </string-array>
+    <string-array name="menu_scan_mode">
+        <item>Erweitert</item>
+        <item>Schnell</item>
+        <item>Voll</item>
+    </string-array>
+    <string-array name="menu_tv_audio_channel_array">
+        <item>Моно</item>
+        <item>Стерео</item>
+        <item>Dual1</item>
+        <item>Подвійний2</item>
+    </string-array>
+    <string-array name="menu_setup_scart">
+        <item>Авто</item>
+        <item>Змішаний</item>
+        <item>RGB</item>
+        <item>CVBS</item>
+        <item>S-Відео</item>
+    </string-array>
+    <string-array name="menu_video_di_film_mode_array">
+        <item>Aus</item>
+        <item>Авто</item>
+    </string-array>
+    <string-array name="menu_factory_video_colortemperature_array">
+        <item>Benutzer</item>
+        <item>Kühl</item>
+        <item>Стандартний </item>
+        <item>Теплий </item>
+    </string-array>
+    <string-array name="menu_tv_scan_frequency_plan_array">
+        <item>STD</item>
+        <item>IRC</item>
+        <item>HRC</item>
+    </string-array>
+    <string-array name="menu_setup_timezone_name_array">
+        <item>Asien/Magadan</item>
+        <item>Pazifik/Midway</item>
+        <item>Pazifik/Honolulu</item>
+        <item>Amerika/Anchorage</item>
+        <item>Amerika/Anchorage</item>
+        <item>Amerika/Los_Angeles</item>
+        <item>Amerika/Chihuahua</item>
+        <item>Amerika/Chicago</item>
+        <item>Amerika/Manaus</item>
+        <item>Amerika/St_Johns</item>
+        <item>Amerika/St_Johns</item>
+        <item>Amerika/Godthab</item>
+        <item>Atlantik/Kapverden</item>
+        <item>Як трансляція</item>
+        <item>Afrika/Casablanca</item>
+        <item>Europa/London</item>
+        <item>Afrika/Harare</item>
+        <item>Asien/Amman</item>
+        <item>Asien/Amman</item>
+        <item>Europa/Moskau</item>
+        <item>Asien/Teheran</item>
+        <item>Asien/Eriwan</item>
+        <item>Asien/Colombo</item>
+        <item>Asien/Kathmandu</item>
+        <item>Asien/Almaty</item>
+        <item>Asien/Bangkok</item>
+        <item>Asien/Hongkong</item>
+        <item>Asien/Tokio</item>
+        <item>Австралія/Аделаїда</item>
+        <item>Asien/Jakutsk</item>
+        <item>Asien/Wladiwostok</item>
+        <item>Asien/Wladiwostok</item>
+        <item>Pazifik/Fidschi</item>
+        <item>Pazifik/Tongatapu</item>
+    </string-array>
+    <string-array name="menu_tv_channel_bl_type">
+        <item>Keine</item>
+        <item>Щодня</item>
+        <item>Sonntag</item>
+        <item>Montag</item>
+        <item>Dienstag</item>
+        <item>Mittwoch</item>
+        <item>Donnerstag</item>
+        <item>Freitag</item>
+        <item>Samstag</item>
+    </string-array>
+    <string-array name="menu_setup_timezone_array">
+        <item>GMT-12:00</item>
+        <item>GMT-11:00</item>
+        <item>GMT-10:00</item>
+        <item>GMT-9:00</item>
+        <item>GMT-8:00</item>
+        <item>GMT-7:00</item>
+        <item>GMT-6:00</item>
+        <item>GMT-5:00</item>
+        <item>GMT-4:00</item>
+        <item>GMT-3:30</item>
+        <item>GMT-3:00</item>
+        <item>GMT-2:00</item>
+        <item>GMT-1:00</item>
+        <item>Як трансляція</item>
+        <item>GMT+0:00</item>
+        <item>GMT+1:00</item>
+        <item>GMT+2:00</item>
+        <item>GMT+3:00</item>
+        <item>GMT+3:30</item>
+        <item>GMT+4:00</item>
+        <item>GMT+4:30</item>
+        <item>GMT+5:00</item>
+        <item>GMT+5:30</item>
+        <item>GMT+5:45</item>
+        <item>GMT+6:00</item>
+        <item>GMT+6:30</item>
+        <item>GMT+7:00</item>
+        <item>GMT+8:00</item>
+        <item>GMT+9:00</item>
+        <item>GMT+9:30</item>
+        <item>GMT+10:00</item>
+        <item>GMT+11:00</item>
+        <item>GMT+12:00</item>
+        <item>GMT+12:45</item>
+        <item>GMT+13:00</item>
+    </string-array>
+    <string-array name="menu_tv_tuner_mode_array">
+        <item>Antenne</item>
+        <item>Kabel</item>
+    </string-array>
+    <string-array name="menu_audio_equalizer_array_us">
+        <item>Aus</item>
+        <item>Рок</item>
+        <item>POP </item>
+        <item>Трансляція</item>
+        <item>Tanz</item>
+        <item>Техно</item>
+        <item>Klassik</item>
+        <item>weich</item>
+        <item>Custom1</item>
+        <item>Custom2</item>
+        <item>custom3</item>
+    </string-array>
+    <string-array name="menu_setup_sleep_timer_array">
+        <item>Aus</item>
+        <item>10 Minuten</item>
+        <item>20 хв.</item>
+        <item>30 Minuten</item>
+        <item>40 хв.</item>
+        <item>50 хв.</item>
+        <item>60 хв.</item>
+        <item>90 хв.</item>
+        <item>120 хв.</item>
+    </string-array>
+    <string-array name="menu_tv_us_scan_mode_array">
+        <item>Аналоговий/Цифровий</item>
+        <item>Analog</item>
+        <item>Digital</item>
+    </string-array>
+    <string-array name="screen_mode_array_sa_pop">
+        <item>Авто</item>
+        <item>Нормальний </item>
+        <item>Поштова скринька</item>
+        <item>Збільшити</item>
+    </string-array>
+    <string-array name="screen_mode_array_us_dtv">
+        <item>Авто</item>
+        <item>Нормальний </item>
+        <item>Поштова скринька</item>
+        <item>Панорама </item>
+        <item>Збільшити</item>
+        <item>Punkt für Punkt</item>
+    </string-array>
+    <string-array name="menu_tv_audio_language_eu_array">
+        <item>Englisch</item>
+        <item>Estnisch</item>
+        <item>Finnisch</item>
+        <item>Französisch</item>
+        <item>Gälisch</item>
+        <item>Irisch</item>
+        <item>Галісійська</item>
+        <item>DEUTSCH</item>
+        <item>Griechisch</item>
+        <item>Хінді</item>
+        <item>Ungarisch</item>
+        <item>Italienisch</item>
+        <item>Isländisch</item>
+        <item>Japanisch</item>
+        <item>Koreanisch</item>
+        <item>Мандарин</item>
+        <item>Майорка</item>
+        <item>Norwegisch</item>
+        <item>Polnisch</item>
+        <item>Portugiesisch</item>
+        <item>Rumänisch</item>
+        <item>Russisch</item>
+        <item>Sami</item>
+        <item>Serbisch</item>
+        <item>Slowakisch</item>
+        <item>Slowenisch</item>
+        <item>Spanisch</item>
+        <item>Schwedisch</item>
+        <item>Türkisch</item>
+        <item>Walisisch</item>
+        <item>Оригінальний звук</item>
+        <item>Розповідь</item>
+        <item>Nicht definiert</item>
+        <item>Baskisch</item>
+        <item>Bulgarisch</item>
+        <item>Kantonesisch</item>
+        <item>Katalanisch</item>
+        <item>Kroatisch</item>
+        <item>Tschechien</item>
+        <item>Dänisch</item>
+        <item>Niederländisch</item>
+    </string-array>
+    <string-array name="menu_setup_atv_record_mode_array">
+        <item>Aus</item>
+        <item>Ein</item>
+    </string-array>
+    <string-array name="screen_mode_array_us_pip_sub">
+        <item>Авто</item>
+        <item>Нормальний </item>
+        <item>Поштова скринька</item>
+    </string-array>
+    <string-array name="menu_parental_content_ratings_array">
+        <item>Aus</item>
+        <item>Drogen</item>
+        <item>Gewalt</item>
+        <item>Секс</item>
+        <item>Gewalt &amp; Drogen</item>
+        <item>Sex &amp; Drogen</item>
+        <item>Gewalt &amp; Sex</item>
+        <item>Gewalt &amp; Sex &amp; Drogen</item>
+    </string-array>
+    <string-array name="menu_video_3d_3t2switch_array">
+        <item>Aus</item>
+        <item>Ein</item>
+    </string-array>
+    <string-array name="menu_setup_oad_auto_download_array">
+        <item>Nein</item>
+        <item>Ja</item>
+    </string-array>
+    <string-array name="menu_setup_digital_caption_array">
+        <item>Aus</item>
+        <item>Service1 </item>
+        <item>Service2 </item>
+        <item>Service3 </item>
+        <item>Service4 </item>
+        <item>Service5 </item>
+        <item>Service6</item>
+    </string-array>
+    <string-array name="menu_video_game_mode_array">
+        <item>Aus</item>
+        <item>Ein</item>
+    </string-array>
+    <string-array name="screen_mode_array_sa">
+        <item>Авто</item>
+        <item>Нормальний </item>
+        <item>Збільшити</item>
+    </string-array>
+    <string-array name="menu_parental_open_vchip_array">
+        <item>Aus</item>
+        <item>Ein</item>
+    </string-array>
+    <string-array name="menu_setup_us_timezone_str">
+        <item>Amerika/New_York</item>
+        <item>Pazifik/Honolulu</item>
+        <item>Amerika/Anchorage</item>
+        <item>Amerika/Los_Angeles</item>
+        <item>Amerika/Phoenix</item>
+        <item>Amerika/Denver</item>
+        <item>Amerika/Chicago</item>
+        <item>Amerika/New_York</item>
+    </string-array>
+    <string-array name="menu_setup_power_off_timer_array">
+        <item>Aus</item>
+        <item>Ein</item>
+        <item>Einmal</item>
+    </string-array>
+    <string-array name="menu_video_color_temperature2_array">
+        <item>Kühl</item>
+        <item>Стандартний </item>
+        <item>Теплий </item>
+    </string-array>
+    <string-array name="menu_video_pq_split_mode_array">
+        <item>Aus</item>
+        <item>Ein</item>
+    </string-array>
+    <string-array name="menu_setup_dpms_array">
+        <item>Aus</item>
+        <item>Ein</item>
+    </string-array>
+    <string-array name="menu_parental_block_unrated_array">
+        <item>Aus</item>
+        <item>Ein</item>
+    </string-array>
+    <string-array name="menu_audio_speaker_mode_array">
+        <item>Aus</item>
+        <item>Ein</item>
+    </string-array>
+    <string-array name="menu_setup_ttx_presentation_level_array">
+        <item>Level 1.5</item>
+        <item>Level 2.5</item>
+    </string-array>
+    <string-array name="menu_setup_font_size_array">
+        <item>Klein</item>
+        <item>Mittel </item>
+        <item>Groß</item>
+    </string-array>
+    <string-array name="menu_setup_fast_boot_array">
+        <item>Aus</item>
+        <item>Ein</item>
+    </string-array>
+    <string-array name="menu_tv_tshift_config_array">
+        <item>Aus</item>
+        <item>Ein</item>
+    </string-array>
+    <string-array name="menu_tv_subtitle_language_eu_array">
+        <item>Baskisch</item>
+        <item>Bulgarisch</item>
+        <item>Kantonesisch</item>
+        <item>Katalanisch</item>
+        <item>Kroatisch</item>
+        <item>Tschechien</item>
+        <item>Dänisch</item>
+        <item>Niederländisch</item>
+        <item>Englisch</item>
+        <item>Estnisch</item>
+        <item>Finnisch</item>
+        <item>Französisch</item>
+        <item>Gälisch</item>
+        <item>Irisch</item>
+        <item>Галісійська</item>
+        <item>DEUTSCH</item>
+        <item>Griechisch</item>
+        <item>Хінді</item>
+        <item>Ungarisch</item>
+        <item>Italienisch</item>
+        <item>Isländisch</item>
+        <item>Japanisch</item>
+        <item>Koreanisch</item>
+        <item>Мандарин</item>
+        <item>Майорка</item>
+        <item>Norwegisch</item>
+        <item>Polnisch</item>
+        <item>Portugiesisch</item>
+        <item>Rumänisch</item>
+        <item>Russisch</item>
+        <item>Sami</item>
+        <item>Serbisch</item>
+        <item>Slowakisch</item>
+        <item>Slowenisch</item>
+        <item>Spanisch</item>
+        <item>Schwedisch</item>
+        <item>Türkisch</item>
+        <item>Walisisch</item>
+        <item>Оригінальний звук</item>
+        <item>Розповідь</item>
+        <item>Nicht definiert</item>
+        <item>Aus</item>
+    </string-array>
+    <string-array name="menu_tv_fa_dataservice_array">
+        <item>Aus</item>
+        <item>Ein</item>
+    </string-array>
+    <string-array name="menu_tv_tuner_mode_array_full_eu">
+        <item>Antenne</item>
+        <item>Kabel</item>
+        <item>@string/dvbs_preferred_satellite</item>
+        <item>@string/dvbs_general_satellite</item>
+    </string-array>
+    <string-array name="menu_video_super_resolution_array">
+        <item>Aus</item>
+        <item>Ein</item>
+    </string-array>
+    <string-array name="menu_cec_on_off">
+        <item>Aus</item>
+        <item>Ein</item>
+    </string-array>
+    <string-array name="menu_tv_mdu_type_array">
+        <item>Універсальний</item>
+        <item>MDU 1</item>
+        <item>MDU 2</item>
+        <item>MDU 3</item>
+        <item>MDU 4</item>
+        <item>MDU 5</item>
+    </string-array>
+    <string-array name="menu_factory_video_wcg_array">
+        <item>Aus</item>
+        <item>Ein</item>
+    </string-array>
+    <string-array name="menu_tv_audio_language_array">
+        <item>Englisch</item>
+        <item>Іспанська</item>
+        <item>Французька</item>
+    </string-array>
+    <string-array name="menu_setup_tv_single_signal_quality">
+        <item>Schlecht</item>
+        <item>Нормальний </item>
+        <item>Gut</item>
+    </string-array>
+    <string-array name="menu_tv_freeze_channel_array">
+        <item>Aus</item>
+        <item>Ein</item>
+    </string-array>
+    <string-array name="menu_setup_address_type_array">
+        <item>Авто</item>
+        <item>manuell</item>
+    </string-array>
+    <string-array name="menu_setup_analog_caption_array">
+        <item>Aus</item>
+        <item>CC1 </item>
+        <item>СС2 </item>
+        <item>CC3 </item>
+        <item>CC4 </item>
+        <item>Текст 1</item>
+        <item>TEXT2</item>
+        <item>TEXT3</item>
+        <item>TEXT4</item>
+    </string-array>
+    <string-array name="menu_setup_power_on_channel_mode_array">
+        <item>Останній статус</item>
+        <item>Вибір користувача</item>
+    </string-array>
+    <string-array name="pvr_tshift_channel_temp_list">
+        <item>CH41</item>
+        <item>CH42</item>
+        <item>CH43</item>
+        <item>CH44</item>
+    </string-array>
+    <string-array name="menu_audio_avc_mode_array">
+        <item>Aus</item>
+        <item>Ein</item>
+    </string-array>
+    <string-array name="menu_factory_autovedio_array">
+        <item>Aus</item>
+        <item>Ein</item>
+    </string-array>
+    <string-array name="menu_tv_scan_modulation_array">
+        <item>QAM64</item>
+        <item>QAM256</item>
+    </string-array>
+    <string-array name="menu_setup_enable_caption_array">
+        <item>Ja</item>
+        <item>Nein</item>
+        <item>Включити беззвучний режим</item>
+    </string-array>
+    <string-array name="menu_video_blue_stretch_array">
+        <item>Aus</item>
+        <item>Ein</item>
+    </string-array>
+    <string-array name="menu_tv_skip_ch_array">
+        <item>Aus</item>
+        <item>Ein</item>
+    </string-array>
+    <string-array name="screen_mode_array_sa_analog">
+        <item>Авто</item>
+        <item>Нормальний </item>
+        <item>Поштова скринька</item>
+        <item>Панорама </item>
+        <item>Збільшити</item>
+        <item>Punkt für Punkt</item>
+    </string-array>
+    <string-array name="screen_mode_array_vga">
+        <item>Нормальний </item>
+        <item>Поштова скринька</item>
+        <item>Збільшити</item>
+    </string-array>
+    <string-array name="menu_factory_audio_system_test_array">
+        <item>Aus</item>
+        <item>Ein</item>
+    </string-array>
+    <string-array name="menu_setup_poweron_music_array">
+        <item>Aus</item>
+        <item>Ein</item>
+    </string-array>
+    <string-array name="menu_factory_auto_dima_array">
+        <item>Уповільнити зображення</item>
+        <item>Прискорити зображення</item>
+    </string-array>
+    <string-array name="menu_tv_audio_channel_mts_array">
+        <item>Моно</item>
+        <item>Стерео</item>
+        <item>SAP</item>
+    </string-array>
+    <string-array name="menu_video_mjc_mode">
+        <item>Нормальний </item>
+        <item>Тільки фільм</item>
+        <item>Тільки різкість зображення</item>
+    </string-array>
+    <string-array name="menu_setup_auto_sleep_array">
+        <item>Aus</item>
+        <item>1 год</item>
+        <item>2 год</item>
+        <item>5 год</item>
+    </string-array>
+    <string-array name="menu_video_mjc_effect_array">
+        <item>Aus</item>
+        <item>Niedrig</item>
+        <item>Mittel</item>
+        <item>Hoch</item>
+    </string-array>
+    <string-array name="menu_audio_downmixmode_array">
+        <item>Стерео</item>
+        <item>Автостерео</item>
+        <item>Об\'ємний</item>
+    </string-array>
+    <string-array name="menu_factory_audio_compression_array">
+        <item>Лінія</item>
+        <item>RF</item>
+    </string-array>
+    <string-array name="menu_video_mjc_demo_partition_array">
+        <item>Alle</item>
+        <item> Право </item>
+        <item>Links</item>
+    </string-array>
+    <string-array name="menu_tv_color_system_array">
+        <item>Авто</item>
+        <item>PAL</item>
+        <item>SECAM</item>
+        <item>NTSC</item>
+    </string-array>
+    <string-array name="menu_video_flesh_tone_us_array">
+        <item>Aus</item>
+        <item>Niedrig</item>
+        <item>Mittel </item>
+        <item>Hoch</item>
+    </string-array>
+    <string-array name="menu_setup_msi_array">
+        <item>Aus</item>
+        <item>Ein</item>
+    </string-array>
+    <string-array name="menu_factory_video_flip_array">
+        <item>Aus</item>
+        <item>Ein</item>
+    </string-array>
+    <string-array name="menu_setup_analog_subtitle_array">
+        <item>Aus</item>
+        <item>Ein</item>
+        <item>Stumm</item>
+    </string-array>
+    <string-array name="menu_setup_font_color_array">
+        <item>Schwarz</item>
+        <item>Weiß</item>
+        <item>Grün</item>
+        <item>Blau</item>
+        <item>Rot</item>
+        <item>Блакитний</item>
+        <item>Gelb</item>
+        <item>Пурпуровий</item>
+    </string-array>
+    <string-array name="menu_setup_decoding_page_language_array">
+        <item>WEST EUR</item>
+        <item>EAST EUR</item>
+        <item>Russland</item>
+        <item>Росія -2</item>
+        <item>Griechisch</item>
+        <item>Türkei</item>
+        <item>Arab/Hbrw</item>
+        <item>Фарсі</item>
+        <item>Arabien</item>
+        <item>Weißrussisch</item>
+    </string-array>
+    <string-array name="pvr_tshift_schedule_type">
+        <item>Aufnahme</item>
+        <item>Erinnerung</item>
+    </string-array>
+    <string-array name="menu_setup_background_opacity_array">
+        <item>Твердого</item>
+        <item>Напівпрозорий</item>
+        <item>Прозорий</item>
+    </string-array>
+    <string-array name="menu_audio_type_array">
+        <item>Нормальний </item>
+        <item>Hörgeschädigt</item>
+        <item>Sehbehindert</item>
+    </string-array>
+    <string-array name="menu_setup_window_color_array">
+        <item>Schwarz</item>
+        <item>Weiß</item>
+        <item>Grün</item>
+        <item>Blau</item>
+        <item>Rot</item>
+        <item>Блакитний</item>
+        <item>Gelb</item>
+        <item>Пурпуровий</item>
+    </string-array>
+    <string-array name="menu_video_3d_mode_array">
+        <item>Aus</item>
+        <item>Automatikmodus</item>
+        <item>2D-zu-3D</item>
+        <item>Bildfolge</item>
+        <item>Seite-an-Seite</item>
+        <item>Oben-und-unten</item>
+        <item>REALD MODE</item>
+        <item>SENSIO</item>
+        <item>Schnittstelle Line</item>
+        <item>DOT ALT MODE</item>
+        <item>CHK BOARD</item>
+    </string-array>
+    <string-array name="menu_audio_visually_speaker_array">
+        <item>Aus</item>
+        <item>Ein</item>
+    </string-array>
+    <string-array name="menu_setup_auto_sleep_eu_array">
+        <item>Aus</item>
+        <item>4 Stunden</item>
+        <item>6 Stunden</item>
+        <item>8 Stunden</item>
+    </string-array>
+    <string-array name="menu_setup_my_network_place_array">
+        <item>Aus</item>
+        <item>Ein</item>
+    </string-array>
+    <string-array name="pvr_tshift_srctype">
+        <item>ТВ</item>
+        <item>Композитний</item>
+    </string-array>
+    <string-array name="menu_setup_us_timezone_array">
+        <item>Східноєвропейський час</item>
+        <item>Гаваї</item>
+        <item>Аляска</item>
+        <item>Тихоокеанський час</item>
+        <item>Арізона</item>
+        <item>Зона зимового часу в США</item>
+        <item>Центральний час в США</item>
+        <item>Індіана</item>
+    </string-array>
+    <string-array name="menu_setup_font_opacity_array">
+        <item>Твердого</item>
+        <item>Напівпрозорий</item>
+        <item>Прозорий</item>
+    </string-array>
+    <string-array name="menu_audio_pippop_mode_array">
+        <item>Aus</item>
+        <item>PIP </item>
+        <item>POP </item>
+    </string-array>
+    <string-array name="menu_factory_fm_saturation_mute_array">
+        <item>Aus</item>
+        <item>Ein</item>
+    </string-array>
+    <string-array name="menu_tv_color_system_array_eu_edit">
+        <item>Авто</item>
+        <item>NTSC</item>
+        <item>PAL</item>
+        <item>SECAM</item>
+    </string-array>
+    <string-array name="menu_factory_high_deviation_mode_array">
+        <item>Aus</item>
+        <item>Ein</item>
+    </string-array>
+    <string-array name="menu_video_3d_nav_array">
+        <item>manuell</item>
+        <item>Halbautomatisch</item>
+        <item>Авто</item>
+    </string-array>
+    <string-array name="menu_video_gamma_array">
+        <item>Dunkel</item>
+        <item>Mittel</item>
+        <item>Rechts</item>
+    </string-array>
+    <string-array name="menu_parental_age_ratings_array_eu">
+        <item>Keine</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+    </string-array>
+    <string-array name="menu_factory_setup_eu_uart_mode">
+        <item>Aus</item>
+        <item>Ein</item>
+    </string-array>
+    <string-array name="menu_audio_visually_headphone_array">
+        <item>Aus</item>
+        <item>Ein</item>
+    </string-array>
+    <string-array name="menu_video_vga_mode_array">
+        <item>Grafik</item>
+        <item>VIDEO</item>
+    </string-array>
+    <string-array name="menu_factory_setup_uart_mode">
+        <item>Aus</item>
+        <item>Ein</item>
+    </string-array>
+    <string-array name="menu_audio_srs_mode_array">
+        <item>Aus</item>
+        <item>Ein</item>
+    </string-array>
+    <string-array name="menu_setup_digital_teletext_language_array">
+        <item>Baskisch</item>
+        <item>Bulgarisch</item>
+        <item>Kantonesisch</item>
+        <item>Katalanisch</item>
+        <item>Kroatisch</item>
+        <item>Tschechien</item>
+        <item>Dänisch</item>
+        <item>Niederländisch</item>
+        <item>Englisch</item>
+        <item>Estnisch</item>
+        <item>Finnisch</item>
+        <item>Französisch</item>
+        <item>Gälisch</item>
+        <item>Irisch</item>
+        <item>Галісійська</item>
+        <item>DEUTSCH</item>
+        <item>Griechisch</item>
+        <item>Хінді</item>
+        <item>Ungarisch</item>
+        <item>Italienisch</item>
+        <item>Isländisch</item>
+        <item>Japanisch</item>
+        <item>Koreanisch</item>
+        <item>Мандарин</item>
+        <item>Майорка</item>
+        <item>Norwegisch</item>
+        <item>Polnisch</item>
+        <item>Portugiesisch</item>
+        <item>Rumänisch</item>
+        <item>Russisch</item>
+        <item>Sami</item>
+        <item>Serbisch</item>
+        <item>Slowakisch</item>
+        <item>Slowenisch</item>
+        <item>Spanisch</item>
+        <item>Schwedisch</item>
+        <item>Türkisch</item>
+        <item>Walisisch</item>
+        <item>Оригінальний звук</item>
+        <item>Розповідь</item>
+        <item>Nicht definiert</item>
+    </string-array>
+    <string-array name="menu_parental_age_ratings_array_eu_ocean_aus">
+        <item>Nicht blockiert</item>
+        <item>R und höher blockieren</item>
+        <item>AV und höher blockieren</item>
+        <item>MA und höher blockieren</item>
+        <item>M und höher blockieren</item>
+        <item>PG und höher blockieren</item>
+        <item>G und höher blockieren</item>
+        <item>Alle blockieren</item>
+    </string-array>
+    <string-array name="menu_setup_superimpose_setup_array">
+        <item>Aus</item>
+        <item>Мова1</item>
+        <item>Мова2</item>
+    </string-array>
+    <string-array name="menu_factory_audio_dolbybanner_array">
+        <item>Aus</item>
+        <item>Ein</item>
+    </string-array>
+    <string-array name="menu_video_black_bar_detection_array">
+        <item>Aus</item>
+        <item>Ein</item>
+    </string-array>
+    <string-array name="menu_setup_digital_caption_sa_array">
+        <item>Aus</item>
+        <item>Мова1</item>
+        <item>Мова2</item>
+        <item>Мова3</item>
+        <item>Мова4</item>
+        <item>Мова5</item>
+        <item>Мова6</item>
+        <item>Мова7</item>
+        <item>Мова8</item>
+    </string-array>
+    <string-array name="menu_tv_tuner_mode_array_full_eu_sat_only">
+        <item>Antenne</item>
+        <item>Kabel</item>
+        <item>Satellit</item>
+    </string-array>
+    <string-array name="menu_factory_setup_burning_mode">
+        <item>Aus</item>
+        <item>Ein</item>
+    </string-array>
+    <string-array name="menu_audio_bbe_mode_array">
+        <item>Aus</item>
+        <item>BBE</item>
+        <item>BBE Viva</item>
+    </string-array>
+    <string-array name="menu_tv_country_region_id_eu">
+        <item>Ідентифікатор регіону 1</item>
+        <item>Ідентифікатор регіону 2</item>
+    </string-array>
+    <string-array name="menu_video_dnr_array">
+        <item>Aus</item>
+        <item>Niedrig</item>
+        <item>Mittel </item>
+        <item>Stark</item>
+        <item>Авто</item>
+    </string-array>
+    <string-array name="menu_setup_subtitle_type_array">
+        <item>Нормальний </item>
+        <item>Hörgeschädigt</item>
+    </string-array>
+    <string-array name="menu_tv_fine_tune_array">
+        <item>Aus</item>
+        <item>Ein</item>
+    </string-array>
+    <string-array name="menu_parental_age_ratings_array">
+        <item>Keine</item>
+        <item>Unter 10</item>
+        <item>Below 12</item>
+        <item>Below 14</item>
+        <item>Below 16</item>
+        <item>Below 18</item>
+    </string-array>
+    <string-array name="menu_video_3d_lrswitch_array">
+        <item>Aus</item>
+        <item>Ein</item>
+    </string-array>
+    <string-array name="menu_factory_video_local_array">
+        <item>Aus</item>
+        <item>Ein</item>
+    </string-array>
+    <string-array name="menu_setup_power_on_timer_array">
+        <item>Aus</item>
+        <item>Ein</item>
+        <item>Einmal</item>
+    </string-array>
+    <string-array name="menu_tv_channel_listtype">
+        <item>Трансляція</item>
+        <item>CAM</item>
+    </string-array>
+    <string-array name="screen_mode_array_us_pop">
+        <item>Авто</item>
+        <item>Нормальний </item>
+        <item>Збільшити</item>
+    </string-array>
+    <string-array name="menu_audio_equalizer_array">
+        <item>Aus</item>
+        <item>Рок</item>
+        <item>POP </item>
+        <item>Трансляція</item>
+        <item>Tanz</item>
+        <item>Техно</item>
+        <item>Klassik</item>
+        <item>weich</item>
+    </string-array>
+    <string-array name="menu_setup_caption_style_array">
+        <item>Як телекомпанія</item>
+        <item>Користувацьких</item>
+    </string-array>
+    <string-array name="menu_setup_font_style_array">
+        <item>Stil1</item>
+        <item>Стіль2</item>
+        <item>Стіль3</item>
+        <item>Стіль4</item>
+        <item>Стіль5</item>
+        <item>Стіль6</item>
+        <item>Стіль7</item>
+    </string-array>
+    <string-array name="menu_tv_rf_signal_quality">
+        <item>Gut</item>
+        <item>Mittel </item>
+        <item>Schlecht</item>
+    </string-array>
+    <string-array name="menu_tv_sound_system_array">
+        <item>B/G</item>
+        <item>A2 B/G</item>
+        <item>L </item>
+        <item>L\'</item>
+        <item>Я </item>
+        <item>D/K</item>
+        <item>A2 D/K</item>
+        <item>A2 D/K1</item>
+        <item>A2 D/K2</item>
+    </string-array>
+    <string-array name="menu_video_luma_array">
+        <item>Aus</item>
+        <item>Niedrig</item>
+        <item>Mittel </item>
+        <item>Stark</item>
+    </string-array>
+    <string-array name="menu_factory_video_mirror_array">
+        <item>Aus</item>
+        <item>Ein</item>
+    </string-array>
+    <string-array name="pvr_tshift_repeat_type">
+        <item>Einmal</item>
+        <item>Тиждень</item>
+        <item>Täglich</item>
+    </string-array>
+    <string-array name="menu_factory_carrier_shift_function_array">
+        <item>Aus</item>
+        <item>Ein</item>
+    </string-array>
+    <string-array name="menu_setup_language_array">
+        <item>Englisch</item>
+        <item>Vereinfachtes Chinesisch</item>
+    </string-array>
+    <string-array name="menu_setup_blue_mute_array">
+        <item>Aus</item>
+        <item>Ein</item>
+    </string-array>
+    <string-array name="menu_setup_background_color_array">
+        <item>Schwarz</item>
+        <item>Weiß</item>
+        <item>Grün</item>
+        <item>Blau</item>
+        <item>Rot</item>
+        <item>Блакитний</item>
+        <item>Gelb</item>
+        <item>Пурпуровий</item>
+    </string-array>
+	<integer-array name="menu_setup_us_timezone_values">
+        <item>-5</item>
+        <item>-10</item>
+        <item>-9</item>
+        <item>-8</item>
+        <item>-7</item>
+        <item>-7</item>
+        <item>-6</item>
+        <item>-5</item>
+    </integer-array>
+    <integer-array name="menu_setup_timezone_value_array">
+        <item>-12</item>
+        <item>-11</item>
+        <item>-10</item>
+        <item>-9</item>
+        <item>-8</item>
+        <item>-7</item>
+        <item>-6</item>
+        <item>-5</item>
+        <item>-4</item>
+        <item>-350</item>
+        <item>-3</item>
+        <item>-2</item>
+        <item>-1</item>
+        <item>0</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>350</item>
+        <item>4</item>
+        <item>450</item>
+        <item>5</item>
+        <item>550</item>
+        <item>575</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>950</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>-1125</item>
+        <item>-11</item>
+    </integer-array>
+
+</resources>

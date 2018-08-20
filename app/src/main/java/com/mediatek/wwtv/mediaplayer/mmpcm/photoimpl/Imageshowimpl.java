@@ -250,6 +250,14 @@ public class Imageshowimpl implements IImageshow {
     return OrigiPhoto;
   }
 
+  public Bitmap resetRotate(Bitmap bitmap, int degree) {
+    cleanZoomMult();
+    setOrientation();
+    OrigiPhoto = processimage.Rotate(bitmap, new int[]{0, 0, -degree});
+
+    return OrigiPhoto;
+  }
+
   /**
    * Left rotate specified bitmap
    * @param Specified bitmap

@@ -1,0 +1,1084 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+    <string-array name="menu_setup_network_connection_array">
+        <item>Исклучено</item>
+        <item>Вклучено</item>
+    </string-array>
+    <string-array name="menu_tv_scan_mode_array">
+        <item>Auto</item>
+        <item>16QAM</item>
+        <item>32QAM</item>
+        <item>64QAM</item>
+        <item>128QAM</item>
+        <item>256QAM</item>
+    </string-array>
+    <string-array name="menu_setup_capturelogo_array">
+        <item>Стандардно</item>
+        <item>0</item>
+        <item>1</item>
+        <item>НИШТО</item>
+    </string-array>
+    <string-array name="menu_ci_not_support_channel">
+        <item>Не е овластено</item>
+    </string-array>
+    <string-array name="menu_video_mpeg_nr_array">
+        <item>Исклучено</item>
+        <item>Ниско</item>
+        <item>Средно</item>
+        <item>Силно</item>
+    </string-array>
+    <string-array name="menu_audio_spdif_mode_array">
+        <item>Исклучено</item>
+        <item>PCM RAW</item>
+        <item>PCM 16</item>
+        <item>PCM 24</item>
+    </string-array>
+    <string-array name="menu_setup_auto_synchronization_array">
+        <item>Исклучено</item>
+        <item>синх од Пренос</item>
+        <item>Синх од Мрежа</item>
+    </string-array>
+    <string-array name="menu_factory_setup_eventform">
+        <item>Два обрасца</item>
+        <item>Долг образец</item>
+        <item>Краток образец</item>
+    </string-array>
+    <string-array name="menu_tv_tv_system_array">
+        <item>Auto</item>
+        <item>B/G</item>
+        <item>A2 B/G</item>
+        <item>I</item>
+        <item>D/K</item>
+        <item>A2 D/K</item>
+        <item>A2 D/K1</item>
+        <item>A2 D/K2</item>
+        <item>M</item>
+    </string-array>
+    <string-array name="menu_setup_null_array">
+        <item></item>
+    </string-array>
+    <string-array name="menu_parental_block_channel_schedule_operation_array">
+        <item>НИШТО</item>
+        <item>Секојдневно</item>
+        <item>Еднаш</item>
+    </string-array>
+    <string-array name="menu_audio_downmixmode_eu_array">
+        <item>Опкружување</item>
+        <item>Стерео</item>
+        <item>Автоматско стерео</item>
+    </string-array>
+    <string-array name="menu_setup_time_shifting_mode_array">
+        <item>Исклучено</item>
+        <item>Вклучено</item>
+    </string-array>
+    <string-array name="screen_mode_array_us_pip_main_analog">
+        <item>Автоматски</item>
+        <item>Нормално</item>
+        <item>Стеснет екран</item>
+        <item>Зум</item>
+        <item>Точка по точка</item>
+    </string-array>
+    <string-array name="screen_mode_array_us_pip">
+        <item>Автоматски</item>
+        <item>Нормално</item>
+    </string-array>
+    <string-array name="menu_factory_audio_compressionfactor_array">
+        <item>Исклучено</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>40</item>
+        <item>50</item>
+        <item>60</item>
+        <item>70</item>
+        <item>80</item>
+        <item>90</item>
+        <item>100</item>
+    </string-array>
+    <string-array name="menu_video_3d_image_safety_array">
+        <item>Исклучено</item>
+        <item>Ниско</item>
+        <item>Средно</item>
+        <item>Високо</item>
+    </string-array>
+    <string-array name="menu_setup_record_quality_array">
+        <item>Ниско</item>
+        <item>Средно</item>
+        <item>Високо</item>
+    </string-array>
+    <string-array name="menu_tv_oceania_country_region">
+        <item>NSW/ACT</item>
+        <item>VIC</item>
+        <item>QLD</item>
+        <item>SA</item>
+        <item>WA</item>
+        <item>TAS</item>
+        <item>NT</item>
+    </string-array>
+    <string-array name="menu_setup_ginga_array">
+        <item>Исклучено</item>
+        <item>Вклучено</item>
+    </string-array>
+    <string-array name="menu_setup_dlna_array">
+        <item>Исклучено</item>
+        <item>Вклучено</item>
+    </string-array>
+    <string-array name="screen_mode_array_sa_pip">
+        <item>Автоматски</item>
+        <item>Нормално</item>
+        <item>Стеснет екран</item>
+    </string-array>
+    <string-array name="menu_video_flesh_tone_array">
+        <item>Исклучено</item>
+        <item>Вклучено</item>
+    </string-array>
+    <string-array name="screen_mode_array_eu_analog">
+        <item>Автоматски</item>
+        <item>Нормално</item>
+        <item>Стеснет екран</item>
+        <item>Панорама</item>
+    </string-array>
+    <string-array name="menu_parental_rating_enable_array">
+        <item>Исклучено</item>
+        <item>Вклучено</item>
+    </string-array>
+    <string-array name="menu_factory_video_diedge_array">
+        <item>Слабо</item>
+        <item>Силно</item>
+    </string-array>
+    <string-array name="menu_video_hdmi_mode_array">
+        <item>Автоматски</item>
+        <item>Графички</item>
+        <item>Видео</item>
+    </string-array>
+    <string-array name="menu_factory_video_xvycc_array">
+        <item>Исклучено</item>
+        <item>Вклучено</item>
+    </string-array>
+    <string-array name="menu_audio_spdif_mode_us_array">
+        <item>Исклучено</item>
+        <item>Dolby Digital</item>
+        <item>ПЦМ</item>
+    </string-array>
+    <string-array name="menu_tv_channeledit_array">
+        <item>Информации за канал</item>
+        <item>Стави</item>
+        <item>Избриши</item>
+        <item>Замена</item>
+    </string-array>
+    <string-array name="menu_setup_window_opacity_array">
+        <item>Цврсто</item>
+        <item>Делумно проѕирно</item>
+        <item>Проѕирно</item>
+    </string-array>
+    <string-array name="menu_scan_mode">
+        <item>Нанапред</item>
+        <item>Брзо</item>
+        <item>Полно</item>
+    </string-array>
+    <string-array name="menu_tv_audio_channel_array">
+        <item>Моно</item>
+        <item>Стерео</item>
+        <item>Dual1</item>
+        <item>Dual2</item>
+    </string-array>
+    <string-array name="menu_setup_scart">
+        <item>Автоматски</item>
+        <item>Мешано</item>
+        <item>RGB</item>
+        <item>CVBS</item>
+        <item>S-Video</item>
+    </string-array>
+    <string-array name="menu_video_di_film_mode_array">
+        <item>Исклучено</item>
+        <item>Автоматски</item>
+    </string-array>
+    <string-array name="menu_factory_video_colortemperature_array">
+        <item>Корисник</item>
+        <item>Ладно</item>
+        <item>Стандардно</item>
+        <item>Топло</item>
+    </string-array>
+    <string-array name="menu_tv_scan_frequency_plan_array">
+        <item>STD</item>
+        <item>IRC</item>
+        <item>HRC</item>
+    </string-array>
+    <string-array name="menu_setup_timezone_name_array">
+        <item>Азија/Магадан</item>
+        <item>Пацифик/ Мидвеј</item>
+        <item>Пацифик/Хонолулу</item>
+        <item>Америка/Анкориџ</item>
+        <item>Америка/Анкориџ</item>
+        <item>Америка/Лос_Анѓелес</item>
+        <item>Америка/Чихуахуа</item>
+        <item>Америка/Чикаго</item>
+        <item>Америка/Манаус</item>
+        <item>Америка/Св_Џон</item>
+        <item>Америка/Св_Џон</item>
+        <item>Америка/Готаб</item>
+        <item>Атлантик/Капе_Верде</item>
+        <item>Како што се емитува</item>
+        <item>Африка/Казабланка</item>
+        <item>Европа/Лондон</item>
+        <item>Африка/Хараре</item>
+        <item>Азија/Аман</item>
+        <item>Азија/Аман</item>
+        <item>Европа/Москва</item>
+        <item>Азија/Техеран</item>
+        <item>Азија/Ереван</item>
+        <item>Азија/Коломбо</item>
+        <item>Азија/Катманду</item>
+        <item>Азија/Алмати</item>
+        <item>Азија/Банкок</item>
+        <item>Азија/Хонг_Конг</item>
+        <item>Азија/Токио</item>
+        <item>Австралија/Аделаида</item>
+        <item>Азија/Јакутск</item>
+        <item>Азија/Владивосток</item>
+        <item>Азија/Владивосток</item>
+        <item>Пацифик/Фиџи</item>
+        <item>Пацифик/Тонгатапу</item>
+    </string-array>
+    <string-array name="menu_tv_channel_bl_type">
+        <item>НИШТО</item>
+        <item>Секој ден</item>
+        <item>Недела</item>
+        <item>Понеделник</item>
+        <item>Вторник</item>
+        <item>Среда</item>
+        <item>Четврток</item>
+        <item>Петок</item>
+        <item>Сабота</item>
+    </string-array>
+    <string-array name="menu_setup_timezone_array">
+        <item>GMT-12:00</item>
+        <item>GMT-11:00</item>
+        <item>GMT-10:00</item>
+        <item>GMT-9:00</item>
+        <item>GMT-8:00</item>
+        <item>GMT-7:00</item>
+        <item>GMT-6:00</item>
+        <item>GMT-5:00</item>
+        <item>GMT-4:00</item>
+        <item>GMT-3:30</item>
+        <item>GMT-3:00</item>
+        <item>GMT-2:00</item>
+        <item>GMT-1:00</item>
+        <item>Како што се емитува</item>
+        <item>GMT+0:00</item>
+        <item>GMT+1:00</item>
+        <item>GMT+2:00</item>
+        <item>GMT+3:00</item>
+        <item>GMT+3:30</item>
+        <item>GMT+4:00</item>
+        <item>GMT+4:30</item>
+        <item>GMT+5:00</item>
+        <item>GMT+5:30</item>
+        <item>GMT+5:45</item>
+        <item>GMT+6:00</item>
+        <item>GMT+6:30</item>
+        <item>GMT+7:00</item>
+        <item>GMT+8:00</item>
+        <item>GMT+9:00</item>
+        <item>GMT+9:30</item>
+        <item>GMT+10:00</item>
+        <item>GMT+11:00</item>
+        <item>GMT+12:00</item>
+        <item>GMT+12:45</item>
+        <item>GMT+13:00</item>
+    </string-array>
+    <string-array name="menu_tv_tuner_mode_array">
+        <item>Антена</item>
+        <item>Кабел</item>
+    </string-array>
+    <string-array name="menu_audio_equalizer_array_us">
+        <item>Исклучено</item>
+        <item>Рок</item>
+        <item>POP</item>
+        <item>Во живо</item>
+        <item>Денс</item>
+        <item>Техно</item>
+        <item>Класика</item>
+        <item>Меко</item>
+        <item>Прилагодено1</item>
+        <item>Прилагодено2</item>
+        <item>Прилагодено3</item>
+    </string-array>
+    <string-array name="menu_setup_sleep_timer_array">
+        <item>Исклучено</item>
+        <item>10минути</item>
+        <item>20 минути</item>
+        <item>30минути</item>
+        <item>40 минути</item>
+        <item>50 минути</item>
+        <item>60 минути</item>
+        <item>90 минути</item>
+        <item>120 минути</item>
+    </string-array>
+    <string-array name="menu_tv_us_scan_mode_array">
+        <item>Analog/Digital</item>
+        <item>Analog</item>
+        <item>Digital</item>
+    </string-array>
+    <string-array name="screen_mode_array_sa_pop">
+        <item>Автоматски</item>
+        <item>Нормално</item>
+        <item>Стеснет екран</item>
+        <item>Зум</item>
+    </string-array>
+    <string-array name="screen_mode_array_us_dtv">
+        <item>Автоматски</item>
+        <item>Нормално</item>
+        <item>Стеснет екран</item>
+        <item>Панорама</item>
+        <item>Зум</item>
+        <item>Точка по точка</item>
+    </string-array>
+    <string-array name="menu_tv_audio_language_eu_array">
+        <item>англиски</item>
+        <item>Естонски</item>
+        <item>фински</item>
+        <item>Француски</item>
+        <item>Gaelic</item>
+        <item>ирски</item>
+        <item>Галски</item>
+        <item>Германски</item>
+        <item>грчки</item>
+        <item>Хинди</item>
+        <item>унгарски</item>
+        <item>Италијански</item>
+        <item>Исландски</item>
+        <item>Јапонски</item>
+        <item>Корејски</item>
+        <item>Мандарински</item>
+        <item>маорски</item>
+        <item>Норвешки</item>
+        <item>полски</item>
+        <item>Португалски</item>
+        <item>романски</item>
+        <item>Русија</item>
+        <item>Лапонски</item>
+        <item>српски</item>
+        <item>Словачка</item>
+        <item>словенечки</item>
+        <item>Шпански</item>
+        <item>шведски</item>
+        <item>Турски</item>
+        <item>ВЕЛШКИ</item>
+        <item>Оригинално аудио</item>
+        <item>Нарација</item>
+        <item>Недефинирано</item>
+        <item>Баскиски</item>
+        <item>бугарски</item>
+        <item>Кантонски</item>
+        <item>Каталонски</item>
+        <item>хрватски</item>
+        <item>Чешка</item>
+        <item>дански</item>
+        <item>Холандски</item>
+    </string-array>
+    <string-array name="menu_setup_atv_record_mode_array">
+        <item>Исклучено</item>
+        <item>Вклучено</item>
+    </string-array>
+    <string-array name="screen_mode_array_us_pip_sub">
+        <item>Автоматски</item>
+        <item>Нормално</item>
+        <item>Стеснет екран</item>
+    </string-array>
+    <string-array name="menu_parental_content_ratings_array">
+        <item>Исклучено</item>
+        <item>Дроги</item>
+        <item>Насилство</item>
+        <item>Пол</item>
+        <item>Насилство и дроги</item>
+        <item>Секс и дроги</item>
+        <item>Насилство и секс</item>
+        <item>Насилство и секс и дроги</item>
+    </string-array>
+    <string-array name="menu_video_3d_3t2switch_array">
+        <item>Исклучено</item>
+        <item>Вклучено</item>
+    </string-array>
+    <string-array name="menu_setup_oad_auto_download_array">
+        <item>Не</item>
+        <item>Да</item>
+    </string-array>
+    <string-array name="menu_setup_digital_caption_array">
+        <item>Исклучено</item>
+        <item>Service1</item>
+        <item>Service2</item>
+        <item>Service3</item>
+        <item>Service4</item>
+        <item>Service5</item>
+        <item>Service6</item>
+    </string-array>
+    <string-array name="menu_video_game_mode_array">
+        <item>Исклучено</item>
+        <item>Вклучено</item>
+    </string-array>
+    <string-array name="screen_mode_array_sa">
+        <item>Автоматски</item>
+        <item>Нормално</item>
+        <item>Зум</item>
+    </string-array>
+    <string-array name="menu_parental_open_vchip_array">
+        <item>Исклучено</item>
+        <item>Вклучено</item>
+    </string-array>
+    <string-array name="menu_setup_us_timezone_str">
+        <item>Америка/Њујорк</item>
+        <item>Пацифик/Хонолулу</item>
+        <item>Америка/Анкориџ</item>
+        <item>Америка/Лос_Анѓелес</item>
+        <item>Америка/Феникс</item>
+        <item>Америка/Денвер</item>
+        <item>Америка/Чикаго</item>
+        <item>Америка/Њујорк</item>
+    </string-array>
+    <string-array name="menu_setup_power_off_timer_array">
+        <item>Исклучено</item>
+        <item>Вклучено</item>
+        <item>Еднаш</item>
+    </string-array>
+    <string-array name="menu_video_color_temperature2_array">
+        <item>Ладно</item>
+        <item>Стандардно</item>
+        <item>Топло</item>
+    </string-array>
+    <string-array name="menu_video_pq_split_mode_array">
+        <item>Исклучено</item>
+        <item>Вклучено</item>
+    </string-array>
+    <string-array name="menu_setup_dpms_array">
+        <item>Исклучено</item>
+        <item>Вклучено</item>
+    </string-array>
+    <string-array name="menu_parental_block_unrated_array">
+        <item>Исклучено</item>
+        <item>Вклучено</item>
+    </string-array>
+    <string-array name="menu_audio_speaker_mode_array">
+        <item>Исклучено</item>
+        <item>Вклучено</item>
+    </string-array>
+    <string-array name="menu_setup_ttx_presentation_level_array">
+        <item>Ниво 1,5</item>
+        <item>Ниво 2,5</item>
+    </string-array>
+    <string-array name="menu_setup_font_size_array">
+        <item>Мало</item>
+        <item>Средно</item>
+        <item>Голема</item>
+    </string-array>
+    <string-array name="menu_setup_fast_boot_array">
+        <item>Исклучено</item>
+        <item>Вклучено</item>
+    </string-array>
+    <string-array name="menu_tv_tshift_config_array">
+        <item>Исклучено</item>
+        <item>Вклучено</item>
+    </string-array>
+    <string-array name="menu_tv_subtitle_language_eu_array">
+        <item>Баскиски</item>
+        <item>бугарски</item>
+        <item>Кантонски</item>
+        <item>Каталонски</item>
+        <item>хрватски</item>
+        <item>Чешка</item>
+        <item>дански</item>
+        <item>Холандски</item>
+        <item>англиски</item>
+        <item>Естонски</item>
+        <item>фински</item>
+        <item>Француски</item>
+        <item>Gaelic</item>
+        <item>ирски</item>
+        <item>Галски</item>
+        <item>Германски</item>
+        <item>грчки</item>
+        <item>Хинди</item>
+        <item>унгарски</item>
+        <item>Италијански</item>
+        <item>Исландски</item>
+        <item>Јапонски</item>
+        <item>Корејски</item>
+        <item>Мандарински</item>
+        <item>маорски</item>
+        <item>Норвешки</item>
+        <item>полски</item>
+        <item>Португалски</item>
+        <item>романски</item>
+        <item>Русија</item>
+        <item>Лапонски</item>
+        <item>српски</item>
+        <item>Словачка</item>
+        <item>словенечки</item>
+        <item>Шпански</item>
+        <item>шведски</item>
+        <item>Турски</item>
+        <item>ВЕЛШКИ</item>
+        <item>Оригинално аудио</item>
+        <item>Нарација</item>
+        <item>Недефинирано</item>
+        <item>Исклучено</item>
+    </string-array>
+    <string-array name="menu_tv_fa_dataservice_array">
+        <item>Исклучено</item>
+        <item>Вклучено</item>
+    </string-array>
+    <string-array name="menu_tv_tuner_mode_array_full_eu">
+        <item>Антена</item>
+        <item>Кабел</item>
+        <item>@string/dvbs_preferred_satellite</item>
+        <item>@string/dvbs_general_satellite</item>
+    </string-array>
+    <string-array name="menu_video_super_resolution_array">
+        <item>Исклучено</item>
+        <item>Вклучено</item>
+    </string-array>
+    <string-array name="menu_cec_on_off">
+        <item>Исклучено</item>
+        <item>Вклучено</item>
+    </string-array>
+    <string-array name="menu_tv_mdu_type_array">
+        <item>Universal</item>
+        <item>MDU 1</item>
+        <item>MDU 2</item>
+        <item>MDU 3</item>
+        <item>MDU 4</item>
+        <item>MDU 5</item>
+    </string-array>
+    <string-array name="menu_factory_video_wcg_array">
+        <item>Исклучено</item>
+        <item>Вклучено</item>
+    </string-array>
+    <string-array name="menu_tv_audio_language_array">
+        <item>англиски</item>
+        <item>Шпански</item>
+        <item>Француски</item>
+    </string-array>
+    <string-array name="menu_setup_tv_single_signal_quality">
+        <item>Слабо</item>
+        <item>Нормално</item>
+        <item>Добро</item>
+    </string-array>
+    <string-array name="menu_tv_freeze_channel_array">
+        <item>Исклучено</item>
+        <item>Вклучено</item>
+    </string-array>
+    <string-array name="menu_setup_address_type_array">
+        <item>Автоматски</item>
+        <item>рачно</item>
+    </string-array>
+    <string-array name="menu_setup_analog_caption_array">
+        <item>Исклучено</item>
+        <item>CC1</item>
+        <item>CC2</item>
+        <item>CC3</item>
+        <item>CC4</item>
+        <item>ТЕКСТ1</item>
+        <item>ТЕКСТ2</item>
+        <item>ТЕКСТ3</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="menu_setup_power_on_channel_mode_array">
+        <item>Последен Статус</item>
+        <item>Избрано од корисник</item>
+    </string-array>
+    <string-array name="pvr_tshift_channel_temp_list">
+        <item>CH41</item>
+        <item>CH42</item>
+        <item>CH43</item>
+        <item>CH44</item>
+    </string-array>
+    <string-array name="menu_audio_avc_mode_array">
+        <item>Исклучено</item>
+        <item>Вклучено</item>
+    </string-array>
+    <string-array name="menu_factory_autovedio_array">
+        <item>Исклучено</item>
+        <item>Вклучено</item>
+    </string-array>
+    <string-array name="menu_tv_scan_modulation_array">
+        <item>QAM64</item>
+        <item>QAM256</item>
+    </string-array>
+    <string-array name="menu_setup_enable_caption_array">
+        <item>Да</item>
+        <item>Не</item>
+        <item>Вклучено нечујно</item>
+    </string-array>
+    <string-array name="menu_video_blue_stretch_array">
+        <item>Исклучено</item>
+        <item>Вклучено</item>
+    </string-array>
+    <string-array name="menu_tv_skip_ch_array">
+        <item>Исклучено</item>
+        <item>Вклучено</item>
+    </string-array>
+    <string-array name="screen_mode_array_sa_analog">
+        <item>Автоматски</item>
+        <item>Нормално</item>
+        <item>Стеснет екран</item>
+        <item>Панорама</item>
+        <item>Зум</item>
+        <item>Точка по точка</item>
+    </string-array>
+    <string-array name="screen_mode_array_vga">
+        <item>Нормално</item>
+        <item>Стеснет екран</item>
+        <item>Зум</item>
+    </string-array>
+    <string-array name="menu_factory_audio_system_test_array">
+        <item>Исклучено</item>
+        <item>Вклучено</item>
+    </string-array>
+    <string-array name="menu_setup_poweron_music_array">
+        <item>Исклучено</item>
+        <item>Вклучено</item>
+    </string-array>
+    <string-array name="menu_factory_auto_dima_array">
+        <item>Бавна слика</item>
+        <item>Акциона слика</item>
+    </string-array>
+    <string-array name="menu_tv_audio_channel_mts_array">
+        <item>Моно</item>
+        <item>Стерео</item>
+        <item>SAP</item>
+    </string-array>
+    <string-array name="menu_video_mjc_mode">
+        <item>Нормално</item>
+        <item>Само филм</item>
+        <item>Само Антизамаглување</item>
+    </string-array>
+    <string-array name="menu_setup_auto_sleep_array">
+        <item>Исклучено</item>
+        <item>1 час</item>
+        <item>2 часа</item>
+        <item>5 часа</item>
+    </string-array>
+    <string-array name="menu_video_mjc_effect_array">
+        <item>Исклучено</item>
+        <item>Ниско</item>
+        <item>Средно</item>
+        <item>Високо</item>
+    </string-array>
+    <string-array name="menu_audio_downmixmode_array">
+        <item>Стерео</item>
+        <item>Автоматско стерео</item>
+        <item>Опкружување</item>
+    </string-array>
+    <string-array name="menu_factory_audio_compression_array">
+        <item>Линија</item>
+        <item>RF</item>
+    </string-array>
+    <string-array name="menu_video_mjc_demo_partition_array">
+        <item>Сите</item>
+        <item>ДЕСНО</item>
+        <item>Лево</item>
+    </string-array>
+    <string-array name="menu_tv_color_system_array">
+        <item>Auto</item>
+        <item>PAL</item>
+        <item>SECAM</item>
+        <item>NTSC</item>
+    </string-array>
+    <string-array name="menu_video_flesh_tone_us_array">
+        <item>Исклучено</item>
+        <item>Ниско</item>
+        <item>Средно</item>
+        <item>Високо</item>
+    </string-array>
+    <string-array name="menu_setup_msi_array">
+        <item>Исклучено</item>
+        <item>Вклучено</item>
+    </string-array>
+    <string-array name="menu_factory_video_flip_array">
+        <item>Исклучено</item>
+        <item>Вклучено</item>
+    </string-array>
+    <string-array name="menu_setup_analog_subtitle_array">
+        <item>Исклучено</item>
+        <item>Вклучено</item>
+        <item>Исклучи звук</item>
+    </string-array>
+    <string-array name="menu_setup_font_color_array">
+        <item>Црна</item>
+        <item>Бела</item>
+        <item>Зелена</item>
+        <item>Сина</item>
+        <item>Црвена</item>
+        <item>Цијан</item>
+        <item>Жолто</item>
+        <item>Магента</item>
+    </string-array>
+    <string-array name="menu_setup_decoding_page_language_array">
+        <item>ЗАПАДНА ЕВР</item>
+        <item>ИСТОЧНА ЕВР</item>
+        <item>Русија</item>
+        <item>RUSSIA_2</item>
+        <item>грчки</item>
+        <item>Турција</item>
+        <item>Арап/Евр</item>
+        <item>Фарси</item>
+        <item>арапски</item>
+        <item>БЕЛОРУСКИ</item>
+    </string-array>
+    <string-array name="pvr_tshift_schedule_type">
+        <item>Снимање</item>
+        <item>Потсетник</item>
+    </string-array>
+    <string-array name="menu_setup_background_opacity_array">
+        <item>Цврсто</item>
+        <item>Делумно проѕирно</item>
+        <item>Проѕирно</item>
+    </string-array>
+    <string-array name="menu_audio_type_array">
+        <item>Нормално</item>
+        <item>Лица со оштетен слух</item>
+        <item>Со нарушен вид</item>
+    </string-array>
+    <string-array name="menu_setup_window_color_array">
+        <item>Црна</item>
+        <item>Бела</item>
+        <item>Зелена</item>
+        <item>Сина</item>
+        <item>Црвена</item>
+        <item>Цијан</item>
+        <item>Жолто</item>
+        <item>Магента</item>
+    </string-array>
+    <string-array name="menu_video_3d_mode_array">
+        <item>Исклучено</item>
+        <item>Автоматски режим</item>
+        <item>2D-до-3D</item>
+        <item>Редослед на рамка</item>
+        <item>Едно до друго</item>
+        <item>Горе и долу</item>
+        <item>REALD MODE</item>
+        <item>SENSIO</item>
+        <item>Преплетување на линија</item>
+        <item>DOT ALT MODE</item>
+        <item>CHK BOARD</item>
+    </string-array>
+    <string-array name="menu_audio_visually_speaker_array">
+        <item>Исклучено</item>
+        <item>Вклучено</item>
+    </string-array>
+    <string-array name="menu_setup_auto_sleep_eu_array">
+        <item>Исклучено</item>
+        <item>4 часа</item>
+        <item>6 часа</item>
+        <item>8 часа</item>
+    </string-array>
+    <string-array name="menu_setup_my_network_place_array">
+        <item>Исклучено</item>
+        <item>Вклучено</item>
+    </string-array>
+    <string-array name="pvr_tshift_srctype">
+        <item>ТВ</item>
+        <item>Композитен</item>
+    </string-array>
+    <string-array name="menu_setup_us_timezone_array">
+        <item>Источно време</item>
+        <item>Хаваи</item>
+        <item>Аљаска</item>
+        <item>Пацифичко време</item>
+        <item>Аризона</item>
+        <item>Планинско време</item>
+        <item>Централно време</item>
+        <item>Индијана</item>
+    </string-array>
+    <string-array name="menu_setup_font_opacity_array">
+        <item>Цврсто</item>
+        <item>Делумно проѕирно</item>
+        <item>Проѕирно</item>
+    </string-array>
+    <string-array name="menu_audio_pippop_mode_array">
+        <item>Исклучено</item>
+        <item>PIP</item>
+        <item>POP</item>
+    </string-array>
+    <string-array name="menu_factory_fm_saturation_mute_array">
+        <item>Исклучено</item>
+        <item>Вклучено</item>
+    </string-array>
+    <string-array name="menu_tv_color_system_array_eu_edit">
+        <item>Auto</item>
+        <item>NTSC</item>
+        <item>PAL</item>
+        <item>SECAM</item>
+    </string-array>
+    <string-array name="menu_factory_high_deviation_mode_array">
+        <item>Исклучено</item>
+        <item>Вклучено</item>
+    </string-array>
+    <string-array name="menu_video_3d_nav_array">
+        <item>рачно</item>
+        <item>Полуавтоматски</item>
+        <item>Автоматски</item>
+    </string-array>
+    <string-array name="menu_video_gamma_array">
+        <item>Темно</item>
+        <item>Средно</item>
+        <item>Десно</item>
+    </string-array>
+    <string-array name="menu_parental_age_ratings_array_eu">
+        <item>НИШТО</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+    </string-array>
+    <string-array name="menu_factory_setup_eu_uart_mode">
+        <item>Исклучено</item>
+        <item>Вклучено</item>
+    </string-array>
+    <string-array name="menu_audio_visually_headphone_array">
+        <item>Исклучено</item>
+        <item>Вклучено</item>
+    </string-array>
+    <string-array name="menu_video_vga_mode_array">
+        <item>Графички</item>
+        <item>Видео</item>
+    </string-array>
+    <string-array name="menu_factory_setup_uart_mode">
+        <item>Исклучено</item>
+        <item>Вклучено</item>
+    </string-array>
+    <string-array name="menu_audio_srs_mode_array">
+        <item>Исклучено</item>
+        <item>Вклучено</item>
+    </string-array>
+    <string-array name="menu_setup_digital_teletext_language_array">
+        <item>Баскиски</item>
+        <item>бугарски</item>
+        <item>Кантонски</item>
+        <item>Каталонски</item>
+        <item>хрватски</item>
+        <item>Чешка</item>
+        <item>дански</item>
+        <item>Холандски</item>
+        <item>англиски</item>
+        <item>Естонски</item>
+        <item>фински</item>
+        <item>Француски</item>
+        <item>Gaelic</item>
+        <item>ирски</item>
+        <item>Галски</item>
+        <item>Германски</item>
+        <item>грчки</item>
+        <item>Хинди</item>
+        <item>унгарски</item>
+        <item>Италијански</item>
+        <item>Исландски</item>
+        <item>Јапонски</item>
+        <item>Корејски</item>
+        <item>Мандарински</item>
+        <item>маорски</item>
+        <item>Норвешки</item>
+        <item>полски</item>
+        <item>Португалски</item>
+        <item>романски</item>
+        <item>Русија</item>
+        <item>Лапонски</item>
+        <item>српски</item>
+        <item>Словачка</item>
+        <item>словенечки</item>
+        <item>Шпански</item>
+        <item>шведски</item>
+        <item>Турски</item>
+        <item>Welsh</item>
+        <item>Оригинално аудио</item>
+        <item>Нарација</item>
+        <item>Недефинирано</item>
+    </string-array>
+    <string-array name="menu_parental_age_ratings_array_eu_ocean_aus">
+        <item>Нема блокирање</item>
+        <item>Блокирај R и нагоре</item>
+        <item>Блокирај AV и нагоре</item>
+        <item>Блокирај MA и нагоре</item>
+        <item>Блокирај M и нагоре</item>
+        <item>Блокирај PG и нагоре</item>
+        <item>Блокирај G и нагоре</item>
+        <item>Блокирај ги сите</item>
+    </string-array>
+    <string-array name="menu_setup_superimpose_setup_array">
+        <item>Исклучено</item>
+        <item>Јазик1</item>
+        <item>Јазик2</item>
+    </string-array>
+    <string-array name="menu_factory_audio_dolbybanner_array">
+        <item>Исклучено</item>
+        <item>Вклучено</item>
+    </string-array>
+    <string-array name="menu_video_black_bar_detection_array">
+        <item>Исклучено</item>
+        <item>Вклучено</item>
+    </string-array>
+    <string-array name="menu_setup_digital_caption_sa_array">
+        <item>Исклучено</item>
+        <item>Јазик1</item>
+        <item>Јазик2</item>
+        <item>Јазик3</item>
+        <item>Јазик4</item>
+        <item>Јазик5</item>
+        <item>Јазик6</item>
+        <item>Јазик7</item>
+        <item>Јазик8</item>
+    </string-array>
+    <string-array name="menu_tv_tuner_mode_array_full_eu_sat_only">
+        <item>Антена</item>
+        <item>Кабел</item>
+        <item>Сателит</item>
+    </string-array>
+    <string-array name="menu_factory_setup_burning_mode">
+        <item>Исклучено</item>
+        <item>Вклучено</item>
+    </string-array>
+    <string-array name="menu_audio_bbe_mode_array">
+        <item>Исклучено</item>
+        <item>BBE</item>
+        <item>BBE Viva</item>
+    </string-array>
+    <string-array name="menu_tv_country_region_id_eu">
+        <item>ИД 1 на регион на земја</item>
+        <item>ИД 2 на регион на земја</item>
+    </string-array>
+    <string-array name="menu_video_dnr_array">
+        <item>Исклучено</item>
+        <item>Ниско</item>
+        <item>Средно</item>
+        <item>Силно</item>
+        <item>Автоматски</item>
+    </string-array>
+    <string-array name="menu_setup_subtitle_type_array">
+        <item>Нормално</item>
+        <item>Лица со оштетен слух</item>
+    </string-array>
+    <string-array name="menu_tv_fine_tune_array">
+        <item>Исклучено</item>
+        <item>Вклучено</item>
+    </string-array>
+    <string-array name="menu_parental_age_ratings_array">
+        <item>НИШТО</item>
+        <item>Под 10</item>
+        <item>Под 12</item>
+        <item>Под 14</item>
+        <item>Под 16</item>
+        <item>Под 18</item>
+    </string-array>
+    <string-array name="menu_video_3d_lrswitch_array">
+        <item>Исклучено</item>
+        <item>Вклучено</item>
+    </string-array>
+    <string-array name="menu_factory_video_local_array">
+        <item>Исклучено</item>
+        <item>Вклучено</item>
+    </string-array>
+    <string-array name="menu_setup_power_on_timer_array">
+        <item>Исклучено</item>
+        <item>Вклучено</item>
+        <item>Еднаш</item>
+    </string-array>
+    <string-array name="menu_tv_channel_listtype">
+        <item>Емитува</item>
+        <item>CAM</item>
+    </string-array>
+    <string-array name="screen_mode_array_us_pop">
+        <item>Автоматски</item>
+        <item>Нормално</item>
+        <item>Зум</item>
+    </string-array>
+    <string-array name="menu_audio_equalizer_array">
+        <item>Исклучено</item>
+        <item>Рок</item>
+        <item>POP</item>
+        <item>Во живо</item>
+        <item>Денс</item>
+        <item>Техно</item>
+        <item>Класика</item>
+        <item>Меко</item>
+    </string-array>
+    <string-array name="menu_setup_caption_style_array">
+        <item>Како емитувач</item>
+        <item>Прилагодено</item>
+    </string-array>
+    <string-array name="menu_setup_font_style_array">
+        <item>Стил1</item>
+        <item>Стил2</item>
+        <item>Стил3</item>
+        <item>Стил4</item>
+        <item>Стил5</item>
+        <item>Стил6</item>
+        <item>Стил7</item>
+    </string-array>
+    <string-array name="menu_tv_rf_signal_quality">
+        <item>Добро</item>
+        <item>Средно</item>
+        <item>Слабо</item>
+    </string-array>
+    <string-array name="menu_tv_sound_system_array">
+        <item>B/G</item>
+        <item>A2 B/G</item>
+        <item>L</item>
+        <item>L\'</item>
+        <item>I</item>
+        <item>D/K</item>
+        <item>A2 D/K</item>
+        <item>A2 D/K1</item>
+        <item>A2 D/K2</item>
+    </string-array>
+    <string-array name="menu_video_luma_array">
+        <item>Исклучено</item>
+        <item>Ниско</item>
+        <item>Средно</item>
+        <item>Силно</item>
+    </string-array>
+    <string-array name="menu_factory_video_mirror_array">
+        <item>Исклучено</item>
+        <item>Вклучено</item>
+    </string-array>
+    <string-array name="pvr_tshift_repeat_type">
+        <item>Еднаш</item>
+        <item>Недела</item>
+        <item>Секојдневно</item>
+    </string-array>
+    <string-array name="menu_factory_carrier_shift_function_array">
+        <item>Исклучено</item>
+        <item>Вклучено</item>
+    </string-array>
+    <string-array name="menu_setup_language_array">
+        <item>англиски</item>
+        <item>Едноставен Кинески</item>
+    </string-array>
+    <string-array name="menu_setup_blue_mute_array">
+        <item>Исклучено</item>
+        <item>Вклучено</item>
+    </string-array>
+    <string-array name="menu_setup_background_color_array">
+        <item>Црна</item>
+        <item>Бела</item>
+        <item>Зелена</item>
+        <item>Сина</item>
+        <item>Црвена</item>
+        <item>Цијан</item>
+        <item>Жолто</item>
+        <item>Магента</item>
+    </string-array>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">נגן מדיה</string>
+    <string name="video_info_dialog_format">עיצוב:</string>
+    <string name="video_info_dialog_resolution">החלטה:</string>
+    <string name="video_info_dialog_subtitle">כתוביות</string>
+    <string name="mmp_info_nolrc">לא לירית</string>
+    <string name="mmp_photo">תמונה</string>
+    <string name="mmp_audio">מוסיקה</string>
+    <string name="mmp_video">סרט</string>
+</resources>
